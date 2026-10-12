@@ -35,6 +35,8 @@ jobs:
           OPENAI_BASE_URL: ${{ vars.RADAR_MODEL_BASE_URL }}
           OPENAI_MODEL: ${{ vars.RADAR_MODEL_NAME }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+          RADAR_CONTACT_EMAIL: ${{ vars.RADAR_CONTACT_EMAIL }}
         run: python main.py
       - name: Commit public archive (without credentials)
         run: |

@@ -1,19 +1,165 @@
+import json
 import unittest
-from main import make_item, normalize_link, rule_enrich, esc
+from datetime import timedelta
+from unittest.mock import patch
+
+from main import (
+    make_item, normalize_link, rule_enrich, esc, utc_now, months_ago,
+    date_in_window, crossref_date, openalex_abstract, identity_key,
+    deduplicate_items, fetch_arxiv_api, fetch_openalex, fetch_crossref, render_html, get_focus
+)
+
+class FakeResponse:
+    def __init__(self, data=None, body=None):
+        self._data = data
+        self.content = body or b''
+    def raise_for_status(self):
+        pass
+    def json(self):
+        return self._data
 
 class RadarTests(unittest.TestCase):
     def test_normalize_url(self):
         self.assertEqual(normalize_link('https://example.org/a/#f'), 'https://example.org/a')
 
     def test_classify_brain(self):
-        item = make_item('Agentic VLN navigation', 'https://example.org/a', 'arXiv', '论文（摘要）',
-                         'vision-language models call skills for robot navigation')
+        item = make_item('Agentic VLN navigation', 'https://example.org/a', 'arXiv',
+                         '论文（摘要）', 'vision-language models call skills for robot navigation')
         classified = rule_enrich(item)
         self.assertIsNotNone(classified)
         self.assertIn('大脑与具身智能', classified['tags'])
 
     def test_html_escape(self):
         self.assertEqual(esc('<script>'), '&lt;script&gt;')
+
+    def test_six_calendar_months(self):
+        dt = months_ago(6)
+        self.assertEqual(dt.hour, 0)
+        self.assertEqual(dt.minute, 0)
+        self.assertTrue(179 <= (utc_now() - dt).days <= 186)
+
+    def test_crossref_published_date(self):
+        w = {'published-online': {'date-parts': [[2026, 9, 15]]}}
+        self.assertEqual(crossref_date(w), '2026-09-15')
+
+    def test_abstract_inverted_index(self):
+        self.assertEqual(openalex_abstract({'robot': [0], 'navigation': [1]}), 'robot navigation')
+
+    def test_deduplicate_by_title(self):
+        x = make_item('Learning Robot Navigation!', 'https://arxiv.org/abs/1234',
+                      'arXiv API', '论文（摘要）', 'robot navigation models')
+        y = make_item('Learning Robot Navigation', 'https://doi.org/10.123/a',
+                      'OpenAlex', '论文（摘要）', 'robot navigation models with language and memory')
+        out = deduplicate_items([x, y])
+        self.assertEqual(len(out), 1)
+        self.assertIn('memory', out[0]['description'])
+
+    @patch('requests.get')
+    def test_arxiv_api_parse(self, mock_get):
+        body = b'''<?xml version="1.0"?><feed xmlns="http://www.w3.org/2005/Atom">
+          <entry><id>https://arxiv.org/abs/2609.00123</id><title>Robot navigation</title>
+          <summary>Vision language robot agent</summary><published>2026-09-10T00:00:00Z</published></entry>
+          </feed>'''
+        mock_get.return_value = FakeResponse(body=body)
+        start = utc_now().replace(year=2026, month=4, day=1)
+        end = utc_now().replace(year=2026, month=10, day=12)
+        out = fetch_arxiv_api('all:robot', start, end)
+        self.assertEqual(len(out), 1)
+        self.assertEqual(out[0]['source'], 'arXiv API')
+        self.assertIn('submittedDate:', mock_get.call_args.kwargs['params']['search_query'])
+
+    @patch('requests.get')
+    def test_openalex_parse(self, mock_get):
+        mock_get.return_value = FakeResponse(data={'results': [
+            {'display_name': 'Robot Agentic Navigation', 'publication_date': '2026-09-03',
+             'type': 'article', 'doi': 'https://doi.org/10.9999/example',
+             'abstract_inverted_index': {'agentic': [0], 'robot': [1], 'navigation': [2]},
+             'primary_location': {'source': {'display_name': 'Robotics Journal'}}}
+        ]})
+        start = utc_now().replace(year=2026, month=4, day=1)
+        end = utc_now().replace(year=2026, month=10, day=12)
+        out = fetch_openalex('robot agent', start, end)
+        self.assertEqual(len(out), 1)
+        self.assertEqual(out[0]['source'], 'OpenAlex')
+
+    @patch('requests.get')
+    def test_crossref_parse(self, mock_get):
+        mock_get.return_value = FakeResponse(data={'message': {'items': [
+            {'type': 'journal-article', 'title': ['Quadruped Robot Control'],
+             'DOI': '10.3333/example', 'published': {'date-parts': [[2026, 8, 1]]},
+             'container-title': ['Journal X']}
+        ]}})
+        start = utc_now().replace(year=2026, month=4, day=1)
+        end = utc_now().replace(year=2026, month=10, day=12)
+        out = fetch_crossref('quadruped', start, end)
+        self.assertEqual(len(out), 1)
+        self.assertTrue(out[0]['url'].startswith('https://doi.org/'))
+
+    def test_render_500_limit(self):
+        from main import utc_now
+        cfg = {'history_months': 6, 'display_limit': 500, 'industry_watchlist': []}
+        items = []
+        for i in range(530):
+            z = make_item(f'Quadruped locomotion research {i}', f'https://example.org/{i}',
+                          'arXiv API', '论文（摘要）', 'robot locomotion', utc_now().isoformat())
+            z['category'] = '小脑与运动控制'; z['tags'] = ['小脑与运动控制']; z['score'] = 60
+            items.append(z)
+        html_text = render_html(items, [], cfg)
+        self.assertEqual(html_text.count('<article class="card"'), 500)
+
+    def test_omit_generic_ai_and_non_robot_motor(self):
+        for title, desc in [
+            ('Large language models for financial trading', 'agentic tool calling using memory'),
+            ('Novel electric motor for consumer vehicles', 'high performance motor drive and battery'),
+            ('Industrial inspection via satellite imaging', 'deep learning for oil and gas'),
+            ('Medical image segmentation with VLM', 'vision language models and RL'),
+        ]:
+            item = make_item(title, 'https://example.org/' + str(len(title)), 'OpenAlex',
+                             '论文（摘要）', desc)
+            self.assertIsNone(rule_enrich(item), title)
+
+    def test_accept_direct_special_robots(self):
+        examples = [
+            ('Explosion proof quadruped robot', 'Robotic inspection in hazardous petrochemical plants', '防爆石化与危险环境'),
+            ('Firefighting robot navigation', 'Autonomous search and rescue robotics', '消防与应急救援'),
+            ('Inspection robot in coal mines', 'Mining robot localization and mapping', '矿山与地下空间'),
+        ]
+        for title, desc, scenario in examples:
+            item = make_item(title, 'https://example.org/' + str(len(title)), 'arXiv API',
+                             '论文（摘要）', desc)
+            out = rule_enrich(item)
+            self.assertIsNotNone(out)
+            self.assertEqual(out['scope'], '特种场景直接相关')
+            self.assertIn(scenario, out['industry_tags'])
+
+    def test_keep_robot_native_tech_but_not_generic_ai(self):
+        examples = [
+            ('Quadruped robot locomotion', 'Whole body control and reinforcement learning', '小脑与运动控制'),
+            ('Mobile robot agentic VLN', 'Robot navigation with skill library and tool calling', '大脑与具身智能'),
+            ('ROS2 for robotic autonomy', 'Robot middleware system architecture and sensors', '基础软件与系统'),
+            ('Robot actuator design', 'High-torque joint actuator and motor drive for robots', '硬件与防爆'),
+        ]
+        for title, desc, category in examples:
+            item = make_item(title, 'https://example.org/' + str(len(title)), 'OpenAlex',
+                             '论文（摘要）', desc)
+            out = rule_enrich(item)
+            self.assertIsNotNone(out, title)
+            self.assertEqual(out['scope'], '可迁移的机器人关键技术')
+            self.assertEqual(out['category'], category)
+
+    def test_filter_config_reject_score(self):
+        item = make_item('Wheel-legged quadruped locomotion', 'https://example.org/w',
+                         'arXiv API', '论文（摘要）', 'robot locomotion and motion control')
+        self.assertIsNone(rule_enrich(item, {'focus': dict(get_focus(), min_relevance_score=101)}))
+
+    def test_html_industry_filters(self):
+        cfg = json.loads(__import__('pathlib').Path('config.json').read_text())
+        a = make_item('Firefighting robot navigation', 'https://example.org/ab',
+                      'arXiv API', '论文（摘要）', 'Firefighting robot autonomy', utc_now().isoformat())
+        html_text = render_html([rule_enrich(a)], [], cfg)
+        self.assertIn('全部特种场景', html_text)
+        self.assertIn('特种场景直接相关', html_text)
+        self.assertIn('消防与应急救援', html_text)
 
 if __name__ == '__main__':
     unittest.main()
