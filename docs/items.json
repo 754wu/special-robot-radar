@@ -1,12 +1,172 @@
 [
   {
+    "id": "da239c8e6d7d7a0764",
+    "title": "kuafuai/andee",
+    "url": "https://github.com/kuafuai/andee",
+    "source": "GitHub",
+    "type": "代码仓库更新",
+    "description": "An agent that moves into your Android phone: a floating ball that reads the screen, taps through any app, talks back and remembers you. No root, no custom ROM, no computer on a cable — one APK. On-device brain, any OpenAI-compatible model, no telemetry.",
+    "published": "2026-10-12T08:48:38Z",
+    "first_seen": "2026-10-12T08:43:24.266923+00:00",
+    "stars": 18,
+    "license": true,
+    "repo_id": 1374472673,
+    "category": "大脑与具身智能",
+    "tags": [
+      "大脑与具身智能"
+    ],
+    "score": 43,
+    "summary": "初筛：与「大脑与具身智能」相关。An agent that moves into your Android phone: a floating ball that reads the screen, taps through any app, talks back and remembers you. No root, no custom （仅根据标题/简介初筛，尚未阅读全文。）",
+    "analysis_level": "关键词初筛"
+  },
+  {
+    "id": "39340a24c57510684b",
+    "title": "lsiwei68-alt/mecanum-multi-robot-navigation",
+    "url": "https://github.com/lsiwei68-alt/mecanum-multi-robot-navigation",
+    "source": "GitHub",
+    "type": "代码仓库更新",
+    "description": "ROS 2 Humble dual mecanum robot navigation and online spatiotemporal conflict coordination demo",
+    "published": "2026-10-12T08:48:32Z",
+    "first_seen": "2026-10-12T08:52:59.875694+00:00",
+    "stars": 0,
+    "license": false,
+    "repo_id": 1415321544,
+    "category": "感知建图与导航",
+    "tags": [
+      "感知建图与导航"
+    ],
+    "score": 43,
+    "summary": "初筛：与「感知建图与导航」相关。ROS 2 Humble dual mecanum robot navigation and online spatiotemporal conflict coordination demo（仅根据标题/简介初筛，尚未阅读全文。）",
+    "analysis_level": "关键词初筛"
+  },
+  {
+    "id": "543de8b19a254cd695",
+    "title": "enghoff/Waveshare_UGV_Rover",
+    "url": "https://github.com/enghoff/Waveshare_UGV_Rover",
+    "source": "GitHub",
+    "type": "代码仓库更新",
+    "description": "Host-side bring-up and bench-test tools for a Waveshare UGV Rover: OAK-D-Lite depth camera, D500 lidar, and USB webcams, each exercised in isolation",
+    "published": "2026-10-12T08:48:16Z",
+    "first_seen": "2026-10-12T08:52:59.875718+00:00",
+    "stars": 0,
+    "license": false,
+    "repo_id": 1331522223,
+    "category": "硬件与防爆",
+    "tags": [
+      "硬件与防爆"
+    ],
+    "score": 43,
+    "summary": "初筛：与「硬件与防爆」相关。Host-side bring-up and bench-test tools for a Waveshare UGV Rover: OAK-D-Lite depth camera, D500 lidar, and USB webcams, each exercised in isolation（仅根据标题/简介初筛，尚未阅读全文。）",
+    "analysis_level": "关键词初筛"
+  },
+  {
+    "id": "71398b5f28e985eca6",
+    "title": "Dicklesworthstone/coding_agent_session_search",
+    "url": "https://github.com/Dicklesworthstone/coding_agent_session_search",
+    "source": "GitHub",
+    "type": "代码仓库更新",
+    "description": "Unified TUI and CLI to index and search your local coding agent session history across 11+ providers (Codex, Claude, Gemini, Cursor, Aider, etc.)",
+    "published": "2026-10-12T08:45:42Z",
+    "first_seen": "2026-10-12T08:43:26.241364+00:00",
+    "stars": 1173,
+    "license": true,
+    "repo_id": 1100945668,
+    "category": "大脑与具身智能",
+    "tags": [
+      "大脑与具身智能"
+    ],
+    "score": 43,
+    "summary": "初筛：与「大脑与具身智能」相关。Unified TUI and CLI to index and search your local coding agent session history across 11+ providers (Codex, Claude, Gemini, Cursor, Aider, etc.)（仅根据标题/简介初筛，尚未阅读全文。）",
+    "analysis_level": "关键词初筛"
+  },
+  {
+    "id": "0ce53ce2e0e88fd3c2",
+    "title": "anbeime/skill",
+    "url": "https://github.com/anbeime/skill",
+    "source": "GitHub",
+    "type": "代码仓库更新",
+    "description": "收录最全、更新最快的技能Skills商店：精选原创技能包（涵盖文档处理、内容创作、编程开发、机器学习、自动化工作流），全部打包好可直接安装使用！同时自动抓取GitHub上万个Skills项目，按分类、更新时间、Star数量整理。The most comprehensive and frequently updated AI Agent skill library, featuring curated skill packs across document processing, content creation, programming, machine learning, automated workflows, and many more domains.",
+    "published": "2026-10-12T08:45:06Z",
+    "first_seen": "2026-10-12T08:43:26.241618+00:00",
+    "stars": 7881,
+    "license": false,
+    "repo_id": 1147838400,
+    "category": "大脑与具身智能",
+    "tags": [
+      "大脑与具身智能"
+    ],
+    "score": 51,
+    "summary": "初筛：与「大脑与具身智能」相关。收录最全、更新最快的技能Skills商店：精选原创技能包（涵盖文档处理、内容创作、编程开发、机器学习、自动化工作流），全部打包好可直接安装使用！同时自动抓取GitHub上万个Skills项目，按分类、更新时间、Star数量整理。The most comprehensive and frequently upd（仅根据标题/简介初筛，尚未阅读全文。）",
+    "analysis_level": "关键词初筛"
+  },
+  {
+    "id": "5009c7817295dcaf73",
+    "title": "AdithyaSM31/Precision-Agriculture-Monitoring-Quadruped-Robot-Dog",
+    "url": "https://github.com/AdithyaSM31/Precision-Agriculture-Monitoring-Quadruped-Robot-Dog",
+    "source": "GitHub",
+    "type": "代码仓库更新",
+    "description": "（无项目说明）",
+    "published": "2026-10-12T08:44:39Z",
+    "first_seen": "2026-10-12T08:52:51.838896+00:00",
+    "stars": 0,
+    "license": false,
+    "repo_id": 1373516361,
+    "category": "小脑与运动控制",
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "score": 43,
+    "summary": "初筛：与「小脑与运动控制」相关。（无项目说明）（仅根据标题/简介初筛，尚未阅读全文。）",
+    "analysis_level": "关键词初筛"
+  },
+  {
+    "id": "5ffbc719e0a6b05324",
+    "title": "bell-ha/visually-impaired-navigation-robot",
+    "url": "https://github.com/bell-ha/visually-impaired-navigation-robot",
+    "source": "GitHub",
+    "type": "代码仓库更新",
+    "description": "시각장애인 실내 안내 로봇 (ROS2 Nav2 · SLAM · GPT-4o Vision)",
+    "published": "2026-10-12T08:44:06Z",
+    "first_seen": "2026-10-12T08:52:59.875857+00:00",
+    "stars": 0,
+    "license": false,
+    "repo_id": 1125143207,
+    "category": "感知建图与导航",
+    "tags": [
+      "感知建图与导航"
+    ],
+    "score": 59,
+    "summary": "初筛：与「感知建图与导航」相关。시각장애인 실내 안내 로봇 (ROS2 Nav2 · SLAM · GPT-4o Vision)（仅根据标题/简介初筛，尚未阅读全文。）",
+    "analysis_level": "关键词初筛"
+  },
+  {
+    "id": "03e6ef9f2e7ee6def0",
+    "title": "anikshasontakkey7371-sudo/ai-navigation-system",
+    "url": "https://github.com/anikshasontakkey7371-sudo/ai-navigation-system",
+    "source": "GitHub",
+    "type": "代码仓库更新",
+    "description": "（无项目说明）",
+    "published": "2026-10-12T08:44:00Z",
+    "first_seen": "2026-10-12T08:52:59.875873+00:00",
+    "stars": 0,
+    "license": false,
+    "repo_id": 1415306402,
+    "category": "感知建图与导航",
+    "tags": [
+      "感知建图与导航"
+    ],
+    "score": 43,
+    "summary": "初筛：与「感知建图与导航」相关。（无项目说明）（仅根据标题/简介初筛，尚未阅读全文。）",
+    "analysis_level": "关键词初筛"
+  },
+  {
     "id": "f1cfa27d26956d3ad8",
     "title": "maheshbhakre/AI--Autonomous-Navigation-System",
     "url": "https://github.com/maheshbhakre/AI--Autonomous-Navigation-System",
     "source": "GitHub",
     "type": "代码仓库更新",
     "description": "（无项目说明）",
-    "published": "2026-10-12T08:42:09Z",
+    "published": "2026-10-12T08:43:51Z",
     "first_seen": "2026-10-12T08:43:28.055127+00:00",
     "stars": 0,
     "license": false,
@@ -60,26 +220,6 @@
     "analysis_level": "关键词初筛"
   },
   {
-    "id": "71398b5f28e985eca6",
-    "title": "Dicklesworthstone/coding_agent_session_search",
-    "url": "https://github.com/Dicklesworthstone/coding_agent_session_search",
-    "source": "GitHub",
-    "type": "代码仓库更新",
-    "description": "Unified TUI and CLI to index and search your local coding agent session history across 11+ providers (Codex, Claude, Gemini, Cursor, Aider, etc.)",
-    "published": "2026-10-12T08:38:11Z",
-    "first_seen": "2026-10-12T08:43:26.241364+00:00",
-    "stars": 1173,
-    "license": true,
-    "repo_id": 1100945668,
-    "category": "大脑与具身智能",
-    "tags": [
-      "大脑与具身智能"
-    ],
-    "score": 43,
-    "summary": "初筛：与「大脑与具身智能」相关。Unified TUI and CLI to index and search your local coding agent session history across 11+ providers (Codex, Claude, Gemini, Cursor, Aider, etc.)（仅根据标题/简介初筛，尚未阅读全文。）",
-    "analysis_level": "关键词初筛"
-  },
-  {
     "id": "1444ba26c4a7e9432b",
     "title": "SuperdeMan/drone-agent",
     "url": "https://github.com/SuperdeMan/drone-agent",
@@ -97,26 +237,6 @@
     ],
     "score": 43,
     "summary": "初筛：与「大脑与具身智能」相关。Safety-constrained drone mission runtime: natural-language planning, signed approvals, deterministic execution, and evidence-based reports. Validated in PX（仅根据标题/简介初筛，尚未阅读全文。）",
-    "analysis_level": "关键词初筛"
-  },
-  {
-    "id": "0ce53ce2e0e88fd3c2",
-    "title": "anbeime/skill",
-    "url": "https://github.com/anbeime/skill",
-    "source": "GitHub",
-    "type": "代码仓库更新",
-    "description": "收录最全、更新最快的技能Skills商店：精选原创技能包（涵盖文档处理、内容创作、编程开发、机器学习、自动化工作流），全部打包好可直接安装使用！同时自动抓取GitHub上万个Skills项目，按分类、更新时间、Star数量整理。The most comprehensive and frequently updated AI Agent skill library, featuring curated skill packs across document processing, content creation, programming, machine learning, automated workflows, and many more domains.",
-    "published": "2026-10-12T08:28:27Z",
-    "first_seen": "2026-10-12T08:43:26.241618+00:00",
-    "stars": 7878,
-    "license": false,
-    "repo_id": 1147838400,
-    "category": "大脑与具身智能",
-    "tags": [
-      "大脑与具身智能"
-    ],
-    "score": 51,
-    "summary": "初筛：与「大脑与具身智能」相关。收录最全、更新最快的技能Skills商店：精选原创技能包（涵盖文档处理、内容创作、编程开发、机器学习、自动化工作流），全部打包好可直接安装使用！同时自动抓取GitHub上万个Skills项目，按分类、更新时间、Star数量整理。The most comprehensive and frequently upd（仅根据标题/简介初筛，尚未阅读全文。）",
     "analysis_level": "关键词初筛"
   },
   {
@@ -298,26 +418,6 @@
     ],
     "score": 43,
     "summary": "初筛：与「小脑与运动控制」相关。四轮足titatit dreamwaq（仅根据标题/简介初筛，尚未阅读全文。）",
-    "analysis_level": "关键词初筛"
-  },
-  {
-    "id": "da239c8e6d7d7a0764",
-    "title": "kuafuai/andee",
-    "url": "https://github.com/kuafuai/andee",
-    "source": "GitHub",
-    "type": "代码仓库更新",
-    "description": "An agent that moves into your Android phone: a floating ball that reads the screen, taps through any app, talks back and remembers you. No root, no custom ROM, no computer on a cable — one APK. On-device brain, any OpenAI-compatible model, no telemetry.",
-    "published": "2026-10-12T07:51:47Z",
-    "first_seen": "2026-10-12T08:43:24.266923+00:00",
-    "stars": 18,
-    "license": true,
-    "repo_id": 1374472673,
-    "category": "大脑与具身智能",
-    "tags": [
-      "大脑与具身智能"
-    ],
-    "score": 43,
-    "summary": "初筛：与「大脑与具身智能」相关。An agent that moves into your Android phone: a floating ball that reads the screen, taps through any app, talks back and remembers you. No root, no custom （仅根据标题/简介初筛，尚未阅读全文。）",
     "analysis_level": "关键词初筛"
   },
   {

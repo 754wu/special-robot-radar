@@ -1,8 +1,8 @@
 # 特种机器人七日技术简报
 
-生成时间：2026-10-12T08:43:33.161292+00:00
+生成时间：2026-10-12T08:53:03.085563+00:00
 
-最近 7 天首次记录 **183** 条；本轮新增 **183** 条；总库存 **183** 条。
+最近 7 天首次记录 **188** 条；本轮新增 **5** 条；总库存 **188** 条。
 
 **注意：**‘七日’按首次入库时间统计，不代表论文发表于最近七天；相关度评分只是初筛优先级，不是成熟度或质量评级。
 
@@ -52,6 +52,8 @@
   - 初筛：与「感知建图与导航、硬件与防爆」相关。arXiv:2610.13788v1 Announce Type: new Abstract: LiDAR-inertial odometry (LIO) is widely used for real-time localization and mapping, but its reliability ca（仅根据标题/简介初筛，尚未阅读全文。）
 - [Advice on ROS 2, GLIM and nvblox for Autonomous Drones](https://discourse.openrobotics.org/t/advice-on-ros-2-glim-and-nvblox-for-autonomous-drones/58781) | 社区动态 | 匹配度 67/100
   - 初筛：与「感知建图与导航、硬件与防爆」相关。Hi everyone! I’m developing an autonomous quadcopter(small category drone) using PX4, ROS 2 Humble, and a Jetson Orin NX 16 GB, with a Livox Mid-360 LiDAR.（仅根据标题/简介初筛，尚未阅读全文。）
+- [bell-ha/visually-impaired-navigation-robot](https://github.com/bell-ha/visually-impaired-navigation-robot) | 代码仓库更新 | 匹配度 59/100
+  - 初筛：与「感知建图与导航」相关。시각장애인 실내 안내 로봇 (ROS2 Nav2 · SLAM · GPT-4o Vision)（仅根据标题/简介初筛，尚未阅读全文。）
 - [Visual-Wi-Fi Navigation to Signal-Emitting Devices](https://arxiv.org/abs/2610.12733) | 论文（摘要） | 匹配度 57/100
   - 初筛：与「感知建图与导航、大脑与具身智能」相关。arXiv:2610.12733v1 Announce Type: new Abstract: Indoor navigation to task-relevant targets remains difficult when the target is small, occluded, or visuall（仅根据标题/简介初筛，尚未阅读全文。）
 - [Verifier-Mediated Multi-LLM Coordination for Multi-Robot Path Planning](https://arxiv.org/abs/2610.12761) | 论文（摘要） | 匹配度 57/100
@@ -60,8 +62,6 @@
   - 初筛：与「感知建图与导航、大脑与具身智能」相关。arXiv:2610.12877v1 Announce Type: new Abstract: Agile and reliable navigation is a core capability for embodied robots navigating complex spatial constrain（仅根据标题/简介初筛，尚未阅读全文。）
 - [HorizonNav: Geometry-Guided Video Diffusion for Anticipatory 3D Robot Navigation](https://arxiv.org/abs/2610.13849) | 论文（摘要） | 匹配度 57/100
   - 初筛：与「感知建图与导航、大脑与具身智能」相关。arXiv:2610.13849v1 Announce Type: new Abstract: We present HorizonNav, a video diffusion-based framework for anticipatory robot navigation that transforms （仅根据标题/简介初筛，尚未阅读全文。）
-- [SpireBench: Evaluating Long-Horizon Strategic Play of Agentic Models with Slay the Spire](https://arxiv.org/abs/2610.12596) | 论文（摘要） | 匹配度 57/100
-  - 初筛：与「感知建图与导航、大脑与具身智能」相关。arXiv:2610.12596v1 Announce Type: new Abstract: Agentic large language models now tackle complex tasks, yet strategic reasoning over long horizons is under（仅根据标题/简介初筛，尚未阅读全文。）
 
 ## 大脑与具身智能
 
