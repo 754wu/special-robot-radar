@@ -1,8 +1,8 @@
 # 特种机器人七日技术简报
 
-生成时间：2026-10-12T09:35:04.044438+00:00
+生成时间：2026-10-12T09:52:43.270884+00:00
 
-最近 7 天首次记录 **219** 条；本轮新增 **200** 条；总库存 **219** 条。
+最近 7 天首次记录 **220** 条；本轮新增 **6** 条；总库存 **220** 条。
 
 **注意：**‘七日’按首次入库时间统计，不代表论文发表于最近七天；相关度评分只是初筛优先级，不是成熟度或质量评级。
 
@@ -120,9 +120,10 @@
 - [Hybrid motion planning with dynamics awareness for aerial-ground robots in industrial inspection and maintenance](https://doi.org/10.1016/j.robot.2026.105433) | 论文（摘要） | 特种场景直接相关 | 匹配度 76/100
   - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：Robotics and Autonomous Systems。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
-## 采集状态
+## 本轮采集异常
 
-本轮已配置来源均完成请求，但不保证其覆盖行业全部进展。
+- Crossref robotic autonomous industrial inspection: HTTPError: 429 Client Error: Too Many Requests for url: https://api.crossref.org/works?query.bibliographic=robotic+autonomous+industrial+inspection&filter=from-pub-date%3A2026-04-12%2Cuntil-pub-date%3A2026-10-12&rows=30&select=DOI%2Ctitle%2Cabstract%2CURL%2Cpublished-online%2Cpublished%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title
+- Crossref embodied mobile robot navigation: HTTPError: 429 Client Error: Too Many Requests for url: https://api.crossref.org/works?query.bibliographic=embodied+mobile+robot+navigation&filter=from-pub-date%3A2026-04-12%2Cuntil-pub-date%3A2026-10-12&rows=30&select=DOI%2Ctitle%2Cabstract%2CURL%2Cpublished-online%2Cpublished%2Cpublished-print%2Cissued%2Ctype%2Ccontainer-title
 
 ## 下一步人工核验
 

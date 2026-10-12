@@ -1,12 +1,34 @@
 [
   {
+    "id": "a24b8f4299b9a102fe",
+    "title": "Arman10121995/Celisca-ROS-2-Robot",
+    "url": "https://github.com/Arman10121995/Celisca-ROS-2-Robot",
+    "source": "GitHub",
+    "type": "代码仓库更新",
+    "description": "ROS 2 development for laboratory mobile robots at CELISCA, University of Rostock",
+    "published": "2026-10-12T09:47:31Z",
+    "first_seen": "2026-10-12T09:52:33.489712+00:00",
+    "stars": 0,
+    "license": true,
+    "repo_id": 1278949137,
+    "category": "基础软件与系统",
+    "tags": [
+      "基础软件与系统"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。ROS 2 development for laboratory mobile robots at CELISCA, University of Rostock（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
     "id": "bbc7450f048a9c2e5f",
     "title": "joey114132/claude-robotics-skills",
     "url": "https://github.com/joey114132/claude-robotics-skills",
     "source": "GitHub",
     "type": "代码仓库更新",
     "description": "Fundamentals-first Claude Code robotics skills: 18 advisors across arms, hands, ROS 2, mobile, legged, aerial, marine, soft, perception, safety, sim, fleet, swarm, field, medical and robot learning, plus a claude plugin eval suite",
-    "published": "2026-10-12T09:19:11Z",
+    "published": "2026-10-12T09:42:27Z",
     "first_seen": "2026-10-12T09:34:43.225012+00:00",
     "stars": 0,
     "license": true,
