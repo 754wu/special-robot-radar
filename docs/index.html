@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Special Robotics Radar｜特种机器人技术雷达</title>
+<style>
+:root { color-scheme:dark; font-family:system-ui,-apple-system,"Microsoft YaHei",sans-serif; background:#091120;color:#e2e9f2 }
+* { box-sizing:border-box } body { margin:0 } header { background:radial-gradient(circle at 80% 10%,#1e4660,#0c1528 58%); border-bottom:1px solid #263449; padding:60px max(18px,calc((100vw - 1100px)/2)) 42px }
+.eyebrow { letter-spacing:.18em;text-transform:uppercase;color:#85d6d4;font-size:13px } h1 {font-size:clamp(29px,4.8vw,52px);line-height:1.15;margin:15px 0} .lead {color:#afc0d2;line-height:1.8;max-width:850px}
+main {max-width:1100px;margin:0 auto;padding:30px 18px 80px} .toolbar {display:flex;flex-wrap:wrap;gap:12px;margin-bottom:20px} input,select {background:#101d31;color:#e2e9f2;border:1px solid #384967;border-radius:10px;padding:13px 15px;font-size:15px} input {flex:1;min-width:220px} select {min-width:185px}
+.stats {font-size:14px;color:#9eafc6;margin-bottom:20px} .list {display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:16px} .card {border:1px solid #263950;background:#111e31;border-radius:14px;padding:20px;display:flex;flex-direction:column;gap:10px} .card:hover {border-color:#387b91} .card h2 {font-size:18px;line-height:1.45;margin:0} a {color:#83dbe0;text-decoration:none} a:hover {text-decoration:underline} .card p {font-size:14px;line-height:1.75;color:#c2cbd5;margin:0;flex:1} .meta,.bottom {display:flex;gap:7px;flex-wrap:wrap;align-items:center;color:#95a9bd;font-size:12px} .meta span,.tag {border:1px solid #35475f;border-radius:5px;padding:4px 7px} .bottom {justify-content:space-between;margin-top:10px} .tag {color:#c6def3} small {font-size:11px;color:#92a3b7} .warning {padding:12px;border-left:3px solid #e0b469;background:#2d2730} footer {margin-top:35px;border-top:1px solid #35475f;padding-top:20px;color:#a4b1c2;font-size:13px;line-height:1.8}
+</style></head><body>
+<header><div class="eyebrow">RESEARCH RADAR / SPECIAL ROBOTICS</div><h1>特种机器人技术雷达</h1>
+<p class="lead">追踪防爆四足与轮足机器人、硬件与防爆、运动控制小脑、SLAM 与自主导航、VLM / Agentic 智能大脑。自动收集公开元数据，生成可检索的技术线索。</p>
+<p class="eyebrow">更新：2026-10-12 08:16 UTC ｜ 近 40 天索引：0 条 ｜ 累计保存：0 条</p></header>
+<main><div class="toolbar"><input id="q" type="search" placeholder="搜索技术、论文、仓库、关键词…" oninput="applyFilters()">
+<select id="category" onchange="applyFilters()"><option value="">全部领域</option><option value="硬件与防爆">硬件与防爆</option>
+<option value="小脑与运动控制">小脑与运动控制</option>
+<option value="感知建图与导航">感知建图与导航</option>
+<option value="大脑与具身智能">大脑与具身智能</option>
+<option value="行业产品与应用">行业产品与应用</option></select>
+<select id="kind" onchange="applyFilters()"><option value="">全部来源类型</option><option value="paper">论文</option><option value="repo">GitHub 项目</option><option value="news">社区动态</option></select></div>
+<div class="stats" id="counter">显示 0 条</div><div class="list" id="cards"><p>还没有采集到匹配内容。检查网络和数据源。</p></div>
+<footer><b>特别说明：</b>此网站只展示公开网页、论文摘要及开源仓库的元数据初筛；不代表已阅读全文、复现实验、核验防爆证书或验证产品参数。GitHub 的 pushed 时间表示仓库更新，不等于新论文发表。<br>
+行业源人工观察清单（不代表已自动抓取）：<a href="https://www.anybotics.com/robotics/anymal-x/" rel="noopener noreferrer" target="_blank">ANYbotics / ANYmal X</a> | <a href="https://www.weeklyrobotics.com/" rel="noopener noreferrer" target="_blank">Weekly Robotics</a> | <a href="https://kairunwen.github.io/Awesome-Robot-Use-Agent/" rel="noopener noreferrer" target="_blank">Awesome Robot Use Agent</a><br><a href="items.json">原始 JSON</a> ｜ <a href="weekly.md">本轮简报与采集异常</a></footer></main>
+<script>
+function applyFilters() { const q=document.getElementById('q').value.toLowerCase().trim(),cat=document.getElementById('category').value,kind=document.getElementById('kind').value; let n=0; document.querySelectorAll('.card').forEach(c=>{let ok=(!q||c.dataset.hay.includes(q))&&(!cat||c.dataset.cat===cat)&&(!kind||c.dataset.kind===kind);c.style.display=ok?'':'none'; if(ok)n++;});document.getElementById('counter').textContent='显示 '+n+' 条';}
+</script></body></html>

@@ -1,0 +1,20 @@
+{
+  "rss": [
+    {"name": "arXiv Robotics", "url": "https://rss.arxiv.org/rss/cs.RO"},
+    {"name": "arXiv Artificial Intelligence", "url": "https://rss.arxiv.org/rss/cs.AI"},
+    {"name": "ROS Discourse", "url": "https://discourse.ros.org/latest.rss"}
+  ],
+  "github_queries": [
+    "quadruped locomotion in:name,description,readme",
+    "wheel legged robot in:name,description,readme",
+    "robot vision language navigation in:name,description,readme",
+    "robot reinforcement learning in:name,description,readme",
+    "robot slam navigation in:name,description,readme",
+    "explosion proof robot in:name,description,readme"
+  ],
+  "industry_watchlist": [
+    {"name": "ANYbotics / ANYmal X", "url": "https://www.anybotics.com/robotics/anymal-x/"},
+    {"name": "Weekly Robotics", "url": "https://www.weeklyrobotics.com/"},
+    {"name": "Awesome Robot Use Agent", "url": "https://kairunwen.github.io/Awesome-Robot-Use-Agent/"}
+  ]
+}
