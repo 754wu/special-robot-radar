@@ -483,6 +483,7 @@ def render_html(items: list[dict], errors: list[str], config: dict) -> str:
     today = utc_now().strftime("%Y-%m-%d %H:%M UTC")
     months = int(config.get("history_months", 6))
     limit = int(config.get("display_limit", 500))
+    page_size = max(1, min(100, int(config.get("page_size", 12))))
     recent = [i for i in items if date_in_window(i.get("published"), months_ago(months), utc_now())]
     shown = sort_items(recent)[:limit]
     sections = []
@@ -509,7 +510,10 @@ def render_html(items: list[dict], errors: list[str], config: dict) -> str:
 * {{ box-sizing:border-box }} body {{ margin:0 }} header {{ background:radial-gradient(circle at 80% 10%,#1e4660,#0c1528 58%); border-bottom:1px solid #263449; padding:60px max(18px,calc((100vw - 1100px)/2)) 42px }}
 .eyebrow {{ letter-spacing:.18em;text-transform:uppercase;color:#85d6d4;font-size:13px }} h1 {{font-size:clamp(29px,4.8vw,52px);line-height:1.15;margin:15px 0}} .lead {{color:#afc0d2;line-height:1.8;max-width:850px}}
 main {{max-width:1100px;margin:0 auto;padding:30px 18px 80px}} .toolbar {{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:20px}} input,select {{background:#101d31;color:#e2e9f2;border:1px solid #384967;border-radius:10px;padding:13px 15px;font-size:15px}} input {{flex:1;min-width:220px}} select {{min-width:185px}}
-.stats {{font-size:14px;color:#9eafc6;margin-bottom:20px}} .list {{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:16px}} .card {{border:1px solid #263950;background:#111e31;border-radius:14px;padding:20px;display:flex;flex-direction:column;gap:10px}} .card:hover {{border-color:#387b91}} .card h2 {{font-size:18px;line-height:1.45;margin:0}} a {{color:#83dbe0;text-decoration:none}} a:hover {{text-decoration:underline}} .card p {{font-size:14px;line-height:1.75;color:#c2cbd5;margin:0;flex:1}} .meta,.bottom {{display:flex;gap:7px;flex-wrap:wrap;align-items:center;color:#95a9bd;font-size:12px}} .meta span,.tag {{border:1px solid #35475f;border-radius:5px;padding:4px 7px}} .bottom {{justify-content:space-between;margin-top:10px}} .tag {{color:#c6def3}} small {{font-size:11px;color:#92a3b7}} .warning {{padding:12px;border-left:3px solid #e0b469;background:#2d2730}} footer {{margin-top:35px;border-top:1px solid #35475f;padding-top:20px;color:#a4b1c2;font-size:13px;line-height:1.8}}
+.stats {{font-size:14px;color:#9eafc6;margin-bottom:20px}} .list {{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:16px}} .card {{border:1px solid #263950;background:#111e31;border-radius:14px;padding:20px;display:none;flex-direction:column;gap:10px}} .card:hover {{border-color:#387b91}} .card h2 {{font-size:18px;line-height:1.45;margin:0}} a {{color:#83dbe0;text-decoration:none}} a:hover {{text-decoration:underline}} .card p {{font-size:14px;line-height:1.75;color:#c2cbd5;margin:0;flex:1}} .meta,.bottom {{display:flex;gap:7px;flex-wrap:wrap;align-items:center;color:#95a9bd;font-size:12px}} .meta span,.tag {{border:1px solid #35475f;border-radius:5px;padding:4px 7px}} .bottom {{justify-content:space-between;margin-top:10px}} .tag {{color:#c6def3}} small {{font-size:11px;color:#92a3b7}} .warning {{padding:12px;border-left:3px solid #e0b469;background:#2d2730}} footer {{margin-top:35px;border-top:1px solid #35475f;padding-top:20px;color:#a4b1c2;font-size:13px;line-height:1.8}}
+.pagination {{display:flex;gap:12px;justify-content:center;align-items:center;flex-wrap:wrap;margin:30px 0;color:#b5c8dd}}
+.pagination[hidden] {{display:none}} .pagination button {{border:1px solid #387b91;background:#13283d;border-radius:8px;color:#b5ebee;padding:10px 16px;cursor:pointer;font-size:14px}}
+.pagination button:hover:not(:disabled) {{background:#1e4357}} .pagination button:disabled {{opacity:.4;cursor:not-allowed}}
 </style></head><body>
 <header><div class="eyebrow">RESEARCH RADAR / SPECIAL ROBOTICS</div><h1>特种机器人产业技术雷达</h1>
 <p class="lead">聚焦防爆石化、工业巡检、消防救援、矿山、排爆与复杂地形机器人；追踪硬件与本体、基础软件、运动控制“小脑”、具身智能“大脑”、感知导航。区分特种场景成果与可迁移的机器人关键技术，过滤无关 AI 信息。</p>
@@ -519,11 +523,66 @@ main {{max-width:1100px;margin:0 auto;padding:30px 18px 80px}} .toolbar {{displa
 <select id="scenario" onchange="applyFilters()"><option value="">全部特种场景</option>{scenario_options}</select>
 <select id="scope" onchange="applyFilters()"><option value="">全部关联方式</option><option value="特种场景直接相关">特种场景直接相关</option><option value="可迁移的机器人关键技术">可迁移的关键技术</option></select>
 <select id="kind" onchange="applyFilters()"><option value="">全部来源类型</option><option value="paper">论文</option><option value="repo">GitHub 项目</option><option value="news">社区动态</option></select></div>
-<div class="stats" id="counter">显示 {len(shown)} 条</div><div class="list" id="cards">{''.join(sections) or '<p>还没有采集到匹配内容。检查网络和数据源。</p>'}</div>
+<div class="stats" id="counter">正在加载数据…</div><div class="list" id="cards">{''.join(sections) or '<p>还没有采集到匹配内容。检查网络和数据源。</p>'}</div>
+<nav class="pagination" id="pagination" aria-label="数据分页" hidden>
+  <button id="prevPage" type="button" onclick="changePage(-1)">← 上一页</button>
+  <span id="pageInfo" aria-live="polite">第 1 页</span>
+  <button id="nextPage" type="button" onclick="changePage(1)">下一页 →</button>
+</nav>
 <footer><b>特别说明：</b>本网站按特种场景和机器人共性技术双重规则筛选公开元数据；“可迁移”只是潜在相关性，不代表已在特种机器人实证，更不表示取得防爆认证。没有阅读全文或核验产品参数。GitHub 的 pushed 时间表示仓库更新，不等于新论文发表。<br>
 行业源人工观察清单（不代表已自动抓取）：{links}<br><a href="items.json">原始 JSON</a> ｜ <a href="weekly.md">本轮简报与采集异常</a></footer></main>
 <script>
-function applyFilters() {{ const q=document.getElementById('q').value.toLowerCase().trim(),cat=document.getElementById('category').value,kind=document.getElementById('kind').value,scope=document.getElementById('scope').value,scenario=document.getElementById('scenario').value; let n=0; document.querySelectorAll('.card').forEach(c=>{{let ok=(!q||c.dataset.hay.includes(q))&&(!cat||c.dataset.cat===cat)&&(!scope||c.dataset.scope===scope)&&(!scenario||c.dataset.industry.split(' | ').includes(scenario))&&(!kind||c.dataset.kind===kind);c.style.display=ok?'':'none'; if(ok)n++;}});document.getElementById('counter').textContent='显示 '+n+' 条';}}
+const PAGE_SIZE = {page_size};
+let currentPage = 1;
+
+function getMatchingCards() {{
+  const query = document.getElementById('q').value.toLowerCase().trim();
+  const category = document.getElementById('category').value;
+  const scenario = document.getElementById('scenario').value;
+  const scope = document.getElementById('scope').value;
+  const kind = document.getElementById('kind').value;
+  return Array.from(document.querySelectorAll('#cards .card')).filter(card =>
+    (!query || card.dataset.hay.includes(query)) &&
+    (!category || card.dataset.cat === category) &&
+    (!scenario || card.dataset.industry.split(' | ').includes(scenario)) &&
+    (!scope || card.dataset.scope === scope) &&
+    (!kind || card.dataset.kind === kind)
+  );
+}}
+
+function renderPage() {{
+  const matched = getMatchingCards();
+  const total = matched.length;
+  const totalPages = Math.ceil(total / PAGE_SIZE);
+  currentPage = Math.max(1, Math.min(currentPage, totalPages || 1));
+  document.querySelectorAll('#cards .card').forEach(card => {{
+    card.style.display = 'none';
+  }});
+  const start = (currentPage - 1) * PAGE_SIZE;
+  matched.slice(start, start + PAGE_SIZE).forEach(card => {{
+    card.style.display = 'flex';
+  }});
+  document.getElementById('counter').textContent = total
+    ? '共匹配 ' + total + ' 条，当前显示第 ' + (start + 1) + '–' + Math.min(start + PAGE_SIZE, total) + ' 条'
+    : '没有符合条件的内容';
+  document.getElementById('pageInfo').textContent = '第 ' + currentPage + ' / ' + totalPages + ' 页';
+  document.getElementById('prevPage').disabled = currentPage <= 1;
+  document.getElementById('nextPage').disabled = currentPage >= totalPages;
+  document.getElementById('pagination').hidden = totalPages <= 1;
+}}
+
+function applyFilters() {{
+  currentPage = 1;
+  renderPage();
+}}
+
+function changePage(direction) {{
+  currentPage += direction;
+  renderPage();
+  document.getElementById('counter').scrollIntoView({{ behavior: 'smooth', block: 'start' }});
+}}
+
+renderPage();
 </script></body></html>'''
 
 

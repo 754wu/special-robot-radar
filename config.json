@@ -1,6 +1,7 @@
 {
   "history_months": 6,
   "display_limit": 500,
+  "page_size": 12,
   "max_history_items": 2500,
   "arxiv_limit": 100,
   "openalex_limit": 70,
