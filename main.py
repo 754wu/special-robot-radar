@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import argparse
 import calendar
+from email.utils import parsedate_to_datetime
 import unicodedata
 import xml.etree.ElementTree as ET
 import hashlib
@@ -256,11 +257,54 @@ def fetch_crossref(query: str, start: datetime, end: datetime, limit: int = 40) 
               "filter": f"from-pub-date:{start:%Y-%m-%d},until-pub-date:{end:%Y-%m-%d}",
               "rows": max(1, min(int(limit), 100)),
               "select": "DOI,title,abstract,URL,published-online,published,published-print,issued,type,container-title"}
-    if os.getenv("RADAR_CONTACT_EMAIL"):
-        params["mailto"] = os.environ["RADAR_CONTACT_EMAIL"]
-    r = requests.get("https://api.crossref.org/works", params=params,
-                     headers=HEADERS, timeout=25)
-    r.raise_for_status()
+    contact_email = os.getenv("RADAR_CONTACT_EMAIL", "").strip()
+    if contact_email:
+        params["mailto"] = contact_email
+    # Identify the client to Crossref for responsible API usage. No API key needed.
+    headers = dict(HEADERS)
+    if contact_email:
+        headers["User-Agent"] = f"SpecialRobotRadar/0.2 (mailto:{contact_email})"
+
+    # Retry rate limiting and transient server errors. Other HTTP errors remain
+    # visible in weekly.md. Do not retry indefinitely or bypass rate limits.
+    retryable_status = {429, 502, 503, 504}
+    max_attempts = 3
+    for attempt in range(max_attempts):
+        r = requests.get("https://api.crossref.org/works", params=params,
+                         headers=headers, timeout=25)
+        status = getattr(r, "status_code", 200)
+        if status not in retryable_status:
+            r.raise_for_status()
+            break
+        if attempt == max_attempts - 1:
+            r.raise_for_status()  # log as one failed source; other sources continue
+            break
+
+        # Retry-After can be seconds or an HTTP date. Respect a long limit by
+        # skipping the query rather than retrying sooner than requested.
+        retry_after = (getattr(r, "headers", None) or {}).get("Retry-After", "")
+        wait = 8 * (2 ** attempt)  # 8s, 16s if the server gives no guidance
+        if retry_after:
+            try:
+                wait = max(0, float(retry_after))
+            except (TypeError, ValueError):
+                try:
+                    retry_at = parsedate_to_datetime(retry_after)
+                    if retry_at.tzinfo is None:
+                        retry_at = retry_at.replace(tzinfo=UTC)
+                    wait = max(0, (retry_at - utc_now()).total_seconds())
+                except (TypeError, ValueError, OverflowError):
+                    pass
+        if wait > 60:
+            raise RuntimeError(
+                f"Crossref HTTP {status}, Retry-After={retry_after!r}；"
+                "建议等待超过60秒，跳过本次查询以尊重限流。"
+            )
+        wait = max(wait, 1)
+        print(f"[WARN] Crossref HTTP {status}，第 {attempt + 1} 次失败，"
+              f"等待 {wait:.0f} 秒后重试：{query}", file=sys.stderr)
+        time.sleep(wait)
+
     out = []
     for w in r.json().get("message", {}).get("items", []):
         if w.get("type") not in ("journal-article", "proceedings-article", "posted-content"):
@@ -656,6 +700,8 @@ def main() -> None:
                 msg = f"Crossref {query}: {type(ex).__name__}: {ex}"
                 errors.append(msg)
                 print("[WARN]", msg, file=sys.stderr)
+            # Reduce bursts across independent Crossref search queries.
+            time.sleep(5)
         for feed in cfg.get("rss", []):
             expected_sources += 1
             try:
