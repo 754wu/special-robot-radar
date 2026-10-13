@@ -1,5 +1,69 @@
 [
   {
+    "id": "bbc7450f048a9c2e5f",
+    "title": "joey114132/claude-robotics-skills",
+    "url": "https://github.com/joey114132/claude-robotics-skills",
+    "source": "GitHub",
+    "type": "代码仓库更新",
+    "description": "Fundamentals-first Claude Code robotics skills: 18 advisors across arms, hands, ROS 2, mobile, legged, aerial, marine, soft, perception, safety, sim, fleet, swarm, field, medical and robot learning, plus a claude plugin eval suite",
+    "published": "2026-10-13T00:48:06Z",
+    "first_seen": "2026-10-12T09:34:43.225012+00:00",
+    "stars": 0,
+    "license": true,
+    "repo_id": 1323513491,
+    "category": "基础软件与系统",
+    "tags": [
+      "基础软件与系统",
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。Fundamentals-first Claude Code robotics skills: 18 advisors across arms, hands, ROS 2, mobile, legged, aerial, marine, soft, perception（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "69e61c4529817d0edd",
+    "title": "rsasaki0109/RobotNativeEngine",
+    "url": "https://github.com/rsasaki0109/RobotNativeEngine",
+    "source": "GitHub",
+    "type": "代码仓库更新",
+    "description": "Robot Native Engine — robot-native Rust simulation core with physics, sensors, Python bindings, and optional ROS 2 adapters.",
+    "published": "2026-10-12T22:40:44Z",
+    "first_seen": "2026-10-12T08:43:22.319760+00:00",
+    "stars": 21,
+    "license": true,
+    "repo_id": 1267277820,
+    "category": "基础软件与系统",
+    "tags": [
+      "基础软件与系统"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。Robot Native Engine — robot-native Rust simulation core with physics, sensors, Python bindings, and optional ROS 2 adapters.（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "18482c9444b9297e34",
+    "title": "New packages for Humble Hawksbill 2026-10-12",
+    "url": "https://discourse.openrobotics.org/t/new-packages-for-humble-hawksbill-2026-10-12/58802",
+    "source": "ROS Discourse",
+    "type": "社区动态",
+    "description": "We’re happy to announce 40 new packages and 446 updates to ROS 2 Humble Hawksbill This sync was tagged as humble/2026-10-12 . amd64 (40 new, 446 updates) (click for more details) arm64 (115 new, 446 updates) (click for more details) Thanks to all ROS maintainers who make packages available to the ROS community. The above list of packages was made possible by the work of the following maintainers: Alejandro Hernanadez Alvin Sun Andrej Orsula Austin Hendrix Bence Magyar Bernd Pfrommer Chris Lalancette Computer Vision And Aerial Robotics Group (UPM) Daniel Stonier Davide Faconti Felix Exner Felix Ruess Foxglove Francisco Martín Rico George Stavrinos Gonzalo Mier Haroon Rasheed Jinwoo Sung Jose Luis Blanco-Claraco Jose Miguel Guerrero Hernandez Jose-Luis Blanco-Claraco José Luis Blanco-Claraco Juan S. Cely G. Julia Jia Jungsup Lee Luis Camero Maik Knof Manan Kharwar Markus Bader Martin Günth",
+    "published": "2026-10-12T16:55:47+00:00",
+    "first_seen": "2026-10-13T01:27:20.918976+00:00",
+    "category": "基础软件与系统",
+    "tags": [
+      "基础软件与系统"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。We’re happy to announce 40 new packages and 446 updates to ROS 2 Humble Hawksbill This sync was tagged as humble/2026-10-12 . amd64 (40（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
     "id": "a24b8f4299b9a102fe",
     "title": "Arman10121995/Celisca-ROS-2-Robot",
     "url": "https://github.com/Arman10121995/Celisca-ROS-2-Robot",
@@ -19,29 +83,6 @@
     "scope": "可迁移的机器人关键技术",
     "score": 61,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。ROS 2 development for laboratory mobile robots at CELISCA, University of Rostock（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "特种机器人关键词初筛"
-  },
-  {
-    "id": "bbc7450f048a9c2e5f",
-    "title": "joey114132/claude-robotics-skills",
-    "url": "https://github.com/joey114132/claude-robotics-skills",
-    "source": "GitHub",
-    "type": "代码仓库更新",
-    "description": "Fundamentals-first Claude Code robotics skills: 18 advisors across arms, hands, ROS 2, mobile, legged, aerial, marine, soft, perception, safety, sim, fleet, swarm, field, medical and robot learning, plus a claude plugin eval suite",
-    "published": "2026-10-12T09:42:27Z",
-    "first_seen": "2026-10-12T09:34:43.225012+00:00",
-    "stars": 0,
-    "license": true,
-    "repo_id": 1323513491,
-    "category": "基础软件与系统",
-    "tags": [
-      "基础软件与系统",
-      "小脑与运动控制"
-    ],
-    "industry_tags": [],
-    "scope": "可迁移的机器人关键技术",
-    "score": 62,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。Fundamentals-first Claude Code robotics skills: 18 advisors across arms, hands, ROS 2, mobile, legged, aerial, marine, soft, perception（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -88,28 +129,6 @@
     "scope": "可迁移的机器人关键技术",
     "score": 63,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。An open-source, hands-on mobile robotics course covering Jetson, ROS 2, AI perception, SLAM, autonomous navigation, semantic understand（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "特种机器人关键词初筛"
-  },
-  {
-    "id": "69e61c4529817d0edd",
-    "title": "rsasaki0109/RobotNativeEngine",
-    "url": "https://github.com/rsasaki0109/RobotNativeEngine",
-    "source": "GitHub",
-    "type": "代码仓库更新",
-    "description": "Robot Native Engine — robot-native Rust simulation core with physics, sensors, Python bindings, and optional ROS 2 adapters.",
-    "published": "2026-10-12T09:00:57Z",
-    "first_seen": "2026-10-12T08:43:22.319760+00:00",
-    "stars": 21,
-    "license": true,
-    "repo_id": 1267277820,
-    "category": "基础软件与系统",
-    "tags": [
-      "基础软件与系统"
-    ],
-    "industry_tags": [],
-    "scope": "可迁移的机器人关键技术",
-    "score": 61,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。Robot Native Engine — robot-native Rust simulation core with physics, sensors, Python bindings, and optional ROS 2 adapters.（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -522,6 +541,48 @@
     "scope": "可迁移的机器人关键技术",
     "score": 60,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.13838v1 Announce Type: new Abstract: Nearly every autonomous or semi-autonomous flipper controller assumes access to an elev（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "0bf0f342a86fad243a",
+    "title": "Mobile robot navigation using theta star path planning artificial potential field avoidance pure pursuit tracking and LIDAR based occupancy grid mapping",
+    "url": "https://doi.org/10.1007/s44430-026-00046-0",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Discover Robotics。",
+    "published": "2026-10-12",
+    "first_seen": "2026-10-13T01:27:06.909815+00:00",
+    "doi": "10.1007/s44430-026-00046-0",
+    "category": "感知建图与导航",
+    "tags": [
+      "感知建图与导航",
+      "硬件与防爆"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 74,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Discover Robotics。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "f7dd846372b2f696bf",
+    "title": "Fault-Diagnosis-Aware Adaptive Policy Switching for Robust Map-Free Mobile Robot Navigation Under Sensor and Control Degradation",
+    "url": "https://doi.org/10.3390/s26206452",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Sensors。 Heterogeneous sensor and control degradation can destabilize direct sensor-to-action navigation. This study presents a fault-diagnosis-aware adaptive policy-switching framework that combines a calibrated seven-class temporal health-state classifier with hysteretic routing among nominal, robust-fallback, and six fault-specialized proximal policy optimization (PPO) policies. Unlike monolithic robust reinforcement learning, the architecture makes the inferred degradation mode an explicit and auditable control variable and separates health-state inference from behavior selection. Across a large held-out simulation evaluation with three independently trained policy seeds, diagnosed switching improved the central severity-0.55 static benchmark and within-episode transition outcomes relative to robust PPO, while the broader severity sweep showed regime-dependent behavior. Diagn",
+    "published": "2026-10-12",
+    "first_seen": "2026-10-13T01:27:06.909899+00:00",
+    "doi": "10.3390/s26206452",
+    "category": "小脑与运动控制",
+    "tags": [
+      "小脑与运动控制",
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 73,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Sensors。 Heterogeneous sensor and control degradation can destabilize direct sensor-to-action navigation. This study presents a（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -1173,6 +1234,28 @@
     "analysis_level": "特种机器人关键词初筛"
   },
   {
+    "id": "ac7360ccff125f3e1a",
+    "title": "What the Elevation Map Cannot See: Semantic-Aware Locomotion and Execution-Aware Navigation for Humanoid Robot",
+    "url": "https://doi.org/10.48550/arxiv.2610.07396",
+    "source": "OpenAlex",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：arXiv (Cornell University)。Navigation for humanoid robots is critical, yet large-scale evaluation on physical hardware is often impractical due to cost and safety concerns, making simulation benchmarks essential. Existing VLN benchmarks achieve physically executable navigation, but still assume (1) all hazards are observable from elevation maps; (2) realized motions closely match desired motions. In real environments, however, fallen bottles may be ambiguous in elevation maps, while phones and water spills may be difficult to differentiate; hazard avoidance by the locomotion policy can cause the robot's actual trajectory to deviate from the path intended by the VLN policy. Such command-execution mismatch can accumulate and lead the robot toward unintended locations. To expose these failure modes, we introduce a benchmark that models both elevation-subtle hazards and execution dev",
+    "published": "2026-10-05",
+    "first_seen": "2026-10-13T01:26:26.374301+00:00",
+    "doi": "https://doi.org/10.48550/arxiv.2610.07396",
+    "category": "小脑与运动控制",
+    "tags": [
+      "小脑与运动控制",
+      "大脑与具身智能",
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 63,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。Navigation for humanoid robots is critical, yet large-scale evaluation on physical hardware is often（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
     "id": "f51d722224d8324b68",
     "title": "Mulligan: Performance-Guided Data Collection for Efficient On-Robot Learning",
     "url": "https://doi.org/10.48550/arxiv.2610.05882",
@@ -1190,6 +1273,46 @@
     "scope": "可迁移的机器人关键技术",
     "score": 61,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。Learning from human demonstrations is a reliable way to teach robots new tasks, but the gains from e（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "76bc67a11663baea86",
+    "title": "SharedKV-BT: Node-Local Typed Decisions for Behavior-Tree Agents",
+    "url": "https://doi.org/10.48550/arxiv.2610.07327",
+    "source": "OpenAlex",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：arXiv (Cornell University)。Agent tasks require sequences of interdependent decisions. Autoregressive models support more flexible decision interfaces than conventional classifiers but incur the latency of token-by-token generation. Recent shared-prefix methods reduce this cost by reusing encoded context and scoring multiple decisions in parallel, but do not model decision dependencies or verify execution. We propose SharedKV-BT, where each active node of a behavior tree (BT) exposes stage-local fields and candidates, and Shared-KV scores the candidates in parallel and passes the selected decision to a separate execution system. We tested SharedKV-BT on robot manipulation, mobile navigation, and computer-use tasks. Across three tasks, SharedKV-BT made typed decisions 2.36-4.15 times faster than prompt-matched autoregressive decoding. On the manipulation task, node-local Shared-KV ",
+    "published": "2026-10-05",
+    "first_seen": "2026-10-13T01:26:27.763550+00:00",
+    "doi": "https://doi.org/10.48550/arxiv.2610.07327",
+    "category": "感知建图与导航",
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。Agent tasks require sequences of interdependent decisions. Autoregressive models support more flexib（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "ca2a7dfb191858b646",
+    "title": "Humanoid Rickshaw Pulling: Whole-Body Locomotion under Coupled Wheeled Loads",
+    "url": "https://doi.org/10.48550/arxiv.2610.04238",
+    "source": "OpenAlex",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：arXiv (Cornell University)。Humanoid robots could transport payloads substantially heavier than themselves by pulling passive wheeled vehicles instead of carrying the load. This capability, however, creates a coupled locomotion problem: the robot must maintain persistent upper-body contact while adapting to unknown, configuration-dependent forces arising from the payload, vehicle, and terrain. We present a whole-body control framework for humanoid rickshaw pulling that tracks commanded vehicle motion while preserving balance and stable grasps under uncertain load dynamics. During training, a privileged teacher exploits vehicle states, interaction forces, and load properties. Its actions and latent are distilled into a history-conditioned student that implicitly infers coupled dynamics from proprioceptive responses, followed by reinforcement-learning fine-tuning. Comparisons with \\",
+    "published": "2026-10-03",
+    "first_seen": "2026-10-13T01:26:26.374515+00:00",
+    "doi": "https://doi.org/10.48550/arxiv.2610.04238",
+    "category": "小脑与运动控制",
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。Humanoid robots could transport payloads substantially heavier than themselves by pulling passive wh（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
