@@ -1,5 +1,71 @@
 [
   {
+    "id": "35d57568dd14b0fd0f",
+    "title": "KwanWaiPang/Awesome-Legged-Robot-Localization-and-Mapping",
+    "url": "https://github.com/KwanWaiPang/Awesome-Legged-Robot-Localization-and-Mapping",
+    "source": "GitHub",
+    "type": "代码仓库更新",
+    "description": "Paper Survey for SLAM in Legged Robot",
+    "published": "2026-10-13T06:55:08Z",
+    "first_seen": "2026-10-13T07:42:02.812957+00:00",
+    "stars": 77,
+    "license": false,
+    "repo_id": 954700157,
+    "category": "感知建图与导航",
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 69,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。Paper Survey for SLAM in Legged Robot（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "7e991965be12d47e7d",
+    "title": "iit-DLSLab/basic-locomotion-isaaclab",
+    "url": "https://github.com/iit-DLSLab/basic-locomotion-isaaclab",
+    "source": "GitHub",
+    "type": "代码仓库更新",
+    "description": "An IsaacLab DirectEnv for basic quadrupedal locomotion tasks, with support for multiple quadruped robots, sim-to-sim, and sim-to-real pipelines",
+    "published": "2026-10-13T06:29:02Z",
+    "first_seen": "2026-10-13T07:42:02.813010+00:00",
+    "stars": 136,
+    "license": true,
+    "repo_id": 1005438694,
+    "category": "小脑与运动控制",
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。An IsaacLab DirectEnv for basic quadrupedal locomotion tasks, with support for multiple quadruped robots, sim-to-sim, and sim-to-real p（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "69e61c4529817d0edd",
+    "title": "rsasaki0109/RobotNativeEngine",
+    "url": "https://github.com/rsasaki0109/RobotNativeEngine",
+    "source": "GitHub",
+    "type": "代码仓库更新",
+    "description": "Robot Native Engine — robot-native Rust simulation core with physics, sensors, Python bindings, and optional ROS 2 adapters.",
+    "published": "2026-10-13T03:02:54Z",
+    "first_seen": "2026-10-12T08:43:22.319760+00:00",
+    "stars": 21,
+    "license": true,
+    "repo_id": 1267277820,
+    "category": "基础软件与系统",
+    "tags": [
+      "基础软件与系统"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。Robot Native Engine — robot-native Rust simulation core with physics, sensors, Python bindings, and optional ROS 2 adapters.（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
     "id": "bbc7450f048a9c2e5f",
     "title": "joey114132/claude-robotics-skills",
     "url": "https://github.com/joey114132/claude-robotics-skills",
@@ -20,28 +86,6 @@
     "scope": "可迁移的机器人关键技术",
     "score": 62,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。Fundamentals-first Claude Code robotics skills: 18 advisors across arms, hands, ROS 2, mobile, legged, aerial, marine, soft, perception（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "特种机器人关键词初筛"
-  },
-  {
-    "id": "69e61c4529817d0edd",
-    "title": "rsasaki0109/RobotNativeEngine",
-    "url": "https://github.com/rsasaki0109/RobotNativeEngine",
-    "source": "GitHub",
-    "type": "代码仓库更新",
-    "description": "Robot Native Engine — robot-native Rust simulation core with physics, sensors, Python bindings, and optional ROS 2 adapters.",
-    "published": "2026-10-12T22:40:44Z",
-    "first_seen": "2026-10-12T08:43:22.319760+00:00",
-    "stars": 21,
-    "license": true,
-    "repo_id": 1267277820,
-    "category": "基础软件与系统",
-    "tags": [
-      "基础软件与系统"
-    ],
-    "industry_tags": [],
-    "scope": "可迁移的机器人关键技术",
-    "score": 61,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。Robot Native Engine — robot-native Rust simulation core with physics, sensors, Python bindings, and optional ROS 2 adapters.（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
