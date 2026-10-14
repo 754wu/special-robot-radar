@@ -1,5 +1,499 @@
 [
   {
+    "id": "69e61c4529817d0edd",
+    "title": "rsasaki0109/RobotNativeEngine",
+    "url": "https://github.com/rsasaki0109/RobotNativeEngine",
+    "source": "GitHub",
+    "type": "代码仓库更新",
+    "description": "Robot Native Engine — robot-native Rust simulation core with physics, sensors, Python bindings, and optional ROS 2 adapters.",
+    "published": "2026-10-14T05:36:46Z",
+    "first_seen": "2026-10-12T08:43:22.319760+00:00",
+    "stars": 21,
+    "license": true,
+    "repo_id": 1267277820,
+    "category": "基础软件与系统",
+    "tags": [
+      "基础软件与系统"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。Robot Native Engine — robot-native Rust simulation core with physics, sensors, Python bindings, and optional ROS 2 adapters.（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "d45d6bb8ccb66a393b",
+    "title": "1ulone/quins_ros2",
+    "url": "https://github.com/1ulone/quins_ros2",
+    "source": "GitHub",
+    "type": "代码仓库更新",
+    "description": "QUINS Quadruped ROS Source Code",
+    "published": "2026-10-14T05:14:36Z",
+    "first_seen": "2026-10-14T06:11:20.060570+00:00",
+    "stars": 1,
+    "license": false,
+    "repo_id": 1217157307,
+    "category": "基础软件与系统",
+    "tags": [
+      "基础软件与系统"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 68,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。QUINS Quadruped ROS Source Code（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "d708fad04df6b88930",
+    "title": "dillonfaulk/H1V3-RobotPolicies",
+    "url": "https://github.com/dillonfaulk/H1V3-RobotPolicies",
+    "source": "GitHub",
+    "type": "代码仓库更新",
+    "description": "Reinforcement learning locomotion policies trained in NVIDIA Isaac Lab for two robots: asimov-1 (humanoid, PPO+AMP omnidirectional walking) and v1x1 (quadruped, PPO omnidirectional walking) β€” both with live ROS2 teleop bridges for real-time keyboard control.",
+    "published": "2026-10-14T04:30:53Z",
+    "first_seen": "2026-10-14T06:11:12.426782+00:00",
+    "stars": 1,
+    "license": false,
+    "repo_id": 1416356098,
+    "category": "小脑与运动控制",
+    "tags": [
+      "小脑与运动控制",
+      "基础软件与系统"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 70,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。Reinforcement learning locomotion policies trained in NVIDIA Isaac Lab for two robots: asimov-1 (humanoid, PPO+AMP omnidirectional walk（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "eed4fad3367f6b86f0",
+    "title": "PointWalker: Mapless Quadruped Locomotion Directly From Raw LiDAR Point Clouds",
+    "url": "https://arxiv.org/abs/2610.15548",
+    "source": "arXiv Robotics RSS",
+    "type": "论文（摘要）",
+    "description": "arXiv:2610.15548v1 Announce Type: new Abstract: Quadruped robots deployed for inspection and field missions must cross heterogeneous terrain, from stairs, slopes, and gaps to high platforms, stepping stones, and balance beams, where safe support is sparse or see-through. Existing methods interpose a terrain map or a depth image between sensing and control. Maps are costly to maintain, corrupted by odometry drift and outliers, and misled by see-through gratings, while depth cameras degrade with lighting and surface material. In this paper, we present PointWalker, a mapless framework whose single reinforcement learning policy directly consumes raw point clouds from four light detection and ranging (LiDAR) sensors. Voxelized points are encoded by linear self-attention and fused with proprioception through cross-attention, so terrain geometry reaches the policy without maps or foothold estim",
+    "published": "2026-10-14T04:00:00+00:00",
+    "first_seen": "2026-10-14T06:11:07.760794+00:00",
+    "category": "小脑与运动控制",
+    "tags": [
+      "小脑与运动控制",
+      "硬件与防爆",
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 67,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.15548v1 Announce Type: new Abstract: Quadruped robots deployed for inspection and field missions must cross heterogeneous te（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "bc901c2ffb614139e5",
+    "title": "Load-Aware Quadruped Navigation with Online Contact-based Geometry Estimation",
+    "url": "https://arxiv.org/abs/2610.14596",
+    "source": "arXiv Robotics RSS",
+    "type": "论文（摘要）",
+    "description": "arXiv:2610.14596v1 Announce Type: new Abstract: Navigating cluttered environments while carrying objects remains a challenging problem for quadruped robots. Compared with works that focused on load-aware locomotion adaptation to maintain gait stability, existing autonomous navigation systems generally ignore the influence of carried objects' geometries and use fixed footprint inflation, leading to overly conservative navigation. To fill this knowledge gap, we propose a two-phase load-aware navigation learning framework. In Phase 1, we train LOADNav, a load-aware navigation policy via reinforcement learning, enabling the robot to adapt its trajectory and clearance behavior according to the geometric size of the carried object. In Phase 2, we train CoGE, an online geometry predictor via imitation learning, which estimates unknown payload geometry from occasional contact events. We evaluate",
+    "published": "2026-10-14T04:00:00+00:00",
+    "first_seen": "2026-10-14T06:11:07.757681+00:00",
+    "category": "小脑与运动控制",
+    "tags": [
+      "小脑与运动控制",
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 66,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.14596v1 Announce Type: new Abstract: Navigating cluttered environments while carrying objects remains a challenging problem （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "20a2f0ddcf1f23a8eb",
+    "title": "Beyond Fixed Visual History: Learning Motion-Adaptive Temporal Receptive Fields for Complex-Terrain Quadruped Locomotion",
+    "url": "https://arxiv.org/abs/2610.14753",
+    "source": "arXiv Robotics RSS",
+    "type": "论文（摘要）",
+    "description": "arXiv:2610.14753v1 Announce Type: new Abstract: Versatile quadruped locomotion depends on a tight coupling between what the robot perceives and what its body can execute. Yet existing visual controllers typically organize depth history using fixed temporal patterns, overlooking that the same temporal span corresponds to different spatial ranges as the robot's speed, posture, and gait phase change. Consequently, the same visual history may be insufficient in one motion state but outdated or misaligned in another. To address this limitation, we propose TempoLoco, a body-aware dynamic visual perception framework that organizes visual memory according to the robot's current locomotion state. TempoLoco learns multiple complementary temporal views from a long depth buffer, encodes them within a shared feature space, and dynamically aggregates them using proprioceptive history and multi-scale t",
+    "published": "2026-10-14T04:00:00+00:00",
+    "first_seen": "2026-10-14T06:11:07.758483+00:00",
+    "category": "小脑与运动控制",
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 65,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.14753v1 Announce Type: new Abstract: Versatile quadruped locomotion depends on a tight coupling between what the robot perce（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "e8bb2eb37a8ca498a4",
+    "title": "LiDAR-based Humanoid Navigation in Dynamic, Non-Convex Environments via Spatio-Temporal Safe Corridors",
+    "url": "https://arxiv.org/abs/2610.17232",
+    "source": "arXiv Robotics RSS",
+    "type": "论文（摘要）",
+    "description": "arXiv:2610.17232v1 Announce Type: new Abstract: Navigating humanoid robots through dynamic, non-convex environments requires tightly coupling onboard perception with footstep planning and dynamic locomotion control. Existing methods frequently discard complex free space through simplified convex obstacle bounds and fail to account for real-time dynamic occupancy predictions. This paper presents a real-time framework for humanoid navigation that directly constructs spatio-temporal safe corridors from LiDAR-based particle representations and couples them with Linear Inverted Pendulum (LIP)-based planning and Whole Body Control (WBC) to enable navigation around and within moving non-convex structures without restrictive geometric assumptions. Simulations on the Digit humanoid yield a 96% success rate in navigating around and inside moving non-convex obstacles in a 24 by 24 m^2 arena. Ablati",
+    "published": "2026-10-14T04:00:00+00:00",
+    "first_seen": "2026-10-14T06:11:07.764922+00:00",
+    "category": "小脑与运动控制",
+    "tags": [
+      "小脑与运动控制",
+      "感知建图与导航",
+      "硬件与防爆"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 65,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.17232v1 Announce Type: new Abstract: Navigating humanoid robots through dynamic, non-convex environments requires tightly co（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "874045c40b88238d9d",
+    "title": "RoboBugBench: Benchmarking Automated Repair of Real Robot Software Under an Audited Behavioral Oracle",
+    "url": "https://arxiv.org/abs/2610.16369",
+    "source": "arXiv Robotics RSS",
+    "type": "论文（摘要）",
+    "description": "arXiv:2610.16369v1 Announce Type: new Abstract: Language agents increasingly modify robot software, but whether they can repair it is unmeasured, because the domain supplies no oracle to inherit: a robot bug manifests as behavior, and robot repositories ship almost no tests that capture it. We present RoboBugBench, a benchmark of 33 real, execution-validated defects in a pinned ROS 2 navigation stack, in which a candidate patch is graded by compiling it and driving the robot through a physics simulation rather than by running a unit test. Three frontier models, each given 1 attempt per instance, repair 24.2%-36.4%, with no pairwise difference significant; difficulty tracks the oracle rather than the domain, at 66.7% on instances graded by process survival against 22.2% on those graded by what the robot did (instance-level p = 0.0027). Because the oracle is constructed rather than inherit",
+    "published": "2026-10-14T04:00:00+00:00",
+    "first_seen": "2026-10-14T06:11:07.763408+00:00",
+    "category": "基础软件与系统",
+    "tags": [
+      "基础软件与系统",
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 64,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.16369v1 Announce Type: new Abstract: Language agents increasingly modify robot software, but whether they can repair it is u（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "8bd0b94584d5f29d93",
+    "title": "OIL: An Object Interaction Layer for Humanoid Whole-Body Control",
+    "url": "https://arxiv.org/abs/2610.14033",
+    "source": "arXiv Robotics RSS",
+    "type": "论文（摘要）",
+    "description": "arXiv:2610.14033v1 Announce Type: new Abstract: Recent progress in learned whole-body controllers for humanoid robots has enabled robust free-space motion by tracking kinematic targets such as joint or end-effector trajectories. This interface provides a useful abstraction for upstream systems, including motion capture, teleoperation, or generative models, which can specify desired motion without reasoning about forces or balance. However, this abstraction has largely been limited to robot motion, requiring task-specific controllers or retraining for object interaction. We introduce OIL, an Object Interaction Layer that extends the kinematic command interface of whole-body control to include desired object motion and contact. OIL augments a standard controller with object-centric commands and translates them into coordinated whole-body behavior while preserving locomotion and balance. Th",
+    "published": "2026-10-14T04:00:00+00:00",
+    "first_seen": "2026-10-14T06:11:07.754702+00:00",
+    "category": "小脑与运动控制",
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.14033v1 Announce Type: new Abstract: Recent progress in learned whole-body controllers for humanoid robots has enabled robus（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "a906784053670d1911",
+    "title": "Reinforcement Learning from Real-Robot Interaction without High-Quality State Estimates",
+    "url": "https://arxiv.org/abs/2610.14042",
+    "source": "arXiv Robotics RSS",
+    "type": "论文（摘要）",
+    "description": "arXiv:2610.14042v1 Announce Type: new Abstract: A longstanding goal for robot reinforcement learning (RL) is that robots learn from their own physical experience, as humans and animals do. A key obstacle to learning directly from physical experience, especially outside instrumented lab environments, is that the state of the world is usually unobservable to the learner and must be estimated from on-board sensing. Errors in that estimate corrupt both the policy input and potentially the reward signal. We study this challenge using the contact-rich task of a bipedal robot learning to score soccer goals. We estimate all key state variables on-board with an unscented Kalman filter (UKF) and no external instrumentation (e.g., motion capture or overhead cameras). Because the UKF may incorrectly estimate state when the ball is unobserved, we learn a new state representation with a recurrent stat",
+    "published": "2026-10-14T04:00:00+00:00",
+    "first_seen": "2026-10-14T06:11:07.755037+00:00",
+    "category": "小脑与运动控制",
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.14042v1 Announce Type: new Abstract: A longstanding goal for robot reinforcement learning (RL) is that robots learn from the（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "4cabc8a0044fbea6d0",
+    "title": "RootSLAM: Square Root Bundle Adjustment for Visual-Inertial SLAM",
+    "url": "https://arxiv.org/abs/2610.15157",
+    "source": "arXiv Robotics RSS",
+    "type": "论文（摘要）",
+    "description": "arXiv:2610.15157v1 Announce Type: new Abstract: Efficient perception is a prerequisite for the small, low-power devices targeted by robotics, mixed reality, autonomous driving, and drone applications, all of which rely on Simultaneous Localization and Mapping (SLAM) to estimate their motion within their surroundings. Learning-based SLAM systems achieve state-of-the-art accuracy but are demanding in compute, whereas classical geometry-based methods retain a strong efficiency advantage with little to no loss in accuracy. In this work we present RootSLAM, a fully-featured visual-inertial SLAM system for multi-camera setups built on Basalt. RootSLAM achieves accuracy competitive with the state of the art while running up to 20 times faster, facilitating the deployment of perception systems in resource constrained environments. We adapt the square-root bundle adjustment formulation from struc",
+    "published": "2026-10-14T04:00:00+00:00",
+    "first_seen": "2026-10-14T06:11:07.759803+00:00",
+    "category": "感知建图与导航",
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.15157v1 Announce Type: new Abstract: Efficient perception is a prerequisite for the small, low-power devices targeted by rob（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "07fe6a4cd040c1a28e",
+    "title": "FlowVLA: Enabling World Dynamics Understanding through Pluggable 3D Flow Learning",
+    "url": "https://arxiv.org/abs/2610.16160",
+    "source": "arXiv Robotics RSS",
+    "type": "论文（摘要）",
+    "description": "arXiv:2610.16160v1 Announce Type: new Abstract: Recent advances in 3D reconstruction enable the extraction of temporally consistent 3D motion from RGB observations; however, current Vision-Language-Action (VLA) models still predominantly rely on 2D image-text priors. Therefore, they do not accurately represent the fundamental dynamics of the 3D world associated with physical actions. This over-reliance on static 2D visual cues limits the capacity of VLA models in achieving robust robot manipulation. To address these limitations, we introduce FlowVLA, a reconstruction-guided, pluggable 3D flow learning framework aimed at empowering VLA models with an inherent understanding of action-relevant dynamics. Instead of requiring explicit 3D sensor inputs or altering the inference-time architecture, our method is designed to utilize temporally aligned 3D flow only during training. This allows the",
+    "published": "2026-10-14T04:00:00+00:00",
+    "first_seen": "2026-10-14T06:11:07.762526+00:00",
+    "category": "大脑与具身智能",
+    "tags": [
+      "大脑与具身智能"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.16160v1 Announce Type: new Abstract: Recent advances in 3D reconstruction enable the extraction of temporally consistent 3D （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "0eab47ae22c363abfe",
+    "title": "Listen Before Act: Audio-Conditioned Robot Manipulation with ListenVLA",
+    "url": "https://arxiv.org/abs/2610.16313",
+    "source": "arXiv Robotics RSS",
+    "type": "论文（摘要）",
+    "description": "arXiv:2610.16313v1 Announce Type: new Abstract: Vision-language-action (VLA) models have advanced robotic manipulation by connecting visual perception and language instructions to action generation. However, many manipulation tasks depend on auditory cues that cannot be reliably inferred from visual observations and may need to be elicited through physical interaction. To address this gap, we present ListenVLA, an audio-conditioned VLA policy built on GR00T N1.7 for sound-guided manipulation. ListenVLA combines semantic audio embeddings with waveform-derived acoustic cues over a causal audio history and conditions continuous action generation through audio tokens and feature modulation. Moreover, we introduce an audio-action binding objective that uses context-matched demonstrations to link auditory differences to demonstrated action differences. The objective supervises short-horizon di",
+    "published": "2026-10-14T04:00:00+00:00",
+    "first_seen": "2026-10-14T06:11:07.763019+00:00",
+    "category": "大脑与具身智能",
+    "tags": [
+      "大脑与具身智能"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.16313v1 Announce Type: new Abstract: Vision-language-action (VLA) models have advanced robotic manipulation by connecting vi（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "0d789c9149c5908325",
+    "title": "PINT: A Unified Model with Shared Predictive Intent for Robot Manipulation",
+    "url": "https://arxiv.org/abs/2610.16355",
+    "source": "arXiv Robotics RSS",
+    "type": "论文（摘要）",
+    "description": "arXiv:2610.16355v1 Announce Type: new Abstract: Generalist robot manipulation can benefit from pretrained vision-language models (VLMs) for semantic reasoning and video generation models (VGMs) for world modeling. However, existing unified models that directly fuse them through shared attention at multiple layers can make it harder to draw on their specialized capabilities. We introduce PINT, a unified model that coordinates semantic reasoning, world modeling, and action generation through a shared chunk-level Predictive Intent while preserving expert-specific pathways. PINT inserts learnable Intent Tokens into the VLM sequence to form this representation, conditioning both the VGM and an Action Expert (AE). It replaces only the VGM's prompt conditioning and retains the VGM at inference, where the AE reads its representations through one-way attention. Rather than prescribing what Predic",
+    "published": "2026-10-14T04:00:00+00:00",
+    "first_seen": "2026-10-14T06:11:07.763339+00:00",
+    "category": "大脑与具身智能",
+    "tags": [
+      "大脑与具身智能"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.16355v1 Announce Type: new Abstract: Generalist robot manipulation can benefit from pretrained vision-language models (VLMs)（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "b53b57af09bacfd60b",
+    "title": "Make {\\pi}0.5 Learn to Call Astra for Reliable Robot Manipulation",
+    "url": "https://arxiv.org/abs/2610.14117",
+    "source": "arXiv Robotics RSS",
+    "type": "论文（摘要）",
+    "description": "arXiv:2610.14117v1 Announce Type: new Abstract: GPT-6 Astra provides robust embodied reasoning, but frequent external queries increase inference time and token costs. We equip a frozen $\\pi_{0.5}$ policy with a lightweight CALL head that learns to predict when assistance is necessary. CALL reuses features from the standard policy forward pass and operates locally without consulting external models. Astra is activated solely for critical recovery events and returns control to $\\pi_{0.5}$ upon stabilization. Evaluated across 40 LIBERO tasks (200 episodes), our system achieves a 97.5% success rate, outperforming the 95.5% baseline of pure $\\pi_{0.5}$. In the Object, Goal, and Spatial suites, Astra executes only 5.49% of environment steps, consuming approximately 5,027 tokens per test episode. This selective intervention preserves the fast ordinary execution of $\\pi_{0.5}$ while seamlessly i",
+    "published": "2026-10-14T04:00:00+00:00",
+    "first_seen": "2026-10-14T06:11:07.755709+00:00",
+    "category": "大脑与具身智能",
+    "tags": [
+      "大脑与具身智能"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.14117v1 Announce Type: new Abstract: GPT-6 Astra provides robust embodied reasoning, but frequent external queries increase （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "856340eb646c2f736f",
+    "title": "PILOT: Guiding Long-Horizon World-Model Planning for Robot Manipulation with Visual Subgoals and Policy Priors",
+    "url": "https://arxiv.org/abs/2610.14335",
+    "source": "arXiv Robotics RSS",
+    "type": "论文（摘要）",
+    "description": "arXiv:2610.14335v1 Announce Type: new Abstract: Latent world-model planning has shown promising results in goal-conditioned robotic manipulation, but remains challenging for long-horizon planning due to limited temporal guidance and inefficient action search. A distant visual goal provides little guidance for preparatory actions, while uninformed action sampling makes local optimization inefficient. We propose PILOT (Policy-Initialized Local Optimization with Temporal subgoals), which uses a video model to generate intermediate visual subgoals and a learned policy to initialize the cross-entropy method (CEM). CEM refines candidate action sequences toward each subgoal using an action-conditioned world model in a receding-horizon control loop. In our primary real-robot evaluation across four UR5e manipulation tasks, PILOT achieves 68.8% success, compared with 55.0% without policy initializ",
+    "published": "2026-10-14T04:00:00+00:00",
+    "first_seen": "2026-10-14T06:11:07.756347+00:00",
+    "category": "大脑与具身智能",
+    "tags": [
+      "大脑与具身智能"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.14335v1 Announce Type: new Abstract: Latent world-model planning has shown promising results in goal-conditioned robotic man（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "bb21ab6f942bca4d58",
+    "title": "ProWorld: Multi-View World Model with Proprioceptive Feedback for Closed-Loop Policy Evaluation",
+    "url": "https://arxiv.org/abs/2610.15294",
+    "source": "arXiv Robotics RSS",
+    "type": "论文（摘要）",
+    "description": "arXiv:2610.15294v1 Announce Type: new Abstract: Evaluating robot manipulation policies through repeated physical trials is costly. We study whether an action-conditioned world model can serve as a closed-loop test environment whose policy success rates track those on real robots. Beyond realistic video, the model must return the camera views and proprioceptive state needed for the policy's next action and preserve failed-action outcomes to avoid overestimating policy capability. We introduce ProWorld, a world model that jointly predicts multi-view video and robot state, then feeds both back to a frozen policy for repeated interaction. ProWorld comprises a shared transformer for joint video-state flow prediction and Shared-Time View Encoding to distinguish cameras while preserving temporal synchronization. To reduce interaction hallucinations that turn missed grasps into successful lifts,",
+    "published": "2026-10-14T04:00:00+00:00",
+    "first_seen": "2026-10-14T06:11:07.760052+00:00",
+    "category": "大脑与具身智能",
+    "tags": [
+      "大脑与具身智能"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.15294v1 Announce Type: new Abstract: Evaluating robot manipulation policies through repeated physical trials is costly. We s（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "6f0119b15744567dac",
+    "title": "LABIT: Long-Horizon Robotic Assembly Benchmark for Industrial Tasks",
+    "url": "https://arxiv.org/abs/2610.16398",
+    "source": "arXiv Robotics RSS",
+    "type": "论文（摘要）",
+    "description": "arXiv:2610.16398v1 Announce Type: new Abstract: Robot learning has undergone significant advancements in the domain of compliant control and robotic assembly. The development of novel methodologies has transcended the capacity to address discrete tasks, such as grasping or inserting, and has evolved to encompass the comprehensive construction of entire assemblies. Conventional benchmarks, which are predominantly focused on single tasks, are no longer adequate to address the complexity and interconnected nature of modern manufacturing processes. Consequently, the necessity for benchmarks to encompass a broader spectrum of assembly and subassembly steps is becoming apparent. In light of these developments, we propose LABIT, an industrial robotic assembly benchmark for long-horizon manipulation. This benchmark encompasses DIN-norm assembly tasks, including screwing, placing, inserting, and ",
+    "published": "2026-10-14T04:00:00+00:00",
+    "first_seen": "2026-10-14T06:11:07.763475+00:00",
+    "category": "小脑与运动控制",
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.16398v1 Announce Type: new Abstract: Robot learning has undergone significant advancements in the domain of compliant contro（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "32df96e137d70298d0",
+    "title": "Learning Reachability-Based Safety Representations for Real-Time Robot Navigation in Unknown and Dynamic Environments",
+    "url": "https://arxiv.org/abs/2610.16522",
+    "source": "arXiv Robotics RSS",
+    "type": "论文（摘要）",
+    "description": "arXiv:2610.16522v1 Announce Type: new Abstract: Safe robot navigation in unknown, dynamic environments requires more than geometric collision checking: a robot still far from an obstacle may be unable to avoid it because of its speed, orientation, or the obstacle's motion. Hamilton--Jacobi (HJ) reachability analysis captures this in a value function whose sign separates states that admit a safe continuation from those where collision is unavoidable, but computing it online for every newly observed environment is too expensive. This dissertation trains neural implicit representations offline on reachability solutions to give optimization-based controllers this information in real time. Since the value function never exceeds the constraint, it equals a directly computed constraint, such as a signed distance, minus a nonnegative dynamics correction. Learning only this correction keeps repre",
+    "published": "2026-10-14T04:00:00+00:00",
+    "first_seen": "2026-10-14T06:11:07.763789+00:00",
+    "category": "感知建图与导航",
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.16522v1 Announce Type: new Abstract: Safe robot navigation in unknown, dynamic environments requires more than geometric col（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "f72aaa447bfe00ac61",
+    "title": "Force-Modulated Dexterity: Unified Compliance for Contact-Rich Manipulation",
+    "url": "https://arxiv.org/abs/2610.17161",
+    "source": "arXiv Robotics RSS",
+    "type": "论文（摘要）",
+    "description": "arXiv:2610.17161v1 Announce Type: new Abstract: Teleoperation is widely used to collect high-quality demonstrations for robot learning. Dexterous manipulation, however, requires coordinated control of motion and contact forces. Operators can specify motion, but struggle to reproduce the subtle force adjustments of human manipulation without feeling the robot's contacts. We introduce Force-Modulated Dexterity (FOMO-Dex), a unified compliance formulation for contact-rich manipulation. FOMO-Dex expresses nominal actions in coordinates defined by task geometry and contact structure. It applies force-driven motion corrections along selected directions while leaving the remaining command components unchanged. Across card picking, paper cutting, screwdriving, and nut-and-bolt assembly, FOMO-Dex reduces excessive contact forces compared with stiff control. A user study shows that operators colle",
+    "published": "2026-10-14T04:00:00+00:00",
+    "first_seen": "2026-10-14T06:11:07.764749+00:00",
+    "category": "小脑与运动控制",
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.17161v1 Announce Type: new Abstract: Teleoperation is widely used to collect high-quality demonstrations for robot learning.（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "c591f034d4c196a180",
+    "title": "Value-Preserving Action Quantization",
+    "url": "https://arxiv.org/abs/2610.17252",
+    "source": "arXiv Robotics RSS",
+    "type": "论文（摘要）",
+    "description": "arXiv:2610.17252v1 Announce Type: new Abstract: Search-based policy learning, such as Monte Carlo tree search (MCTS), offers the flexibility to trade runtime computation for data efficiency and adaptation to novel environments. For robot learning, however, applying search requires discretizing the continuous action space and associated dynamics, typically through action quantization. While reconstruction-based quantization is sufficient for representing the continuous action space alone, policy learning additionally requires the quantized actions to preserve their effects on future states and values. We show that such requirement is not necessarily captured by action reconstruction error. Instead, we prove that the error in the value function resulting from action quantization is tightly bounded by the reconstruction error of state reachability under the quantized actions. Based on these",
+    "published": "2026-10-14T04:00:00+00:00",
+    "first_seen": "2026-10-14T06:11:07.764992+00:00",
+    "category": "小脑与运动控制",
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.17252v1 Announce Type: new Abstract: Search-based policy learning, such as Monte Carlo tree search (MCTS), offers the flexib（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "5456eeec6eb8c82186",
+    "title": "YanjieZe/awesome-humanoid-robot-learning",
+    "url": "https://github.com/YanjieZe/awesome-humanoid-robot-learning",
+    "source": "GitHub",
+    "type": "代码仓库更新",
+    "description": "A Paper List for Humanoid Robot Learning.",
+    "published": "2026-10-14T02:13:22Z",
+    "first_seen": "2026-10-14T06:11:18.191748+00:00",
+    "stars": 2819,
+    "license": true,
+    "repo_id": 881022384,
+    "category": "小脑与运动控制",
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。A Paper List for Humanoid Robot Learning.（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "0ea1a543c9ca3a3dca",
+    "title": "RoboShield v2: an inline command firewall gateway for ROS 2 (Rust + rclrs, two-domain bridge, SROS2)",
+    "url": "https://discourse.openrobotics.org/t/roboshield-v2-an-inline-command-firewall-gateway-for-ros-2-rust-rclrs-two-domain-bridge-sros2/58826",
+    "source": "ROS Discourse",
+    "type": "社区动态",
+    "description": "Hi all, Follow-up on RoboShield, my ROS 2 security project. v1 was a passive Rust watchdog that parsed raw RTPS packets with libpcap and flagged unknown GUID prefixes, unauthorized publishers and topic floods. It could alert, but it couldn’t stop anything. v2 is an inline gateway that protects the robot. Repo: GitHub - Amin-Ahmed-G/robotshield: Embedded out-of-band NIDS for ROS 2 RTPS/DDS networks in Rust with libpcap packet inspection and topic spoofing detection. · GitHub (v1 is kept on branch roboshield-v1-nids ) Architecture Laptop ~~ WiFi ~~ NanoPi (gateway) ── Ethernet ── Robot domain 10 robot_firewall domain 20 untrusted only bridge isolated LAN One process creates two contexts with different domain IDs (rclrs / rclpy both support domain_id per context). It’s the only thing that bridges the two domains; the kernel doesn’t forward packets ( ip_forward=0 , nftables default-drop, por",
+    "published": "2026-10-13T16:13:00+00:00",
+    "first_seen": "2026-10-14T06:11:09.809014+00:00",
+    "category": "基础软件与系统",
+    "tags": [
+      "基础软件与系统"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。Hi all, Follow-up on RoboShield, my ROS 2 security project. v1 was a passive Rust watchdog that parsed raw RTPS packets with libpcap an（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "62e5abafea4d1728b2",
+    "title": "Introducing RobotLens — a connected engineering workspace for ROS 2",
+    "url": "https://discourse.openrobotics.org/t/introducing-robotlens-a-connected-engineering-workspace-for-ros-2/58825",
+    "source": "ROS Discourse",
+    "type": "社区动态",
+    "description": "Hi everyone! I’ve been building RobotLens , a native robotics engineering workspace that brings visualization, debugging, diagnostics, simulation, and development workflows into one connected environment. My background is in computer graphics and game development. When I started learning ROS 2, I found myself constantly switching between terminals, visualizers, logs, simulators, and other tools. Each tool was useful on its own, but as a beginner, I often struggled to understand how everything connected and what was actually happening across the system. That experience led me to start building RobotLens. Coming from graphics and game development, I’ve always appreciated how tools like Unity and Unreal bring complex workflows into a single, interactive workspace. I wanted to explore a similar approach for robotics engineering. Here’s what’s been built so far: ROS 2 or Zenoh Workspace: Live",
+    "published": "2026-10-13T16:11:36+00:00",
+    "first_seen": "2026-10-14T06:11:09.809192+00:00",
+    "category": "基础软件与系统",
+    "tags": [
+      "基础软件与系统"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。Hi everyone! I’ve been building RobotLens , a native robotics engineering workspace that brings visualization, debugging, diagnostics, （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "7e3ab91a00ade0e558",
+    "title": "VizMini2: RViz, teleop and ROS 2 tools on your Android phone or tablet",
+    "url": "https://discourse.openrobotics.org/t/vizmini2-rviz-teleop-and-ros-2-tools-on-your-android-phone-or-tablet/58822",
+    "source": "ROS Discourse",
+    "type": "社区动态",
+    "description": "Hi everyone, I’d like to introduce VizMini2 , an Android app to view, drive and inspect ROS 2 robots from your phone or tablet. This is the first time I’m sharing it outside my own circle, so any comments, criticism or ideas are more than welcome. Why I built it Very often I just wanted to take a quick look at the robot: check whether the laser is publishing, see where it thinks it is on the map, move it a little or call a service. And for that I had to get the laptop out and open RViz, rqt and a couple of terminals. Walking behind the robot with a laptop in your hands isn’t very comfortable either. I wanted those tools in my pocket, talking directly to the robot, without installing anything on it. On top of that, many robots come with a built-in tablet to show their status or offer a few controls, and that almost always means running a server on the robot and building a custom web page.",
+    "published": "2026-10-13T15:04:54+00:00",
+    "first_seen": "2026-10-14T06:11:09.809591+00:00",
+    "category": "基础软件与系统",
+    "tags": [
+      "基础软件与系统"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。Hi everyone, I’d like to introduce VizMini2 , an Android app to view, drive and inspect ROS 2 robots from your phone or tablet. This is（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
     "id": "35d57568dd14b0fd0f",
     "title": "KwanWaiPang/Awesome-Legged-Robot-Localization-and-Mapping",
     "url": "https://github.com/KwanWaiPang/Awesome-Legged-Robot-Localization-and-Mapping",
@@ -41,28 +535,6 @@
     "scope": "可迁移的机器人关键技术",
     "score": 61,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。An IsaacLab DirectEnv for basic quadrupedal locomotion tasks, with support for multiple quadruped robots, sim-to-sim, and sim-to-real p（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "特种机器人关键词初筛"
-  },
-  {
-    "id": "69e61c4529817d0edd",
-    "title": "rsasaki0109/RobotNativeEngine",
-    "url": "https://github.com/rsasaki0109/RobotNativeEngine",
-    "source": "GitHub",
-    "type": "代码仓库更新",
-    "description": "Robot Native Engine — robot-native Rust simulation core with physics, sensors, Python bindings, and optional ROS 2 adapters.",
-    "published": "2026-10-13T03:02:54Z",
-    "first_seen": "2026-10-12T08:43:22.319760+00:00",
-    "stars": 21,
-    "license": true,
-    "repo_id": 1267277820,
-    "category": "基础软件与系统",
-    "tags": [
-      "基础软件与系统"
-    ],
-    "industry_tags": [],
-    "scope": "可迁移的机器人关键技术",
-    "score": 61,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。Robot Native Engine — robot-native Rust simulation core with physics, sensors, Python bindings, and optional ROS 2 adapters.（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -630,6 +1102,26 @@
     "analysis_level": "特种机器人关键词初筛"
   },
   {
+    "id": "809c7b74f73ce04cfd",
+    "title": "Autonomous Robotic Systems in Agriculture 5.0: A Review on Technical Architecture, Operational Applications, and Future Perspectives",
+    "url": "https://doi.org/10.15832/ankutbd.1957708",
+    "source": "OpenAlex",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Tarım Bilimleri Dergisi。This comprehensive narrative review examines the current state and future development perspectives of autonomous robotic systems within the scope of the Agriculture 5.0 paradigm, which aims for sustainable and efficient agricultural production. In this paper, the cognitive and physical structure of robotic systems is addressed through the \"Eye-Brain-Foot Hand\" hierarchy, and the role of next-generation Vision-Language Action (VLA) models, such as RT-2 and OpenVLA, in contextual agronomic decision-making processes is analyzed. Within the scope of field applications, the SAM2-based SPAF framework, which offers 95.54% harvesting success rate in tomatoes, and spot-spraying technologies that reduce chemical input volume by 90% are evaluated using quantitative data. Furthermore, the synergy between heterogeneous UAV-UGV fleets, trust-building through Explainable",
+    "published": "2026-10-12",
+    "first_seen": "2026-10-14T06:10:32.208259+00:00",
+    "doi": "https://doi.org/10.15832/ankutbd.1957708",
+    "category": "大脑与具身智能",
+    "tags": [
+      "大脑与具身智能"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Tarım Bilimleri Dergisi。This comprehensive narrative review examines the current state and future development perspectives of a（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
     "id": "630543869363bc568b",
     "title": "knoblog: a changelog of default-parameter changes from git history (Nav2, PX4, ArduPilot), feedback wanted",
     "url": "https://discourse.openrobotics.org/t/knoblog-a-changelog-of-default-parameter-changes-from-git-history-nav2-px4-ardupilot-feedback-wanted/58763",
@@ -686,6 +1178,26 @@
     "scope": "可迁移的机器人关键技术",
     "score": 65,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Autonomous Intelligent Systems。Abstract The orchestration of heterogeneous swarm systems, such as Unmanned Aerial Vehicle (UAV)（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "2801971d1cdef09f66",
+    "title": "HAVEN: A unified monocular RGB vision-and-language navigation framework for wheeled-legged robots",
+    "url": "https://doi.org/10.1016/j.displa.2026.103724",
+    "source": "OpenAlex",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Displays。",
+    "published": "2026-10-10",
+    "first_seen": "2026-10-12T09:34:26.495964+00:00",
+    "doi": "https://doi.org/10.1016/j.displa.2026.103724",
+    "category": "感知建图与导航",
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 64,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Displays。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -1058,6 +1570,26 @@
     "analysis_level": "特种机器人关键词初筛"
   },
   {
+    "id": "eeffce6cbd70bf7beb",
+    "title": "Borrowed Eyes: Markerless Nano-UAV Flight with an Active Quadruped Observer",
+    "url": "https://doi.org/10.48550/arxiv.2610.09967",
+    "source": "OpenAlex",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：arXiv (Cornell University)。Nano unmanned aerial vehicles (nano-UAVs) can navigate confined spaces that larger robots cannot, but their payload capacity severely limits the sensors and compute available for self-localization in global navigation satellite system (GNSS)-denied environments. We present a vision-based system that localizes a nano-UAV from a quadruped robot with an arm-mounted camera. The quadruped tracks the drone, estimates its position in its own coordinate system using segmentation masks and depth, and transmits that position over a real-time radio link. To ensure continuous tracking, we developed a perception-aware nonlinear Model Predictive Controller (NMPC) that dynamically adjusts the quadruped's body and arm to maximize the drone's visibility, treating observation reliability as a primary control objective. Relying solely on this external estimate, the nano-U",
+    "published": "2026-10-07",
+    "first_seen": "2026-10-14T06:10:32.486208+00:00",
+    "doi": "https://doi.org/10.48550/arxiv.2610.09967",
+    "category": "感知建图与导航",
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 65,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。Nano unmanned aerial vehicles (nano-UAVs) can navigate confined spaces that larger robots cannot, bu（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
     "id": "3c2b70c363c684acb9",
     "title": "Energy-Efficient Gait Adaptation via Hierarchical Reinforcement Learning for Quadrupedal Locomotion Across Diverse Terrains",
     "url": "https://doi.org/10.48550/arxiv.2610.10297",
@@ -1075,6 +1607,27 @@
     "scope": "可迁移的机器人关键技术",
     "score": 62,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。While energy efficiency is a critical objective for legged-robot locomotion control, achieving low e（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "31b8b07129767035ea",
+    "title": "EmbodiedRSI: Active Continual Robot Learning Through Hypothesis-Guided Co-Evolution",
+    "url": "https://doi.org/10.48550/arxiv.2610.10498",
+    "source": "OpenAlex",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：arXiv (Cornell University)。Robot foundation models provide strong visuomotor control, yet their performance can degrade when object positions or task instructions change. Further improvements often require post-training on substantial robot data, which can be costly to collect through methods such as teleoperation. Agentic harnesses can adapt around the model, but current self-evolving harnesses use robot trials inefficiently when deciding which code and skill changes to pursue. We introduce EmbodiedRSI, a self-evolving agentic harness that autonomously decides where to explore next and turns the resulting physical interaction into improved code and skills. EmbodiedRSI realizes this through a Fast-Slow Dual-System Architecture, in which competing code and skill hypotheses are maintained in a Hypothesis Graph. Value-of-Information Experiment Selection chooses physical experiments ",
+    "published": "2026-10-07",
+    "first_seen": "2026-10-14T06:10:31.879648+00:00",
+    "doi": "https://doi.org/10.48550/arxiv.2610.10498",
+    "category": "小脑与运动控制",
+    "tags": [
+      "小脑与运动控制",
+      "大脑与具身智能"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。Robot foundation models provide strong visuomotor control, yet their performance can degrade when ob（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -1232,6 +1785,26 @@
     "scope": "可迁移的机器人关键技术",
     "score": 65,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。Reinforcement Learning (RL) has enabled legged robots to perform a range of skills in single-task se（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "507dbe15e31ee41d0f",
+    "title": "iGPC: Generative Motion Priors for Object-Aware Humanoid Interaction",
+    "url": "https://doi.org/10.48550/arxiv.2610.08120",
+    "source": "OpenAlex",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：arXiv (Cornell University)。Humanoid robots operating in unstructured environments must combine robust whole-body control with the ability to perceive and physically interact with surrounding objects. While large-scale human motion data provides powerful priors for natural and versatile humanoid control, effectively transferring such priors to perception-driven object interaction remains challenging. To address this bottleneck, we propose a framework that extends the recently proposed Generative Pretrained Controller (GPC) from general human motion to full-body humanoid-environment interaction. First, we adapt GPC into interaction experts conditioned on scene affordance cues and privileged state information. These experts leverage the pretrained human motion prior while learning task-specific contact behaviors, including reaching toward objects, grasping environmental supports for",
+    "published": "2026-10-06",
+    "first_seen": "2026-10-14T06:10:31.484030+00:00",
+    "doi": "https://doi.org/10.48550/arxiv.2610.08120",
+    "category": "小脑与运动控制",
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。Humanoid robots operating in unstructured environments must combine robust whole-body control with t（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -1443,26 +2016,6 @@
     "scope": "特种场景直接相关",
     "score": 73,
     "summary": "行业筛选：特种场景直接相关；方向：基础软件与系统；关联：工业与能源巡检。来源期刊/会议：Discover Applied Sciences。To optimize the monitoring effectiveness of new energy power stations, a fully automated, unmanned mo（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "特种机器人关键词初筛"
-  },
-  {
-    "id": "2801971d1cdef09f66",
-    "title": "HAVEN: A unified monocular RGB vision-and-language navigation framework for wheeled-legged robots",
-    "url": "https://doi.org/10.1016/j.displa.2026.103724",
-    "source": "OpenAlex",
-    "type": "论文（摘要）",
-    "description": "来源期刊/会议：Displays。",
-    "published": "2026-10-01",
-    "first_seen": "2026-10-12T09:34:26.495964+00:00",
-    "doi": "https://doi.org/10.1016/j.displa.2026.103724",
-    "category": "感知建图与导航",
-    "tags": [
-      "感知建图与导航"
-    ],
-    "industry_tags": [],
-    "scope": "可迁移的机器人关键技术",
-    "score": 64,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Displays。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -1835,6 +2388,27 @@
     "scope": "可迁移的机器人关键技术",
     "score": 62,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Research Square。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "8afab424d5ae17e743",
+    "title": "PanoPed: Beyond Bounding Boxes for Sim-to-Real Panoramic Pedestrian Tracking",
+    "url": "https://doi.org/10.48550/arxiv.2610.08826",
+    "source": "OpenAlex",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：arXiv (Cornell University)。Full-sphere panoramic cameras let fixed monitoring systems and mobile robots track people in every direction, but a planar bounding box does not fully describe where a person is on the sphere. We introduce PanoPed, a sim-to-real benchmark for pedestrian tracking on the full sphere. PanoPed-S contains 108,000 frames from fixed, quadruped-mounted, and drone-mounted cameras, with synchronized masks, depth, camera poses, and 3D pedestrian states. PanoPed-R adds 28,002 real frames from fixed cameras, 16,247 of them densely annotated. We find that an ERP rectangle cannot uniquely determine the spherical center and angular extent of the visible person, while the detector's visual query still carries information about them. Inspired by the sextant's use of angular measurements to locate objects, we propose Sextant, a plug-and-play angular localization head with",
+    "published": "2026-09-25",
+    "first_seen": "2026-10-14T06:10:30.831058+00:00",
+    "doi": "https://doi.org/10.48550/arxiv.2610.08826",
+    "category": "小脑与运动控制",
+    "tags": [
+      "小脑与运动控制",
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。Full-sphere panoramic cameras let fixed monitoring systems and mobile robots track people in every d（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -4712,29 +5286,6 @@
     "scope": "可迁移的机器人关键技术",
     "score": 65,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Sensors。 The spine enhances the flexibility of quadrupeds during locomotion. Inspired by this biological mechanism, this study （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "特种机器人关键词初筛"
-  },
-  {
-    "id": "c46499b577a0b039da",
-    "title": "Multi-stage hierarchical multi-agent reinforcement learning for UAV-quadruped completing search and rescue",
-    "url": "https://doi.org/10.1007/s44430-026-00026-4",
-    "source": "Crossref",
-    "type": "论文（摘要）",
-    "description": "来源期刊/会议：Discover Robotics。",
-    "published": "2026-04-13",
-    "first_seen": "2026-10-12T09:34:31.495847+00:00",
-    "doi": "10.1007/s44430-026-00026-4",
-    "category": "小脑与运动控制",
-    "tags": [
-      "小脑与运动控制",
-      "特种应用与产品"
-    ],
-    "industry_tags": [
-      "消防与应急救援"
-    ],
-    "scope": "特种场景直接相关",
-    "score": 87,
-    "summary": "行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：消防与应急救援。来源期刊/会议：Discover Robotics。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   }
 ]

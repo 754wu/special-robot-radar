@@ -1,8 +1,8 @@
 # 特种机器人七日技术简报
 
-生成时间：2026-10-13T07:42:11.528687+00:00
+生成时间：2026-10-14T06:11:30.889727+00:00
 
-最近 7 天首次记录 **228** 条；本轮新增 **7** 条；总库存 **228** 条。
+最近 7 天首次记录 **256** 条；本轮新增 **34** 条；总库存 **256** 条。
 
 **注意：**‘七日’按首次入库时间统计，不代表论文发表于最近七天；相关度评分只是初筛优先级，不是成熟度或质量评级。
 
@@ -46,8 +46,6 @@
 
 ## 小脑与运动控制
 
-- [Multi-stage hierarchical multi-agent reinforcement learning for UAV-quadruped completing search and rescue](https://doi.org/10.1007/s44430-026-00026-4) | 论文（摘要） | 特种场景直接相关 | 匹配度 87/100
-  - 行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：消防与应急救援。来源期刊/会议：Discover Robotics。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Motion-Predictive Foothold Control for Quadruped Locomotion on Oscillating and Non-Inertial Platforms](https://eccsubmit.com/index.php/congress/article/view/251) | 论文（摘要） | 特种场景直接相关 | 匹配度 86/100
   - 行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：消防与应急救援、工业与能源巡检。来源期刊/会议：Electronics, Communications, and Computing Summit。Quadruped robots are finding more and more applications in disaster response,（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [A unified CPG-based and multi-agent control framework for low-cost quadruped robots](https://doi.org/10.1371/journal.pone.0356505) | 论文（摘要） | 特种场景直接相关 | 匹配度 84/100
@@ -62,6 +60,8 @@
   - 行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：工业与能源巡检。来源期刊/会议：IET Conference Proceedings。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Smooth LiDAR–Inertial–Joint Odometry for perception-driven legged locomotion](https://doi.org/10.55092/rl20260024) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 76/100
   - 行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Robot learning.。Light Detection and Ranging (LiDAR)–Inertial Odometry (LIO), which tightly fuses complementary data from LiDAR （仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Unleashing the Agility of Wheeled-Legged Robots for High-Dynamic Reflexive Obstacle Evasion](http://arxiv.org/abs/2604.23761v2) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 75/100
+  - 行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。Wheeled-legged robots combine the efficiency of rolling with the adaptability of legged locomotion, offering unique agility for dynamic（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 大脑与具身智能
 
@@ -120,9 +120,18 @@
 - [Hybrid motion planning with dynamics awareness for aerial-ground robots in industrial inspection and maintenance](https://doi.org/10.1016/j.robot.2026.105433) | 论文（摘要） | 特种场景直接相关 | 匹配度 76/100
   - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：Robotics and Autonomous Systems。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
-## 采集状态
+## 本轮采集异常
 
-本轮已配置来源均完成请求，但不保证其覆盖行业全部进展。
+- arXiv API all:"explosion-proof robot": ReadTimeout: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=35)
+- arXiv API all:"industrial inspection robot": HTTPError: 429 Client Error: Too Many Requests for url: https://export.arxiv.org/api/query?search_query=%28all%3A%22industrial+inspection+robot%22%29+AND+submittedDate%3A%5B202604140000+TO+202610142359%5D&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending
+- arXiv API all:"rescue robot": HTTPError: 429 Client Error: Too Many Requests for url: https://export.arxiv.org/api/query?search_query=%28all%3A%22rescue+robot%22%29+AND+submittedDate%3A%5B202604140000+TO+202610142359%5D&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending
+- arXiv API all:"quadruped locomotion": HTTPError: 429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=%28all%3A%22quadruped+locomotion%22%29+AND+submittedDate%3A%5B202604140000+TO+202610142359%5D&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending
+- arXiv API all:"wheel-legged robot": HTTPError: 429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=%28all%3A%22wheel-legged+robot%22%29+AND+submittedDate%3A%5B202604140000+TO+202610142359%5D&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending
+- arXiv API all:"legged robot control": HTTPError: 429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=%28all%3A%22legged+robot+control%22%29+AND+submittedDate%3A%5B202604140000+TO+202610142359%5D&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending
+- arXiv API all:"robot vision language navigation": HTTPError: 429 Client Error: Too Many Requests for url: https://export.arxiv.org/api/query?search_query=%28all%3A%22robot+vision+language+navigation%22%29+AND+submittedDate%3A%5B202604140000+TO+202610142359%5D&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending
+- arXiv API all:"embodied robot agent": HTTPError: 429 Client Error: Too Many Requests for url: https://export.arxiv.org/api/query?search_query=%28all%3A%22embodied+robot+agent%22%29+AND+submittedDate%3A%5B202604140000+TO+202610142359%5D&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending
+- arXiv API all:"robot autonomous navigation": ReadTimeout: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=35)
+- OpenAlex quadruped industrial inspection robot: HTTPError: 504 Server Error: Gateway Timeout for url: https://api.openalex.org/works?search=quadruped+industrial+inspection+robot&filter=from_publication_date%3A2026-04-14%2Cto_publication_date%3A2026-10-14&sort=publication_date%3Adesc&per_page=70&select=id%2Cdoi%2Cdisplay_name%2Cpublication_date%2Cabstract_inverted_index%2Cprimary_location%2Ctype
 
 ## 下一步人工核验
 
