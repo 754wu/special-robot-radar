@@ -1,8 +1,8 @@
 {
-  "history_months": 24,
-  "display_limit": 5000,
+  "history_months": 60,
+  "display_limit": 15000,
   "page_size": 12,
-  "max_history_items": 7500,
+  "max_history_items": 20000,
   "arxiv_limit": 100,
   "arxiv_queries_per_run": 0,
   "openalex_limit": 70,
@@ -311,6 +311,6 @@
       "股票交易"
     ]
   },
-  "openalex_backfill_per_run": 2,
-  "crossref_backfill_per_run": 1
+  "openalex_backfill_per_run": 3,
+  "crossref_backfill_per_run": 2
 }
