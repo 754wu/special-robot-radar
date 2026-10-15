@@ -1,13 +1,6 @@
 name: Recover Five-Year Archive
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - 'backfill.py'
-      - '.github/workflows/backfill-archive.yml'
-  schedule:
-    - cron: '45 3 * * *'
 permissions:
   contents: write
   pages: write
