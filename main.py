@@ -21,6 +21,7 @@ import time
 from datetime import datetime, timedelta, timezone
 from dateutil.relativedelta import relativedelta
 from pathlib import Path
+from taxonomy import classify_contribution, is_non_technical
 from urllib.parse import urlsplit, urlunsplit
 
 
@@ -564,70 +565,9 @@ SUPPORTING_TOPIC_CUES = {
 
 
 def classify_primary_topic(title: str, description: str) -> tuple[str, list[str]]:
-    """Select the primary research contribution from title-first evidence.
-
-    Description clues help disambiguate; incidental background terminology is
-    deliberately too weak to override a clear title. Hardware additionally
-    requires direct evidence of component/mechanism/protection design.
-    """
-    title = clean_text(title).lower()
-    desc = clean_text(description).lower()
-    points = {}
-    titled_primary = {}
-    for category, cues in PRIMARY_TOPIC_CUES.items():
-        title_hits = matching_terms(title, cues)
-        desc_hits = matching_terms(desc, cues)
-        title_support = matching_terms(title, SUPPORTING_TOPIC_CUES[category])
-        desc_support = matching_terms(desc, SUPPORTING_TOPIC_CUES[category])
-        titled_primary[category] = len(title_hits)
-        # Cap description weight to avoid long abstracts dominating the title.
-        points[category] = (
-            10 * min(3, len(title_hits)) +
-            1.1 * min(4, len(desc_hits)) +
-            1.8 * min(2, len(title_support)) +
-            0.15 * min(4, len(desc_support))
-        )
-    hw = "硬件与防爆"
-    # No hardware classification simply because algorithms mention sensors,
-    # actuator constraints, motors, robot joints or explosion-proof cameras.
-    explicit_hardware_title = titled_primary[hw] > 0
-    structural_title = bool(matching_terms(
-        title, ["design", "development", "fabrication", "mechanism", "prototype",
-                "structure", "morphology", "hardware", "设计", "结构", "机构", "研制"]))
-    physical_in_abstract = bool(matching_terms(
-        desc, ["actuator design", "motor design", "gearbox", "flameproof enclosure",
-               "mechanical design", "robot chassis", "transmission mechanism",
-               "joint actuator", "sensor hardware", "structural design",
-               "mechanical chassis", "printed circuit board", "servo motors",
-               "robot fabrication", "chassis fabricated", "3d printing",
-               "flameproof cavity", "explosion-proof housing",
-               "electric actuators", "electric actuator", "purge ventilation",
-               "隔爆外壳", "防爆电机", "关节电机", "减速器设计"]))
-    if not explicit_hardware_title and not (structural_title and physical_in_abstract):
-        points[hw] = -1
-    # Treat task navigation using MPC as navigation rather than control
-    # unless title is also specifically about gait/locomotion/joint dynamics.
-    nav = "感知建图与导航"
-    control = "小脑与运动控制"
-    navigation_task = bool(matching_terms(
-        title, ["navigation", "path planning", "exploration", "localization",
-                "mapping", "slam", "obstacle avoidance", "自主导航", "建图"]))
-    locomotion_task = bool(matching_terms(
-        title, ["locomotion", "gait", "whole-body control", "balance control",
-                "torque control", "joint control", "步态", "运动控制"]))
-    if navigation_task and not locomotion_task:
-        points[nav] += 4
-    # The main engineering contribution wins over the industrial scenario.
-    application = "特种应用与产品"
-    if any(points[c] >= 9 for c in points if c != application):
-        points[application] = min(points[application], 8)
-    priority = list(PRIMARY_TOPIC_CUES)
-    category = max(priority, key=lambda k: (points[k], -priority.index(k)))
-    if max(points.values()) < 1:
-        category = application
-    related = [k for k in sorted(priority, key=lambda k: points[k], reverse=True)
-               if k != category and points[k] >= 8 and points[k] >= 0.55 * points[category]]
-    return category, related[:2]
+    """Compatibility interface for the primary-contribution classifier."""
+    d = classify_contribution(title, description)
+    return d.category, list(d.related)
 
 
 def rule_enrich(item: dict, config: dict | None = None) -> dict | None:
@@ -636,6 +576,9 @@ def rule_enrich(item: dict, config: dict | None = None) -> dict | None:
     Generic VLM/RL papers, generic motor news and unrelated projects are rejected.
     This is metadata screening, not proof of real-world suitability or certification.
     """
+    rejected, reason = is_non_technical(item)
+    if rejected:
+        return None
     focus = get_focus(config)
     title = (item.get("title") or "").lower()
     desc = (item.get("description") or "").lower()
@@ -679,11 +622,15 @@ def rule_enrich(item: dict, config: dict | None = None) -> dict | None:
 
     # Primary contribution instead of raw word counts: a navigation abstract
     # mentioning LiDAR and actuators must not land in Hardware & Explosion-proof.
-    category, secondary_topics = classify_primary_topic(title, desc)
+    classified = classify_contribution(title, desc, item.get("source", ""))
+    category, secondary_topics = classified.category, list(classified.related)
     tags = [category] + secondary_topics
     if matched_sectors and category != "特种应用与产品":
         tags.append("特种应用与产品")
     item["category"] = category
+    item["classification_confidence"] = classified.confidence
+    item["classification_reason"] = classified.reason
+    item["needs_review"] = classified.review
     item["tags"] = list(dict.fromkeys(tags))[:4]
     item["industry_tags"] = matched_sectors[:3]
     item["scope"] = scope
@@ -692,7 +639,7 @@ def rule_enrich(item: dict, config: dict | None = None) -> dict | None:
     item["summary"] = (f"行业筛选：{scope}；方向：{category}；关联：{topic}。" +
                        clean_text(item.get("description", ""), 135) +
                        "（仅按标题/摘要/仓库简介筛选，未验证实际部署。）")
-    item["analysis_level"] = "特种机器人关键词初筛"
+    item["analysis_level"] = "主要研究贡献分类（元数据规则；待复核需人工检查）"
     return item
 
 
