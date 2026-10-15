@@ -1,8 +1,8 @@
 # 特种机器人七日技术简报
 
-生成时间：2026-10-15T05:36:06.760946+00:00
+生成时间：2026-10-15T05:55:27.126333+00:00
 
-最近 7 天首次记录 **813** 条；本轮新增 **92** 条；总库存 **813** 条。
+最近 7 天首次记录 **886** 条；本轮新增 **73** 条；总库存 **886** 条。
 
 **注意：**‘七日’按首次入库时间统计，不代表论文发表于最近七天；相关度评分只是初筛优先级，不是成熟度或质量评级。
 
@@ -31,6 +31,8 @@
   - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：矿山与地下空间。来源期刊/会议：Sensors。 Mine disasters require urgent lifeline setup in confined tunnels, but manual rescue in unstable accident zones carries（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Point clouds to as-built two-node wireframe digital twin: a novel method to support autonomous robotic inspection](https://doi.org/10.1007/s43684-024-00082-w) | 论文（摘要） | 特种场景直接相关 | 匹配度 76/100
   - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：工业与能源巡检。来源期刊/会议：Autonomous Intelligent Systems。 Abstract Previous studies have primarily focused on converting point clouds (PC) into a dense m（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Implementation of LiDAR Sensor for Mobile Robot Delivery Based on Robot Operating System](https://doi.org/10.30630/jeccom.1.2.67-79.2023) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 74/100
+  - 行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：JECCOM International Journal of Electronics Engineering and Applied Science。Recent research has focused on the development of m（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Vision-Based Gesture-Controlled Mobile Robot for Human–Robot Interaction Using ROS 2](https://doi.org/10.14313/jamris-2026-040) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 73/100
   - 行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Journal of Automation, Mobile Robotics and Intelligent Systems。 This paper presents the design and implementation of an autonom（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Cybersecurity: Protecting a Teleoperated ROS 2 Quadruped Robot](https://doi.org/10.17979/ja-cea.2026.47.13793) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 73/100
@@ -41,8 +43,6 @@
   - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：工业与能源巡检。来源期刊/会议：Research Square。Abstract Robotic inspection and artificial intelligence (AI) are increasingly used in power-system operation an（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Comparison of ROS 2 QoS Policies for Real-Time Quadruped Robot Control](https://doi.org/10.1109/infoteh68759.2026.11477650) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 72/100
   - 行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2026 25th International Symposium INFOTEH-JAHORINA (INFOTEH)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Dataset collection from a SubT environment](https://doi.org/10.1016/j.robot.2022.104168) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 69/100
-  - 行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Robotics and Autonomous Systems。This article presents a dataset collected from the subterranean (SubT) environment with a curre（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 小脑与运动控制
 
@@ -84,22 +84,22 @@
 
 ## 感知建图与导航
 
+- [PaTS-Wheel: A Passively-Transformable Single-Part Wheel for Mobile Robot Navigation on Unstructured Terrain](https://doi.org/10.1109/lra.2024.3389828) | 论文（摘要） | 特种场景直接相关 | 匹配度 95/100
+  - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：野外与特种地形。来源期刊/会议：IEEE Robotics and Automation Letters。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [A Robust LiDAR SLAM Method for Underground Coal Mine Robot with Degenerated Scene Compensation](https://doi.org/10.3390/rs15010186) | 论文（摘要） | 特种场景直接相关 | 匹配度 94/100
   - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：矿山与地下空间。来源期刊/会议：Remote Sensing。Simultaneous localization and mapping (SLAM) is the key technology for the automation of intelligent mining equi（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Reinforcement learning for mobile robot mapless navigation: a review of recent advances](https://doi.org/10.1515/jisys-2024-0547) | 论文（摘要） | 特种场景直接相关 | 匹配度 91/100
   - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：消防与应急救援。来源期刊/会议：Journal of Intelligent Systems。 Abstract Mobile robot navigation remains a critical challenge in robotics, with applications sp（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Traversability analysis with vision and terrain probing for safe legged robot navigation](https://doi.org/10.3389/frobt.2022.887910) | 论文（摘要） | 特种场景直接相关 | 匹配度 91/100
+  - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：野外与特种地形。来源期刊/会议：Frontiers in Robotics and AI。 Inspired by human behavior when traveling over unknown terrain, this study proposes the use of pr（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [ArtPlanner: Robust Legged Robot Navigation in the Field](https://doi.org/10.55417/fr.2023013) | 论文（摘要） | 特种场景直接相关 | 匹配度 90/100
+  - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：野外与特种地形。来源期刊/会议：Field Robotics。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Design and implementation of QUADRESCUE: A ROS-based quadruped robot for disaster response support](https://doi.org/10.11591/ijra.v14i3.pp387-398) | 论文（摘要） | 特种场景直接相关 | 匹配度 88/100
   - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：消防与应急救援。来源期刊/会议：IAES International Journal of Robotics and Automation (IJRA)。Search and rescue (SAR) operations in hazardous environments deman（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Navigation of Mobile Robot in Unstructured Terrain Environments](https://doi.org/10.3901/jme.260093) | 论文（摘要） | 特种场景直接相关 | 匹配度 87/100
   - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：野外与特种地形。来源期刊/会议：Journal of Mechanical Engineering。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [End to end navigation stack for nuclear power plant inspection with mobile robot](https://doi.org/10.1016/j.softx.2024.101750) | 论文（摘要） | 特种场景直接相关 | 匹配度 87/100
   - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：工业与能源巡检。来源期刊/会议：SoftwareX。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Plane-based grid map: A robot-centric mapping algorithm for wheel-legged rover motion planning in unstructured terrain environments](https://doi.org/10.1177/09544062221104376) | 论文（摘要） | 特种场景直接相关 | 匹配度 87/100
-  - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：野外与特种地形。来源期刊/会议：Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science。 Active suspension ro（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Degeneracy-resilient LiDAR-inertial SLAM for autonomous tunnel inspection robots](https://doi.org/10.1016/j.isprsjprs.2026.09.049) | 论文（摘要） | 特种场景直接相关 | 匹配度 86/100
-  - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：矿山与地下空间。来源期刊/会议：ISPRS Journal of Photogrammetry and Remote Sensing。Reliable localization and mapping remain challenging for autonomous tunnel i（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [OP‐Follower: Onboard Vision‐Based Obstacle‐Aware Predictive Person Following for Quadruped Robots via IBVS‐NMPC Control](https://doi.org/10.1002/rob.70363) | 论文（摘要） | 特种场景直接相关 | 匹配度 85/100
-  - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：野外与特种地形。来源期刊/会议：Journal of Field Robotics。ABSTRACT This paper presents OP‐Follower , a fully onboard, pure vision‐based, obstacle‐aware person‐（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 特种应用与产品
 
@@ -131,4 +131,4 @@
 
 ## 五年历史补录进度
 
-已完成 38 / 198 项年度/主题定向查询，详见 [backfill_report.md](backfill_report.md)。
+已完成 57 / 198 项年度/主题定向查询，详见 [backfill_report.md](backfill_report.md)。
