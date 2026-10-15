@@ -5609,6 +5609,26 @@
     "analysis_level": "特种机器人关键词初筛"
   },
   {
+    "id": "6e3a3e46f355950ddd",
+    "title": "Mechanical Design Methodology for a Biarticularly Driven Biped Robot with Complex Joint Geometry",
+    "url": "https://doi.org/10.3390/act15030145",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Actuators。 Biarticular actuators can enhance efficiency and stability in legged locomotion by transferring energy between joints. Their effectiveness depends strongly on the lever arm ratio—the ratio of the actuator’s moment arm at one joint to its moment arm at another—which governs how torque is distributed across joints during movement. Inspired by biomechanics, early robotic studies implemented biarticular actuators to improve energy efficiency, joint coordination, and positional control, primarily in planar or single-joint systems, leaving a gap in fully 3D robotic legs. Here, we present a geometry optimization framework for a robotic leg incorporating both biarticular and monoarticular actuators. Using human motion capture and joint torque data, we optimized the linkage mechanisms so that the system can maintain the required joint torques while keeping biarticular actuator ",
+    "published": "2026-03-03",
+    "first_seen": "2026-10-15T02:06:12.387831+00:00",
+    "doi": "10.3390/act15030145",
+    "category": "硬件与防爆",
+    "tags": [
+      "硬件与防爆"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 69,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：硬件与防爆；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Actuators。 Biarticular actuators can enhance efficiency and stability in legged locomotion by transferring energy between joint（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
     "id": "04d9bbc6d11fd150a1",
     "title": "CAUSALNAV: A Long-Term Embodied Navigation System for Autonomous Mobile Robots in Dynamic Outdoor Scenarios",
     "url": "https://doi.org/10.1109/lra.2026.3653283",
@@ -5845,6 +5865,26 @@
     "published": "2026-01-01",
     "first_seen": "2026-10-15T01:40:23.493552+00:00",
     "doi": "10.2139/ssrn.7050309",
+    "category": "硬件与防爆",
+    "tags": [
+      "硬件与防爆"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 64,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：硬件与防爆；关联：特种机器人共性技术（需核验应用适配性）。This article presents the design, fabrication, and validation of a low-cost, open-source quadruped assistive robot intended for indoor （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "05dc65ce3ebabb3dfe",
+    "title": "Design and Analysis of a Quadruped Wheel-Legged Robot Based on Virtual Equivalent Parallel Mechanism Theory",
+    "url": "https://doi.org/10.2139/ssrn.6960319",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "Wheel-legged robots represent a promising hybrid solution for locomotion in complex and unstructured environments. However, the strong coupling between terrain-adaptive limb motion and omnidirectional wheel-ground interaction poses challenges for kinematic modeling and configuration design. Based on the Virtual Equivalent Parallel Mechanism (VEPM) theory, this paper establishes a systematic framework for the structural synthesis and locomotion performance optimization of a quadruped wheel-legged robot. First, a number-synthesis method is used to enumerate candidate limb topologies, and a spectral-geometric isomorphism identification method is introduced to remove redundant topological configurations in highly symmetric mechanism graphs. Then, the robot-terrain interaction is formulated as a parallel mechanism with a non-coplanar virtual moving platform, leading to a unified kinematic mod",
+    "published": "2026-01-01",
+    "first_seen": "2026-10-15T02:06:17.772712+00:00",
+    "doi": "10.2139/ssrn.6960319",
     "category": "小脑与运动控制",
     "tags": [
       "小脑与运动控制"
@@ -5852,7 +5892,7 @@
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 64,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。This article presents the design, fabrication, and validation of a low-cost, open-source quadruped assistive robot intended for indoor （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。Wheel-legged robots represent a promising hybrid solution for locomotion in complex and unstructured environments. However, the strong （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -7328,6 +7368,46 @@
     "analysis_level": "特种机器人关键词初筛"
   },
   {
+    "id": "14b7924f4038b4fb3f",
+    "title": "ASSESSMENT OF MOBILE ROBOT LOAD-CARRYING POTENTIAL VIA DC GEARBOX MOTOR TORQUE",
+    "url": "https://doi.org/10.59581/metal.v2i1.93",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Mechanical, Energy and Material (METAL)。 The primary function of mobile robots is to transport various loads, including their own weight and additional cargo. Ensuring adequate torque in the wheel motors is crucial for effective load-bearing and movement. This study investigates the load-carrying capabilities of the TT DC gearbox motor, a popular and cost-effective choice for small robots. A mobile robot equipped with four TT DC gearbox motors and employing skid steering locomotion was constructed for this purpose. The robot featured a container designed to carry sand, and its load capacity was tested by gradually increasing the weight until the robot could no longer move. Experimental results showed that the maximum load the robot could carry on a flat surface was 4000 grams, which corresponds to 1000 grams per 5 cm diameter wheel, driven by a stall torque of 0.08336 Nm (0.85 kg",
+    "published": "2024-08-04",
+    "first_seen": "2026-10-15T02:06:12.387362+00:00",
+    "doi": "10.59581/metal.v2i1.93",
+    "category": "硬件与防爆",
+    "tags": [
+      "硬件与防爆"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 65,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：硬件与防爆；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Mechanical, Energy and Material (METAL)。 The primary function of mobile robots is to transport various loads, including their o（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "4f11f79febd7b7142c",
+    "title": "A low backlash and highly efficient gearbox for robot actuator",
+    "url": "https://doi.org/10.1109/aim55361.2024.10637046",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：2024 IEEE International Conference on Advanced Intelligent Mechatronics (AIM)。",
+    "published": "2024-07-15",
+    "first_seen": "2026-10-15T02:06:12.387378+00:00",
+    "doi": "10.1109/aim55361.2024.10637046",
+    "category": "硬件与防爆",
+    "tags": [
+      "硬件与防爆"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：硬件与防爆；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2024 IEEE International Conference on Advanced Intelligent Mechatronics (AIM)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
     "id": "cfd2d7eb942041499b",
     "title": "Compliant Motion Control of Wheel-Legged Humanoid Robot on Rough Terrains",
     "url": "https://doi.org/10.1109/tmech.2023.3320762",
@@ -7442,8 +7522,9 @@
     "published": "2024-02-27",
     "first_seen": "2026-10-15T01:54:05.582529+00:00",
     "doi": "10.54097/fye9e027",
-    "category": "特种应用与产品",
+    "category": "硬件与防爆",
     "tags": [
+      "硬件与防爆",
       "特种应用与产品"
     ],
     "industry_tags": [
@@ -7451,7 +7532,7 @@
     ],
     "scope": "特种场景直接相关",
     "score": 78,
-    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：防爆石化与危险环境。来源期刊/会议：Highlights in Science, Engineering and Technology。 Based on the analysis of the status of the coal resource industry and the in（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境。来源期刊/会议：Highlights in Science, Engineering and Technology。 Based on the analysis of the status of the coal resource industry and the in（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -7595,8 +7676,9 @@
     "published": "2023-07-17",
     "first_seen": "2026-10-15T01:54:05.582621+00:00",
     "doi": "10.21203/rs.3.rs-3146415/v1",
-    "category": "特种应用与产品",
+    "category": "硬件与防爆",
     "tags": [
+      "硬件与防爆",
       "特种应用与产品"
     ],
     "industry_tags": [
@@ -7604,7 +7686,7 @@
     ],
     "scope": "特种场景直接相关",
     "score": 77,
-    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：防爆石化与危险环境。Abstract When the positive pressure explosion-proof robot is in ventilation, if the air is filled into the cavity with a constant press（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境。Abstract When the positive pressure explosion-proof robot is in ventilation, if the air is filled into the cavity with a constant press（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -7953,9 +8035,9 @@
     "published": "2022-09-09",
     "first_seen": "2026-10-15T01:54:05.583023+00:00",
     "doi": "10.3390/pr10091824",
-    "category": "基础软件与系统",
+    "category": "硬件与防爆",
     "tags": [
-      "基础软件与系统",
+      "硬件与防爆",
       "特种应用与产品"
     ],
     "industry_tags": [
@@ -7964,7 +8046,27 @@
     ],
     "scope": "特种场景直接相关",
     "score": 80,
-    "summary": "行业筛选：特种场景直接相关；方向：基础软件与系统；关联：防爆石化与危险环境、消防与应急救援。来源期刊/会议：Processes。 The construction machinery and vehicles, especially the explosion-proof and explosion-isolation ability of the vehic（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境、消防与应急救援。来源期刊/会议：Processes。 The construction machinery and vehicles, especially the explosion-proof and explosion-isolation ability of the vehic（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "9f4c4995f63c63c035",
+    "title": "Design of Downhole Robot Actuator System and Mechanical Behavior Analyses of the PRSM by Considering Elastic Errors and Radial Loads",
+    "url": "https://doi.org/10.3390/pr10081520",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Processes。 This paper designs a new class of actuators for the downhole traction robot system to achieve high-accuracy transmission, which is realized by the planetary roller screw mechanism (PRSM). As the downhole environment is a non-structure one, which increases the difficulty of the load analyses and distributions of the downhole robot system to complete a predesigned mission. Traditional achievements about the mechanical behavior analyses of PRSM ignore the effects of radial loads and torque elastic deformation errors, which are inevitable for the downhole robot actuator, and the results of which would affect the load distribution and fatigue life of the PRSM-aided actuator. To assist the complex task, in this study the mechanical behavior analyses of PRSM for the downhole robot system are investigated by considering axial loads, torque elastic deformation errors, and radia",
+    "published": "2022-08-02",
+    "first_seen": "2026-10-15T02:06:12.387797+00:00",
+    "doi": "10.3390/pr10081520",
+    "category": "硬件与防爆",
+    "tags": [
+      "硬件与防爆"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：硬件与防爆；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Processes。 This paper designs a new class of actuators for the downhole traction robot system to achieve high-accuracy transmis（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -8210,6 +8312,26 @@
     "scope": "可迁移的机器人关键技术",
     "score": 64,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Complexity。The quadruped robot is subject to self and external interference during the running process. In this paper, in order（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "ad87074f72f4747083",
+    "title": "Configuration Design and Gait Analysis of Wheel-Legged Mobile Robot Based on the Rubik’s Cube Mechanism",
+    "url": "https://doi.org/10.1109/access.2022.3197216",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：IEEE Access。",
+    "published": "2022-01-01",
+    "first_seen": "2026-10-15T02:06:17.772953+00:00",
+    "doi": "10.1109/access.2022.3197216",
+    "category": "小脑与运动控制",
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 64,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：IEEE Access。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
