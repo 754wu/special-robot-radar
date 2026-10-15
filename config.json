@@ -4,6 +4,7 @@
   "page_size": 12,
   "max_history_items": 2500,
   "arxiv_limit": 100,
+  "arxiv_queries_per_run": 0,
   "openalex_limit": 70,
   "crossref_limit": 30,
   "arxiv_queries": [
