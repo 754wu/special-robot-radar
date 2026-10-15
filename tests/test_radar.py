@@ -7,7 +7,7 @@ from main import (
     make_item, normalize_link, rule_enrich, esc, utc_now, months_ago,
     date_in_window, crossref_date, openalex_abstract, identity_key,
     deduplicate_items, fetch_arxiv_api, fetch_openalex, fetch_crossref, render_html, get_focus,
-    select_arxiv_queries, request_with_retry
+    select_arxiv_queries, request_with_retry, historical_backfill_jobs
 )
 
 class FakeResponse:
@@ -140,6 +140,30 @@ class RadarTests(unittest.TestCase):
         out = fetch_crossref('quadruped', start, end)
         self.assertEqual(len(out), 1)
         self.assertTrue(out[0]['url'].startswith('https://doi.org/'))
+
+    def test_backfill_spans_older_quarters(self):
+        from datetime import datetime, timezone
+        now = datetime(2026, 10, 15, tzinfo=timezone.utc)
+        jobs = historical_backfill_jobs(["quadruped robot", "robot navigation"], now, 24, 3, 8)
+        self.assertEqual(len(jobs), 8)
+        self.assertTrue(all(s < e <= now for _, s, e in jobs))
+        self.assertTrue(any(s.year <= 2025 for _, s, e in jobs))
+
+    def test_two_year_date_filter_ui(self):
+        from datetime import datetime, timezone
+        cfg = {'history_months': 24, 'display_limit': 5000, 'industry_watchlist': []}
+        record = make_item('Robot navigation', 'https://example.org/paper', 'OpenAlex',
+                           '论文（摘要）', 'robot navigation system', '2025-01-01')
+        record['category'] = '感知建图与导航'
+        record['tags'] = ['感知建图与导航']
+        record['score'] = 80
+        output = render_html([record], [], cfg)
+        self.assertIn('id="fromDate"', output)
+        self.assertIn('id="toDate"', output)
+        self.assertIn('data-date="2025-01-01"', output)
+        self.assertIn('data-preset="365"', output)
+        self.assertIn('data-preset="all"', output)
+        self.assertIn('研究成果与开源项目', output)
 
     def test_render_500_limit(self):
         from main import utc_now
