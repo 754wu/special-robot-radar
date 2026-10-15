@@ -7,7 +7,7 @@ from main import (
     make_item, normalize_link, rule_enrich, esc, utc_now, months_ago,
     date_in_window, crossref_date, openalex_abstract, identity_key,
     deduplicate_items, fetch_arxiv_api, fetch_openalex, fetch_crossref, render_html, get_focus,
-    select_arxiv_queries, request_with_retry, historical_backfill_jobs
+    select_arxiv_queries, request_with_retry, historical_backfill_jobs, classify_primary_topic
 )
 
 class FakeResponse:
@@ -164,6 +164,28 @@ class RadarTests(unittest.TestCase):
         self.assertIn('data-preset="365"', output)
         self.assertIn('data-preset="all"', output)
         self.assertIn('研究成果与开源项目', output)
+
+    def test_primary_category_prevents_hardware_false_positives(self):
+        cases = [
+            ("Quadruped locomotion with reinforcement learning and sensor failures", "Online residual policy recovers from actuator faults", "小脑与运动控制"),
+            ("Smoothed-PRM-Guided NMPC for Wheeled Mobile Robot Navigation", "Path planning with actuator constraints", "感知建图与导航"),
+            ("LiDAR-Based Navigation System for an Autonomous Mobile Robot", "Robot with sensors and actuators", "感知建图与导航"),
+            ("Visual-Inertial Odometry for Mobile Robots", "Dedicated hardware sensors and wheel encoders", "感知建图与导航"),
+            ("Explosion-Proof Motor and Flameproof Enclosure Design", "Motor and enclosure engineering", "硬件与防爆"),
+            ("Design of a Wheel-Legged Robot Joint Actuator", "Robot actuator design and mechanical transmission", "硬件与防爆"),
+            ("Robot Agentic Task Planning with Vision Language Models", "Robot navigation with skill calling", "大脑与具身智能"),
+            ("ROS 2 Simulation Platform for Robot Testing", "Gazebo and middleware architecture", "基础软件与系统"),
+        ]
+        for title, desc, expected in cases:
+            with self.subTest(title=title):
+                self.assertEqual(classify_primary_topic(title, desc)[0], expected)
+
+    def test_five_year_time_window(self):
+        cfg = {'history_months': 60, 'display_limit': 15000, 'industry_watchlist': []}
+        out = render_html([], [], cfg)
+        self.assertIn('近五年', out)
+        self.assertIn('全部五年', out)
+        self.assertIn('data-preset="1095"', out)
 
     def test_render_500_limit(self):
         from main import utc_now
