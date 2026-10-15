@@ -120,8 +120,7 @@
     "repo_id": 1416356098,
     "category": "小脑与运动控制",
     "tags": [
-      "小脑与运动控制",
-      "基础软件与系统"
+      "小脑与运动控制"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -140,9 +139,7 @@
     "first_seen": "2026-10-14T06:11:07.760794+00:00",
     "category": "小脑与运动控制",
     "tags": [
-      "小脑与运动控制",
-      "硬件与防爆",
-      "感知建图与导航"
+      "小脑与运动控制"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -159,15 +156,14 @@
     "description": "arXiv:2610.14596v1 Announce Type: new Abstract: Navigating cluttered environments while carrying objects remains a challenging problem for quadruped robots. Compared with works that focused on load-aware locomotion adaptation to maintain gait stability, existing autonomous navigation systems generally ignore the influence of carried objects' geometries and use fixed footprint inflation, leading to overly conservative navigation. To fill this knowledge gap, we propose a two-phase load-aware navigation learning framework. In Phase 1, we train LOADNav, a load-aware navigation policy via reinforcement learning, enabling the robot to adapt its trajectory and clearance behavior according to the geometric size of the carried object. In Phase 2, we train CoGE, an online geometry predictor via imitation learning, which estimates unknown payload geometry from occasional contact events. We evaluate",
     "published": "2026-10-14T04:00:00+00:00",
     "first_seen": "2026-10-14T06:11:07.757681+00:00",
-    "category": "小脑与运动控制",
+    "category": "感知建图与导航",
     "tags": [
-      "小脑与运动控制",
       "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 66,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.14596v1 Announce Type: new Abstract: Navigating cluttered environments while carrying objects remains a challenging problem （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.14596v1 Announce Type: new Abstract: Navigating cluttered environments while carrying objects remains a challenging problem （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -198,16 +194,14 @@
     "description": "arXiv:2610.17232v1 Announce Type: new Abstract: Navigating humanoid robots through dynamic, non-convex environments requires tightly coupling onboard perception with footstep planning and dynamic locomotion control. Existing methods frequently discard complex free space through simplified convex obstacle bounds and fail to account for real-time dynamic occupancy predictions. This paper presents a real-time framework for humanoid navigation that directly constructs spatio-temporal safe corridors from LiDAR-based particle representations and couples them with Linear Inverted Pendulum (LIP)-based planning and Whole Body Control (WBC) to enable navigation around and within moving non-convex structures without restrictive geometric assumptions. Simulations on the Digit humanoid yield a 96% success rate in navigating around and inside moving non-convex obstacles in a 24 by 24 m^2 arena. Ablati",
     "published": "2026-10-14T04:00:00+00:00",
     "first_seen": "2026-10-14T06:11:07.764922+00:00",
-    "category": "小脑与运动控制",
+    "category": "感知建图与导航",
     "tags": [
-      "小脑与运动控制",
-      "感知建图与导航",
-      "硬件与防爆"
+      "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 65,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.17232v1 Announce Type: new Abstract: Navigating humanoid robots through dynamic, non-convex environments requires tightly co（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.17232v1 Announce Type: new Abstract: Navigating humanoid robots through dynamic, non-convex environments requires tightly co（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -221,8 +215,7 @@
     "first_seen": "2026-10-14T06:11:07.763408+00:00",
     "category": "基础软件与系统",
     "tags": [
-      "基础软件与系统",
-      "感知建图与导航"
+      "基础软件与系统"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -372,14 +365,14 @@
     "description": "arXiv:2610.14335v1 Announce Type: new Abstract: Latent world-model planning has shown promising results in goal-conditioned robotic manipulation, but remains challenging for long-horizon planning due to limited temporal guidance and inefficient action search. A distant visual goal provides little guidance for preparatory actions, while uninformed action sampling makes local optimization inefficient. We propose PILOT (Policy-Initialized Local Optimization with Temporal subgoals), which uses a video model to generate intermediate visual subgoals and a learned policy to initialize the cross-entropy method (CEM). CEM refines candidate action sequences toward each subgoal using an action-conditioned world model in a receding-horizon control loop. In our primary real-robot evaluation across four UR5e manipulation tasks, PILOT achieves 68.8% success, compared with 55.0% without policy initializ",
     "published": "2026-10-14T04:00:00+00:00",
     "first_seen": "2026-10-14T06:11:07.756347+00:00",
-    "category": "大脑与具身智能",
+    "category": "感知建图与导航",
     "tags": [
-      "大脑与具身智能"
+      "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 61,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.14335v1 Announce Type: new Abstract: Latent world-model planning has shown promising results in goal-conditioned robotic man（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.14335v1 Announce Type: new Abstract: Latent world-model planning has shown promising results in goal-conditioned robotic man（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -410,14 +403,14 @@
     "description": "arXiv:2610.16398v1 Announce Type: new Abstract: Robot learning has undergone significant advancements in the domain of compliant control and robotic assembly. The development of novel methodologies has transcended the capacity to address discrete tasks, such as grasping or inserting, and has evolved to encompass the comprehensive construction of entire assemblies. Conventional benchmarks, which are predominantly focused on single tasks, are no longer adequate to address the complexity and interconnected nature of modern manufacturing processes. Consequently, the necessity for benchmarks to encompass a broader spectrum of assembly and subassembly steps is becoming apparent. In light of these developments, we propose LABIT, an industrial robotic assembly benchmark for long-horizon manipulation. This benchmark encompasses DIN-norm assembly tasks, including screwing, placing, inserting, and ",
     "published": "2026-10-14T04:00:00+00:00",
     "first_seen": "2026-10-14T06:11:07.763475+00:00",
-    "category": "小脑与运动控制",
+    "category": "基础软件与系统",
     "tags": [
-      "小脑与运动控制"
+      "基础软件与系统"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 61,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.16398v1 Announce Type: new Abstract: Robot learning has undergone significant advancements in the domain of compliant contro（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.16398v1 Announce Type: new Abstract: Robot learning has undergone significant advancements in the domain of compliant contro（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -448,14 +441,14 @@
     "description": "arXiv:2610.17161v1 Announce Type: new Abstract: Teleoperation is widely used to collect high-quality demonstrations for robot learning. Dexterous manipulation, however, requires coordinated control of motion and contact forces. Operators can specify motion, but struggle to reproduce the subtle force adjustments of human manipulation without feeling the robot's contacts. We introduce Force-Modulated Dexterity (FOMO-Dex), a unified compliance formulation for contact-rich manipulation. FOMO-Dex expresses nominal actions in coordinates defined by task geometry and contact structure. It applies force-driven motion corrections along selected directions while leaving the remaining command components unchanged. Across card picking, paper cutting, screwdriving, and nut-and-bolt assembly, FOMO-Dex reduces excessive contact forces compared with stiff control. A user study shows that operators colle",
     "published": "2026-10-14T04:00:00+00:00",
     "first_seen": "2026-10-14T06:11:07.764749+00:00",
-    "category": "小脑与运动控制",
+    "category": "特种应用与产品",
     "tags": [
-      "小脑与运动控制"
+      "特种应用与产品"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 61,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.17161v1 Announce Type: new Abstract: Teleoperation is widely used to collect high-quality demonstrations for robot learning.（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：特种应用与产品；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.17161v1 Announce Type: new Abstract: Teleoperation is widely used to collect high-quality demonstrations for robot learning.（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -489,14 +482,14 @@
     "stars": 2819,
     "license": true,
     "repo_id": 881022384,
-    "category": "小脑与运动控制",
+    "category": "特种应用与产品",
     "tags": [
-      "小脑与运动控制"
+      "特种应用与产品"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 61,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。A Paper List for Humanoid Robot Learning.（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：特种应用与产品；关联：特种机器人共性技术（需核验应用适配性）。A Paper List for Humanoid Robot Learning.（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -614,8 +607,7 @@
     "repo_id": 1323513491,
     "category": "基础软件与系统",
     "tags": [
-      "基础软件与系统",
-      "小脑与运动控制"
+      "基础软件与系统"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -674,15 +666,14 @@
     "stars": 1,
     "license": false,
     "repo_id": 1222493456,
-    "category": "基础软件与系统",
+    "category": "感知建图与导航",
     "tags": [
-      "基础软件与系统",
       "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 71,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。ROS 2 Jazzy-based Autonomous Mobile Robot (AMR) featuring edge-AI vision, topological navigation, and real-time obstacle avoidance in a（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。ROS 2 Jazzy-based Autonomous Mobile Robot (AMR) featuring edge-AI vision, topological navigation, and real-time obstacle avoidance in a（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -699,8 +690,7 @@
     "repo_id": 1308694936,
     "category": "感知建图与导航",
     "tags": [
-      "感知建图与导航",
-      "基础软件与系统"
+      "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -720,13 +710,12 @@
     "stars": 0,
     "license": false,
     "repo_id": 1415321544,
-    "category": "基础软件与系统",
+    "category": "感知建图与导航",
     "tags": [
-      "基础软件与系统",
       "感知建图与导航"
     ],
     "score": 62,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。ROS 2 Humble dual mecanum robot navigation and online spatiotemporal conflict coordination demo（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。ROS 2 Humble dual mecanum robot navigation and online spatiotemporal conflict coordination demo（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛",
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术"
@@ -745,8 +734,7 @@
     "repo_id": 1125143207,
     "category": "感知建图与导航",
     "tags": [
-      "感知建图与导航",
-      "基础软件与系统"
+      "感知建图与导航"
     ],
     "score": 63,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。시각장애인 실내 안내 로봇 (ROS2 Nav2 · SLAM · GPT-4o Vision)（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
@@ -810,15 +798,14 @@
     "stars": 0,
     "license": true,
     "repo_id": 1411531686,
-    "category": "基础软件与系统",
+    "category": "小脑与运动控制",
     "tags": [
-      "基础软件与系统",
       "小脑与运动控制"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 61,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。RL-based locomotion control for quadruped robots: from MuJoCo 2sim to real deployment.（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。RL-based locomotion control for quadruped robots: from MuJoCo 2sim to real deployment.（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -833,15 +820,14 @@
     "stars": 1,
     "license": false,
     "repo_id": 1321283330,
-    "category": "硬件与防爆",
+    "category": "小脑与运动控制",
     "tags": [
-      "硬件与防爆",
       "小脑与运动控制"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 61,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：硬件与防爆；关联：特种机器人共性技术（需核验应用适配性）。Research project conducted through the UC Santa Cruz AIEA Lab investigating online residual correction to help quadruped robots recover（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。Research project conducted through the UC Santa Cruz AIEA Lab investigating online residual correction to help quadruped robots recover（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -858,8 +844,7 @@
     "repo_id": 949984901,
     "category": "大脑与具身智能",
     "tags": [
-      "大脑与具身智能",
-      "小脑与运动控制"
+      "大脑与具身智能"
     ],
     "score": 63,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。Curated embodied AI list: surveys, VLA models, datasets, simulators, humanoids, robot learning, and safety resources.（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
@@ -878,9 +863,7 @@
     "first_seen": "2026-10-12T08:43:20.043666+00:00",
     "category": "感知建图与导航",
     "tags": [
-      "感知建图与导航",
-      "硬件与防爆",
-      "小脑与运动控制"
+      "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -917,15 +900,14 @@
     "description": "arXiv:2610.12877v1 Announce Type: new Abstract: Agile and reliable navigation is a core capability for embodied robots navigating complex spatial constraints and dynamic interactions. However, a single policy often struggles to accommodate the distinct decision-making demands of diverse scenarios. We present TAME-Nav, an asymmetric Teacher-Student navigation framework built around a temporal soft mixture of experts (Soft-MoE). The Teacher combines clean observations with causally maintained dynamic-obstacle tracks to construct privileged representations, while the Student learns complementary navigation features from corrupted observation histories through temporal encoding, soft expert routing, and latent distillation. Procedural scenario generation and parallel task-level simulation broaden training coverage, while deployment-informed asymmetric domain randomization supports sim-to-rea",
     "published": "2026-10-12T04:00:00+00:00",
     "first_seen": "2026-10-12T08:43:20.037603+00:00",
-    "category": "大脑与具身智能",
+    "category": "感知建图与导航",
     "tags": [
-      "大脑与具身智能",
       "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 62,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.12877v1 Announce Type: new Abstract: Agile and reliable navigation is a core capability for embodied robots navigating compl（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.12877v1 Announce Type: new Abstract: Agile and reliable navigation is a core capability for embodied robots navigating compl（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -958,7 +940,8 @@
     "first_seen": "2026-10-12T08:43:20.039609+00:00",
     "category": "大脑与具身智能",
     "tags": [
-      "大脑与具身智能"
+      "大脑与具身智能",
+      "基础软件与系统"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -975,15 +958,14 @@
     "description": "arXiv:2610.13849v1 Announce Type: new Abstract: We present HorizonNav, a video diffusion-based framework for anticipatory robot navigation that transforms a single RGB image and a text prompt into a geometrically aligned representation of plausible surrounding 3D space. Given the initial observation and a textual description of the reconstruction objective, a vision-language model, guided by designed instructions, interprets the scene and constructs structured prompts for a video diffusion model. The resulting video sequence provides plausible future observations of the environment, which are subsequently processed using monocular ORB-SLAM3 for camera pose estimation and Video Depth Anything for dense depth prediction. Our central contribution is a geometry-guided depth alignment stage that combines the estimated camera poses with triangulated visual landmarks to constrain dense depth pr",
     "published": "2026-10-12T04:00:00+00:00",
     "first_seen": "2026-10-12T08:43:20.040220+00:00",
-    "category": "大脑与具身智能",
+    "category": "感知建图与导航",
     "tags": [
-      "大脑与具身智能",
       "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 62,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.13849v1 Announce Type: new Abstract: We present HorizonNav, a video diffusion-based framework for anticipatory robot navigat（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.13849v1 Announce Type: new Abstract: We present HorizonNav, a video diffusion-based framework for anticipatory robot navigat（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -1014,15 +996,14 @@
     "description": "arXiv:2610.13164v1 Announce Type: new Abstract: Scaling robot manipulation policies requires large amounts of diverse, action-labeled data, yet collecting such data in the real world remains expensive and difficult to scale. Existing methods either depend on human teleoperation, rely on simulation with limited visual realism, or use human videos that lack embodiment-specific annotations. In this paper, we introduce Grounded-Dreamer, a framework for synthesizing physically grounded robot manipulation data with video world models while avoiding human teleoperation demonstrations. Grounded-Dreamer combines the visual realism of generative video models with simulator physics engines. Starting from a small set of real images depicting robot task initial states, our method automatically reconstructs task-relevant objects and camera geometry, aligns them in simulation, and collects physically v",
     "published": "2026-10-12T04:00:00+00:00",
     "first_seen": "2026-10-12T08:43:20.038692+00:00",
-    "category": "小脑与运动控制",
+    "category": "大脑与具身智能",
     "tags": [
-      "小脑与运动控制",
       "大脑与具身智能"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 62,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.13164v1 Announce Type: new Abstract: Scaling robot manipulation policies requires large amounts of diverse, action-labeled d（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.13164v1 Announce Type: new Abstract: Scaling robot manipulation policies requires large amounts of diverse, action-labeled d（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -1072,14 +1053,14 @@
     "description": "arXiv:2610.13119v1 Announce Type: new Abstract: Collecting dexterous manipulation demonstrations for each robot hand requires repeated task-specific data acquisition. We ask whether one shared corpus of natural human demonstrations can instead serve as a reusable data interface for different dexterous hands, without collecting task demonstrations on each target robot. We present Human2Dex, a wrist-centric human demonstration interface that separates shared human observation and motion semantics from embodiment-specific execution. It aligns observations through local hand-appearance adaptation and a shared 21-point hand representation with consistent structural semantics across human and robot observations. It constructs executable supervision by retargeting fused human hand motion to each target hand, and introduces the Grasp-Pocket Interaction Representation (GPIR) to express tracked ob",
     "published": "2026-10-12T04:00:00+00:00",
     "first_seen": "2026-10-12T09:34:38.147299+00:00",
-    "category": "小脑与运动控制",
+    "category": "特种应用与产品",
     "tags": [
-      "小脑与运动控制"
+      "特种应用与产品"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 61,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.13119v1 Announce Type: new Abstract: Collecting dexterous manipulation demonstrations for each robot hand requires repeated （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：特种应用与产品；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.13119v1 Announce Type: new Abstract: Collecting dexterous manipulation demonstrations for each robot hand requires repeated （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -1091,14 +1072,14 @@
     "description": "arXiv:2610.13862v1 Announce Type: new Abstract: Deploying language-model agents onboard mobile robots requires task reasoning and responsive execution within limited compute and memory. We propose BT-Agent, an onboard architecture combining LLM-driven task decisions with predefined behavior-tree (BT) skills. These skills enforce execution conditions and return structured failure feedback. We demonstrate fully onboard operation with a 9B model on a quadruped across five task categories. Intervention tests show that local checks stop ongoing navigation without waiting for another model decision, while the agent remains active to retry or report constraints. To compare agent designs efficiently, we introduce a 161-task multi-fidelity benchmark, evaluated in text on all tasks and in Habitat on 39. Text supports 10.9$\\times$ higher evaluation throughput, while simulation reveals how perceptio",
     "published": "2026-10-12T04:00:00+00:00",
     "first_seen": "2026-10-12T08:43:20.040276+00:00",
-    "category": "感知建图与导航",
+    "category": "大脑与具身智能",
     "tags": [
-      "感知建图与导航"
+      "大脑与具身智能"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 60,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.13862v1 Announce Type: new Abstract: Deploying language-model agents onboard mobile robots requires task reasoning and respo（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.13862v1 Announce Type: new Abstract: Deploying language-model agents onboard mobile robots requires task reasoning and respo（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -1110,14 +1091,14 @@
     "description": "arXiv:2610.13838v1 Announce Type: new Abstract: Nearly every autonomous or semi-autonomous flipper controller assumes access to an elevation map of the terrain under and in front of the robot. The terrain beneath the chassis is occluded in the sensors, so the map is remembered through odometry integration, whose drift corrupts it. We present Stabilizing Anti-Stuck (SAS), a mapless controller that combines a stabilization term for body roll and pitch with an anti-stuck term that frees the robot when it gets stuck. As input, SAS uses the IMU, the flipper joint angles, and a motion cue that only tells whether the robot is moving. The cue is computed over a short window and never accumulated, so SAS does not inherit the odometry-integration drift that corrupts the map. We deploy SAS on a tracked robot with four flippers and evaluate it against manual teleoperation and prior flipper controlle",
     "published": "2026-10-12T04:00:00+00:00",
     "first_seen": "2026-10-12T08:43:20.040145+00:00",
-    "category": "感知建图与导航",
+    "category": "小脑与运动控制",
     "tags": [
-      "感知建图与导航"
+      "小脑与运动控制"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 60,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.13838v1 Announce Type: new Abstract: Nearly every autonomous or semi-autonomous flipper controller assumes access to an elev（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.13838v1 Announce Type: new Abstract: Nearly every autonomous or semi-autonomous flipper controller assumes access to an elev（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -1130,10 +1111,8 @@
     "published": "2026-10-12",
     "first_seen": "2026-10-15T01:28:40.354141+00:00",
     "doi": "https://doi.org/10.1002/rob.70363",
-    "category": "感知建图与导航",
+    "category": "小脑与运动控制",
     "tags": [
-      "感知建图与导航",
-      "硬件与防爆",
       "小脑与运动控制",
       "特种应用与产品"
     ],
@@ -1142,7 +1121,7 @@
     ],
     "scope": "特种场景直接相关",
     "score": 85,
-    "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：野外与特种地形。来源期刊/会议：Journal of Field Robotics。ABSTRACT This paper presents OP‐Follower , a fully onboard, pure vision‐based, obstacle‐aware person‐（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：野外与特种地形。来源期刊/会议：Journal of Field Robotics。ABSTRACT This paper presents OP‐Follower , a fully onboard, pure vision‐based, obstacle‐aware person‐（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -1157,8 +1136,7 @@
     "doi": "https://doi.org/10.1007/s44430-026-00046-0",
     "category": "感知建图与导航",
     "tags": [
-      "感知建图与导航",
-      "硬件与防爆"
+      "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -1176,15 +1154,14 @@
     "published": "2026-10-12",
     "first_seen": "2026-10-13T01:27:06.909899+00:00",
     "doi": "10.3390/s26206452",
-    "category": "小脑与运动控制",
+    "category": "感知建图与导航",
     "tags": [
-      "小脑与运动控制",
       "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 73,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Sensors。 Heterogeneous sensor and control degradation can destabilize direct sensor-to-action navigation. This study presents a（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Sensors。 Heterogeneous sensor and control degradation can destabilize direct sensor-to-action navigation. This study presents a（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -1216,14 +1193,14 @@
     "description": "Hi all, I’ve been building a small tool called knoblog, and I’d like feedback from people who actually maintain or depend on parameter files. The problem: a default changes in a params file, the commit is called something like “update params”, and you find out when the robot behaves differently after an update. knoblog walks a repo’s git history, pulls out every parameter/gain/threshold/flag default from each commit, and writes down what changed, old → new, with the commit link. A real example from the Nav2 demo (nav2_bringup/params/nav2_params.yaml, commit 04c6ca5, Dec 13 2023): global_costmap.global_costmap.inflation_layer.inflation_radius 0.55 → 0.7 (+27.3%) local_costmap.local_costmap.inflation_layer.inflation_radius 0.55 → 0.70 (+27.3%) collision_monitor.FootprintApproach.time_before_collision 2.0 → 1.2 (−40%) In one commit, the default robot keeps further from obstacles and its col",
     "published": "2026-10-10T22:10:43+00:00",
     "first_seen": "2026-10-12T08:43:21.441191+00:00",
-    "category": "感知建图与导航",
+    "category": "特种应用与产品",
     "tags": [
-      "感知建图与导航"
+      "特种应用与产品"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 61,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。Hi all, I’ve been building a small tool called knoblog, and I’d like feedback from people who actually maintain or depend on parameter （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：特种应用与产品；关联：特种机器人共性技术（需核验应用适配性）。Hi all, I’ve been building a small tool called knoblog, and I’d like feedback from people who actually maintain or depend on parameter （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -1375,15 +1352,14 @@
     "description": "EasyNav robots Hi everyone! We are happy to announce EasyNav 0.5.0 , a new release of EasyNavigation, the open-source navigation system for ROS 2 developed at the Intelligent Robotics Lab The same version is available for Humble, Jazzy, Kilted and Lyrical , and you can install it in two ways: APT : the packages are already in the ROS 2 buildfarm and will be installable after the next sync . Pixi : available now , also for Rolling. It needs no ROS 2 installed on the system: the environment brings its own. Why EasyNav? The map your environment needs : 2D maps for indoor floors, 3D surfaces for ramps and uneven terrain, voxel maps, or a combination of them. Fast and predictable : a real-time control cycle, with little latency between what the robot senses and how it moves. Configure it, don’t code it : choose localization, planning and control for your robot in a parameter file. Simple to d",
     "published": "2026-10-09T08:15:43+00:00",
     "first_seen": "2026-10-12T08:43:21.442101+00:00",
-    "category": "基础软件与系统",
+    "category": "感知建图与导航",
     "tags": [
-      "基础软件与系统",
       "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 64,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。EasyNav robots Hi everyone! We are happy to announce EasyNav 0.5.0 , a new release of EasyNavigation, the open-source navigation system（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。EasyNav robots Hi everyone! We are happy to announce EasyNav 0.5.0 , a new release of EasyNavigation, the open-source navigation system（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -1418,8 +1394,7 @@
     "doi": "https://doi.org/10.3389/fdgth.2026.1951309",
     "category": "基础软件与系统",
     "tags": [
-      "基础软件与系统",
-      "大脑与具身智能"
+      "基础软件与系统"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -1536,7 +1511,6 @@
     "category": "感知建图与导航",
     "tags": [
       "感知建图与导航",
-      "硬件与防爆",
       "特种应用与产品"
     ],
     "industry_tags": [
@@ -1580,8 +1554,7 @@
     "doi": "https://doi.org/10.48550/arxiv.2610.11622",
     "category": "感知建图与导航",
     "tags": [
-      "感知建图与导航",
-      "大脑与具身智能"
+      "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -1599,15 +1572,14 @@
     "published": "2026-10-08",
     "first_seen": "2026-10-15T01:28:43.100884+00:00",
     "doi": "https://doi.org/10.48550/arxiv.2610.11591",
-    "category": "大脑与具身智能",
+    "category": "感知建图与导航",
     "tags": [
-      "大脑与具身智能",
       "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 62,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。Robot navigation commonly uses wide-coverage, high-frequency sensing to reduce partial observability（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。Robot navigation commonly uses wide-coverage, high-frequency sensing to reduce partial observability（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -1688,8 +1660,7 @@
     "doi": "https://doi.org/10.48550/arxiv.2610.10934",
     "category": "小脑与运动控制",
     "tags": [
-      "小脑与运动控制",
-      "硬件与防爆"
+      "小脑与运动控制"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -1747,15 +1718,14 @@
     "published": "2026-10-07",
     "first_seen": "2026-10-14T06:10:31.879648+00:00",
     "doi": "https://doi.org/10.48550/arxiv.2610.10498",
-    "category": "小脑与运动控制",
+    "category": "大脑与具身智能",
     "tags": [
-      "小脑与运动控制",
       "大脑与具身智能"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 62,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。Robot foundation models provide strong visuomotor control, yet their performance can degrade when ob（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。Robot foundation models provide strong visuomotor control, yet their performance can degrade when ob（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -1789,7 +1759,8 @@
     "first_seen": "2026-10-12T09:34:40.168032+00:00",
     "category": "基础软件与系统",
     "tags": [
-      "基础软件与系统"
+      "基础软件与系统",
+      "大脑与具身智能"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -1864,14 +1835,14 @@
     "published": "2026-10-06",
     "first_seen": "2026-10-12T09:34:27.923787+00:00",
     "doi": "https://doi.org/10.37965/jait.2026.1632",
-    "category": "感知建图与导航",
+    "category": "小脑与运动控制",
     "tags": [
-      "感知建图与导航"
+      "小脑与运动控制"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 73,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Journal of Artificial Intelligence and Technology。This paper reports an experimental evaluation of a Nav2 Regulated Pure Pursui（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Journal of Artificial Intelligence and Technology。This paper reports an experimental evaluation of a Nav2 Regulated Pure Pursui（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -1886,8 +1857,7 @@
     "doi": "https://doi.org/10.48550/arxiv.2610.08653",
     "category": "小脑与运动控制",
     "tags": [
-      "小脑与运动控制",
-      "基础软件与系统"
+      "小脑与运动控制"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -1988,16 +1958,15 @@
     "published": "2026-10-05",
     "first_seen": "2026-10-13T01:26:26.374301+00:00",
     "doi": "https://doi.org/10.48550/arxiv.2610.07396",
-    "category": "小脑与运动控制",
+    "category": "感知建图与导航",
     "tags": [
-      "小脑与运动控制",
-      "大脑与具身智能",
-      "感知建图与导航"
+      "感知建图与导航",
+      "小脑与运动控制"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 63,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。Navigation for humanoid robots is critical, yet large-scale evaluation on physical hardware is often（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。Navigation for humanoid robots is critical, yet large-scale evaluation on physical hardware is often（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -2010,14 +1979,14 @@
     "published": "2026-10-05",
     "first_seen": "2026-10-12T09:34:27.262264+00:00",
     "doi": "https://doi.org/10.48550/arxiv.2610.05882",
-    "category": "小脑与运动控制",
+    "category": "特种应用与产品",
     "tags": [
-      "小脑与运动控制"
+      "特种应用与产品"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 61,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。Learning from human demonstrations is a reliable way to teach robots new tasks, but the gains from e（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：特种应用与产品；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。Learning from human demonstrations is a reliable way to teach robots new tasks, but the gains from e（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -2090,16 +2059,14 @@
     "published": "2026-10-02",
     "first_seen": "2026-10-12T09:34:26.495542+00:00",
     "doi": "https://doi.org/10.48550/arxiv.2610.03828",
-    "category": "小脑与运动控制",
+    "category": "感知建图与导航",
     "tags": [
-      "小脑与运动控制",
-      "大脑与具身智能",
       "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 62,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。Quadruped robots entering hospitals, care homes, and quiet offices must be context-appropriate not o（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。Quadruped robots entering hospitals, care homes, and quiet offices must be context-appropriate not o（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -2132,9 +2099,8 @@
     "published": "2026-10-01",
     "first_seen": "2026-10-12T09:34:27.926633+00:00",
     "doi": "https://doi.org/10.1007/s42452-026-09403-5",
-    "category": "基础软件与系统",
+    "category": "感知建图与导航",
     "tags": [
-      "基础软件与系统",
       "感知建图与导航",
       "特种应用与产品"
     ],
@@ -2143,7 +2109,7 @@
     ],
     "scope": "特种场景直接相关",
     "score": 73,
-    "summary": "行业筛选：特种场景直接相关；方向：基础软件与系统；关联：工业与能源巡检。来源期刊/会议：Discover Applied Sciences。To optimize the monitoring effectiveness of new energy power stations, a fully automated, unmanned mo（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：工业与能源巡检。来源期刊/会议：Discover Applied Sciences。To optimize the monitoring effectiveness of new energy power stations, a fully automated, unmanned mo（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -2176,15 +2142,15 @@
     "published": "2026-09-30",
     "first_seen": "2026-10-12T09:34:27.928354+00:00",
     "doi": "https://doi.org/10.30837/2522-9818.2026.3.079",
-    "category": "基础软件与系统",
+    "category": "感知建图与导航",
     "tags": [
-      "基础软件与系统",
-      "感知建图与导航"
+      "感知建图与导航",
+      "基础软件与系统"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 65,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Innovative technologies and scientific solutions for industries。The subject of this study is the methods and parameters of virt（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Innovative technologies and scientific solutions for industries。The subject of this study is the methods and parameters of virt（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -2217,15 +2183,14 @@
     "published": "2026-09-30",
     "first_seen": "2026-10-12T09:34:26.985231+00:00",
     "doi": "https://doi.org/10.48550/arxiv.2609.39207",
-    "category": "大脑与具身智能",
+    "category": "感知建图与导航",
     "tags": [
-      "大脑与具身智能",
       "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 63,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。We present ASENA, an embodied agent system that connects general-purpose coding agents to robot sens（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。We present ASENA, an embodied agent system that connects general-purpose coding agents to robot sens（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -2260,8 +2225,7 @@
     "first_seen": "2026-10-12T09:34:01.410849+00:00",
     "category": "大脑与具身智能",
     "tags": [
-      "大脑与具身智能",
-      "小脑与运动控制"
+      "大脑与具身智能"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -2324,8 +2288,7 @@
     "doi": "https://doi.org/10.48550/arxiv.2609.37072",
     "category": "硬件与防爆",
     "tags": [
-      "硬件与防爆",
-      "小脑与运动控制"
+      "硬件与防爆"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -2365,8 +2328,7 @@
     "doi": "https://doi.org/10.48550/arxiv.2609.36753",
     "category": "感知建图与导航",
     "tags": [
-      "感知建图与导航",
-      "硬件与防爆"
+      "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -2423,9 +2385,8 @@
     "published": "2026-09-28",
     "first_seen": "2026-10-12T09:34:26.497430+00:00",
     "doi": "https://doi.org/10.48550/arxiv.2609.34498",
-    "category": "感知建图与导航",
+    "category": "特种应用与产品",
     "tags": [
-      "感知建图与导航",
       "特种应用与产品"
     ],
     "industry_tags": [
@@ -2433,7 +2394,7 @@
     ],
     "scope": "特种场景直接相关",
     "score": 71,
-    "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：工业与能源巡检。来源期刊/会议：arXiv (Cornell University)。Long-term human habitation and in-situ development on the Moon open a new era of space utilization. （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：arXiv (Cornell University)。Long-term human habitation and in-situ development on the Moon open a new era of space utilization. （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -2466,15 +2427,14 @@
     "published": "2026-09-27",
     "first_seen": "2026-10-12T09:34:26.738763+00:00",
     "doi": "https://doi.org/10.48550/arxiv.2609.33165",
-    "category": "小脑与运动控制",
+    "category": "感知建图与导航",
     "tags": [
-      "小脑与运动控制",
-      "大脑与具身智能"
+      "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 62,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。Recent advances in robot learning have produced increasingly capable embodied agents. Yet comparativ（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。Recent advances in robot learning have produced increasingly capable embodied agents. Yet comparativ（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -2487,15 +2447,15 @@
     "published": "2026-09-26",
     "first_seen": "2026-10-12T09:34:26.989685+00:00",
     "doi": "https://doi.org/10.48550/arxiv.2609.32595",
-    "category": "大脑与具身智能",
+    "category": "感知建图与导航",
     "tags": [
-      "大脑与具身智能",
-      "感知建图与导航"
+      "感知建图与导航",
+      "大脑与具身智能"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 63,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。Safe and robust robot navigation across diverse environments requires a high-level understanding of （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。Safe and robust robot navigation across diverse environments requires a high-level understanding of （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -2530,8 +2490,7 @@
     "doi": "https://doi.org/10.48550/arxiv.2610.08826",
     "category": "小脑与运动控制",
     "tags": [
-      "小脑与运动控制",
-      "感知建图与导航"
+      "小脑与运动控制"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -2569,14 +2528,14 @@
     "published": "2026-09-24",
     "first_seen": "2026-10-12T09:34:26.498066+00:00",
     "doi": "https://doi.org/10.1007/s10846-026-02461-2",
-    "category": "小脑与运动控制",
+    "category": "硬件与防爆",
     "tags": [
-      "小脑与运动控制"
+      "硬件与防爆"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 60,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Journal of Intelligent & Robotic Systems。Wheel-legged robots combine the efficiency of wheeled locomotion with the ter- rain ad（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：硬件与防爆；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Journal of Intelligent & Robotic Systems。Wheel-legged robots combine the efficiency of wheeled locomotion with the ter- rain ad（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -2628,15 +2587,15 @@
     "published": "2026-09-23",
     "first_seen": "2026-10-12T09:34:27.932601+00:00",
     "doi": "https://doi.org/10.48550/arxiv.2609.27340",
-    "category": "感知建图与导航",
+    "category": "大脑与具身智能",
     "tags": [
-      "感知建图与导航",
-      "基础软件与系统"
+      "大脑与具身智能",
+      "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 63,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。Large language models (LLMs) are increasingly used as natural-language interfaces for robotic system（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。Large language models (LLMs) are increasingly used as natural-language interfaces for robotic system（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -2650,8 +2609,7 @@
     "first_seen": "2026-10-12T09:34:01.411079+00:00",
     "category": "小脑与运动控制",
     "tags": [
-      "小脑与运动控制",
-      "硬件与防爆"
+      "小脑与运动控制"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -2671,8 +2629,7 @@
     "doi": "10.1038/s41598-026-72507-w",
     "category": "小脑与运动控制",
     "tags": [
-      "小脑与运动控制",
-      "硬件与防爆"
+      "小脑与运动控制"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -2710,15 +2667,15 @@
     "published": "2026-09-21",
     "first_seen": "2026-10-12T09:34:37.598161+00:00",
     "doi": "10.21203/rs.3.rs-10183116/v1",
-    "category": "硬件与防爆",
+    "category": "感知建图与导航",
     "tags": [
-      "硬件与防爆",
-      "感知建图与导航"
+      "感知建图与导航",
+      "小脑与运动控制"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 73,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：硬件与防爆；关联：特种机器人共性技术（需核验应用适配性）。Abstract This work addresses the challenge of generating dynamically feasible paths for mobile robots navigating cluttered environments（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。Abstract This work addresses the challenge of generating dynamically feasible paths for mobile robots navigating cluttered environments（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -2771,8 +2728,9 @@
     "published": "2026-09-19",
     "first_seen": "2026-10-12T09:34:25.990993+00:00",
     "doi": "https://doi.org/10.48550/arxiv.2609.22786",
-    "category": "特种应用与产品",
+    "category": "基础软件与系统",
     "tags": [
+      "基础软件与系统",
       "特种应用与产品"
     ],
     "industry_tags": [
@@ -2780,7 +2738,7 @@
     ],
     "scope": "特种场景直接相关",
     "score": 76,
-    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：arXiv (Cornell University)。There are renewed efforts to build a lunar base and house a team of astronauts on the Moon for exten（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：特种场景直接相关；方向：基础软件与系统；关联：消防与应急救援。来源期刊/会议：arXiv (Cornell University)。There are renewed efforts to build a lunar base and house a team of astronauts on the Moon for exten（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -2796,8 +2754,6 @@
     "category": "感知建图与导航",
     "tags": [
       "感知建图与导航",
-      "硬件与防爆",
-      "基础软件与系统",
       "特种应用与产品"
     ],
     "industry_tags": [
@@ -2876,15 +2832,14 @@
     "description": "World models can anticipate the consequences of navigation actions, but predicted action sequences may become invalid during execution, especially when wheel-legged robots encounter dynamic obstacles or change locomotion modes. We propose WAVE-Go, an image-goal navigation framework that separates world-action prediction from interruptible command execution. Its executor adaptively selects an action prefix and cancels pending commands when updated observations invalidate execution. A conditional-risk formulation specifies prefix selection under an estimated cumulative failure budget, while posture and locomotion-mode transitions require clearance, stability, and task-evidence checks. In the reported navigation evaluation, WAVE-Go achieves 74.1% in-distribution success and 63.3% dynamic out-of-distribution success, exceeding the strongest baseline by 4.7 and 7.7 percentage points, respecti",
     "published": "2026-09-16T06:30:50Z",
     "first_seen": "2026-10-12T09:34:04.719235+00:00",
-    "category": "小脑与运动控制",
+    "category": "感知建图与导航",
     "tags": [
-      "小脑与运动控制",
       "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 65,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。World models can anticipate the consequences of navigation actions, but predicted action sequences may become invalid during execution,（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。World models can anticipate the consequences of navigation actions, but predicted action sequences may become invalid during execution,（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -2916,15 +2871,14 @@
     "published": "2026-09-16",
     "first_seen": "2026-10-12T09:34:25.680032+00:00",
     "doi": "https://doi.org/10.48550/arxiv.2609.19460",
-    "category": "硬件与防爆",
+    "category": "感知建图与导航",
     "tags": [
-      "硬件与防爆",
       "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 65,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：硬件与防爆；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。Semantic exploration in confined environments requires both environment mapping and detailed observa（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。Semantic exploration in confined environments requires both environment mapping and detailed observa（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -2939,8 +2893,7 @@
     "doi": "https://doi.org/10.48550/arxiv.2609.19452",
     "category": "小脑与运动控制",
     "tags": [
-      "小脑与运动控制",
-      "硬件与防爆"
+      "小脑与运动控制"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -2958,14 +2911,14 @@
     "published": "2026-09-15",
     "first_seen": "2026-10-12T09:34:26.501549+00:00",
     "doi": "https://doi.org/10.48550/arxiv.2609.22319",
-    "category": "小脑与运动控制",
+    "category": "感知建图与导航",
     "tags": [
-      "小脑与运动控制"
+      "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 61,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。The rapid progress of artificial intelligence is reshaping robotics and accelerating the adoption of（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。The rapid progress of artificial intelligence is reshaping robotics and accelerating the adoption of（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -3000,8 +2953,7 @@
     "doi": "https://doi.org/10.24425/bpasts.2026.2514",
     "category": "感知建图与导航",
     "tags": [
-      "感知建图与导航",
-      "硬件与防爆"
+      "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -3058,9 +3010,8 @@
     "published": "2026-09-10",
     "first_seen": "2026-10-12T09:34:31.496021+00:00",
     "doi": "10.3390/app16188986",
-    "category": "感知建图与导航",
+    "category": "特种应用与产品",
     "tags": [
-      "感知建图与导航",
       "特种应用与产品"
     ],
     "industry_tags": [
@@ -3069,7 +3020,7 @@
     ],
     "scope": "特种场景直接相关",
     "score": 81,
-    "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：消防与应急救援、矿山与地下空间。来源期刊/会议：Applied Sciences。 Post-disaster underground mine rescue requires environmental perception and remote operation before personnel（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援、矿山与地下空间。来源期刊/会议：Applied Sciences。 Post-disaster underground mine rescue requires environmental perception and remote operation before personnel（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -3084,9 +3035,7 @@
     "doi": "https://doi.org/10.1109/lra.2026.3732834",
     "category": "感知建图与导航",
     "tags": [
-      "感知建图与导航",
-      "硬件与防爆",
-      "小脑与运动控制"
+      "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -3104,9 +3053,9 @@
     "published": "2026-09-09",
     "first_seen": "2026-10-12T09:34:25.448239+00:00",
     "doi": "https://doi.org/10.3390/app16188944",
-    "category": "硬件与防爆",
+    "category": "感知建图与导航",
     "tags": [
-      "硬件与防爆",
+      "感知建图与导航",
       "特种应用与产品"
     ],
     "industry_tags": [
@@ -3114,7 +3063,7 @@
     ],
     "scope": "特种场景直接相关",
     "score": 72,
-    "summary": "行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境。来源期刊/会议：Applied Sciences。Safety monitoring and visual surveillance in underground coal mines must cope with extreme low light and perva（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：防爆石化与危险环境。来源期刊/会议：Applied Sciences。Safety monitoring and visual surveillance in underground coal mines must cope with extreme low light and perva（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -3128,7 +3077,8 @@
     "first_seen": "2026-10-12T09:34:01.411293+00:00",
     "category": "小脑与运动控制",
     "tags": [
-      "小脑与运动控制"
+      "小脑与运动控制",
+      "大脑与具身智能"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -3146,9 +3096,9 @@
     "published": "2026-09-07",
     "first_seen": "2026-10-12T09:34:25.991893+00:00",
     "doi": "https://doi.org/10.3390/s26175670",
-    "category": "基础软件与系统",
+    "category": "感知建图与导航",
     "tags": [
-      "基础软件与系统",
+      "感知建图与导航",
       "特种应用与产品"
     ],
     "industry_tags": [
@@ -3156,7 +3106,7 @@
     ],
     "scope": "特种场景直接相关",
     "score": 77,
-    "summary": "行业筛选：特种场景直接相关；方向：基础软件与系统；关联：消防与应急救援。来源期刊/会议：Sensors。Reliable human target detection in smoke-filled environments is essential for firefighting robots and rescue perception（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：消防与应急救援。来源期刊/会议：Sensors。Reliable human target detection in smoke-filled environments is essential for firefighting robots and rescue perception（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -3190,15 +3140,14 @@
     "description": "Contact-rich loco-manipulation requires a bridge between semantic action generation and physical interaction control. Existing Vision-language-action (VLA) models generate task-level actions from visual and linguistic observations, but cannot interpret the physical interactions induced by those actions. While the whole-body control (WBC) policy can stabilize the robot, it cannot distinguish task-relevant interaction forces from forces induced by external disturbances during manipulation. Although force/torque sensors provide direct measurements of physical interactions, retrofitting them entails additional hardware costs and substantial integration effort, particularly for platforms not designed with sensor integration in mind. To address this problem, we propose FWBC-VLA, a force-aware framework that bridges task-level VLA action generation and low-level whole-body compensation control ",
     "published": "2026-09-03T14:10:47Z",
     "first_seen": "2026-10-12T09:34:04.719356+00:00",
-    "category": "小脑与运动控制",
+    "category": "大脑与具身智能",
     "tags": [
-      "小脑与运动控制",
       "大脑与具身智能"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 64,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。Contact-rich loco-manipulation requires a bridge between semantic action generation and physical interaction control. Existing Vision-l（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。Contact-rich loco-manipulation requires a bridge between semantic action generation and physical interaction control. Existing Vision-l（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -3319,9 +3268,8 @@
     "published": "2026-09-01",
     "first_seen": "2026-10-12T09:34:25.992456+00:00",
     "doi": "https://doi.org/10.11591/ijra.v15i3.pp621-638",
-    "category": "小脑与运动控制",
+    "category": "感知建图与导航",
     "tags": [
-      "小脑与运动控制",
       "感知建图与导航",
       "特种应用与产品"
     ],
@@ -3330,7 +3278,7 @@
     ],
     "scope": "特种场景直接相关",
     "score": 73,
-    "summary": "行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：消防与应急救援。来源期刊/会议：IAES International Journal of Robotics and Automation (IJRA)。UAV swarms are essential for emergency response, logistics, reconn（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：消防与应急救援。来源期刊/会议：IAES International Journal of Robotics and Automation (IJRA)。UAV swarms are essential for emergency response, logistics, reconn（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -3346,7 +3294,6 @@
     "category": "感知建图与导航",
     "tags": [
       "感知建图与导航",
-      "硬件与防爆",
       "特种应用与产品"
     ],
     "industry_tags": [
@@ -3453,7 +3400,6 @@
     "category": "小脑与运动控制",
     "tags": [
       "小脑与运动控制",
-      "硬件与防爆",
       "特种应用与产品"
     ],
     "industry_tags": [
@@ -3517,15 +3463,14 @@
     "published": "2026-08-19",
     "first_seen": "2026-10-12T09:34:29.987961+00:00",
     "doi": "10.21203/rs.3.rs-10175959/v1",
-    "category": "硬件与防爆",
+    "category": "感知建图与导航",
     "tags": [
-      "硬件与防爆",
       "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 65,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：硬件与防爆；关联：特种机器人共性技术（需核验应用适配性）。Abstract Accurate displacement estimation is a fundamental requirement in mobile robotics, yet conventional odometry solutions depend o（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。Abstract Accurate displacement estimation is a fundamental requirement in mobile robotics, yet conventional odometry solutions depend o（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -3577,9 +3522,9 @@
     "published": "2026-08-17",
     "first_seen": "2026-10-12T09:34:25.682593+00:00",
     "doi": "https://doi.org/10.48550/arxiv.2608.16442",
-    "category": "硬件与防爆",
+    "category": "感知建图与导航",
     "tags": [
-      "硬件与防爆",
+      "感知建图与导航",
       "特种应用与产品"
     ],
     "industry_tags": [
@@ -3588,7 +3533,7 @@
     ],
     "scope": "特种场景直接相关",
     "score": 79,
-    "summary": "行业筛选：特种场景直接相关；方向：硬件与防爆；关联：消防与应急救援、工业与能源巡检。来源期刊/会议：arXiv (Cornell University)。Inspection is a core capability in many mobile robotics applications, including industrial facility （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：消防与应急救援、工业与能源巡检。来源期刊/会议：arXiv (Cornell University)。Inspection is a core capability in many mobile robotics applications, including industrial facility （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -3624,16 +3569,14 @@
     "published": "2026-08-14",
     "first_seen": "2026-10-12T09:34:33.288296+00:00",
     "doi": "10.20944/preprints202608.0999.v1",
-    "category": "硬件与防爆",
+    "category": "感知建图与导航",
     "tags": [
-      "硬件与防爆",
-      "小脑与运动控制",
       "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 66,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：硬件与防爆；关联：特种机器人共性技术（需核验应用适配性）。Efficient facility-scale tomato ripeness monitoring remains difficult in greenhouses where uneven terrain limits conventional wheeled a（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。Efficient facility-scale tomato ripeness monitoring remains difficult in greenhouses where uneven terrain limits conventional wheeled a（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -3645,9 +3588,8 @@
     "description": "Line-segment detection is fundamental to robotics, autonomous navigation, and industrial inspection. While transformer-based detectors achieve the highest accuracy, their deployment on microcontrollers remains impractical due to resource constraints. The STM32N6, with its Neural-ART NPU, promises to enable deep vision at the extreme edge. However, existing detectors rely on attention, grid-sampling, and normalization, operators that are unsupported by the convolution-oriented NPU. This architectural mismatch is characterized operator by operator: attention, grid-sampling, and normalization lack accelerator primitives, and the decoder's self-attention alone materializes a 39 MB score tensor that exceeds on-chip memory. To address this limitation, NPLSD is introduced as a pair of NPU-compatible line-segment detectors built from one design methodology. NPLSD-H retains the convolutional HGNe",
     "published": "2026-08-12T09:42:04Z",
     "first_seen": "2026-10-12T09:34:18.177651+00:00",
-    "category": "感知建图与导航",
+    "category": "特种应用与产品",
     "tags": [
-      "感知建图与导航",
       "特种应用与产品"
     ],
     "industry_tags": [
@@ -3655,7 +3597,7 @@
     ],
     "scope": "特种场景直接相关",
     "score": 72,
-    "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：工业与能源巡检。Line-segment detection is fundamental to robotics, autonomous navigation, and industrial inspection. While transformer-based detectors （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。Line-segment detection is fundamental to robotics, autonomous navigation, and industrial inspection. While transformer-based detectors （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -3688,16 +3630,14 @@
     "published": "2026-08-10",
     "first_seen": "2026-10-12T09:34:25.683588+00:00",
     "doi": "https://doi.org/10.55092/rl20260024",
-    "category": "小脑与运动控制",
+    "category": "感知建图与导航",
     "tags": [
-      "小脑与运动控制",
-      "感知建图与导航",
-      "硬件与防爆"
+      "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 76,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Robot learning.。Light Detection and Ranging (LiDAR)–Inertial Odometry (LIO), which tightly fuses complementary data from LiDAR （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Robot learning.。Light Detection and Ranging (LiDAR)–Inertial Odometry (LIO), which tightly fuses complementary data from LiDAR （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -3729,8 +3669,9 @@
     "published": "2026-08-06",
     "first_seen": "2026-10-12T09:34:25.684076+00:00",
     "doi": "https://doi.org/10.3390/robotics15080149",
-    "category": "特种应用与产品",
+    "category": "基础软件与系统",
     "tags": [
+      "基础软件与系统",
       "特种应用与产品"
     ],
     "industry_tags": [
@@ -3738,7 +3679,7 @@
     ],
     "scope": "特种场景直接相关",
     "score": 71,
-    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：Robotics。Efficient robotic teleoperation for industrial inspection requires interfaces that maximize intuitive control and situ（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：特种场景直接相关；方向：基础软件与系统；关联：工业与能源巡检。来源期刊/会议：Robotics。Efficient robotic teleoperation for industrial inspection requires interfaces that maximize intuitive control and situ（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -3775,8 +3716,7 @@
     "first_seen": "2026-10-12T09:34:01.411555+00:00",
     "category": "小脑与运动控制",
     "tags": [
-      "小脑与运动控制",
-      "基础软件与系统"
+      "小脑与运动控制"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -3920,14 +3860,14 @@
     "published": "2026-08-01",
     "first_seen": "2026-10-12T09:34:37.599096+00:00",
     "doi": "10.1109/eircs70783.2026.11706122",
-    "category": "大脑与具身智能",
+    "category": "特种应用与产品",
     "tags": [
-      "大脑与具身智能"
+      "特种应用与产品"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 64,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2026 International Conference on Embodied Intelligence, Robotics, and Control Systems (EIRCS)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：特种应用与产品；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2026 International Conference on Embodied Intelligence, Robotics, and Control Systems (EIRCS)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -3940,9 +3880,8 @@
     "published": "2026-07-31",
     "first_seen": "2026-10-15T01:40:34.127376+00:00",
     "doi": "10.1051/e3sconf/202672907004",
-    "category": "小脑与运动控制",
+    "category": "特种应用与产品",
     "tags": [
-      "小脑与运动控制",
       "特种应用与产品"
     ],
     "industry_tags": [
@@ -3950,7 +3889,7 @@
     ],
     "scope": "特种场景直接相关",
     "score": 77,
-    "summary": "行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：工业与能源巡检。来源期刊/会议：E3S Web of Conferences。 Pipeline infrastructure carries oil, gas, water, and industrial fluids across vast distances, and requi（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：E3S Web of Conferences。 Pipeline infrastructure carries oil, gas, water, and industrial fluids across vast distances, and requi（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -4027,7 +3966,6 @@
     "category": "感知建图与导航",
     "tags": [
       "感知建图与导航",
-      "硬件与防爆",
       "特种应用与产品"
     ],
     "industry_tags": [
@@ -4036,6 +3974,46 @@
     "scope": "特种场景直接相关",
     "score": 85,
     "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：消防与应急救援。Mobile robots are widely used in unmanned surveying, warehouse logistics, and emergency response. However, achieving safe, reliable, an（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "ed64a9717adc243805",
+    "title": "VIA: Visual Interface Agent for Robot Control",
+    "url": "https://doi.org/10.48550/arxiv.2607.11119",
+    "source": "OpenAlex",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：arXiv (Cornell University)。Robot manipulation is a complex task that requires visual perception, physical reasoning, planning, and closed-loop control. General-purpose foundation models (FMs) have grown remarkably capable of some of these, especially perception and reasoning. Inspired by the growing ability of FM-powered agents to operate software through visual interfaces, we ask whether that same competence suffices to control a robot directly given the right interface. We present VIA (Visual Interface Agent), a framework that recasts robot control as an agentic task where an off-the-shelf agent drives a manipulator directly through an interface. The interface is a virtual workspace of interactable visual components where the agent can probe pixels of interest with mouse-like tools and command a virtual end-effector to set new target poses with a small set of general tools. We ",
+    "published": "2026-07-13",
+    "first_seen": "2026-10-15T01:54:02.240411+00:00",
+    "doi": "https://doi.org/10.48550/arxiv.2607.11119",
+    "category": "感知建图与导航",
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。Robot manipulation is a complex task that requires visual perception, physical reasoning, planning, （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "3a69d0f66c4d0538c7",
+    "title": "A Digital Twin Framework for Multimodal Operator-Centered Human–Cobot Collaboration in Assembly Tasks",
+    "url": "https://doi.org/10.3390/machines14070780",
+    "source": "OpenAlex",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Machines。Current digital twin frameworks focused on human–robot collaboration rarely take into account the sensory degradation of real industrial environments, nor do they integrate the operator as an active agent within the system. This research presents a multimodal digital twin framework for a dual-arm collaborative robot at an assembly station; the system was developed using ROS 2 Jazzy and CoppeliaSim as the simulator. The architecture integrates three main components: the first is a perception layer that captures voice commands using Whisper ASR and the state of the workspace using a hybrid YOLO + ViT visual pipeline, both with per-channel metadata; the second consists of a Confidence-Weighted Late Fusion engine that dynamically adjusts the weight of each modality based on real-time signal quality, so that each fusion decision can be reconstructed from the signals that gene",
+    "published": "2026-07-12",
+    "first_seen": "2026-10-15T01:54:02.240964+00:00",
+    "doi": "https://doi.org/10.3390/machines14070780",
+    "category": "基础软件与系统",
+    "tags": [
+      "基础软件与系统"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Machines。Current digital twin frameworks focused on human–robot collaboration rarely take into account the sensory degradation （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -4068,15 +4046,14 @@
     "published": "2026-07-07",
     "first_seen": "2026-10-12T09:34:34.748117+00:00",
     "doi": "10.1117/12.3117183",
-    "category": "基础软件与系统",
+    "category": "感知建图与导航",
     "tags": [
-      "基础软件与系统",
       "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 65,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Second International Conference on Hydromechatronics and Advanced Robot Control Technology (HARCT 2026)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Second International Conference on Hydromechatronics and Advanced Robot Control Technology (HARCT 2026)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -4089,15 +4066,15 @@
     "published": "2026-07-04",
     "first_seen": "2026-10-12T09:34:37.598714+00:00",
     "doi": "10.3390/data11070165",
-    "category": "硬件与防爆",
+    "category": "基础软件与系统",
     "tags": [
-      "硬件与防爆",
+      "基础软件与系统",
       "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 73,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：硬件与防爆；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Data。 Mobile robots used in edge-assisted Industrial Internet-of-Things (IIoT) settings generate coupled motion, LiDAR, edge-co（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Data。 Mobile robots used in edge-assisted Industrial Internet-of-Things (IIoT) settings generate coupled motion, LiDAR, edge-co（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -4111,8 +4088,7 @@
     "first_seen": "2026-10-12T09:34:04.719556+00:00",
     "category": "小脑与运动控制",
     "tags": [
-      "小脑与运动控制",
-      "硬件与防爆"
+      "小脑与运动控制"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -4193,8 +4169,9 @@
     "published": "2026-07-01",
     "first_seen": "2026-10-12T09:34:36.119309+00:00",
     "doi": "10.1016/j.robot.2026.105433",
-    "category": "特种应用与产品",
+    "category": "小脑与运动控制",
     "tags": [
+      "小脑与运动控制",
       "特种应用与产品"
     ],
     "industry_tags": [
@@ -4202,7 +4179,7 @@
     ],
     "scope": "特种场景直接相关",
     "score": 76,
-    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：Robotics and Autonomous Systems。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：工业与能源巡检。来源期刊/会议：Robotics and Autonomous Systems。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -4215,14 +4192,14 @@
     "published": "2026-07-01",
     "first_seen": "2026-10-12T09:34:34.748960+00:00",
     "doi": "10.1088/1742-6596/3277/1/012161",
-    "category": "小脑与运动控制",
+    "category": "硬件与防爆",
     "tags": [
-      "小脑与运动控制"
+      "硬件与防爆"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 64,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Journal of Physics: Conference Series。 Abstract Wheel-legged robots integrate the advantages of high-efficiency wheeled locomot（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：硬件与防爆；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Journal of Physics: Conference Series。 Abstract Wheel-legged robots integrate the advantages of high-efficiency wheeled locomot（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -4257,9 +4234,7 @@
     "doi": "10.21203/rs.3.rs-10158093/v1",
     "category": "感知建图与导航",
     "tags": [
-      "感知建图与导航",
-      "硬件与防爆",
-      "基础软件与系统"
+      "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -4278,8 +4253,7 @@
     "first_seen": "2026-10-12T09:34:01.411720+00:00",
     "category": "小脑与运动控制",
     "tags": [
-      "小脑与运动控制",
-      "基础软件与系统"
+      "小脑与运动控制"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -4296,15 +4270,14 @@
     "description": "Robot autonomous navigation that accounts for surrounding human activities is crucial for ensuring both safety and natural human-robot interaction in real-world environments shared by humans and robots. Simulation of complex and diverse navigation scenarios serves as the foundation for training reliable robot navigation policies and accurately evaluating the performance of algorithms, offering an efficient alternative to manual supervision of real data. However, current human-aware navigation research faces significant challenges due to the scarcity of diverse, high-quality scene data. Existing simulation platforms often rely on handcrafted rules to approximate pedestrian behavior and lack the capability to provide extensive sensor signals, typically assuming perfect observations. To address these limitations, this paper presents NavIsaacLab, a comprehensive framework for benchmarking an",
     "published": "2026-06-24T18:08:19Z",
     "first_seen": "2026-10-12T09:34:18.177834+00:00",
-    "category": "小脑与运动控制",
+    "category": "感知建图与导航",
     "tags": [
-      "小脑与运动控制",
       "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 62,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。Robot autonomous navigation that accounts for surrounding human activities is crucial for ensuring both safety and natural human-robot （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。Robot autonomous navigation that accounts for surrounding human activities is crucial for ensuring both safety and natural human-robot （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -4359,8 +4332,7 @@
     "doi": "10.70382/sjasor.v12i9.066",
     "category": "感知建图与导航",
     "tags": [
-      "感知建图与导航",
-      "硬件与防爆"
+      "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -4438,9 +4410,7 @@
     "first_seen": "2026-10-12T09:34:01.411878+00:00",
     "category": "小脑与运动控制",
     "tags": [
-      "小脑与运动控制",
-      "大脑与具身智能",
-      "感知建图与导航"
+      "小脑与运动控制"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -4478,15 +4448,14 @@
     "published": "2026-06-02",
     "first_seen": "2026-10-12T09:34:37.598632+00:00",
     "doi": "10.1108/ir-10-2025-0387",
-    "category": "硬件与防爆",
+    "category": "感知建图与导航",
     "tags": [
-      "硬件与防爆",
       "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 73,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：硬件与防爆；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Industrial Robot: the international journal of robotics research and application。 Purpose Autonomous mobile robots (AMRs) opera（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Industrial Robot: the international journal of robotics research and application。 Purpose Autonomous mobile robots (AMRs) opera（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -4828,14 +4797,14 @@
     "published": "2026-05-22",
     "first_seen": "2026-10-12T09:34:34.748426+00:00",
     "doi": "10.1108/ir-12-2025-0474",
-    "category": "感知建图与导航",
+    "category": "硬件与防爆",
     "tags": [
-      "感知建图与导航"
+      "硬件与防爆"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 64,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Industrial Robot: the international journal of robotics research and application。 Purpose This paper aims to address the challe（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：硬件与防爆；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Industrial Robot: the international journal of robotics research and application。 Purpose This paper aims to address the challe（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -4887,9 +4856,8 @@
     "published": "2026-05-18",
     "first_seen": "2026-10-12T09:34:31.495275+00:00",
     "doi": "10.56726/irjmets98261",
-    "category": "硬件与防爆",
+    "category": "感知建图与导航",
     "tags": [
-      "硬件与防爆",
       "感知建图与导航",
       "特种应用与产品"
     ],
@@ -4898,7 +4866,7 @@
     ],
     "scope": "特种场景直接相关",
     "score": 77,
-    "summary": "行业筛选：特种场景直接相关；方向：硬件与防爆；关联：消防与应急救援。来源期刊/会议：International Research Journal of Modernization in Engineering Technology & Science。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：消防与应急救援。来源期刊/会议：International Research Journal of Modernization in Engineering Technology & Science。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -4911,8 +4879,9 @@
     "published": "2026-05-15",
     "first_seen": "2026-10-12T09:34:31.494636+00:00",
     "doi": "10.1109/ccdc69976.2026.11560457",
-    "category": "特种应用与产品",
+    "category": "感知建图与导航",
     "tags": [
+      "感知建图与导航",
       "特种应用与产品"
     ],
     "industry_tags": [
@@ -4920,7 +4889,7 @@
     ],
     "scope": "特种场景直接相关",
     "score": 76,
-    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：2026 38th Chinese Control and Decision Conference (CCDC)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：消防与应急救援。来源期刊/会议：2026 38th Chinese Control and Decision Conference (CCDC)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -4976,7 +4945,8 @@
     "doi": "10.1109/csis-iac70275.2026.11585057",
     "category": "小脑与运动控制",
     "tags": [
-      "小脑与运动控制"
+      "小脑与运动控制",
+      "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -5099,8 +5069,7 @@
     "first_seen": "2026-10-12T09:34:01.411990+00:00",
     "category": "小脑与运动控制",
     "tags": [
-      "小脑与运动控制",
-      "硬件与防爆"
+      "小脑与运动控制"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -5119,8 +5088,7 @@
     "first_seen": "2026-10-12T09:34:01.412044+00:00",
     "category": "小脑与运动控制",
     "tags": [
-      "小脑与运动控制",
-      "硬件与防爆"
+      "小脑与运动控制"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -5139,8 +5107,7 @@
     "first_seen": "2026-10-12T09:34:01.412087+00:00",
     "category": "小脑与运动控制",
     "tags": [
-      "小脑与运动控制",
-      "基础软件与系统"
+      "小脑与运动控制"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -5158,11 +5125,9 @@
     "published": "2026-05-01",
     "first_seen": "2026-10-12T09:34:31.495777+00:00",
     "doi": "10.3390/s26092840",
-    "category": "感知建图与导航",
+    "category": "基础软件与系统",
     "tags": [
-      "感知建图与导航",
       "基础软件与系统",
-      "小脑与运动控制",
       "特种应用与产品"
     ],
     "industry_tags": [
@@ -5170,7 +5135,7 @@
     ],
     "scope": "特种场景直接相关",
     "score": 81,
-    "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：矿山与地下空间。来源期刊/会议：Sensors。 Mine disasters require urgent lifeline setup in confined tunnels, but manual rescue in unstable accident zones carries（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：特种场景直接相关；方向：基础软件与系统；关联：矿山与地下空间。来源期刊/会议：Sensors。 Mine disasters require urgent lifeline setup in confined tunnels, but manual rescue in unstable accident zones carries（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -5203,15 +5168,14 @@
     "published": "2026-05-01",
     "first_seen": "2026-10-12T09:34:37.598471+00:00",
     "doi": "10.1109/icee70628.2026.11710713",
-    "category": "硬件与防爆",
+    "category": "感知建图与导航",
     "tags": [
-      "硬件与防爆",
       "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 65,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：硬件与防爆；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2026 34th International Conference on Electrical Engineering (ICEE)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2026 34th International Conference on Electrical Engineering (ICEE)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -5307,8 +5271,7 @@
     "first_seen": "2026-10-12T09:34:04.719899+00:00",
     "category": "小脑与运动控制",
     "tags": [
-      "小脑与运动控制",
-      "感知建图与导航"
+      "小脑与运动控制"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -5365,15 +5328,14 @@
     "published": "2026-04-20",
     "first_seen": "2026-10-12T09:34:37.598104+00:00",
     "doi": "10.21203/rs.3.rs-9441537/v1",
-    "category": "小脑与运动控制",
+    "category": "感知建图与导航",
     "tags": [
-      "小脑与运动控制",
       "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 75,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。Abstract Autonomous mobile robots navigating dynamic industrial environments must simultaneously guarantee collision safety, computatio（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。Abstract Autonomous mobile robots navigating dynamic industrial environments must simultaneously guarantee collision safety, computatio（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -5440,6 +5402,47 @@
     "analysis_level": "特种机器人关键词初筛"
   },
   {
+    "id": "18e690f1d31ffac9ef",
+    "title": "DeCoNav: Dialog enhanced Long-Horizon Collaborative Vision-Language Navigation",
+    "url": "https://doi.org/10.48550/arxiv.2604.12486",
+    "source": "OpenAlex",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：arXiv (Cornell University)。Long-horizon collaborative vision-language navigation (VLN) is critical for multi-robot systems to accomplish complex tasks beyond the capability of a single agent. CoNavBench takes a first step by introducing the first collaborative long-horizon VLN benchmark with relay-style multi-robot tasks, a collaboration taxonomy, along with graph-grounded generation and evaluation to model handoffs and rendezvous in shared environments. However, existing benchmarks and evaluations often do not enforce strictly synchronized dual-robot rollout on a shared world timeline, and they typically rely on static coordination policies that cannot adapt when new cross-agent evidence emerges. We present Dialog enhanced Long-Horizon Collaborative Vision-Language Navigation (DeCoNav), a decentralized framework that couples event-triggered dialogue with dynamic task allocation ",
+    "published": "2026-04-14",
+    "first_seen": "2026-10-15T01:54:04.049126+00:00",
+    "doi": "https://doi.org/10.48550/arxiv.2604.12486",
+    "category": "感知建图与导航",
+    "tags": [
+      "感知建图与导航",
+      "大脑与具身智能"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 63,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。Long-horizon collaborative vision-language navigation (VLN) is critical for multi-robot systems to a（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "97df5e1181d423d0b7",
+    "title": "Toward Zero-Human-Intervention Autonomous Robot Learning: A Continuous Result-Driven Self-Reward and Correction Framework",
+    "url": "https://doi.org/10.21203/rs.3.rs-9398282/v1",
+    "source": "OpenAlex",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Research Square。",
+    "published": "2026-04-14",
+    "first_seen": "2026-10-15T01:54:04.048940+00:00",
+    "doi": "https://doi.org/10.21203/rs.3.rs-9398282/v1",
+    "category": "基础软件与系统",
+    "tags": [
+      "基础软件与系统"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Research Square。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
     "id": "e5f0df6436b68ef25a",
     "title": "GTS-SLAM: A Tightly-Coupled GICP and 3D Gaussian Splatting Framework for Robust Dense SLAM in Underground Mines",
     "url": "https://doi.org/10.3390/vehicles8040079",
@@ -5474,8 +5477,7 @@
     "doi": "10.3390/biomimetics11040234",
     "category": "感知建图与导航",
     "tags": [
-      "感知建图与导航",
-      "小脑与运动控制"
+      "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -5493,14 +5495,14 @@
     "published": "2026-03-31",
     "first_seen": "2026-10-15T01:40:09.835802+00:00",
     "doi": "https://doi.org/10.15866/ireaco.v19i2.27469",
-    "category": "感知建图与导航",
+    "category": "小脑与运动控制",
     "tags": [
-      "感知建图与导航"
+      "小脑与运动控制"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 61,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：International Review of Automatic Control (IREACO)。Effective robot navigation process remains a primary area across many fields（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：International Review of Automatic Control (IREACO)。Effective robot navigation process remains a primary area across many fields（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -5536,14 +5538,14 @@
     "published": "2026-03-22",
     "first_seen": "2026-10-15T01:40:09.837409+00:00",
     "doi": "https://doi.org/10.3390/robotics15030065",
-    "category": "感知建图与导航",
+    "category": "小脑与运动控制",
     "tags": [
-      "感知建图与导航"
+      "小脑与运动控制"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 60,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Robotics。When is an unknown, confined environment traversable for a specific ground robot using only touch? We answer by (i) gi（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Robotics。When is an unknown, confined environment traversable for a specific ground robot using only touch? We answer by (i) gi（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -5578,8 +5580,7 @@
     "doi": "10.62051/ijmee.v8n3.03",
     "category": "感知建图与导航",
     "tags": [
-      "感知建图与导航",
-      "基础软件与系统"
+      "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -5617,15 +5618,14 @@
     "published": "2026-03-01",
     "first_seen": "2026-10-15T01:40:39.625363+00:00",
     "doi": "10.1109/lra.2026.3653283",
-    "category": "大脑与具身智能",
+    "category": "感知建图与导航",
     "tags": [
-      "大脑与具身智能",
       "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 62,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：IEEE Robotics and Automation Letters。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：IEEE Robotics and Automation Letters。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -5638,15 +5638,15 @@
     "published": "2026-02-23",
     "first_seen": "2026-10-15T01:40:39.626157+00:00",
     "doi": "10.1115/imece2025-166906",
-    "category": "感知建图与导航",
+    "category": "小脑与运动控制",
     "tags": [
-      "感知建图与导航",
-      "小脑与运动控制"
+      "小脑与运动控制",
+      "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 74,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Volume 5: Dynamics, Vibration, and Control。 Abstract Universal Omni-wheeled Mobile Robots (UOWMR) offer better maneuverability （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Volume 5: Dynamics, Vibration, and Control。 Abstract Universal Omni-wheeled Mobile Robots (UOWMR) offer better maneuverability （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -5659,9 +5659,8 @@
     "published": "2026-01-15",
     "first_seen": "2026-10-15T01:40:11.380807+00:00",
     "doi": "https://doi.org/10.1002/rob.70157",
-    "category": "硬件与防爆",
+    "category": "感知建图与导航",
     "tags": [
-      "硬件与防爆",
       "感知建图与导航",
       "特种应用与产品"
     ],
@@ -5670,7 +5669,7 @@
     ],
     "scope": "特种场景直接相关",
     "score": 72,
-    "summary": "行业筛选：特种场景直接相关；方向：硬件与防爆；关联：野外与特种地形。来源期刊/会议：Journal of Field Robotics。ABSTRACT This work presents a non‐geometrical navigation approach based on a purely topological under（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：野外与特种地形。来源期刊/会议：Journal of Field Robotics。ABSTRACT This work presents a non‐geometrical navigation approach based on a purely topological under（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -5728,8 +5727,7 @@
     "doi": "10.2139/ssrn.6897960",
     "category": "感知建图与导航",
     "tags": [
-      "感知建图与导航",
-      "硬件与防爆"
+      "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -5807,16 +5805,14 @@
     "published": "2026-01-01",
     "first_seen": "2026-10-15T01:40:23.493889+00:00",
     "doi": "10.2139/ssrn.7507409",
-    "category": "硬件与防爆",
+    "category": "感知建图与导航",
     "tags": [
-      "硬件与防爆",
-      "基础软件与系统",
       "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 66,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：硬件与防爆；关联：特种机器人共性技术（需核验应用适配性）。Accurate pose estimation in GPS-denied environments remains challenging forquadruped robots due to periodic ground impacts, contact unc（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。Accurate pose estimation in GPS-denied environments remains challenging forquadruped robots due to periodic ground impacts, contact unc（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -5829,15 +5825,14 @@
     "published": "2026-01-01",
     "first_seen": "2026-10-15T01:40:11.386374+00:00",
     "doi": "https://doi.org/10.3389/frobt.2026.1855443",
-    "category": "硬件与防爆",
+    "category": "感知建图与导航",
     "tags": [
-      "硬件与防爆",
       "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 65,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：硬件与防爆；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：PubMed Central。As part of TU Delft Rhizome 2.0 and Moonshot projects, focusing on the development of extraterrestrial habitats （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：PubMed Central。As part of TU Delft Rhizome 2.0 and Moonshot projects, focusing on the development of extraterrestrial habitats （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -5870,15 +5865,14 @@
     "published": "2026-01-01",
     "first_seen": "2026-10-15T01:40:39.625954+00:00",
     "doi": "10.29284/y9ftx914",
-    "category": "大脑与具身智能",
+    "category": "感知建图与导航",
     "tags": [
-      "大脑与具身智能",
       "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 62,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：INTERNATIONAL JOURNAL OF ADVANCES IN SIGNAL AND IMAGE SCIENCES。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：INTERNATIONAL JOURNAL OF ADVANCES IN SIGNAL AND IMAGE SCIENCES。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -5974,15 +5968,14 @@
     "published": "2025-11-07",
     "first_seen": "2026-10-15T01:40:28.813336+00:00",
     "doi": "10.1142/s230138502750021x",
-    "category": "小脑与运动控制",
+    "category": "感知建图与导航",
     "tags": [
-      "小脑与运动控制",
       "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 65,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Unmanned Systems。 Center-of-Mass (CoM) motion control is key for wheel-legged humanoid robots to perform flexible movement on r（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Unmanned Systems。 Center-of-Mass (CoM) motion control is key for wheel-legged humanoid robots to perform flexible movement on r（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -5995,9 +5988,8 @@
     "published": "2025-11-01",
     "first_seen": "2026-10-15T01:40:12.707651+00:00",
     "doi": "10.1117/12.3084783",
-    "category": "硬件与防爆",
+    "category": "特种应用与产品",
     "tags": [
-      "硬件与防爆",
       "特种应用与产品"
     ],
     "industry_tags": [
@@ -6005,7 +5997,7 @@
     ],
     "scope": "特种场景直接相关",
     "score": 77,
-    "summary": "行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境。来源期刊/会议：Fourth International Conference on New Materials, Machinery, and Vehicle Engineering (NMMVE 2025)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：防爆石化与危险环境。来源期刊/会议：Fourth International Conference on New Materials, Machinery, and Vehicle Engineering (NMMVE 2025)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -6018,9 +6010,8 @@
     "published": "2025-11-01",
     "first_seen": "2026-10-15T01:40:12.707694+00:00",
     "doi": "10.1117/12.3085536",
-    "category": "硬件与防爆",
+    "category": "特种应用与产品",
     "tags": [
-      "硬件与防爆",
       "特种应用与产品"
     ],
     "industry_tags": [
@@ -6028,7 +6019,7 @@
     ],
     "scope": "特种场景直接相关",
     "score": 77,
-    "summary": "行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境。来源期刊/会议：Fourth International Conference on New Materials, Machinery, and Vehicle Engineering (NMMVE 2025)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：防爆石化与危险环境。来源期刊/会议：Fourth International Conference on New Materials, Machinery, and Vehicle Engineering (NMMVE 2025)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -6085,15 +6076,15 @@
     "published": "2025-10-27",
     "first_seen": "2026-10-15T01:40:39.625585+00:00",
     "doi": "10.21203/rs.3.rs-7938184/v1",
-    "category": "基础软件与系统",
+    "category": "感知建图与导航",
     "tags": [
-      "基础软件与系统",
-      "感知建图与导航"
+      "感知建图与导航",
+      "基础软件与系统"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 74,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。Abstract In industrial settings, there is a growing demand for flexible automation systems that can dynamically navigate and transport （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。Abstract In industrial settings, there is a growing demand for flexible automation systems that can dynamically navigate and transport （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -6106,14 +6097,14 @@
     "published": "2025-10-24",
     "first_seen": "2026-10-15T01:40:23.493434+00:00",
     "doi": "10.36227/techrxiv.176127306.69222504/v1",
-    "category": "小脑与运动控制",
+    "category": "特种应用与产品",
     "tags": [
-      "小脑与运动控制"
+      "特种应用与产品"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 72,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。Over the past decade, bioinspiration has driven extensive research on robotic tails, where researchers have often employed simplified m（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：特种应用与产品；关联：特种机器人共性技术（需核验应用适配性）。Over the past decade, bioinspiration has driven extensive research on robotic tails, where researchers have often employed simplified m（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -6166,15 +6157,15 @@
     "published": "2025-10-14",
     "first_seen": "2026-10-15T01:40:39.625630+00:00",
     "doi": "10.1145/3748777.3748807",
-    "category": "大脑与具身智能",
+    "category": "感知建图与导航",
     "tags": [
-      "大脑与具身智能",
-      "感知建图与导航"
+      "感知建图与导航",
+      "大脑与具身智能"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 62,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Proceedings of the 19th International Symposium on Spatial and Temporal Data。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Proceedings of the 19th International Symposium on Spatial and Temporal Data。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -6232,14 +6223,14 @@
     "published": "2025-09-02",
     "first_seen": "2026-10-15T01:40:12.708216+00:00",
     "doi": "10.1109/icat66432.2025.11189277",
-    "category": "基础软件与系统",
+    "category": "特种应用与产品",
     "tags": [
-      "基础软件与系统"
+      "特种应用与产品"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 64,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2025 XXX International Conference on Information, Communication and Automation Technologies (ICAT)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：特种应用与产品；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2025 XXX International Conference on Information, Communication and Automation Technologies (ICAT)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -6274,7 +6265,8 @@
     "doi": "10.1109/ro-man63969.2025.11217602",
     "category": "感知建图与导航",
     "tags": [
-      "感知建图与导航"
+      "感知建图与导航",
+      "小脑与运动控制"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -6423,6 +6415,7 @@
     "category": "小脑与运动控制",
     "tags": [
       "小脑与运动控制",
+      "感知建图与导航",
       "特种应用与产品"
     ],
     "industry_tags": [
@@ -6443,9 +6436,8 @@
     "published": "2025-07-31",
     "first_seen": "2026-10-15T01:40:17.998160+00:00",
     "doi": "10.55878/ses2025-5-1-6",
-    "category": "感知建图与导航",
+    "category": "特种应用与产品",
     "tags": [
-      "感知建图与导航",
       "特种应用与产品"
     ],
     "industry_tags": [
@@ -6453,7 +6445,7 @@
     ],
     "scope": "特种场景直接相关",
     "score": 77,
-    "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：消防与应急救援。来源期刊/会议：Spectrum of Emerging Sciences。 Fire incidents pose severe threats to life, property, and mental well-being, with firefighters o（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：Spectrum of Emerging Sciences。 Fire incidents pose severe threats to life, property, and mental well-being, with firefighters o（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -6486,9 +6478,8 @@
     "published": "2025-06-19",
     "first_seen": "2026-10-15T01:40:12.708292+00:00",
     "doi": "10.1109/mrai65197.2025.11135693",
-    "category": "硬件与防爆",
+    "category": "特种应用与产品",
     "tags": [
-      "硬件与防爆",
       "特种应用与产品"
     ],
     "industry_tags": [
@@ -6496,7 +6487,7 @@
     ],
     "scope": "特种场景直接相关",
     "score": 77,
-    "summary": "行业筛选：特种场景直接相关；方向：硬件与防爆；关联：工业与能源巡检。来源期刊/会议：2025 International Conference on Mechatronics, Robotics, and Artificial Intelligence (MRAI)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：2025 International Conference on Mechatronics, Robotics, and Artificial Intelligence (MRAI)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -6509,9 +6500,8 @@
     "published": "2025-06-09",
     "first_seen": "2026-10-15T01:40:17.999045+00:00",
     "doi": "10.55041/ijsrem49523",
-    "category": "感知建图与导航",
+    "category": "特种应用与产品",
     "tags": [
-      "感知建图与导航",
       "特种应用与产品"
     ],
     "industry_tags": [
@@ -6519,7 +6509,7 @@
     ],
     "scope": "特种场景直接相关",
     "score": 77,
-    "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：消防与应急救援。来源期刊/会议：INTERNATIONAL JOURNAL OF SCIENTIFIC RESEARCH IN ENGINEERING AND MANAGEMENT。 Abstract - This project presents the A 360 Degree I（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：INTERNATIONAL JOURNAL OF SCIENTIFIC RESEARCH IN ENGINEERING AND MANAGEMENT。 Abstract - This project presents the A 360 Degree I（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -6592,10 +6582,8 @@
     "published": "2025-05-12",
     "first_seen": "2026-10-15T01:40:44.892807+00:00",
     "doi": "10.62051/ijcsit.v6n1.06",
-    "category": "基础软件与系统",
+    "category": "特种应用与产品",
     "tags": [
-      "基础软件与系统",
-      "感知建图与导航",
       "特种应用与产品"
     ],
     "industry_tags": [
@@ -6603,7 +6591,7 @@
     ],
     "scope": "特种场景直接相关",
     "score": 88,
-    "summary": "行业筛选：特种场景直接相关；方向：基础软件与系统；关联：工业与能源巡检。来源期刊/会议：International Journal of Computer Science and Information Technology。 VISAR (Vision-based Intelligent System for Automated Robo（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：International Journal of Computer Science and Information Technology。 VISAR (Vision-based Intelligent System for Automated Robo（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -6701,9 +6689,7 @@
     "doi": "10.20944/preprints202502.2212.v1",
     "category": "感知建图与导航",
     "tags": [
-      "感知建图与导航",
-      "硬件与防爆",
-      "基础软件与系统"
+      "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -6721,15 +6707,14 @@
     "published": "2025-02-18",
     "first_seen": "2026-10-15T01:40:39.626363+00:00",
     "doi": "10.3390/s25041248",
-    "category": "基础软件与系统",
+    "category": "感知建图与导航",
     "tags": [
-      "基础软件与系统",
       "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 65,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Sensors。 Navigation systems are developing rapidly; nevertheless, tasks are becoming more complex, significantly increasing the（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Sensors。 Navigation systems are developing rapidly; nevertheless, tasks are becoming more complex, significantly increasing the（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -6930,15 +6915,14 @@
     "published": "2025-01-01",
     "first_seen": "2026-10-15T01:40:39.625336+00:00",
     "doi": "10.5220/0013455100003970",
-    "category": "大脑与具身智能",
+    "category": "感知建图与导航",
     "tags": [
-      "大脑与具身智能",
       "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 65,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Proceedings of the 15th International Conference on Simulation and Modeling Methodologies, Technologies and Applications。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Proceedings of the 15th International Conference on Simulation and Modeling Methodologies, Technologies and Applications。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -6992,9 +6976,8 @@
     "published": "2024-12-31",
     "first_seen": "2026-10-15T01:40:17.998581+00:00",
     "doi": "10.22214/ijraset.2024.66156",
-    "category": "感知建图与导航",
+    "category": "特种应用与产品",
     "tags": [
-      "感知建图与导航",
       "特种应用与产品"
     ],
     "industry_tags": [
@@ -7002,7 +6985,7 @@
     ],
     "scope": "特种场景直接相关",
     "score": 77,
-    "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：消防与应急救援。来源期刊/会议：International Journal for Research in Applied Science and Engineering Technology。 Firefighting is an inherently dangerous profe（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：International Journal for Research in Applied Science and Engineering Technology。 Firefighting is an inherently dangerous profe（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -7062,8 +7045,7 @@
     "doi": "10.54097/psehyq71",
     "category": "感知建图与导航",
     "tags": [
-      "感知建图与导航",
-      "小脑与运动控制"
+      "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -7124,15 +7106,14 @@
     "published": "2024-11-21",
     "first_seen": "2026-10-15T01:40:12.708189+00:00",
     "doi": "10.3390/app142310774",
-    "category": "硬件与防爆",
+    "category": "特种应用与产品",
     "tags": [
-      "硬件与防爆",
-      "感知建图与导航"
+      "特种应用与产品"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 66,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：硬件与防爆；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Applied Sciences。 The automatic inspection of belt conveyors gathers increasing attention in the mining industry. The utilizati（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：特种应用与产品；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Applied Sciences。 The automatic inspection of belt conveyors gathers increasing attention in the mining industry. The utilizati（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -7167,8 +7148,7 @@
     "doi": "10.21203/rs.3.rs-5391723/v1",
     "category": "感知建图与导航",
     "tags": [
-      "感知建图与导航",
-      "硬件与防爆"
+      "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -7186,9 +7166,8 @@
     "published": "2024-11-01",
     "first_seen": "2026-10-15T01:40:12.707758+00:00",
     "doi": "10.1088/1742-6596/2902/1/012002",
-    "category": "硬件与防爆",
+    "category": "特种应用与产品",
     "tags": [
-      "硬件与防爆",
       "特种应用与产品"
     ],
     "industry_tags": [
@@ -7196,7 +7175,7 @@
     ],
     "scope": "特种场景直接相关",
     "score": 79,
-    "summary": "行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境。来源期刊/会议：Journal of Physics: Conference Series。 Abstract In order to achieve the automatic assembly and inspection of AGM battery explos（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：防爆石化与危险环境。来源期刊/会议：Journal of Physics: Conference Series。 Abstract In order to achieve the automatic assembly and inspection of AGM battery explos（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -7239,6 +7218,1058 @@
     "scope": "可迁移的机器人关键技术",
     "score": 64,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2024 IEEE International Conference on Control Science and Systems Engineering (ICCSSE)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "de95c847522c574499",
+    "title": "Development of a Sensor-Based Glove-Controlled Mobile Robot for Firefighting and Rescue Operations",
+    "url": "https://doi.org/10.31763/ijrcs.v4i4.1553",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：International Journal of Robotics and Control Systems。 Robots are important in preventing hazards. This paper presents the construction and testing of a mobile robot equipped with a sensor-based glove for firefighting and rescue operations. The main idea is based on the ability to control the mobile robot through the movement of a gloved hand. The glove circuit is connected to the robot circuit through Bluetooth. The MPU6050 gyroscope sensor detects the movement of a gloved hand and sends the direction of the hand’s inclination to the microcontroller, which in turn uses this information to direct the mobile robot’ movement in the desired direction. Experiments were conducted to test the mobile robot and its control system. Results showed that the robot prototype works effectively with satisfactory response to the intended direction of robot movement. An increase in safety level a",
+    "published": "2024-10-01",
+    "first_seen": "2026-10-15T01:54:11.015608+00:00",
+    "doi": "10.31763/ijrcs.v4i4.1553",
+    "category": "特种应用与产品",
+    "tags": [
+      "特种应用与产品"
+    ],
+    "industry_tags": [
+      "消防与应急救援"
+    ],
+    "scope": "特种场景直接相关",
+    "score": 87,
+    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：International Journal of Robotics and Control Systems。 Robots are important in preventing hazards. This paper presents the cons（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "7127eca2367dec5386",
+    "title": "Investigating Human-Robot Interactions with a Quadruped Robot",
+    "url": "https://doi.org/10.24908/iqurcp18032",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Inquiry@Queen's Undergraduate Research Conference Proceedings。 Robots are becoming more prevalent in our daily lives. As robots become more common in society, we must understand how people react and interact with them. This study leverages Boston Dynamics' Spot robot to examine human responses to quadruped robots. Previous studies had Spot walking alongside participants at fixed speeds, independent of their gait. Improving upon this method, I developed a program that enables Spot to detect and follow fiducial markers (AprilTags). Using the Robot Operating System (ROS), the depth and position of the tag within the camera’s frame were extracted and translated into motion commands for the robot. The tag is attached to an apparatus on the hip that extends the tag near the subject’s knee, allowing Spot to track the participant’s trunk speed and maintain a consistent distance, offering",
+    "published": "2024-09-09",
+    "first_seen": "2026-10-15T01:54:16.468763+00:00",
+    "doi": "10.24908/iqurcp18032",
+    "category": "基础软件与系统",
+    "tags": [
+      "基础软件与系统"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 73,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Inquiry@Queen's Undergraduate Research Conference Proceedings。 Robots are becoming more prevalent in our daily lives. As robots（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "d8365873683aaa0eb3",
+    "title": "Towards Autonomous Robotic Structure Inspection with Dense-Direct Visual-SLAM",
+    "url": "https://doi.org/10.23919/eusipco63174.2024.10715467",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：2024 32nd European Signal Processing Conference (EUSIPCO)。",
+    "published": "2024-08-26",
+    "first_seen": "2026-10-15T01:54:27.449525+00:00",
+    "doi": "10.23919/eusipco63174.2024.10715467",
+    "category": "感知建图与导航",
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2024 32nd European Signal Processing Conference (EUSIPCO)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "27408a76ef4bb7fc71",
+    "title": "Camera-based mapping in search-and-rescue via flying and ground robot teams",
+    "url": "https://doi.org/10.1007/s00138-024-01594-4",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Machine Vision and Applications。 Abstract Search and rescue (SaR) is challenging, due to the unknown environmental situation after disasters occur. Robotics has become indispensable for precise mapping of the environment and for locating the victims. Combining flying and ground robots more effectively serves this purpose, due to their complementary features in terms of viewpoint and maneuvering. To this end, a novel, cost-effective framework for mapping unknown environments is introduced that leverages You Only Look Once and video streams transmitted by a ground and a flying robot. The integrated mapping approach is for performing three crucial SaR tasks: localizing the victims, i.e., determining their position in the environment and their body pose, tracking the moving victims, and providing a map of the ground elevation that assists both the ground robot and the SaR crew in nav",
+    "published": "2024-08-20",
+    "first_seen": "2026-10-15T01:54:11.016205+00:00",
+    "doi": "10.1007/s00138-024-01594-4",
+    "category": "感知建图与导航",
+    "tags": [
+      "感知建图与导航",
+      "特种应用与产品"
+    ],
+    "industry_tags": [
+      "消防与应急救援"
+    ],
+    "scope": "特种场景直接相关",
+    "score": 82,
+    "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：消防与应急救援。来源期刊/会议：Machine Vision and Applications。 Abstract Search and rescue (SaR) is challenging, due to the unknown environmental situation af（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "89cb2059727b9342b0",
+    "title": "Keynote Speaker ICOM'24: Development of ANYmal X, the World's First Explosion-Proof Legged Robot",
+    "url": "https://doi.org/10.1109/icom61675.2024.10652258",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：2024 9th International Conference on Mechatronics Engineering (ICOM)。",
+    "published": "2024-08-13",
+    "first_seen": "2026-10-15T01:54:05.582568+00:00",
+    "doi": "10.1109/icom61675.2024.10652258",
+    "category": "特种应用与产品",
+    "tags": [
+      "特种应用与产品"
+    ],
+    "industry_tags": [
+      "防爆石化与危险环境"
+    ],
+    "scope": "特种场景直接相关",
+    "score": 88,
+    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：防爆石化与危险环境。来源期刊/会议：2024 9th International Conference on Mechatronics Engineering (ICOM)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "cfd2d7eb942041499b",
+    "title": "Compliant Motion Control of Wheel-Legged Humanoid Robot on Rough Terrains",
+    "url": "https://doi.org/10.1109/tmech.2023.3320762",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：IEEE/ASME Transactions on Mechatronics。",
+    "published": "2024-06-01",
+    "first_seen": "2026-10-15T01:54:22.121278+00:00",
+    "doi": "10.1109/tmech.2023.3320762",
+    "category": "小脑与运动控制",
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 64,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：IEEE/ASME Transactions on Mechatronics。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "eda26c5424d7016c45",
+    "title": "Mapless mobile robot navigation at the edge using self-supervised cognitive map learners",
+    "url": "https://doi.org/10.3389/frobt.2024.1372375",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Frontiers in Robotics and AI。 Navigation of mobile agents in unknown, unmapped environments is a critical task for achieving general autonomy. Recent advancements in combining Reinforcement Learning with Deep Neural Networks have shown promising results in addressing this challenge. However, the inherent complexity of these approaches, characterized by multi-layer networks and intricate reward objectives, limits their autonomy, increases memory footprint, and complicates adaptation to energy-efficient edge hardware. To overcome these challenges, we propose a brain-inspired method that employs a shallow architecture trained by a local learning rule for self-supervised navigation in uncharted environments. Our approach achieves performance comparable to a state-of-the-art Deep Q Network (DQN) method with respect to goal-reaching accuracy and path length, with a similar (slightly lo",
+    "published": "2024-05-22",
+    "first_seen": "2026-10-15T01:54:32.701478+00:00",
+    "doi": "10.3389/frobt.2024.1372375",
+    "category": "感知建图与导航",
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 73,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Frontiers in Robotics and AI。 Navigation of mobile agents in unknown, unmapped environments is a critical task for achieving ge（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "7e7ac1bf0ec59ff5cc",
+    "title": "End to end navigation stack for nuclear power plant inspection with mobile robot",
+    "url": "https://doi.org/10.1016/j.softx.2024.101750",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：SoftwareX。",
+    "published": "2024-05-01",
+    "first_seen": "2026-10-15T01:54:05.582493+00:00",
+    "doi": "10.1016/j.softx.2024.101750",
+    "category": "感知建图与导航",
+    "tags": [
+      "感知建图与导航",
+      "特种应用与产品"
+    ],
+    "industry_tags": [
+      "工业与能源巡检"
+    ],
+    "scope": "特种场景直接相关",
+    "score": 87,
+    "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：工业与能源巡检。来源期刊/会议：SoftwareX。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "d12d4f718e0743564b",
+    "title": "The integration of GPS and visual navigation for autonomous navigation of an Ackerman steering mobile robot in cotton fields",
+    "url": "https://doi.org/10.3389/frobt.2024.1359887",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Frontiers in Robotics and AI。 Autonomous navigation in agricultural fields presents a unique challenge due to the unpredictable outdoor environment. Various approaches have been explored to tackle this task, each with its own set of challenges. These include GPS guidance, which faces availability issues and struggles to avoid obstacles, and vision guidance techniques, which are sensitive to changes in light, weeds, and crop growth. This study proposes a novel idea that combining GPS and visual navigation offers an optimal solution for autonomous navigation in agricultural fields. Three solutions for autonomous navigation in cotton fields were developed and evaluated. The first solution utilized a path tracking algorithm, Pure Pursuit, to follow GPS coordinates and guide a mobile robot. It achieved an average lateral deviation of 8.3 cm from the pre-recorded path. The second solut",
+    "published": "2024-04-12",
+    "first_seen": "2026-10-15T01:54:32.701184+00:00",
+    "doi": "10.3389/frobt.2024.1359887",
+    "category": "感知建图与导航",
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 72,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Frontiers in Robotics and AI。 Autonomous navigation in agricultural fields presents a unique challenge due to the unpredictable（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "e9fb5d3a10a0bba853",
+    "title": "AI-Powered Firefighting Robot to Manage High-Risk Situations While Improving Standard Fire Response Time -Robot FireX",
+    "url": "https://doi.org/10.1109/isec61299.2024.10664945",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：2024 IEEE Integrated STEM Education Conference (ISEC)。",
+    "published": "2024-03-09",
+    "first_seen": "2026-10-15T01:54:11.016159+00:00",
+    "doi": "10.1109/isec61299.2024.10664945",
+    "category": "特种应用与产品",
+    "tags": [
+      "特种应用与产品"
+    ],
+    "industry_tags": [
+      "消防与应急救援"
+    ],
+    "scope": "特种场景直接相关",
+    "score": 76,
+    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：2024 IEEE Integrated STEM Education Conference (ISEC)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "ed959c4525356bc23d",
+    "title": "Research on Inspection Technology of Limited-rotation Explosion-proof Electric Actuators for Coal Mines",
+    "url": "https://doi.org/10.54097/fye9e027",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Highlights in Science, Engineering and Technology。 Based on the analysis of the status of the coal resource industry and the intelligent construction of coal mines, this paper introduces the application scenarios, design basis, and composition structure of the explosion-proof limited-angle electric actuator in coal mines. It establishes an inspection platform for the explosion-proof limited-angle electric actuator in coal mines and achieves the testing of rated travel time error of the explosion-proof limited-angle electric actuator in coal mines.",
+    "published": "2024-02-27",
+    "first_seen": "2026-10-15T01:54:05.582529+00:00",
+    "doi": "10.54097/fye9e027",
+    "category": "特种应用与产品",
+    "tags": [
+      "特种应用与产品"
+    ],
+    "industry_tags": [
+      "防爆石化与危险环境"
+    ],
+    "scope": "特种场景直接相关",
+    "score": 78,
+    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：防爆石化与危险环境。来源期刊/会议：Highlights in Science, Engineering and Technology。 Based on the analysis of the status of the coal resource industry and the in（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "d148ecb49975410756",
+    "title": "Design and Implementation of a Humanoid Firefighter Robot with Real-Time Monitoring and Firefighting Applications",
+    "url": "https://doi.org/10.5220/0013468800004639",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Proceedings of the 2nd International Conference on Intelligent and Sustainable Power and Energy Systems。",
+    "published": "2024-01-01",
+    "first_seen": "2026-10-15T01:54:11.016218+00:00",
+    "doi": "10.5220/0013468800004639",
+    "category": "特种应用与产品",
+    "tags": [
+      "特种应用与产品"
+    ],
+    "industry_tags": [
+      "消防与应急救援"
+    ],
+    "scope": "特种场景直接相关",
+    "score": 76,
+    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：Proceedings of the 2nd International Conference on Intelligent and Sustainable Power and Energy Systems。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "1ecb0db2302114a6ef",
+    "title": "Novel Fuzzy Reinforcement Algorithm for Mobile Robot Navigation in Automated Storage",
+    "url": "https://doi.org/10.18178/ijmerr.13.2.284-295",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：International Journal of Mechanical Engineering and Robotics Research。 Robots are used to move stored items in Automated Storage (AS) to shelve and pickup items in warehouse depicted shelves. In this situation and many others, it is important to follow the shortest way so that the smallest time possible is taken to achieve the task. In this research, a Fuzzy Logic system with Q-Learning Reinforcement in order to achieve a better overall system. While Fuzzy Logic can be used alone for robot navigation, Reinforcement learning helps to adjust the fuzzy rules and refine them towards two main purposes: reach the final goal, while avoiding difficult obstacles such as traps. This is done as an enhancement on our previous work where Fuzzy Logic system was used alone. Simulation results are added to support the work done. It proved that this new system is much better than the previous one",
+    "published": "2024-01-01",
+    "first_seen": "2026-10-15T01:54:32.701132+00:00",
+    "doi": "10.18178/ijmerr.13.2.284-295",
+    "category": "感知建图与导航",
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 73,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：International Journal of Mechanical Engineering and Robotics Research。 Robots are used to move stored items in Automated Storag（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "1cfc58ca47aaf33dbf",
+    "title": "AUTONOMOUS ROBOTIC INSPECTION BASED ON ACTIVE VISION AND DEEP REINFORCEMENT LEARNING",
+    "url": "https://doi.org/10.12783/shm2023/36973",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Proceedings of the 14th International Workshop on Structural Health Monitoring。 Over the years, various methods based on computer vision have been proposed for the problem of damage detection and segmentation. Recently, remarkable progress has been made in this field owing to the emergence of deep neural networks. However, there is a main assumption among these works that the data collection (e.g., taking photos) is usually carried out by human inspectors, so there is little occlusion or bad lighting conditions. With that being said, the uncertainties that could occur in data collection are handled manually to ensure the dataset is clean and free of confusing or occluded damages. This assumption limits the applicability of autonomous robotic inspection to real-world settings due to the uncertainties in data collection and data interpretation. To bridge this gap, this study integr",
+    "published": "2023-09-12",
+    "first_seen": "2026-10-15T01:54:27.449573+00:00",
+    "doi": "10.12783/shm2023/36973",
+    "category": "小脑与运动控制",
+    "tags": [
+      "小脑与运动控制",
+      "特种应用与产品"
+    ],
+    "industry_tags": [
+      "工业与能源巡检"
+    ],
+    "scope": "特种场景直接相关",
+    "score": 76,
+    "summary": "行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：工业与能源巡检。来源期刊/会议：Proceedings of the 14th International Workshop on Structural Health Monitoring。 Over the years, various methods based on comput（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "21f291cf510f4b5ca9",
+    "title": "Cable management design for Inspection Robot",
+    "url": "https://doi.org/10.2172/1997106",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Cable management design for Inspection Robot。",
+    "published": "2023-08-07",
+    "first_seen": "2026-10-15T01:54:05.582800+00:00",
+    "doi": "10.2172/1997106",
+    "category": "特种应用与产品",
+    "tags": [
+      "特种应用与产品"
+    ],
+    "industry_tags": [
+      "工业与能源巡检"
+    ],
+    "scope": "特种场景直接相关",
+    "score": 76,
+    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：Cable management design for Inspection Robot。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "501d1c23d5a686d26b",
+    "title": "3D Printed Drivetrain Development for Inspection Robot",
+    "url": "https://doi.org/10.2172/1997518",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：3D Printed Drivetrain Development for Inspection Robot。",
+    "published": "2023-08-07",
+    "first_seen": "2026-10-15T01:54:05.582861+00:00",
+    "doi": "10.2172/1997518",
+    "category": "特种应用与产品",
+    "tags": [
+      "特种应用与产品"
+    ],
+    "industry_tags": [
+      "工业与能源巡检"
+    ],
+    "scope": "特种场景直接相关",
+    "score": 76,
+    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：3D Printed Drivetrain Development for Inspection Robot。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "c5e4c5d94c0875ffd0",
+    "title": "Prototyping High Mobility Inspection Robot",
+    "url": "https://doi.org/10.2172/1995256",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Prototyping High Mobility Inspection Robot。",
+    "published": "2023-08-03",
+    "first_seen": "2026-10-15T01:54:05.582582+00:00",
+    "doi": "10.2172/1995256",
+    "category": "特种应用与产品",
+    "tags": [
+      "特种应用与产品"
+    ],
+    "industry_tags": [
+      "工业与能源巡检"
+    ],
+    "scope": "特种场景直接相关",
+    "score": 76,
+    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：Prototyping High Mobility Inspection Robot。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "c0af32dab350f9a9bf",
+    "title": "Influence of periodic pulse intake on the ventilation efficiency of positive pressure explosion-proof robot",
+    "url": "https://doi.org/10.21203/rs.3.rs-3146415/v1",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "Abstract When the positive pressure explosion-proof robot is in ventilation, if the air is filled into the cavity with a constant pressure, a stable flow field will be formed in the cavity. There is a stagnation zone of airflow in the corner position, which will cause the accumulation of explosive gas. In order to solve this problem, the ventilation method of periodic pulse intake is adopted on the basis of the existing robot positive pressure explosion-proof structure. The variation of explosive gases concentration in the robot cavity with time under constant pressure and pulse pressure with different periods and amplitudes is compared. According to the simulation and experimental results, it is found that the pulse intake is beneficial to the ventilation of the corner position. The period and amplitude of the pulse intake has an effect on the ventilation efficiency, when the period is ",
+    "published": "2023-07-17",
+    "first_seen": "2026-10-15T01:54:05.582621+00:00",
+    "doi": "10.21203/rs.3.rs-3146415/v1",
+    "category": "特种应用与产品",
+    "tags": [
+      "特种应用与产品"
+    ],
+    "industry_tags": [
+      "防爆石化与危险环境"
+    ],
+    "scope": "特种场景直接相关",
+    "score": 77,
+    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：防爆石化与危险环境。Abstract When the positive pressure explosion-proof robot is in ventilation, if the air is filled into the cavity with a constant press（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "e86e261c57d53e5d1c",
+    "title": "DEVELOPMENT OF FIREFIGHTING ROBOT TO USE IN HAZARDOUS SITUATION",
+    "url": "https://doi.org/10.58257/ijprems31783",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：International Journal of Progressive Research in Engineering Management and Science。",
+    "published": "2023-07-11",
+    "first_seen": "2026-10-15T01:54:11.016399+00:00",
+    "doi": "10.58257/ijprems31783",
+    "category": "特种应用与产品",
+    "tags": [
+      "特种应用与产品"
+    ],
+    "industry_tags": [
+      "消防与应急救援"
+    ],
+    "scope": "特种场景直接相关",
+    "score": 76,
+    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：International Journal of Progressive Research in Engineering Management and Science。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "6db5415e69f54603f5",
+    "title": "Research on inspection of machine room by mobile robot",
+    "url": "https://doi.org/10.54254/2755-2721/6/20230769",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Applied and Computational Engineering。 The machine room inspection robot, as a special robot, can locate and navigate in the machine room independently, and carry sensors to detect equipment faults and record instrument data instead of the machine room staff. In this paper, the relevant standards and existing inspection robots at home and abroad were investigated and the overall scheme was determined based on the actual machine room environment. The monitoring background employs B/S architecture, allowing staff to deliver inspection tasks and manage robots from any computer. The motion map is created using the GMapping algorithm, and the topology map for inspection is created based on the inspection task and feasible path. For raster map localization, the adaptive Monte Carlo localization algorithm is used. The functional layer software for the robot is designed based on the insp",
+    "published": "2023-06-14",
+    "first_seen": "2026-10-15T01:54:05.582849+00:00",
+    "doi": "10.54254/2755-2721/6/20230769",
+    "category": "特种应用与产品",
+    "tags": [
+      "特种应用与产品"
+    ],
+    "industry_tags": [
+      "工业与能源巡检"
+    ],
+    "scope": "特种场景直接相关",
+    "score": 83,
+    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：Applied and Computational Engineering。 The machine room inspection robot, as a special robot, can locate and navigate in the ma（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "070bc4c0ea4ac62696",
+    "title": "Implementing a Prototype Autonomous Fire Detecting and Firefighting Robot",
+    "url": "https://doi.org/10.20944/preprints202305.2010.v1",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "Fires pose a significant threat to human life and property. An autonomous fire detection and fighting robot has the potential to mitigate the challenges associated with firefighting. This paper presents the implementation of an autonomous fire detection and fighting robot equipped with sensors, algorithms, and actuators to detect, locate, and suppress fires autonomously. The robot's mechanical and electrical components were designed, prototyped, and tested in a controlled environment to evaluate its ability to navigate through obstacles, detect fires, and suppress them autonomously. The results show that the robot effectively detects and suppresses fires, making it a promising solution for firefighting applications. The study contributes to the development of autonomous robots for firefighting, enhancing the safety of firefighters and the effectiveness of firefighting operations.",
+    "published": "2023-05-29",
+    "first_seen": "2026-10-15T01:54:11.016110+00:00",
+    "doi": "10.20944/preprints202305.2010.v1",
+    "category": "特种应用与产品",
+    "tags": [
+      "特种应用与产品"
+    ],
+    "industry_tags": [
+      "消防与应急救援"
+    ],
+    "scope": "特种场景直接相关",
+    "score": 76,
+    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。Fires pose a significant threat to human life and property. An autonomous fire detection and fighting robot has the potential to mitiga（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "bc356e1aeeeaa0ed45",
+    "title": "Robotic Fish Enabled Offshore Pipeline Inspection",
+    "url": "https://doi.org/10.4043/32427-ms",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Offshore Technology Conference。 Abstract Timely inspection of subsea infrastructure, especially subsea pipelines, is the key to the prevention of oil spills. In this paper, a transformative offshore pipeline inspection technology is presented by using a bio-inspired autonomous robotic system equipped with a processing unit for underwater computer vision processing and edge computing. The goal is to build a time-efficient and cost-effective system for underwater pipeline inspection that can detect oil leakage at early stages and prevent disastrous results. In this paper, we introduced a bio-inspired autonomous underwater vehicle (BAUV) equipped with video cameras and mobile edge computing devices. We deploy a deep neural network (DNN) specially trained for a variety of underwater image/video processing tasks. The intelligent computer vision processing unit allows us to navigate an",
+    "published": "2023-04-24",
+    "first_seen": "2026-10-15T01:54:38.176792+00:00",
+    "doi": "10.4043/32427-ms",
+    "category": "特种应用与产品",
+    "tags": [
+      "特种应用与产品"
+    ],
+    "industry_tags": [
+      "工业与能源巡检"
+    ],
+    "scope": "特种场景直接相关",
+    "score": 77,
+    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：Offshore Technology Conference。 Abstract Timely inspection of subsea infrastructure, especially subsea pipelines, is the key to（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "7dabfdef03a4e523ac",
+    "title": "Access Control Requirements for Autonomous Robotic Fleets",
+    "url": "https://doi.org/10.4271/2023-01-0104",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：SAE Technical Paper Series。 <div class=\"section abstract\"><div class=\"htmlview paragraph\">Access control enforces security policies for controlling critical resources. For V2X (Vehicle to Everything) autonomous military vehicle fleets, network middleware systems such as ROS (Robotic Operating System) expose system resources through networked publisher/subscriber and client/server paradigms. Without proper access control, these systems are vulnerable to attacks from compromised network nodes, which may perform data poisoning attacks, flood packets on a network, or attempt to gain lateral control of other resources. Access control for robotic middleware systems has been investigated in both ROS1 and ROS2. Still, these implementations do not have mechanisms for evaluating a policy's consistency and completeness or writing expressive policies for distributed fleets. We explore an RBA",
+    "published": "2023-04-11",
+    "first_seen": "2026-10-15T01:54:43.532976+00:00",
+    "doi": "10.4271/2023-01-0104",
+    "category": "基础软件与系统",
+    "tags": [
+      "基础软件与系统"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：SAE Technical Paper Series。 Access control enforces security policies for controlling critical resources. For V2X (Vehicle to E（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "b08795100dcff2beb6",
+    "title": "Advances in Robotic Welding for Metallic Materials: Application of Inspection, Modeling, Monitoring and Automation Techniques",
+    "url": "https://doi.org/10.3390/met13040711",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Metals。 The robotic welding manufacturing of metal parts is a very important process, especially in heavy industries such as shipbuilding, oil and gas, automotive, and aerospace. There is a great variety of different techniques for manufacturing by robotic welding, and the welding operations are always in a constant process of evolution, as any advance can be significant to avoid defects during the welding process. Although a great deal of research work has been carried out in recent years, thanks to which results and reviews have been presented on this subject, the main aim of this publication is to define and review works that show the advances in the main inspection, modeling, monitoring, and automated operations during the welding process to avoid, or predictively identify, any possible defect in order to obtain an optimum degree of quality in the welding.",
+    "published": "2023-04-05",
+    "first_seen": "2026-10-15T01:54:43.533024+00:00",
+    "doi": "10.3390/met13040711",
+    "category": "特种应用与产品",
+    "tags": [
+      "特种应用与产品"
+    ],
+    "industry_tags": [
+      "防爆石化与危险环境"
+    ],
+    "scope": "特种场景直接相关",
+    "score": 71,
+    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：防爆石化与危险环境。来源期刊/会议：Metals。 The robotic welding manufacturing of metal parts is a very important process, especially in heavy industries such as sh（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "36d2d9ccc5e265c454",
+    "title": "A Multistage Framework for Autonomous Robotic Mapping with Targeted Metrics",
+    "url": "https://doi.org/10.3390/robotics12020039",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Robotics。 High-quality maps are pertinent to performing tasks requiring precision interaction with the environment. Current challenges with creating a high-precision map come from the need for both high pose accuracy and scan accuracy, and the goal of reliable autonomous performance of the task. In this paper, we propose a multistage framework to create a high-precision map of an environment which satisfies the targeted resolution and local accuracy by an autonomous mobile robot. The proposed framework consists of three steps. Each step is intended to aid in resolving the challenges faced by conventional approaches. In order to ensure the pose estimation is performed with high accuracy, a globally accurate coarse map of the environment is created using a conventional technique such as simultaneous localization and mapping or structure from motion with bundle adjustment. The high ",
+    "published": "2023-03-09",
+    "first_seen": "2026-10-15T01:54:43.533244+00:00",
+    "doi": "10.3390/robotics12020039",
+    "category": "感知建图与导航",
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Robotics。 High-quality maps are pertinent to performing tasks requiring precision interaction with the environment. Current cha（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "0fd47d90782701234a",
+    "title": "Implementation of SLAM, Navigation, Obstacle Avoidance, and Path Planning of a Robust Mobile Robot Using 2D Laser Scanner",
+    "url": "https://doi.org/10.32920/ryerson.14643939",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "<p>Over the last decade, navigation and Simultaneous Localization and Mapping (SLAM) have become key players in developing robust mobile robots. Several SLAM approaches utilizing camera, laser scan, sonar and fusion of sensors were developed and improved by a number of researchers. In this thesis, comparisons of these methods were evaluated, especially those offering low cost benefits, and low computation and memory consumption. The aim of this thesis was to select the most reliable and cost-efficient approach for indoor autonomous robotic applications. Currently, there are numerous studies that have optimized these SLAM methods; however, they still suffer from various complications such as scale drifting and excessive computation. This study performed different experiments to observe these challenges in realworld environments. A modified Pioneer robot was used to implement the selected ",
+    "published": "2023-02-21",
+    "first_seen": "2026-10-15T01:54:32.701405+00:00",
+    "doi": "10.32920/ryerson.14643939",
+    "category": "感知建图与导航",
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 73,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。Over the last decade, navigation and Simultaneous Localization and Mapping (SLAM) have become key players in developing robust mobile r（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "29555665e1fa8f3cb3",
+    "title": "Autonomous Obstacle Avoidance Method for Substation Inspection Robot Based on Binocular Vision",
+    "url": "https://doi.org/10.1109/iscer58777.2023.00068",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：2023 2nd International Symposium on Control Engineering and Robotics (ISCER)。",
+    "published": "2023-02-01",
+    "first_seen": "2026-10-15T01:54:43.533112+00:00",
+    "doi": "10.1109/iscer58777.2023.00068",
+    "category": "感知建图与导航",
+    "tags": [
+      "感知建图与导航",
+      "特种应用与产品"
+    ],
+    "industry_tags": [
+      "工业与能源巡检"
+    ],
+    "scope": "特种场景直接相关",
+    "score": 77,
+    "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：工业与能源巡检。来源期刊/会议：2023 2nd International Symposium on Control Engineering and Robotics (ISCER)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "74410192a12fa3f411",
+    "title": "Mobile Robot Navigation Strategies Through Behavioral Cloning and Generative Adversarial Imitation Learning",
+    "url": "https://doi.org/10.5220/0011856700003467",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Proceedings of the 25th International Conference on Enterprise Information Systems。",
+    "published": "2023-01-01",
+    "first_seen": "2026-10-15T01:54:32.700979+00:00",
+    "doi": "10.5220/0011856700003467",
+    "category": "感知建图与导航",
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 72,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Proceedings of the 25th International Conference on Enterprise Information Systems。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "f1370dc7ef5f5f3de2",
+    "title": "Mobile Robot Navigation Based on Pedestrian Flow Model Considering Human Unsteady Dynamic Behavior",
+    "url": "https://doi.org/10.5220/0012211900003543",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Proceedings of the 20th International Conference on Informatics in Control, Automation and Robotics。",
+    "published": "2023-01-01",
+    "first_seen": "2026-10-15T01:54:32.701091+00:00",
+    "doi": "10.5220/0012211900003543",
+    "category": "感知建图与导航",
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 72,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Proceedings of the 20th International Conference on Informatics in Control, Automation and Robotics。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "98291ba69d4dcbd388",
+    "title": "Mapping, Localization and Navigation for an Assistive Mobile Robot in a Robot-Inclusive Space",
+    "url": "https://doi.org/10.5220/0012172900003543",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Proceedings of the 20th International Conference on Informatics in Control, Automation and Robotics。",
+    "published": "2023-01-01",
+    "first_seen": "2026-10-15T01:54:32.700962+00:00",
+    "doi": "10.5220/0012172900003543",
+    "category": "感知建图与导航",
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 65,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Proceedings of the 20th International Conference on Informatics in Control, Automation and Robotics。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "d4f4c54e293412fbe4",
+    "title": "Research on Improved Ant Colony Path Planning Algorithm for Updating Pheromone of Subway Inspection Mobile Robot",
+    "url": "https://doi.org/10.2139/ssrn.4623370",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "",
+    "published": "2023-01-01",
+    "first_seen": "2026-10-15T01:54:05.582873+00:00",
+    "doi": "10.2139/ssrn.4623370",
+    "category": "感知建图与导航",
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 64,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "12fbf9ce9278d248cb",
+    "title": "MoRPI: Mobile Robot Pure Inertial Navigation",
+    "url": "https://doi.org/10.1109/jispin.2023.3334697",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：IEEE Journal of Indoor and Seamless Positioning and Navigation。",
+    "published": "2023-01-01",
+    "first_seen": "2026-10-15T01:54:32.701490+00:00",
+    "doi": "10.1109/jispin.2023.3334697",
+    "category": "感知建图与导航",
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 64,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：IEEE Journal of Indoor and Seamless Positioning and Navigation。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "2b720d72ddaa980048",
+    "title": "Mobile Robot Navigation Using Deep Reinforcement Learning",
+    "url": "https://doi.org/10.3390/pr10122748",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Processes。 Learning how to navigate autonomously in an unknown indoor environment without colliding with static and dynamic obstacles is important for mobile robots. The conventional mobile robot navigation system does not have the ability to learn autonomously. Unlike conventional approaches, this paper proposes an end-to-end approach that uses deep reinforcement learning for autonomous mobile robot navigation in an unknown environment. Two types of deep Q-learning agents, such as deep Q-network and double deep Q-network agents are proposed to enable the mobile robot to autonomously learn about collision avoidance and navigation capabilities in an unknown environment. For autonomous mobile robot navigation in an unknown environment, the process of detecting the target object is first carried out using a deep neural network model, and then the process of navigation to the target ",
+    "published": "2022-12-19",
+    "first_seen": "2026-10-15T01:54:32.701613+00:00",
+    "doi": "10.3390/pr10122748",
+    "category": "小脑与运动控制",
+    "tags": [
+      "小脑与运动控制",
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 73,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Processes。 Learning how to navigate autonomously in an unknown indoor environment without colliding with static and dynamic obs（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "e32d119fb5db367579",
+    "title": "Design and Simulation of a Mobile Robot for Pipeline Inspection",
+    "url": "https://doi.org/10.1109/conescapan56456.2022.9959592",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：2022 IEEE Central America and Panama Student Conference (CONESCAPAN)。",
+    "published": "2022-10-18",
+    "first_seen": "2026-10-15T01:54:05.583036+00:00",
+    "doi": "10.1109/conescapan56456.2022.9959592",
+    "category": "特种应用与产品",
+    "tags": [
+      "特种应用与产品"
+    ],
+    "industry_tags": [
+      "工业与能源巡检"
+    ],
+    "scope": "特种场景直接相关",
+    "score": 87,
+    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：2022 IEEE Central America and Panama Student Conference (CONESCAPAN)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "5d0a1aa3b33a0f094e",
+    "title": "Design and Development of Explosion-Proof Cavity of Hydraulic System Power Unit Applied in Explosion-Proof Area",
+    "url": "https://doi.org/10.3390/pr10091824",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Processes。 The construction machinery and vehicles, especially the explosion-proof and explosion-isolation ability of the vehicles are playing an increasingly important role in the complex and unpredictable emergency rescue field. In this paper, the explosion-proof housing of hydraulic system power unit applied in engineering machinery is investigated, wherein the power unit includes motor, power supply and control element. Motor-driven hydraulic pump provides the necessary power for the hydraulic system. The gas explosion process, basic parameters, flame acceleration mechanism and the theory model of gas explosion in finite space are analyzed. Relevant mathematical models of the experimental gas explosion for explosion-proof cavity are established. Furthermore, the models are analyzed by numerical method. We simulate the dynamic process of explosion by software. The analysis, ex",
+    "published": "2022-09-09",
+    "first_seen": "2026-10-15T01:54:05.583023+00:00",
+    "doi": "10.3390/pr10091824",
+    "category": "基础软件与系统",
+    "tags": [
+      "基础软件与系统",
+      "特种应用与产品"
+    ],
+    "industry_tags": [
+      "防爆石化与危险环境",
+      "消防与应急救援"
+    ],
+    "scope": "特种场景直接相关",
+    "score": 80,
+    "summary": "行业筛选：特种场景直接相关；方向：基础软件与系统；关联：防爆石化与危险环境、消防与应急救援。来源期刊/会议：Processes。 The construction machinery and vehicles, especially the explosion-proof and explosion-isolation ability of the vehic（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "eef58d6be4d2322539",
+    "title": "Spatial positioning robotic system for autonomous inspection of LPG tanks",
+    "url": "https://doi.org/10.1108/ir-03-2022-0076",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Industrial Robot: the international journal of robotics research and application。 Purpose Automatic robots can improve the efficiency of liquefied petroleum gas (LPG) tank inspection and maintenance, but it is difficult to achieve high-precision spatial positioning and navigation on tank surfaces. The purpose of this paper is to develop a spatial positioning robotic system for tank inspection. The robot can accurately identify and track weld paths. The positioning system can complete robot’s spatial positioning on tank surfaces. Design/methodology/approach A tank inspection robot with curvature-adaptive transmission mechanisms is designed in this study. A weld path recognition method based on deep learning is proposed to accurately identify and extract weld paths. Integrated multiple sensors, the positioning system is developed to improve the robot’s spatial positioning accuracy.",
+    "published": "2022-06-28",
+    "first_seen": "2026-10-15T01:54:27.449260+00:00",
+    "doi": "10.1108/ir-03-2022-0076",
+    "category": "特种应用与产品",
+    "tags": [
+      "特种应用与产品"
+    ],
+    "industry_tags": [
+      "工业与能源巡检"
+    ],
+    "scope": "特种场景直接相关",
+    "score": 72,
+    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：Industrial Robot: the international journal of robotics research and application。 Purpose Automatic robots can improve the effi（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "a24512edd8f5b7f916",
+    "title": "Machine learning techniques for robotic and autonomous inspection of mechanical systems and civil infrastructure",
+    "url": "https://doi.org/10.1007/s43684-022-00025-3",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Autonomous Intelligent Systems。 Abstract Machine learning and in particular deep learning techniques have demonstrated the most efficacy in training, learning, analyzing, and modelling large complex structured and unstructured datasets. These techniques have recently been commonly deployed in different industries to support robotic and autonomous system (RAS) requirements and applications ranging from planning and navigation to machine vision and robot manipulation in complex environments. This paper reviews the state-of-the-art with regard to RAS technologies (including unmanned marine robot systems, unmanned ground robot systems, climbing and crawler robots, unmanned aerial vehicles, and space robot systems) and their application for the inspection and monitoring of mechanical systems and civil infrastructure. We explore various types of data provided by such systems and the an",
+    "published": "2022-04-29",
+    "first_seen": "2026-10-15T01:54:27.449315+00:00",
+    "doi": "10.1007/s43684-022-00025-3",
+    "category": "特种应用与产品",
+    "tags": [
+      "特种应用与产品"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 68,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：特种应用与产品；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Autonomous Intelligent Systems。 Abstract Machine learning and in particular deep learning techniques have demonstrated the most（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "702c6e63460652ecdb",
+    "title": "An Aerial/Ground Robot Team for Autonomous Firefighting in Urban GNSS-Denied Scenarios",
+    "url": "https://doi.org/10.55417/fr.2022010",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Field Robotics。",
+    "published": "2022-03-01",
+    "first_seen": "2026-10-15T01:54:11.015750+00:00",
+    "doi": "10.55417/fr.2022010",
+    "category": "特种应用与产品",
+    "tags": [
+      "特种应用与产品"
+    ],
+    "industry_tags": [
+      "消防与应急救援",
+      "野外与特种地形"
+    ],
+    "scope": "特种场景直接相关",
+    "score": 90,
+    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援、野外与特种地形。来源期刊/会议：Field Robotics。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "7d2b93987ea53eb59b",
+    "title": "Quadruped robots venture into the wild with open eyes",
+    "url": "https://doi.org/10.1126/scirobotics.abn6798",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Science Robotics。 Perception-based locomotion learning accelerates the real-world deployment of quadruped robots.",
+    "published": "2022-01-26",
+    "first_seen": "2026-10-15T01:54:16.469055+00:00",
+    "doi": "10.1126/scirobotics.abn6798",
+    "category": "特种应用与产品",
+    "tags": [
+      "特种应用与产品"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 64,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：特种应用与产品；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Science Robotics。 Perception-based locomotion learning accelerates the real-world deployment of quadruped robots.（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "082d6d15797c1761b4",
+    "title": "Integration of prioritized impedance controller in improved hierarchical operational-space torque control frameworks for legged locomotion robots",
+    "url": "https://doi.org/10.1007/s11044-021-09809-6",
+    "source": "OpenAlex",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Multibody System Dynamics。",
+    "published": "2022-01-13",
+    "first_seen": "2026-10-15T01:54:00.342072+00:00",
+    "doi": "https://doi.org/10.1007/s11044-021-09809-6",
+    "category": "小脑与运动控制",
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 73,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Multibody System Dynamics。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "0b1791f52c4e900f57",
+    "title": "ValueNetQP: Learned one-step optimal control for legged locomotion",
+    "url": "https://doi.org/10.48550/arxiv.2201.04090",
+    "source": "OpenAlex",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：arXiv (Cornell University)。Optimal control is a successful approach to generate motions for complex robots, in particular for legged locomotion. However, these techniques are often too slow to run in real time for model predictive control or one needs to drastically simplify the dynamics model. In this work, we present a method to learn to predict the gradient and hessian of the problem value function, enabling fast resolution of the predictive control problem with a one-step quadratic program. In addition, our method is able to satisfy constraints like friction cones and unilateral constraints, which are important for high dynamics locomotion tasks. We demonstrate the capability of our method in simulation and on a real quadruped robot performing trotting and bounding motions.",
+    "published": "2022-01-11",
+    "first_seen": "2026-10-15T01:54:00.342387+00:00",
+    "doi": "https://doi.org/10.48550/arxiv.2201.04090",
+    "category": "小脑与运动控制",
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 73,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。Optimal control is a successful approach to generate motions for complex robots, in particular for l（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "24cfaad3ac40a6adc3",
+    "title": "ADHERENT: Learning Human-like Trajectory Generators for Whole-body Control of Humanoid Robots",
+    "url": "https://doi.org/10.1109/lra.2022.3141658",
+    "source": "OpenAlex",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：IEEE Robotics and Automation Letters。Human-liketrajectory generation and footstep planning represent challenging problems in humanoid robotics. Recently, research in computer graphics investigated machine-learning methods for character animation based on training human-like models directly on motion capture data. Such methods proved effective in virtual environments, mainly focusing on trajectory visualization. This letter presents ADHERENT, a system architecture integrating machine-learning methods used in computer graphics with whole-body control methods employed in robotics to generate and stabilizehuman-liketrajectories for humanoid robots. Leveraging human motion capture locomotion data, ADHERENT yields a general footstep planner, including forward, sideways, and backward walking trajectories that blend smoothly from one to another. Furthermore, at the joint configuration le",
+    "published": "2022-01-10",
+    "first_seen": "2026-10-15T01:54:00.342457+00:00",
+    "doi": "https://doi.org/10.1109/lra.2022.3141658",
+    "category": "小脑与运动控制",
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：IEEE Robotics and Automation Letters。Human-liketrajectory generation and footstep planning represent challenging problems in hu（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "a99207ebcfe4d3cc5f",
+    "title": "Online Gain Adaptation of Whole-Body Control for Legged Robots with Unknown Disturbances",
+    "url": "https://doi.org/10.3389/frobt.2021.788902",
+    "source": "OpenAlex",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Frontiers in Robotics and AI。This paper proposes an online gain adaptation approach to enhance the robustness of whole-body control (WBC) framework for legged robots under unknown external force disturbances. Without properly accounting for external forces, the closed-loop control system incorporating WBC may become unstable, and therefore the desired task goals may not be achievable. To study the effects of external disturbances, we analyze the behavior of our current WBC framework via the use of both full-body and centroidal dynamics. In turn, we propose a way to adapt feedback gains for stabilizing the controlled system automatically. Based on model approximations and stability theory, we propose three conditions to ensure that the adjusted gains are suitable for stabilizing a robot under WBC. The proposed approach has four contributions. We make it possible to estimate the un",
+    "published": "2022-01-07",
+    "first_seen": "2026-10-15T01:54:00.342999+00:00",
+    "doi": "https://doi.org/10.3389/frobt.2021.788902",
+    "category": "小脑与运动控制",
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Frontiers in Robotics and AI。This paper proposes an online gain adaptation approach to enhance the robustness of whole-body con（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "401400b0c6f8c086b1",
+    "title": "Prm Path Smoothening by Circular Arc Fillet Method for Mobile Robot Navigation",
+    "url": "https://doi.org/10.2139/ssrn.3999112",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "Motion planning and navigation, especially for mobile robots operating in complex navigational environments, has been a central problem since robotics started. A heuristic way to address it is the construction of a graph-based representation (a path) capturing the connectivity of the configuration space. Probabilistic Roadmap is a commonly used method by the robotics community to build a path for navigational mobile robot path planning. In this study, path smoothening by arc fillets is proposed for mobile robot path planning after obtaining the path from PRM in the presence of the obstacle. The proposed method runs in two steps; the first one is generating the shortest path between the initial state to one of the goal states in the obstacle presence environment, wherein the PRM is used to construct a straight-lined path by connecting the intermediate nodes. The second step is smoothening",
+    "published": "2022-01-01",
+    "first_seen": "2026-10-15T01:54:32.701438+00:00",
+    "doi": "10.2139/ssrn.3999112",
+    "category": "感知建图与导航",
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 73,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。Motion planning and navigation, especially for mobile robots operating in complex navigational environments, has been a central problem（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "7aca4c1e28c6ae3b3e",
+    "title": "Toward Autonomous Mobile Robot Navigation in Early-Stage Crop Growth",
+    "url": "https://doi.org/10.5220/0011265600003271",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Proceedings of the 19th International Conference on Informatics in Control, Automation and Robotics。",
+    "published": "2022-01-01",
+    "first_seen": "2026-10-15T01:54:32.701038+00:00",
+    "doi": "10.5220/0011265600003271",
+    "category": "感知建图与导航",
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 72,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Proceedings of the 19th International Conference on Informatics in Control, Automation and Robotics。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "8ebad879557c700da0",
+    "title": "Bioinspired and Energy-Efficient Convex Model Predictive Control for a Quadruped Robot",
+    "url": "https://doi.org/10.20537/nd221214",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Nelineinaya Dinamika。 Animal running has been studied for a long time, but until now robots cannot repeat the same movements with energy efficiency close to animals. There are many controllers for controlling the movement of four-legged robots. One of the most popular is the convex MPC. This paper presents a bioinspirational approach to increasing the energy efficiency of the state-of-the-art convex MPC controller. This approach is to set a reference trajectory for the convex MPC in the form of an SLIP model, which describes the movements of animals when running. Adding an SLIP trajectory increases the energy efficiency of the Pronk gait by 15 percent over a range of speed from 0.75 m/s to 1.75 m/s.",
+    "published": "2022-01-01",
+    "first_seen": "2026-10-15T01:54:16.468818+00:00",
+    "doi": "10.20537/nd221214",
+    "category": "小脑与运动控制",
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 65,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Nelineinaya Dinamika。 Animal running has been studied for a long time, but until now robots cannot repeat the same movements wi（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "2f73d00110e9f5c954",
+    "title": "Suppression of Quadruped Robot Body Disturbance by Virtual Spring‐Damping Model",
+    "url": "https://doi.org/10.1155/2022/4510678",
+    "source": "OpenAlex",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Complexity。The quadruped robot is subject to self and external interference during the running process. In this paper, in order to improve the stability of the quadruped robot, a disturbance suppression strategy based on the kinematic model and the virtual model is proposed. Through the whole‐body kinematics modeling of the body, the cause of the disturbance is analyzed. At the same time, two spring‐damping virtual elements are introduced on the body. The virtual force generated by the spring‐damping model is according to the displacement and speed of the CoM (center of mass) when the robot is moving. By simulating the tort gait of the robot, sorting out the data obtained from the experiment, and drawing a comparison curve with the experiment results of the no spring‐damping virtual element under the same conditions, it is proved that the method proposed in this paper has a signi",
+    "published": "2022-01-01",
+    "first_seen": "2026-10-15T01:54:00.344010+00:00",
+    "doi": "https://doi.org/10.1155/2022/4510678",
+    "category": "小脑与运动控制",
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 64,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Complexity。The quadruped robot is subject to self and external interference during the running process. In this paper, in order（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "2e80b27bdd89528e73",
+    "title": "M-A3C: A Mean-Asynchronous Advantage Actor-Critic Reinforcement Learning Method for Real-Time Gait Planning of Biped Robot",
+    "url": "https://doi.org/10.1109/access.2022.3176608",
+    "source": "OpenAlex",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：IEEE Access。Bipedal walking is a challenging task for humanoid robots. In this study, we develop a lightweight reinforcement learning method for real-time gait planning of the biped robot. We regard bipedal walking as a process in which the robot constantly interacts with the environment, judges the quality of control action through the walking state, and then adjusts the control strategy. A mean-asynchronous advantage actor-critic (M-A3C) reinforcement learning algorithm is proposed to obtain the continuous state space and action space, and directly obtain the final gait of the robot without introducing the reference gait. We use multiple sub-agents of M-A3C algorithm to train multiple virtual robots independently at the same time in the physical simulation platform. Then we transfer the trained model to the walking control of the actual robot to reduce the number of training on",
+    "published": "2022-01-01",
+    "first_seen": "2026-10-15T01:54:00.345322+00:00",
+    "doi": "https://doi.org/10.1109/access.2022.3176608",
+    "category": "小脑与运动控制",
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：IEEE Access。Bipedal walking is a challenging task for humanoid robots. In this study, we develop a lightweight reinforcement le（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "ae16108f26b74f745a",
+    "title": "Development of a Lizard-Inspired Wall-Climbing Robot Using Pressure Sensitive Adhesion",
+    "url": "https://doi.org/10.1109/access.2022.3189162",
+    "source": "OpenAlex",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：IEEE Access。This paper presents the design, fabrication, and control of a quadruped wall-climbing robot. The robot’s kinematics is inspired by lizards, which use trot-gait for the locomotion. The key features of this robot are its pressure-sensitive adhesive (PSA) enabled adhesion and peeling mechanism and the locomotion controller capable of straight and turning motion. We obtained an average vertical climbing speed of 1.35 cm/s without payload and 1.25 cm/s with a payload of 20 gm. Rapid prototyping techniques namely 3D-printing and 2D-LASER cutting are used to fabricate the entire structure of the robot, allowing easy replication of the entire robot in case a swarm of such robots is needed. This paper also reports climbing stability criteria for the developed robot expressed in terms of the pitching moment. We envisage that the developed robot can be deployed in surveillance, ",
+    "published": "2022-01-01",
+    "first_seen": "2026-10-15T01:54:00.345128+00:00",
+    "doi": "https://doi.org/10.1109/access.2022.3189162",
+    "category": "小脑与运动控制",
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：IEEE Access。This paper presents the design, fabrication, and control of a quadruped wall-climbing robot. The robot’s kinematics（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "2f4ff8745e9e355b92",
+    "title": "Mode-Reactive Template-Based Control in Planar Legged Robots",
+    "url": "https://doi.org/10.1109/access.2022.3148921",
+    "source": "OpenAlex",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：IEEE Access。Translating the center of mass (CoM) while fixing the orientation of a rigid body supported by relatively massless, actuated limbs is a common problem setting in legged robotics. This paper proposes a hierarchical approach to such maneuvers that decouples CoM task planning from body orientation control in sagittal-plane models, thereby exposing a well-studied and computationally effective low dimensional dynamical system that can be used for CoM task planning. The resulting algorithms directly address the control authority (degree of underactuation) available at a given contact mode, enabling a-priori plans with these intuitive, robust pendular dynamics to be formally embedded at the (virtual) CoM of planar floating-torso models, while focusing high gain posture stabilizing feedback upon the body orientation. A series of numerical and empirical examples address single",
+    "published": "2022-01-01",
+    "first_seen": "2026-10-15T01:54:00.343700+00:00",
+    "doi": "https://doi.org/10.1109/access.2022.3148921",
+    "category": "小脑与运动控制",
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 60,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：IEEE Access。Translating the center of mass (CoM) while fixing the orientation of a rigid body supported by relatively massless,（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   }
 ]
