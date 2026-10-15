@@ -220,6 +220,10 @@ def classify_contribution(title: str, description: str = "", source: str = "") -
     explicit_ex = has(t, HARDWARE_EXPLICIT)
     robot_context = has(t + " " + d, HARDWARE_ROBOT)
     nav_focus = has(t, NAV_TASK)
+    # Motion mapping and CoM mapping refer to motion-state transformations,
+    # not to an environment occupancy / SLAM map.
+    if has(t, r"\b(?:motion.mapping|com.motion.mapping|motion.response|center.of.mass.motion)\b") and not has(t, r"\b(?:navigation|slam|localization|path.planning|obstacle.avoidance)\b"):
+        nav_focus = False
     control_focus = has(t, CONTROL_TASK)
     gait_focus = has(t, CONTROL_SPECIFIC)
     agent_focus = has(t, AGENT_EXPLICIT)
