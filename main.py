@@ -587,113 +587,86 @@ def esc(s) -> str:
 
 
 def render_html(items: list[dict], errors: list[str], config: dict) -> str:
-    today = utc_now().strftime("%Y-%m-%d %H:%M UTC")
-    months = int(config.get("history_months", 6))
-    limit = int(config.get("display_limit", 500))
+    """Render the two-year, date-filterable research index using a maintained template."""
+    template = (ROOT / "site_template.html").read_text(encoding="utf-8")
+    now = utc_now()
+    months = max(1, int(config.get("history_months", 24)))
+    start = months_ago(months)
+    limit = max(1, int(config.get("display_limit", 5000)))
     page_size = max(1, min(100, int(config.get("page_size", 12))))
-    recent = [i for i in items if date_in_window(i.get("published"), months_ago(months), utc_now())]
-    shown = sort_items(recent)[:limit]
+    shown = sort_items([i for i in items if date_in_window(i.get("published"), start, now)])[:limit]
     sections = []
     for item in shown:
-        tags = " ".join(f'<span class="tag">{esc(tag)}</span>' for tag in (item.get("industry_tags", []) + item.get("tags", []))[:4])
-        sections.append(f'''<article class="card" data-hay="{esc((item['title']+' '+item.get('description','')+' '+item['category']+' '+' '.join(item.get('industry_tags', []))).lower())}" data-cat="{esc(item['category'])}" data-scope="{esc(item.get('scope', ''))}" data-industry="{esc(' | '.join(item.get('industry_tags', [])))}" data-kind="{'paper' if item['type'].startswith('论文') else 'repo' if item['source'] == 'GitHub' else 'news'}">
-  <div class="meta"><span>{esc(item.get('scope', '未分级'))}</span><span>{esc(item['category'])}</span><span>{esc(item['type'])}</span><span>匹配度 {esc(item.get('score'))}/100</span></div>
-  <h2><a href="{esc(item['url'])}" target="_blank" rel="noopener noreferrer">{esc(item['title'])} ↗</a></h2>
-  <p>{esc(item.get('summary', ''))}</p><div class="bottom">{tags}<span>{esc(item['source'])} · {esc(item.get('published','未知日期')[:10] or '日期未知')}</span></div>
-  <small>分析级别：{esc(item.get('analysis_level'))}</small>
-</article>''')
-    links = " | ".join(f'<a href="{esc(x["url"])}" rel="noopener noreferrer" target="_blank">{esc(x["name"])}</a>'
-                       for x in config.get("industry_watchlist", []))
-    errors_html = (f'<details class="source-status"><summary>数据源提示：{len(errors)} 项暂时不可用，'
-                   '已保留历史资料（点击查看详情）</summary><p>第三方接口可能限流或超时；'
-                   '<a href="weekly.md">查看采集日志</a>。现有记录仍可浏览，但部分新资料可能延迟收录。'
-                   '</p></details>') if errors else ""
-    options = "\n".join(f'<option value="{esc(cat)}">{esc(cat)}</option>' for cat in KEYWORDS)
-    scenario_options = "\n".join(
-        f'<option value="{esc(name)}">{esc(name)}</option>'
-        for name in get_focus(config).get("special_scenarios", {}))
-    return f'''<!doctype html>
-<html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Special Robotics Radar｜特种机器人产业技术雷达</title>
-<style>
-:root {{ color-scheme:dark; font-family:system-ui,-apple-system,"Microsoft YaHei",sans-serif; background:#091120;color:#e2e9f2 }}
-* {{ box-sizing:border-box }} body {{ margin:0 }} header {{ background:radial-gradient(circle at 80% 10%,#1e4660,#0c1528 58%); border-bottom:1px solid #263449; padding:60px max(18px,calc((100vw - 1100px)/2)) 42px }}
-.eyebrow {{ letter-spacing:.18em;text-transform:uppercase;color:#85d6d4;font-size:13px }} h1 {{font-size:clamp(29px,4.8vw,52px);line-height:1.15;margin:15px 0}} .lead {{color:#afc0d2;line-height:1.8;max-width:850px}}
-main {{max-width:1100px;margin:0 auto;padding:30px 18px 80px}} .toolbar {{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:20px}} input,select {{background:#101d31;color:#e2e9f2;border:1px solid #384967;border-radius:10px;padding:13px 15px;font-size:15px}} input {{flex:1;min-width:220px}} select {{min-width:185px}}
-.stats {{font-size:14px;color:#9eafc6;margin-bottom:20px}} .list {{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:16px}} .card {{border:1px solid #263950;background:#111e31;border-radius:14px;padding:20px;display:none;flex-direction:column;gap:10px}} .card:hover {{border-color:#387b91}} .card h2 {{font-size:18px;line-height:1.45;margin:0}} a {{color:#83dbe0;text-decoration:none}} a:hover {{text-decoration:underline}} .card p {{font-size:14px;line-height:1.75;color:#c2cbd5;margin:0;flex:1}} .meta,.bottom {{display:flex;gap:7px;flex-wrap:wrap;align-items:center;color:#95a9bd;font-size:12px}} .meta span,.tag {{border:1px solid #35475f;border-radius:5px;padding:4px 7px}} .bottom {{justify-content:space-between;margin-top:10px}} .tag {{color:#c6def3}} small {{font-size:11px;color:#92a3b7}} .source-status {{padding:9px 12px;margin-bottom:18px;border:1px solid #35475f;border-radius:8px;color:#9eafc6;font-size:13px}} .source-status summary {{cursor:pointer}} .source-status p {{margin:8px 0 0;line-height:1.7}} footer {{margin-top:35px;border-top:1px solid #35475f;padding-top:20px;color:#a4b1c2;font-size:13px;line-height:1.8}}
-.pagination {{display:flex;gap:12px;justify-content:center;align-items:center;flex-wrap:wrap;margin:30px 0;color:#b5c8dd}}
-.pagination[hidden] {{display:none}} .pagination button {{border:1px solid #387b91;background:#13283d;border-radius:8px;color:#b5ebee;padding:10px 16px;cursor:pointer;font-size:14px}}
-.pagination button:hover:not(:disabled) {{background:#1e4357}} .pagination button:disabled {{opacity:.4;cursor:not-allowed}}
-</style></head><body>
-<header><div class="eyebrow">RESEARCH RADAR / SPECIAL ROBOTICS</div><h1>特种机器人产业技术雷达</h1>
-<p class="lead">聚焦防爆石化、工业巡检、消防救援、矿山、排爆与复杂地形机器人；追踪硬件与本体、基础软件、运动控制“小脑”、具身智能“大脑”、感知导航。区分特种场景成果与可迁移的机器人关键技术，过滤无关 AI 信息。</p>
-<p class="eyebrow">更新：{today} ｜ 近 {months} 个月显示：{len(shown)} 条（上限 {limit}） ｜ 累计保存：{len(items)} 条</p></header>
-<main>{errors_html}<div class="toolbar"><input id="q" type="search" placeholder="搜索技术、论文、仓库、关键词…" oninput="applyFilters()">
-<select id="category" onchange="applyFilters()"><option value="">全部领域</option>{options}</select>
-<select id="scenario" onchange="applyFilters()"><option value="">全部特种场景</option>{scenario_options}</select>
-<select id="scope" onchange="applyFilters()"><option value="">全部关联方式</option><option value="特种场景直接相关">特种场景直接相关</option><option value="可迁移的机器人关键技术">可迁移的关键技术</option></select>
-<select id="kind" onchange="applyFilters()"><option value="">全部来源类型</option><option value="paper">论文</option><option value="repo">GitHub 项目</option><option value="news">社区动态</option></select></div>
-<div class="stats" id="counter">正在加载数据…</div><div class="list" id="cards">{''.join(sections) or '<p>还没有采集到匹配内容。检查网络和数据源。</p>'}</div>
-<nav class="pagination" id="pagination" aria-label="数据分页" hidden>
-  <button id="prevPage" type="button" onclick="changePage(-1)">← 上一页</button>
-  <span id="pageInfo" aria-live="polite">第 1 页</span>
-  <button id="nextPage" type="button" onclick="changePage(1)">下一页 →</button>
-</nav>
-<footer><b>特别说明：</b>本网站按特种场景和机器人共性技术双重规则筛选公开元数据；“可迁移”只是潜在相关性，不代表已在特种机器人实证，更不表示取得防爆认证。没有阅读全文或核验产品参数。GitHub 的 pushed 时间表示仓库更新，不等于新论文发表。<br>
-行业源人工观察清单（不代表已自动抓取）：{links}<br><a href="items.json">原始 JSON</a> ｜ <a href="weekly.md">本轮简报与采集异常</a></footer></main>
-<script>
-const PAGE_SIZE = {page_size};
-let currentPage = 1;
+        kind = "paper" if item["type"].startswith("论文") else ("repo" if item["source"] == "GitHub" else "news")
+        icon = "✦" if kind == "paper" else ("◇" if kind == "repo" else "◈")
+        visual_caption = "RESEARCH PAPER" if kind == "paper" else ("OPEN SOURCE" if kind == "repo" else "COMMUNITY")
+        category = item.get("category", "特种机器人")
+        date = str(item.get("published") or "")[:10]
+        scope = item.get("scope", "未分级")
+        desc = item.get("summary") or item.get("description") or ""
+        tags = "".join('<span class="tag">' + esc(t) + '</span>'
+                       for t in (item.get("industry_tags", []) + item.get("tags", []))[:4])
+        searchable = " ".join([
+            item.get("title", ""), item.get("description", ""), item.get("source", ""),
+            category, " ".join(item.get("industry_tags", [])), " ".join(item.get("tags", []))
+        ]).lower()
+        sections.append(
+            '<article class="card" data-date="' + esc(date) +
+            '" data-hay="' + esc(searchable) +
+            '" data-cat="' + esc(category) +
+            '" data-scope="' + esc(scope) +
+            '" data-industry="' + esc(" | ".join(item.get("industry_tags", []))) +
+            '" data-kind="' + kind + '">'
+            '<div class="card-visual ' + kind + '"><span class="visual-symbol">' + icon +
+            '</span><div><div class="visual-name">' + esc(category) +
+            '</div><div class="visual-caption">' + visual_caption + '</div></div></div>'
+            '<div class="card-body"><div class="meta">'
+            '<span class="pill' + (" key" if scope == "特种场景直接相关" else "") + '">' + esc(scope) + '</span>'
+            '<span class="pill">' + esc(item["type"]) + '</span></div>'
+            '<h3><a href="' + esc(item["url"]) + '" target="_blank" rel="noopener noreferrer">' +
+            esc(item["title"]) + ' ↗</a></h3>'
+            '<p class="summary">' + esc(desc) + '</p>'
+            '<div class="tags">' + tags + '</div></div>'
+            '<div class="card-aside"><div><div class="score-value">' + esc(item.get("score", "-")) +
+            '</div><div class="score-caption">相关度 / 100</div></div>'
+            '<div><div class="source-date">' + esc(date or "日期未知") +
+            '</div><div class="source-name">' + esc(item.get("source")) + '</div></div>'
+            '<a class="visit-link" href="' + esc(item["url"]) +
+            '" target="_blank" rel="noopener noreferrer">查看原文 ↗</a></div></article>'
+        )
 
-function getMatchingCards() {{
-  const query = document.getElementById('q').value.toLowerCase().trim();
-  const category = document.getElementById('category').value;
-  const scenario = document.getElementById('scenario').value;
-  const scope = document.getElementById('scope').value;
-  const kind = document.getElementById('kind').value;
-  return Array.from(document.querySelectorAll('#cards .card')).filter(card =>
-    (!query || card.dataset.hay.includes(query)) &&
-    (!category || card.dataset.cat === category) &&
-    (!scenario || card.dataset.industry.split(' | ').includes(scenario)) &&
-    (!scope || card.dataset.scope === scope) &&
-    (!kind || card.dataset.kind === kind)
-  );
-}}
-
-function renderPage() {{
-  const matched = getMatchingCards();
-  const total = matched.length;
-  const totalPages = Math.ceil(total / PAGE_SIZE);
-  currentPage = Math.max(1, Math.min(currentPage, totalPages || 1));
-  document.querySelectorAll('#cards .card').forEach(card => {{
-    card.style.display = 'none';
-  }});
-  const start = (currentPage - 1) * PAGE_SIZE;
-  matched.slice(start, start + PAGE_SIZE).forEach(card => {{
-    card.style.display = 'flex';
-  }});
-  document.getElementById('counter').textContent = total
-    ? '共匹配 ' + total + ' 条，当前显示第 ' + (start + 1) + '–' + Math.min(start + PAGE_SIZE, total) + ' 条'
-    : '没有符合条件的内容';
-  document.getElementById('pageInfo').textContent = '第 ' + currentPage + ' / ' + totalPages + ' 页';
-  document.getElementById('prevPage').disabled = currentPage <= 1;
-  document.getElementById('nextPage').disabled = currentPage >= totalPages;
-  document.getElementById('pagination').hidden = totalPages <= 1;
-}}
-
-function applyFilters() {{
-  currentPage = 1;
-  renderPage();
-}}
-
-function changePage(direction) {{
-  currentPage += direction;
-  renderPage();
-  document.getElementById('counter').scrollIntoView({{ behavior: 'smooth', block: 'start' }});
-}}
-
-renderPage();
-</script></body></html>'''
+    tabs = [
+        '<button type="button" class="category-tab active" data-category="" aria-pressed="true">'
+        '全部资源 <span class="count">' + str(len(shown)) + '</span></button>'
+    ]
+    for category in KEYWORDS:
+        count = sum(i.get("category") == category for i in shown)
+        tabs.append('<button type="button" class="category-tab" data-category="' + esc(category) +
+                    '" aria-pressed="false">' + esc(category) + ' <span class="count">' +
+                    str(count) + '</span></button>')
+    scenarios = "".join('<option value="' + esc(name) + '">' + esc(name) + '</option>'
+                        for name in get_focus(config).get("special_scenarios", {}))
+    source_status = ""
+    if errors:
+        source_status = ('<details class="source-status"><summary>数据源提示：' + str(len(errors)) +
+                         ' 个查询暂时不可用，已保留历史记录</summary><p>外部接口偶尔限流或超时，'
+                         '部分新资源可能延迟补录。<a href="weekly.md">查看本轮采集明细 ↗</a></p></details>')
+    replacements = {
+        "%%MONTHS%%": str(months),
+        "%%SHOWN%%": str(len(shown)),
+        "%%TOTAL%%": str(len(items)),
+        "%%UPDATED%%": esc(now.strftime("%Y-%m-%d %H:%M UTC")),
+        "%%CATEGORY_TABS%%": "".join(tabs),
+        "%%SCENARIO_OPTIONS%%": scenarios,
+        "%%CARDS%%": "".join(sections),
+        "%%SOURCE_STATUS%%": source_status,
+        "%%PAGE_SIZE%%": str(page_size),
+        "%%MIN_DATE%%": start.date().isoformat(),
+        "%%MAX_DATE%%": now.date().isoformat(),
+    }
+    for key, val in replacements.items():
+        template = template.replace(key, val)
+    return template
 
 
 def render_digest(items: list[dict], new_ids: set[str], errors: list[str]) -> str:
@@ -721,6 +694,30 @@ def render_digest(items: list[dict], new_ids: set[str], errors: list[str]) -> st
     return "\n".join(lines)
 
 
+def historical_backfill_jobs(queries: list[str], now: datetime, months: int = 24,
+                             window_months: int = 3, daily_budget: int = 2) -> list[tuple[str, datetime, datetime]]:
+    """Rotate through older publication windows without flooding metadata APIs.
+
+    All queries still run on the full requested interval for timely updates.
+    A small number of additional bounded searches progressively fill older gaps.
+    """
+    if not queries or daily_budget <= 0 or months <= window_months:
+        return []
+    windows = (months + window_months - 1) // window_months
+    jobs = [(query, n) for query in queries for n in range(1, windows)]
+    if not jobs:
+        return []
+    start_date = now - relativedelta(months=months)
+    out = []
+    offset = (now.date().toordinal() * daily_budget) % len(jobs)
+    for i in range(min(daily_budget, len(jobs))):
+        query, window = jobs[(offset + i) % len(jobs)]
+        end = now - relativedelta(months=window * window_months)
+        start = max(start_date, now - relativedelta(months=(window + 1) * window_months))
+        out.append((query, start, end))
+    return out
+
+
 def main() -> None:
     from dotenv import load_dotenv
     load_dotenv(ROOT / ".env")
@@ -734,7 +731,7 @@ def main() -> None:
     start, end = months_ago(months), utc_now()
     expected_sources = 0
     if not args.offline:
-        # The historical APIs allow first-run backfill of recent six months.
+        # Query the last 24 months and gradually backfill older quarters.
         for query in select_arxiv_queries(cfg):
             expected_sources += 1
             try:
@@ -760,6 +757,21 @@ def main() -> None:
                 msg = f"OpenAlex {query}: {type(ex).__name__}: {ex}"
                 errors.append(msg)
                 print("[WARN]", msg, file=sys.stderr)
+        # Gradual two-year backfill: rotating quarters complement recent-first API caps.
+        for query, s, e in historical_backfill_jobs(
+            cfg.get("openalex_queries", []), end, months,
+            daily_budget=int(cfg.get("openalex_backfill_per_run", 2))
+        ):
+            expected_sources += 1
+            try:
+                batch = fetch_openalex(query, s, e, cfg.get("openalex_limit", 70))
+                print(f"OpenAlex backfill {query} [{s.date()}, {e.date()}]: {len(batch)}")
+                candidates.extend(batch)
+            except Exception as ex:
+                msg = f"OpenAlex backfill {query}: {type(ex).__name__}: {ex}"
+                errors.append(msg)
+                print("[WARN]", msg, file=sys.stderr)
+            time.sleep(1.0)
         for query in cfg.get("crossref_queries", []):
             expected_sources += 1
             try:
@@ -771,6 +783,20 @@ def main() -> None:
                 errors.append(msg)
                 print("[WARN]", msg, file=sys.stderr)
             # Reduce bursts across independent Crossref search queries.
+            time.sleep(5)
+        for query, s, e in historical_backfill_jobs(
+            cfg.get("crossref_queries", []), end, months,
+            daily_budget=int(cfg.get("crossref_backfill_per_run", 1))
+        ):
+            expected_sources += 1
+            try:
+                batch = fetch_crossref(query, s, e, cfg.get("crossref_limit", 30))
+                print(f"Crossref backfill {query} [{s.date()}, {e.date()}]: {len(batch)}")
+                candidates.extend(batch)
+            except Exception as ex:
+                msg = f"Crossref backfill {query}: {type(ex).__name__}: {ex}"
+                errors.append(msg)
+                print("[WARN]", msg, file=sys.stderr)
             time.sleep(5)
         for feed in cfg.get("rss", []):
             expected_sources += 1
