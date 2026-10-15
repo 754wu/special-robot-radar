@@ -209,6 +209,21 @@ class RadarTests(unittest.TestCase):
             with self.subTest(title=title):
                 self.assertEqual(classify_primary_topic(title, desc)[0], expected)
 
+    def test_persistent_archive_half_year_queue(self):
+        from datetime import datetime, timezone
+        from backfill import historical_windows, backfill_queue
+        now = datetime(2026, 10, 15, tzinfo=timezone.utc)
+        windows = historical_windows(now, 60)
+        self.assertEqual(len(windows), 9)
+        self.assertEqual(sorted(set(s.year for s, _ in windows)), [2021,2022,2023,2024,2025])
+        config = {"history_months": 60, "archive_openalex_queries": ["quadruped", "slam"]}
+        jobs = backfill_queue(config, now, {}, "OpenAlex")
+        self.assertEqual(len(jobs), 18)
+        marked = {jobs[0][0]: now.isoformat()}
+        second = backfill_queue(config, now, marked, "OpenAlex")
+        self.assertEqual(len(second), 17)
+        self.assertNotIn(jobs[0][0], [j[0] for j in second])
+
     def test_annual_backfill_coverage(self):
         from datetime import datetime, timezone, timedelta
         now=datetime(2026, 10, 15, tzinfo=timezone.utc)
