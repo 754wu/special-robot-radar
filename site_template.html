@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#312017">
-<meta name="description" content="追踪近两年特种机器人、轮足运动控制、具身智能、SLAM 与工业巡检研究成果。">
+<meta name="description" content="追踪近五年特种机器人、轮足运动控制、具身智能、SLAM 与工业巡检研究成果。">
 <title>特种机器人技术情报雷达 · Robotics Intelligence Radar</title>
 <style>
 :root{color-scheme:light;--bg:#f8f5ef;--surface:#fffdf9;--ink:#332820;--muted:#806f61;--line:#e5dacd;--accent:#aa673b;--accent2:#db995b;--dark:#241712;--soft:#f2e8da;--shadow:0 10px 28px rgba(62,38,23,.045)}
@@ -41,7 +41,7 @@
   <div class="section-header"><div><p class="kicker">Explore resources</p><h2>研究成果与开源项目</h2></div><div class="section-meta">来源：论文 / GitHub 项目 / 社区更新<br><strong>%%TOTAL%%</strong> 条历史库存 · 默认按发布时间排序</div></div>
   <nav class="category-tabs" id="categoryTabs" aria-label="技术领域" role="group">%%CATEGORY_TABS%%</nav>
   <section class="filters" aria-label="资源筛选">
-    <div class="search-row"><div class="search-field"><span class="search-icon" aria-hidden="true">⌕</span><input id="q" type="search" placeholder="搜索论文标题、技术关键词、机器人平台、仓库…" autocomplete="off" aria-label="关键词搜索"></div><span class="subtle-hint">覆盖近两年 · 支持组合筛选</span></div>
+    <div class="search-row"><div class="search-field"><span class="search-icon" aria-hidden="true">⌕</span><input id="q" type="search" placeholder="搜索论文标题、技术关键词、机器人平台、仓库…" autocomplete="off" aria-label="关键词搜索"></div><span class="subtle-hint">覆盖近五年 · 支持组合筛选</span></div>
     <div class="filter-grid">
       <div class="filter-control"><label for="scenario">特种应用场景</label><select id="scenario"><option value="">全部特种场景</option>%%SCENARIO_OPTIONS%%</select></div>
       <div class="filter-control"><label for="scope">研究关联方式</label><select id="scope"><option value="">全部关联方式</option><option value="特种场景直接相关">特种场景直接相关</option><option value="可迁移的机器人关键技术">可迁移的关键技术</option></select></div>
@@ -50,13 +50,13 @@
       <div class="filter-control"><label for="toDate">结束日期</label><input type="date" id="toDate" min="%%MIN_DATE%%" max="%%MAX_DATE%%" aria-label="结束日期（包含当天）"></div>
       <button class="reset-btn" id="resetFilters" type="button">重置筛选</button>
     </div>
-    <div class="quick-row"><span class="quick-label">快捷时间：</span><button class="quick-btn" type="button" data-preset="30">近 30 天</button><button class="quick-btn" type="button" data-preset="180">近 6 个月</button><button class="quick-btn" type="button" data-preset="365">近 1 年</button><button class="quick-btn active" type="button" data-preset="all" aria-pressed="true">全部两年</button><span class="date-note">按论文发表 / 仓库推送日期筛选（含首尾日期），不是入库时间</span></div>
+    <div class="quick-row"><span class="quick-label">快捷时间：</span><button class="quick-btn" type="button" data-preset="30">近 30 天</button><button class="quick-btn" type="button" data-preset="180">近 6 个月</button><button class="quick-btn" type="button" data-preset="365">近 1 年</button><button class="quick-btn" type="button" data-preset="1095">近 3 年</button><button class="quick-btn active" type="button" data-preset="all" aria-pressed="true">全部五年</button><span class="date-note">按论文发表 / 仓库推送日期筛选（含首尾日期），不是入库时间</span></div>
   </section>
   <div class="result-heading"><h3><i class="small-rule"></i>资源列表</h3><div class="count-msg" id="counter" aria-live="polite">正在筛选数据…</div></div>
   <div class="list" id="cards">%%CARDS%%</div>
   <div class="empty-state" id="emptyState" role="status"><strong>未找到符合条件的资源</strong><span id="emptyExplanation">可以尝试放宽时间范围或调整技术关键词。</span></div>
   <nav class="pagination" id="pagination" aria-label="资源分页" hidden><button type="button" id="prevPage">← 上一页</button><span id="pageInfo" aria-live="polite">第 1 页</span><button type="button" id="nextPage">下一页 →</button></nav>
-  <footer class="footer"><div><strong>数据说明</strong><br>内容来自公开的论文元数据、GitHub 仓库说明和社区订阅源。研究相关性仅为初筛结果，不代表实际验证、技术成熟度或防爆认证。<br>两年时间窗口并不保证覆盖所有出版物；旧资料将根据外部接口限流情况逐步补录。</div><div class="foot-links"><a href="items.json">公开 JSON 数据</a><a href="weekly.md">本轮采集状态</a><a href="https://github.com/754wu/special-robot-radar" target="_blank" rel="noopener noreferrer">源码仓库 ↗</a></div></footer>
+  <footer class="footer"><div><strong>数据说明</strong><br>内容来自公开的论文元数据、GitHub 仓库说明和社区订阅源。研究相关性仅为初筛结果，不代表实际验证、技术成熟度或防爆认证。<br>五年时间窗口并不保证覆盖所有出版物；旧资料将根据外部接口限流情况逐步补录。</div><div class="foot-links"><a href="items.json">公开 JSON 数据</a><a href="weekly.md">本轮采集状态</a><a href="https://github.com/754wu/special-robot-radar" target="_blank" rel="noopener noreferrer">源码仓库 ↗</a></div></footer>
 </main>
 <script>
 'use strict';
