@@ -194,6 +194,59 @@ class RadarTests(unittest.TestCase):
         self.assertEqual(rotate_source_queries(q, 0, today), [])
         self.assertNotEqual(out, rotate_source_queries(q, 2, today + timedelta(days=1)))
 
+    def test_reject_nontechnical_posts(self):
+        from taxonomy import is_non_technical
+        for title in [
+            'Robotics Prototyping Intern @ Nestack Technologies in Hyderabad, India (On-site)',
+            'Boston Robot Hackers meeting Oct 15 at 7:00. Read for details',
+            'Community meeting: Scalable Multi-Robot Simulation in ROS 2 and Gazebo',
+        ]:
+            with self.subTest(title=title):
+                item = make_item(title, 'https://example.org/' + str(len(title)),
+                                 'ROS Discourse', '社区动态',
+                                 'robot navigation reinforcement learning ros2')
+                self.assertTrue(is_non_technical(item)[0])
+                self.assertIsNone(rule_enrich(item))
+        paper = make_item('ROS 2 QoS for real-time quadruped control',
+                          'https://example.org/paper', 'OpenAlex', '论文（摘要）',
+                          'Meeting safety requirements for robot motion control.')
+        self.assertFalse(is_non_technical(paper)[0])
+
+    def test_primary_contribution_misclassification_regressions(self):
+        from taxonomy import classify_contribution
+        examples = [
+            ('PanoPed: Beyond Bounding Boxes for Sim-to-Real Panoramic Pedestrian Tracking', '感知建图与导航'),
+            ('Robust design of a conformal adaptive foot for quadruped robots', '硬件与防爆'),
+            ('Design and evaluation of a bio-inspired tendon-driven continuum robotic spine for quadruped applications', '硬件与防爆'),
+            ('Origaker: A Novel Multi-Mimicry Quadruped Robot Based on a Metamorphic Mechanism', '硬件与防爆'),
+            ('Adaptive mapless mobile robot navigation using deep reinforcement learning based improved TD3 algorithm', '感知建图与导航'),
+            ('Deep Reinforcement Learning for Mobile Robot Navigation in Indoor Environments', '感知建图与导航'),
+            ('ASENA: Self-evolving Agents for Embodied Navigation', '大脑与具身智能'),
+            ('PILOT: Guiding Long-Horizon World-Model Planning for Robot Manipulation with Visual Subgoals and Policy Priors', '大脑与具身智能'),
+            ('SharedKV-BT: Node-Local Typed Decisions for Behavior-Tree Agents', '大脑与具身智能'),
+            ('Whole-Body Motion Response to Abrupt Acceleration Changes: Rapid CoM Motion Mapping, Compensation and Tracking for Wheel-Legged Humanoid Robot', '小脑与运动控制'),
+            ('Adaptive Motion Skill Learning of Quadruped Robot on Slopes Based on Augmented Random Search Algorithm', '小脑与运动控制'),
+            ('Recent advances in Rapidly-exploring random tree: A review', '感知建图与导航'),
+            ('3D Printed Drivetrain Development for Inspection Robot', '硬件与防爆'),
+            ('Cable management design for Inspection Robot', '硬件与防爆'),
+            ('Dynamic target tracking algorithm for substation inspection robot', '感知建图与导航'),
+            ('Force-Modulated Dexterity: Unified Compliance for Contact-Rich Manipulation', '小脑与运动控制'),
+            ('Human2Dex: Dexterous Robot Learning from Wrist-Centric Human Demonstrations', '小脑与运动控制'),
+            ('Comparison of ROS 2 QoS Policies for Real-Time Quadruped Robot Control', '基础软件与系统'),
+            ('Robot locomotion via reinforcement learning under actuator failures', '小脑与运动控制'),
+            ('LiDAR-based mobile robot navigation using a camera and motor commands', '感知建图与导航'),
+            ('Explosion-Proof Motor and Flameproof Enclosure Design', '硬件与防爆'),
+        ]
+        for title, category in examples:
+            with self.subTest(title=title):
+                self.assertEqual(classify_contribution(title).category, category)
+
+    def test_review_flag_and_no_default_trusted_app(self):
+        from taxonomy import classify_contribution
+        x = classify_contribution('A multi-robot study', '')
+        self.assertTrue(x.review)
+        self.assertEqual(x.confidence, '待复核')
+
     def test_primary_category_prevents_hardware_false_positives(self):
         cases = [
             ("Quadruped locomotion with reinforcement learning and sensor failures", "Online residual policy recovers from actuator faults", "小脑与运动控制"),
