@@ -312,5 +312,29 @@
     ]
   },
   "openalex_backfill_per_run": 3,
-  "crossref_backfill_per_run": 2
+  "crossref_backfill_per_run": 2,
+  "hardware_openalex_queries": [
+    "explosion proof robot enclosure design",
+    "flameproof enclosure robotic hydraulic power unit",
+    "intrinsically safe robot actuator sensor",
+    "pressurized explosion proof robot ventilation",
+    "quadruped joint actuator mechanical design",
+    "wheel legged robot linkage mechanism design",
+    "robot gearbox harmonic reducer joint actuator",
+    "explosion proof electric actuator mining",
+    "robot chassis mechanical structure fabrication",
+    "robot flameproof motor sealing design"
+  ],
+  "hardware_crossref_queries": [
+    "explosion proof robot flameproof enclosure mechanical design",
+    "positive pressure explosion proof robotic ventilation",
+    "robot joint actuator motor gearbox mechanical design",
+    "wheel legged robot linkage mechanism design",
+    "explosion proof electrical actuator coal mines",
+    "robot mechanical chassis design fabrication"
+  ],
+  "hardware_openalex_per_run": 3,
+  "hardware_openalex_backfill_per_run": 2,
+  "hardware_crossref_per_run": 2,
+  "hardware_crossref_backfill_per_run": 1
 }
