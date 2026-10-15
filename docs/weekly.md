@@ -1,8 +1,8 @@
 # 特种机器人七日技术简报
 
-生成时间：2026-10-15T02:06:59.564389+00:00
+生成时间：2026-10-15T02:20:09.205423+00:00
 
-最近 7 天首次记录 **408** 条；本轮新增 **9** 条；总库存 **408** 条。
+最近 7 天首次记录 **480** 条；本轮新增 **80** 条；总库存 **480** 条。
 
 **注意：**‘七日’按首次入库时间统计，不代表论文发表于最近七天；相关度评分只是初筛优先级，不是成熟度或质量评级。
 
@@ -16,14 +16,14 @@
   - 行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境。来源期刊/会议：Highlights in Science, Engineering and Technology。 Based on the analysis of the status of the coal resource industry and the in（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Influence of periodic pulse intake on the ventilation efficiency of positive pressure explosion-proof robot](https://doi.org/10.21203/rs.3.rs-3146415/v1) | 论文（摘要） | 特种场景直接相关 | 匹配度 77/100
   - 行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境。Abstract When the positive pressure explosion-proof robot is in ventilation, if the air is filled into the cavity with a constant press（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Structural design and analysis of a new wheel-legged robot](https://doaj.org/article/7affc91594d944079fd6766a1b782b81) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 72/100
+  - 行业筛选：可迁移的机器人关键技术；方向：硬件与防爆；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：DOAJ (DOAJ: Directory of Open Access Journals)。ObjectiveTo improve the adaptability of mobile robots under complex terrain cond（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Mechanical Design Methodology for a Biarticularly Driven Biped Robot with Complex Joint Geometry](https://doi.org/10.3390/act15030145) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 69/100
   - 行业筛选：可迁移的机器人关键技术；方向：硬件与防爆；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Actuators。 Biarticular actuators can enhance efficiency and stability in legged locomotion by transferring energy between joint（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [From Sky to Soil: A Morphing Aerial-Ground Robot for Seed Deployment](https://doi.org/10.48550/arxiv.2609.37072) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 65/100
   - 行业筛选：可迁移的机器人关键技术；方向：硬件与防爆；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。Aerial seed broadcasting can reach remote restoration sites, but provides limited control over seed （仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [ASSESSMENT OF MOBILE ROBOT LOAD-CARRYING POTENTIAL VIA DC GEARBOX MOTOR TORQUE](https://doi.org/10.59581/metal.v2i1.93) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 65/100
-  - 行业筛选：可迁移的机器人关键技术；方向：硬件与防爆；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Mechanical, Energy and Material (METAL)。 The primary function of mobile robots is to transport various loads, including their o（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Structural design and multi-condition simulation verification of a four-wheel-legged robot based on mode switching](https://doi.org/10.1088/1742-6596/3277/1/012161) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 64/100
-  - 行业筛选：可迁移的机器人关键技术；方向：硬件与防爆；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Journal of Physics: Conference Series。 Abstract Wheel-legged robots integrate the advantages of high-efficiency wheeled locomot（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Study and Development of Strider Linkage Legged Robot's Movement with HuskyLens AI Vision Camera](https://doi.org/10.58915/ijaris.v2i1.3227) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 65/100
+  - 行业筛选：可迁移的机器人关键技术；方向：硬件与防爆；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：International Journal of Autonomous Robotics and Intelligent Systems (IJARIS)。This paper presents the design, development and e（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 基础软件与系统
 
@@ -60,11 +60,13 @@
   - 行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：野外与特种地形。Reinforcement learning (RL) for legged robots is advancing locomotion, demonstrating its ability to adapt to new and challenging terrai（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Precision Docking of a Foldable Quadrotor on a Wheel-Legged Robot via CFNTSM with GFA-FEO and FiLM-SAC Deep Reinforcement Learning](https://doi.org/10.3390/drones10050378) | 论文（摘要） | 特种场景直接相关 | 匹配度 83/100
   - 行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：消防与应急救援。来源期刊/会议：Drones。 Deploying unmanned aerial vehicles (UAVs) cooperatively with legged robots for disaster response and inspection require（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Design and Attitude Control of an Underwater Quadruped Robot](http://arxiv.org/abs/2609.09217v1) | 论文（摘要） | 特种场景直接相关 | 匹配度 82/100
-  - 行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：消防与应急救援。Legged robots are versatile on land, but their use in underwater environments remains limited. Extending quadruped locomotion to water （仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Improving the energy efficiency of quadruped robots on uneven terrains through bio-inspired elastic design](https://doi.org/10.56028/aetr.15.1.1430.2025) | 论文（摘要） | 特种场景直接相关 | 匹配度 83/100
+  - 行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：消防与应急救援。来源期刊/会议：Advances in Engineering Technology Research。This study demonstrates that bio-inspired elastic leg design significantly enhances（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 大脑与具身智能
 
+- [Semantic-Augmented Reality: A Hybrid Robotic Framework Combining Edge AI and Vision Language Models for Dynamic Industrial Inspection](https://doi.org/10.20944/preprints202512.2091.v1) | 论文（摘要） | 特种场景直接相关 | 匹配度 79/100
+  - 行业筛选：特种场景直接相关；方向：大脑与具身智能；关联：工业与能源巡检。With the rise of Industry 4.0, Augmented Reality (AR) has become pivotal for human-robot collaboration. However, most industrial AR sys（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [H-VLN: hierarchical visual-language adaptive navigation control framework for wheel-legged robots](https://doi.org/10.1016/j.displa.2026.103512) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 73/100
   - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Displays。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Vision‐Language‐Action Models for Embodied Artificial Intelligence: A Comprehensive Survey](https://doi.org/10.1002/rob.70340) | 论文（摘要） | 特种场景直接相关 | 匹配度 72/100
@@ -79,11 +81,13 @@
   - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。Video-based policy learning is particularly promising, as it illustrates target behaviors without requiring action annotations or embod（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Spatial and Semantic Reasoning for LLM-Driven Robot Navigation via MCP](https://doi.org/10.48550/arxiv.2609.27340) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 63/100
   - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。Large language models (LLMs) are increasingly used as natural-language interfaces for robotic system（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [FlowVLA: Enabling World Dynamics Understanding through Pluggable 3D Flow Learning](https://arxiv.org/abs/2610.16160) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 62/100
-  - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.16160v1 Announce Type: new Abstract: Recent advances in 3D reconstruction enable the extraction of temporally consistent 3D （仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 感知建图与导航
 
+- [Reinforcement learning for mobile robot mapless navigation: a review of recent advances](https://doi.org/10.1515/jisys-2024-0547) | 论文（摘要） | 特种场景直接相关 | 匹配度 91/100
+  - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：消防与应急救援。来源期刊/会议：Journal of Intelligent Systems。 Abstract Mobile robot navigation remains a critical challenge in robotics, with applications sp（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Design and implementation of QUADRESCUE: A ROS-based quadruped robot for disaster response support](https://doi.org/10.11591/ijra.v14i3.pp387-398) | 论文（摘要） | 特种场景直接相关 | 匹配度 88/100
+  - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：消防与应急救援。来源期刊/会议：IAES International Journal of Robotics and Automation (IJRA)。Search and rescue (SAR) operations in hazardous environments deman（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Navigation of Mobile Robot in Unstructured Terrain Environments](https://doi.org/10.3901/jme.260093) | 论文（摘要） | 特种场景直接相关 | 匹配度 87/100
   - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：野外与特种地形。来源期刊/会议：Journal of Mechanical Engineering。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [End to end navigation stack for nuclear power plant inspection with mobile robot](https://doi.org/10.1016/j.softx.2024.101750) | 论文（摘要） | 特种场景直接相关 | 匹配度 87/100
@@ -96,10 +100,6 @@
   - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：矿山与地下空间。来源期刊/会议：Measurement Science and Technology。Abstract Traditional simultaneous localization and mapping (SLAM) systems often suffer from （仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Camera-based mapping in search-and-rescue via flying and ground robot teams](https://doi.org/10.1007/s00138-024-01594-4) | 论文（摘要） | 特种场景直接相关 | 匹配度 82/100
   - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：消防与应急救援。来源期刊/会议：Machine Vision and Applications。 Abstract Search and rescue (SaR) is challenging, due to the unknown environmental situation af（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [GTS-SLAM: A Tightly-Coupled GICP and 3D Gaussian Splatting Framework for Robust Dense SLAM in Underground Mines](https://doi.org/10.3390/vehicles8040079) | 论文（摘要） | 特种场景直接相关 | 匹配度 81/100
-  - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：矿山与地下空间。来源期刊/会议：Vehicles。To address unstable localization and sparse mapping for autonomous vehicles operating in GPS-denied and low-visibility（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Multi‐AUV Cooperative SLAM With Depth and Intensity Dual‐Channel Joint Registration](https://doi.org/10.1002/rob.70354) | 论文（摘要） | 特种场景直接相关 | 匹配度 80/100
-  - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：野外与特种地形。来源期刊/会议：Journal of Field Robotics。ABSTRACT The leader‐follower multi‐autonomous underwater vehicle (AUV) fleet equipped with multi‐beam（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 特种应用与产品
 
@@ -113,34 +113,16 @@
   - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：International Journal of Fire Science and Engineering。 This study was conducted as part of a project by the Ministry of Trade, （仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Development of a Sensor-Based Glove-Controlled Mobile Robot for Firefighting and Rescue Operations](https://doi.org/10.31763/ijrcs.v4i4.1553) | 论文（摘要） | 特种场景直接相关 | 匹配度 87/100
   - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：International Journal of Robotics and Control Systems。 Robots are important in preventing hazards. This paper presents the cons（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Multisensor Fire Detection System Mobile Robot as a Learning Media in Firefighting Robotic Course](https://doi.org/10.46843/jiecr.v4i4.1016) | 论文（摘要） | 特种场景直接相关 | 匹配度 87/100
+  - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：Journal of Innovation in Educational and Cultural Research。Firefighting Robotic technology has been used for a long time to ach（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Design and Simulation of a Mobile Robot for Pipeline Inspection](https://doi.org/10.1109/conescapan56456.2022.9959592) | 论文（摘要） | 特种场景直接相关 | 匹配度 87/100
   - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：2022 IEEE Central America and Panama Student Conference (CONESCAPAN)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Research on inspection of machine room by mobile robot](https://doi.org/10.54254/2755-2721/6/20230769) | 论文（摘要） | 特种场景直接相关 | 匹配度 83/100
   - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：Applied and Computational Engineering。 The machine room inspection robot, as a special robot, can locate and navigate in the ma（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Wireless Mesh Underground Rescue Robot for Post-Disaster Mine Emergency Response](https://doi.org/10.3390/app16188986) | 论文（摘要） | 特种场景直接相关 | 匹配度 81/100
-  - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援、矿山与地下空间。来源期刊/会议：Applied Sciences。 Post-disaster underground mine rescue requires environmental perception and remote operation before personnel（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
-## 本轮采集异常
+## 采集状态
 
-- OpenAlex explosion proof inspection robot: HTTPError: 503 Server Error: Service Unavailable for url: https://api.openalex.org/works?search=explosion+proof+inspection+robot&filter=from_publication_date%3A2021-10-15%2Cto_publication_date%3A2026-10-15&sort=publication_date%3Adesc&per_page=70&select=id%2Cdoi%2Cdisplay_name%2Cpublication_date%2Cabstract_inverted_index%2Cprimary_location%2Ctype
-- OpenAlex quadruped industrial inspection robot: HTTPError: 503 Server Error: Service Unavailable for url: https://api.openalex.org/works?search=quadruped+industrial+inspection+robot&filter=from_publication_date%3A2021-10-15%2Cto_publication_date%3A2026-10-15&sort=publication_date%3Adesc&per_page=70&select=id%2Cdoi%2Cdisplay_name%2Cpublication_date%2Cabstract_inverted_index%2Cprimary_location%2Ctype
-- OpenAlex firefighting rescue robot: HTTPError: 503 Server Error: Service Unavailable for url: https://api.openalex.org/works?search=firefighting+rescue+robot&filter=from_publication_date%3A2021-10-15%2Cto_publication_date%3A2026-10-15&sort=publication_date%3Adesc&per_page=70&select=id%2Cdoi%2Cdisplay_name%2Cpublication_date%2Cabstract_inverted_index%2Cprimary_location%2Ctype
-- OpenAlex mining underground mobile robot: HTTPError: 503 Server Error: Service Unavailable for url: https://api.openalex.org/works?search=mining+underground+mobile+robot&filter=from_publication_date%3A2021-10-15%2Cto_publication_date%3A2026-10-15&sort=publication_date%3Adesc&per_page=70&select=id%2Cdoi%2Cdisplay_name%2Cpublication_date%2Cabstract_inverted_index%2Cprimary_location%2Ctype
-- OpenAlex wheel legged robot locomotion control: HTTPError: 503 Server Error: Service Unavailable for url: https://api.openalex.org/works?search=wheel+legged+robot+locomotion+control&filter=from_publication_date%3A2021-10-15%2Cto_publication_date%3A2026-10-15&sort=publication_date%3Adesc&per_page=70&select=id%2Cdoi%2Cdisplay_name%2Cpublication_date%2Cabstract_inverted_index%2Cprimary_location%2Ctype
-- OpenAlex quadruped reinforcement learning locomotion: HTTPError: 503 Server Error: Service Unavailable for url: https://api.openalex.org/works?search=quadruped+reinforcement+learning+locomotion&filter=from_publication_date%3A2021-10-15%2Cto_publication_date%3A2026-10-15&sort=publication_date%3Adesc&per_page=70&select=id%2Cdoi%2Cdisplay_name%2Cpublication_date%2Cabstract_inverted_index%2Cprimary_location%2Ctype
-- OpenAlex legged robot whole body control: HTTPError: 503 Server Error: Service Unavailable for url: https://api.openalex.org/works?search=legged+robot+whole+body+control&filter=from_publication_date%3A2021-10-15%2Cto_publication_date%3A2026-10-15&sort=publication_date%3Adesc&per_page=70&select=id%2Cdoi%2Cdisplay_name%2Cpublication_date%2Cabstract_inverted_index%2Cprimary_location%2Ctype
-- OpenAlex robot embodied agent skill planning: HTTPError: 503 Server Error: Service Unavailable for url: https://api.openalex.org/works?search=robot+embodied+agent+skill+planning&filter=from_publication_date%3A2021-10-15%2Cto_publication_date%3A2026-10-15&sort=publication_date%3Adesc&per_page=70&select=id%2Cdoi%2Cdisplay_name%2Cpublication_date%2Cabstract_inverted_index%2Cprimary_location%2Ctype
-- OpenAlex vision language navigation mobile robot: HTTPError: 503 Server Error: Service Unavailable for url: https://api.openalex.org/works?search=vision+language+navigation+mobile+robot&filter=from_publication_date%3A2021-10-15%2Cto_publication_date%3A2026-10-15&sort=publication_date%3Adesc&per_page=70&select=id%2Cdoi%2Cdisplay_name%2Cpublication_date%2Cabstract_inverted_index%2Cprimary_location%2Ctype
-- OpenAlex robot slam autonomous inspection: HTTPError: 503 Server Error: Service Unavailable for url: https://api.openalex.org/works?search=robot+slam+autonomous+inspection&filter=from_publication_date%3A2021-10-15%2Cto_publication_date%3A2026-10-15&sort=publication_date%3Adesc&per_page=70&select=id%2Cdoi%2Cdisplay_name%2Cpublication_date%2Cabstract_inverted_index%2Cprimary_location%2Ctype
-- OpenAlex robot actuator thermal camera industrial inspection: HTTPError: 503 Server Error: Service Unavailable for url: https://api.openalex.org/works?search=robot+actuator+thermal+camera+industrial+inspection&filter=from_publication_date%3A2021-10-15%2Cto_publication_date%3A2026-10-15&sort=publication_date%3Adesc&per_page=70&select=id%2Cdoi%2Cdisplay_name%2Cpublication_date%2Cabstract_inverted_index%2Cprimary_location%2Ctype
-- Hardware OpenAlex quadruped joint actuator mechanical design: HTTPError: 503 Server Error: Service Unavailable for url: https://api.openalex.org/works?search=quadruped+joint+actuator+mechanical+design&filter=from_publication_date%3A2021-10-15%2Cto_publication_date%3A2026-10-15&sort=publication_date%3Adesc&per_page=70&select=id%2Cdoi%2Cdisplay_name%2Cpublication_date%2Cabstract_inverted_index%2Cprimary_location%2Ctype
-- Hardware OpenAlex wheel legged robot linkage mechanism design: HTTPError: 503 Server Error: Service Unavailable for url: https://api.openalex.org/works?search=wheel+legged+robot+linkage+mechanism+design&filter=from_publication_date%3A2021-10-15%2Cto_publication_date%3A2026-10-15&sort=publication_date%3Adesc&per_page=70&select=id%2Cdoi%2Cdisplay_name%2Cpublication_date%2Cabstract_inverted_index%2Cprimary_location%2Ctype
-- Hardware OpenAlex robot gearbox harmonic reducer joint actuator: HTTPError: 503 Server Error: Service Unavailable for url: https://api.openalex.org/works?search=robot+gearbox+harmonic+reducer+joint+actuator&filter=from_publication_date%3A2021-10-15%2Cto_publication_date%3A2026-10-15&sort=publication_date%3Adesc&per_page=70&select=id%2Cdoi%2Cdisplay_name%2Cpublication_date%2Cabstract_inverted_index%2Cprimary_location%2Ctype
-- OpenAlex backfill legged robot whole body control: HTTPError: 503 Server Error: Service Unavailable for url: https://api.openalex.org/works?search=legged+robot+whole+body+control&filter=from_publication_date%3A2021-10-15%2Cto_publication_date%3A2022-01-15&sort=publication_date%3Adesc&per_page=70&select=id%2Cdoi%2Cdisplay_name%2Cpublication_date%2Cabstract_inverted_index%2Cprimary_location%2Ctype
-- OpenAlex backfill robot embodied agent skill planning: HTTPError: 503 Server Error: Service Unavailable for url: https://api.openalex.org/works?search=robot+embodied+agent+skill+planning&filter=from_publication_date%3A2026-04-15%2Cto_publication_date%3A2026-07-15&sort=publication_date%3Adesc&per_page=70&select=id%2Cdoi%2Cdisplay_name%2Cpublication_date%2Cabstract_inverted_index%2Cprimary_location%2Ctype
-- OpenAlex backfill robot embodied agent skill planning: HTTPError: 503 Server Error: Service Unavailable for url: https://api.openalex.org/works?search=robot+embodied+agent+skill+planning&filter=from_publication_date%3A2026-01-15%2Cto_publication_date%3A2026-04-15&sort=publication_date%3Adesc&per_page=70&select=id%2Cdoi%2Cdisplay_name%2Cpublication_date%2Cabstract_inverted_index%2Cprimary_location%2Ctype
-- Hardware OpenAlex backfill quadruped joint actuator mechanical design: HTTPError: 503 Server Error: Service Unavailable for url: https://api.openalex.org/works?search=quadruped+joint+actuator+mechanical+design&filter=from_publication_date%3A2023-04-15%2Cto_publication_date%3A2023-07-15&sort=publication_date%3Adesc&per_page=70&select=id%2Cdoi%2Cdisplay_name%2Cpublication_date%2Cabstract_inverted_index%2Cprimary_location%2Ctype
-- Hardware OpenAlex backfill quadruped joint actuator mechanical design: HTTPError: 503 Server Error: Service Unavailable for url: https://api.openalex.org/works?search=quadruped+joint+actuator+mechanical+design&filter=from_publication_date%3A2023-01-15%2Cto_publication_date%3A2023-04-15&sort=publication_date%3Adesc&per_page=70&select=id%2Cdoi%2Cdisplay_name%2Cpublication_date%2Cabstract_inverted_index%2Cprimary_location%2Ctype
+本轮已配置来源均完成请求，但不保证其覆盖行业全部进展。
 
 ## 下一步人工核验
 
