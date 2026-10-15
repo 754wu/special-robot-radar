@@ -1,0 +1,51 @@
+name: Recover Five-Year Archive
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'backfill.py'
+      - '.github/workflows/backfill-archive.yml'
+  schedule:
+    - cron: '45 3 * * *'
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: radar-pages
+  cancel-in-progress: false
+jobs:
+  historical-recovery:
+    runs-on: ubuntu-latest
+    timeout-minutes: 19
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Run regression tests
+        run: python -m unittest discover -s tests -v
+      - name: Recover archive with persistent checkpoint
+        env:
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+          RADAR_CONTACT_EMAIL: ${{ vars.RADAR_CONTACT_EMAIL }}
+        run: python backfill.py --openalex-budget 14 --crossref-budget 5 --max-seconds 520
+      - name: Commit historical recovery progress
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/
+          git diff --cached --quiet || (git commit -m "Recover older robotics research" && git push)
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: docs
+      - name: Deploy recovered archive
+        id: deployment
+        uses: actions/deploy-pages@v4
