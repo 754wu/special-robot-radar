@@ -144,3 +144,8 @@ python -m http.server 8000 --directory docs
 ## 历史资料恢复机制（2021—2025）
 
 历史查询已独立为 `backfill.py`，默认每天在 `Recover Five-Year Archive` 工作流中执行。按照检索词 × 半年度窗口分别采集，成功后将检查点持久化到 `docs/backfill_progress.json`，报告保存至 `docs/backfill_report.md`。源站报限流则跳过该源剩余查询，并在下一次运行后恢复。不同年份的资源数量并不意味着每年发文量相同；只有成功的查询会标记完成。可在 Actions 中手动触发此工作流加快初次回填，但不应频繁运行，以免被 API 限流。
+
+
+## 主要研究贡献分类与误收录过滤
+
+新分类器 `taxonomy.py` 以**论文目标和主要技术贡献**而不是单个通用词（如 RL、sensor、navigation、actuator）决定唯一主分类；跨领域技术以 tags 记录。若标题/摘要不足以支撑确定分类，写入 `classification_confidence=待复核` 和 `needs_review=true`。ROS 社区的招聘启事和纯活动公告直接剔除（论文中引用会议不剔除）。日常采集和独立历史补录均对旧数据重新审核，保持一致。相关性评分仍是关键词初筛分，不是全文验证。

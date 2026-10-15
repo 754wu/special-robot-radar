@@ -134,8 +134,15 @@ def run_backfill(config: dict, max_openalex: int = 24, max_crossref: int = 8,
     queue_cr = backfill_queue(config, now, done, "Crossref")
     # Explicit year/task coverage is available in JSON even if API access fails.
     total_jobs = len(queue_oa) + len(queue_cr) + len(done)
-    history = radar.load_history()
-    before = len(history)
+    original_history = radar.load_history()
+    before = len(original_history)
+    # Apply exactly the same intake-quality and taxonomy rules when manual
+    # backfill runs without the main daily collection first.
+    history = {}
+    for source in original_history.values():
+        updated = radar.rule_enrich(dict(source), config)
+        if updated is not None:
+            history[updated['id']] = updated
     recent_added: set[str] = set()
     finished = []
     errors = []
