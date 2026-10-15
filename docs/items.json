@@ -1,5 +1,27 @@
 [
   {
+    "id": "be33cb8816af7f0fa4",
+    "title": "chang-xinhai/Awesome-Dexterous-Manipulation",
+    "url": "https://github.com/chang-xinhai/Awesome-Dexterous-Manipulation",
+    "source": "GitHub",
+    "type": "代码仓库更新",
+    "description": "A curated awesome list for dexterous robot manipulation, tactile sensing, dexterous hands, robot learning, datasets, benchmarks, and simulators.",
+    "published": "2026-10-15T03:11:49Z",
+    "first_seen": "2026-10-15T03:34:03.051642+00:00",
+    "stars": 26,
+    "license": true,
+    "repo_id": 1220137659,
+    "category": "特种应用与产品",
+    "tags": [
+      "特种应用与产品"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：特种应用与产品；关联：特种机器人共性技术（需核验应用适配性）。A curated awesome list for dexterous robot manipulation, tactile sensing, dexterous hands, robot learning, datasets, benchmarks, and si（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
     "id": "5456eeec6eb8c82186",
     "title": "YanjieZe/awesome-humanoid-robot-learning",
     "url": "https://github.com/YanjieZe/awesome-humanoid-robot-learning",
@@ -6215,6 +6237,27 @@
     "scope": "可迁移的机器人关键技术",
     "score": 65,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2026 12th International Conference on Automation, Robotics and Applications (ICARA)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "f19c3fd9acaa91ee24",
+    "title": "Spatio-Temporal Geometry-Aware Goal Attention for Deep Reinforcement Learning-Based Mobile Robot Navigation Using 2D LiDAR",
+    "url": "https://doi.org/10.1109/cnml68938.2026.11452981",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：2026 International Conference on Communication Networks and Machine Learning (CNML)。",
+    "published": "2026-01-30",
+    "first_seen": "2026-10-15T03:33:43.728293+00:00",
+    "doi": "10.1109/cnml68938.2026.11452981",
+    "category": "小脑与运动控制",
+    "tags": [
+      "小脑与运动控制",
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 74,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2026 International Conference on Communication Networks and Machine Learning (CNML)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
