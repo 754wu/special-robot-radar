@@ -7,7 +7,7 @@ from main import (
     make_item, normalize_link, rule_enrich, esc, utc_now, months_ago,
     date_in_window, crossref_date, openalex_abstract, identity_key,
     deduplicate_items, fetch_arxiv_api, fetch_openalex, fetch_crossref, render_html, get_focus,
-    select_arxiv_queries, request_with_retry, historical_backfill_jobs, classify_primary_topic
+    select_arxiv_queries, request_with_retry, historical_backfill_jobs, classify_primary_topic, rotate_source_queries
 )
 
 class FakeResponse:
@@ -164,6 +164,35 @@ class RadarTests(unittest.TestCase):
         self.assertIn('data-preset="365"', output)
         self.assertIn('data-preset="all"', output)
         self.assertIn('研究成果与开源项目', output)
+
+    def test_hardware_recall_real_database_cases(self):
+        cases = [
+            ("Design and Development of Explosion-Proof Cavity of Hydraulic System Power Unit Applied in Explosion-Proof Area",
+             "The explosion-proof housing of hydraulic system power unit is investigated.", "硬件与防爆"),
+            ("Research on Inspection Technology of Limited-rotation Explosion-proof Electric Actuators for Coal Mines",
+             "The composition structure of the explosion-proof limited-angle electric actuator is investigated.", "硬件与防爆"),
+            ("Influence of periodic pulse intake on the ventilation efficiency of positive pressure explosion-proof robot",
+             "The robot positive pressure explosion-proof structure and periodic purge ventilation method are studied.", "硬件与防爆"),
+            ("A Low-Cost, Open-Source Quadruped Robot for Assistive Elder Care: Design, Implementation, and Validation",
+             "This article presents design fabrication mechanical chassis and a printed circuit board with servo motors.", "硬件与防爆"),
+            ("Quadruped Locomotion via Reinforcement Learning under Actuator Failures",
+             "Residual control using joint encoders and sensors.", "小脑与运动控制"),
+            ("LiDAR-Based Robot Navigation Using Actuator Constraints",
+             "Autonomous path planning and obstacle avoidance.", "感知建图与导航"),
+        ]
+        for title, abstract, expected in cases:
+            with self.subTest(title=title):
+                self.assertEqual(classify_primary_topic(title, abstract)[0], expected)
+
+    def test_hardware_query_rotation(self):
+        from datetime import datetime, timezone, timedelta
+        today = datetime(2026, 10, 15, tzinfo=timezone.utc)
+        q = ["a", "b", "c", "d", "e"]
+        out = rotate_source_queries(q, 2, today)
+        self.assertEqual(len(out), 2)
+        self.assertTrue(set(out).issubset(q))
+        self.assertEqual(rotate_source_queries(q, 0, today), [])
+        self.assertNotEqual(out, rotate_source_queries(q, 2, today + timedelta(days=1)))
 
     def test_primary_category_prevents_hardware_false_positives(self):
         cases = [

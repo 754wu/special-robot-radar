@@ -458,6 +458,12 @@ PRIMARY_TOPIC_CUES = {
         "explosion-proof enclosure", "explosion-proof motor", "explosion-proof actuator",
         "explosion-proof sensor", "intrinsic safety", "intrinsically safe",
         "explosion protection", "internal explosion", "explosion vibration",
+        "explosion-proof cavity", "explosion-proof housing", "flameproof cavity",
+        "pressure explosion-proof", "positive pressure explosion-proof",
+        "positive pressure protection", "pressurized enclosure", "purge ventilation",
+        "explosion-proof electric actuator", "explosion-proof electric actuators",
+        "electric actuator design", "electric actuators", "actuator inspection",
+        "explosion proof cavity", "flameproof joint",
         "motor design", "motor drive design", "servo motor design", "gearbox",
         "gear reducer", "reducer design", "harmonic drive", "actuator design",
         "actuator development", "robot actuator", "robotic actuator",
@@ -466,6 +472,9 @@ PRIMARY_TOPIC_CUES = {
         "structural design", "structural analysis", "parallel linkage",
         "leg mechanism", "robot chassis", "robot morphology", "robot structure",
         "robot platform design", "sealing structure", "rotary seal", "power electronics",
+        "mechanical chassis", "robot fabrication", "robot body design",
+        "servo drive design", "joint drive design", "printed circuit board",
+        "robot pcb", "mechanical construction",
         "battery pack design", "thermal design", "sensor hardware", "sensor design",
         "sensor development", "camera design", "lidar hardware", "morphing",
         "tactile sensor", "mechanical transmission",
@@ -589,6 +598,10 @@ def classify_primary_topic(title: str, description: str) -> tuple[str, list[str]
         desc, ["actuator design", "motor design", "gearbox", "flameproof enclosure",
                "mechanical design", "robot chassis", "transmission mechanism",
                "joint actuator", "sensor hardware", "structural design",
+               "mechanical chassis", "printed circuit board", "servo motors",
+               "robot fabrication", "chassis fabricated", "3d printing",
+               "flameproof cavity", "explosion-proof housing",
+               "electric actuators", "electric actuator", "purge ventilation",
                "隔爆外壳", "防爆电机", "关节电机", "减速器设计"]))
     if not explicit_hardware_title and not (structural_title and physical_in_abstract):
         points[hw] = -1
@@ -859,6 +872,20 @@ def render_digest(items: list[dict], new_ids: set[str], errors: list[str]) -> st
     return "\n".join(lines)
 
 
+def rotate_source_queries(queries: list[str], budget: int,
+                          today: datetime | None = None) -> list[str]:
+    """Spread additional targeted hardware searches across daily runs.
+
+    Never expand into an unbounded batch of fresh requests that could
+    trigger provider rate limits or exceed GitHub Actions timeout.
+    """
+    if not queries or int(budget) <= 0:
+        return []
+    start = (today or utc_now()).date().toordinal() % len(queries)
+    return [queries[(start + i) % len(queries)]
+            for i in range(min(int(budget), len(queries)))]
+
+
 def historical_backfill_jobs(queries: list[str], now: datetime, months: int = 60,
                              window_months: int = 3, daily_budget: int = 2) -> list[tuple[str, datetime, datetime]]:
     """Rotate through older publication windows without flooding metadata APIs.
@@ -922,6 +949,21 @@ def main() -> None:
                 msg = f"OpenAlex {query}: {type(ex).__name__}: {ex}"
                 errors.append(msg)
                 print("[WARN]", msg, file=sys.stderr)
+        # Hardware collection requires dedicated queries: broad locomotion and
+        # navigation searches do not discover actuators, motors, reducers and Ex d.
+        hardware_oa = cfg.get("hardware_openalex_queries", [])
+        for query in rotate_source_queries(
+            hardware_oa, int(cfg.get("hardware_openalex_per_run", 3)), end
+        ):
+            expected_sources += 1
+            try:
+                batch = fetch_openalex(query, start, end, cfg.get("openalex_limit", 70))
+                print(f"Hardware OpenAlex {query}: {len(batch)}")
+                candidates.extend(batch)
+            except Exception as ex:
+                msg = f"Hardware OpenAlex {query}: {type(ex).__name__}: {ex}"
+                errors.append(msg)
+                print("[WARN]", msg, file=sys.stderr)
         # Gradual historical backfill: rotating quarters complement recent-first API caps.
         for query, s, e in historical_backfill_jobs(
             cfg.get("openalex_queries", []), end, months,
@@ -937,6 +979,20 @@ def main() -> None:
                 errors.append(msg)
                 print("[WARN]", msg, file=sys.stderr)
             time.sleep(1.0)
+        for query, s, e in historical_backfill_jobs(
+            hardware_oa, end, months,
+            daily_budget=int(cfg.get("hardware_openalex_backfill_per_run", 2))
+        ):
+            expected_sources += 1
+            try:
+                batch = fetch_openalex(query, s, e, cfg.get("openalex_limit", 70))
+                print(f"Hardware OpenAlex backfill {query} [{s.date()}, {e.date()}]: {len(batch)}")
+                candidates.extend(batch)
+            except Exception as ex:
+                msg = f"Hardware OpenAlex backfill {query}: {type(ex).__name__}: {ex}"
+                errors.append(msg)
+                print("[WARN]", msg, file=sys.stderr)
+            time.sleep(1)
         for query in cfg.get("crossref_queries", []):
             expected_sources += 1
             try:
@@ -949,6 +1005,20 @@ def main() -> None:
                 print("[WARN]", msg, file=sys.stderr)
             # Reduce bursts across independent Crossref search queries.
             time.sleep(5)
+        hardware_cr = cfg.get("hardware_crossref_queries", [])
+        for query in rotate_source_queries(
+            hardware_cr, int(cfg.get("hardware_crossref_per_run", 2)), end
+        ):
+            expected_sources += 1
+            try:
+                batch = fetch_crossref(query, start, end, cfg.get("crossref_limit", 30))
+                print(f"Hardware Crossref {query}: {len(batch)}")
+                candidates.extend(batch)
+            except Exception as ex:
+                msg = f"Hardware Crossref {query}: {type(ex).__name__}: {ex}"
+                errors.append(msg)
+                print("[WARN]", msg, file=sys.stderr)
+            time.sleep(5)
         for query, s, e in historical_backfill_jobs(
             cfg.get("crossref_queries", []), end, months,
             daily_budget=int(cfg.get("crossref_backfill_per_run", 1))
@@ -960,6 +1030,20 @@ def main() -> None:
                 candidates.extend(batch)
             except Exception as ex:
                 msg = f"Crossref backfill {query}: {type(ex).__name__}: {ex}"
+                errors.append(msg)
+                print("[WARN]", msg, file=sys.stderr)
+            time.sleep(5)
+        for query, s, e in historical_backfill_jobs(
+            hardware_cr, end, months,
+            daily_budget=int(cfg.get("hardware_crossref_backfill_per_run", 1))
+        ):
+            expected_sources += 1
+            try:
+                batch = fetch_crossref(query, s, e, cfg.get("crossref_limit", 30))
+                print(f"Hardware Crossref backfill {query} [{s.date()}, {e.date()}]: {len(batch)}")
+                candidates.extend(batch)
+            except Exception as ex:
+                msg = f"Hardware Crossref backfill {query}: {type(ex).__name__}: {ex}"
                 errors.append(msg)
                 print("[WARN]", msg, file=sys.stderr)
             time.sleep(5)
