@@ -336,5 +336,31 @@
   "hardware_openalex_per_run": 3,
   "hardware_openalex_backfill_per_run": 2,
   "hardware_crossref_per_run": 2,
-  "hardware_crossref_backfill_per_run": 1
+  "hardware_crossref_backfill_per_run": 1,
+  "archive_openalex_queries": [
+    "quadruped robot",
+    "wheel legged robot",
+    "robot joint actuator",
+    "robot mobile inspection",
+    "robot autonomous navigation",
+    "legged robot locomotion",
+    "robotics reinforcement learning",
+    "robot visual slam",
+    "robot embodied navigation",
+    "robot flameproof design",
+    "robot motor reducer",
+    "industrial rescue robot",
+    "robot perception mapping",
+    "robot software architecture"
+  ],
+  "archive_crossref_queries": [
+    "quadruped robot",
+    "wheel legged robot",
+    "robot actuator design",
+    "explosion proof inspection robot",
+    "robot simultaneous localization mapping",
+    "robot locomotion control",
+    "robot vision language navigation",
+    "robot mechanical structure"
+  ]
 }
