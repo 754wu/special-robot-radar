@@ -1,5 +1,68 @@
 [
   {
+    "id": "54a0294636926d0525",
+    "title": "omnilink-tech/omnisim",
+    "url": "https://github.com/omnilink-tech/omnisim",
+    "source": "GitHub",
+    "type": "代码仓库更新",
+    "description": "Open-source robotics simulator for coding agents: HTTP/JSON + MCP control, Newton physics, wgpu rendering, ROS 2, and reproducible benchmarks.",
+    "published": "2026-10-15T00:01:07Z",
+    "first_seen": "2026-10-15T01:29:28.468546+00:00",
+    "stars": 188,
+    "license": true,
+    "repo_id": 1226359480,
+    "category": "基础软件与系统",
+    "tags": [
+      "基础软件与系统"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。Open-source robotics simulator for coding agents: HTTP/JSON + MCP control, Newton physics, wgpu rendering, ROS 2, and reproducible benc（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "a24b8f4299b9a102fe",
+    "title": "Arman10121995/Celisca-ROS-2-Robot",
+    "url": "https://github.com/Arman10121995/Celisca-ROS-2-Robot",
+    "source": "GitHub",
+    "type": "代码仓库更新",
+    "description": "ROS 2 development for laboratory mobile robots at CELISCA, University of Rostock",
+    "published": "2026-10-14T22:15:13Z",
+    "first_seen": "2026-10-12T09:52:33.489712+00:00",
+    "stars": 0,
+    "license": true,
+    "repo_id": 1278949137,
+    "category": "基础软件与系统",
+    "tags": [
+      "基础软件与系统"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。ROS 2 development for laboratory mobile robots at CELISCA, University of Rostock（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "e92f8d58b6f8c5a308",
+    "title": "Robotics Prototyping Intern @ Nestack Technologies in Hyderabad, India (On-site)",
+    "url": "https://discourse.openrobotics.org/t/robotics-prototyping-intern-nestack-technologies-in-hyderabad-india-on-site/58861",
+    "source": "ROS Discourse",
+    "type": "社区动态",
+    "description": "We are building an original, friendly-looking walking robot with expressive movement and AI interaction. We’re looking for a hands-on intern who is excited about robotics and wants to work on a real-world prototype from design and assembly through programming and testing. Must-haves: Currently pursuing an engineering degree or recently graduated in Robotics, Mechatronics, Mechanical Engineering, Electronics/Electrical Engineering, Computer Science or related field, Basic knowledge of mechanical CAD and 3D printing, Programming experience in Python or C/C++, Basic understanding of electronics, motors, sensors, or embedded systems, Strong hands-on problem-solving ability, Willingness to work on hardware and troubleshoot prototypes, Ability to work on-site in Hyderabad, Good communication and documentation skills Nice-to-haves: DYNAMIXEL motors, ROS / ROS 2, MuJoCo or other robot simulation",
+    "published": "2026-10-14T15:06:58+00:00",
+    "first_seen": "2026-10-15T01:29:18.740064+00:00",
+    "category": "基础软件与系统",
+    "tags": [
+      "基础软件与系统"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。We are building an original, friendly-looking walking robot with expressive movement and AI interaction. We’re looking for a hands-on i（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
     "id": "69e61c4529817d0edd",
     "title": "rsasaki0109/RobotNativeEngine",
     "url": "https://github.com/rsasaki0109/RobotNativeEngine",
@@ -561,6 +624,26 @@
     "analysis_level": "特种机器人关键词初筛"
   },
   {
+    "id": "241f43468f19a14cf2",
+    "title": "Gait-Aware Command Timing for Decentralized Quadruped Swarms",
+    "url": "https://doi.org/10.21203/rs.3.rs-11332226/v1",
+    "source": "OpenAlex",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Research Square。",
+    "published": "2026-10-13",
+    "first_seen": "2026-10-15T01:28:41.770525+00:00",
+    "doi": "https://doi.org/10.21203/rs.3.rs-11332226/v1",
+    "category": "小脑与运动控制",
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 64,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Research Square。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
     "id": "18482c9444b9297e34",
     "title": "New packages for Humble Hawksbill 2026-10-12",
     "url": "https://discourse.openrobotics.org/t/new-packages-for-humble-hawksbill-2026-10-12/58802",
@@ -577,28 +660,6 @@
     "scope": "可迁移的机器人关键技术",
     "score": 61,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。We’re happy to announce 40 new packages and 446 updates to ROS 2 Humble Hawksbill This sync was tagged as humble/2026-10-12 . amd64 (40（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "特种机器人关键词初筛"
-  },
-  {
-    "id": "a24b8f4299b9a102fe",
-    "title": "Arman10121995/Celisca-ROS-2-Robot",
-    "url": "https://github.com/Arman10121995/Celisca-ROS-2-Robot",
-    "source": "GitHub",
-    "type": "代码仓库更新",
-    "description": "ROS 2 development for laboratory mobile robots at CELISCA, University of Rostock",
-    "published": "2026-10-12T09:47:31Z",
-    "first_seen": "2026-10-12T09:52:33.489712+00:00",
-    "stars": 0,
-    "license": true,
-    "repo_id": 1278949137,
-    "category": "基础软件与系统",
-    "tags": [
-      "基础软件与系统"
-    ],
-    "industry_tags": [],
-    "scope": "可迁移的机器人关键技术",
-    "score": 61,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。ROS 2 development for laboratory mobile robots at CELISCA, University of Rostock（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -1060,6 +1121,31 @@
     "analysis_level": "特种机器人关键词初筛"
   },
   {
+    "id": "dfe68723c4038e24c4",
+    "title": "OP‐Follower: Onboard Vision‐Based Obstacle‐Aware Predictive Person Following for Quadruped Robots via IBVS‐NMPC Control",
+    "url": "https://doi.org/10.1002/rob.70363",
+    "source": "OpenAlex",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Journal of Field Robotics。ABSTRACT This paper presents OP‐Follower , a fully onboard, pure vision‐based, obstacle‐aware person‐following framework for quadruped robots. Unlike existing approaches that rely on LiDAR, infrastructure, or offboard computation, OP‐Follower operates exclusively on visual inputs and runs entirely on a Unitree Go2. OP‐Follower bridges the gap between low‐frequency, computation delay‐prone visual perception and safety‐aware high‐rate control by integrating YOLO‐World–based open‐vocabulary person detection, BoxMOT multi‐object tracking, and Kalman filter–based delay‐aware prediction within a unified planning–control architecture that tightly couples image‐based visual servoing with nonlinear model predictive control. A decoupled artificial potential field–based visual obstacle avoidance strategy is further employed to ensure collision‐aware navigation with",
+    "published": "2026-10-12",
+    "first_seen": "2026-10-15T01:28:40.354141+00:00",
+    "doi": "https://doi.org/10.1002/rob.70363",
+    "category": "感知建图与导航",
+    "tags": [
+      "感知建图与导航",
+      "硬件与防爆",
+      "小脑与运动控制",
+      "特种应用与产品"
+    ],
+    "industry_tags": [
+      "野外与特种地形"
+    ],
+    "scope": "特种场景直接相关",
+    "score": 85,
+    "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：野外与特种地形。来源期刊/会议：Journal of Field Robotics。ABSTRACT This paper presents OP‐Follower , a fully onboard, pure vision‐based, obstacle‐aware person‐（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
     "id": "0bf0f342a86fad243a",
     "title": "Mobile robot navigation using theta star path planning artificial potential field avoidance pure pursuit tracking and LIDAR based occupancy grid mapping",
     "url": "https://doi.org/10.1007/s44430-026-00046-0",
@@ -1480,6 +1566,48 @@
     "scope": "可迁移的机器人关键技术",
     "score": 63,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Applied and Computational Engineering。With their anthropomorphic design, humanoid robots are naturally adapted to human environ（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "8d8d82a01c52778798",
+    "title": "Learning Language-Conditioned Traversability Representations for Adaptive Visual Navigation",
+    "url": "https://doi.org/10.48550/arxiv.2610.11622",
+    "source": "OpenAlex",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：arXiv (Cornell University)。Traversability is essential for visual navigation but varies with robot capabilities and user preferences. Conventional pipelines often rely on explicit costmaps or segmentation masks with predefined criteria, requiring hand-crafted rules and careful tuning. Moreover, viewpoint-dependent segmentation masks complicate asynchronous planning under perception latency. We present LaTraNav, a framework that learns language-conditioned traversability representations for adaptive visual navigation. Its asynchronous architecture combines a slow vision-language model that produces latent representations of traversability and navigation goals, with a fast flow-matching planner conditioned on these representations. To train the system, we develop a simulation-based data generation pipeline with controllable trajectories, producing observations paired with language ",
+    "published": "2026-10-08",
+    "first_seen": "2026-10-15T01:28:40.354513+00:00",
+    "doi": "https://doi.org/10.48550/arxiv.2610.11622",
+    "category": "感知建图与导航",
+    "tags": [
+      "感知建图与导航",
+      "大脑与具身智能"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 63,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。Traversability is essential for visual navigation but varies with robot capabilities and user prefer（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
+    "id": "fc16a7ae7b409f3861",
+    "title": "Acting from Belief, Looking When Needed: A Bayesian Spatial World Model for Navigation under Intermittent Perception",
+    "url": "https://doi.org/10.48550/arxiv.2610.11591",
+    "source": "OpenAlex",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：arXiv (Cornell University)。Robot navigation commonly uses wide-coverage, high-frequency sensing to reduce partial observability; this reliance becomes restrictive when another task temporarily redirects a shared sensor from navigation, interrupting navigation-relevant observations. We study navigation under intermittent perception: acting from an internal spatial belief and looking again only when execution needs a new observation, potentially freeing the shared sensor for other tasks between navigation observations. ALONE, a Bayesian spatial world model, propagates a structured spatial belief using executed actions and corrects it with selectively acquired observations; learned priors over common geometric structures infer unobserved structure from available observation history. It decodes the belief into a spatial estimate for the motion-planning module and predicts a reliabili",
+    "published": "2026-10-08",
+    "first_seen": "2026-10-15T01:28:43.100884+00:00",
+    "doi": "https://doi.org/10.48550/arxiv.2610.11591",
+    "category": "大脑与具身智能",
+    "tags": [
+      "大脑与具身智能",
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。Robot navigation commonly uses wide-coverage, high-frequency sensing to reduce partial observability（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   },
   {
@@ -4566,6 +4694,26 @@
     "analysis_level": "特种机器人关键词初筛"
   },
   {
+    "id": "e58ee62a8c797e8fd7",
+    "title": "Full-Scale Autonomous Highway Inspection with Quadruped Robot: Multi-Level Locomotion Learning in Complex Environments",
+    "url": "https://doi.org/10.1109/icra57385.2026.11696938",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：2026 IEEE International Conference on Robotics and Automation (ICRA)。",
+    "published": "2026-06-01",
+    "first_seen": "2026-10-15T01:28:55.520041+00:00",
+    "doi": "10.1109/icra57385.2026.11696938",
+    "category": "小脑与运动控制",
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 64,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2026 IEEE International Conference on Robotics and Automation (ICRA)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "特种机器人关键词初筛"
+  },
+  {
     "id": "b3129125ae36354b09",
     "title": "S2M-Trek: From Single to Multi-Sphere Transport via Per-Frame Deep Sets on a Wheel-Legged Robot",
     "url": "http://arxiv.org/abs/2606.01332v2",
@@ -5266,26 +5414,6 @@
     "scope": "可迁移的机器人关键技术",
     "score": 65,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2026 11th International Conference on Intelligent Computing and Signal Processing (ICSP)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "特种机器人关键词初筛"
-  },
-  {
-    "id": "4ca316b60119e0f4ab",
-    "title": "Gait Optimization Control of Spinal Quadruped Robot Based on Deep Reinforcement Learning",
-    "url": "https://doi.org/10.3390/s26082407",
-    "source": "Crossref",
-    "type": "论文（摘要）",
-    "description": "来源期刊/会议：Sensors。 The spine enhances the flexibility of quadrupeds during locomotion. Inspired by this biological mechanism, this study incorporates an actuated spinal joint into a quadruped robot, enabling more natural motion and posture adjustment. To improve the motion stability of spinal robots in complex environments, a deep reinforcement learning framework that integrates a central pattern generator (CPG) with the twin delayed deterministic policy gradient (TD3) algorithm is proposed to optimize the gait motion of the spinal quadruped robot. First, the structure and parameters of the quadruped robot with a spinal joint are analyzed and a CPG coupling model incorporating spinal motion parameters is designed. Subsequently, a TD3–CPG algorithm framework based on a joint incremental strategy is proposed to optimize the robot’s gait, exploring optimal control strategies for terrain adapt",
-    "published": "2026-04-14",
-    "first_seen": "2026-10-12T09:34:33.289273+00:00",
-    "doi": "10.3390/s26082407",
-    "category": "小脑与运动控制",
-    "tags": [
-      "小脑与运动控制"
-    ],
-    "industry_tags": [],
-    "scope": "可迁移的机器人关键技术",
-    "score": 65,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Sensors。 The spine enhances the flexibility of quadrupeds during locomotion. Inspired by this biological mechanism, this study （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "特种机器人关键词初筛"
   }
 ]

@@ -1,8 +1,8 @@
 # 特种机器人七日技术简报
 
-生成时间：2026-10-14T06:11:30.889727+00:00
+生成时间：2026-10-15T01:29:40.789429+00:00
 
-最近 7 天首次记录 **256** 条；本轮新增 **34** 条；总库存 **256** 条。
+最近 7 天首次记录 **262** 条；本轮新增 **12** 条；总库存 **262** 条。
 
 **注意：**‘七日’按首次入库时间统计，不代表论文发表于最近七天；相关度评分只是初筛优先级，不是成熟度或质量评级。
 
@@ -86,6 +86,8 @@
 
 - [Degeneracy-resilient LiDAR-inertial SLAM for autonomous tunnel inspection robots](https://doi.org/10.1016/j.isprsjprs.2026.09.049) | 论文（摘要） | 特种场景直接相关 | 匹配度 86/100
   - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：矿山与地下空间。来源期刊/会议：ISPRS Journal of Photogrammetry and Remote Sensing。Reliable localization and mapping remain challenging for autonomous tunnel i（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [OP‐Follower: Onboard Vision‐Based Obstacle‐Aware Predictive Person Following for Quadruped Robots via IBVS‐NMPC Control](https://doi.org/10.1002/rob.70363) | 论文（摘要） | 特种场景直接相关 | 匹配度 85/100
+  - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：野外与特种地形。来源期刊/会议：Journal of Field Robotics。ABSTRACT This paper presents OP‐Follower , a fully onboard, pure vision‐based, obstacle‐aware person‐（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [3L-Planner: Lightweight LiDAR mapping and real-time local planning for ground robot autonomous navigation](https://doi.org/10.31224/7563) | 论文（摘要） | 特种场景直接相关 | 匹配度 85/100
   - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：消防与应急救援。Mobile robots are widely used in unmanned surveying, warehouse logistics, and emergency response. However, achieving safe, reliable, an（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Multi-sensor fusion SLAM method for underground mines driven by dual signals and pseudo-visual cues](https://doi.org/10.1088/1361-6501/aea96f) | 论文（摘要） | 特种场景直接相关 | 匹配度 82/100
@@ -98,8 +100,6 @@
   - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：野外与特种地形。来源期刊/会议：Journal of Field Robotics。ABSTRACT The leader‐follower multi‐autonomous underwater vehicle (AUV) fleet equipped with multi‐beam（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Path planning for the boom of a high-reach firefighting robot using an improved rapidly-exploring random tree algorithm](https://doi.org/10.1088/2631-8695/ae6b0b) | 论文（摘要） | 特种场景直接相关 | 匹配度 78/100
   - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：消防与应急救援。来源期刊/会议：Engineering Research Express。 Abstract To address challenges such as inefficient path planning, excessive search randomness, an（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [RGB-D semantic mapping for underground robotic inspection using an attention-enhanced and boundary-refined DeepLabv3+ network](https://doi.org/10.1108/ir-05-2026-0235) | 论文（摘要） | 特种场景直接相关 | 匹配度 77/100
-  - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：工业与能源巡检。来源期刊/会议：Industrial Robot: the international journal of robotics research and application。 Purpose Underground inspection robots need re（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 特种应用与产品
 
@@ -120,18 +120,9 @@
 - [Hybrid motion planning with dynamics awareness for aerial-ground robots in industrial inspection and maintenance](https://doi.org/10.1016/j.robot.2026.105433) | 论文（摘要） | 特种场景直接相关 | 匹配度 76/100
   - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：Robotics and Autonomous Systems。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
-## 本轮采集异常
+## 采集状态
 
-- arXiv API all:"explosion-proof robot": ReadTimeout: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=35)
-- arXiv API all:"industrial inspection robot": HTTPError: 429 Client Error: Too Many Requests for url: https://export.arxiv.org/api/query?search_query=%28all%3A%22industrial+inspection+robot%22%29+AND+submittedDate%3A%5B202604140000+TO+202610142359%5D&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending
-- arXiv API all:"rescue robot": HTTPError: 429 Client Error: Too Many Requests for url: https://export.arxiv.org/api/query?search_query=%28all%3A%22rescue+robot%22%29+AND+submittedDate%3A%5B202604140000+TO+202610142359%5D&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending
-- arXiv API all:"quadruped locomotion": HTTPError: 429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=%28all%3A%22quadruped+locomotion%22%29+AND+submittedDate%3A%5B202604140000+TO+202610142359%5D&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending
-- arXiv API all:"wheel-legged robot": HTTPError: 429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=%28all%3A%22wheel-legged+robot%22%29+AND+submittedDate%3A%5B202604140000+TO+202610142359%5D&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending
-- arXiv API all:"legged robot control": HTTPError: 429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=%28all%3A%22legged+robot+control%22%29+AND+submittedDate%3A%5B202604140000+TO+202610142359%5D&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending
-- arXiv API all:"robot vision language navigation": HTTPError: 429 Client Error: Too Many Requests for url: https://export.arxiv.org/api/query?search_query=%28all%3A%22robot+vision+language+navigation%22%29+AND+submittedDate%3A%5B202604140000+TO+202610142359%5D&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending
-- arXiv API all:"embodied robot agent": HTTPError: 429 Client Error: Too Many Requests for url: https://export.arxiv.org/api/query?search_query=%28all%3A%22embodied+robot+agent%22%29+AND+submittedDate%3A%5B202604140000+TO+202610142359%5D&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending
-- arXiv API all:"robot autonomous navigation": ReadTimeout: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=35)
-- OpenAlex quadruped industrial inspection robot: HTTPError: 504 Server Error: Gateway Timeout for url: https://api.openalex.org/works?search=quadruped+industrial+inspection+robot&filter=from_publication_date%3A2026-04-14%2Cto_publication_date%3A2026-10-14&sort=publication_date%3Adesc&per_page=70&select=id%2Cdoi%2Cdisplay_name%2Cpublication_date%2Cabstract_inverted_index%2Cprimary_location%2Ctype
+本轮已配置来源均完成请求，但不保证其覆盖行业全部进展。
 
 ## 下一步人工核验
 
