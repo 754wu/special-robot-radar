@@ -7,7 +7,7 @@ from main import (
     make_item, normalize_link, rule_enrich, esc, utc_now, months_ago,
     date_in_window, crossref_date, openalex_abstract, identity_key,
     deduplicate_items, fetch_arxiv_api, fetch_openalex, fetch_crossref, render_html, get_focus,
-    select_arxiv_queries, request_with_retry, historical_backfill_jobs, classify_primary_topic, rotate_source_queries
+    select_arxiv_queries, request_with_retry, historical_backfill_jobs, annual_backfill_jobs, classify_primary_topic, rotate_source_queries
 )
 
 class FakeResponse:
@@ -208,6 +208,28 @@ class RadarTests(unittest.TestCase):
         for title, desc, expected in cases:
             with self.subTest(title=title):
                 self.assertEqual(classify_primary_topic(title, desc)[0], expected)
+
+    def test_annual_backfill_coverage(self):
+        from datetime import datetime, timezone, timedelta
+        now=datetime(2026, 10, 15, tzinfo=timezone.utc)
+        years=set()
+        for day in range(10):
+            for _, start, end in annual_backfill_jobs(["robot", "quadruped"], now+timedelta(days=day), 60, daily_budget=3):
+                years.add(start.year)
+                self.assertLessEqual(start, end)
+                self.assertLessEqual(end, now+timedelta(days=day))
+        self.assertTrue({2021,2022,2023,2024,2025,2026}.issubset(years))
+
+    def test_pagination_ten_and_jump_controls(self):
+        import json
+        cfg=json.loads(__import__('pathlib').Path('config.json').read_text())
+        self.assertEqual(cfg['page_size'], 10)
+        html_text=render_html([],[],cfg)
+        for token in ['id="firstPage"', 'id="lastPage"', 'id="jumpPage"', 'id="jumpButton"', 'const PAGE_SIZE = 10;', '%%YEAR_STATS%%']:
+            if token=='%%YEAR_STATS%%':
+                self.assertNotIn(token,html_text)
+            else:
+                self.assertIn(token,html_text)
 
     def test_five_year_time_window(self):
         cfg = {'history_months': 60, 'display_limit': 15000, 'industry_watchlist': []}

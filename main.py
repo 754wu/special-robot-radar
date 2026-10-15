@@ -765,13 +765,13 @@ def esc(s) -> str:
 
 
 def render_html(items: list[dict], errors: list[str], config: dict) -> str:
-    """Render the two-year, date-filterable research index using a maintained template."""
+    """Render the five-year, date-filterable research index."""
     template = (ROOT / "site_template.html").read_text(encoding="utf-8")
     now = utc_now()
     months = max(1, int(config.get("history_months", 60)))
     start = months_ago(months)
     limit = max(1, int(config.get("display_limit", 15000)))
-    page_size = max(1, min(100, int(config.get("page_size", 12))))
+    page_size = max(1, min(100, int(config.get("page_size", 10))))
     shown = sort_items([i for i in items if date_in_window(i.get("published"), start, now)])[:limit]
     sections = []
     for item in shown:
@@ -824,6 +824,17 @@ def render_html(items: list[dict], errors: list[str], config: dict) -> str:
                     str(count) + '</span></button>')
     scenarios = "".join('<option value="' + esc(name) + '">' + esc(name) + '</option>'
                         for name in get_focus(config).get("special_scenarios", {}))
+    # Show the actual dated archive coverage transparently; five-year range
+    # does NOT imply five years of complete or evenly sampled results.
+    year_counts = {}
+    for entry in shown:
+        year = (entry.get("published") or "")[:4]
+        if year.isdigit():
+            year_counts[int(year)] = year_counts.get(int(year), 0) + 1
+    year_stats = " · ".join(
+        f'<span class="year-count"><b>{y}</b> {year_counts.get(y, 0)} 条</span>'
+        for y in range(start.year, now.year + 1)
+    )
     source_status = ""
     if errors:
         source_status = ('<details class="source-status"><summary>数据源提示：' + str(len(errors)) +
@@ -839,6 +850,7 @@ def render_html(items: list[dict], errors: list[str], config: dict) -> str:
         "%%CARDS%%": "".join(sections),
         "%%SOURCE_STATUS%%": source_status,
         "%%PAGE_SIZE%%": str(page_size),
+        "%%YEAR_STATS%%": year_stats,
         "%%MIN_DATE%%": start.date().isoformat(),
         "%%MAX_DATE%%": now.date().isoformat(),
     }
@@ -884,6 +896,49 @@ def rotate_source_queries(queries: list[str], budget: int,
     start = (today or utc_now()).date().toordinal() % len(queries)
     return [queries[(start + i) % len(queries)]
             for i in range(min(int(budget), len(queries)))]
+
+
+def annual_backfill_jobs(queries: list[str], now: datetime, months: int = 60,
+                         daily_budget: int = 3, recent_months: int = 6
+                         ) -> list[tuple[str, datetime, datetime]]:
+    """Sample every calendar year of the historical window, not just newest results.
+
+    The ordinary index requests cover the newest six months. These additional
+    date-bounded requests rotate independently across the *older* calendar
+    years and search phrases. With N years and budget B, every older year
+    receives a query within ceil(N / B) daily runs. Different phrases cover
+    the same year on subsequent rotations. This improves year balance, not
+    an assertion that all papers from those years have been discovered.
+    """
+    if not queries or daily_budget <= 0 or months <= recent_months:
+        return []
+    if now.tzinfo is None:
+        raise ValueError("now must be timezone-aware")
+    cutoff = (now - relativedelta(months=months)).date()
+    recent_start = (now - relativedelta(months=recent_months)).date()
+    windows = []
+    for year in range(cutoff.year, recent_start.year + 1):
+        first = max(cutoff, datetime(year, 1, 1, tzinfo=UTC).date())
+        last = min(recent_start - timedelta(days=1),
+                   datetime(year, 12, 31, tzinfo=UTC).date())
+        if first <= last:
+            windows.append((first, last))
+    if not windows:
+        return []
+    take = min(int(daily_budget), len(windows))
+    # The phase advances in whole B-window steps, guaranteeing complete
+    # year coverage even when the daily budget is smaller than year count.
+    day = now.date().toordinal()
+    start_at = (day * take) % len(windows)
+    cycle = (day * take) // len(windows)
+    out = []
+    for i in range(take):
+        first, last = windows[(start_at + i) % len(windows)]
+        query = queries[(cycle + i) % len(queries)]
+        begin = datetime(first.year, first.month, first.day, tzinfo=UTC)
+        finish = datetime(last.year, last.month, last.day, 23, 59, 59, tzinfo=UTC)
+        out.append((query, begin, finish))
+    return out
 
 
 def historical_backfill_jobs(queries: list[str], now: datetime, months: int = 60,
@@ -964,8 +1019,8 @@ def main() -> None:
                 msg = f"Hardware OpenAlex {query}: {type(ex).__name__}: {ex}"
                 errors.append(msg)
                 print("[WARN]", msg, file=sys.stderr)
-        # Gradual historical backfill: rotating quarters complement recent-first API caps.
-        for query, s, e in historical_backfill_jobs(
+        # Balanced calendar-year backfill: each older year gets scheduled regularly.
+        for query, s, e in annual_backfill_jobs(
             cfg.get("openalex_queries", []), end, months,
             daily_budget=int(cfg.get("openalex_backfill_per_run", 2))
         ):
@@ -979,7 +1034,7 @@ def main() -> None:
                 errors.append(msg)
                 print("[WARN]", msg, file=sys.stderr)
             time.sleep(1.0)
-        for query, s, e in historical_backfill_jobs(
+        for query, s, e in annual_backfill_jobs(
             hardware_oa, end, months,
             daily_budget=int(cfg.get("hardware_openalex_backfill_per_run", 2))
         ):
@@ -1019,7 +1074,7 @@ def main() -> None:
                 errors.append(msg)
                 print("[WARN]", msg, file=sys.stderr)
             time.sleep(5)
-        for query, s, e in historical_backfill_jobs(
+        for query, s, e in annual_backfill_jobs(
             cfg.get("crossref_queries", []), end, months,
             daily_budget=int(cfg.get("crossref_backfill_per_run", 1))
         ):
@@ -1033,7 +1088,7 @@ def main() -> None:
                 errors.append(msg)
                 print("[WARN]", msg, file=sys.stderr)
             time.sleep(5)
-        for query, s, e in historical_backfill_jobs(
+        for query, s, e in annual_backfill_jobs(
             hardware_cr, end, months,
             daily_budget=int(cfg.get("hardware_crossref_backfill_per_run", 1))
         ):

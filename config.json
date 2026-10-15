@@ -1,7 +1,7 @@
 {
   "history_months": 60,
   "display_limit": 15000,
-  "page_size": 12,
+  "page_size": 10,
   "max_history_items": 20000,
   "arxiv_limit": 100,
   "arxiv_queries_per_run": 0,
