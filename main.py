@@ -100,11 +100,76 @@ def make_item(title: str, url: str, source: str, item_type: str, description: st
             "published": published or "", "first_seen": utc_now().isoformat(), **extra}
 
 
+def request_with_retry(url: str, *, params: dict | None = None,
+                       headers: dict | None = None, timeout: int = 25,
+                       attempts: int = 2):
+    """Retry transient connection errors and 5xx responses with bounded backoff.
+
+    For HTTP 429, retry only when the server supplies a short Retry-After.
+    Never retry into a long rate-limit window; callers keep cached history.
+    """
+    import requests
+    attempts = max(1, int(attempts))
+    for attempt in range(attempts):
+        try:
+            response = requests.get(url, params=params, headers=headers, timeout=timeout)
+        except (requests.exceptions.Timeout, requests.exceptions.ConnectionError):
+            if attempt + 1 >= attempts:
+                raise
+            time.sleep(min(15, 3 * (2 ** attempt)))
+            continue
+        status = getattr(response, "status_code", 200)
+        if status not in (429, 500, 502, 503, 504):
+            response.raise_for_status()
+            return response
+        if attempt + 1 >= attempts:
+            response.raise_for_status()
+            return response
+        retry_after = (getattr(response, "headers", None) or {}).get("Retry-After", "")
+        wait = min(15, 3 * (2 ** attempt))
+        if retry_after:
+            try:
+                wait = max(0, float(retry_after))
+            except (ValueError, TypeError):
+                try:
+                    retry_at = parsedate_to_datetime(retry_after)
+                    if retry_at.tzinfo is None:
+                        retry_at = retry_at.replace(tzinfo=UTC)
+                    wait = max(0, (retry_at - utc_now()).total_seconds())
+                except (ValueError, TypeError, OverflowError):
+                    response.raise_for_status()
+                    return response
+        elif status == 429:
+            # Repeating an unthrottled 429 is harmful on shared CI IP ranges.
+            response.raise_for_status()
+            return response
+        if wait > 30:
+            response.raise_for_status()
+            return response
+        print(f"[WARN] Upstream HTTP {status}; retrying after {wait:.0f}s: {url}",
+              file=sys.stderr)
+        time.sleep(max(1, wait))
+    raise RuntimeError("HTTP retries exhausted")
+
+
+def select_arxiv_queries(config: dict, now: datetime | None = None) -> list[str]:
+    """Round-robin historical API lookups, disabled by default due to CI 429s.
+
+    arXiv RSS and OpenAlex/Crossref remain enabled on every run. Explicitly set
+    arxiv_queries_per_run to 1 to turn on gradual historical backfill.
+    """
+    queries = list(config.get("arxiv_queries", []))
+    budget = max(0, int(config.get("arxiv_queries_per_run", 0)))
+    if not queries or not budget:
+        return []
+    start = (now or utc_now()).date().toordinal() % len(queries)
+    return [queries[(start + i) % len(queries)] for i in range(min(budget, len(queries)))]
+
+
 def fetch_feed(s: dict, days: int = 183) -> list[dict]:
     import requests
     import feedparser
-    r = requests.get(s["url"], headers=HEADERS, timeout=30)
-    r.raise_for_status()
+    r = request_with_retry(s["url"], headers=HEADERS, timeout=30, attempts=2)
     feed = feedparser.parse(r.content)
     if feed.bozo and not feed.entries:
         raise ValueError(f"RSS not parsable: {s['url']}")
@@ -171,9 +236,8 @@ def fetch_arxiv_api(query: str, start: datetime, end: datetime, limit: int = 120
     params = {"search_query": expression, "start": 0,
               "max_results": max(1, min(int(limit), 200)),
               "sortBy": "submittedDate", "sortOrder": "descending"}
-    r = requests.get("https://export.arxiv.org/api/query", params=params,
-                     headers=HEADERS, timeout=35)
-    r.raise_for_status()
+    r = request_with_retry("https://export.arxiv.org/api/query", params=params,
+                           headers=HEADERS, timeout=35, attempts=1)
     root = ET.fromstring(r.content)
     entries = root.findall(f"{ATOM}entry")
     if root.tag != f"{ATOM}feed":
@@ -215,9 +279,8 @@ def fetch_openalex(query: str, start: datetime, end: datetime, limit: int = 100)
               "select": "id,doi,display_name,publication_date,abstract_inverted_index,primary_location,type"}
     if os.getenv("OPENALEX_API_KEY"):
         params["api_key"] = os.environ["OPENALEX_API_KEY"]
-    r = requests.get("https://api.openalex.org/works", params=params,
-                     headers=HEADERS, timeout=25)
-    r.raise_for_status()
+    r = request_with_retry("https://api.openalex.org/works", params=params,
+                           headers=HEADERS, timeout=25, attempts=2)
     out = []
     for w in r.json().get("results", []):
         if w.get("type") not in ("article", "preprint", "proceedings-article"):
@@ -541,7 +604,10 @@ def render_html(items: list[dict], errors: list[str], config: dict) -> str:
 </article>''')
     links = " | ".join(f'<a href="{esc(x["url"])}" rel="noopener noreferrer" target="_blank">{esc(x["name"])}</a>'
                        for x in config.get("industry_watchlist", []))
-    errors_html = f'<p class="warning">本次采集部分失败（{len(errors)} 个来源）。未获取结果不代表该领域没有新消息；详情见 weekly.md。</p>' if errors else ""
+    errors_html = (f'<details class="source-status"><summary>数据源提示：{len(errors)} 项暂时不可用，'
+                   '已保留历史资料（点击查看详情）</summary><p>第三方接口可能限流或超时；'
+                   '<a href="weekly.md">查看采集日志</a>。现有记录仍可浏览，但部分新资料可能延迟收录。'
+                   '</p></details>') if errors else ""
     options = "\n".join(f'<option value="{esc(cat)}">{esc(cat)}</option>' for cat in KEYWORDS)
     scenario_options = "\n".join(
         f'<option value="{esc(name)}">{esc(name)}</option>'
@@ -554,7 +620,7 @@ def render_html(items: list[dict], errors: list[str], config: dict) -> str:
 * {{ box-sizing:border-box }} body {{ margin:0 }} header {{ background:radial-gradient(circle at 80% 10%,#1e4660,#0c1528 58%); border-bottom:1px solid #263449; padding:60px max(18px,calc((100vw - 1100px)/2)) 42px }}
 .eyebrow {{ letter-spacing:.18em;text-transform:uppercase;color:#85d6d4;font-size:13px }} h1 {{font-size:clamp(29px,4.8vw,52px);line-height:1.15;margin:15px 0}} .lead {{color:#afc0d2;line-height:1.8;max-width:850px}}
 main {{max-width:1100px;margin:0 auto;padding:30px 18px 80px}} .toolbar {{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:20px}} input,select {{background:#101d31;color:#e2e9f2;border:1px solid #384967;border-radius:10px;padding:13px 15px;font-size:15px}} input {{flex:1;min-width:220px}} select {{min-width:185px}}
-.stats {{font-size:14px;color:#9eafc6;margin-bottom:20px}} .list {{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:16px}} .card {{border:1px solid #263950;background:#111e31;border-radius:14px;padding:20px;display:none;flex-direction:column;gap:10px}} .card:hover {{border-color:#387b91}} .card h2 {{font-size:18px;line-height:1.45;margin:0}} a {{color:#83dbe0;text-decoration:none}} a:hover {{text-decoration:underline}} .card p {{font-size:14px;line-height:1.75;color:#c2cbd5;margin:0;flex:1}} .meta,.bottom {{display:flex;gap:7px;flex-wrap:wrap;align-items:center;color:#95a9bd;font-size:12px}} .meta span,.tag {{border:1px solid #35475f;border-radius:5px;padding:4px 7px}} .bottom {{justify-content:space-between;margin-top:10px}} .tag {{color:#c6def3}} small {{font-size:11px;color:#92a3b7}} .warning {{padding:12px;border-left:3px solid #e0b469;background:#2d2730}} footer {{margin-top:35px;border-top:1px solid #35475f;padding-top:20px;color:#a4b1c2;font-size:13px;line-height:1.8}}
+.stats {{font-size:14px;color:#9eafc6;margin-bottom:20px}} .list {{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:16px}} .card {{border:1px solid #263950;background:#111e31;border-radius:14px;padding:20px;display:none;flex-direction:column;gap:10px}} .card:hover {{border-color:#387b91}} .card h2 {{font-size:18px;line-height:1.45;margin:0}} a {{color:#83dbe0;text-decoration:none}} a:hover {{text-decoration:underline}} .card p {{font-size:14px;line-height:1.75;color:#c2cbd5;margin:0;flex:1}} .meta,.bottom {{display:flex;gap:7px;flex-wrap:wrap;align-items:center;color:#95a9bd;font-size:12px}} .meta span,.tag {{border:1px solid #35475f;border-radius:5px;padding:4px 7px}} .bottom {{justify-content:space-between;margin-top:10px}} .tag {{color:#c6def3}} small {{font-size:11px;color:#92a3b7}} .source-status {{padding:9px 12px;margin-bottom:18px;border:1px solid #35475f;border-radius:8px;color:#9eafc6;font-size:13px}} .source-status summary {{cursor:pointer}} .source-status p {{margin:8px 0 0;line-height:1.7}} footer {{margin-top:35px;border-top:1px solid #35475f;padding-top:20px;color:#a4b1c2;font-size:13px;line-height:1.8}}
 .pagination {{display:flex;gap:12px;justify-content:center;align-items:center;flex-wrap:wrap;margin:30px 0;color:#b5c8dd}}
 .pagination[hidden] {{display:none}} .pagination button {{border:1px solid #387b91;background:#13283d;border-radius:8px;color:#b5ebee;padding:10px 16px;cursor:pointer;font-size:14px}}
 .pagination button:hover:not(:disabled) {{background:#1e4357}} .pagination button:disabled {{opacity:.4;cursor:not-allowed}}
@@ -669,7 +735,7 @@ def main() -> None:
     expected_sources = 0
     if not args.offline:
         # The historical APIs allow first-run backfill of recent six months.
-        for query in cfg.get("arxiv_queries", []):
+        for query in select_arxiv_queries(cfg):
             expected_sources += 1
             try:
                 batch = fetch_arxiv_api(query, start, end, cfg.get("arxiv_limit", 120))
@@ -679,6 +745,10 @@ def main() -> None:
                 msg = f"arXiv API {query}: {type(ex).__name__}: {ex}"
                 errors.append(msg)
                 print("[WARN]", msg, file=sys.stderr)
+                if "429" in str(ex):
+                    print("[WARN] arXiv rate limited: stop additional historical API queries.",
+                          file=sys.stderr)
+                    break
             time.sleep(3.1)  # Be courteous to arXiv API.
         for query in cfg.get("openalex_queries", []):
             expected_sources += 1

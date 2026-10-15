@@ -6,7 +6,8 @@ from unittest.mock import patch
 from main import (
     make_item, normalize_link, rule_enrich, esc, utc_now, months_ago,
     date_in_window, crossref_date, openalex_abstract, identity_key,
-    deduplicate_items, fetch_arxiv_api, fetch_openalex, fetch_crossref, render_html, get_focus
+    deduplicate_items, fetch_arxiv_api, fetch_openalex, fetch_crossref, render_html, get_focus,
+    select_arxiv_queries, request_with_retry
 )
 
 class FakeResponse:
@@ -28,6 +29,51 @@ class RadarTests(unittest.TestCase):
         classified = rule_enrich(item)
         self.assertIsNotNone(classified)
         self.assertIn('大脑与具身智能', classified['tags'])
+
+    def test_historical_arxiv_api_disabled_by_default(self):
+        cfg = {"arxiv_queries": ["a", "b", "c"]}
+        self.assertEqual(select_arxiv_queries(cfg), [])
+        cfg["arxiv_queries_per_run"] = 1
+        self.assertEqual(len(select_arxiv_queries(cfg)), 1)
+        cfg["arxiv_queries_per_run"] = 9
+        self.assertEqual(set(select_arxiv_queries(cfg)), {"a", "b", "c"})
+
+    def test_source_warning_is_collapsible(self):
+        cfg = {"history_months": 6, "display_limit": 500, "industry_watchlist": []}
+        html_text = render_html([], ["OpenAlex: HTTP 504"], cfg)
+        self.assertIn('class="source-status"', html_text)
+        self.assertIn("weekly.md", html_text)
+        self.assertNotIn("本次采集部分失败", html_text)
+
+    @patch("main.time.sleep")
+    @patch("requests.get")
+    def test_openalex_retry_on_504(self, mock_get, mock_sleep):
+        class Response:
+            headers = {}
+            def __init__(self, status):
+                self.status_code = status
+            def raise_for_status(self):
+                if self.status_code >= 400:
+                    raise __import__("requests").HTTPError(str(self.status_code))
+        mock_get.side_effect = [Response(504), Response(200)]
+        response = request_with_retry("https://example.org/api", attempts=2)
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(mock_get.call_count, 2)
+        mock_sleep.assert_called_once()
+
+    @patch("main.time.sleep")
+    @patch("requests.get")
+    def test_no_retry_for_429_without_retry_after(self, mock_get, mock_sleep):
+        class Response:
+            status_code = 429
+            headers = {}
+            def raise_for_status(self):
+                raise __import__("requests").HTTPError("429 rate limited")
+        mock_get.return_value = Response()
+        with self.assertRaises(__import__("requests").HTTPError):
+            request_with_retry("https://example.org/api", attempts=3)
+        mock_get.assert_called_once()
+        mock_sleep.assert_not_called()
 
     def test_html_escape(self):
         self.assertEqual(esc('<script>'), '&lt;script&gt;')

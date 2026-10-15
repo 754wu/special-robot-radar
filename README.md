@@ -94,6 +94,19 @@ python -m http.server 8000 --directory docs
 
 访问 <http://localhost:8000>。**在本地跑 `--offline` 会改写本地 `docs/`，如果只想对比代码，最好先备份这些文件。**
 
+## 数据源限流与降级运行
+
+- arXiv 的历史检索 API 经常对 GitHub Actions 共享出口 IP 返回 HTTP 429。
+  为避免每天连续发起 10 次不可成功的请求，默认关闭这一路历史回填（`arxiv_queries_per_run: 0`），
+  **但保留 arXiv Robotics/CV RSS、OpenAlex、Crossref、ROS Discourse 和 GitHub 的每日采集**。
+- 需要主动补充某段时间的 arXiv 历史数据时，可把 `config.json` 的
+  `arxiv_queries_per_run` 改为 `1`，每天轮换一个查询；遇到 429 则停止后续 arXiv 历史请求。
+- OpenAlex 的 5xx 网关故障和短暂网络错误会进行有限次数重试，遇到不可安全重试的
+  429 / 长时间 Retry-After 则尊重限流，不进行密集重试。
+- 第三方接口**无法保证 100% 永不超时或限流**。一次采集部分失败时仍会保留
+  `docs/items.json` 中的历史资料；网站使用可折叠提示，明细保存在 `docs/weekly.md`，
+  而非用红色警告遮挡页面。
+
 ## API 和安全性
 
 - 无需大模型 API Key，即可实现自动采集、关键词分类和发布。
