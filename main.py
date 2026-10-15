@@ -449,6 +449,174 @@ def get_focus(config: dict | None = None) -> dict:
         return {}
 
 
+# A primary category describes WHAT is studied, not every technology mentioned.
+# Broad background words ("sensor", "LiDAR", "motor", "joint") must never by
+# themselves place a navigation or RL paper in the hardware category.
+PRIMARY_TOPIC_CUES = {
+    "硬件与防爆": [
+        "flameproof enclosure", "flameproof", "explosion-proof equipment",
+        "explosion-proof enclosure", "explosion-proof motor", "explosion-proof actuator",
+        "explosion-proof sensor", "intrinsic safety", "intrinsically safe",
+        "explosion protection", "internal explosion", "explosion vibration",
+        "motor design", "motor drive design", "servo motor design", "gearbox",
+        "gear reducer", "reducer design", "harmonic drive", "actuator design",
+        "actuator development", "robot actuator", "robotic actuator",
+        "joint actuator", "joint mechanism", "transmission mechanism",
+        "mechanical design", "mechanism design", "mechanical structure",
+        "structural design", "structural analysis", "parallel linkage",
+        "leg mechanism", "robot chassis", "robot morphology", "robot structure",
+        "robot platform design", "sealing structure", "rotary seal", "power electronics",
+        "battery pack design", "thermal design", "sensor hardware", "sensor design",
+        "sensor development", "camera design", "lidar hardware", "morphing",
+        "tactile sensor", "mechanical transmission",
+        "隔爆外壳", "隔爆结构", "防爆电机", "本安电路", "本质安全设计",
+        "机械设计", "结构设计", "关节执行器", "减速器设计", "关节电机",
+        "传动机构", "密封结构", "电机设计",
+    ],
+    "基础软件与系统": [
+        "ros2", "ros 2", "robot operating system", "middleware",
+        "robot software", "software architecture", "simulation platform",
+        "gazebo", "mujoco", "isaac sim", "simulator", "benchmark",
+        "dataset", "digital twin", "robot framework", "robotics stack",
+        "software stack", "cybersecurity", "edge computing",
+        "communication protocol", "robot interface", "software infrastructure",
+        "robotics platform software", "teleoperation architecture",
+        "机器人软件", "仿真平台", "中间件", "仿真系统", "机器人操作系统",
+        "机器人数据集", "机器人基准测试", "数字孪生",
+    ],
+    "小脑与运动控制": [
+        "reinforcement learning", "deep reinforcement learning", "rl-based",
+        "locomotion", "gait", "whole-body control", "whole body control",
+        "wbc", "nmpc", "mpc", "model predictive control", "predictive control",
+        "impedance control", "torque control", "motion control",
+        "balance control", "legged control", "policy learning",
+        "residual control", "residual policy", "locomotion policy",
+        "motor control", "trajectory tracking", "footstep planning",
+        "foothold", "contact-aware control", "control policy", "sim-to-real",
+        "robust control", "motion planning", "joint control",
+        "运动控制", "强化学习", "步态", "全身控制", "力矩控制",
+        "模型预测控制", "运动策略", "轨迹跟踪",
+    ],
+    "大脑与具身智能": [
+        "vision-language", "vision language", "visual-language", "vlm",
+        "vln", "vla", "agentic", "robot agent", "robot-use agent",
+        "embodied agent", "foundation model", "task planning",
+        "high-level planning", "instruction following", "language-guided",
+        "skill library", "skill-aware", "tool calling", "world model",
+        "large language model", "llm", "semantic reasoning",
+        "semantic goal", "embodied reasoning", "affordance", "multimodal reasoning",
+        "具身智能", "机器人智能体", "视觉语言", "技能调用",
+        "任务规划", "世界模型", "具身导航", "大模型",
+    ],
+    "感知建图与导航": [
+        "navigation", "slam", "mapping", "localization", "odometry",
+        "visual-inertial", "lidar-inertial", "path planning", "route planning",
+        "obstacle avoidance", "collision avoidance", "traversability",
+        "frontier", "exploration", "topological", "point cloud",
+        "semantic mapping", "perception", "object detection",
+        "target detection", "visual perception", "image enhancement",
+        "low-light enhancement", "image segmentation", "depth estimation",
+        "scene understanding", "viewpoint optimization", "reconstruction",
+        "object tracking", "state estimation", "sensor fusion",
+        "visual inspection", "pose estimation", "visual odometry",
+        "path-following", "route-following", "guidance system",
+        "自主导航", "路径规划", "目标检测", "视觉里程计",
+        "地图构建", "语义地图", "环境感知", "自主探索", "定位",
+        "视觉感知", "图像增强", "建图", "避障",
+    ],
+    "特种应用与产品": [
+        "inspection robot", "inspection robots", "rescue robot",
+        "firefighting robot", "fire-fighting robot", "robot prototype",
+        "robotic inspection", "industrial inspection", "mine rescue",
+        "plant inspection", "field deployment", "field study",
+        "real-world deployment", "robotic intervention", "industrial emergency",
+        "firefighting", "underground inspection", "pipeline inspection",
+        "nuclear inspection", "industrial robot application",
+        "robot deployment", "inspection platform",
+        "工业巡检机器人", "消防机器人", "救援机器人", "矿山巡检",
+        "应急救援", "现场应用", "防爆巡检机器人",
+    ],
+}
+
+SUPPORTING_TOPIC_CUES = {
+    "硬件与防爆": ["actuator", "motor", "sensor", "lidar", "camera", "battery",
+                 "mechanical", "joint", "payload", "enclosure", "隔爆", "电机", "传感器"],
+    "基础软件与系统": ["ros", "software", "system", "architecture", "framework",
+                    "robotics infrastructure", "simulation", "network"],
+    "小脑与运动控制": ["controller", "control", "dynamic", "dynamics", "tracking",
+                   "reinforcement", "stability", "policy", "运动", "控制"],
+    "大脑与具身智能": ["language", "agent", "semantic", "reasoning", "memory",
+                   "planning agent", "embodied", "instruction", "skill"],
+    "感知建图与导航": ["visual", "vision", "lidar", "rgb-d", "depth", "image",
+                   "navigation system", "planning", "map", "定位"],
+    "特种应用与产品": ["inspection", "industrial", "rescue", "application",
+                   "deployment", "field", "prototype", "巡检", "救援"],
+}
+
+
+def classify_primary_topic(title: str, description: str) -> tuple[str, list[str]]:
+    """Select the primary research contribution from title-first evidence.
+
+    Description clues help disambiguate; incidental background terminology is
+    deliberately too weak to override a clear title. Hardware additionally
+    requires direct evidence of component/mechanism/protection design.
+    """
+    title = clean_text(title).lower()
+    desc = clean_text(description).lower()
+    points = {}
+    titled_primary = {}
+    for category, cues in PRIMARY_TOPIC_CUES.items():
+        title_hits = matching_terms(title, cues)
+        desc_hits = matching_terms(desc, cues)
+        title_support = matching_terms(title, SUPPORTING_TOPIC_CUES[category])
+        desc_support = matching_terms(desc, SUPPORTING_TOPIC_CUES[category])
+        titled_primary[category] = len(title_hits)
+        # Cap description weight to avoid long abstracts dominating the title.
+        points[category] = (
+            10 * min(3, len(title_hits)) +
+            1.1 * min(4, len(desc_hits)) +
+            1.8 * min(2, len(title_support)) +
+            0.15 * min(4, len(desc_support))
+        )
+    hw = "硬件与防爆"
+    # No hardware classification simply because algorithms mention sensors,
+    # actuator constraints, motors, robot joints or explosion-proof cameras.
+    explicit_hardware_title = titled_primary[hw] > 0
+    structural_title = bool(matching_terms(
+        title, ["design", "development", "fabrication", "mechanism", "prototype",
+                "structure", "morphology", "hardware", "设计", "结构", "机构", "研制"]))
+    physical_in_abstract = bool(matching_terms(
+        desc, ["actuator design", "motor design", "gearbox", "flameproof enclosure",
+               "mechanical design", "robot chassis", "transmission mechanism",
+               "joint actuator", "sensor hardware", "structural design",
+               "隔爆外壳", "防爆电机", "关节电机", "减速器设计"]))
+    if not explicit_hardware_title and not (structural_title and physical_in_abstract):
+        points[hw] = -1
+    # Treat task navigation using MPC as navigation rather than control
+    # unless title is also specifically about gait/locomotion/joint dynamics.
+    nav = "感知建图与导航"
+    control = "小脑与运动控制"
+    navigation_task = bool(matching_terms(
+        title, ["navigation", "path planning", "exploration", "localization",
+                "mapping", "slam", "obstacle avoidance", "自主导航", "建图"]))
+    locomotion_task = bool(matching_terms(
+        title, ["locomotion", "gait", "whole-body control", "balance control",
+                "torque control", "joint control", "步态", "运动控制"]))
+    if navigation_task and not locomotion_task:
+        points[nav] += 4
+    # The main engineering contribution wins over the industrial scenario.
+    application = "特种应用与产品"
+    if any(points[c] >= 9 for c in points if c != application):
+        points[application] = min(points[application], 8)
+    priority = list(PRIMARY_TOPIC_CUES)
+    category = max(priority, key=lambda k: (points[k], -priority.index(k)))
+    if max(points.values()) < 1:
+        category = application
+    related = [k for k in sorted(priority, key=lambda k: points[k], reverse=True)
+               if k != category and points[k] >= 8 and points[k] >= 0.55 * points[category]]
+    return category, related[:2]
+
+
 def rule_enrich(item: dict, config: dict | None = None) -> dict | None:
     """Industry-first gate, then taxonomy: direct special robotics OR robot-specific core technology.
 
@@ -496,16 +664,11 @@ def rule_enrich(item: dict, config: dict | None = None) -> dict | None:
     if score < int(focus.get("min_relevance_score", 55)):
         return None
 
-    # A 'hardware' topic should not get misfiled as applications just because
-    # it is used in a mine. Prefer the actual technology behind the item.
-    tech = {k: v for k, v in matched.items() if k != "特种应用与产品"}
-    ranked = sorted(tech, key=lambda k: (-tech[k], list(KEYWORDS).index(k)))
-    if not any(tech.values()):
-        category = "特种应用与产品"
-    else:
-        category = ranked[0]
-    tags = [category] + [k for k in ranked if k != category and tech[k] > 0][:2]
-    if matched_sectors:
+    # Primary contribution instead of raw word counts: a navigation abstract
+    # mentioning LiDAR and actuators must not land in Hardware & Explosion-proof.
+    category, secondary_topics = classify_primary_topic(title, desc)
+    tags = [category] + secondary_topics
+    if matched_sectors and category != "特种应用与产品":
         tags.append("特种应用与产品")
     item["category"] = category
     item["tags"] = list(dict.fromkeys(tags))[:4]
@@ -554,8 +717,10 @@ def llm_enrich(items: list[dict]) -> None:
                 old = by_id.get(enriched.get("id"))
                 if not old:
                     continue
+                # Category remains deterministic: model suggestions cannot silently
+                # reintroduce misclassifications or desynchronize category/tags.
                 if enriched.get("category") in categories:
-                    old["category"] = enriched["category"]
+                    old["model_category_suggestion"] = enriched["category"]
                 summary = str(enriched.get("summary", "")).strip()
                 if summary:
                     old["summary"] = clean_text(summary, 350)
@@ -590,9 +755,9 @@ def render_html(items: list[dict], errors: list[str], config: dict) -> str:
     """Render the two-year, date-filterable research index using a maintained template."""
     template = (ROOT / "site_template.html").read_text(encoding="utf-8")
     now = utc_now()
-    months = max(1, int(config.get("history_months", 24)))
+    months = max(1, int(config.get("history_months", 60)))
     start = months_ago(months)
-    limit = max(1, int(config.get("display_limit", 5000)))
+    limit = max(1, int(config.get("display_limit", 15000)))
     page_size = max(1, min(100, int(config.get("page_size", 12))))
     shown = sort_items([i for i in items if date_in_window(i.get("published"), start, now)])[:limit]
     sections = []
@@ -694,7 +859,7 @@ def render_digest(items: list[dict], new_ids: set[str], errors: list[str]) -> st
     return "\n".join(lines)
 
 
-def historical_backfill_jobs(queries: list[str], now: datetime, months: int = 24,
+def historical_backfill_jobs(queries: list[str], now: datetime, months: int = 60,
                              window_months: int = 3, daily_budget: int = 2) -> list[tuple[str, datetime, datetime]]:
     """Rotate through older publication windows without flooding metadata APIs.
 
@@ -727,11 +892,11 @@ def main() -> None:
     cfg = json.loads(CONFIG.read_text(encoding="utf-8"))
     old = load_history()
     candidates, errors = [], []
-    months = max(1, int(cfg.get("history_months", 6)))
+    months = max(1, int(cfg.get("history_months", 60)))
     start, end = months_ago(months), utc_now()
     expected_sources = 0
     if not args.offline:
-        # Query the last 24 months and gradually backfill older quarters.
+        # Query the configured five-year window and gradually backfill older quarters.
         for query in select_arxiv_queries(cfg):
             expected_sources += 1
             try:
@@ -757,7 +922,7 @@ def main() -> None:
                 msg = f"OpenAlex {query}: {type(ex).__name__}: {ex}"
                 errors.append(msg)
                 print("[WARN]", msg, file=sys.stderr)
-        # Gradual two-year backfill: rotating quarters complement recent-first API caps.
+        # Gradual historical backfill: rotating quarters complement recent-first API caps.
         for query, s, e in historical_backfill_jobs(
             cfg.get("openalex_queries", []), end, months,
             daily_budget=int(cfg.get("openalex_backfill_per_run", 2))
@@ -838,19 +1003,16 @@ def main() -> None:
         item = rule_enrich(raw, cfg)
         if not item:
             continue
-        if prev and prev.get("title") == raw["title"] and prev.get("description") == raw["description"]:
-            if prev.get("analysis_level", "").startswith("LLM"):
-                for field in ("category", "summary", "score", "tags", "analysis_level"):
-                    if field in prev:
-                        item[field] = prev[field]
+        # Always use current taxonomy for existing and new records. In
+        # particular, never restore an old LLM category after reclassification.
         if item["id"] not in seen:
             new_items.append(item)
         seen[item["id"]] = item
     llm_enrich(sorted(new_items, key=lambda x: x["score"], reverse=True))
-    # Keep 6 calendar months of records, with a configurable storage cap.
+    # Keep the configured number of calendar months, subject to storage cap.
     cutoff = months_ago(months)
     kept = [i for i in seen.values() if date_in_window(i.get("published"), cutoff, utc_now())]
-    kept = sort_items(deduplicate_items(kept))[:int(cfg.get("max_history_items", 2500))]
+    kept = sort_items(deduplicate_items(kept))[:int(cfg.get("max_history_items", 20000))]
     fresh_ids = {i["id"] for i in new_items}
     DOCS.mkdir(parents=True, exist_ok=True)
     DB.write_text(json.dumps(kept, ensure_ascii=False, indent=2), encoding="utf-8")
