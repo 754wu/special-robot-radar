@@ -409,6 +409,25 @@ def classify_contribution(title: str, description: str = "", source: str = "") -
                           "待复核" if review else "高"), t, d
         )
 
+    # Precise semantic constructions evidenced by prior corpus audits.
+    # These describe research outputs rather than matching "mechanism" alone.
+    if has(t, r"\b(?:explosion.proof.electric.actuators?|"
+              r"limited.rotation.explosion.proof.electric.actuators?)\b"):
+        return result(HARDWARE, "防爆执行器及其结构或检测技术")
+    if has(t, r"\b(?:metamorphic.mechanism|reconfigurable.2r.joints|"
+              r"haptic.devices?.based.on.reconfigurable)\b"):
+        return result(HARDWARE, "研究可重构物理机构")
+    if has(t, r"\b(?:task.level.fusion.autonomous.switching|"
+              r"guide.robot.for.the.visually.impaired)\b"):
+        return result(NAV, "面向定位/导航的融合与引导任务", review=True)
+    if has(t, r"\binteracting.trusted.llms\b"):
+        return result(BRAIN, "多个 LLM 交互实现机器人任务/行为")
+    if has(t, r"\bslams?.for.quadruped.robot\b") and has(
+        t, r"\b(?:agentic.simulation|evaluation|benchmark)\b"):
+        return result(SOFTWARE, "四足 SLAM 仿真评估系统")
+    if has(t, r"\b(?:mode.reactive.template.based.control)\b"):
+        return result(CONTROL, "腿式机器人动力学控制")
+
     hw_core = has(t, PHYSICAL_DESIGN)
     hw_explicit = has(t, PHYSICAL_HARDWARE_DIRECT)
     hw_from_desc = has(d, REAL_HARDWARE_EVIDENCE)
