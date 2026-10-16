@@ -382,6 +382,108 @@ SYSTEM_DELIVERABLE = (
     r"field.validation|"
     r"integrated.rescue.robot)\b"
 )
+# Research *deliverables* take precedence over incidental terminology. In
+# particular, Mechanical Systems as an ML application domain is not a
+# mechanical design contribution; describing a robot in a ROS2 simulator is
+# not equivalent to designing a new physical mechanism.
+SOFTWARE_SIMULATION_CONTRIBUTION = (
+    r"\b(?:simulation|simulator|simulation.framework|"
+    r"modeling|modelling|real2sim|digital.twin)\b"
+)
+SOFTWARE_ROBOTICS_FRAMEWORK = (
+    r"\b(?:ros.2|ros2|gazebo|mujoco|isaac.sim|"
+    r"robot.operating.system|simulation.framework|"
+    r"simulation.platform|robot.simulator)\b"
+)
+ML_INSPECTION_STUDY = (
+    r"\b(?:machine.learning|deep.learning|learning.techniques|"
+    r"artificial.intelligence|ai.based)\b"
+)
+ML_APPLICATION_EVIDENCE = (
+    r"\b(?:robotic.inspection|autonomous.inspection|"
+    r"condition.monitoring|fault.diagnosis|machine.vision|"
+    r"defect.detection|visual.inspection|"
+    r"inspection.of.mechanical.systems|inspection)\b"
+)
+PHYSICAL_DELIVERABLE_TITLE = (
+    r"\b(?:mechanical.design|mechanism.design|structural.design|"
+    r"chassis.design|kinematic.design|linkage.design|"
+    r"gearbox.design|actuator.design|joint.actuator|"
+    r"motor.design|drivetrain.design|"
+    r"flameproof|explosion.proof|"
+    r"hardware.design|physical.prototype|"
+    r"mechanical.transmission)\b"
+)
+CONTROL_SYSTEM_CONTRIBUTION = (
+    r"\b(?:intelligent.control.system|adaptive.control.system|"
+    r"novel.controller|fuzzy.(?:adaptive.)?pid|"
+    r"optimized.pid|pid.control|robot.control.strategy|"
+    r"motion.control.system)\b"
+)
+ROBOT_DEPLOYMENT_CONTEXT = (
+    r"\b(?:warehouse.management|logistics.management|"
+    r"warehouse.operations|industrial.deployment|"
+    r"robot.integration|existing.robot.platform)\b"
+)
+
+
+def hardware_boundary_decision(title: str, description: str = "") -> TopicDecision | None:
+    """Recognize competing contributions BEFORE broad hardware heuristics.
+
+    Only clear title-level evidence is used for an automatic re-route. Mixed
+    hardware/control work remains marked for review rather than deleted.
+    """
+    t = str(title or "").lower()
+    d = str(description or "").lower()
+
+    # The research output is a ROS2/Gazebo/Real2Sim *simulation*, even when
+    # a CAD mechanical design must first be imported into that simulator.
+    if has(t, SOFTWARE_SIMULATION_CONTRIBUTION) and has(
+        t, SOFTWARE_ROBOTICS_FRAMEWORK
+    ) and not has(t, r"\b(?:structural.design|mechanical.design|"
+                      r"mechanism.design|actuator.design|"
+                      r"gearbox.design)\b"):
+        return TopicDecision(
+            SOFTWARE, (HARDWARE,), False,
+            "研究交付成果为 ROS2 等仿真模型/平台，并非新硬件设计", "高"
+        )
+
+    # This is an algorithms-for-inspection survey/method, not innovation in
+    # the inspected mechanical equipment itself.
+    if (has(t, ML_INSPECTION_STUDY) and has(t, ML_APPLICATION_EVIDENCE)
+        and not has(t, PHYSICAL_DELIVERABLE_TITLE)):
+        return TopicDecision(
+            NAV, (APPLICATION,), True,
+            "主要研究机器学习在机器人巡检/感知中的应用，非机械硬件创新", "待复核"
+        )
+
+    # Ambiguous 'Design of a Robot Based on a Novel Controller' titles:
+    # the algorithm may be the primary result even if the robot was built.
+    if (has(t, CONTROL_SYSTEM_CONTRIBUTION)
+        and has(t, r"\b(?:quadruped|legged|robot)\b")
+        and has(t, r"\b(?:design|development|implementation|based.on)\b")
+        and not has(t, PHYSICAL_DELIVERABLE_TITLE)
+        and has(d, r"\b(?:controller|pid|trajectory|tracking|"
+                       r"control.algorithm|fuzzy.control)\b")):
+        return TopicDecision(
+            CONTROL, (HARDWARE,), True,
+            "论文强调控制器和轨迹算法；机械结构作为验证平台，需复核主贡献", "待复核"
+        )
+
+    # A commercial mobile robot being integrated into a warehouse platform
+    # is an application/system study, not a novel chassis or actuator.
+    if (has(t, ROBOT_DEPLOYMENT_CONTEXT)
+        and has(t, r"\b(?:robot|mobile.robot|robotic.platform)\b")
+        and not has(t, PHYSICAL_DELIVERABLE_TITLE)
+        and not has(d, r"\b(?:novel.mechanical.design|new.chassis|"
+                       r"new.linkage|new.actuator|novel.transmission)\b")):
+        return TopicDecision(
+            APPLICATION, (SOFTWARE,), True,
+            "现有机器人平台的场景集成应用，未发现硬件设计创新", "待复核"
+        )
+    return None
+
+
 REJECTION_TITLE = re.compile(
     r"\b(?:"
     r"electric.drive.automatic.control.system.for.mine.belt.conveyors|"
@@ -408,6 +510,13 @@ def classify_contribution(title: str, description: str = "", source: str = "") -
             TopicDecision(category, rel[:2], review, reason,
                           "待复核" if review else "高"), t, d
         )
+
+    # Resolve ambiguous mechanical/ML/simulation/platform headlines before
+    # the physical-design keyword stage. Do not mutate cross-domain evidence.
+    boundary = hardware_boundary_decision(t, d)
+    if boundary is not None:
+        return result(boundary.category, boundary.reason, boundary.related,
+                      review=boundary.review)
 
     # Precise semantic constructions evidenced by prior corpus audits.
     # These describe research outputs rather than matching "mechanism" alone.
@@ -577,6 +686,14 @@ def validate_contribution(decision: TopicDecision, title: str,
     review = decision.review
     reason = decision.reason
     related = decision.related
+
+    # Defense in depth: no high-confidence Hardware result based solely on
+    # an algorithm applied to mechanical equipment or a software simulator.
+    if cat == HARDWARE:
+        boundary = hardware_boundary_decision(t, d)
+        if boundary is not None:
+            cat, review, reason = boundary.category, boundary.review, boundary.reason
+            related = boundary.related
 
     if cat == HARDWARE and not (
         has(t, PHYSICAL_HARDWARE_DIRECT) or

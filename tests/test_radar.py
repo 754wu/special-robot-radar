@@ -256,6 +256,38 @@ class RadarTests(unittest.TestCase):
         ]:
             self.assertNotEqual(classify_contribution(title).category, "硬件与防爆")
 
+    def test_hardware_primary_deliverable_boundaries(self):
+        from taxonomy import classify_contribution
+        examples = [
+            ("Machine learning techniques for robotic and autonomous inspection of mechanical systems and civil infrastructure",
+             "The review analyzes machine learning for planning, navigation and machine vision.", "感知建图与导航", True),
+            ("Development of Delta Robot Arm Simulation in ROS2 Foxy Fitzroy Environment",
+             "CAD models are converted to SDF and tested in Gazebo.", "基础软件与系统", False),
+            ("Design of a Parallel Quadruped Robot Based on a Novel Intelligent Control System",
+             "A novel intelligent controller was designed. Cascade PID and fuzzy adaptive PID are used for gait tracking.",
+             "小脑与运动控制", True),
+            ("Development of a Mobile Robot Platform for Smart Warehouse Management System",
+             "Existing TurtleBot3 Waffle Pi integration for warehouse logistics.",
+             "特种应用与产品", True),
+            ("Kinematic Design and Dimensional Synthesis of a Symmetric Five-bar Wheel-leg Mechanism",
+             "A new mechanical linkage and geometry synthesis for lifting.", "硬件与防爆", False),
+            ("Design and Development of Explosion-Proof Cavity of Hydraulic System Power Unit",
+             "Flameproof housing, mechanical design, test and safety.", "硬件与防爆", False),
+            ("A low backlash and highly efficient gearbox for robot actuator",
+             "Precision reducer transmission development.", "硬件与防爆", False),
+            ("Robust design of a conformal adaptive foot for quadruped robots",
+             "An adaptive foot structure and mechanical contact experiments.", "硬件与防爆", False),
+            ("Design and Analysis of a Quadruped Wheel-Legged Robot Based on Virtual Equivalent Parallel Mechanism Theory",
+             "Kinematic synthesis of a new leg mechanism.", "硬件与防爆", False),
+            ("Quadruped locomotion with reinforcement learning and actuator constraints",
+             "A locomotion policy uses existing robot motors.", "小脑与运动控制", False),
+        ]
+        for title, abstract, category, review in examples:
+            with self.subTest(title=title):
+                got=classify_contribution(title, abstract)
+                self.assertEqual(got.category, category)
+                self.assertEqual(got.review, review)
+
     def test_primary_contribution_misclassification_regressions(self):
         from taxonomy import classify_contribution
         examples = [
