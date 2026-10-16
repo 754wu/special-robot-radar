@@ -1,8 +1,8 @@
 # 特种机器人七日技术简报
 
-生成时间：2026-10-16T01:28:41.075157+00:00
+生成时间：2026-10-16T01:49:07.513838+00:00
 
-最近 7 天首次记录 **974** 条；本轮新增 **39** 条；总库存 **974** 条。
+最近 7 天首次记录 **1007** 条；本轮新增 **33** 条；总库存 **1007** 条。
 
 **注意：**‘七日’按首次入库时间统计，不代表论文发表于最近七天；相关度评分只是初筛优先级，不是成熟度或质量评级。
 
@@ -29,6 +29,8 @@
 
 - [Design and Simulation of a Mobile Robot for Pipeline Inspection](https://doi.org/10.1109/conescapan56456.2022.9959592) | 论文（摘要） | 特种场景直接相关 | 匹配度 87/100
   - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：工业与能源巡检。来源期刊/会议：2022 IEEE Central America and Panama Student Conference (CONESCAPAN)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Landing Impact Simulation of a One-Legged Robot with a Series Elastic Actuator](https://doi.org/10.20965/jrm.2025.p0627) | 论文（摘要） | 特种场景直接相关 | 匹配度 82/100
+  - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：消防与应急救援。来源期刊/会议：Journal of Robotics and Mechatronics。 Currently, natural disasters occur frequently. Therefore, disaster response robots are ex（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [SOFTWARE IMPLEMENTATION OF THE SPIDER4LEGS MOBILE ROBOT](https://doi.org/10.51865/jpgt.2023.02.01) | 论文（摘要） | 特种场景直接相关 | 匹配度 82/100
   - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：防爆石化与危险环境。来源期刊/会议：Romanian Journal of Petroleum & Gas Technology。The objective of this paper is to develop the control system for driving a mobil（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Digital Twin of Coal Mine Rescue Robot—Research on Intelligence and Visualization](https://doi.org/10.3390/s26092840) | 论文（摘要） | 特种场景直接相关 | 匹配度 81/100
@@ -41,8 +43,6 @@
   - 行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。Abstract The integration of multi-sensors, particularly LiDAR, into quadruped robots is crucial for enhancing their mapping capabilitie（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Model-Based and Neural-Aided Approaches for Dog Dead Reckoning](https://doi.org/10.1016/j.rineng.2026.113555) | 论文（摘要） | 特种场景直接相关 | 匹配度 74/100
   - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：消防与应急救援、工业与能源巡检。来源期刊/会议：Results in Engineering。Modern canine applications span medical and service roles, while robotic legged dogs serve as autonomous（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Implementation of LiDAR Sensor for Mobile Robot Delivery Based on Robot Operating System](https://doi.org/10.30630/jeccom.1.2.67-79.2023) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 74/100
-  - 行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：JECCOM International Journal of Electronics Engineering and Applied Science。Recent research has focused on the development of m（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 小脑与运动控制
 
@@ -131,4 +131,4 @@
 
 ## 五年历史补录进度
 
-已完成 76 / 205 项年度/主题定向查询，详见 [backfill_report.md](backfill_report.md)。
+已完成 95 / 205 项年度/主题定向查询，详见 [backfill_report.md](backfill_report.md)。
