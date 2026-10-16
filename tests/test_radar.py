@@ -212,6 +212,50 @@ class RadarTests(unittest.TestCase):
                           'Meeting safety requirements for robot motion control.')
         self.assertFalse(is_non_technical(paper)[0])
 
+    def test_second_round_actual_misclassifications(self):
+        from taxonomy import classify_contribution
+        cases = [
+            ("A Multi-Scale Structured Exploration Mechanism for Deep Reinforcement Learning in Quadruped Robot Control", "小脑与运动控制"),
+            ("A hierarchical QP optimization control strategy for quadruped robots facing a variety of structural terrains", "小脑与运动控制"),
+            ("Research on Motion Control Method of Wheel-Legged Robot in Unstructured Terrain Based on Improved Central Pattern Generator (CPG) and Biological Reflex Mechanism", "小脑与运动控制"),
+            ("A task level fusion autonomous switching mechanism", "感知建图与导航"),
+            ("Transforming a Quadruped into a Guide Robot for the Visually Impaired: Formalizing Wayfinding, Interaction Modeling, and Safety Mechanism", "感知建图与导航"),
+            ("A Paragraph is All It Takes: Rich Robot Behaviors from Interacting, Trusted LLMs", "大脑与具身智能"),
+            ("Design and Testing of Two Haptic Devices Based on Reconfigurable 2R Joints", "硬件与防爆"),
+            ("TAIL: A Terrain-Aware Multi-Modal SLAM Dataset for Robot Locomotion in Deformable Granular Environments", "基础软件与系统"),
+            ("A Quadruped Piezoelectric Ultrasonic Actuating Robot with Foot-Leg-Trunk-Integrated Structure", "硬件与防爆"),
+            ("SLAMs for Quadruped Robot: Mapping Capability-centric Agentic Simulation", "基础软件与系统"),
+            ("Exploring Nonlinear Body Oscillations for Natural Quadruped Gaits", "小脑与运动控制"),
+            ("Teaching a Robot Dog New Tricks: Diverse Quadruped Skills via Combined Reinforcement and Imitation Learning with Adversarial Task Selection", "小脑与运动控制"),
+            ("QuadrupedGPT: Towards a Versatile Quadruped Agent in Open-ended Worlds", "大脑与具身智能"),
+            ("Active Exploration in Bayesian Model-based Reinforcement Learning for Robot Manipulation", "小脑与运动控制"),
+            ("Design and Characterization of a Unified Continuum Robot Actuation Platform", "硬件与防爆"),
+            ("ProWorld: Multi-View World Model with Proprioceptive Feedback for Closed-Loop Policy Evaluation", "大脑与具身智能"),
+            ("Mode-Reactive Template-Based Control in Planar Legged Robots", "小脑与运动控制"),
+            ("Strategies for Generating Footsteps of Biped Robots in Narrow Sight", "小脑与运动控制"),
+        ]
+        for title, expected in cases:
+            with self.subTest(title=title):
+                self.assertEqual(classify_contribution(title).category, expected)
+
+    def test_nontechnical_scope_exclusions(self):
+        from taxonomy import is_non_technical
+        for title in [
+            "Research on and Design of an Electric Drive Automatic Control System for Mine Belt Conveyors",
+            "How Does Exposure to Changing Opinions or Reaffirmation Opinions Influence the Thoughts of Observers and Their Trust in Robot Discussions?"
+        ]:
+            with self.subTest(title=title):
+                self.assertTrue(is_non_technical({"title": title, "source": "OpenAlex"})[0])
+
+    def test_ambiguous_mechanism_is_not_hardware(self):
+        from taxonomy import classify_contribution
+        for title in [
+            "Reinforcement Learning Exploration Mechanism for Quadruped Control",
+            "Biological Reflex Mechanism for Wheel-Legged Motion Control",
+            "Safety Mechanism for Mobile Robot Navigation"
+        ]:
+            self.assertNotEqual(classify_contribution(title).category, "硬件与防爆")
+
     def test_primary_contribution_misclassification_regressions(self):
         from taxonomy import classify_contribution
         examples = [
