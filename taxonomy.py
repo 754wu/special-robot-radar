@@ -420,7 +420,7 @@ def classify_contribution(title: str, description: str = "", source: str = "") -
     if has(t, r"\b(?:task.level.fusion.autonomous.switching|"
               r"guide.robot.for.the.visually.impaired)\b"):
         return result(NAV, "面向定位/导航的融合与引导任务", review=True)
-    if has(t, r"\binteracting.trusted.llms\b"):
+    if has(t, r"\binteracting.{0,20}trusted.llms\b"):
         return result(BRAIN, "多个 LLM 交互实现机器人任务/行为")
     if has(t, r"\bslams?.for.quadruped.robot\b") and has(
         t, r"\b(?:agentic.simulation|evaluation|benchmark)\b"):
