@@ -1,8 +1,8 @@
 # 特种机器人七日技术简报
 
-生成时间：2026-10-16T01:49:07.513838+00:00
+生成时间：2026-10-16T05:51:55.538870+00:00
 
-最近 7 天首次记录 **1007** 条；本轮新增 **33** 条；总库存 **1007** 条。
+最近 7 天首次记录 **1101** 条；本轮新增 **71** 条；总库存 **1101** 条。
 
 **注意：**‘七日’按首次入库时间统计，不代表论文发表于最近七天；相关度评分只是初筛优先级，不是成熟度或质量评级。
 
@@ -20,10 +20,10 @@
   - 行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境。来源期刊/会议：Highlights in Science, Engineering and Technology。 Based on the analysis of the status of the coal resource industry and the in（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Influence of periodic pulse intake on the ventilation efficiency of positive pressure explosion-proof robot](https://doi.org/10.21203/rs.3.rs-3146415/v1) | 论文（摘要） | 特种场景直接相关 | 匹配度 77/100
   - 行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境。Abstract When the positive pressure explosion-proof robot is in ventilation, if the air is filled into the cavity with a constant press（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Research on Purging and Ventilation Progress of Positive-Pressure Explosion-Proof Motor](https://doi.org/10.1109/access.2022.3172353) | 论文（摘要） | 特种场景直接相关 | 匹配度 77/100
+  - 行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境。来源期刊/会议：IEEE Access。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Smart Pipe Inspection Robot With In-Chassis Motor Actuation Design and Integrated AI-Powered Defect Detection System](https://doi.org/10.1109/access.2024.3450502) | 论文（摘要） | 特种场景直接相关 | 匹配度 76/100
   - 行业筛选：特种场景直接相关；方向：硬件与防爆；关联：工业与能源巡检。来源期刊/会议：IEEE Access。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Cable management design for Inspection Robot](https://doi.org/10.2172/1997106) | 论文（摘要） | 特种场景直接相关 | 匹配度 76/100
-  - 行业筛选：特种场景直接相关；方向：硬件与防爆；关联：工业与能源巡检。来源期刊/会议：Cable management design for Inspection Robot。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 基础软件与系统
 
@@ -35,14 +35,14 @@
   - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：防爆石化与危险环境。来源期刊/会议：Romanian Journal of Petroleum & Gas Technology。The objective of this paper is to develop the control system for driving a mobil（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Digital Twin of Coal Mine Rescue Robot—Research on Intelligence and Visualization](https://doi.org/10.3390/s26092840) | 论文（摘要） | 特种场景直接相关 | 匹配度 81/100
   - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：矿山与地下空间。来源期刊/会议：Sensors。 Mine disasters require urgent lifeline setup in confined tunnels, but manual rescue in unstable accident zones carries（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [M2CS: A Multimodal and Campus‐Scapes Dataset for Dynamic SLAM and Moving Object Perception](https://doi.org/10.1002/rob.22468) | 论文（摘要） | 特种场景直接相关 | 匹配度 81/100
+  - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：野外与特种地形。来源期刊/会议：Journal of Field Robotics。ABSTRACT The deployment of the robotic system that executes specific task is being challenged by the （仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [A High-fidelity Multimodal Synthetic Dataset Generation Framework for Off-road Unstructured Terrain Navigation Training of Autonomous Robots](https://doi.org/10.1007/s10846-025-02340-2) | 论文（摘要） | 特种场景直接相关 | 匹配度 77/100
   - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：野外与特种地形。来源期刊/会议：Journal of Intelligent & Robotic Systems。The success of deep learning methods in a wide range of application areas has inspired（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Point clouds to as-built two-node wireframe digital twin: a novel method to support autonomous robotic inspection](https://doi.org/10.1007/s43684-024-00082-w) | 论文（摘要） | 特种场景直接相关 | 匹配度 76/100
   - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：工业与能源巡检。来源期刊/会议：Autonomous Intelligent Systems。 Abstract Previous studies have primarily focused on converting point clouds (PC) into a dense m（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [SLAMs for Quadruped Robot: Mapping Capability-centric Agentic Simulation](https://doi.org/10.21203/rs.3.rs-7367448/v1) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 75/100
   - 行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。Abstract The integration of multi-sensors, particularly LiDAR, into quadruped robots is crucial for enhancing their mapping capabilitie（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Model-Based and Neural-Aided Approaches for Dog Dead Reckoning](https://doi.org/10.1016/j.rineng.2026.113555) | 论文（摘要） | 特种场景直接相关 | 匹配度 74/100
-  - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：消防与应急救援、工业与能源巡检。来源期刊/会议：Results in Engineering。Modern canine applications span medical and service roles, while robotic legged dogs serve as autonomous（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 小脑与运动控制
 
@@ -96,10 +96,10 @@
   - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：野外与特种地形。来源期刊/会议：Field Robotics。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Design and implementation of QUADRESCUE: A ROS-based quadruped robot for disaster response support](https://doi.org/10.11591/ijra.v14i3.pp387-398) | 论文（摘要） | 特种场景直接相关 | 匹配度 88/100
   - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：消防与应急救援。来源期刊/会议：IAES International Journal of Robotics and Automation (IJRA)。Search and rescue (SAR) operations in hazardous environments deman（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [An Enhanced LiDAR-Inertial SLAM System for Robotics Localization and Mapping](https://doi.org/10.48550/arxiv.2212.14209) | 论文（摘要） | 特种场景直接相关 | 匹配度 88/100
+  - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：消防与应急救援。来源期刊/会议：arXiv (Cornell University)。The LiDAR and inertial sensors based localization and mapping are of great significance for Unmanned（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Navigation of Mobile Robot in Unstructured Terrain Environments](https://doi.org/10.3901/jme.260093) | 论文（摘要） | 特种场景直接相关 | 匹配度 87/100
   - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：野外与特种地形。来源期刊/会议：Journal of Mechanical Engineering。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [End to end navigation stack for nuclear power plant inspection with mobile robot](https://doi.org/10.1016/j.softx.2024.101750) | 论文（摘要） | 特种场景直接相关 | 匹配度 87/100
-  - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：工业与能源巡检。来源期刊/会议：SoftwareX。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 特种应用与产品
 
@@ -131,4 +131,4 @@
 
 ## 五年历史补录进度
 
-已完成 95 / 205 项年度/主题定向查询，详见 [backfill_report.md](backfill_report.md)。
+已完成 114 / 205 项年度/主题定向查询，详见 [backfill_report.md](backfill_report.md)。
