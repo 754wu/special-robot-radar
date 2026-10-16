@@ -187,6 +187,10 @@ def is_non_technical(item: dict) -> tuple[bool, str]:
         return True, "招聘或实习岗位通知"
     if nonpaper and (EVENTS.search(title) or SOCIAL.search(title)):
         return True, "会议活动或非技术公告"
+    # Reject unrelated industrial equipment and social-psychology studies that
+    # contain incidental robot/inspection/emergency words in abstracts.
+    if REJECTION_TITLE.search(title):
+        return True, "非机器人核心技术或社会心理研究"
     if source == "GitHub" and re.search(r"/(?:job-board|jobs|hiring|internships)$", title, re.I):
         return True, "招聘目录非技术仓库"
     return False, ""
