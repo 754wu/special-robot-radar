@@ -3,36 +3,36 @@
 此处显示实际成功完成的“数据源 × 查询词 × 半年度”任务。
 该进度不代表检索到了该年度全部论文，也不代表各年份应有相同数量。
 
-最近运行：2026-10-17T05:36:31.321359+00:00
-已完成查询：**133 / 217**；本次成功：**19**；本次失败：**0**。
+最近运行：2026-10-18T05:53:50.271702+00:00
+已完成查询：**152 / 229**；本次成功：**19**；本次失败：**0**。
 
 ## 已收录资源年份统计
 
-- 2021: 92 条
+- 2021: 104 条
 - 2022: 155 条
-- 2023: 168 条
-- 2024: 164 条
-- 2025: 186 条
-- 2026: 396 条
+- 2023: 169 条
+- 2024: 175 条
+- 2025: 213 条
+- 2026: 420 条
 
 ## 本次已完成查询（最多显示 30 条）
 
-- OpenAlex|quadruped robot|2021-10-17|2021-12-31
-- OpenAlex|wheel legged robot|2021-10-17|2021-12-31
-- OpenAlex|robot joint actuator|2021-10-17|2021-12-31
-- OpenAlex|robot mobile inspection|2021-10-17|2021-12-31
-- OpenAlex|robot autonomous navigation|2021-10-17|2021-12-31
-- OpenAlex|legged robot locomotion|2021-10-17|2021-12-31
-- OpenAlex|robotics reinforcement learning|2021-10-17|2021-12-31
-- OpenAlex|robot visual slam|2021-10-17|2021-12-31
-- OpenAlex|robot embodied navigation|2021-10-17|2021-12-31
-- OpenAlex|robot embodied navigation|2024-07-01|2024-12-31
-- OpenAlex|robot embodied navigation|2025-07-01|2025-12-31
-- OpenAlex|robot flameproof design|2022-01-01|2022-06-30
-- OpenAlex|robot flameproof design|2023-01-01|2023-06-30
-- OpenAlex|robot flameproof design|2024-01-01|2024-06-30
-- Crossref|quadruped robot|2021-10-17|2021-12-31
-- Crossref|wheel legged robot|2021-10-17|2021-12-31
-- Crossref|robot actuator design|2021-10-17|2021-12-31
-- Crossref|explosion proof inspection robot|2023-01-01|2023-06-30
-- Crossref|explosion proof inspection robot|2024-01-01|2024-06-30
+- OpenAlex|quadruped robot|2021-10-18|2021-12-31
+- OpenAlex|wheel legged robot|2021-10-18|2021-12-31
+- OpenAlex|robot joint actuator|2021-10-18|2021-12-31
+- OpenAlex|robot mobile inspection|2021-10-18|2021-12-31
+- OpenAlex|robot autonomous navigation|2021-10-18|2021-12-31
+- OpenAlex|legged robot locomotion|2021-10-18|2021-12-31
+- OpenAlex|robotics reinforcement learning|2021-10-18|2021-12-31
+- OpenAlex|robot visual slam|2021-10-18|2021-12-31
+- OpenAlex|robot embodied navigation|2021-10-18|2021-12-31
+- OpenAlex|robot flameproof design|2025-01-01|2025-06-30
+- OpenAlex|robot flameproof design|2021-10-18|2021-12-31
+- OpenAlex|robot flameproof design|2022-07-01|2022-12-31
+- OpenAlex|robot flameproof design|2023-07-01|2023-12-31
+- OpenAlex|robot flameproof design|2024-07-01|2024-12-31
+- Crossref|quadruped robot|2021-10-18|2021-12-31
+- Crossref|wheel legged robot|2021-10-18|2021-12-31
+- Crossref|robot actuator design|2021-10-18|2021-12-31
+- Crossref|explosion proof inspection robot|2025-01-01|2025-06-30
+- Crossref|explosion proof inspection robot|2021-10-18|2021-12-31
