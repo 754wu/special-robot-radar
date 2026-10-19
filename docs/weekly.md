@@ -1,8 +1,8 @@
 # 特种机器人七日技术简报
 
-生成时间：2026-10-19T09:40:25.749098+00:00
+生成时间：2026-10-19T09:50:35.538391+00:00
 
-最近 7 天首次记录 **1136** 条；本轮新增 **4** 条；总库存 **1349** 条。
+最近 7 天首次记录 **1176** 条；本轮新增 **41** 条；总库存 **1389** 条。
 
 **注意：**‘七日’按首次入库时间统计，不代表论文发表于最近七天；相关度评分只是初筛优先级，不是成熟度或质量评级。
 
@@ -12,6 +12,8 @@
   - 行业筛选：特种场景直接相关；方向：硬件与防爆；关联：消防与应急救援、工业与能源巡检。来源期刊/会议：Industrial Robot the international journal of robotics research and application。Purpose This paper aims to design a novel hybri（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Analysis of Internal Explosion Vibration Characteristics of Explosion-Proof Equipment in Coal Mines Using Laser Doppler](https://doi.org/10.3390/app15179255) | 论文（摘要） | 特种场景直接相关 | 匹配度 81/100
   - 行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境、矿山与地下空间。来源期刊/会议：Applied Sciences。 Currently, there is a lack of methods for detecting the mechanism of gas explosion propagation within flamepr（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Design of Motor Protection Systems for Explosion-proof Coal Mine Digging Device](https://doi.org/10.1109/ictei60496.2023.00061) | 论文（摘要） | 特种场景直接相关 | 匹配度 80/100
+  - 行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境、矿山与地下空间。来源期刊/会议：2023 International Conference on Telecommunications, Electronics and Informatics (ICTEI)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Design and Development of Explosion-Proof Cavity of Hydraulic System Power Unit Applied in Explosion-Proof Area](https://doi.org/10.3390/pr10091824) | 论文（摘要） | 特种场景直接相关 | 匹配度 80/100
   - 行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境、消防与应急救援。来源期刊/会议：Processes。 The construction machinery and vehicles, especially the explosion-proof and explosion-isolation ability of the vehic（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Numerical Simulation on Flameproof Performance of the Explosion-proof Component in the Detonation Wave-based Micro-explosive Train](https://doi.org/10.1109/nems69704.2026.11633709) | 论文（摘要） | 特种场景直接相关 | 匹配度 78/100
@@ -22,8 +24,6 @@
   - 行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境。来源期刊/会议：2025 IEEE 20th International Conference on Nano/Micro Engineered and Molecular Systems (NEMS)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Track Mechanism Design for a Differential Drive Fire Fighting Robot](https://doi.org/10.56220/uwjst.v8i.198) | 论文（摘要） | 特种场景直接相关 | 匹配度 78/100
   - 行业筛选：特种场景直接相关；方向：硬件与防爆；关联：消防与应急救援。来源期刊/会议：University of Wah Journal of Science and Technology (UWJST)。Rescue missions and disaster management expose human life to risk f（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Research on Inspection Technology of Limited-rotation Explosion-proof Electric Actuators for Coal Mines](https://doi.org/10.54097/fye9e027) | 论文（摘要） | 特种场景直接相关 | 匹配度 78/100
-  - 行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境。来源期刊/会议：Highlights in Science, Engineering and Technology。 Based on the analysis of the status of the coal resource industry and the in（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 基础软件与系统
 
@@ -41,8 +41,8 @@
   - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：野外与特种地形。来源期刊/会议：Journal of Intelligent & Robotic Systems。The success of deep learning methods in a wide range of application areas has inspired（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Point clouds to as-built two-node wireframe digital twin: a novel method to support autonomous robotic inspection](https://doi.org/10.1007/s43684-024-00082-w) | 论文（摘要） | 特种场景直接相关 | 匹配度 76/100
   - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：工业与能源巡检。来源期刊/会议：Autonomous Intelligent Systems。 Abstract Previous studies have primarily focused on converting point clouds (PC) into a dense m（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [A Thermal Imaging Flame-Detection Model for Firefighting Robot Based on YOLOv4-F Model](https://doi.org/10.3390/fire5050172) | 论文（摘要） | 特种场景直接相关 | 匹配度 76/100
-  - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：消防与应急救援。来源期刊/会议：Fire。 Fire robots are an effective way to save lives from fire, but their limited detection accuracy has greatly hampered their（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [A Mobile Inspection Robot Design Analysis in ANSYS Simulation for Extreme Weather Conditions](https://doi.org/10.1109/iccma59762.2023.10375060) | 论文（摘要） | 特种场景直接相关 | 匹配度 76/100
+  - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：工业与能源巡检。来源期刊/会议：2023 11th International Conference on Control, Mechatronics and Automation (ICCMA)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 小脑与运动控制
 
@@ -117,8 +117,8 @@
   - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：International Journal of Robotics and Control Systems。 Robots are important in preventing hazards. This paper presents the cons（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Steering Mechanism for an IC engine powered tracked firefighting UGV](https://doi.org/10.56220/uwjst.v5i0.81) | 论文（摘要） | 特种场景直接相关 | 匹配度 87/100
   - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：University of Wah Journal of Science and Technology (UWJST)。Rescue and hazard management operations are susceptible to damages （仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Metaheuristic Approach to Synthesis of Suspension System of Mobile Robot for Mining Infrastructure Inspection](https://doi.org/10.3390/s22228839) | 论文（摘要） | 特种场景直接相关 | 匹配度 83/100
-  - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：Sensors。 The article describes the problem of geometric synthesis of the inspection robot suspension system, designed for opera（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Pipe Line Inspection Robot](https://doi.org/10.22214/ijraset.2022.45392) | 论文（摘要） | 特种场景直接相关 | 匹配度 84/100
+  - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：International Journal for Research in Applied Science and Engineering Technology。 Abstract: Pipelines are mainly constructed to（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 采集状态
 
@@ -131,4 +131,4 @@
 
 ## 五年历史补录进度
 
-已完成 293 / 333 项年度/主题定向查询，详见 [backfill_report.md](backfill_report.md)。
+已完成 298 / 333 项年度/主题定向查询，详见 [backfill_report.md](backfill_report.md)。

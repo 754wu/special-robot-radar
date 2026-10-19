@@ -33,5 +33,33 @@
     "reason": "感知地形适配人类运动，实现高层次行为规划",
     "needs_review": false,
     "source": "OpenRouter free router (metadata only)"
+  },
+  "841c337b8a4bf3ba66efa976c12390dc97603f99e72c412c91b3289e1a809675": {
+    "primary_category": "大脑与具身智能",
+    "secondary_categories": [],
+    "reason": "统一具身基础模型框架，属大脑智能核心",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "bd5ee85b646153556c36088924a800fcc8297145ac8e1fe9e81807750ada5f10": {
+    "primary_category": "大脑与具身智能",
+    "secondary_categories": [],
+    "reason": "VLM代理人高层次技能规划非低层次运动",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "b85377dad520302d598c004ab812b58ff43e7a57eab671c14b93a3afd92863ff": {
+    "primary_category": "大脑与具身智能",
+    "secondary_categories": [],
+    "reason": "基于行为基础模型的人形运动先验适配框架",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "a78f9d0f9b37351f22bfee4ffb87b85e7f191e394e9b1e757e86edf4d881e5fd": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "提出基于失败的课程地形生成，提升四足机器人 parkour 控制",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
   }
 }
