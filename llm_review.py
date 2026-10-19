@@ -47,7 +47,7 @@ def parse_model_response(raw):
     except json.JSONDecodeError:
         decoder=json.JSONDecoder()
         obj=None
-        for match in re.finditer(r"\\{",text):
+        for match in re.finditer(r"\{",text):
             try:
                 candidate,_=decoder.raw_decode(text[match.start():])
             except json.JSONDecodeError:
