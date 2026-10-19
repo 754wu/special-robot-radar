@@ -96,5 +96,33 @@
     "reason": "提出基于多模式控制器的亚毫秒反射系统，实现确定性快速切换。",
     "needs_review": false,
     "source": "OpenRouter free router (metadata only)"
+  },
+  "1928e4841ff8582f69a9d5f7c8408ae16dbda8f39de30f800f6c786d6563e4eb": {
+    "primary_category": "大脑与具身智能",
+    "secondary_categories": [],
+    "reason": "提出统一实体基础模型的模型到策略方法，为机器人任务提供统一框架",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "fc0158cb5d6f296aadce52de291ed73f38fc3cfe33d374ba247e627425208bea": {
+    "primary_category": "大脑与具身智能",
+    "secondary_categories": [],
+    "reason": "论文提出感知行为基础模型，实现人类运动先验到机器人地形的适配。",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "7bc2a51fe3a7177c39ea874a4ccf72b3da9d54915567e2e3ff71ddf4675167a3": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "论文核心是从视觉预测触觉，属于感知任务。",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "44075f39e2412bae9feec672f3171a9f7e27a2a3d6446bc3422c06d11c27a5cd": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "提出基于失败的地形课程树搜索，用于四足机器人跑酷运动控制",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
   }
 }

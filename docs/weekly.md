@@ -1,8 +1,8 @@
 # 特种机器人七日技术简报
 
-生成时间：2026-10-19T10:01:03.711187+00:00
+生成时间：2026-10-19T10:15:05.654856+00:00
 
-最近 7 天首次记录 **1210** 条；本轮新增 **38** 条；总库存 **1424** 条。
+最近 7 天首次记录 **1256** 条；本轮新增 **45** 条；总库存 **1470** 条。
 
 **注意：**‘七日’按首次入库时间统计，不代表论文发表于最近七天；相关度评分只是初筛优先级，不是成熟度或质量评级。
 
@@ -98,8 +98,8 @@
   - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：野外与特种地形。来源期刊/会议：Field Robotics。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [A Heterogeneous Unmanned Ground Vehicle and Blimp Robot Team for Search and Rescue using Data-Driven Autonomy and Communication-Aware Navigation](https://doi.org/10.55417/fr.2022020) | 论文（摘要） | 特种场景直接相关 | 匹配度 90/100
   - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：消防与应急救援、野外与特种地形。来源期刊/会议：Field Robotics。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Power Inspection Robot Dog Inspection Line Planning and Autonomous Navigation Strategy](https://doi.org/10.34028/iajit/22/3/6) | 论文（摘要） | 特种场景直接相关 | 匹配度 89/100
-  - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：工业与能源巡检。来源期刊/会议：The International Arab Journal of Information Technology。 Power inspection is crucial to ensure a stable power system. Manual i（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Simultaneous Localization and Mapping Aimed to Indoor Environment by Means of 4D Millimeter Wave Radar for Firefighting Mobile Robot](https://doi.org/10.1109/irce66030.2025.11203190) | 论文（摘要） | 特种场景直接相关 | 匹配度 89/100
+  - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：消防与应急救援。来源期刊/会议：2025 8th International Conference on Intelligent Robotics and Control Engineering (IRCE)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 特种应用与产品
 
@@ -131,4 +131,4 @@
 
 ## 五年历史补录进度
 
-已完成 303 / 333 项年度/主题定向查询，详见 [backfill_report.md](backfill_report.md)。
+已完成 308 / 333 项年度/主题定向查询，详见 [backfill_report.md](backfill_report.md)。
