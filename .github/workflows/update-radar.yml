@@ -69,7 +69,29 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add docs/
-          git diff --cached --quiet || (git commit -m "Update robotics radar" && git push)
+          if git diff --cached --quiet; then
+            echo "No archive changes to publish"
+          else
+            git commit -m "Update robotics radar"
+            # Keep the generated docs from this run, while incorporating any
+            # commits added to main during the long collection/backfill job.
+            # Never force-push and never overwrite concurrent source changes.
+            for attempt in 1 2 3; do
+              git fetch origin main
+              if git rebase origin/main; then
+                if git push origin HEAD:main; then
+                  exit 0
+                fi
+              else
+                git rebase --abort || true
+                echo "Rebase conflict: refusing to overwrite remote changes"
+                exit 1
+              fi
+              sleep $((attempt * 3))
+            done
+            echo "Could not publish after 3 non-force retries"
+            exit 1
+          fi
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
