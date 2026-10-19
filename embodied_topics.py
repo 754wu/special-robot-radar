@@ -148,6 +148,31 @@ def embodied_decision(title: str, abstract: str = "") -> BrainEvidence | None:
         return BrainEvidence(NAV, "主要任务是环境感知/地形估计而非 Agent 决策",
                              tags=("VLM",) if hit(t, VLM) else ())
 
+    # A robot Agent may use navigation/perception as a skill. When the
+    # research contribution is language-driven task decomposition or tool/skill
+    # orchestration, keep it in Brain even if the title says "navigation".
+    # Require both title-level agent/model evidence and concrete planning
+    # evidence in the title or abstract; generic VLN is still Navigation.
+    high_level_title = hit(t, r"\\b(?:agentic|embodied.agent|robot(?:ic)?.agent|"
+                           r"llm|language.model|vlm|vision.language|"
+                           r"skill.calling|tool.calling|task.planning)\\b")
+    explicit_skill = hit(t + " " + d, r"\\b(?:tool.call(?:ing|s)?|"
+                         r"skill.(?:call(?:ing|s)?|selection|composition|execution)|"
+                         r"task.decomposition|task.planning|"
+                         r"high.level.(?:decision|planning)|"
+                         r"reflection.and.replanning|"
+                         r"language.model.planning)\\b")
+    explicit_language = hit(t + " " + d, r"\\b(?:llm|large.language.model|"
+                            r"vision.language.model|vlm|language.instructions|"
+                            r"language.model|agentic)\\b")
+    if high_level_title and explicit_skill and explicit_language and not hit(t, AGENT_FALSE_FRIEND):
+        return BrainEvidence(
+            BRAIN, "研究语言驱动的高层任务分解、技能编排或工具调用",
+            related=(NAV,) if hit(t, NAV_OBJECTIVE) else
+                    (CONTROL,) if hit(t, CONTROL_OBJECTIVE) else (),
+            tags=("Agentic", "Skill/Tool Calling")
+        )
+
     # A deliberately narrow high-level agent rule: requires agent architecture
     # AND actionable decision skills, or a highly distinctive agent name.
     distinctive = hit(t, r"\b(?:bt.agent|visual.interface.agent|"

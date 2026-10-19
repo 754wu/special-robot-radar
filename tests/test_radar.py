@@ -466,6 +466,29 @@ class RadarTests(unittest.TestCase):
             self.assertEqual(out['scope'], '可迁移的机器人关键技术')
             self.assertEqual(out['category'], category)
 
+    def test_agentic_skill_navigation_not_hidden_by_perception(self):
+        from taxonomy import classify_contribution
+        cases = [
+            ("Vision Language Navigation with Robot Agent Skill Calling",
+             "The VLM agent performs task decomposition and selects navigation skills."),
+            ("Embodied Agent for Autonomous Navigation",
+             "An LLM performs high level task planning and tool calling for robot navigation."),
+        ]
+        for title, desc in cases:
+            with self.subTest(title=title):
+                got = classify_contribution(title, desc)
+                self.assertEqual(got.category, '大脑与具身智能')
+
+    def test_github_resource_indexes_are_not_original_technical_outputs(self):
+        from taxonomy import is_non_technical
+        for title in ['researcher/Awesome-Dexterous-Manipulation',
+                      'robotuser/robotuser', 'lab/reading-list-robotics']:
+            rejected, reason = is_non_technical(
+                {'title': title, 'source': 'GitHub', 'type': '开源项目'})
+            self.assertTrue(rejected, (title, reason))
+        self.assertFalse(is_non_technical(
+            {'title': 'robotlab/robot-navigation-stack', 'source': 'GitHub'})[0])
+
     def test_filter_config_reject_score(self):
         item = make_item('Wheel-legged quadruped locomotion', 'https://example.org/w',
                          'arXiv API', '论文（摘要）', 'robot locomotion and motion control')

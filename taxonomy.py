@@ -191,6 +191,18 @@ def is_non_technical(item: dict) -> tuple[bool, str]:
     # contain incidental robot/inspection/emergency words in abstracts.
     if REJECTION_TITLE.search(title):
         return True, "非机器人核心技术或社会心理研究"
+    if source == "GitHub":
+        # Resource indexes and profile repositories are useful references, but
+        # they are not original technical outputs for research statistics.
+        repo_name = title.rsplit("/", 1)[-1].strip() if "/" in title else title
+        if re.search(r"^(?:awesome(?:[-_ .]|$)|papers?[-_ ]list|reading[-_ ]list|"
+                     r"curated[-_ ]list|robotics[-_ ]resources)(?:.*)$",
+                     repo_name, re.I):
+            return True, "资源合集而非原创机器人技术成果"
+        if "/" in title:
+            owner, name = title.rsplit("/", 1)
+            if owner.rsplit("/", 1)[-1].lower() == name.lower():
+                return True, "疑似 GitHub 个人资料仓库"
     if source == "GitHub" and re.search(r"/(?:job-board|jobs|hiring|internships)$", title, re.I):
         return True, "招聘目录非技术仓库"
     return False, ""
