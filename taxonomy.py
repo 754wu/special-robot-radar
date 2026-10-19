@@ -526,9 +526,9 @@ def classify_contribution(title: str, description: str = "", source: str = "") -
     # Inspection algorithm research takes precedence over generic product
     # wording. These title-level patterns describe concrete algorithms, not
     # the design or deployment of a complete special robot.
-    if has(t, r"\\b(?:obstacle.detection.and.identification.algorithm|"
+    if has(t, r"\b(?:obstacle.detection.and.identification.algorithm|"
               r"firefighting.robot.guidance.system.based.on.stereo.vision|"
-              r"task.decomposition.of.substation.inspection.robot.based.on.improved.isodata)\\b"):
+              r"task.decomposition.of.substation.inspection.robot.based.on.improved.isodata)\b"):
         return result(NAV, "明确的巡检视觉感知/任务划分算法，而非整机产品",
                       (APPLICATION,), review=bool(has(t, r"task.decomposition")))
 
