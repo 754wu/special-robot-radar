@@ -41,7 +41,7 @@ def parse_model_response(raw):
     if not isinstance(raw,str) or not raw.strip():
         raise ValueError("empty_response")
     text=raw.strip()
-    text=re.sub(r"^\x60\x60\x60(?:json)?\s*|\s*\x60\x60\x60$", "", text, flags=re.I).strip()
+    text=text.removeprefix("```json").removeprefix("```").removesuffix("```").strip()
     try:
         obj=json.loads(text)
     except json.JSONDecodeError:
