@@ -1,8 +1,8 @@
 # 特种机器人七日技术简报
 
-生成时间：2026-10-18T05:53:50.321993+00:00
+生成时间：2026-10-19T01:21:35.531725+00:00
 
-最近 7 天首次记录 **1236** 条；本轮新增 **18** 条；总库存 **1236** 条。
+最近 7 天首次记录 **1285** 条；本轮新增 **13** 条；总库存 **1285** 条。
 
 **注意：**‘七日’按首次入库时间统计，不代表论文发表于最近七天；相关度评分只是初筛优先级，不是成熟度或质量评级。
 
@@ -41,8 +41,8 @@
   - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：野外与特种地形。来源期刊/会议：Journal of Intelligent & Robotic Systems。The success of deep learning methods in a wide range of application areas has inspired（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Point clouds to as-built two-node wireframe digital twin: a novel method to support autonomous robotic inspection](https://doi.org/10.1007/s43684-024-00082-w) | 论文（摘要） | 特种场景直接相关 | 匹配度 76/100
   - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：工业与能源巡检。来源期刊/会议：Autonomous Intelligent Systems。 Abstract Previous studies have primarily focused on converting point clouds (PC) into a dense m（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [SLAMs for Quadruped Robot: Mapping Capability-centric Agentic Simulation](https://doi.org/10.21203/rs.3.rs-7367448/v1) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 75/100
-  - 行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。Abstract The integration of multi-sensors, particularly LiDAR, into quadruped robots is crucial for enhancing their mapping capabilitie（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [A Thermal Imaging Flame-Detection Model for Firefighting Robot Based on YOLOv4-F Model](https://doi.org/10.3390/fire5050172) | 论文（摘要） | 特种场景直接相关 | 匹配度 76/100
+  - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：消防与应急救援。来源期刊/会议：Fire。 Fire robots are an effective way to save lives from fire, but their limited detection accuracy has greatly hampered their（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 小脑与运动控制
 
@@ -65,22 +65,22 @@
 
 ## 大脑与具身智能
 
+- [DR-VLA: Learning Human-Like Quadruped Navigation from Egocentric Web Videos via Domain-Invariant Scene Representations](https://doi.org/10.48550/arxiv.2610.18373) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 74/100
+  - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。Quadruped robots performing outdoor deliveries must interpret complex scenes, anticipate changes, an（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Don't Run with Scissors: Pruning Breaks VLA Models but They Can Be Recovered](https://arxiv.org/abs/2510.08464) | 论文（摘要） | 特种场景直接相关 | 匹配度 72/100
   - 行业筛选：特种场景直接相关；方向：大脑与具身智能；关联：野外与特种地形。arXiv:2510.08464v2 Announce Type: replace Abstract: Vision-Language-Action (VLA) models are a promising paradigm for field robotics, bu（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Vision‐Language‐Action Models for Embodied Artificial Intelligence: A Comprehensive Survey](https://doi.org/10.1002/rob.70340) | 论文（摘要） | 特种场景直接相关 | 匹配度 72/100
   - 行业筛选：特种场景直接相关；方向：大脑与具身智能；关联：野外与特种地形。来源期刊/会议：Journal of Field Robotics。ABSTRACT Embodied artificial intelligence (Embodied AI) aims to develop agents that can perceive, rea（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Agentic AI for Safety-critical Multi-drone Systems: Challenges and Opportunities](https://doi.org/10.48550/arxiv.2608.21444) | 论文（摘要） | 特种场景直接相关 | 匹配度 72/100
   - 行业筛选：特种场景直接相关；方向：大脑与具身智能；关联：消防与应急救援。来源期刊/会议：arXiv (Cornell University)。Multi-drone systems are increasingly positioned for safety-critical missions such as search and resc（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [A Survey of Map Construction and Management Methods for Single Embodied Agents](https://doi.org/10.3390/s26196242) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 65/100
+  - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Sensors。Embodied intelligent systems need to complete the closed loop of perception-understanding-decision-execution in the rea（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [QuadrupedGPT: Towards a Versatile Quadruped Agent in Open-ended Worlds](https://doi.org/10.48550/arxiv.2406.16578) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 65/100
   - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。As robotic agents increasingly assist humans in reality, quadruped robots offer unique opportunities（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Cracking Mobile Manipulation: From Failure Diagnosis to Agentic Robot System](https://arxiv.org/abs/2610.19600) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 63/100
-  - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.19600v1 Announce Type: new Abstract: Recent vision-language-action (VLA) models have shown strong performance on local robot（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [wadeKeith/Awesome-Embodied-AI](https://github.com/wadeKeith/Awesome-Embodied-AI) | 代码仓库更新 | 可迁移的机器人关键技术 | 匹配度 63/100
-  - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。Curated embodied AI list: surveys, VLA models, datasets, simulators, humanoids, robot learning, and safety resources.（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Verifier-Mediated Multi-LLM Coordination for Multi-Robot Path Planning](https://arxiv.org/abs/2610.12761) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 63/100
-  - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.12761v1 Announce Type: new Abstract: Foundation models are increasingly used for high-level multi-robot task planning, yet i（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [ASENA: Self-evolving Agents for Embodied Navigation](https://doi.org/10.48550/arxiv.2609.39207) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 63/100
-  - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。We present ASENA, an embodied agent system that enables general-purpose coding agents to program hum（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [An intelligent mission-oriented and situation aware quadruped robot: a novel embodied explainable AI approach](https://doi.org/10.1117/12.2664019) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 64/100
+  - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Unmanned Systems Technology XXV。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Does Peer Observation Help? Vision-Sharing Collaboration for Vision-Language Navigation](https://arxiv.org/abs/2603.20804) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 63/100
+  - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2603.20804v2 Announce Type: replace-cross Abstract: Vision-Language Navigation (VLN) systems are fundamentally constrained by par（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 感知建图与导航
 
@@ -96,10 +96,10 @@
   - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：消防与应急救援。来源期刊/会议：Frontiers in Robotics and AI。 Mobile robots have emerged as a reliable solution for dynamic navigation in real-world applicatio（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [ArtPlanner: Robust Legged Robot Navigation in the Field](https://doi.org/10.55417/fr.2023013) | 论文（摘要） | 特种场景直接相关 | 匹配度 90/100
   - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：野外与特种地形。来源期刊/会议：Field Robotics。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [A Heterogeneous Unmanned Ground Vehicle and Blimp Robot Team for Search and Rescue using Data-Driven Autonomy and Communication-Aware Navigation](https://doi.org/10.55417/fr.2022020) | 论文（摘要） | 特种场景直接相关 | 匹配度 90/100
+  - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：消防与应急救援、野外与特种地形。来源期刊/会议：Field Robotics。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Power Inspection Robot Dog Inspection Line Planning and Autonomous Navigation Strategy](https://doi.org/10.34028/iajit/22/3/6) | 论文（摘要） | 特种场景直接相关 | 匹配度 89/100
   - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：工业与能源巡检。来源期刊/会议：The International Arab Journal of Information Technology。 Power inspection is crucial to ensure a stable power system. Manual i（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Design and implementation of QUADRESCUE: A ROS-based quadruped robot for disaster response support](https://doi.org/10.11591/ijra.v14i3.pp387-398) | 论文（摘要） | 特种场景直接相关 | 匹配度 88/100
-  - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：消防与应急救援。来源期刊/会议：IAES International Journal of Robotics and Automation (IJRA)。Search and rescue (SAR) operations in hazardous environments deman（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 特种应用与产品
 
@@ -131,4 +131,4 @@
 
 ## 五年历史补录进度
 
-已完成 152 / 229 项年度/主题定向查询，详见 [backfill_report.md](backfill_report.md)。
+已完成 171 / 333 项年度/主题定向查询，详见 [backfill_report.md](backfill_report.md)。
