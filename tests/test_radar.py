@@ -523,6 +523,27 @@ class RadarTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             parse_short_classification("Random text without a category")
 
+    def test_model_multiple_output_forms_and_evidence(self):
+        from llm_review import parse_short_classification, validate
+        paper_id="paper-test"
+        variants=[
+            '大脑与具身智能|NO|通过视觉语言模型进行任务分解并调用导航技能',
+            '分类：大脑与具身智能\\n理由：通过视觉语言模型进行任务分解并调用导航技能',
+            '{"category":"大脑与具身智能","needs_review":false,"reason":"通过视觉语言模型进行任务分解并调用导航技能"}',
+            'Result: ```json\\n{"primary_category":"大脑与具身智能","needs_review":false,"reason":"通过视觉语言模型进行任务分解并调用导航技能"}\\n```'
+        ]
+        for response in variants:
+            with self.subTest(response=response[:25]):
+                entry=parse_short_classification(response)
+                entry["id"]=paper_id
+                self.assertIsNotNone(validate(entry,{paper_id}))
+        self.assertIsNone(validate({"id":paper_id,"primary_category":"大脑与具身智能",
+            "needs_review":"false","reason":"通过视觉语言模型进行任务分解并调用导航技能"},{paper_id}))
+        self.assertIsNone(validate({"id":paper_id,"primary_category":"大脑与具身智能",
+            "needs_review":False,"reason":"证据不足"},{paper_id}))
+        with self.assertRaises(ValueError):
+            parse_short_classification("大脑与具身智能 或 感知建图与导航")
+
     def test_filter_config_reject_score(self):
         item = make_item('Wheel-legged quadruped locomotion', 'https://example.org/w',
                          'arXiv API', '论文（摘要）', 'robot locomotion and motion control')

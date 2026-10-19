@@ -25,67 +25,92 @@ def eligible(item):
       (item.get("category") in ("感知建图与导航","小脑与运动控制","大脑与具身智能") and
        re.search(r"agentic|vision.language|\\bvl[mna]\\b|world.model|task.planning|skill",str(item.get("title","")),re.I)))
 def validate(record, ids):
+    """Require a single explicit category, a real justification and valid review flag."""
     if not isinstance(record,dict) or record.get("id") not in ids:return None
     cat=record.get("primary_category")
-    if cat not in CATEGORIES:return None
-    reason=str(record.get("reason","")).strip()[:160]
-    if len(reason)<8:return None
+    if not isinstance(cat,str) or cat.strip() not in CATEGORIES:return None
+    cat=cat.strip()
+    review=record.get("needs_review")
+    if type(review) is not bool:return None
+    reason=str(record.get("reason") or "").strip()
+    reason=re.sub(r"^(?:理由|依据|reason)\\s*[:：]\\s*","",reason,flags=re.I)
+    if len(reason)<8 or len(reason)>160:return None
+    if not re.search(r"[\\u4e00-\\u9fff]",reason):return None
+    # A category label alone, a disclaimer or generic praise is not evidence.
+    if re.fullmatch(r"(?:主要研究|核心技术|有关机器人|证据不足|无法判断|分类待定)[。！!]*",reason):
+        return None
+    mentions=[x for x in CATEGORIES if x in reason]
+    if len(set(mentions)-{cat})>0 and re.search(r"或|二者|难以区分|可能属于",reason):
+        review=True
     related=record.get("secondary_categories",[])
     if not isinstance(related,list):related=[]
     related=[x for x in related if x in CATEGORIES and x!=cat][:2]
     return {"primary_category":cat,"secondary_categories":related,
-            "reason":reason,"needs_review":bool(record.get("needs_review",True)),
+            "reason":reason,"needs_review":review,
             "source":"OpenRouter free router (metadata only)"}
+
 def parse_model_response(raw):
-    """Parse one small JSON object, accepting markdown wrapping and prose."""
-    if not isinstance(raw,str) or not raw.strip():
-        raise ValueError("empty_response")
-    text=raw.strip()
-    text=text.removeprefix("```json").removeprefix("```").removesuffix("```").strip()
+    """Read full JSON or a JSON object embedded in surrounding text."""
+    if not isinstance(raw,str) or not raw.strip():raise ValueError("empty_response")
+    text=raw.strip().lstrip("\\ufeff")
+    text=re.sub(r"^\\s*```(?:json)?\\s*|\\s*```\\s*$","",text,flags=re.I)
     try:
-        obj=json.loads(text)
+        data=json.loads(text)
     except json.JSONDecodeError:
         decoder=json.JSONDecoder()
-        obj=None
-        for match in re.finditer(r"\{",text):
-            try:
-                candidate,_=decoder.raw_decode(text[match.start():])
-            except json.JSONDecodeError:
-                continue
+        data=None
+        for found in re.finditer(r"\\{",text):
+            try:candidate,_=decoder.raw_decode(text[found.start():])
+            except json.JSONDecodeError:continue
             if isinstance(candidate,dict):
-                obj=candidate
-                break
-        if obj is None:
-            raise ValueError("json_parse_failure")
-    if not isinstance(obj,dict):
-        raise ValueError("non_object")
-    return obj
+                data=candidate;break
+        if data is None:raise ValueError("json_parse_failure")
+    if not isinstance(data,dict):raise ValueError("non_object")
+    # Common free-model field aliases, without guessing a missing category.
+    aliases={"category":"primary_category","classification":"primary_category",
+             "分类":"primary_category","主分类":"primary_category",
+             "理由":"reason","依据":"reason",
+             "待复核":"needs_review"}
+    for old,new in aliases.items():
+        if old in data and new not in data:data[new]=data[old]
+    return data
 
 def parse_short_classification(raw):
-    """Accept a compact one-line answer; retain JSON compatibility."""
-    if not isinstance(raw,str) or not raw.strip():
-        raise ValueError("empty_response")
-    clean=raw.strip().strip("`").strip()
+    """Handle pipe, labeled and JSON answers; reject multiple conflicting choices."""
+    if not isinstance(raw,str) or not raw.strip():raise ValueError("empty_response")
+    clean=raw.strip().lstrip("\\ufeff")
     try:
-        return parse_model_response(clean)
+        data=parse_model_response(clean)
+        if "needs_review" in data and isinstance(data["needs_review"],str):
+            decision=data["needs_review"].strip().lower()
+            if decision in ("yes","true","是","需要","待复核"):data["needs_review"]=True
+            elif decision in ("no","false","否","无需","不需要"):data["needs_review"]=False
+        return data
     except ValueError:
         pass
     clean=clean.replace("｜","|").replace("：",":")
-    lines=[x.strip() for x in clean.splitlines() if x.strip()]
-    for line in lines:
-        fields=[x.strip() for x in line.split("|")]
-        if len(fields)!=3:
-            continue
-        category,review,reason=fields
-        if category not in CATEGORIES:
-            continue
-        if review.lower() not in ("yes","no","true","false","是","否"):
-            continue
-        if not (8<=len(reason)<=160):
-            continue
-        return {"primary_category":category,
-                "needs_review":review.lower() in ("yes","true","是"),
-                "reason":reason}
+    for line in clean.splitlines():
+        cells=[x.strip().strip("` ") for x in line.split("|")]
+        if len(cells)==3:
+            cat,flag,reason=cells
+            flag=flag.lower()
+            if cat in CATEGORIES and flag in ("yes","no","true","false","是","否"):
+                return {"primary_category":cat,
+                        "needs_review":flag in ("yes","true","是"),"reason":reason}
+    labeled=re.search(r"(?:主分类|分类|category|primary_category)\\s*[:=]\\s*([^\\n;；]+)",clean,re.I)
+    why=re.search(r"(?:理由|依据|reason)\\s*[:=]\\s*([^\\n]+)",clean,re.I)
+    if labeled and why:
+        category=labeled.group(1).strip().strip("* `")
+        category=category.split("|")[0].strip()
+        if category in CATEGORIES:
+            review=re.search(r"(?:待复核|needs_review|复核)\\s*[:=]\\s*(yes|no|true|false|是|否)",clean,re.I)
+            if review:
+                return {"primary_category":category,
+                        "needs_review":review.group(1).lower() in ("yes","true","是"),
+                        "reason":why.group(1).strip()}
+            # Missing explicit yes/no is not high-confidence.
+            return {"primary_category":category,"needs_review":True,
+                    "reason":why.group(1).strip()}
     raise ValueError("invalid_compact_response")
 
 def main():
