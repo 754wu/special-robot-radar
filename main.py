@@ -22,6 +22,7 @@ from datetime import datetime, timedelta, timezone
 from dateutil.relativedelta import relativedelta
 from pathlib import Path
 from taxonomy import classify_contribution, is_non_technical
+from embodied_topics import embodied_decision
 from urllib.parse import urlsplit, urlunsplit
 
 
@@ -631,7 +632,10 @@ def rule_enrich(item: dict, config: dict | None = None) -> dict | None:
     item["classification_confidence"] = classified.confidence
     item["classification_reason"] = classified.reason
     item["needs_review"] = classified.review
-    item["tags"] = list(dict.fromkeys(tags))[:4]
+    extra = embodied_decision(title, desc)
+    if extra:
+        tags.extend(extra.tags)
+    item["tags"] = list(dict.fromkeys(tags))[:6]
     item["industry_tags"] = matched_sectors[:3]
     item["scope"] = scope
     item["score"] = score
@@ -966,6 +970,21 @@ def main() -> None:
                 msg = f"Hardware OpenAlex {query}: {type(ex).__name__}: {ex}"
                 errors.append(msg)
                 print("[WARN]", msg, file=sys.stderr)
+        # Dedicated embodied intelligence queries: budgeted, rotated and
+        # independent of hardware/localization/locomotion queries.
+        for query in rotate_source_queries(
+            cfg.get("brain_openalex_queries", []),
+            int(cfg.get("brain_openalex_per_run", 2)), end
+        ):
+            expected_sources += 1
+            try:
+                batch = fetch_openalex(query, start, end, cfg.get("openalex_limit", 70))
+                print(f"Brain OpenAlex {query}: {len(batch)}")
+                candidates.extend(batch)
+            except Exception as ex:
+                msg = f"Brain OpenAlex {query}: {type(ex).__name__}: {ex}"
+                errors.append(msg)
+                print("[WARN]", msg, file=sys.stderr)
         # Balanced calendar-year backfill: each older year gets scheduled regularly.
         for query, s, e in annual_backfill_jobs(
             cfg.get("openalex_queries", []), end, months,
@@ -1018,6 +1037,20 @@ def main() -> None:
                 candidates.extend(batch)
             except Exception as ex:
                 msg = f"Hardware Crossref {query}: {type(ex).__name__}: {ex}"
+                errors.append(msg)
+                print("[WARN]", msg, file=sys.stderr)
+            time.sleep(5)
+        for query in rotate_source_queries(
+            cfg.get("brain_crossref_queries", []),
+            int(cfg.get("brain_crossref_per_run", 1)), end
+        ):
+            expected_sources += 1
+            try:
+                batch = fetch_crossref(query, start, end, cfg.get("crossref_limit", 30))
+                print(f"Brain Crossref {query}: {len(batch)}")
+                candidates.extend(batch)
+            except Exception as ex:
+                msg = f"Brain Crossref {query}: {type(ex).__name__}: {ex}"
                 errors.append(msg)
                 print("[WARN]", msg, file=sys.stderr)
             time.sleep(5)
