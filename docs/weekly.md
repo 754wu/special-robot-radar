@@ -1,6 +1,6 @@
 # 特种机器人七日技术简报
 
-生成时间：2026-10-19T06:12:11.959580+00:00
+生成时间：2026-10-19T08:17:52.580819+00:00
 
 最近 7 天首次记录 **1307** 条；本轮新增 **5** 条；总库存 **1307** 条。
 
@@ -75,12 +75,12 @@
   - 行业筛选：特种场景直接相关；方向：大脑与具身智能；关联：消防与应急救援。来源期刊/会议：arXiv (Cornell University)。Multi-drone systems are increasingly positioned for safety-critical missions such as search and resc（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [A Survey of Map Construction and Management Methods for Single Embodied Agents](https://doi.org/10.3390/s26196242) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 65/100
   - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Sensors。Embodied intelligent systems need to complete the closed loop of perception-understanding-decision-execution in the rea（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [NaVILA: Legged Robot Vision-Language-Action Model for Navigation](https://doi.org/10.15607/rss.2025.xxi.018) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 65/100
+  - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Robotics: Science and Systems XXI。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [QuadrupedGPT: Towards a Versatile Quadruped Agent in Open-ended Worlds](https://doi.org/10.48550/arxiv.2406.16578) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 65/100
   - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。As robotic agents increasingly assist humans in reality, quadruped robots offer unique opportunities（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [An intelligent mission-oriented and situation aware quadruped robot: a novel embodied explainable AI approach](https://doi.org/10.1117/12.2664019) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 64/100
   - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Unmanned Systems Technology XXV。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Unifying Embodied Foundation Models via a Model-to-Policy Formulation](https://arxiv.org/abs/2610.23053) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 63/100
-  - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.23053v1 Announce Type: new Abstract: Vision-language-action (VLA) models and world-action models (WAMs) have emerged as prom（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 感知建图与导航
 
@@ -131,4 +131,4 @@
 
 ## 五年历史补录进度
 
-已完成 190 / 333 项年度/主题定向查询，详见 [backfill_report.md](backfill_report.md)。
+已完成 209 / 333 项年度/主题定向查询，详见 [backfill_report.md](backfill_report.md)。

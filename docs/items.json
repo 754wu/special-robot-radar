@@ -6,7 +6,7 @@
     "source": "GitHub",
     "type": "代码仓库更新",
     "description": "Learned forward-dynamics world model for the Unitree Go2 quadruped: predict next state from (state, velocity-command), trained on real MuJoCo + classical-MPC rollouts, verified by open-loop autoregressive comparison.",
-    "published": "2026-10-19T05:49:54Z",
+    "published": "2026-10-19T07:53:07Z",
     "first_seen": "2026-10-18T05:52:41.473985+00:00",
     "stars": 0,
     "license": false,
@@ -22,31 +22,6 @@
     "scope": "可迁移的机器人关键技术",
     "score": 62,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。Learned forward-dynamics world model for the Unitree Go2 quadruped: predict next state from (state, velocity-command), trained on real （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
-  },
-  {
-    "id": "be33cb8816af7f0fa4",
-    "title": "chang-xinhai/Awesome-Dexterous-Manipulation",
-    "url": "https://github.com/chang-xinhai/Awesome-Dexterous-Manipulation",
-    "source": "GitHub",
-    "type": "代码仓库更新",
-    "description": "A curated awesome list for dexterous robot manipulation, tactile sensing, dexterous hands, robot learning, datasets, benchmarks, and simulators.",
-    "published": "2026-10-19T05:28:33Z",
-    "first_seen": "2026-10-15T03:34:03.051642+00:00",
-    "stars": 27,
-    "license": true,
-    "repo_id": 1220137659,
-    "category": "小脑与运动控制",
-    "classification_confidence": "高",
-    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
-    "needs_review": false,
-    "tags": [
-      "小脑与运动控制"
-    ],
-    "industry_tags": [],
-    "scope": "可迁移的机器人关键技术",
-    "score": 61,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。A curated awesome list for dexterous robot manipulation, tactile sensing, dexterous hands, robot learning, datasets, benchmarks, and si（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -72,31 +47,6 @@
     "scope": "可迁移的机器人关键技术",
     "score": 70,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。Reinforcement learning locomotion policies trained in NVIDIA Isaac Lab for two robots: asimov-1 (humanoid, PPO+AMP omnidirectional walk（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
-  },
-  {
-    "id": "12c7bab8d28948feea",
-    "title": "Deepakk-06/Deepakk-06",
-    "url": "https://github.com/Deepakk-06/Deepakk-06",
-    "source": "GitHub",
-    "type": "代码仓库更新",
-    "description": "EEE undergrad exploring ROS 2, SLAM, and embedded robotics. Currently building things that occasionally work on the first try.",
-    "published": "2026-10-19T05:02:16Z",
-    "first_seen": "2026-10-19T06:10:52.537420+00:00",
-    "stars": 0,
-    "license": false,
-    "repo_id": 1241006086,
-    "category": "感知建图与导航",
-    "classification_confidence": "待复核",
-    "classification_reason": "导航/感知类别缺少题名中的明确研究任务",
-    "needs_review": true,
-    "tags": [
-      "感知建图与导航"
-    ],
-    "industry_tags": [],
-    "scope": "可迁移的机器人关键技术",
-    "score": 62,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。EEE undergrad exploring ROS 2, SLAM, and embedded robotics. Currently building things that occasionally work on the first try.（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -463,31 +413,6 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
-    "id": "5456eeec6eb8c82186",
-    "title": "YanjieZe/awesome-humanoid-robot-learning",
-    "url": "https://github.com/YanjieZe/awesome-humanoid-robot-learning",
-    "source": "GitHub",
-    "type": "代码仓库更新",
-    "description": "A Paper List for Humanoid Robot Learning.",
-    "published": "2026-10-19T02:12:55Z",
-    "first_seen": "2026-10-14T06:11:18.191748+00:00",
-    "stars": 2830,
-    "license": true,
-    "repo_id": 881022384,
-    "category": "小脑与运动控制",
-    "classification_confidence": "高",
-    "classification_reason": "题名显示机器人控制或策略学习研究",
-    "needs_review": false,
-    "tags": [
-      "小脑与运动控制"
-    ],
-    "industry_tags": [],
-    "scope": "可迁移的机器人关键技术",
-    "score": 61,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。A Paper List for Humanoid Robot Learning.（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
-  },
-  {
     "id": "c18f44925816cbb911",
     "title": "LYHrmer/wheel-legged-control-lab",
     "url": "https://github.com/LYHrmer/wheel-legged-control-lab",
@@ -619,7 +544,7 @@
     "url": "https://discourse.openrobotics.org/t/is-ota-for-ros-2-robots-a-solved-problem/58933",
     "source": "ROS Discourse",
     "type": "社区动态",
-    "description": "I could not find anything out there built specifically for OTA updates in the ROS 2 ecosystem. Coming from the web I wanted to see how close I could get to the developer experience I know, so I built a small project on a Raspberry Pi. The device pulls new container images from GitHub releases, runs a health check and rolls back automatically if a release is broken. It turned out to be harder than just shipping Docker containers. My updater for example could not update itself. A/B updates seem to solve that, but each approach has its trade-offs. So I would love to hear from people who run robots in production. What did you pick and why? Is anything still painful with Mender, balena or other tools or do they already cover everything? Write-up: The code was the easy part - Max Riazantsev Code: https://github.com/maxriazantsev/vision-stand 2 posts - 2 participants Read full topic",
+    "description": "I could not find anything out there built specifically for OTA updates in the ROS 2 ecosystem. Coming from the web I wanted to see how close I could get to the developer experience I know, so I built a small project on a Raspberry Pi. The device pulls new container images from GitHub releases, runs a health check and rolls back automatically if a release is broken. It turned out to be harder than just shipping Docker containers. My updater for example could not update itself. A/B updates seem to solve that, but each approach has its trade-offs. So I would love to hear from people who run robots in production. What did you pick and why? Is anything still painful with Mender, balena or other tools or do they already cover everything? Write-up: The code was the easy part - Max Riazantsev Code: https://github.com/maxriazantsev/vision-stand 3 posts - 3 participants Read full topic",
     "published": "2026-10-18T23:05:42+00:00",
     "first_seen": "2026-10-19T01:20:11.650072+00:00",
     "category": "基础软件与系统",
@@ -2516,31 +2441,6 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
-    "id": "35d57568dd14b0fd0f",
-    "title": "KwanWaiPang/Awesome-Legged-Robot-Localization-and-Mapping",
-    "url": "https://github.com/KwanWaiPang/Awesome-Legged-Robot-Localization-and-Mapping",
-    "source": "GitHub",
-    "type": "代码仓库更新",
-    "description": "Paper Survey for SLAM in Legged Robot",
-    "published": "2026-10-13T06:55:08Z",
-    "first_seen": "2026-10-13T07:42:02.812957+00:00",
-    "stars": 77,
-    "license": false,
-    "repo_id": 954700157,
-    "category": "感知建图与导航",
-    "tags": [
-      "感知建图与导航"
-    ],
-    "industry_tags": [],
-    "scope": "可迁移的机器人关键技术",
-    "score": 69,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。Paper Survey for SLAM in Legged Robot（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "classification_confidence": "高",
-    "classification_reason": "核心任务为环境感知、定位、建图或导航",
-    "needs_review": false
-  },
-  {
     "id": "7e991965be12d47e7d",
     "title": "iit-DLSLab/basic-locomotion-isaaclab",
     "url": "https://github.com/iit-DLSLab/basic-locomotion-isaaclab",
@@ -2995,31 +2895,6 @@
     "classification_confidence": "高",
     "classification_reason": "核心任务为运动、步态、控制或机器人操作",
     "needs_review": false
-  },
-  {
-    "id": "6e1b9df86e4e5ec43a",
-    "title": "wadeKeith/Awesome-Embodied-AI",
-    "url": "https://github.com/wadeKeith/Awesome-Embodied-AI",
-    "source": "GitHub",
-    "type": "代码仓库更新",
-    "description": "Curated embodied AI list: surveys, VLA models, datasets, simulators, humanoids, robot learning, and safety resources.",
-    "published": "2026-10-12T07:08:29Z",
-    "first_seen": "2026-10-12T08:43:22.319879+00:00",
-    "stars": 251,
-    "license": true,
-    "repo_id": 949984901,
-    "category": "大脑与具身智能",
-    "tags": [
-      "大脑与具身智能"
-    ],
-    "score": 63,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。Curated embodied AI list: surveys, VLA models, datasets, simulators, humanoids, robot learning, and safety resources.（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "industry_tags": [],
-    "scope": "可迁移的机器人关键技术",
-    "classification_confidence": "待复核",
-    "classification_reason": "Agent 高层决策证据较弱",
-    "needs_review": true
   },
   {
     "id": "3891df1bcc4aec00c7",
@@ -14150,6 +14025,56 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "7eede1d5668eec76dd",
+    "title": "NaVILA: Legged Robot Vision-Language-Action Model for Navigation",
+    "url": "https://doi.org/10.15607/rss.2025.xxi.018",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Robotics: Science and Systems XXI。",
+    "published": "2025-06-21",
+    "first_seen": "2026-10-19T08:17:32.046083+00:00",
+    "doi": "10.15607/rss.2025.xxi.018",
+    "category": "大脑与具身智能",
+    "classification_confidence": "高",
+    "classification_reason": "研究 VLA 模型架构、推理或任务表示",
+    "needs_review": false,
+    "tags": [
+      "大脑与具身智能",
+      "小脑与运动控制",
+      "VLA"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 65,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Robotics: Science and Systems XXI。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "cd8b60a072e8843b3b",
+    "title": "Uni-NaVid: A Video-based Vision-Language-Action Model for Unifying Embodied Navigation Tasks",
+    "url": "https://doi.org/10.15607/rss.2025.xxi.013",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Robotics: Science and Systems XXI。",
+    "published": "2025-06-21",
+    "first_seen": "2026-10-19T08:17:32.046693+00:00",
+    "doi": "10.15607/rss.2025.xxi.013",
+    "category": "大脑与具身智能",
+    "classification_confidence": "高",
+    "classification_reason": "研究 VLA 模型架构、推理或任务表示",
+    "needs_review": false,
+    "tags": [
+      "大脑与具身智能",
+      "小脑与运动控制",
+      "VLA"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 63,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Robotics: Science and Systems XXI。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "67c8aa174e910dd19b",
     "title": "Robot Manipulation Based on Embodied Visual Perception: A Survey",
     "url": "https://doi.org/10.1049/cit2.70022",
@@ -18764,6 +18689,29 @@
     "classification_confidence": "待复核",
     "classification_reason": "运动控制类别缺少题名中的控制任务证据",
     "needs_review": true
+  },
+  {
+    "id": "3ed2321511717dc964",
+    "title": "A framework for neurosymbolic robot action planning using large language models",
+    "url": "https://doi.org/10.3389/fnbot.2024.1342786",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Frontiers in Neurorobotics。 Symbolic task planning is a widely used approach to enforce robot autonomy due to its ease of understanding and deployment in engineered robot architectures. However, techniques for symbolic task planning are difficult to scale in real-world, highly dynamic, human-robot collaboration scenarios because of the poor performance in planning domains where action effects may not be immediate, or when frequent re-planning is needed due to changed circumstances in the robot workspace. The validity of plans in the long term, plan length, and planning time could hinder the robot's efficiency and negatively affect the overall human-robot interaction's fluency. We present a framework, which we refer to as Teriyaki, specifically aimed at bridging the gap between symbolic task planning and machine learning approaches. The rationale is training Large Language Models ",
+    "published": "2024-06-04",
+    "first_seen": "2026-10-19T08:17:24.183610+00:00",
+    "doi": "10.3389/fnbot.2024.1342786",
+    "category": "大脑与具身智能",
+    "classification_confidence": "待复核",
+    "classification_reason": "Agent 高层决策证据较弱",
+    "needs_review": true,
+    "tags": [
+      "大脑与具身智能"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Frontiers in Neurorobotics。 Symbolic task planning is a widely used approach to enforce robot autonomy due to its ease of under（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "56107858ca05ff93c1",
@@ -25842,6 +25790,31 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "115cb4d1c3ae9612bb",
+    "title": "A Modular Vision Language Navigation and Manipulation Framework for Long Horizon Compositional Tasks in Indoor Environment",
+    "url": "https://doi.org/10.3389/frobt.2022.930486",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Frontiers in Robotics and AI。 In this paper we propose a new framework—MoViLan (Modular Vision and Language) for execution of visually grounded natural language instructions for day to day indoor household tasks. While several data-driven, end-to-end learning frameworks have been proposed for targeted navigation tasks based on the vision and language modalities, performance on recent benchmark data sets revealed the gap in developing comprehensive techniques for long horizon, compositional tasks (involving manipulation and navigation) with diverse object categories, realistic instructions and visual scenarios with non reversible state changes. We propose a modular approach to deal with the combined navigation and object interaction problem without the need for strictly aligned vision and language training data (e.g., in the form of expert demonstrated trajectories). Such an appro",
+    "published": "2022-07-13",
+    "first_seen": "2026-10-19T08:17:47.414100+00:00",
+    "doi": "10.3389/frobt.2022.930486",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "以视觉语言导航算法或视觉落地为主要任务",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航",
+      "大脑与具身智能",
+      "VLN"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Frontiers in Robotics and AI。 In this paper we propose a new framework—MoViLan (Modular Vision and Language) for execution of v（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "1bd60d37ddcdd36041",
     "title": "Whole-Body Pace Gait Control Based on Centroidal Dynamics of a Quadruped Robot",
     "url": "https://doi.org/10.1109/aim52237.2022.9863265",
@@ -29007,6 +28980,29 @@
     "scope": "可迁移的机器人关键技术",
     "score": 64,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：IEEE Access。This paper presents a solution to develop 3D map of indoor places using a team of rovers equipped with low cost 2D （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "e0ee612f30e7544c8b",
+    "title": "Grounding Language to Natural Human-Robot Interaction in Robot Navigation Tasks",
+    "url": "https://doi.org/10.1109/robio54168.2021.9739344",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：2021 IEEE International Conference on Robotics and Biomimetics (ROBIO)。",
+    "published": "2021-12-27",
+    "first_seen": "2026-10-19T08:17:39.667026+00:00",
+    "doi": "10.1109/robio54168.2021.9739344",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为环境感知、定位、建图或导航",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2021 IEEE International Conference on Robotics and Biomimetics (ROBIO)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
