@@ -1,8 +1,8 @@
 # 特种机器人七日技术简报
 
-生成时间：2026-10-19T08:27:45.342192+00:00
+生成时间：2026-10-19T08:59:49.226861+00:00
 
-最近 7 天首次记录 **1314** 条；本轮新增 **7** 条；总库存 **1314** 条。
+最近 7 天首次记录 **1299** 条；本轮新增 **6** 条；总库存 **1321** 条。
 
 **注意：**‘七日’按首次入库时间统计，不代表论文发表于最近七天；相关度评分只是初筛优先级，不是成熟度或质量评级。
 
@@ -79,8 +79,8 @@
   - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Robotics: Science and Systems XXI。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [QuadrupedGPT: Towards a Versatile Quadruped Agent in Open-ended Worlds](https://doi.org/10.48550/arxiv.2406.16578) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 65/100
   - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。As robotic agents increasingly assist humans in reality, quadruped robots offer unique opportunities（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [An intelligent mission-oriented and situation aware quadruped robot: a novel embodied explainable AI approach](https://doi.org/10.1117/12.2664019) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 64/100
-  - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Unmanned Systems Technology XXV。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Human-Flow-Aware Long-Term Mobile Robot Task Planning Based on Hierarchical Reinforcement Learning](https://doi.org/10.1109/lra.2023.3280816) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 65/100
+  - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：IEEE Robotics and Automation Letters。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 感知建图与导航
 
@@ -131,4 +131,4 @@
 
 ## 五年历史补录进度
 
-已完成 228 / 333 项年度/主题定向查询，详见 [backfill_report.md](backfill_report.md)。
+已完成 247 / 333 项年度/主题定向查询，详见 [backfill_report.md](backfill_report.md)。

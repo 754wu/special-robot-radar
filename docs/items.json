@@ -1,5 +1,30 @@
 [
   {
+    "id": "d428d54f1aeec3f64f",
+    "title": "coverMoon/quadruped_control",
+    "url": "https://github.com/coverMoon/quadruped_control",
+    "source": "GitHub",
+    "type": "代码仓库更新",
+    "description": "四足和轮足机器人的运动控制工程",
+    "published": "2026-10-19T08:40:01Z",
+    "first_seen": "2026-10-19T08:58:24.136619+00:00",
+    "stars": 2,
+    "license": false,
+    "repo_id": 1335089121,
+    "category": "小脑与运动控制",
+    "classification_confidence": "待复核",
+    "classification_reason": "运动控制类别缺少题名中的控制任务证据",
+    "needs_review": true,
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 72,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。四足和轮足机器人的运动控制工程（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "4aacbb7a71d6ed8922",
     "title": "xfjcoder/wam",
     "url": "https://github.com/xfjcoder/wam",
@@ -7947,8 +7972,9 @@
     "published": "2026-05-15",
     "first_seen": "2026-10-12T09:34:31.494636+00:00",
     "doi": "10.1109/ccdc69976.2026.11560457",
-    "category": "特种应用与产品",
+    "category": "感知建图与导航",
     "tags": [
+      "感知建图与导航",
       "特种应用与产品"
     ],
     "industry_tags": [
@@ -7956,11 +7982,11 @@
     ],
     "scope": "特种场景直接相关",
     "score": 76,
-    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：2026 38th Chinese Control and Decision Conference (CCDC)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：消防与应急救援。来源期刊/会议：2026 38th Chinese Control and Decision Conference (CCDC)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "classification_confidence": "待复核",
-    "classification_reason": "特种机器人应用系统，贡献边界待复核",
-    "needs_review": true
+    "classification_confidence": "高",
+    "classification_reason": "明确的巡检视觉感知/任务划分算法，而非整机产品",
+    "needs_review": false
   },
   {
     "id": "cd4fef5c4a802dc08e",
@@ -15687,6 +15713,29 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "169572a30c7be98aec",
+    "title": "Robust Mobile Robot Path Planning Via Llm-Based Dynamic Waypoint Generation",
+    "url": "https://doi.org/10.2139/ssrn.5124311",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "",
+    "published": "2025-01-01",
+    "first_seen": "2026-10-19T08:59:23.916869+00:00",
+    "doi": "10.2139/ssrn.5124311",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为环境感知、定位、建图或导航",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 64,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "267d988f9e306b0201",
     "title": "Firefighting Robot: A Review",
     "url": "https://doi.org/10.22214/ijraset.2024.66156",
@@ -19339,6 +19388,32 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "042624042afcf173d7",
+    "title": "Research on task path planning method for substation inspection robot and UAV based on genetic algorithm",
+    "url": "https://doi.org/10.1117/12.3015333",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Ninth International Symposium on Sensors, Mechatronics, and Automation System (ISSMAS 2023)。",
+    "published": "2024-03-04",
+    "first_seen": "2026-10-19T08:59:17.604818+00:00",
+    "doi": "10.1117/12.3015333",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为环境感知、定位、建图或导航",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航",
+      "特种应用与产品"
+    ],
+    "industry_tags": [
+      "工业与能源巡检"
+    ],
+    "scope": "特种场景直接相关",
+    "score": 77,
+    "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：工业与能源巡检。来源期刊/会议：Ninth International Symposium on Sensors, Mechatronics, and Automation System (ISSMAS 2023)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "127c6ae26bcf23960a",
     "title": "Design of Community Inspection Robot System",
     "url": "https://doi.org/10.47611/jsrhs.v13i1.6134",
@@ -22027,6 +22102,29 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "ef3cf4c571ecf0fe05",
+    "title": "Human-robot collaborative task planning using anticipatory brain responses",
+    "url": "https://doi.org/10.1371/journal.pone.0287958",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：PLOS ONE。 Human-robot interaction (HRI) describes scenarios in which both human and robot work as partners, sharing the same environment or complementing each other on a joint task. HRI is characterized by the need for high adaptability and flexibility of robotic systems toward their human interaction partners. One of the major challenges in HRI is task planning with dynamic subtask assignment, which is particularly challenging when subtask choices of the human are not readily accessible by the robot. In the present work, we explore the feasibility of using electroencephalogram (EEG) based neuro-cognitive measures for online robot learning of dynamic subtask assignment. To this end, we demonstrate in an experimental human subject study, featuring a joint HRI task with a UR10 robotic manipulator, the presence of EEG measures indicative of a human partner anticipating a takeover si",
+    "published": "2023-07-11",
+    "first_seen": "2026-10-19T08:59:44.057679+00:00",
+    "doi": "10.1371/journal.pone.0287958",
+    "category": "大脑与具身智能",
+    "classification_confidence": "高",
+    "classification_reason": "研究任务推理、Agent、工具技能调用或世界模型高层规划",
+    "needs_review": false,
+    "tags": [
+      "大脑与具身智能"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：PLOS ONE。 Human-robot interaction (HRI) describes scenarios in which both human and robot work as partners, sharing the same en（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "1cea3349aff0e6c18f",
     "title": "Navigation for a mobile robot to inspect aircraft",
     "url": "https://doi.org/10.1109/yef-ece58420.2023.10209290",
@@ -22094,6 +22192,30 @@
     "scope": "可迁移的机器人关键技术",
     "score": 65,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Biomimetics。 Robots with bio-inspired locomotion systems, such as quadruped robots, have recently attracted significant scienti（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "6d15e0af1e10f127b3",
+    "title": "Human-Flow-Aware Long-Term Mobile Robot Task Planning Based on Hierarchical Reinforcement Learning",
+    "url": "https://doi.org/10.1109/lra.2023.3280816",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：IEEE Robotics and Automation Letters。",
+    "published": "2023-07-01",
+    "first_seen": "2026-10-19T08:59:44.057148+00:00",
+    "doi": "10.1109/lra.2023.3280816",
+    "category": "大脑与具身智能",
+    "classification_confidence": "高",
+    "classification_reason": "研究任务推理、Agent、工具技能调用或世界模型高层规划",
+    "needs_review": false,
+    "tags": [
+      "大脑与具身智能",
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 65,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：IEEE Robotics and Automation Letters。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -26056,12 +26178,12 @@
     "id": "3e7f73e3b075032322",
     "title": "Development of Pipe Inspection Robot",
     "url": "https://doi.org/10.22214/ijraset.2022.44714",
-    "source": "Crossref",
+    "source": "OpenAlex",
     "type": "论文（摘要）",
-    "description": "来源期刊/会议：International Journal for Research in Applied Science and Engineering Technology。 Abstract: Pipelines have been a major source to transfer oil and gas from one destination to another as they are economical when compared to other transportation means. Usually metal pipes are used which can undergo corrosion, develop cavities and holes leading to leakage of fluid and develop irregularities on the inner surface. And therefore require proper periodic maintenance. The inspection of pipes is difficult as they carry toxic chemicals, fluids and most of the time have small internal diameter or bends and also usually underground which become inaccessible to humans. This brings the need to develop an inspection device.",
+    "description": "来源期刊/会议：International Journal for Research in Applied Science and Engineering Technology。Abstract: Pipelines have been a major source to transfer oil and gas from one destination to another as they are economical when compared to other transportation means. Usually metal pipes are used which can undergo corrosion, develop cavities and holes leading to leakage of fluid and develop irregularities on the inner surface. And therefore require proper periodic maintenance. The inspection of pipes is difficult as they carry toxic chemicals, fluids and most of the time have small internal diameter or bends and also usually underground which become inaccessible to humans. This brings the need to develop an inspection device.",
     "published": "2022-06-30",
     "first_seen": "2026-10-15T05:35:37.436817+00:00",
-    "doi": "10.22214/ijraset.2022.44714",
+    "doi": "https://doi.org/10.22214/ijraset.2022.44714",
     "category": "特种应用与产品",
     "classification_confidence": "待复核",
     "classification_reason": "特种机器人应用系统，贡献边界待复核",
@@ -26075,7 +26197,7 @@
     ],
     "scope": "特种场景直接相关",
     "score": 80,
-    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：防爆石化与危险环境、工业与能源巡检。来源期刊/会议：International Journal for Research in Applied Science and Engineering Technology。 Abstract: Pipelines have been a major source （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：防爆石化与危险环境、工业与能源巡检。来源期刊/会议：International Journal for Research in Applied Science and Engineering Technology。Abstract: Pipelines have been a major source t（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -28445,6 +28567,32 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "d876719568b6aeea35",
+    "title": "Smart Controls for Switched Reluctance Motor 8/6 Used for Electric Vehicles Underground Mining Security",
+    "url": "https://doi.org/10.18280/ejee.230601",
+    "source": "OpenAlex",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：European Journal of Electrical Engineering。Switched reluctance motors (SRM) are a type of electromagnetic machine that has piqued the interest of manufacturers, as opposed to induction, brushless, or permanent magnet machines.This is because the rotor is simple, robust, and lacks coils, windings, and permanent magnets.It can also operate in a wide range of power in the electric vehicle's drive, even in extreme conditions such as underground mines, ensuring a longer life of service.However, due to the toothed shape of the rotor, the SRM is characterized by vibration and acoustic noise.To solve this problem to better adapt the SRM to the electric vehicle, we propose to use intelligent techniques such as the controller (ANN) and the fractional order controller (PI α ).This article compares two intelligent speed controllers that use direct torque control (DTC) to reduce torque ripple",
+    "published": "2021-12-31",
+    "first_seen": "2026-10-19T08:59:14.251140+00:00",
+    "doi": "https://doi.org/10.18280/ejee.230601",
+    "category": "小脑与运动控制",
+    "classification_confidence": "待复核",
+    "classification_reason": "运动控制类别缺少题名中的控制任务证据",
+    "needs_review": true,
+    "tags": [
+      "小脑与运动控制",
+      "特种应用与产品"
+    ],
+    "industry_tags": [
+      "矿山与地下空间"
+    ],
+    "scope": "特种场景直接相关",
+    "score": 77,
+    "summary": "行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：矿山与地下空间。来源期刊/会议：European Journal of Electrical Engineering。Switched reluctance motors (SRM) are a type of electromagnetic machine that has piqu（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "b7a0b26bf311005e81",
     "title": "Deploying underground drones for real-time void detection, stope stability assessment, and predictive hazard analysis",
     "url": "https://doi.org/10.30574/gjeta.2021.9.3.0178",
@@ -28591,12 +28739,12 @@
     "id": "a02c4811d12ee5789b",
     "title": "Gait Control Applications on Four Legged Robot",
     "url": "https://doi.org/10.54732/jeecs.v6i2.198",
-    "source": "Crossref",
+    "source": "OpenAlex",
     "type": "论文（摘要）",
-    "description": "来源期刊/会议：JEECS (Journal of Electrical Engineering and Computer Sciences)。 A common problem faced by four-legged robots is when they encounter obstacles that have structures that force the robot to lift its legs higher than the robot's ability limit and can disrupt the robot's balance, so it is necessary to add a gait control method. This research has resulted in controlling the movement of a four-legged robot using the wave gait control method to pass obstacles in the form of stairs and uneven floors, where the movement of the robot by lifting one leg at a time makes the balance of the robot very awake. So that the robot can make decisions if the robot encounters obstacles in the form of stairs and uneven floors, the role of the ultrasonic sensor is very decisive in reading the environment. The way for the robot to climb stairs and not fall backwards is to slide the robot's hind legs back",
+    "description": "来源期刊/会议：JEECS (Journal of Electrical Engineering and Computer Sciences)。A common problem faced by four-legged robots is when they encounter obstacles that have structures that force the robot to lift its legs higher than the robot's ability limit and can disrupt the robot's balance, so it is necessary to add a gait control method. This research has resulted in controlling the movement of a four-legged robot using the wave gait control method to pass obstacles in the form of stairs and uneven floors, where the movement of the robot by lifting one leg at a time makes the balance of the robot very awake. So that the robot can make decisions if the robot encounters obstacles in the form of stairs and uneven floors, the role of the ultrasonic sensor is very decisive in reading the environment. The way for the robot to climb stairs and not fall backwards is to slide the robot's hind legs back ",
     "published": "2021-12-31",
     "first_seen": "2026-10-15T05:54:57.267815+00:00",
-    "doi": "10.54732/jeecs.v6i2.198",
+    "doi": "https://doi.org/10.54732/jeecs.v6i2.198",
     "category": "小脑与运动控制",
     "classification_confidence": "高",
     "classification_reason": "核心任务为运动、步态、控制或机器人操作",
@@ -28607,7 +28755,7 @@
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 64,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：JEECS (Journal of Electrical Engineering and Computer Sciences)。 A common problem faced by four-legged robots is when they enco（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：JEECS (Journal of Electrical Engineering and Computer Sciences)。A common problem faced by four-legged robots is when they encou（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -28778,12 +28926,12 @@
     "id": "7f76e8ac195989f4b3",
     "title": "Path Selection for the Inspection Robot by m-Generalized q-Neutrosophic PROMETHEE Approach",
     "url": "https://doi.org/10.3390/en15010223",
-    "source": "Crossref",
+    "source": "OpenAlex",
     "type": "论文（摘要）",
-    "description": "来源期刊/会议：Energies。 Path planning can be considered the most vital task of the autonomous robot. In this task, selecting an optimal route from the starting to the target position becomes an important problem that must be addressed when multiple competing optimization priorities are considered. Thus, a novel route assessment strategy based on a multi-criteria decision-making approach is proposed. The m-generalized q-neutrosophic PROMETHEE (PROMETHEE-mGqNS) method is applied to aggregate the competing route assessment requirements and choose an optimal route. A case study is investigated to explain the proposed strategy for path planning in a typical environment and indicates the method stability when incomplete input data characteristics are present.",
+    "description": "来源期刊/会议：Energies。Path planning can be considered the most vital task of the autonomous robot. In this task, selecting an optimal route from the starting to the target position becomes an important problem that must be addressed when multiple competing optimization priorities are considered. Thus, a novel route assessment strategy based on a multi-criteria decision-making approach is proposed. The m-generalized q-neutrosophic PROMETHEE (PROMETHEE-mGqNS) method is applied to aggregate the competing route assessment requirements and choose an optimal route. A case study is investigated to explain the proposed strategy for path planning in a typical environment and indicates the method stability when incomplete input data characteristics are present.",
     "published": "2021-12-29",
     "first_seen": "2026-10-15T05:54:40.549182+00:00",
-    "doi": "10.3390/en15010223",
+    "doi": "https://doi.org/10.3390/en15010223",
     "category": "特种应用与产品",
     "classification_confidence": "待复核",
     "classification_reason": "特种机器人应用系统，贡献边界待复核",
@@ -28796,7 +28944,7 @@
     ],
     "scope": "特种场景直接相关",
     "score": 77,
-    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：Energies。 Path planning can be considered the most vital task of the autonomous robot. In this task, selecting an optimal route（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：Energies。Path planning can be considered the most vital task of the autonomous robot. In this task, selecting an optimal route （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -29401,6 +29549,29 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "817a4309728c35d868",
+    "title": "Intelligent Path Planning Approach for Autonomous Mobile Robot",
+    "url": "https://doi.org/10.20965/jrm.2021.p1423",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Journal of Robotics and Mechatronics。 This paper presents a new path planning algorithm for an autonomous mobile robot. It is desired that the robot reaches its goal in a known or partially known environment (e.g., a warehouse or an urban environment) and avoids collisions with walls and other obstacles. To this end, a new, efficient, simple, and flexible path finder strategy for the robot is proposed in this paper. With the proposed strategy, the optimal path from the robot’s current position to the goal position is guaranteed. The environment is represented as a grid-based map, which is then divided into a predefined number of subfields to reduce the number of required computations. This leads to a reduction in the load on the controller and allows a real-time response. To evaluate the flexibility and efficiency of the proposed strategy, several tests were simulated with enviro",
+    "published": "2021-12-20",
+    "first_seen": "2026-10-19T08:59:30.603460+00:00",
+    "doi": "10.20965/jrm.2021.p1423",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为环境感知、定位、建图或导航",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 64,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Journal of Robotics and Mechatronics。 This paper presents a new path planning algorithm for an autonomous mobile robot. It is d（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "43777111b01b2c1edf",
     "title": "Non-Invasive Inspections: A Review on Methods and Tools",
     "url": "https://doi.org/10.3390/s21248474",
@@ -29722,11 +29893,12 @@
     "published": "2021-12-10",
     "first_seen": "2026-10-18T05:53:45.163788+00:00",
     "doi": "10.1109/tocs53301.2021.9688763",
-    "category": "特种应用与产品",
+    "category": "感知建图与导航",
     "classification_confidence": "待复核",
-    "classification_reason": "元数据不足，临时标记待复核（不视为应用领域确认）",
+    "classification_reason": "导航/感知类别缺少题名中的明确研究任务",
     "needs_review": true,
     "tags": [
+      "感知建图与导航",
       "特种应用与产品"
     ],
     "industry_tags": [
@@ -29734,7 +29906,7 @@
     ],
     "scope": "特种场景直接相关",
     "score": 76,
-    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：2021 IEEE Conference on Telecommunications, Optics and Computer Science (TOCS)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：工业与能源巡检。来源期刊/会议：2021 IEEE Conference on Telecommunications, Optics and Computer Science (TOCS)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -30430,11 +30602,12 @@
     "published": "2021-11-04",
     "first_seen": "2026-10-18T05:53:45.164459+00:00",
     "doi": "10.1109/rcae53607.2021.9638931",
-    "category": "特种应用与产品",
+    "category": "感知建图与导航",
     "classification_confidence": "待复核",
-    "classification_reason": "元数据不足，临时标记待复核（不视为应用领域确认）",
+    "classification_reason": "导航/感知类别缺少题名中的明确研究任务",
     "needs_review": true,
     "tags": [
+      "感知建图与导航",
       "特种应用与产品"
     ],
     "industry_tags": [
@@ -30442,7 +30615,7 @@
     ],
     "scope": "特种场景直接相关",
     "score": 76,
-    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：2021 4th International Conference on Robotics, Control and Automation Engineering (RCAE)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：工业与能源巡检。来源期刊/会议：2021 4th International Conference on Robotics, Control and Automation Engineering (RCAE)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
