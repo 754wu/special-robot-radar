@@ -130,8 +130,20 @@ def run_backfill(config: dict, max_openalex: int = 24, max_crossref: int = 8,
     done = state["completed"]
     now = radar.utc_now()
     cutoff = radar.months_ago(int(config.get("history_months", 60)))
+    # Prioritize a small, permanent budget for historically underrepresented
+    # embodied-agent research without resetting existing successful checkpoints.
+    brain_config = dict(config)
+    brain_config["archive_openalex_queries"] = config.get("brain_archive_openalex_queries", [])
+    brain_config["archive_crossref_queries"] = config.get("brain_archive_crossref_queries", [])
     queue_oa = backfill_queue(config, now, done, "OpenAlex")
     queue_cr = backfill_queue(config, now, done, "Crossref")
+    brain_oa = backfill_queue(brain_config, now, done, "OpenAlex")
+    brain_cr = backfill_queue(brain_config, now, done, "Crossref")
+    brain_set_oa = {job[0] for job in brain_oa}
+    brain_set_cr = {job[0] for job in brain_cr}
+    # Keep brain-specific backfill slots ahead of legacy queries each day.
+    queue_oa = brain_oa + [job for job in queue_oa if job[0] not in brain_set_oa]
+    queue_cr = brain_cr + [job for job in queue_cr if job[0] not in brain_set_cr]
     # Explicit year/task coverage is available in JSON even if API access fails.
     total_jobs = len(queue_oa) + len(queue_cr) + len(done)
     original_history = radar.load_history()

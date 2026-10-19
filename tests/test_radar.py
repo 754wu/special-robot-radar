@@ -288,6 +288,38 @@ class RadarTests(unittest.TestCase):
                 self.assertEqual(got.category, category)
                 self.assertEqual(got.review, review)
 
+    def test_embodied_agent_recall_without_navigation_contamination(self):
+        from taxonomy import classify_contribution
+        cases = [
+            ("BT-Agent: Deploying Onboard Robot Agents with Behavior Trees and Multi-Fidelity Evaluation", "Deploying language-model agents requires task reasoning, behavior-tree skills and failure feedback.", "大脑与具身智能"),
+            ("CAMON: Cooperative Agents for Multi-Object Navigation with LLM-based Conversations", "Cooperative robot agents use LLM conversations for planning.", "大脑与具身智能"),
+            ("VIA: Visual Interface Agent for Robot Control", "Off-the-shelf foundation model powered agent performs task planning through an interface.", "大脑与具身智能"),
+            ("ASENA: Self-evolving Agents for Embodied Navigation", "Robot agent calls tools and executes skills.", "大脑与具身智能"),
+            ("Fast-VLA: You Only Think Once for Robot Manipulation", "A vision-language-action model uses a frozen VLM to build task context memory.", "大脑与具身智能"),
+            ("CLASH: Collaborative Large-Small Hierarchical Framework for Continuous Vision-and-Language Navigation", "Reflective large-model reasoner and small-model reactive planner cooperate.", "大脑与具身智能"),
+            ("DeCoNav: Dialog enhanced Long-Horizon Collaborative Vision-Language Navigation", "Multi-robot dialog and cooperative reasoning.", "大脑与具身智能"),
+            ("ZeST: A VLM-based Zero-Shot Traversability Navigation for Unknown Environments", "Uses a VLM to measure terrain traversability and infer a posterior.", "感知建图与导航"),
+            ("SLAM with Multi-Agent Reinforcement Learning for Quadruped Navigation", "An RL-based low-level controller.", "感知建图与导航"),
+            ("Multi-Agent Reinforcement Learning for Quadruped Locomotion", "Walking via policy learning.", "小脑与运动控制"),
+            ("JitterVLA: A Replay Benchmark for Motion Quality in VLA-Driven Manipulation", "Benchmark comparing controllers.", "基础软件与系统"),
+        ]
+        for title, abstract, expected in cases:
+            with self.subTest(title=title):
+                self.assertEqual(classify_contribution(title, abstract).category, expected)
+
+    def test_embodied_queries_reserved_in_config(self):
+        from backfill import backfill_queue
+        from datetime import datetime, timezone
+        from pathlib import Path
+        cfg=json.loads(Path("config.json").read_text())
+        self.assertTrue(cfg["brain_openalex_queries"])
+        self.assertTrue(cfg["brain_archive_openalex_queries"])
+        b=dict(cfg)
+        b["archive_openalex_queries"]=cfg["brain_archive_openalex_queries"]
+        queue=backfill_queue(b, datetime(2026,10,19,tzinfo=timezone.utc), {}, "OpenAlex")
+        self.assertGreater(len(queue),20)
+        self.assertEqual(len(queue),len(set(j[0] for j in queue)))
+
     def test_primary_contribution_misclassification_regressions(self):
         from taxonomy import classify_contribution
         examples = [

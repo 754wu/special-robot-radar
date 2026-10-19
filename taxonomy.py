@@ -511,6 +511,14 @@ def classify_contribution(title: str, description: str = "", source: str = "") -
                           "待复核" if review else "高"), t, d
         )
 
+    # Dedicated evidence-based embodied classifier; avoid counting every use of
+    # "agent" or "VLM" as high-level embodied reasoning.
+    from embodied_topics import embodied_decision
+    embodied = embodied_decision(t, d)
+    if embodied is not None:
+        return result(embodied.category, embodied.reason, embodied.related,
+                      review=embodied.review)
+
     # Resolve ambiguous mechanical/ML/simulation/platform headlines before
     # the physical-design keyword stage. Do not mutate cross-domain evidence.
     boundary = hardware_boundary_decision(t, d)
