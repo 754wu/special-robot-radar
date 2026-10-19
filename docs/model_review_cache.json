@@ -1,1 +1,30 @@
-{}
+{
+  "140312fabf575d82271916349ce43ebde7739d2236f307a0e6dae0628d279bcb": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "摘要主体是四足机器人步长条件下的运动控制（SLR 扩展），属低级 locomotion 控制，非 LLM/VLM 代理规划或普通 VLN。",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "bfef615a6c9413a16bfa53897da8e9100c8afe0a379e954e4726db0f76d34789": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "标题和摘要明确指出四足和轮足机器人的运动控制工程，属于运动控制研究",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "d2227fc8d3b209cdcb3458329eb219b850aae8ca8a13604e0e3f80b41da1601d": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "标题和摘要表明是学习前向动态世界模型用于 quadruped 的运动预测，属于低层次运动控制。",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "2a456d33e840b900cd88fc94cb703ccbdb4feb050ae8857168bc08a9d69da9c3": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "标题和摘要表明工作是训练RL locomotion policies，属于低层运动控制，非高层LLM/VLM或VLN。",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  }
+}

@@ -1,5 +1,30 @@
 [
   {
+    "id": "03f755c1a9139392d9",
+    "title": "Yoshifumi-Masuya/slr-stride",
+    "url": "https://github.com/Yoshifumi-Masuya/slr-stride",
+    "source": "GitHub",
+    "type": "代码仓库更新",
+    "description": "Stride-length-conditioned quadruped locomotion for the Unitree Go2, extending SLR with an Isaac Lab port and ROS 2 deployment",
+    "published": "2026-10-19T08:58:01Z",
+    "first_seen": "2026-10-19T09:05:52.205529+00:00",
+    "stars": 0,
+    "license": false,
+    "repo_id": 1425270547,
+    "category": "小脑与运动控制",
+    "classification_confidence": "待复核",
+    "classification_reason": "运动控制类别缺少题名中的控制任务证据",
+    "needs_review": true,
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 69,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。Stride-length-conditioned quadruped locomotion for the Unitree Go2, extending SLR with an Isaac Lab port and ROS 2 deployment（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "d428d54f1aeec3f64f",
     "title": "coverMoon/quadruped_control",
     "url": "https://github.com/coverMoon/quadruped_control",
@@ -10572,6 +10597,32 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "14291968c8a4b2318b",
+    "title": "Design and Fabrication of an All-Terrain Robot for Remote Deliveries Using LoRa Technology",
+    "url": "https://doi.org/10.38124/ijisrt/25dec1258",
+    "source": "OpenAlex",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：International Journal of Innovative Science and Research Technology (IJISRT)。This paper presents the design and fabrication of a robust all-terrain robot capable of delivering essential resources to remote and isolated areas where conventional transportation infrastructure is inadequate. The system addresses critical challenges in disaster relief, emergency response, and remote supply distribution by integrating LoRa (Long Range) communication technology, which operates independently of internet or Wi-Fi connectivity. The robot employs an adaptive suspension system inspired by five-degree-of-freedom designs to ensure stability on uneven terrain, coupled with an optimized powertrain for enhanced energy efficiency. The prototype successfully demonstrated reliable communication over a range of 750–900 meters, effective terrain traversal, secure payload transport, and extended operat",
+    "published": "2025-12-30",
+    "first_seen": "2026-10-19T09:06:42.608947+00:00",
+    "doi": "https://doi.org/10.38124/ijisrt/25dec1258",
+    "category": "特种应用与产品",
+    "classification_confidence": "待复核",
+    "classification_reason": "元数据不足，临时标记待复核（不视为应用领域确认）",
+    "needs_review": true,
+    "tags": [
+      "特种应用与产品"
+    ],
+    "industry_tags": [
+      "消防与应急救援",
+      "野外与特种地形"
+    ],
+    "scope": "特种场景直接相关",
+    "score": 79,
+    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援、野外与特种地形。来源期刊/会议：International Journal of Innovative Science and Research Technology (IJISRT)。This paper presents the design and fabrication of （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "0cbbb5f144fef4c79a",
     "title": "การพฒนาหนยนตตรวจสอบสภาพใบกงหนลมผลตไฟฟา",
     "url": "https://li01.tci-thaijo.org/index.php/PRRJ_Scitech/article/view/265900",
@@ -13199,6 +13250,32 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "3bf65b2bf5cfe0719d",
+    "title": "MTU-LLM: LLM-based Multi-Robot Task Allocation and Path Planning for Heterogeneous Robots in Search and Rescue Operations",
+    "url": "https://doi.org/10.5772/acrt.20250014",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：AI, Computer Science and Robotics Technology。 Urban Search and Rescue operations after natural disasters involve locating and assisting victims in hazardous environments, which is challenging. Classical Multi-Robot Task Allocation (MRTA) and path planning approaches have been used to deploy heterogeneous robot teams in unsafe areas. However, existing methods often lack focus on workload balance and requirement fulfillment and struggle to generalize across different scenarios. To address these challenges, we propose Multi-robot Task allocation Utilizing LLMs (MTU-LLM), a framework designed to reduce the development time for task allocation and path planning approaches, enabling faster robot deployment. The framework uses an LLM-based “prompt engineering” approach that generates task allocation and path planning scripts for heterogeneous robot teams. This method is scalable, repeat",
+    "published": "2025-07-09",
+    "first_seen": "2026-10-19T09:06:53.873357+00:00",
+    "doi": "10.5772/acrt.20250014",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为环境感知、定位、建图或导航",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航",
+      "特种应用与产品"
+    ],
+    "industry_tags": [
+      "消防与应急救援"
+    ],
+    "scope": "特种场景直接相关",
+    "score": 76,
+    "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：消防与应急救援。来源期刊/会议：AI, Computer Science and Robotics Technology。 Urban Search and Rescue operations after natural disasters involve locating and a（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "07ea7cda9ffeb3cf2e",
     "title": "A Compact Reconfigurable Terrestrial-Aerial Robot With Foldable Mechanisms for Rolling, Crawling, and Flying",
     "url": "https://doi.org/10.1109/lra.2025.3585395",
@@ -13267,6 +13344,29 @@
     "scope": "可迁移的机器人关键技术",
     "score": 73,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：IEEE Robotics and Automation Letters。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "e797a0c1dc6e926d4a",
+    "title": "Robust mobile robot path planning via LLM-based dynamic waypoint generation",
+    "url": "https://doi.org/10.1016/j.eswa.2025.127600",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Expert Systems with Applications。",
+    "published": "2025-07-01",
+    "first_seen": "2026-10-19T08:59:23.916869+00:00",
+    "doi": "10.1016/j.eswa.2025.127600",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为环境感知、定位、建图或导航",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 64,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Expert Systems with Applications。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -14004,6 +14104,31 @@
     "scope": "特种场景直接相关",
     "score": 84,
     "summary": "行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：工业与能源巡检。来源期刊/会议：Indonesian Journal of Computer Science。In Indonesia there is often a flood caused by continuous heavy rain, based on the observ（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "60e8ed12b516658aa6",
+    "title": "Smart Wireless Power Transfer: A Review of Integrating AI and Sensing for Next-Generation Robotic and IoT Systems",
+    "url": "https://doi.org/10.20944/preprints202506.2021.v1",
+    "source": "OpenAlex",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Preprints.org。Wireless Power Transfer (WPT) has emerged as a critical enabler for autonomous systems, offering an alternative to battery replacements or manual charging. However, traditional WPT systems often suffer from limited flexibility, misalignment sensitivity, and inefficiencies in dynamic environments. This paper presents a conceptual and technical overview of a smart WPT system enhanced by Artificial Intelligence (AI) and sensing technologies. Building on a retractable coil design for mid-sized mobile robots, we explore how AI models and sensor feedback can be integrated to optimize alignment, safety, and energy delivery in real-time. We propose applications in mobile robotics, industrial inspection, and smart IoT networks, while also addressing challenges such as misalignment detection, adaptive control, and system integration.",
+    "published": "2025-06-25",
+    "first_seen": "2026-10-19T09:06:32.796260+00:00",
+    "doi": "https://doi.org/10.20944/preprints202506.2021.v1",
+    "category": "特种应用与产品",
+    "classification_confidence": "待复核",
+    "classification_reason": "元数据不足，临时标记待复核（不视为应用领域确认）",
+    "needs_review": true,
+    "tags": [
+      "特种应用与产品"
+    ],
+    "industry_tags": [
+      "工业与能源巡检"
+    ],
+    "scope": "特种场景直接相关",
+    "score": 71,
+    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：Preprints.org。Wireless Power Transfer (WPT) has emerged as a critical enabler for autonomous systems, offering an alternative t（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -15713,54 +15838,6 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
-    "id": "169572a30c7be98aec",
-    "title": "Robust Mobile Robot Path Planning Via Llm-Based Dynamic Waypoint Generation",
-    "url": "https://doi.org/10.2139/ssrn.5124311",
-    "source": "Crossref",
-    "type": "论文（摘要）",
-    "description": "",
-    "published": "2025-01-01",
-    "first_seen": "2026-10-19T08:59:23.916869+00:00",
-    "doi": "10.2139/ssrn.5124311",
-    "category": "感知建图与导航",
-    "classification_confidence": "高",
-    "classification_reason": "核心任务为环境感知、定位、建图或导航",
-    "needs_review": false,
-    "tags": [
-      "感知建图与导航"
-    ],
-    "industry_tags": [],
-    "scope": "可迁移的机器人关键技术",
-    "score": 64,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
-  },
-  {
-    "id": "267d988f9e306b0201",
-    "title": "Firefighting Robot: A Review",
-    "url": "https://doi.org/10.22214/ijraset.2024.66156",
-    "source": "Crossref",
-    "type": "论文（摘要）",
-    "description": "来源期刊/会议：International Journal for Research in Applied Science and Engineering Technology。 Firefighting is an inherently dangerous profession, placing human lives at high risk. With advancements in robotics, firefighting robots are becoming viable alternatives for operating in hazardous conditions. This paper explores the design, components, and technologies that power firefighting robots, such as sensors, AI-driven navigation, and suppression systems. It also discusses real-world applications, case studies, the economic and environmental impacts of robotic firefighting solutions, and the challenges in their adoption. The study concludes with insights into future technological advancements and their potential to revolutionize fire management",
-    "published": "2024-12-31",
-    "first_seen": "2026-10-15T01:40:17.998581+00:00",
-    "doi": "10.22214/ijraset.2024.66156",
-    "category": "特种应用与产品",
-    "tags": [
-      "特种应用与产品"
-    ],
-    "industry_tags": [
-      "消防与应急救援"
-    ],
-    "scope": "特种场景直接相关",
-    "score": 77,
-    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：International Journal for Research in Applied Science and Engineering Technology。 Firefighting is an inherently dangerous profe（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "classification_confidence": "待复核",
-    "classification_reason": "特种机器人应用系统，贡献边界待复核",
-    "needs_review": true
-  },
-  {
     "id": "e32d28faac9a4dfd19",
     "title": "Assessing the fidelity of ultrasonic distance sensors in a fire-and-smoke environment",
     "url": "https://doi.org/10.47264/idea.ajset/3.1.9",
@@ -16023,6 +16100,31 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "267d988f9e306b0201",
+    "title": "Firefighting Robot: A Review",
+    "url": "https://doi.org/10.22214/ijraset.2024.66156",
+    "source": "OpenAlex",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：International Journal for Research in Applied Science and Engineering Technology。Firefighting is an inherently dangerous profession, placing human lives at high risk. With advancements in robotics, firefighting robots are becoming viable alternatives for operating in hazardous conditions. This paper explores the design, components, and technologies that power firefighting robots, such as sensors, AI-driven navigation, and suppression systems. It also discusses real-world applications, case studies, the economic and environmental impacts of robotic firefighting solutions, and the challenges in their adoption. The study concludes with insights into future technological advancements and their potential to revolutionize fire management",
+    "published": "2024-12-30",
+    "first_seen": "2026-10-15T01:40:17.998581+00:00",
+    "doi": "https://doi.org/10.22214/ijraset.2024.66156",
+    "category": "特种应用与产品",
+    "classification_confidence": "待复核",
+    "classification_reason": "特种机器人应用系统，贡献边界待复核",
+    "needs_review": true,
+    "tags": [
+      "特种应用与产品"
+    ],
+    "industry_tags": [
+      "消防与应急救援"
+    ],
+    "scope": "特种场景直接相关",
+    "score": 77,
+    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：International Journal for Research in Applied Science and Engineering Technology。Firefighting is an inherently dangerous profes（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "3f550f8eb08ae39856",
     "title": "Hybrid Metric‐Topological Localization for Robots in Pipe Networks",
     "url": "https://doi.org/10.1002/rob.22495",
@@ -16261,6 +16363,32 @@
     "scope": "特种场景直接相关",
     "score": 81,
     "summary": "行业筛选：特种场景直接相关；方向：基础软件与系统；关联：野外与特种地形。来源期刊/会议：Journal of Field Robotics。ABSTRACT The deployment of the robotic system that executes specific task is being challenged by the （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "143a4ff95f7aeef346",
+    "title": "Cognitive Load-Based Affective Workload Allocation for Multihuman Multirobot Teams",
+    "url": "https://doi.org/10.1109/thms.2024.3509223",
+    "source": "OpenAlex",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：IEEE Transactions on Human-Machine Systems。The interaction and collaboration between humans and multiple robots represent a novel field of research known as human multirobot systems. Adequately designed systems within this field allow teams composed of both humans and robots to work together effectively on tasks, such as monitoring, exploration, and search and rescue operations. This article presents a deep reinforcement learning-based affective workload allocation controller specifically for multihuman multirobot teams. The proposed controller can dynamically reallocate workloads based on the performance of the operators during collaborative missions with multirobot systems. The operators' performances are evaluated through the scores of a self-reported questionnaire (i.e., subjective measurement) and the results of a deep learning-based cognitive workload prediction algorithm t",
+    "published": "2024-12-27",
+    "first_seen": "2026-10-19T09:06:40.327699+00:00",
+    "doi": "https://doi.org/10.1109/thms.2024.3509223",
+    "category": "小脑与运动控制",
+    "classification_confidence": "待复核",
+    "classification_reason": "运动控制类别缺少题名中的控制任务证据",
+    "needs_review": true,
+    "tags": [
+      "小脑与运动控制",
+      "特种应用与产品"
+    ],
+    "industry_tags": [
+      "消防与应急救援"
+    ],
+    "scope": "特种场景直接相关",
+    "score": 71,
+    "summary": "行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：消防与应急救援。来源期刊/会议：IEEE Transactions on Human-Machine Systems。The interaction and collaboration between humans and multiple robots represent a nov（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -18083,6 +18211,29 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "617cdbe9daf77eb069",
+    "title": "Graph-Based SLAM-Aware Exploration With Prior Topo-Metric Information",
+    "url": "https://doi.org/10.1109/lra.2024.3420817",
+    "source": "OpenAlex",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：IEEE Robotics and Automation Letters。Autonomous exploration requires a robot to explore an unknown environment while constructing an accurate map using Simultaneous Localization and Mapping (SLAM) techniques. Without prior information, the exploration performance is usually conservative due to the limited planning horizon. This letter exploits prior information about the environment, represented as a topo-metric graph, to benefit both the exploration efficiency and the pose graph reliability in SLAM. Based on the relationship between pose graph reliability and graph topology, we formulate a SLAM-aware path planning problem over the prior graph, which finds a fast exploration path enhanced with the globally informative loop-closing actions to stabilize the SLAM pose graph. A greedy algorithm is proposed to solve the problem, where theoretical thresholds are derived to significantl",
+    "published": "2024-06-28",
+    "first_seen": "2026-10-19T09:06:31.243553+00:00",
+    "doi": "https://doi.org/10.1109/lra.2024.3420817",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "主要任务是环境感知/地形估计而非 Agent 决策",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：IEEE Robotics and Automation Letters。Autonomous exploration requires a robot to explore an unknown environment while constructi（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "10ecb10ac7d375fe7d",
     "title": "Neuromorphic Quadratic Programming for Efficient and Scalable Model Predictive Control: Towards Advancing Speed and Energy Efficiency in Robotic Control",
     "url": "https://doi.org/10.1109/mra.2024.3415005",
@@ -18221,6 +18372,32 @@
     "scope": "可迁移的机器人关键技术",
     "score": 62,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：International Journal of Network Dynamics and Intelligence。A simultaneous localization and mapping (SLAM) system is presented i（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "531afb65925154ae62",
+    "title": "DESIGN OF FIRE FIGHTING ROBOTIC SYSTEM FOR FIRE DISASTER CONTROL",
+    "url": "https://doi.org/10.30780/specialissue-iset-2024/004",
+    "source": "OpenAlex",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：International Journal of Technical Research & Science。- The increasing occurrences of fire-related disasters necessitate advanced technologies for efficient firefighting operations. In this context, the development of fire-fighting robots emerges as a promising solution. This abstract outline the design, functionality, and potential applications of a cutting-edge fire-fighting robot. The fire-fighting robot is equipped with a robust mechanical structure designed to withstand high temperatures and navigate through challenging terrains. It integrates state-of-the-art sensors, including thermal imaging cameras and gas detectors, enabling real-time monitoring of the fire environment. These sensors provide crucial data for decision-making algorithms implemented in the robot's control system. The control system incorporates artificial intelligence algorithms for autonomous navigation, ",
+    "published": "2024-06-25",
+    "first_seen": "2026-10-19T09:06:31.245855+00:00",
+    "doi": "https://doi.org/10.30780/specialissue-iset-2024/004",
+    "category": "感知建图与导航",
+    "classification_confidence": "待复核",
+    "classification_reason": "导航/感知类别缺少题名中的明确研究任务",
+    "needs_review": true,
+    "tags": [
+      "感知建图与导航",
+      "特种应用与产品"
+    ],
+    "industry_tags": [
+      "消防与应急救援"
+    ],
+    "scope": "特种场景直接相关",
+    "score": 72,
+    "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：消防与应急救援。来源期刊/会议：International Journal of Technical Research & Science。- The increasing occurrences of fire-related disasters necessitate advanc（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -18501,6 +18678,32 @@
     "scope": "可迁移的机器人关键技术",
     "score": 72,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2024 6th International Conference on Reconfigurable Mechanisms and Robots (ReMAR)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "df6aa32e6f78c8fa01",
+    "title": "UGV-CBRN: An Unmanned Ground Vehicle for Chemical, Biological, Radiological, and Nuclear Disaster Response",
+    "url": "https://doi.org/10.48550/arxiv.2406.14385",
+    "source": "OpenAlex",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：arXiv (Cornell University)。Robotic search and rescue (SAR) supports response teams by accelerating disaster assessment and by keeping operators away from hazardous environments. In the event of a chemical, biological, radiological, and nuclear (CBRN) disaster, robots are deployed to identify and locate radiation sources. Human responders then assess the situation and neutralize the danger. The presented system takes a step toward enhanced integration of robots into SAR teams. Integrating autonomous radiation mapping with semi-autonomous substance sampling and online analysis of the CBRN threat lets the human operator localize and assess the threat from a safe distance. Two LiDARs, an IMU, and a Geiger counter are used for mapping the surrounding area and localizing potential radiation sources. A mobile manipulator with six Degrees of Freedom manipulates valves and samples substan",
+    "published": "2024-06-20",
+    "first_seen": "2026-10-19T09:06:31.247128+00:00",
+    "doi": "https://doi.org/10.48550/arxiv.2406.14385",
+    "category": "感知建图与导航",
+    "classification_confidence": "待复核",
+    "classification_reason": "导航/感知类别缺少题名中的明确研究任务",
+    "needs_review": true,
+    "tags": [
+      "感知建图与导航",
+      "特种应用与产品"
+    ],
+    "industry_tags": [
+      "消防与应急救援"
+    ],
+    "scope": "特种场景直接相关",
+    "score": 87,
+    "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：消防与应急救援。来源期刊/会议：arXiv (Cornell University)。Robotic search and rescue (SAR) supports response teams by accelerating disaster assessment and by k（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -22869,6 +23072,52 @@
     "needs_review": false
   },
   {
+    "id": "34d53ac77287d8674d",
+    "title": "A REVIEW OF METHODOLOGIES FOR PATH PLANNING AND OPTIMIZATION OF MOBILE ROBOTS",
+    "url": "https://doi.org/10.5937/jpmnt11-45039",
+    "source": "OpenAlex",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Journal of Process Management New Technologies。Abstract: This research paper provides a comprehensive review of methodologies for path planning and optimization of mobile robots. With the rapid development of robotics technology, path planning and optimization have become fundamental areas of research for achieving efficient and safe autonomous robot navigation. In this paper, we review the classic and state-of-the-art techniques of path planning and optimization, including artificial potential fields, A* algorithm, Dijkstra's algorithm, genetic algorithm, swarm intelligence, and machine learning-based methods. We analyze the strengths and weaknesses of each approach and discuss their application scenarios. Moreover, we identify the challenges and open problems in this field, such as dealing with dynamic environments and real-time constraints. This paper serves as a comprehensive",
+    "published": "2023-06-25",
+    "first_seen": "2026-10-19T09:06:29.358286+00:00",
+    "doi": "https://doi.org/10.5937/jpmnt11-45039",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为环境感知、定位、建图或导航",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Journal of Process Management New Technologies。Abstract: This research paper provides a comprehensive review of methodologies f（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "17937cc5e801c60888",
+    "title": "A review on path planning ai techniques for mobile robots",
+    "url": "https://doi.org/10.21595/rsa.2023.23090",
+    "source": "OpenAlex",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Robotic Systems and Applications。An Industrial Robot is used in industries for transporting, assembly, manufacturing and many more applications. Industrial robots include manufacturing robots, material handling robots, robotic arm and manipulator, mobile robots, assembly robots, etc. In this paper, Mobile Robots are further being discussed. One of the tools that a Mobile Robot uses to function is all with the help of Artificial Intelligence (AI) for performing several tasks autonomously. AI works as the intelligence of the human body for robots. AI is the technology that made it possible for robots to be capable of being totally autonomous. AI marks its presence in the Manufacturing Industry with the 4th Industrial Revolution. AI has several algorithms that help in collecting and analyzing data in order to help robots to function in specific ways. These techniques include Fuzzy L",
+    "published": "2023-06-25",
+    "first_seen": "2026-10-19T09:06:29.357255+00:00",
+    "doi": "https://doi.org/10.21595/rsa.2023.23090",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为环境感知、定位、建图或导航",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 60,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Robotic Systems and Applications。An Industrial Robot is used in industries for transporting, assembly, manufacturing and many m（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "f57cce0a3a1feabe15",
     "title": "Transforming a Quadruped into a Guide Robot for the Visually Impaired: Formalizing Wayfinding, Interaction Modeling, and Safety Mechanism",
     "url": "https://doi.org/10.48550/arxiv.2306.14055",
@@ -24478,6 +24727,29 @@
     "scope": "可迁移的机器人关键技术",
     "score": 64,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：WSEAS TRANSACTIONS on SYSTEMS archive。In this paper, a mobile robot (tricycle robot) and its kinematic and dynamic model are pr（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "d74d23496010bcb1a7",
+    "title": "A Mobile Gait Training System Providing an Active Interaction",
+    "url": "https://doi.org/10.3390/app13010580",
+    "source": "OpenAlex",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Applied Sciences。In this paper, we propose an interactive mobile gait training system that allows trainees to interact actively with its content (the gait training content). The proposed system is a new type of gait training one combining a mobile robot with virtual reality (contents). It is a mobile system that projects virtual contents (for example, virtual footprints) for gait training on the actual ground (or floor). The performance and effectiveness of the proposed system were examined through a trainee’s foot recognition test and usability evaluation. The test results confirmed that the proposed system showed an average recognition ratio of more than 97%, meaning that the system could accurately recognize the trainee’s foot. In addition, as a result of usability evaluation, the overall satisfaction was 86%, confirming that the proposed system is effective.",
+    "published": "2022-12-31",
+    "first_seen": "2026-10-19T09:06:19.666958+00:00",
+    "doi": "https://doi.org/10.3390/app13010580",
+    "category": "小脑与运动控制",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
+    "needs_review": false,
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 60,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Applied Sciences。In this paper, we propose an interactive mobile gait training system that allows trainees to interact actively（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -26719,6 +26991,29 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "fa0e782b7dc9afa3ed",
+    "title": "Static and Dynamic Path Planning Algorithms Design for a Wheeled Mobile Robot Based on a Hybrid Technique",
+    "url": "https://doi.org/10.22266/ijies2022.0831.16",
+    "source": "OpenAlex",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：International journal of intelligent engineering and systems。During the previous years, the number of researchers who discussed the field of path planning algorithms has increased.In this paper, a proposed hybrid technique for path planning based on the benefits of sampling-based algorithms and heuristic path planning algorithms was enhanced.Rapidly-exploring Random Tree star (RRT*) was used to generate the candidate nodes that represent a collision-free path.These candidate nodes were applied to the Particle Swarm Optimization (PSO) algorithm to generate the shortest and the smoothest path planning (the optimal path planning) for the mobile robot.The RRT*PSO algorithm was applied in two scenarios (static and dynamic environments) with a workspace of [500×500] cm using MATLAB 2021a.In the static environment, a workspace full of obstacles was chosen to find the shortest collision-",
+    "published": "2022-06-24",
+    "first_seen": "2026-10-19T09:06:27.411027+00:00",
+    "doi": "https://doi.org/10.22266/ijies2022.0831.16",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为环境感知、定位、建图或导航",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 64,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：International journal of intelligent engineering and systems。During the previous years, the number of researchers who discussed（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "6079470a7e9ba7c2df",
     "title": "Autonomous Navigation of Indoor Service Robot with Object Recognition using Deep Learning",
     "url": "https://doi.org/10.22214/ijraset.2022.44316",
@@ -26811,6 +27106,32 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "6842cb0c4d9588d979",
+    "title": "Application of Intelligent Inspection Robot in Coal Mine Industrial Heritage Landscape: Taking Wangshiwa Coal Mine as an Example",
+    "url": "https://doi.org/10.3389/fnbot.2022.865146",
+    "source": "OpenAlex",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Frontiers in Neurorobotics。This study is developed to explore the role of intelligent inspection robot in the protection and utilization of coal mine industrial heritage. Based on the actual situation of the coal mine, the underground planning protection scope is analyzed. Aiming at the problems of imperfect fire early warning detection technology, management mechanism, high labor cost and low work efficiency in underground protection, the intelligent inspection robot technology is proposed to realize safety tour, underground intelligent management and early warning of underground security, fire protection facilities construction, and intelligent early warning system. This paper analyzes the key technology of intelligent inspection robot in coal mine industrial heritage protection, introduces the composition, structure and implementation method, and proposes its construction path",
+    "published": "2022-06-23",
+    "first_seen": "2026-10-19T09:06:27.412071+00:00",
+    "doi": "https://doi.org/10.3389/fnbot.2022.865146",
+    "category": "特种应用与产品",
+    "classification_confidence": "待复核",
+    "classification_reason": "特种机器人应用系统，贡献边界待复核",
+    "needs_review": true,
+    "tags": [
+      "特种应用与产品"
+    ],
+    "industry_tags": [
+      "矿山与地下空间",
+      "工业与能源巡检"
+    ],
+    "scope": "特种场景直接相关",
+    "score": 79,
+    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：矿山与地下空间、工业与能源巡检。来源期刊/会议：Frontiers in Neurorobotics。This study is developed to explore the role of intelligent inspection robot in the protection and ut（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "66a02a15ee94287c82",
     "title": "Auto-Tuning of Controller and Online Trajectory Planner for Legged Robots",
     "url": "https://doi.org/10.1109/lra.2022.3185387",
@@ -26831,6 +27152,29 @@
     "scope": "可迁移的机器人关键技术",
     "score": 61,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：IEEE Robotics and Automation Letters。This letter presents an approach for auto-tuning feedback controllers and online trajector（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "d2caa7350bfd110cf1",
+    "title": "An Overview on Visual SLAM: From Tradition to Semantic",
+    "url": "https://doi.org/10.3390/rs14133010",
+    "source": "OpenAlex",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Remote Sensing。Visual SLAM (VSLAM) has been developing rapidly due to its advantages of low-cost sensors, the easy fusion of other sensors, and richer environmental information. Traditional visionbased SLAM research has made many achievements, but it may fail to achieve wished results in challenging environments. Deep learning has promoted the development of computer vision, and the combination of deep learning and SLAM has attracted more and more attention. Semantic information, as high-level environmental information, can enable robots to better understand the surrounding environment. This paper introduces the development of VSLAM technology from two aspects: traditional VSLAM and semantic VSLAM combined with deep learning. For traditional VSLAM, we summarize the advantages and disadvantages of indirect and direct methods in detail and give some classical VSLAM open-source algo",
+    "published": "2022-06-23",
+    "first_seen": "2026-10-19T09:06:27.412418+00:00",
+    "doi": "https://doi.org/10.3390/rs14133010",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "主要任务是环境感知/地形估计而非 Agent 决策",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Remote Sensing。Visual SLAM (VSLAM) has been developing rapidly due to its advantages of low-cost sensors, the easy fusion of ot（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -28926,12 +29270,12 @@
     "id": "7f76e8ac195989f4b3",
     "title": "Path Selection for the Inspection Robot by m-Generalized q-Neutrosophic PROMETHEE Approach",
     "url": "https://doi.org/10.3390/en15010223",
-    "source": "OpenAlex",
+    "source": "Crossref",
     "type": "论文（摘要）",
-    "description": "来源期刊/会议：Energies。Path planning can be considered the most vital task of the autonomous robot. In this task, selecting an optimal route from the starting to the target position becomes an important problem that must be addressed when multiple competing optimization priorities are considered. Thus, a novel route assessment strategy based on a multi-criteria decision-making approach is proposed. The m-generalized q-neutrosophic PROMETHEE (PROMETHEE-mGqNS) method is applied to aggregate the competing route assessment requirements and choose an optimal route. A case study is investigated to explain the proposed strategy for path planning in a typical environment and indicates the method stability when incomplete input data characteristics are present.",
+    "description": "来源期刊/会议：Energies。 Path planning can be considered the most vital task of the autonomous robot. In this task, selecting an optimal route from the starting to the target position becomes an important problem that must be addressed when multiple competing optimization priorities are considered. Thus, a novel route assessment strategy based on a multi-criteria decision-making approach is proposed. The m-generalized q-neutrosophic PROMETHEE (PROMETHEE-mGqNS) method is applied to aggregate the competing route assessment requirements and choose an optimal route. A case study is investigated to explain the proposed strategy for path planning in a typical environment and indicates the method stability when incomplete input data characteristics are present.",
     "published": "2021-12-29",
     "first_seen": "2026-10-15T05:54:40.549182+00:00",
-    "doi": "https://doi.org/10.3390/en15010223",
+    "doi": "10.3390/en15010223",
     "category": "特种应用与产品",
     "classification_confidence": "待复核",
     "classification_reason": "特种机器人应用系统，贡献边界待复核",
@@ -28944,7 +29288,7 @@
     ],
     "scope": "特种场景直接相关",
     "score": 77,
-    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：Energies。Path planning can be considered the most vital task of the autonomous robot. In this task, selecting an optimal route （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：Energies。 Path planning can be considered the most vital task of the autonomous robot. In this task, selecting an optimal route（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -29408,6 +29752,29 @@
     "scope": "可迁移的机器人关键技术",
     "score": 63,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Measurement Science and Technology。Abstract Polarized skylight is as fundamental a constituent of passive navigation as the geo（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "8cb82ade4c03fa2497",
+    "title": "Unmanned Aerial Vehicles Motion Control with Fuzzy Tuning of Cascaded-PID Gains",
+    "url": "https://doi.org/10.3390/machines10010012",
+    "source": "OpenAlex",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Machines。One of the main challenges of maneuvering an Unmanned Aerial Vehicle (UAV) to keep a stabilized flight is dealing with its fast and highly coupled nonlinear dynamics. There are several solutions in the literature, but most of them require fine-tuning of the parameters. In order to avoid the exhaustive tuning procedures, this work employs a Fuzzy Logic strategy for online tuning of the PID gains of the UAV motion controller. A Cascaded-PID scheme is proposed, in which velocity commands are calculated and sent to the flight control unit from a given target desired position (waypoint). Therefore, the flight control unit is responsible for the lower control loop. The main advantage of the proposed method is that it can be applied to any UAV without the need of its formal mathematical model. Robot Operating System (ROS) is used to integrate the proposed system and the flight ",
+    "published": "2021-12-23",
+    "first_seen": "2026-10-19T09:06:34.499316+00:00",
+    "doi": "https://doi.org/10.3390/machines10010012",
+    "category": "小脑与运动控制",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
+    "needs_review": false,
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Machines。One of the main challenges of maneuvering an Unmanned Aerial Vehicle (UAV) to keep a stabilized flight is dealing with（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {

@@ -2,27 +2,28 @@
 
 本表对每条已入库资源扫描标题、摘要及现有分类；疑点不等于确证错分。
 
-总资源：1321；出现一项或以上疑点：541。
+总资源：1336；出现一项或以上疑点：548。
 
 ## 分类数量
 
-- 感知建图与导航: 511
-- 小脑与运动控制: 492
-- 特种应用与产品: 151
+- 感知建图与导航: 519
+- 小脑与运动控制: 496
+- 特种应用与产品: 154
 - 基础软件与系统: 65
 - 硬件与防爆: 57
 - 大脑与具身智能: 45
 
 ## 疑点分布
 
-- EXISTING_REVIEW: 444
+- EXISTING_REVIEW: 451
 - THIN_ABSTRACT: 116
 - BRAIN_POLICY_REVIEW: 1
 - SOFT_ALGORITHM: 1
 
 ## 重点疑点逐篇示例
 
-### EXISTING_REVIEW（444 条）
+### EXISTING_REVIEW（451 条）
+- Yoshifumi-Masuya/slr-stride | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/Yoshifumi-Masuya/slr-stride
 - coverMoon/quadruped_control | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/coverMoon/quadruped_control
 - xfjcoder/wam | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/xfjcoder/wam
 - dillonfaulk/H1V3-RobotPolicies | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/dillonfaulk/H1V3-RobotPolicies
@@ -34,7 +35,6 @@
 - FCTS: Failure-Guided Curriculum Tree Search Over Generated Terrain for Legged Parkour | 当前：小脑与运动控制 | 建议：待复核 | https://arxiv.org/abs/2610.22619
 - LYHrmer/wheel-legged-control-lab | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/LYHrmer/wheel-legged-control-lab
 - RileyMarek/Moonbase-Orchestrator-Public-Showcase- | 当前：特种应用与产品 | 建议：待复核 | https://github.com/RileyMarek/Moonbase-Orchestrator-Public-Showcase-
-- hossam-salhin/AMR-IX1 | 当前：特种应用与产品 | 建议：待复核 | https://github.com/hossam-salhin/AMR-IX1
 ### THIN_ABSTRACT（116 条）
 - coverMoon/quadruped_control | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/coverMoon/quadruped_control
 - 1ulone/quins_ros2 | 当前：特种应用与产品 | 建议：待复核 | https://github.com/1ulone/quins_ros2
