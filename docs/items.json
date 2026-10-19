@@ -14864,6 +14864,29 @@
     "needs_review": false
   },
   {
+    "id": "ba088318bcb8fd8f6a",
+    "title": "Implementing Simultaneous Localization and Mapping (SLAM) onto a mobile robot",
+    "url": "https://doi.org/10.64804/yemy9e93",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Journal of Science & Engineering。 A common problem in autonomous navigation of robots is the ability to both map and consistently know its location in an unknown environment, more commonly known as the Simultaneous Localization and Mapping (SLAM) problem. Localization is a robot's ability to estimate its position and orientation with respect to the world given a predetermined map of an environment, and mapping is its ability to construct an accurate map, assuming it knows its pose (position and orientation). This semester, I focused on implementing a SLAM algorithm in both a simulated and a physical environment. I first implemented the algorithm within Gazebo, a robotic simulation environment, on a similar model of the robot I intended to build. Afterwards, I built the robot and equipped it with a 360-degree LiDAR for mapping and an Inertial Measurement Unit (IMU)/wheel encoders ",
+    "published": "2025-06-15",
+    "first_seen": "2026-10-19T10:00:46.427216+00:00",
+    "doi": "10.64804/yemy9e93",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "主要任务是环境感知/地形估计而非 Agent 决策",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 75,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Journal of Science & Engineering。 A common problem in autonomous navigation of robots is the ability to both map and consistent（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "db1349cc0911fa2cfc",
     "title": "Multi-Loco: Unifying Multi-Embodiment Legged Locomotion via Reinforcement Learning Augmented Diffusion",
     "url": "https://doi.org/10.48550/arxiv.2506.11470",
@@ -15197,6 +15220,29 @@
     "needs_review": true
   },
   {
+    "id": "0a8b6ed6a3a6519b04",
+    "title": "DVM-SLAM: Decentralized Visual Monocular Simultaneous Localization and Mapping for Multi-Agent Systems",
+    "url": "https://doi.org/10.1109/icra55743.2025.11127510",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：2025 IEEE International Conference on Robotics and Automation (ICRA)。",
+    "published": "2025-05-19",
+    "first_seen": "2026-10-19T10:00:46.427809+00:00",
+    "doi": "10.1109/icra55743.2025.11127510",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "主要任务是环境感知/地形估计而非 Agent 决策",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2025 IEEE International Conference on Robotics and Automation (ICRA)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "4e6afd373cc726584c",
     "title": "Closed Loop Interactive Embodied Reasoning for Robot Manipulation",
     "url": "https://doi.org/10.1109/icra55743.2025.11127480",
@@ -15337,6 +15383,29 @@
     "scope": "特种场景直接相关",
     "score": 78,
     "summary": "行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境。来源期刊/会议：2025 IEEE 20th International Conference on Nano/Micro Engineered and Molecular Systems (NEMS)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "6a117876c7a0b44b96",
+    "title": "Multi-Robot Cooperative Simultaneous Localization and Mapping Algorithm Based on Sub-Graph Partitioning",
+    "url": "https://doi.org/10.3390/s25092953",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Sensors。 To address the challenges in multi-robot collaborative SLAM, including excessive redundant computations and low processing efficiency in candidate loop closure selection during front-end loop detection, as well as high computational complexity and long iteration times due to global pose optimization in the back-end, this paper introduces several key improvements. First, a global matching and candidate loop selection strategy is incorporated into the front-end loop detection module, leveraging both LiDAR point clouds and visual features to achieve cross-robot loop detection, effectively mitigating computational redundancy and reducing false matches in collaborative multi-robot systems. Second, an improved distributed robust pose graph optimization algorithm is proposed in the back-end module. By introducing a robust cost function to filter out erroneous loop closures and ",
+    "published": "2025-05-07",
+    "first_seen": "2026-10-19T10:00:46.427280+00:00",
+    "doi": "10.3390/s25092953",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为环境感知、定位、建图或导航",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 63,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Sensors。 To address the challenges in multi-robot collaborative SLAM, including excessive redundant computations and low proces（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -15501,6 +15570,29 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "4bd97e12603c4004e6",
+    "title": "Improving Sensor Adaptability and Functionality in Cartographer Simultaneous Localization and Mapping",
+    "url": "https://doi.org/10.3390/s25061808",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Sensors。 This paper aims to address sensor-related challenges in simultaneous localization and mapping (SLAM) systems, specifically within the open-source Google Cartographer project, which implements graph-based SLAM. The primary problem tackled is the adaptability and functionality of SLAM systems in diverse robotic applications. To solve this, we developed a novel SLAM framework that integrates five additional functionalities into the existing Google Cartographer and Robot Operating System (ROS). These innovations include an inertial data generation system and a sensor data preprocessing system to mitigate issues arising from various sensor configurations. Additionally, the framework enhances system utility through real-time 3D topographic mapping, multi-node SLAM capabilities, and elliptical sensor data filtering. The average execution times for sensor data preprocessing and ",
+    "published": "2025-03-14",
+    "first_seen": "2026-10-19T10:00:46.427965+00:00",
+    "doi": "10.3390/s25061808",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为环境感知、定位、建图或导航",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 63,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Sensors。 This paper aims to address sensor-related challenges in simultaneous localization and mapping (SLAM) systems, specific（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "385e2333ba569284bd",
     "title": "Sparse representation for artefact/defect localization with an acoustic array on a mobile pipe inspection robot",
     "url": "https://doi.org/10.1016/j.apacoust.2025.110545",
@@ -15547,6 +15639,29 @@
     "scope": "可迁移的机器人关键技术",
     "score": 75,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。This paper presents an enhanced Simultaneous Localization and Mapping (SLAM) framework for mobile robot navigation. It integrates RGB-D（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "4437e7e4a9b7f06620",
+    "title": "Privacy-Preserved Visual Simultaneous Localization and Mapping Based on a Dual-Component Approach",
+    "url": "https://doi.org/10.3390/app15052583",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Applied Sciences。 Edge-assisted visual simultaneous localization and mapping (SLAM) is widely used in autonomous driving, robot navigation, and augmented reality for environmental perception, map construction, and real-time positioning. However, it poses significant privacy risks, as input images may contain sensitive information, and generated 3D point clouds can reconstruct original scenes. To address these concerns, this paper proposes a dual-component privacy-preserving approach for visual SLAM. First, a privacy protection method for images is proposed, which combines object detection and image inpainting to protect privacy-sensitive information in images. Second, an encryption algorithm is introduced to convert 3D point cloud data into a 3D line cloud through dimensionality enhancement. Integrated with ORB-SLAM3, the proposed method is evaluated on the Oxford Robotcar and KI",
+    "published": "2025-02-27",
+    "first_seen": "2026-10-19T10:00:46.427856+00:00",
+    "doi": "10.3390/app15052583",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为环境感知、定位、建图或导航",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Applied Sciences。 Edge-assisted visual simultaneous localization and mapping (SLAM) is widely used in autonomous driving, robot（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -15734,6 +15849,98 @@
     "classification_confidence": "高",
     "classification_reason": "核心任务为运动、步态、控制或机器人操作",
     "needs_review": false
+  },
+  {
+    "id": "e1f4fe8bf7e3a33f0e",
+    "title": "Related Keyframe Optimization Gaussian–Simultaneous Localization and Mapping: A 3D Gaussian Splatting-Based Simultaneous Localization and Mapping with Related Keyframe Optimization",
+    "url": "https://doi.org/10.3390/app15031320",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Applied Sciences。 Simultaneous localization and mapping (SLAM) is the basis for intelligent robots to explore the world. As a promising method for 3D reconstruction, 3D Gaussian splatting (3DGS) integrated with SLAM systems has shown significant potential. However, due to environmental uncertainties, errors in the tracking process with 3D Gaussians can negatively impact SLAM systems. This paper introduces a novel dense RGB-D SLAM system based on 3DGS that refines Gaussians through sub-Gaussians in the camera coordinate system. Additionally, we propose an algorithm to select keyframes closely related to the current frame, optimizing the scene map and pose of the current keyframe. This approach effectively enhances both the tracking and mapping performance. Experiments on high-quality synthetic scenes (Replica dataset) and low-quality real-world scenes (TUM-RGBD and ScanNet dataset",
+    "published": "2025-01-27",
+    "first_seen": "2026-10-19T10:00:46.427328+00:00",
+    "doi": "10.3390/app15031320",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为环境感知、定位、建图或导航",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Applied Sciences。 Simultaneous localization and mapping (SLAM) is the basis for intelligent robots to explore the world. As a p（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "9c73e1caaad8288aa6",
+    "title": "A Review of Simultaneous Localization and Mapping for the Robotic-Based Nondestructive Evaluation of Infrastructures",
+    "url": "https://doi.org/10.3390/s25030712",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Sensors。 The maturity of simultaneous localization and mapping (SLAM) methods has now reached a significant level that motivates in-depth and problem-specific reviews. The focus of this study is to investigate the evolution of vision-based, LiDAR-based, and a combination of these methods and evaluate their performance in enclosed and GPS-denied (EGD) conditions for infrastructure inspection. This paper categorizes and analyzes the SLAM methods in detail, considering the sensor fusion type and chronological order. The paper analyzes the performance of eleven open-source SLAM solutions, containing two visual (VINS-Mono, ORB-SLAM 2), eight LiDAR-based (LIO-SAM, Fast-LIO 2, SC-Fast-LIO 2, LeGO-LOAM, SC-LeGO-LOAM A-LOAM, LINS, F-LOAM) and one combination of the LiDAR and vision-based method (LVI-SAM). The benchmarking section analyzes accuracy and computational resource consumption us",
+    "published": "2025-01-24",
+    "first_seen": "2026-10-19T10:00:46.428056+00:00",
+    "doi": "10.3390/s25030712",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为环境感知、定位、建图或导航",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 64,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Sensors。 The maturity of simultaneous localization and mapping (SLAM) methods has now reached a significant level that motivate（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "c3b9eeaa400cf8b1dc",
+    "title": "Unlocking robotic perception: comparison of deep learning methods for simultaneous localization and mapping and visual simultaneous localization and mapping in robot",
+    "url": "https://doi.org/10.1007/s41315-025-00419-5",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：International Journal of Intelligent Robotics and Applications。 Abstract Simultaneous Localization and Mapping (SLAM) and Visual SLAM are crucial technologies in robotics, allowing autonomous systems to navigate and comprehend their environment. Deep learning (DL) has become a powerful tool in driving progress in these areas, providing solutions that improve accuracy, efficiency, and resilience. This article thoroughly analyzes different deep learning techniques designed explicitly for SLAM and Visual SLAM applications in robotic systems. This work provides a detailed overview of DL roles in SLAM and VSLAM and emphasizes the differences between these two fields. Five powerful DL methods are investigated: Convolutional Neural Networks in extracting features and understanding meaning, Recurrent Neural Network in modeling temporal relationships, Deep Reinforcement Learning in develo",
+    "published": "2025-01-24",
+    "first_seen": "2026-10-19T10:00:46.427143+00:00",
+    "doi": "10.1007/s41315-025-00419-5",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为环境感知、定位、建图或导航",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 63,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：International Journal of Intelligent Robotics and Applications。 Abstract Simultaneous Localization and Mapping (SLAM) and Visua（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "7277efac2a11d60a8e",
+    "title": "Deep learning-based 6-DoF visual relocalization assisted simultaneous localization and mapping (SLAM)",
+    "url": "https://doi.org/10.1108/ir-05-2024-0235",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Industrial Robot: the international journal of robotics research and application。 Purpose Visual simultaneous localization and mapping (SLAM) methods suffer from accumulated errors, especially in challenging environments without loop closure. By constructing lightweight offline maps and using deep learning (DL)-based technology in the two stages, i.e. image retrieval and feature matching, the goal is to reconstruct the six-degree-of-freedom (6-DoF) relationship between SLAM sequences and map sequences. This study aims to propose a comprehensive coarse-to-fine 6-DoF long-term visual relocalization assisted SLAM method specifically designed for challenging environments, aiming to achieve more accurate pose estimation. Design/methodology/approach First, image global feature matching and patch-level global feature matching are conducted to achieve optimal frame-to-frame matching. Sec",
+    "published": "2025-01-16",
+    "first_seen": "2026-10-19T10:00:46.427405+00:00",
+    "doi": "10.1108/ir-05-2024-0235",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "主要任务是环境感知/地形估计而非 Agent 决策",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Industrial Robot: the international journal of robotics research and application。 Purpose Visual simultaneous localization and （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "9b2a9b0f9a8d3a0c01",
@@ -19538,6 +19745,29 @@
     "needs_review": false
   },
   {
+    "id": "a13e8de185893959c6",
+    "title": "Simultaneous localization and mapping (SLAM)-based robot localization and navigation algorithm",
+    "url": "https://doi.org/10.1007/s13201-024-02183-6",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Applied Water Science。 Abstract This research paper presents a comprehensive study of the simultaneous localization and mapping (SLAM) algorithm for robot localization and navigation in unknown environments. The SLAM algorithm is a widely used approach for building a map of an environment and estimating the robot’s position within it, which is especially useful in dynamic and unstructured environments. The paper discusses various SLAM techniques, including the Kalman filter (KF) and GraphSLAM algorithms, and their use in probabilistic estimation of the robot’s position and orientation. The paper also explores different path-planning techniques that can be used with the map created by the SLAM algorithm to generate collision-free paths for the robot to navigate toward its goal. The paper also discusses recent advances in deep learning-based SLAM algorithms and their applications i",
+    "published": "2024-06-07",
+    "first_seen": "2026-10-19T10:00:40.798922+00:00",
+    "doi": "10.1007/s13201-024-02183-6",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "主要任务是环境感知/地形估计而非 Agent 决策",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Applied Water Science。 Abstract This research paper presents a comprehensive study of the simultaneous localization and mapping（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "1b32cae64b33ff9d6f",
     "title": "Transformable Quadruped Wheelchairs Capable of Autonomous Stair Ascent and Descent",
     "url": "https://doi.org/10.3390/s24113675",
@@ -19559,6 +19789,29 @@
     "classification_confidence": "待复核",
     "classification_reason": "运动控制类别缺少题名中的控制任务证据",
     "needs_review": true
+  },
+  {
+    "id": "bcf35a1a4de5e9eedd",
+    "title": "Simultaneous Localization and Mapping of a Mobile Robot With Stereo Camera Using ORB Features",
+    "url": "https://doi.org/10.14313/jamris/2-2024/14",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Journal of Automation, Mobile Robotics and Intelligent Systems。 Simultaneous Localization and Mapping (SLAM) is applied to robots for accurate navigation. The stereo cameras are suitable for visual SLAM as they can give the depth of the visual landmarks and more precise estimations of the robot’s pose. In this paper, we present a survey of SLAM methods, either Bayesian or bioinspired. Then we present a new method of SLAM, which we call stereo Extended Kalman Filter, improving the matching by computing the innovation matrices from the left and the right images. The landmarks are computed from Oriented FAST and Rotated BRIEF (ORB) features for detecting salient points and their descriptors. The covariance matrices of the state and the robot’s map are reduced during the robot’s motion. Experiments are done on the raw images of the Kitti dataset.",
+    "published": "2024-06-04",
+    "first_seen": "2026-10-19T10:00:40.799090+00:00",
+    "doi": "10.14313/jamris/2-2024/14",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为环境感知、定位、建图或导航",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 73,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Journal of Automation, Mobile Robotics and Intelligent Systems。 Simultaneous Localization and Mapping (SLAM) is applied to robo（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "3ed2321511717dc964",
@@ -19682,6 +19935,29 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "75c950fbc32e4332e1",
+    "title": "Review of simultaneous localization and mapping (SLAM) for construction robotics applications",
+    "url": "https://doi.org/10.1016/j.autcon.2024.105344",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Automation in Construction。",
+    "published": "2024-06-01",
+    "first_seen": "2026-10-19T10:00:40.799376+00:00",
+    "doi": "10.1016/j.autcon.2024.105344",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "主要任务是环境感知/地形估计而非 Agent 决策",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Automation in Construction。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "27a141fe5a1e29e5a2",
     "title": "TAIL: A Terrain-Aware Multi-Modal SLAM Dataset for Robot Locomotion in Deformable Granular Environments",
     "url": "https://doi.org/10.1109/lra.2024.3407411",
@@ -19749,6 +20025,29 @@
     "classification_confidence": "高",
     "classification_reason": "主要任务是环境感知/地形估计而非 Agent 决策",
     "needs_review": false
+  },
+  {
+    "id": "b3c745b6266244b9af",
+    "title": "Dynamic simultaneous localization and mapping based on object tracking in occluded environment",
+    "url": "https://doi.org/10.1017/s0263574724000420",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Robotica。 Abstract In practical applications, many robots equipped with embedded devices have limited computing capabilities. These limitations often hinder the performance of existing dynamic SLAM algorithms, especially when faced with occlusions or processor constraints. Such challenges lead to subpar positioning accuracy and efficiency. This paper introduces a novel lightweight dynamic SLAM algorithm designed primarily to mitigate the interference caused by moving object occlusions. Our proposed approach combines a deep learning object detection algorithm with a Kalman filter. This combination offers prior information about dynamic objects for each SLAM algorithm frame. Leveraging geometric techniques like RANSAC and the epipolar constraint, our method filters out dynamic feature points, focuses on static feature points for pose determination, and enhances the SLAM algorithm’s",
+    "published": "2024-05-27",
+    "first_seen": "2026-10-19T10:00:40.799690+00:00",
+    "doi": "10.1017/s0263574724000420",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为环境感知、定位、建图或导航",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Robotica。 Abstract In practical applications, many robots equipped with embedded devices have limited computing capabilities. T（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "347540d64dabad07d3",
@@ -19820,6 +20119,29 @@
     "scope": "特种场景直接相关",
     "score": 77,
     "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：工业与能源巡检。来源期刊/会议：2024 IEEE 13th Data Driven Control and Learning Systems Conference (DDCLS)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "6de92eed120efe5da7",
+    "title": "Integrate Large Language Models (LLMs) with Computer Vision in the Field of Robotics for Computer Vision Image Processing, Simultaneous Localization and Mapping and to Prevent/Secure Robot Malfunctions",
+    "url": "https://doi.org/10.47363/jmca/2024(3)165",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Journal of Mathematical & Computer Applications。 The development of robotics has affected many parts of the world, but the application of robotic systems in complex environments is still a concern. This paper proposes GANs and robotics computer vision to enhance image processing and SLAM, which are key for autonomous navigation. The methodology quantitatively compares different SLAM systems using various environments, including traditional ones and those supplemented by GANs. There is a higher accuracy of localization and mapping, better performance in complex environments with abundant visual elements, and higher computational efficiency. This paper will present an innovative application of GANs in robotics vision and, in the process, establish a new benchmark for how robotic systems perceive the actual world. This study, therefore, is part of the advancement of robotic systems.",
+    "published": "2024-05-16",
+    "first_seen": "2026-10-19T10:00:40.799292+00:00",
+    "doi": "10.47363/jmca/2024(3)165",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为环境感知、定位、建图或导航",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Journal of Mathematical & Computer Applications。 The development of robotics has affected many parts of the world, but the appl（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -19895,6 +20217,29 @@
     "scope": "特种场景直接相关",
     "score": 82,
     "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：工业与能源巡检。来源期刊/会议：International Journal for Research in Applied Science and Engineering Technology。 Abstract: The aim of this study is to develop（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "cd02eab0198bfc05e3",
+    "title": "Design Mapping Simultaneous Localization And Mapping (SLAM) Mobile Robot Menggunakan Lidar Sebagai Navigasi Purwarupa UAV Tenaga Surya",
+    "url": "https://doi.org/10.52158/jasens.v4i2.785",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Journal of Applied Smart Electrical Network and Systems。 Permasalahan utama dari robot otonom untuk bernavigasi adalah bagaimana robot dapat mengenali lingkungan sekitar. Oleh karena itu, penelitian ini berfokus pada perancangan sistem mapping dan lokalisasi menggunakan metode Simultaneous Localization And Mapping (SLAM) yang diimplementasikan pada mobile robot menggunakan sensor LiDAR. Penelitian ini mengusulkan sistem mapping dan lokalisasi untuk mengenali lingkungan sekitar dengan membuat peta lingkungan yang dikombinasikan dengan sensor IMU. Pengujian dilakukan dengan menguji setiap sensor seperti IMU dan LiDAR, dan menguji sistem mapping dan lokalisasi. Hasil pengujian dari sistem mapping dan lokalisasi menunjukkan hasil yang optimal dan mampu mengenali kondisi lingkungan sekitar robot meskipun masih terdapat noise pada peta yang sudah dibuat.",
+    "published": "2024-04-30",
+    "first_seen": "2026-10-19T10:00:40.799049+00:00",
+    "doi": "10.52158/jasens.v4i2.785",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "主要任务是环境感知/地形估计而非 Agent 决策",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 74,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Journal of Applied Smart Electrical Network and Systems。 Permasalahan utama dari robot otonom untuk bernavigasi adalah bagaiman（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -20357,6 +20702,29 @@
     "needs_review": true
   },
   {
+    "id": "137176f546040474de",
+    "title": "Simultaneous localization and mapping in a multi-robot system in a dynamic environment with unknown initial correspondence",
+    "url": "https://doi.org/10.3389/frobt.2023.1291672",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Frontiers in Robotics and AI。 A basic assumption in most approaches to simultaneous localization and mapping (SLAM) is the static nature of the environment. In recent years, some research has been devoted to the field of SLAM in dynamic environments. However, most of the studies conducted in this field have implemented SLAM by removing and filtering the moving landmarks. Moreover, the use of several robots in large, complex, and dynamic environments can significantly improve performance on the localization and mapping task, which has attracted many researchers to this problem more recently. In multi-robot SLAM, the robots can cooperate in a decentralized manner without the need for a central processing center to obtain their positions and a more precise map of the environment. In this article, a new decentralized approach is presented for multi-robot SLAM problems in dynamic envi",
+    "published": "2024-01-11",
+    "first_seen": "2026-10-19T10:00:40.799008+00:00",
+    "doi": "10.3389/frobt.2023.1291672",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为环境感知、定位、建图或导航",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Frontiers in Robotics and AI。 A basic assumption in most approaches to simultaneous localization and mapping (SLAM) is the stat（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "234238a9880962273d",
     "title": "Prismatic Joint Mechanism for Wheel-Legged Locomotion with Pushing Force Enhancement",
     "url": "https://doi.org/10.1109/sii58957.2024.10417716",
@@ -20743,6 +21111,75 @@
     "scope": "可迁移的机器人关键技术",
     "score": 64,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Journal of Mechanical Engineering。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "3b67b323097b54fb31",
+    "title": "Red Green Blue Depth (RGBD) Simultaneous Localization and Mapping (SLAM) Robot Using Kinect Camera for Mapping",
+    "url": "https://doi.org/10.2139/ssrn.4903823",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "",
+    "published": "2024-01-01",
+    "first_seen": "2026-10-19T10:00:40.798849+00:00",
+    "doi": "10.2139/ssrn.4903823",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "主要任务是环境感知/地形估计而非 Agent 决策",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "c8ff29e53819a88b97",
+    "title": "Swarm-SLAM: Sparse Decentralized Collaborative Simultaneous Localization and Mapping Framework for Multi-Robot Systems",
+    "url": "https://doi.org/10.1109/lra.2023.3333742",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：IEEE Robotics and Automation Letters。",
+    "published": "2024-01-01",
+    "first_seen": "2026-10-19T10:00:40.798947+00:00",
+    "doi": "10.1109/lra.2023.3333742",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "主要任务是环境感知/地形估计而非 Agent 决策",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：IEEE Robotics and Automation Letters。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "6b1569d1e93813e122",
+    "title": "Study of simultaneous localization and mapping (SLAM) of a robot in multiple environments",
+    "url": "https://doi.org/10.1063/5.0195756",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：AIP Conference Proceedings。",
+    "published": "2024-01-01",
+    "first_seen": "2026-10-19T10:00:40.799107+00:00",
+    "doi": "10.1063/5.0195756",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "主要任务是环境感知/地形估计而非 Agent 决策",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：AIP Conference Proceedings。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -24987,6 +25424,29 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "305d3bdff5fd39894b",
+    "title": "Fundamental and experimental analysis of mobile robot simultaneous localization and mapping",
+    "url": "https://doi.org/10.1117/12.2673181",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：International Conference on Artificial Intelligence and Industrial Design (AIID 2022)。",
+    "published": "2023-04-14",
+    "first_seen": "2026-10-19T10:00:33.969593+00:00",
+    "doi": "10.1117/12.2673181",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为环境感知、定位、建图或导航",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 65,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：International Conference on Artificial Intelligence and Industrial Design (AIID 2022)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "957fe1e5e802876bd0",
     "title": "Research on SLAM and Path Planning Method of Inspection Robot in Complex Scenarios",
     "url": "https://doi.org/10.20944/preprints202304.0219.v1",
@@ -25082,6 +25542,29 @@
     "classification_confidence": "待复核",
     "classification_reason": "元数据不足，临时标记待复核（不视为应用领域确认）",
     "needs_review": true
+  },
+  {
+    "id": "54537c9e110f0e95a0",
+    "title": "An Extended Kalman Filter-Based Simultaneous Localization and Mapping Algorithm for Omnidirectional Indoor Mobile Robot",
+    "url": "https://doi.org/10.15866/ireaco.v16i2.23401",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：International Review of Automatic Control (IREACO)。",
+    "published": "2023-03-31",
+    "first_seen": "2026-10-19T10:00:33.969727+00:00",
+    "doi": "10.15866/ireaco.v16i2.23401",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为环境感知、定位、建图或导航",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 65,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：International Review of Automatic Control (IREACO)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "5269c96c40e65c5ca3",
@@ -25206,6 +25689,29 @@
     "scope": "特种场景直接相关",
     "score": 77,
     "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：Actuators。 In this paper, simulation and experimental tests are reported for a hybrid robot being used for indoor and outdoor i（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "0e331734f76b025b3e",
+    "title": "Analysis of simultaneous localization and mapping technology for mobile robot based on binocular vision",
+    "url": "https://doi.org/10.1109/eebda56825.2023.10090692",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：2023 IEEE 2nd International Conference on Electrical Engineering, Big Data and Algorithms (EEBDA)。",
+    "published": "2023-02-24",
+    "first_seen": "2026-10-19T10:00:33.969633+00:00",
+    "doi": "10.1109/eebda56825.2023.10090692",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为环境感知、定位、建图或导航",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 65,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2023 IEEE 2nd International Conference on Electrical Engineering, Big Data and Algorithms (EEBDA)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -25583,6 +26089,52 @@
     "scope": "可迁移的机器人关键技术",
     "score": 64,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。The paper proposes an approach for safe navigation when changing lanes in a road scenario. The aim of this approach is to create the ba（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "d9b3f7a0a3e2345416",
+    "title": "Lsmcl: Long-Term Static Mapping and Cloning Localization for Autonomous Robot Navigation Using 3d Lidar in Dynamic Environments",
+    "url": "https://doi.org/10.2139/ssrn.4537548",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "",
+    "published": "2023-01-01",
+    "first_seen": "2026-10-19T10:00:33.969920+00:00",
+    "doi": "10.2139/ssrn.4537548",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为环境感知、定位、建图或导航",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 63,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "43011291acd26dbcdb",
+    "title": "Wheel-SLAM: Simultaneous Localization and Terrain Mapping Using One Wheel-Mounted IMU",
+    "url": "https://doi.org/10.1109/lra.2022.3226071",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：IEEE Robotics and Automation Letters。",
+    "published": "2023-01-01",
+    "first_seen": "2026-10-19T10:00:33.969795+00:00",
+    "doi": "10.1109/lra.2022.3226071",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "主要任务是环境感知/地形估计而非 Agent 决策",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：IEEE Robotics and Automation Letters。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -25970,6 +26522,29 @@
     "scope": "可迁移的机器人关键技术",
     "score": 63,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Highlights in Science Engineering and Technology。In order to improve the autonomous navigation performance of robot, an automat（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "105faf385b78f5ec76",
+    "title": "An Enhancement of Simultaneous Localization and Mapping Model Using Artificial Neural Networks",
+    "url": "https://doi.org/10.32441/kjps.02.02.p3",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Al-Kitab Journal for Pure Sciences。 This paper presents a model of Environment Representation Architecture for Intelligent Robot. The model consists of a vehicle, an environment, and landmarks. The proposed method is based on using SLAM based on ANN, back propagation algorithm, to be trained on predefined datasets on some environment. In this paper dun Using Artificial Neural on the Simultaneous Localization and Mapping enhances the obtained maps of the robot. Limitation of this paper to test the proposed system, different maps with different datasets are required, however, these datasets, need expensive sensors, vehicles and GPS receivers to be built. Use this information to build their decisions. The systematic error was solved by the proposed approach using ANN, depends only on the initial values that were used during the training phase, it considers previous landmarks in orde",
+    "published": "2022-12-27",
+    "first_seen": "2026-10-19T10:00:58.537207+00:00",
+    "doi": "10.32441/kjps.02.02.p3",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为环境感知、定位、建图或导航",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Al-Kitab Journal for Pure Sciences。 This paper presents a model of Environment Representation Architecture for Intelligent Robo（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -26467,6 +27042,29 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "47b5b56f2d267a5ce8",
+    "title": "Feasibility of Tracking Human Kinematics with Simultaneous Localization and Mapping (SLAM)",
+    "url": "https://doi.org/10.3390/s22239378",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Sensors。 We evaluated a new wearable technology that fuses inertial sensors and cameras for tracking human kinematics. These devices use on-board simultaneous localization and mapping (SLAM) algorithms to localize the camera within the environment. Significance of this technology is in its potential to overcome many of the limitations of the other dominant technologies. Our results demonstrate this system often attains an estimated orientation error of less than 1° and a position error of less than 4 cm as compared to a robotic arm. This demonstrates that SLAM’s accuracy is adequate for many practical applications for tracking human kinematics.",
+    "published": "2022-12-01",
+    "first_seen": "2026-10-19T10:00:58.536952+00:00",
+    "doi": "10.3390/s22239378",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "主要任务是环境感知/地形估计而非 Agent 决策",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Sensors。 We evaluated a new wearable technology that fuses inertial sensors and cameras for tracking human kinematics. These de（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "58a28ff421d228113d",
     "title": "Reinforcement Learning based Control of a Quadruped Robot",
     "url": "https://doi.org/10.1109/indicon56171.2022.10039800",
@@ -26884,6 +27482,29 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "784f4c2cd717912b7b",
+    "title": "An Improved Simultaneous Localization and Mapping Method Base on LeGO-LOAM and Motion Compensation",
+    "url": "https://doi.org/10.56884/hhvh4446",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Proceedings of the 11th Asia-Pacific Regional Conference of the ISTVS。 With the rapid development of mobile robot, the premise of all decisions and planning is to perceive the surrounding environment, especially in complex environments such as wild and mountainous areas. The mainstream Simultaneous Localization and Mapping (SLAM) algorithm Lightweight and Ground-Optimized Lidar Odometry and Mapping (LeGO-LOAM) can be well adapted to this complex environment, but it does not take into account the motion compensation of the point cloud, which leads to a decrease in perception accuracy. LeGO-LOAM adopts the way of feature point and feature point matching for posture estimation. Due to the vertical launch angle of every scanning laser radar being fixed, the radar motion will lead to distortion between the matching feature points, which can cause incorrect pose estimation. Therefore, ",
+    "published": "2022-10-10",
+    "first_seen": "2026-10-19T10:00:58.537163+00:00",
+    "doi": "10.56884/hhvh4446",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为环境感知、定位、建图或导航",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 70,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Proceedings of the 11th Asia-Pacific Regional Conference of the ISTVS。 With the rapid development of mobile robot, the premise （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "6fe5f08dac7ffd032e",
     "title": "Bionic Quadruped Robot for Mars Surface Exploration",
     "url": "https://doi.org/10.56884/wfts1248",
@@ -27094,6 +27715,29 @@
     "scope": "可迁移的机器人关键技术",
     "score": 72,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Bioinspiration & Biomimetics。Legged robotic technologies have moved out of the lab to operate in real environments, characteriz（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "0eea547c2f2f11424a",
+    "title": "An Alpha/Beta Radiation Mapping Method Using Simultaneous Localization and Mapping for Nuclear Power Plants",
+    "url": "https://doi.org/10.3390/machines10090800",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Machines。 Nuclear safety has always been a focal point in the field of nuclear applications. Mobile robots carrying specific sensors for nuclear-radiation detection have become an alternative to manual detection. This work presents an autonomous α/β radiation mapping framework, using a mobile robot carrying a light detection and ranging (LiDAR) and a nuclear-radiation-detection sensor. The method employs simultaneous localization and mapping (SLAM) techniques and radiation-detection sensors. Cartographer is adopted as a demonstration example to map the unknown environment. Radiation data are obtained through the radiation detection sensor and projected onto the environment map after coordinate alignment. The color-coded radiation map is shown on the environment map according to the dose rate. The simulation and real-environment experiments in a robot-operating system (ROS) valida",
+    "published": "2022-09-11",
+    "first_seen": "2026-10-19T10:00:58.536806+00:00",
+    "doi": "10.3390/machines10090800",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为环境感知、定位、建图或导航",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 70,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Machines。 Nuclear safety has always been a focal point in the field of nuclear applications. Mobile robots carrying specific se（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -27601,6 +28245,29 @@
     "scope": "特种场景直接相关",
     "score": 76,
     "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：2022 7th Asia-Pacific Conference on Intelligent Robot Systems (ACIRS)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "2092e3bf5c86d7b1e3",
+    "title": "Phase-SLAM: Phase Based Simultaneous Localization and Mapping for Mobile Structured Light Illumination Systems",
+    "url": "https://doi.org/10.1109/lra.2022.3162024",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：IEEE Robotics and Automation Letters。",
+    "published": "2022-07-01",
+    "first_seen": "2026-10-19T10:00:58.536516+00:00",
+    "doi": "10.1109/lra.2022.3162024",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "主要任务是环境感知/地形估计而非 Agent 决策",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：IEEE Robotics and Automation Letters。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -31058,6 +31725,29 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "fdabc1bd6f20b222a2",
+    "title": "Multi-robot cardinality-balanced multi-Bernoulli filter simultaneous localization and mapping method",
+    "url": "https://doi.org/10.1088/1361-6501/ac3784",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Measurement Science and Technology。 Abstract In order to improve the simultaneous localization and mapping (SLAM) accuracy of mobile robots in complex indoor environments, the multi-robot cardinality-balanced multi-Bernoulli filter SLAM (MR-CBMber-SLAM) method is proposed. First of all, this method introduces a multi-Bernoulli filter based on the random finite set (RFS) theory to solve the complex data association problem. This method aims to overcome the problem that the multi-Bernoulli filter will overestimate the aspect of SLAM map feature estimation, and combines the strategy of balancing cardinality with a multi-Bernoulli filter. What is more, in order to further improve the accuracy and operating efficiency of SLAM, a multi-robot strategy and a multi-robot Gaussian information-fusion method are proposed. In the experiment, the MR-CBMber-SLAM method is compared with the mult",
+    "published": "2021-12-23",
+    "first_seen": "2026-10-19T10:00:52.413239+00:00",
+    "doi": "10.1088/1361-6501/ac3784",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为环境感知、定位、建图或导航",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Measurement Science and Technology。 Abstract In order to improve the simultaneous localization and mapping (SLAM) accuracy of m（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "e7ff4128447dccdeaa",
     "title": "Accurate and Robust Object SLAM With 3D Quadric Landmark Reconstruction in Outdoors",
     "url": "https://doi.org/10.1109/lra.2021.3137896",
@@ -31649,6 +32339,32 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "10d91f884abf5eaf28",
+    "title": "Assessing the feasibility of monocular visual simultaneous localization and mapping for live sewer pipes: a field robotics study",
+    "url": "https://doi.org/10.1109/icar53236.2021.9659486",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：2021 20th International Conference on Advanced Robotics (ICAR)。",
+    "published": "2021-12-06",
+    "first_seen": "2026-10-19T10:00:52.413716+00:00",
+    "doi": "10.1109/icar53236.2021.9659486",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为环境感知、定位、建图或导航",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航",
+      "特种应用与产品"
+    ],
+    "industry_tags": [
+      "野外与特种地形"
+    ],
+    "scope": "特种场景直接相关",
+    "score": 77,
+    "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：野外与特种地形。来源期刊/会议：2021 20th International Conference on Advanced Robotics (ICAR)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "9ae00d451d5ec6aaf3",
     "title": "Research on Clean Combustion Technology of EGR-based Flameproof Diesel Engine",
     "url": "https://doi.org/10.21203/rs.3.rs-1108080/v1",
@@ -31909,6 +32625,29 @@
     "scope": "可迁移的机器人关键技术",
     "score": 62,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2021 International Conference on Indoor Positioning and Indoor Navigation (IPIN)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "7f08901fa8fd1696d8",
+    "title": "Multispectral Visual Odometry Using SVSF for Mobile Robot Localization",
+    "url": "https://doi.org/10.1142/s2301385022500157",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Unmanned Systems。 In this paper, we propose a novel method for mobile robot localization and navigation based on multispectral visual odometry (MVO). The proposed approach consists in combining visible and infrared images to localize the mobile robot under different conditions (day, night, indoor and outdoor). The depth image acquired by the Kinect sensor is very sensitive for IR luminosity, which makes it not very useful for outdoor localization. So, we propose an efficient solution for the aforementioned Kinect limitation based on three navigation modes: indoor localization based on RGB/depth images, night localization based on depth/IR images and outdoor localization using multispectral stereovision RGB/IR. For automatic selection of the appropriate navigation modes, we proposed a fuzzy logic controller based on images’ energies. To overcome the limitation of the multimodal vi",
+    "published": "2021-11-27",
+    "first_seen": "2026-10-19T10:00:52.414081+00:00",
+    "doi": "10.1142/s2301385022500157",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为环境感知、定位、建图或导航",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 65,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Unmanned Systems。 In this paper, we propose a novel method for mobile robot localization and navigation based on multispectral （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -32429,6 +33168,29 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "46e5837f4dae7967c4",
+    "title": "The Simultaneous Localization and Mapping (SLAM)-An Overview",
+    "url": "https://doi.org/10.38094/jastt204117",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Journal of Applied Science and Technology Trends。 Positioning is needed for many applications related to mapping and navigation, either in civilian or military domains. The significant developments in satellite-based techniques, sensors, telecommunications, computer hardware and software, image processing, etc. positively influenced solving the positioning problem efficiently and instantaneously. Accordingly, the mentioned development empowered the applications and advancement of autonomous navigation. One of the most interestingly developed positioning techniques is what is called in robotics Simultaneous Localization and Mapping (SLAM). The SLAM problem solution has witnessed a quick improvement in the last decades, either using active sensors like the RAdio Detection and Ranging (Radar) and Light Detection and Ranging (LiDAR) or passive sensors like cameras. Definitely, positi",
+    "published": "2021-11-02",
+    "first_seen": "2026-10-19T10:00:52.413388+00:00",
+    "doi": "10.38094/jastt204117",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "主要任务是环境感知/地形估计而非 Agent 决策",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 63,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Journal of Applied Science and Technology Trends。 Positioning is needed for many applications related to mapping and navigation（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "8f0601b5466719174e",
     "title": "Combined inspection strategy of bionic substation inspection robot based on improved Biological Inspired Neural Network",
     "url": "https://doi.org/10.1016/j.egyr.2021.10.007",
@@ -32524,6 +33286,29 @@
     "scope": "可迁移的机器人关键技术",
     "score": 73,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2021 4th International Conference on Computing & Information Sciences (ICCIS)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "886a7dc85ec4d6e9d0",
+    "title": "LiDAR-based Simultaneous Localization and Mapping in an underground mine in Złoty Stok, Poland",
+    "url": "https://doi.org/10.1088/1755-1315/942/1/012035",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：IOP Conference Series: Earth and Environmental Science。 Abstract The mining sector is one of the most promising areas for implementing advanced autonomous robots. The benefits of increased safety, robot actions’ repeatability, and reducing human presence in hazardous locations are especially important in underground mines. One of the core functionalities of such a device is the robot’s ability to localize and navigate itself in the working environment. To achieve this, simultaneous localization and mapping (SLAM) techniques are used. In selected cases, they also allow the acquisition of dense spatial data in the form of 3D point clouds, which can be utilized for various 3D modeling and spatial analysis purposes. In this work, a mobile robot, equipped only with a compact laser scanner, is used to acquire spatial data in the adit of a closed mine in Zloty Stok, Poland. This data is",
+    "published": "2021-11-01",
+    "first_seen": "2026-10-19T10:00:52.413699+00:00",
+    "doi": "10.1088/1755-1315/942/1/012035",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为环境感知、定位、建图或导航",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 71,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：IOP Conference Series: Earth and Environmental Science。 Abstract The mining sector is one of the most promising areas for imple（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -32685,6 +33470,29 @@
     "scope": "可迁移的机器人关键技术",
     "score": 64,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Journal of Bionic Engineering。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "4bd4338673ea6da109",
+    "title": "Grey Wolf Resampling-Based Rao-Blackwellized Particle Filter for Mobile Robot Simultaneous Localization and Mapping",
+    "url": "https://doi.org/10.1155/2021/4978984",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Journal of Robotics。 An artificial intelligent grey wolf optimizer (GWO)-assisted resampling scheme is applied to the Rao-Blackwellized particle filter (RBPF) in the simultaneous localization and mapping (SLAM). By doing this, we can make the diversity of the particles resampling and then obtain a better localization accuracy and fast convergence to realize indoor mobile robot SLAM. In addition, we propose an adaptive local data association (Range-SLAM) scheme to improve the computational efficiency for the algorithm of the nearest neighbor (NN) data association in the iteration of the RBPF prediction. Through the experiment and simulations, the proposed SLAM schemes have fast convergence, accuracy, and heuristics. Therefore, the improved RBPF and new data association schemes presented in this paper can provide a feasible method for the indoor mobile robot SLAM.",
+    "published": "2021-10-26",
+    "first_seen": "2026-10-19T10:00:52.413298+00:00",
+    "doi": "10.1155/2021/4978984",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为环境感知、定位、建图或导航",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 73,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Journal of Robotics。 An artificial intelligent grey wolf optimizer (GWO)-assisted resampling scheme is applied to the Rao-Black（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {

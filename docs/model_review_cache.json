@@ -61,5 +61,40 @@
     "reason": "提出基于失败的课程地形生成，提升四足机器人 parkour 控制",
     "needs_review": false,
     "source": "OpenRouter free router (metadata only)"
+  },
+  "aca25379548f610f29f24128e107143fc5a4ccaffebf6f01c978a1f7a087de7d": {
+    "primary_category": "大脑与具身智能",
+    "secondary_categories": [],
+    "reason": "通过编码智能体在线探索生成机器人控制代码，属于高层语言智能体规划与具身智能。",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "8af15fb680da7c96dde6b2d51ce8002871829edc3821d6d779f121c692522e32": {
+    "primary_category": "大脑与具身智能",
+    "secondary_categories": [],
+    "reason": "基于视觉预测触觉信号，推进具身智能中触觉感知的建模。",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "83aa9e20f777044e904be75172711e133d81b5ad6c7f616b2f259d421b22feba": {
+    "primary_category": "大脑与具身智能",
+    "secondary_categories": [],
+    "reason": "研究VLA模型中图像指令经跨注意力层影响动作专家的因果通路，属于具身智能高层决策。",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "17cff33f3d59bd19e2ebb0f8502773a5891fdcec533db51a7b19b2b438746d39": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "提出Co-VLN框架，通过观察共享增强视觉语言导航，属于感知建图与导航范畴。",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "b07d40986d504af13742fa38f57e67c3542910323bbb1880d2bb71d360b8cb65": {
+    "primary_category": "基础软件与系统",
+    "secondary_categories": [],
+    "reason": "提出基于多模式控制器的亚毫秒反射系统，实现确定性快速切换。",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
   }
 }
