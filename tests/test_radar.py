@@ -528,9 +528,9 @@ class RadarTests(unittest.TestCase):
         paper_id="paper-test"
         variants=[
             '大脑与具身智能|NO|通过视觉语言模型进行任务分解并调用导航技能',
-            '分类：大脑与具身智能\\n理由：通过视觉语言模型进行任务分解并调用导航技能',
+            '分类：大脑与具身智能\n理由：通过视觉语言模型进行任务分解并调用导航技能',
             '{"category":"大脑与具身智能","needs_review":false,"reason":"通过视觉语言模型进行任务分解并调用导航技能"}',
-            'Result: ```json\\n{"primary_category":"大脑与具身智能","needs_review":false,"reason":"通过视觉语言模型进行任务分解并调用导航技能"}\\n```'
+            'Result: ```json\n{"primary_category":"大脑与具身智能","needs_review":false,"reason":"通过视觉语言模型进行任务分解并调用导航技能"}\n```'
         ]
         for response in variants:
             with self.subTest(response=response[:25]):
