@@ -83,7 +83,7 @@ def main():
                         temperature=0,max_tokens=500)
                     choice=response.choices[0]
                     raw=(choice.message.content or "").strip()
-                    raw=re.sub(r"^\x60\x60\x60(?:json)?\\s*|\\s*\x60\x60\x60$", "", raw)
+                    raw=re.sub(r"^\x60\x60\x60(?:json)?\s*|\s*\x60\x60\x60$", "", raw)
                     if choice.finish_reason=="length":
                         raise ValueError("output reached token limit")
                     parsed=json.loads(raw)
