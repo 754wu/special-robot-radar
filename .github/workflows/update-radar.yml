@@ -44,9 +44,9 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Fetch, classify, render
         env:
-          OPENAI_API_KEY: ${{ secrets.RADAR_MODEL_API_KEY }}
+          OPENAI_API_KEY: ''
           OPENAI_BASE_URL: ${{ vars.RADAR_MODEL_BASE_URL }}
-          OPENAI_MODEL: ${{ vars.RADAR_MODEL_NAME }}
+          OPENAI_MODEL: ''
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
           RADAR_CONTACT_EMAIL: ${{ vars.RADAR_CONTACT_EMAIL }}
