@@ -97,6 +97,16 @@ def parse_short_classification(raw):
             if cat in CATEGORIES and flag in ("yes","no","true","false","是","否"):
                 return {"primary_category":cat,
                         "needs_review":flag in ("yes","true","是"),"reason":reason}
+    # Parse explicit label pairs line by line before permissive regex fallback.
+    labels={}
+    for one in clean.replace("\\n","\n").splitlines():
+        if ":" not in one:continue
+        k,v=one.split(":",1)
+        labels[k.strip().lower()]=v.strip()
+    category=next((labels[k] for k in ("主分类","分类","category","primary_category") if k in labels),None)
+    reason=next((labels[k] for k in ("理由","依据","reason") if k in labels),None)
+    if category in CATEGORIES and reason:
+        return {"primary_category":category,"needs_review":True,"reason":reason}
     labeled=re.search(r"(?:主分类|分类|category|primary_category)\s*[:=]\s*([^\n;；]+)",clean,re.I)
     why=re.search(r"(?:理由|依据|reason)\s*[:=]\s*([^\n]+)",clean,re.I)
     if labeled and why:
