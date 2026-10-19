@@ -11,9 +11,9 @@ DB=ROOT/"docs/items.json"
 CACHE=ROOT/"docs/model_review_cache.json"
 REPORT=ROOT/"docs/model_review_report.md"
 CATEGORIES=("硬件与防爆","基础软件与系统","小脑与运动控制","大脑与具身智能","感知建图与导航","特种应用与产品")
-VERSION="review-v4"
-MODEL=os.getenv("RADAR_FREE_MODEL","qwen/qwen3-235b-a22b-2507:free")
-if not MODEL.endswith(":free"):
+VERSION="review-v5"
+MODEL=os.getenv("RADAR_FREE_MODEL","openrouter/free")
+if MODEL != "openrouter/free" and not MODEL.endswith(":free"):
     raise ValueError("RADAR_FREE_MODEL must end with :free")
 URL="https://openrouter.ai/api/v1"
 def key_for(item):
@@ -81,7 +81,7 @@ def main():
     if token and budget and pending:
         try:
             from openai import OpenAI
-            from openai import RateLimitError, AuthenticationError, PermissionDeniedError
+            from openai import RateLimitError, AuthenticationError, PermissionDeniedError, NotFoundError
             client=OpenAI(api_key=token,base_url=URL,timeout=40,max_retries=0)
             for item in pending:
                 if attempts >= budget:
@@ -123,9 +123,9 @@ def main():
                         raise ValueError("invalid_fields")
                     cache[key_for(item)]=checked
                     reviewed+=1
-                except (RateLimitError,AuthenticationError,PermissionDeniedError) as ex:
-                    failure("quota_or_auth")
-                    print("[WARN] OpenRouter quota/authentication blocked:",type(ex).__name__)
+                except (RateLimitError,AuthenticationError,PermissionDeniedError,NotFoundError) as ex:
+                    failure("quota_auth_or_unavailable_model")
+                    print("[WARN] OpenRouter cannot serve model; stopping to preserve quota:",type(ex).__name__)
                     break
                 except Exception as ex:
                     # A malformed answer should not waste the remaining daily quota.
