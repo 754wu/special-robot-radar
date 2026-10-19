@@ -13079,6 +13079,29 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "3f4bc20723663008c6",
+    "title": "ROS2-based Robot Anomaly Detection System Using Vision-language Model",
+    "url": "https://doi.org/10.5302/j.icros.2025.25.0090",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Journal of Institute of Control, Robotics and Systems。",
+    "published": "2025-07-31",
+    "first_seen": "2026-10-19T08:27:25.798372+00:00",
+    "doi": "10.5302/j.icros.2025.25.0090",
+    "category": "基础软件与系统",
+    "classification_confidence": "待复核",
+    "classification_reason": "研究机器人软件、仿真或平台系统",
+    "needs_review": true,
+    "tags": [
+      "基础软件与系统"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Journal of Institute of Control, Robotics and Systems。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "696faf4d3d2bcf3713",
     "title": "Quadruped Robot Locomotion Based on Deep Learning Rules",
     "url": "https://doi.org/10.3390/engproc2025087100",
@@ -13193,6 +13216,31 @@
     "scope": "可迁移的机器人关键技术",
     "score": 61,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Biomimetics。Legged robots face inherent challenges in energy efficiency and stability at high speeds due to the repetitive acce（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "3246496e7913feb259",
+    "title": "Mobile Robot Navigation Using Hand-Drawn Maps: A Vision Language Model Approach",
+    "url": "https://doi.org/10.1109/lra.2025.3577456",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：IEEE Robotics and Automation Letters。",
+    "published": "2025-07-01",
+    "first_seen": "2026-10-19T08:27:25.797822+00:00",
+    "doi": "10.1109/lra.2025.3577456",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "VLM 用于导航/感知；无充分高层 Agent 贡献证据",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航",
+      "大脑与具身智能",
+      "VLM"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 73,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：IEEE Robotics and Automation Letters。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -17747,6 +17795,29 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "804975504740a47ab5",
+    "title": "Transformer-based vision-language alignment for robot navigation and question answering",
+    "url": "https://doi.org/10.1016/j.inffus.2024.102351",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Information Fusion。",
+    "published": "2024-08-01",
+    "first_seen": "2026-10-19T08:27:16.672041+00:00",
+    "doi": "10.1016/j.inffus.2024.102351",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为环境感知、定位、建图或导航",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Information Fusion。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "75018e111d5f23c10b",
     "title": "A differentiable dynamic modeling approach to integrated motion planning and actuator physical design for mobile manipulators",
     "url": "https://doi.org/10.1002/rob.22394",
@@ -21979,6 +22050,30 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "c0b447e4e48db620d3",
+    "title": "RDDRL: a recurrent deduction deep reinforcement learning model for multimodal vision-robot navigation",
+    "url": "https://doi.org/10.1007/s10489-023-04754-7",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Applied Intelligence。",
+    "published": "2023-07-07",
+    "first_seen": "2026-10-19T08:27:09.038128+00:00",
+    "doi": "10.1007/s10489-023-04754-7",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为环境感知、定位、建图或导航",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航",
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Applied Intelligence。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "aa6fcd17803b7f20f8",
     "title": "Deep Learning Vision System for Quadruped Robot Gait Pattern Regulation",
     "url": "https://doi.org/10.3390/biomimetics8030289",
@@ -23169,6 +23264,29 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "1271a49bc7b03b486b",
+    "title": "Image-based robot navigation with task achievability",
+    "url": "https://doi.org/10.3389/frobt.2023.944375",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Frontiers in Robotics and AI。 Image-based robot action planning is becoming an active area of research owing to recent advances in deep learning. To evaluate and execute robot actions, recently proposed approaches require the estimation of the optimal cost-minimizing path, such as the shortest distance or time, between two states. To estimate the cost, parametric models consisting of deep neural networks are widely used. However, such parametric models require large amounts of correctly labeled data to accurately estimate the cost. In real robotic tasks, collecting such data is not always feasible, and the robot itself may require collecting it. In this study, we empirically show that when a model is trained with data autonomously collected by a robot, the estimation of such parametric models could be inaccurate to perform a task. Specifically, the higher the maximum predicted di",
+    "published": "2023-05-31",
+    "first_seen": "2026-10-19T08:27:40.219847+00:00",
+    "doi": "10.3389/frobt.2023.944375",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为环境感知、定位、建图或导航",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Frontiers in Robotics and AI。 Image-based robot action planning is becoming an active area of research owing to recent advances（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "070bc4c0ea4ac62696",
     "title": "Implementing a Prototype Autonomous Fire Detecting and Firefighting Robot",
     "url": "https://doi.org/10.20944/preprints202305.2010.v1",
@@ -23836,6 +23954,30 @@
     "classification_confidence": "高",
     "classification_reason": "核心任务为环境感知、定位、建图或导航",
     "needs_review": false
+  },
+  {
+    "id": "4c4624b7ef3d6da053",
+    "title": "Long-term robot manipulation task planning with scene graph and semantic knowledge",
+    "url": "https://doi.org/10.1108/ria-09-2022-0226",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Robotic Intelligence and Automation。 Purpose Autonomous robots must be able to understand long-term manipulation tasks described by humans and perform task analysis and planning based on the current environment in a variety of scenes, such as daily manipulation and industrial assembly. However, both classical task and motion planning algorithms and single data-driven learning planning methods have limitations in practicability, generalization and interpretability. The purpose of this work is to overcome the limitations of the above methods and achieve generalized and explicable long-term robot manipulation task planning. Design/methodology/approach The authors propose a planning method for long-term manipulation tasks that combines the advantages of existing methods and the prior cognition brought by the knowledge graph. This method integrates visual semantic understanding based ",
+    "published": "2023-01-25",
+    "first_seen": "2026-10-19T08:27:40.219651+00:00",
+    "doi": "10.1108/ria-09-2022-0226",
+    "category": "大脑与具身智能",
+    "classification_confidence": "高",
+    "classification_reason": "研究任务推理、Agent、工具技能调用或世界模型高层规划",
+    "needs_review": false,
+    "tags": [
+      "大脑与具身智能",
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Robotic Intelligence and Automation。 Purpose Autonomous robots must be able to understand long-term manipulation tasks describe（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "787d2d8ff71c3e9b8c",
@@ -28185,6 +28327,29 @@
     "needs_review": false
   },
   {
+    "id": "4e3459af10d55d2eab",
+    "title": "Path Planning Incorporating Semantic Information for Autonomous Robot Navigation",
+    "url": "https://doi.org/10.5220/0011134300003271",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Proceedings of the 19th International Conference on Informatics in Control, Automation and Robotics。",
+    "published": "2022-01-01",
+    "first_seen": "2026-10-19T08:27:32.176350+00:00",
+    "doi": "10.5220/0011134300003271",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为环境感知、定位、建图或导航",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Proceedings of the 19th International Conference on Informatics in Control, Automation and Robotics。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "ae16108f26b74f745a",
     "title": "Development of a Lizard-Inspired Wall-Climbing Robot Using Pressure Sensitive Adhesion",
     "url": "https://doi.org/10.1109/access.2022.3189162",
@@ -28848,12 +29013,12 @@
     "id": "7d27e94616055f3217",
     "title": "Development of quadruped robot for inspection of underground pipelines in nuclear power plants",
     "url": "https://doi.org/10.1049/ell2.12414",
-    "source": "Crossref",
+    "source": "OpenAlex",
     "type": "论文（摘要）",
-    "description": "来源期刊/会议：Electronics Letters。 Abstract Structural integrity of seawater pipelines in nuclear power plants is a very important issue. In accordance with the operating technical guidelines, the human operators directly enter the pipe and inspect it at every maintenance test. However, in this regard, safety issues such as narrow space and harmful gas are emerging every year. In response to these needs, a quadruped robot that can inspect underground pipes and assist workers has been developed. The robot has an articulated robotic arm that can receive an impact sound of hammering a pipe wall to test pipe integrity. The state of the pipe was examined using a Convolutional Neural Network algorithm. On the other hand, moving in a plumbing environment requires stable walking ability. To determine the gait sequence, a hierarchical gait controller is proposed. The hybrid controller, which consists o",
+    "description": "来源期刊/会议：Electronics Letters。Abstract Structural integrity of seawater pipelines in nuclear power plants is a very important issue. In accordance with the operating technical guidelines, the human operators directly enter the pipe and inspect it at every maintenance test. However, in this regard, safety issues such as narrow space and harmful gas are emerging every year. In response to these needs, a quadruped robot that can inspect underground pipes and assist workers has been developed. The robot has an articulated robotic arm that can receive an impact sound of hammering a pipe wall to test pipe integrity. The state of the pipe was examined using a Convolutional Neural Network algorithm. On the other hand, moving in a plumbing environment requires stable walking ability. To determine the gait sequence, a hierarchical gait controller is proposed. The hybrid controller, which consists of",
     "published": "2021-12-27",
     "first_seen": "2026-10-15T03:42:03.813243+00:00",
-    "doi": "10.1049/ell2.12414",
+    "doi": "https://doi.org/10.1049/ell2.12414",
     "category": "小脑与运动控制",
     "classification_confidence": "待复核",
     "classification_reason": "运动控制类别缺少题名中的控制任务证据",
@@ -28864,7 +29029,7 @@
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 64,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Electronics Letters。 Abstract Structural integrity of seawater pipelines in nuclear power plants is a very important issue. In （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Electronics Letters。Abstract Structural integrity of seawater pipelines in nuclear power plants is a very important issue. In a（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -29055,12 +29220,12 @@
     "id": "f396275f6f86706ae9",
     "title": "Control of Thruster-Assisted, Bipedal Legged Locomotion of the Harpy Robot",
     "url": "https://doi.org/10.3389/frobt.2021.770514",
-    "source": "Crossref",
+    "source": "OpenAlex",
     "type": "论文（摘要）",
-    "description": "来源期刊/会议：Frontiers in Robotics and AI。 Fast constraint satisfaction, frontal dynamics stabilization, and avoiding fallovers in dynamic, bipedal walkers can be pretty challenging. The challenges include underactuation, vulnerability to external perturbations, and high computational complexity that arise when accounting for the system full-dynamics and environmental interactions. In this work, we study the potential roles of thrusters in addressing some of these locomotion challenges in bipedal robotics. We will introduce a thruster-assisted bipedal robot called Harpy . We will capitalize on Harpy’s unique design to propose an optimization-free approach to satisfy gait feasibility conditions. In this thruster-assisted legged locomotion, the reference trajectories can be manipulated to fulfill constraints brought on by ground contact and those prescribed for states and inputs. Unintended cha",
+    "description": "来源期刊/会议：Frontiers in Robotics and AI。Fast constraint satisfaction, frontal dynamics stabilization, and avoiding fallovers in dynamic, bipedal walkers can be pretty challenging. The challenges include underactuation, vulnerability to external perturbations, and high computational complexity that arise when accounting for the system full-dynamics and environmental interactions. In this work, we study the potential roles of thrusters in addressing some of these locomotion challenges in bipedal robotics. We will introduce a thruster-assisted bipedal robot called Harpy. We will capitalize on Harpy’s unique design to propose an optimization-free approach to satisfy gait feasibility conditions. In this thruster-assisted legged locomotion, the reference trajectories can be manipulated to fulfill constraints brought on by ground contact and those prescribed for states and inputs. Unintended chang",
     "published": "2021-12-23",
     "first_seen": "2026-10-15T03:42:03.814132+00:00",
-    "doi": "10.3389/frobt.2021.770514",
+    "doi": "https://doi.org/10.3389/frobt.2021.770514",
     "category": "小脑与运动控制",
     "classification_confidence": "高",
     "classification_reason": "核心任务为运动、步态、控制或机器人操作",
@@ -29071,7 +29236,7 @@
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 73,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Frontiers in Robotics and AI。 Fast constraint satisfaction, frontal dynamics stabilization, and avoiding fallovers in dynamic, （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Frontiers in Robotics and AI。Fast constraint satisfaction, frontal dynamics stabilization, and avoiding fallovers in dynamic, b（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -29170,12 +29335,12 @@
     "id": "2f99f5e0ed7fd99e00",
     "title": "Virtual Energy Management for Physical Energy Savings in a Legged Robot Hopping on Granular Media",
     "url": "https://doi.org/10.3389/frobt.2021.740927",
-    "source": "Crossref",
+    "source": "OpenAlex",
     "type": "论文（摘要）",
-    "description": "来源期刊/会议：Frontiers in Robotics and AI。 We discuss an active damping controller to reduce the energetic cost of a single step or jump of dynamic locomotion without changing the morphology of the robot. The active damping controller adds virtual damping to a virtual leg spring created by direct-drive motors through the robot’s leg linkage. The virtual damping added is proportional to the intrusion velocity of the robot’s foot, slowing the foot’s intrusion, and thus the rate at which energy is transferred to and dissipated by the ground. In this work, we use a combination of simulations and physical experiments in a controlled granular media bed with a single-leg robot to show that the active damping controller reduces the cost of transport compared with a naive compression-extension controller under various conditions.",
+    "description": "来源期刊/会议：Frontiers in Robotics and AI。controller to reduce the energetic cost of a single step or jump of dynamic locomotion without changing the morphology of the robot. The active damping controller adds virtual damping to a virtual leg spring created by direct-drive motors through the robot's leg linkage. The virtual damping added is proportional to the intrusion velocity of the robot's foot, slowing the foot's intrusion, and thus the rate at which energy is transferred to and dissipated by the ground. In this work, we use a combination of simulations and physical experiments in a controlled granular media bed with a single-leg robot to show that the active damping controller reduces the cost of transport compared with a naive compression-extension controller under various conditions.",
     "published": "2021-12-21",
     "first_seen": "2026-10-15T03:42:03.814828+00:00",
-    "doi": "10.3389/frobt.2021.740927",
+    "doi": "https://doi.org/10.3389/frobt.2021.740927",
     "category": "小脑与运动控制",
     "classification_confidence": "待复核",
     "classification_reason": "运动控制类别缺少题名中的控制任务证据",
@@ -29186,7 +29351,7 @@
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 64,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Frontiers in Robotics and AI。 We discuss an active damping controller to reduce the energetic cost of a single step or jump of （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Frontiers in Robotics and AI。controller to reduce the energetic cost of a single step or jump of dynamic locomotion without cha（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -29336,12 +29501,12 @@
     "id": "6f3baa9472e184f768",
     "title": "Whole-body kinematic and dynamic modeling for quadruped robot under different gaits and mechanism topologies",
     "url": "https://doi.org/10.7717/peerj-cs.821",
-    "source": "Crossref",
+    "source": "OpenAlex",
     "type": "论文（摘要）",
-    "description": "来源期刊/会议：PeerJ Computer Science。 Dynamic locomotion plays a crucial role for legged robots to fulfill tasks in unstructured environments. This paper proposes whole-body kinematic and dynamic modeling method s based on screw theory for a quadruped robot using different gaits and mechanism topologies. Unlike simplified models such as centroid or inverse pendulum models, the methods proposed here can handle 10-dimensional mass and inertia for each part. The only simplification is that foot contact models are treated as spherical joints. Models of three different mechanism topologies are formulated: (1) Standing phase: a system consisting of one end-effector, the body, and four limbs, the legs; (2) Walking phase: a system consisting of one or two lifting legs (depending on the chosen gait), two or three supporting legs; (3) Floating phase: a system in which all legs detach from the ground. Co",
+    "description": "来源期刊/会议：PeerJ Computer Science。Dynamic locomotion plays a crucial role for legged robots to fulfill tasks in unstructured environments. This paper proposes whole-body kinematic and dynamic modeling method s based on screw theory for a quadruped robot using different gaits and mechanism topologies. Unlike simplified models such as centroid or inverse pendulum models, the methods proposed here can handle 10-dimensional mass and inertia for each part. The only simplification is that foot contact models are treated as spherical joints. Models of three different mechanism topologies are formulated: (1) Standing phase: a system consisting of one end-effector, the body, and four limbs, the legs; (2) Walking phase: a system consisting of one or two lifting legs (depending on the chosen gait), two or three supporting legs; (3) Floating phase: a system in which all legs detach from the ground. Con",
     "published": "2021-12-16",
     "first_seen": "2026-10-15T03:42:03.816317+00:00",
-    "doi": "10.7717/peerj-cs.821",
+    "doi": "https://doi.org/10.7717/peerj-cs.821",
     "category": "小脑与运动控制",
     "classification_confidence": "待复核",
     "classification_reason": "运动控制类别缺少题名中的控制任务证据",
@@ -29352,7 +29517,7 @@
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 65,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：PeerJ Computer Science。 Dynamic locomotion plays a crucial role for legged robots to fulfill tasks in unstructured environments（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：PeerJ Computer Science。Dynamic locomotion plays a crucial role for legged robots to fulfill tasks in unstructured environments.（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -30002,12 +30167,12 @@
     "id": "7580c05c7336ae44ee",
     "title": "Autonomous Obstacle Crossing Strategies for the Hybrid Wheeled-Legged Robot Centauro",
     "url": "https://doi.org/10.3389/frobt.2021.721001",
-    "source": "Crossref",
+    "source": "OpenAlex",
     "type": "论文（摘要）",
-    "description": "来源期刊/会议：Frontiers in Robotics and AI。 The development of autonomous legged/wheeled robots with the ability to navigate and execute tasks in unstructured environments is a well-known research challenge. In this work we introduce a methodology that permits a hybrid legged/wheeled platform to realize terrain traversing functionalities that are adaptable, extendable and can be autonomously selected and regulated based on the geometry of the perceived ground and associated obstacles. The proposed methodology makes use of a set of terrain traversing primitive behaviors that are used to perform driving, stepping on, down and over and can be adapted, based on the ground and obstacle geometry and dimensions. The terrain geometrical properties are first obtained by a perception module, which makes use of point cloud data coming from the LiDAR sensor to segment the terrain in front of the robot, id",
+    "description": "来源期刊/会议：Frontiers in Robotics and AI。The development of autonomous legged/wheeled robots with the ability to navigate and execute tasks in unstructured environments is a well-known research challenge. In this work we introduce a methodology that permits a hybrid legged/wheeled platform to realize terrain traversing functionalities that are adaptable, extendable and can be autonomously selected and regulated based on the geometry of the perceived ground and associated obstacles. The proposed methodology makes use of a set of terrain traversing primitive behaviors that are used to perform driving, stepping on, down and over and can be adapted, based on the ground and obstacle geometry and dimensions. The terrain geometrical properties are first obtained by a perception module, which makes use of point cloud data coming from the LiDAR sensor to segment the terrain in front of the robot, ide",
     "published": "2021-11-19",
     "first_seen": "2026-10-15T03:42:18.808297+00:00",
-    "doi": "10.3389/frobt.2021.721001",
+    "doi": "https://doi.org/10.3389/frobt.2021.721001",
     "category": "特种应用与产品",
     "classification_confidence": "待复核",
     "classification_reason": "元数据不足，临时标记待复核（不视为应用领域确认）",
@@ -30018,7 +30183,7 @@
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 65,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：特种应用与产品；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Frontiers in Robotics and AI。 The development of autonomous legged/wheeled robots with the ability to navigate and execute task（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：特种应用与产品；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Frontiers in Robotics and AI。The development of autonomous legged/wheeled robots with the ability to navigate and execute tasks（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
