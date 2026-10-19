@@ -1,8 +1,8 @@
 # 特种机器人七日技术简报
 
-生成时间：2026-10-19T01:21:35.531725+00:00
+生成时间：2026-10-19T06:12:11.959580+00:00
 
-最近 7 天首次记录 **1285** 条；本轮新增 **13** 条；总库存 **1285** 条。
+最近 7 天首次记录 **1307** 条；本轮新增 **5** 条；总库存 **1307** 条。
 
 **注意：**‘七日’按首次入库时间统计，不代表论文发表于最近七天；相关度评分只是初筛优先级，不是成熟度或质量评级。
 
@@ -37,12 +37,12 @@
   - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：矿山与地下空间。来源期刊/会议：Sensors。 Mine disasters require urgent lifeline setup in confined tunnels, but manual rescue in unstable accident zones carries（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [M2CS: A Multimodal and Campus‐Scapes Dataset for Dynamic SLAM and Moving Object Perception](https://doi.org/10.1002/rob.22468) | 论文（摘要） | 特种场景直接相关 | 匹配度 81/100
   - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：野外与特种地形。来源期刊/会议：Journal of Field Robotics。ABSTRACT The deployment of the robotic system that executes specific task is being challenged by the （仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [TriSAR-3D and PaintFusion: A Novel Trimodal LiDAR-RGB-Thermal Dataset and Method for 3D Person Detection in Search and Rescue](https://arxiv.org/abs/2610.22509) | 论文（摘要） | 特种场景直接相关 | 匹配度 77/100
+  - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：消防与应急救援。arXiv:2610.22509v1 Announce Type: new Abstract: Reliable 3D person detection is important for rescue robotics to give first responders （仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [A High-fidelity Multimodal Synthetic Dataset Generation Framework for Off-road Unstructured Terrain Navigation Training of Autonomous Robots](https://doi.org/10.1007/s10846-025-02340-2) | 论文（摘要） | 特种场景直接相关 | 匹配度 77/100
   - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：野外与特种地形。来源期刊/会议：Journal of Intelligent & Robotic Systems。The success of deep learning methods in a wide range of application areas has inspired（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Point clouds to as-built two-node wireframe digital twin: a novel method to support autonomous robotic inspection](https://doi.org/10.1007/s43684-024-00082-w) | 论文（摘要） | 特种场景直接相关 | 匹配度 76/100
   - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：工业与能源巡检。来源期刊/会议：Autonomous Intelligent Systems。 Abstract Previous studies have primarily focused on converting point clouds (PC) into a dense m（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [A Thermal Imaging Flame-Detection Model for Firefighting Robot Based on YOLOv4-F Model](https://doi.org/10.3390/fire5050172) | 论文（摘要） | 特种场景直接相关 | 匹配度 76/100
-  - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：消防与应急救援。来源期刊/会议：Fire。 Fire robots are an effective way to save lives from fire, but their limited detection accuracy has greatly hampered their（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 小脑与运动控制
 
@@ -79,8 +79,8 @@
   - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。As robotic agents increasingly assist humans in reality, quadruped robots offer unique opportunities（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [An intelligent mission-oriented and situation aware quadruped robot: a novel embodied explainable AI approach](https://doi.org/10.1117/12.2664019) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 64/100
   - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Unmanned Systems Technology XXV。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Does Peer Observation Help? Vision-Sharing Collaboration for Vision-Language Navigation](https://arxiv.org/abs/2603.20804) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 63/100
-  - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2603.20804v2 Announce Type: replace-cross Abstract: Vision-Language Navigation (VLN) systems are fundamentally constrained by par（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Unifying Embodied Foundation Models via a Model-to-Policy Formulation](https://arxiv.org/abs/2610.23053) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 63/100
+  - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.23053v1 Announce Type: new Abstract: Vision-language-action (VLA) models and world-action models (WAMs) have emerged as prom（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 感知建图与导航
 
@@ -131,4 +131,4 @@
 
 ## 五年历史补录进度
 
-已完成 171 / 333 项年度/主题定向查询，详见 [backfill_report.md](backfill_report.md)。
+已完成 190 / 333 项年度/主题定向查询，详见 [backfill_report.md](backfill_report.md)。
