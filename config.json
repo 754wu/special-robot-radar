@@ -269,7 +269,14 @@
       "运动控制",
       "机器人操作",
       "机器人自主导航",
-      "机器人强化学习"
+      "机器人强化学习",
+      "agentic vln",
+      "robot skill calling",
+      "robot tool calling",
+      "embodied robot agent",
+      "vision language action robot",
+      "robot task reasoning",
+      "llm robot planning"
     ],
     "robot_component_terms": [
       "actuator",
@@ -362,5 +369,42 @@
     "robot locomotion control",
     "robot vision language navigation",
     "robot mechanical structure"
+  ],
+  "brain_openalex_queries": [
+    "embodied robot agent skill planning",
+    "agentic vision language navigation robot",
+    "vision language action robot model",
+    "large language model robotic task planning",
+    "robot skill calling tool use",
+    "robot long term memory planning",
+    "hierarchical vision language navigation",
+    "robot foundation model reasoning",
+    "multi agent embodied navigation llm",
+    "VLM robot task planning",
+    "robot world model planning",
+    "robot agent behavior tree"
+  ],
+  "brain_crossref_queries": [
+    "embodied AI robot agent planning",
+    "vision language action robot models",
+    "language model robotic skill planning",
+    "agentic vision language navigation",
+    "robot memory reasoning tool calling"
+  ],
+  "brain_openalex_per_run": 2,
+  "brain_crossref_per_run": 1,
+  "brain_archive_openalex_queries": [
+    "embodied robot agent",
+    "agentic vision language navigation",
+    "vision language action robot",
+    "robot tool calling skill planning",
+    "robot long term memory reasoning",
+    "collaborative vision language navigation"
+  ],
+  "brain_archive_crossref_queries": [
+    "embodied robot agent",
+    "robot vision language action model",
+    "robot llm task planning",
+    "agentic vision language navigation"
   ]
 }
