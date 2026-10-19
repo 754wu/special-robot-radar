@@ -1,5 +1,30 @@
 [
   {
+    "id": "a24b8f4299b9a102fe",
+    "title": "Arman10121995/Celisca-ROS-2-Robot",
+    "url": "https://github.com/Arman10121995/Celisca-ROS-2-Robot",
+    "source": "GitHub",
+    "type": "代码仓库更新",
+    "description": "ROS 2 development for laboratory mobile robots at CELISCA, University of Rostock",
+    "published": "2026-10-19T11:02:10Z",
+    "first_seen": "2026-10-12T09:52:33.489712+00:00",
+    "stars": 0,
+    "license": true,
+    "repo_id": 1278949137,
+    "category": "基础软件与系统",
+    "classification_confidence": "待复核",
+    "classification_reason": "研究机器人软件、仿真或平台系统",
+    "needs_review": true,
+    "tags": [
+      "基础软件与系统"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。ROS 2 development for laboratory mobile robots at CELISCA, University of Rostock（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "30889516ee9489c51d",
     "title": "arnavsharmaa/blackbox",
     "url": "https://github.com/arnavsharmaa/blackbox",
@@ -1381,31 +1406,6 @@
     "scope": "可迁移的机器人关键技术",
     "score": 65,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。STM32F103C8T6-based quadruped robot with BLE remote control. Features diagonal gait locomotion (forward, backward, turn) and a Python/t（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
-  },
-  {
-    "id": "a24b8f4299b9a102fe",
-    "title": "Arman10121995/Celisca-ROS-2-Robot",
-    "url": "https://github.com/Arman10121995/Celisca-ROS-2-Robot",
-    "source": "GitHub",
-    "type": "代码仓库更新",
-    "description": "ROS 2 development for laboratory mobile robots at CELISCA, University of Rostock",
-    "published": "2026-10-15T05:48:46Z",
-    "first_seen": "2026-10-12T09:52:33.489712+00:00",
-    "stars": 0,
-    "license": true,
-    "repo_id": 1278949137,
-    "category": "基础软件与系统",
-    "classification_confidence": "待复核",
-    "classification_reason": "研究机器人软件、仿真或平台系统",
-    "needs_review": true,
-    "tags": [
-      "基础软件与系统"
-    ],
-    "industry_tags": [],
-    "scope": "可迁移的机器人关键技术",
-    "score": 61,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。ROS 2 development for laboratory mobile robots at CELISCA, University of Rostock（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -15172,6 +15172,29 @@
     "needs_review": false
   },
   {
+    "id": "b60c9d17bea0fdae4c",
+    "title": "Neural Adaptive Nonlinear MIMO Control for Bipedal Walking Robot Locomotion in Hazardous and Complex Task Applications",
+    "url": "https://doi.org/10.3390/robotics14060084",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Robotics。 This paper introduces a robust neural adaptive MIMO control strategy to improve the stability and adaptability of bipedal locomotion amid uncertainties and external disturbances. The control combines nonlinear dynamic inversion, finite-time convergence, and radial basis function (RBF) neural networks for fast, accurate trajectory tracking. The main novelty of the presented control strategy lies in unifying instantaneous feedback, real-time learning, and dynamic adaptation within a multivariable feedback framework, delivering superior robustness, precision, and real-time performance under extreme conditions. The control scheme is implemented on a 5-DOF underactuated RABBIT robot using a dSPACEDS1103 platform with a sampling rate of ∆t=1.5 ms (667 Hz). The experimental results show excellent performance with the following: The robot achieved stable cyclic gaits while keep",
+    "published": "2025-06-17",
+    "first_seen": "2026-10-19T11:07:25.943031+00:00",
+    "doi": "10.3390/robotics14060084",
+    "category": "小脑与运动控制",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
+    "needs_review": false,
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Robotics。 This paper introduces a robust neural adaptive MIMO control strategy to improve the stability and adaptability of bip（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "ba088318bcb8fd8f6a",
     "title": "Implementing Simultaneous Localization and Mapping (SLAM) onto a mobile robot",
     "url": "https://doi.org/10.64804/yemy9e93",
@@ -15492,6 +15515,9 @@
     "first_seen": "2026-10-15T03:42:36.723893+00:00",
     "doi": "10.3390/biomimetics10050335",
     "category": "小脑与运动控制",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
+    "needs_review": false,
     "tags": [
       "小脑与运动控制"
     ],
@@ -15499,10 +15525,7 @@
     "scope": "可迁移的机器人关键技术",
     "score": 65,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Biomimetics。 This paper presents the design and control of a quadruped robot equipped with a six-degree-of-freedom (6-DOF) bion（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "classification_confidence": "高",
-    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
-    "needs_review": false
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "c4dbfaf1cbc6eaad92",
@@ -15832,6 +15855,29 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "1e67389a401dcb6cbc",
+    "title": "Inertial Orientation Estimation Robust to Impact for Bipedal Robot Locomotion",
+    "url": "https://doi.org/10.1007/s12555-024-0548-2",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：International Journal of Control, Automation and Systems。",
+    "published": "2025-04-12",
+    "first_seen": "2026-10-19T11:07:25.942766+00:00",
+    "doi": "10.1007/s12555-024-0548-2",
+    "category": "小脑与运动控制",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
+    "needs_review": false,
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：International Journal of Control, Automation and Systems。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "fd0905be34a375146d",
     "title": "Enhancing Mobile Robot Navigation: A Graph Decomposition Submodule for TEA*",
     "url": "https://doi.org/10.1109/icarsc65809.2025.10970181",
@@ -15852,6 +15898,33 @@
     "scope": "可迁移的机器人关键技术",
     "score": 72,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2025 IEEE International Conference on Autonomous Robot Systems and Competitions (ICARSC)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "274990c1cc51d05a29",
+    "title": "A Novel Method for the Locomotion Control of a Rat Robot via the Electrical Stimulation of the Ventral Tegmental Area and Nigrostriatal Pathway",
+    "url": "https://doi.org/10.3390/brainsci15040348",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Brain Sciences。 Background: A rat robot can be constructed by electrically stimulating specific brain regions to control rat locomotion and behavior. The rat robot makes full use of the rat’s motor function and energy supply and has significant advantages in motor flexibility, environmental adaptability, and covertness. It can be widely used in disaster search and rescue, terrain survey, anti-terrorism, and explosion-proof tasks. However, the motor control of existing rat robots mainly relies on the virtual whisker touch produced by the electrical stimulation of the barrel area of the somatosensory cortex and the virtual reward generated by the electrical stimulation of the medial forebrain bundle. The methods requires substantial experimental training to encourage the animals to match the virtual sensation with the motor behavior. However, the conditioned reflexes acquired by th",
+    "published": "2025-03-27",
+    "first_seen": "2026-10-19T11:07:25.943738+00:00",
+    "doi": "10.3390/brainsci15040348",
+    "category": "小脑与运动控制",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
+    "needs_review": false,
+    "tags": [
+      "小脑与运动控制",
+      "特种应用与产品"
+    ],
+    "industry_tags": [
+      "防爆石化与危险环境",
+      "消防与应急救援"
+    ],
+    "scope": "特种场景直接相关",
+    "score": 76,
+    "summary": "行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：防爆石化与危险环境、消防与应急救援。来源期刊/会议：Brain Sciences。 Background: A rat robot can be constructed by electrically stimulating specific brain regions to control rat lo（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -16400,6 +16473,30 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "6b5f142387fa76d608",
+    "title": "Benchmarking Model Predictive Control and Reinforcement Learning-Based Control for Legged Robot Locomotion in MuJoCo Simulation",
+    "url": "https://doi.org/10.1109/access.2025.3582523",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：IEEE Access。",
+    "published": "2025-01-01",
+    "first_seen": "2026-10-19T11:07:25.942499+00:00",
+    "doi": "10.1109/access.2025.3582523",
+    "category": "基础软件与系统",
+    "classification_confidence": "高",
+    "classification_reason": "研究交付成果为 ROS2 等仿真模型/平台，并非新硬件设计",
+    "needs_review": false,
+    "tags": [
+      "基础软件与系统",
+      "硬件与防爆"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 74,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：IEEE Access。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "d47a3f58713b6de19b",
     "title": "Entropy-Controlled Intrinsic Motivation Reinforcement Learning for Quadruped Robot Locomotion in Complex Terrains",
     "url": "https://doi.org/10.2139/ssrn.5380289",
@@ -16410,6 +16507,9 @@
     "first_seen": "2026-10-15T01:40:23.493786+00:00",
     "doi": "10.2139/ssrn.5380289",
     "category": "小脑与运动控制",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
+    "needs_review": false,
     "tags": [
       "小脑与运动控制"
     ],
@@ -16417,10 +16517,7 @@
     "scope": "可迁移的机器人关键技术",
     "score": 73,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "classification_confidence": "高",
-    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
-    "needs_review": false
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "b628cb7538278d9356",
@@ -16479,6 +16576,9 @@
     "first_seen": "2026-10-15T01:40:23.494071+00:00",
     "doi": "10.2139/ssrn.5183855",
     "category": "小脑与运动控制",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
+    "needs_review": false,
     "tags": [
       "小脑与运动控制"
     ],
@@ -16486,10 +16586,7 @@
     "scope": "可迁移的机器人关键技术",
     "score": 65,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "classification_confidence": "高",
-    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
-    "needs_review": false
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "e1275faf5c41aec62e",
@@ -16697,6 +16794,75 @@
     "scope": "可迁移的机器人关键技术",
     "score": 64,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Applied Mathematical Modelling。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "b15f455a41095a598a",
+    "title": "MULTI-MODEL FUSION CONTROL FOR ENHANCED ROBUSTNESS AND COMPLIANCE IN HUMANOID ROBOT LOCOMOTION, 606-618.",
+    "url": "https://doi.org/10.2316/j.2025.206-1284",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：International Journal of Robotics and Automation。",
+    "published": "2025-01-01",
+    "first_seen": "2026-10-19T11:07:25.943541+00:00",
+    "doi": "10.2316/j.2025.206-1284",
+    "category": "小脑与运动控制",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
+    "needs_review": false,
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：International Journal of Robotics and Automation。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "4a94f721253cb14cd7",
+    "title": "Integrating Contact-Aware CPG System for Learning-Based Soft Snake Robot Locomotion Controllers",
+    "url": "https://doi.org/10.1109/tro.2025.3539173",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：IEEE Transactions on Robotics。",
+    "published": "2025-01-01",
+    "first_seen": "2026-10-19T11:07:25.943579+00:00",
+    "doi": "10.1109/tro.2025.3539173",
+    "category": "小脑与运动控制",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
+    "needs_review": false,
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：IEEE Transactions on Robotics。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "68d50102941efc78f0",
+    "title": "Human Variability in Human-Robot Locomotion",
+    "url": "https://doi.org/10.1016/j.ifacol.2025.12.465",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：IFAC-PapersOnLine。",
+    "published": "2025-01-01",
+    "first_seen": "2026-10-19T11:07:25.943760+00:00",
+    "doi": "10.1016/j.ifacol.2025.12.465",
+    "category": "小脑与运动控制",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
+    "needs_review": false,
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：IFAC-PapersOnLine。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -20553,6 +20719,9 @@
     "first_seen": "2026-10-15T03:42:31.486131+00:00",
     "doi": "10.1109/ccdc62350.2024.10587546",
     "category": "小脑与运动控制",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
+    "needs_review": false,
     "tags": [
       "小脑与运动控制"
     ],
@@ -20560,10 +20729,7 @@
     "scope": "可迁移的机器人关键技术",
     "score": 64,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2024 36th Chinese Control and Decision Conference (CCDC)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "classification_confidence": "高",
-    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
-    "needs_review": false
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "eda26c5424d7016c45",
@@ -20687,6 +20853,29 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "d79622c3dbe3a52159",
+    "title": "Harnessing Flagella Dynamics for Enhanced Robot Locomotion at Low Reynolds Number",
+    "url": "https://doi.org/10.1109/lra.2024.3375711",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：IEEE Robotics and Automation Letters。",
+    "published": "2024-05-01",
+    "first_seen": "2026-10-19T11:07:20.519959+00:00",
+    "doi": "10.1109/lra.2024.3375711",
+    "category": "小脑与运动控制",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
+    "needs_review": false,
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：IEEE Robotics and Automation Letters。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "77a9583d5dafa6d472",
     "title": "Design and Development of a Manual Controlled Mobile Robot for Inspection of Cracks in Storm Sewer Using Machine Learning",
     "url": "https://doi.org/10.22214/ijraset.2024.60538",
@@ -20769,6 +20958,9 @@
     "first_seen": "2026-10-15T03:42:31.486415+00:00",
     "doi": "10.1109/icpeices62430.2024.10719228",
     "category": "小脑与运动控制",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
+    "needs_review": false,
     "tags": [
       "小脑与运动控制"
     ],
@@ -20776,10 +20968,7 @@
     "scope": "可迁移的机器人关键技术",
     "score": 73,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2024 IEEE Third International Conference on Power Electronics, Intelligent Control and Energy Systems (ICPEICES)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "classification_confidence": "高",
-    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
-    "needs_review": false
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "69ffbbedb930d395c1",
@@ -21002,6 +21191,29 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "cc38e756636ecda166",
+    "title": "Kinematic Analysis and Application to Control Logic Development for RHex Robot Locomotion",
+    "url": "https://doi.org/10.3390/s24051636",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Sensors。 This study explores the kinematic model of the popular RHex hexapod robots which have garnered considerable interest for their locomotion capabilities. We study the influence of tripod trajectory parameters on the RHex robot’s movement, aiming to craft a precise kinematic model that enhances walking mechanisms. This model serves as a cornerstone for refining robot control strategies, enabling tailored performance enhancements or specific motion patterns. Validation conducted on a bespoke test bed confirms the model’s efficacy in predicting spatial movements, albeit with minor deviations due to motor load variations and control system dynamics. In particular, the derived kinematic framework offers valuable insights for advancing control logic, particularly navigating in flat terrains, thereby broadening the RHex robot’s application spectrum.",
+    "published": "2024-03-02",
+    "first_seen": "2026-10-19T11:07:20.519355+00:00",
+    "doi": "10.3390/s24051636",
+    "category": "小脑与运动控制",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
+    "needs_review": false,
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Sensors。 This study explores the kinematic model of the popular RHex hexapod robots which have garnered considerable interest f（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "127c6ae26bcf23960a",
     "title": "Design of Community Inspection Robot System",
     "url": "https://doi.org/10.47611/jsrhs.v13i1.6134",
@@ -21073,6 +21285,29 @@
     "scope": "可迁移的机器人关键技术",
     "score": 72,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。Abstract For decades, the field of biologically inspired robotics has leveraged insights from animal locomotion to improve the walking （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "51bf9a9e102bd52d60",
+    "title": "Advancing Locomotion Control of a Quadruped Robot: Harnessing Hybrid Control Algorithms and Digital Twin Technology",
+    "url": "https://doi.org/10.1109/icara60736.2024.10553027",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：2024 10th International Conference on Automation, Robotics and Applications (ICARA)。",
+    "published": "2024-02-22",
+    "first_seen": "2026-10-19T11:07:20.519215+00:00",
+    "doi": "10.1109/icara60736.2024.10553027",
+    "category": "小脑与运动控制",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
+    "needs_review": false,
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 65,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2024 10th International Conference on Automation, Robotics and Applications (ICARA)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -21159,6 +21394,9 @@
     "first_seen": "2026-10-15T03:42:31.485648+00:00",
     "doi": "10.3390/e26010093",
     "category": "小脑与运动控制",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
+    "needs_review": false,
     "tags": [
       "小脑与运动控制"
     ],
@@ -21166,10 +21404,30 @@
     "scope": "可迁移的机器人关键技术",
     "score": 73,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Entropy。 The ability to learn continuously is crucial for a robot to achieve a high level of intelligence and autonomy. In this（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "4e4fd51bc29de409bb",
+    "title": "Adaptive Locomotion Controller for a Quadruped Robot on a High-Slope Terrain",
+    "url": "https://doi.org/10.1109/icrca60878.2024.10649234",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：2024 8th International Conference on Robotics, Control and Automation (ICRCA)。",
+    "published": "2024-01-12",
+    "first_seen": "2026-10-19T11:07:20.519745+00:00",
+    "doi": "10.1109/icrca60878.2024.10649234",
+    "category": "小脑与运动控制",
     "classification_confidence": "高",
     "classification_reason": "核心任务为运动、步态、控制或机器人操作",
-    "needs_review": false
+    "needs_review": false,
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 64,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2024 8th International Conference on Robotics, Control and Automation (ICRCA)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "93355a1d61953ac6ba",
@@ -21558,6 +21816,29 @@
     "classification_confidence": "高",
     "classification_reason": "核心任务为运动、步态、控制或机器人操作",
     "needs_review": false
+  },
+  {
+    "id": "fc1373debd8e8a5954",
+    "title": "Adaptive-Force-Based Control of Dynamic Legged Locomotion Over Uneven Terrain",
+    "url": "https://doi.org/10.1109/tro.2024.3381554",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：IEEE Transactions on Robotics。",
+    "published": "2024-01-01",
+    "first_seen": "2026-10-19T11:07:20.519475+00:00",
+    "doi": "10.1109/tro.2024.3381554",
+    "category": "小脑与运动控制",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
+    "needs_review": false,
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 72,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：IEEE Transactions on Robotics。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "dab46ba66313fc1ae9",
@@ -22451,6 +22732,29 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "a63012753c07ad4aaa",
+    "title": "Enhancing Hexapod Robot Locomotion Control Through PID Controller Optimization Using Genetic Algorithm",
+    "url": "https://doi.org/10.1109/icsc58660.2023.10449774",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：2023 IEEE 11th International Conference on Systems and Control (ICSC)。",
+    "published": "2023-12-18",
+    "first_seen": "2026-10-19T11:07:42.385749+00:00",
+    "doi": "10.1109/icsc58660.2023.10449774",
+    "category": "小脑与运动控制",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
+    "needs_review": false,
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2023 IEEE 11th International Conference on Systems and Control (ICSC)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "6669549edfb6d17a1b",
     "title": "A Multi-Agent Reinforcement Learning Method for Omnidirectional Walking of Bipedal Robots",
     "url": "https://doi.org/10.3390/biomimetics8080616",
@@ -22544,6 +22848,52 @@
     "scope": "特种场景直接相关",
     "score": 71,
     "summary": "行业筛选：特种场景直接相关；方向：硬件与防爆；关联：矿山与地下空间。来源期刊/会议：Applied Sciences。China is rich in coal resources, but complex hydrogeological conditions lead to difficulties in coal mining, i（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "c908fc5366ef53b70b",
+    "title": "Autonomous Locomotion Control Strategy for Quadruped Robot Based on Visual Lidar Fusion Terrain Recognition",
+    "url": "https://doi.org/10.1109/icarce59252.2024.10492565",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：2023 2nd International Conference on Automation, Robotics and Computer Engineering (ICARCE)。",
+    "published": "2023-12-14",
+    "first_seen": "2026-10-19T11:07:42.386760+00:00",
+    "doi": "10.1109/icarce59252.2024.10492565",
+    "category": "小脑与运动控制",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
+    "needs_review": false,
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 65,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2023 2nd International Conference on Automation, Robotics and Computer Engineering (ICARCE)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "08e56c947e1ecaa361",
+    "title": "Locomotion Stability Control of Quadruped Robot Using the Combination of Ankle, Hip, and Step Strategies and Fuzzy Logic Controller",
+    "url": "https://doi.org/10.1109/raai59955.2023.10601270",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：2023 3rd International Conference on Robotics, Automation and Artificial Intelligence (RAAI)。",
+    "published": "2023-12-14",
+    "first_seen": "2026-10-19T11:07:42.386366+00:00",
+    "doi": "10.1109/raai59955.2023.10601270",
+    "category": "小脑与运动控制",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
+    "needs_review": false,
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 64,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2023 3rd International Conference on Robotics, Automation and Artificial Intelligence (RAAI)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -22645,12 +22995,12 @@
     "id": "0c7b4564ee7956d13f",
     "title": "Robot locomotion by fluid–fluid interaction",
     "url": "https://doi.org/10.1038/s41598-023-49193-z",
-    "source": "OpenAlex",
+    "source": "Crossref",
     "type": "论文（摘要）",
-    "description": "来源期刊/会议：Scientific Reports。This paper describes a locomotion strategy for robots based on the interaction between two fluids, through the development of an untethered mobile robot. The fundamental principle of robot locomotion is to exploit the active deformations of ferrofluid caused by internal magnetic fields, which generate reaction forces to the surrounding fluid (in this study, water). The developed robot is equipped with two permanent magnets (PMs), two electromagnets (EMs), two clusters of ferrofluid, and a control unit with batteries. It has a length, width, and mass of 107 mm, 94 mm, and 127 g, respectively. In the robot, PMs are used to hold clusters of ferrofluid. The activation of EMs by the controller achieves forward and rotational movements of the robot. Experimental results show the forward speed and rotational speed in water to be 2.7 mm/s (at a driving frequency of 9 H",
+    "description": "来源期刊/会议：Scientific Reports。 Abstract This paper describes a locomotion strategy for robots based on the interaction between two fluids, through the development of an untethered mobile robot. The fundamental principle of robot locomotion is to exploit the active deformations of ferrofluid caused by internal magnetic fields, which generate reaction forces to the surrounding fluid (in this study, water). The developed robot is equipped with two permanent magnets (PMs), two electromagnets (EMs), two clusters of ferrofluid, and a control unit with batteries. It has a length, width, and mass of 107 mm, 94 mm, and 127 g, respectively. In the robot, PMs are used to hold clusters of ferrofluid. The activation of EMs by the controller achieves forward and rotational movements of the robot. Experimental results show the forward speed and rotational speed in water to be 2.7 mm/s (at a driving freque",
     "published": "2023-12-11",
     "first_seen": "2026-10-15T05:35:15.813692+00:00",
-    "doi": "https://doi.org/10.1038/s41598-023-49193-z",
+    "doi": "10.1038/s41598-023-49193-z",
     "category": "小脑与运动控制",
     "classification_confidence": "高",
     "classification_reason": "核心任务为运动、步态、控制或机器人操作",
@@ -22661,7 +23011,7 @@
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 68,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Scientific Reports。This paper describes a locomotion strategy for robots based on the interaction between two fluids, through t（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Scientific Reports。 Abstract This paper describes a locomotion strategy for robots based on the interaction between two fluids,（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -22877,6 +23227,29 @@
     "scope": "特种场景直接相关",
     "score": 76,
     "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：Nuclear Engineering and Technology。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "ad72d0844684954b45",
+    "title": "Robust Convex Model Predictive Control for Quadruped Locomotion Under Uncertainties",
+    "url": "https://doi.org/10.1109/tro.2023.3299527",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：IEEE Transactions on Robotics。",
+    "published": "2023-12-01",
+    "first_seen": "2026-10-19T11:07:42.386242+00:00",
+    "doi": "10.1109/tro.2023.3299527",
+    "category": "小脑与运动控制",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
+    "needs_review": false,
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 65,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：IEEE Transactions on Robotics。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -23205,6 +23578,29 @@
     "scope": "特种场景直接相关",
     "score": 78,
     "summary": "行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：工业与能源巡检。来源期刊/会议：Sensors。 To overcome the difficulty in tracking the trajectory of an inspection robot inside a transformer, this paper proposes（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "66d1e182b1af73d5d5",
+    "title": "Legged Robot Locomotion via Hybrid Zero Dynamics and Model Predictive Control",
+    "url": "https://doi.org/10.1109/cac59555.2023.10450998",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：2023 China Automation Congress (CAC)。",
+    "published": "2023-11-17",
+    "first_seen": "2026-10-19T11:07:42.385822+00:00",
+    "doi": "10.1109/cac59555.2023.10450998",
+    "category": "小脑与运动控制",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
+    "needs_review": false,
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 73,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2023 China Automation Congress (CAC)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -23566,6 +23962,29 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "a97a48c0ce662dedcf",
+    "title": "Analysis, Prototyping and Locomotion Control of a Quadruped Robot",
+    "url": "https://doi.org/10.1109/lars/sbr/wre59448.2023.10333039",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：2023 Latin American Robotics Symposium (LARS), 2023 Brazilian Symposium on Robotics (SBR), and 2023 Workshop on Robotics in Education (WRE)。",
+    "published": "2023-10-09",
+    "first_seen": "2026-10-19T11:07:42.386393+00:00",
+    "doi": "10.1109/lars/sbr/wre59448.2023.10333039",
+    "category": "小脑与运动控制",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
+    "needs_review": false,
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 64,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2023 Latin American Robotics Symposium (LARS), 2023 Brazilian Symposium on Robotics (SBR), and 2023 Workshop on Robotics in Edu（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "c3d85d2cc1b8906182",
     "title": "Self-Organizing Memory Based on Adaptive Resonance Theory for Vision and Language Navigation",
     "url": "https://doi.org/10.3390/math11194192",
@@ -23637,6 +24056,29 @@
     "scope": "可迁移的机器人关键技术",
     "score": 63,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Applied Mathematics and Nonlinear Sciences。 Abstract Simultaneous localization and map building of mobile robots is an importan（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "bbe9ca4a1fbb4efb25",
+    "title": "RL + Model-Based Control: Using On-Demand Optimal Control to Learn Versatile Legged Locomotion",
+    "url": "https://doi.org/10.1109/lra.2023.3307008",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：IEEE Robotics and Automation Letters。",
+    "published": "2023-10-01",
+    "first_seen": "2026-10-19T11:07:42.386193+00:00",
+    "doi": "10.1109/lra.2023.3307008",
+    "category": "小脑与运动控制",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
+    "needs_review": false,
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 72,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：IEEE Robotics and Automation Letters。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -23864,6 +24306,29 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "d2ca12b18ee484abcf",
+    "title": "Wave-like Robotic Locomotion between Highly Flexible Surfaces and Comparison to Worm Robot Locomotion",
+    "url": "https://doi.org/10.3390/biomimetics8050416",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Biomimetics。 In a recent study, we developed a minimally actuated robot that utilizes wave-like locomotion and analyzed its kinematics. In this paper, we present an analysis of the robot’s locomotion between two highly flexible surfaces. Initially, we created a simulation model of the robot between two surfaces and determined its speed and the conditions of locomotion based on the flexibility of the surface, the geometrical parameters, and the coefficient of friction for horizontal locomotion and climbing at different angles. Our findings indicate that wave locomotion is capable of consistently advancing along the surface, even when the surface is highly flexible. Next, we developed an experimental setup and conducted multiple experiments to validate the accuracy of our simulation. The results indicate an average relative difference of approximately 11% between the speed and adva",
+    "published": "2023-09-07",
+    "first_seen": "2026-10-19T11:07:42.386033+00:00",
+    "doi": "10.3390/biomimetics8050416",
+    "category": "小脑与运动控制",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
+    "needs_review": false,
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Biomimetics。 In a recent study, we developed a minimally actuated robot that utilizes wave-like locomotion and analyzed its kin（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "b4606fc082da28862f",
     "title": "Research on Automatic Path Planning Method of Warehouse Inspection Robot",
     "url": "https://doi.org/10.1080/08839514.2023.2252262",
@@ -23935,6 +24400,29 @@
     "scope": "可迁移的机器人关键技术",
     "score": 62,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2023 32nd IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "afae4aff74bdcaa3e1",
+    "title": "A mobile robot driven by uniaxial wave locomotion mechanism",
+    "url": "https://doi.org/10.1186/s40648-023-00254-y",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：ROBOMECH Journal。 Abstract This paper presents a novel mobile robot system that uses a uniaxial wave locomotion mechanism. The proposed mechanism can mechanically produce uniaxial surface waves by a single actuator to rotate a helix component that has discrete helical wings. This involves multiple pins with springs and a link mechanism. We designed and developed a mobile robot consisting of a main body and two helical wave locomotion units arranged in parallel. This paper also presents a locomotion model based on the proposed mechanics. The developed robot prototype demonstrated mobility on various surfaces and its skid-steering performance was evaluated. The experimental results validated the feasibility of the proposed wave-locomotion mechanism.",
+    "published": "2023-08-27",
+    "first_seen": "2026-10-19T11:07:42.386689+00:00",
+    "doi": "10.1186/s40648-023-00254-y",
+    "category": "小脑与运动控制",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
+    "needs_review": false,
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 65,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：ROBOMECH Journal。 Abstract This paper presents a novel mobile robot system that uses a uniaxial wave locomotion mechanism. The （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -27811,6 +28299,29 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "1768566858d1218fbe",
+    "title": "Design and Development of Pipe inspection Snake Locomotion Robot",
+    "url": "https://doi.org/10.1109/icpects56089.2022.10047028",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：2022 International Conference on Power, Energy, Control and Transmission Systems (ICPECTS)。",
+    "published": "2022-12-08",
+    "first_seen": "2026-10-19T11:07:36.764316+00:00",
+    "doi": "10.1109/icpects56089.2022.10047028",
+    "category": "小脑与运动控制",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
+    "needs_review": false,
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 64,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2022 International Conference on Power, Energy, Control and Transmission Systems (ICPECTS)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "8dc3a10ac9f07b77e6",
     "title": "A MODULAR AND LOW-COST PORTABLE VSLAM SYSTEM FOR REAL-TIME 3D MAPPING: FROM INDOOR AND OUTDOOR SPACES TO UNDERWATER ENVIRONMENTS",
     "url": "https://doi.org/10.5194/isprs-archives-xlviii-2-w1-2022-153-2022",
@@ -27831,6 +28342,29 @@
     "scope": "可迁移的机器人关键技术",
     "score": 62,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：The international archives of the photogrammetry, remote sensing and spatial information sciences/International archives of t（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "27cc07fc3077ebcebd",
+    "title": "Data-driven control of planar snake robot locomotion",
+    "url": "https://doi.org/10.1109/cdc51059.2022.9992937",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：2022 IEEE 61st Conference on Decision and Control (CDC)。",
+    "published": "2022-12-06",
+    "first_seen": "2026-10-19T11:07:36.763822+00:00",
+    "doi": "10.1109/cdc51059.2022.9992937",
+    "category": "小脑与运动控制",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
+    "needs_review": false,
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2022 IEEE 61st Conference on Decision and Control (CDC)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -27923,6 +28457,52 @@
     "scope": "可迁移的机器人关键技术",
     "score": 62,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Sensors。 We evaluated a new wearable technology that fuses inertial sensors and cameras for tracking human kinematics. These de（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "7fc8c7b203edb74a07",
+    "title": "Dynamic Complementarity Conditions and Whole-Body Trajectory Optimization for Humanoid Robot Locomotion",
+    "url": "https://doi.org/10.1109/tro.2022.3183785",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：IEEE Transactions on Robotics。",
+    "published": "2022-12-01",
+    "first_seen": "2026-10-19T11:07:36.764709+00:00",
+    "doi": "10.1109/tro.2022.3183785",
+    "category": "小脑与运动控制",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
+    "needs_review": false,
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：IEEE Transactions on Robotics。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "6d9b519d8a57492332",
+    "title": "Frictional Anisotropic Locomotion and Adaptive Neural Control for a Soft Crawling Robot",
+    "url": "https://doi.org/10.1089/soro.2022.0004",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Soft Robotics。 Crawling animals with bendable soft bodies use the friction anisotropy of their asymmetric body structures to traverse various substrates efficiently. Although the effect of friction anisotropy has been investigated and applied to robot locomotion, the dynamic interactions between soft body bending at different frequencies (low and high), soft asymmetric surface structures at various aspect ratios (low, medium, and high), and different substrates (rough and smooth) have not been studied comprehensively. To address this lack, we developed a simple soft robot model with a bioinspired asymmetric structure (sawtooth) facing the ground. The robot uses only a single source of pressure for its pneumatic actuation. The frequency, teeth aspect ratio, and substrate parameters and the corresponding dynamic interactions were systematically investigated and analyzed. The study ",
+    "published": "2022-11-30",
+    "first_seen": "2026-10-19T11:07:36.764593+00:00",
+    "doi": "10.1089/soro.2022.0004",
+    "category": "小脑与运动控制",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
+    "needs_review": false,
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Soft Robotics。 Crawling animals with bendable soft bodies use the friction anisotropy of their asymmetric body structures to tr（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -28042,6 +28622,55 @@
     "scope": "特种场景直接相关",
     "score": 76,
     "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：International Conference on Sustainable Technology and Management (ICSTM 2022)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "240cefc5a80d4b8972",
+    "title": "Rolling Locomotion of Hexagonal Kinematic Chain Robot",
+    "url": "https://doi.org/10.1115/detc2022-89978",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Volume 7: 46th Mechanisms and Robotics Conference (MR)。 Abstract Chain robots are composed of a series of discrete links connected by actuated revolute joints in a kinematic chain or loop. They possess the ability to roll by constraining and changing their shape, causing the robot to advance to adjacent panels. They also have the advantage of being able to change their driving geometry to improve their speed, efficiency, ride quality, or ability to handle rough terrain. This is especially useful for extra-planetary exploration applications, for which the robot can fold down to a small packing size for transport. In this work, a hexagonal chain robot was designed and constructed. A variety of locomotion types were created, classified as either a ‘static’ or ‘dynamic’ gait, and experimentally tested. In addition to the distinct gaits, two different tread geometries were used to det",
+    "published": "2022-11-11",
+    "first_seen": "2026-10-19T11:07:36.764798+00:00",
+    "doi": "10.1115/detc2022-89978",
+    "category": "小脑与运动控制",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
+    "needs_review": false,
+    "tags": [
+      "小脑与运动控制",
+      "特种应用与产品"
+    ],
+    "industry_tags": [
+      "野外与特种地形"
+    ],
+    "scope": "特种场景直接相关",
+    "score": 72,
+    "summary": "行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：野外与特种地形。来源期刊/会议：Volume 7: 46th Mechanisms and Robotics Conference (MR)。 Abstract Chain robots are composed of a series of discrete links connec（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "d2d921442ad9eab8c8",
+    "title": "Maneuvering Control of a Planar Snake Robot Locomotion Using a Combined Heading-Velocity-Shape Strategy",
+    "url": "https://doi.org/10.1115/detc2022-87984",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Volume 7: 46th Mechanisms and Robotics Conference (MR)。 Abstract This paper presents a combined shape-velocity-heading control for planar snake robots to navigate confined environments using the lateral undulatory locomotion. The kinematics and dynamics of shape-changing were studied to find the connection between the gait parameters of the Serpenoid curve and the width of the robot locomotion while following the desired trajectories. The phase shift in between joint angles was identified as the parameter of interest for controlling the width of snake robots. The controller includes an outer-loop to adjust the parameters of the lateral undulation gait to achieve the desired shape, linear velocity, and heading direction in the Cartesian space while the inner-loop determines the torques at each joint of the snake robot to follow the desired joint trajectories. The control algorithm",
+    "published": "2022-11-11",
+    "first_seen": "2026-10-19T11:07:36.764114+00:00",
+    "doi": "10.1115/detc2022-87984",
+    "category": "小脑与运动控制",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
+    "needs_review": false,
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Volume 7: 46th Mechanisms and Robotics Conference (MR)。 Abstract This paper presents a combined shape-velocity-heading control （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -28366,6 +28995,30 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "97a1a8eb6048039aa5",
+    "title": "Perceptive Locomotion of Legged Robot Coupling Model Predictive Control and Terrain Mapping",
+    "url": "https://doi.org/10.56884/kpgl5403",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Proceedings of the 11th Asia-Pacific Regional Conference of the ISTVS。 Legged robots promise an advantage over traditional wheeled systems, however, most legged robots are still confined to structured and flat environments. In this paper, we present a motion planner for the perceptive rough-terrain locomotion with quadruped robots. One of the main reasons for this is the difficulty in planning complex whole-body motions while taking into account the terrain conditions. This problem is very high-dimensional as it considers the robots dynamics together with the terrain model in a suitable problem formulation. In this work, we propose a novel trajectory and foothold optimization method that plans dynamically both foothold locations and motions (coupled planning). It jointly optimizes body motion, step duration and foothold selection, considering the terrain topology. Our model predi",
+    "published": "2022-10-10",
+    "first_seen": "2026-10-19T11:07:36.764433+00:00",
+    "doi": "10.56884/kpgl5403",
+    "category": "小脑与运动控制",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
+    "needs_review": false,
+    "tags": [
+      "小脑与运动控制",
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 66,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Proceedings of the 11th Asia-Pacific Regional Conference of the ISTVS。 Legged robots promise an advantage over traditional whee（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "6fe5f08dac7ffd032e",
     "title": "Bionic Quadruped Robot for Mars Surface Exploration",
     "url": "https://doi.org/10.56884/wfts1248",
@@ -28437,6 +29090,29 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "239a64f1b62e10a792",
+    "title": "RLOC: Terrain-Aware Legged Locomotion Using Reinforcement Learning and Optimal Control",
+    "url": "https://doi.org/10.1109/tro.2022.3172469",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：IEEE Transactions on Robotics。",
+    "published": "2022-10-01",
+    "first_seen": "2026-10-19T11:07:36.764242+00:00",
+    "doi": "10.1109/tro.2022.3172469",
+    "category": "小脑与运动控制",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
+    "needs_review": false,
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 73,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：IEEE Transactions on Robotics。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "5a4d5616a3fa66be7e",
     "title": "CPG-RL: Learning Central Pattern Generators for Quadruped Locomotion",
     "url": "https://doi.org/10.1109/lra.2022.3218167",
@@ -28446,6 +29122,29 @@
     "published": "2022-10-01",
     "first_seen": "2026-10-15T05:35:39.477151+00:00",
     "doi": "10.1109/lra.2022.3218167",
+    "category": "小脑与运动控制",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
+    "needs_review": false,
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 64,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：IEEE Robotics and Automation Letters。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "0c637feb52cc73c81d",
+    "title": "Deformation-Driven Closed-Chain Soft Mobile Robot Aimed for Rolling and Climbing Locomotion",
+    "url": "https://doi.org/10.1109/lra.2022.3191798",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：IEEE Robotics and Automation Letters。",
+    "published": "2022-10-01",
+    "first_seen": "2026-10-19T11:07:36.764850+00:00",
+    "doi": "10.1109/lra.2022.3191798",
     "category": "小脑与运动控制",
     "classification_confidence": "高",
     "classification_reason": "核心任务为运动、步态、控制或机器人操作",
@@ -28528,6 +29227,29 @@
     "scope": "可迁移的机器人关键技术",
     "score": 65,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Sensors。 Based on Maslow’s hierarchy of needs theory, we have proposed a novel machine learning algorithm that combines factors（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "cc09369e9eac1d69e9",
+    "title": "Locomotion of Underwater Quadruped Robot Based on Ground Reaction Force Optimization",
+    "url": "https://doi.org/10.1109/icacr55854.2022.9935512",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：2022 6th International Conference on Automation, Control and Robots (ICACR)。",
+    "published": "2022-09-23",
+    "first_seen": "2026-10-19T11:07:36.764197+00:00",
+    "doi": "10.1109/icacr55854.2022.9935512",
+    "category": "小脑与运动控制",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
+    "needs_review": false,
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 64,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2022 6th International Conference on Automation, Control and Robots (ICACR)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -28700,6 +29422,29 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "aa54181b0482ff49b2",
+    "title": "Modeling of 2R Planar Dumbbell Stacker Robot Locomotion Using Force Control for Gripper Dexterous Manipulation",
+    "url": "https://doi.org/10.3390/computation10090143",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Computation。 This paper describes a novel approach to the robotic system’s dexterous manipulator arm design. A simulation model of the robotic system is developed in the MATLAB/Simulink environment. The designed gripper moves the dumbbells from one shelf to another using impedance and dynamics control. The novel approach to contact force control was tested. For the most accurate simulation, the size and mass parameters of the manipulator and dumbbells are determined. In addition, various force parameters such as normal, friction and damping were evaluated. The dynamic behavior of the robotic system was described by the Lagrange dynamics equations to find the acceleration of the robot’s joints during friction interaction, and the energy performance was described. The corresponding dynamic model and its analysis are the starting point for its successful solution. The analytical and",
+    "published": "2022-08-23",
+    "first_seen": "2026-10-19T11:07:36.763996+00:00",
+    "doi": "10.3390/computation10090143",
+    "category": "小脑与运动控制",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
+    "needs_review": false,
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Computation。 This paper describes a novel approach to the robotic system’s dexterous manipulator arm design. A simulation model（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "b39df826344a098451",
     "title": "Traversability analysis with vision and terrain probing for safe legged robot navigation",
     "url": "https://doi.org/10.3389/frobt.2022.887910",
@@ -28771,6 +29516,29 @@
     "scope": "可迁移的机器人关键技术",
     "score": 72,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Electronics Letters。 Abstract Stator wedge tightness inspection is one of the most important periodic inspections carried out o（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "9cbd28254deab322c1",
+    "title": "Topological based Environmental Reconstruction for Efficient Multi-Level Control of Robot Locomotion",
+    "url": "https://doi.org/10.1109/ies55876.2022.9888288",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：2022 International Electronics Symposium (IES)。",
+    "published": "2022-08-09",
+    "first_seen": "2026-10-19T11:07:36.764339+00:00",
+    "doi": "10.1109/ies55876.2022.9888288",
+    "category": "小脑与运动控制",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
+    "needs_review": false,
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2022 International Electronics Symposium (IES)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -32678,6 +33446,29 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "0eb873d89cf79ad7c6",
+    "title": "Bioinspiration to Robot Locomotion implementing 3D printed Foxtail Grass",
+    "url": "https://doi.org/10.1109/robio54168.2021.9739623",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：2021 IEEE International Conference on Robotics and Biomimetics (ROBIO)。",
+    "published": "2021-12-27",
+    "first_seen": "2026-10-19T11:07:31.320817+00:00",
+    "doi": "10.1109/robio54168.2021.9739623",
+    "category": "小脑与运动控制",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
+    "needs_review": false,
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2021 IEEE International Conference on Robotics and Biomimetics (ROBIO)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "c4492c895ddf831607",
     "title": "Gait Transition from Pacing by a Quadrupedal Simulated Model and Robot with Phase Modulation by Vestibular Feedback",
     "url": "https://doi.org/10.3390/robotics11010003",
@@ -33120,6 +33911,29 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "701b41042121a95dd8",
+    "title": "Machine learning for robot locomotion: Grounded simulation learning and adaptive planner parameter learning",
+    "url": "https://doi.org/10.1109/bigdata52589.2021.9671792",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：2021 IEEE International Conference on Big Data (Big Data)。",
+    "published": "2021-12-15",
+    "first_seen": "2026-10-19T11:07:31.320688+00:00",
+    "doi": "10.1109/bigdata52589.2021.9671792",
+    "category": "小脑与运动控制",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
+    "needs_review": false,
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2021 IEEE International Conference on Big Data (Big Data)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "de5a74b3ad2edd3497",
     "title": "Model-Free Safety-Critical Control for Robotic Systems",
     "url": "https://doi.org/10.1109/lra.2021.3135569",
@@ -33459,6 +34273,29 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "612a1319244d43456e",
+    "title": "Motion Generation of Crawling-like Locomotion Robot Composed of Two Identical Units with Passive Wobbling Mass and Its Extension to Paper Feeding",
+    "url": "https://doi.org/10.1109/icar53236.2021.9659368",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：2021 20th International Conference on Advanced Robotics (ICAR)。",
+    "published": "2021-12-06",
+    "first_seen": "2026-10-19T11:07:31.321040+00:00",
+    "doi": "10.1109/icar53236.2021.9659368",
+    "category": "小脑与运动控制",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
+    "needs_review": false,
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 64,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2021 20th International Conference on Advanced Robotics (ICAR)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "6fe8a9b3f8f336156b",
     "title": "Evaluation of the Explosion Pressure Parameters in Flameproof Enclosures under the Pressure Piling Condition",
     "url": "https://doi.org/10.3390/en14238156",
@@ -33621,6 +34458,29 @@
     "scope": "可迁移的机器人关键技术",
     "score": 61,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：IEEE Transactions on Cognitive and Developmental Systems。Humans and animals undergo morphological development (MD) processes fr（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "b717d4c5c63d427134",
+    "title": "Distributed Controllers for Human-Robot Locomotion: A Scalable Approach Based on Decomposition and Hybrid Zero Dynamics",
+    "url": "https://doi.org/10.1109/lcsys.2020.3045669",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：IEEE Control Systems Letters。",
+    "published": "2021-12-01",
+    "first_seen": "2026-10-19T11:07:31.320661+00:00",
+    "doi": "10.1109/lcsys.2020.3045669",
+    "category": "小脑与运动控制",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
+    "needs_review": false,
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：IEEE Control Systems Letters。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -34334,6 +35194,32 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "280634b0526641c41a",
+    "title": "Jumping robot: A pneumatic jumping locomotion across rough terrain",
+    "url": "https://doi.org/10.1088/1742-6596/2115/1/012008",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Journal of Physics: Conference Series。 Abstract This paper presents a jumping mechanism using pneumatic actuators adopted in a traditional robotic vehicle’s frame. This is a skeleton for future development on this technology. This is a simple mechanism to overcome obstacles on its way in a robotic vehicle. As we know a traditional wheeled robotic vehicle can not over come an obstacle on ease as it doesn’t have an effective mechanism or it might take an other alternative long route to reach the target. This mechanism has an effective design to overcome obstacles comparing to the traditional robot vehicles. So this model has a higher mobility, flexibility and rapidity. This design has a new type of locomotion to it that is jumping along with wheeled movement which is not present in a traditional robot. This mechanism works from the real time information from the sensors. There are ",
+    "published": "2021-11-01",
+    "first_seen": "2026-10-19T11:07:31.321462+00:00",
+    "doi": "10.1088/1742-6596/2115/1/012008",
+    "category": "小脑与运动控制",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
+    "needs_review": false,
+    "tags": [
+      "小脑与运动控制",
+      "特种应用与产品"
+    ],
+    "industry_tags": [
+      "野外与特种地形"
+    ],
+    "scope": "特种场景直接相关",
+    "score": 76,
+    "summary": "行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：野外与特种地形。来源期刊/会议：Journal of Physics: Conference Series。 Abstract This paper presents a jumping mechanism using pneumatic actuators adopted in a （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "1fdf609100b1fea16a",
     "title": "Multi-Sensor SLAM for efficient Navigation of a Mobile Robot",
     "url": "https://doi.org/10.1109/iccis54243.2021.9676374",
@@ -34561,6 +35447,29 @@
     "scope": "可迁移的机器人关键技术",
     "score": 73,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Journal of Robotics。 An artificial intelligent grey wolf optimizer (GWO)-assisted resampling scheme is applied to the Rao-Black（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "9c2ab30e55dc01dcc2",
+    "title": "Terrain-Perception-Free Quadrupedal Spinning Locomotion on Versatile Terrains: Modeling, Analysis, and Experimental Validation",
+    "url": "https://doi.org/10.3389/frobt.2021.724138",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Frontiers in Robotics and AI。 Dynamic quadrupedal locomotion over rough terrains reveals remarkable progress over the last few decades. Small-scale quadruped robots are adequately flexible and adaptable to traverse uneven terrains along the sagittal direction, such as slopes and stairs. To accomplish autonomous locomotion navigation in complex environments, spinning is a fundamental yet indispensable functionality for legged robots. However, spinning behaviors of quadruped robots on uneven terrain often exhibit position drifts. Motivated by this problem, this study presents an algorithmic method to enable accurate spinning motions over uneven terrain and constrain the spinning radius of the center of mass (CoM) to be bounded within a small range to minimize the drift risks. A modified spherical foot kinematics representation is proposed to improve the foot kinematic model and rol",
+    "published": "2021-10-26",
+    "first_seen": "2026-10-19T11:07:31.321692+00:00",
+    "doi": "10.3389/frobt.2021.724138",
+    "category": "小脑与运动控制",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
+    "needs_review": false,
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Frontiers in Robotics and AI。 Dynamic quadrupedal locomotion over rough terrains reveals remarkable progress over the last few （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {

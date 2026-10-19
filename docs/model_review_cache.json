@@ -124,5 +124,33 @@
     "reason": "提出基于失败的地形课程树搜索，用于四足机器人跑酷运动控制",
     "needs_review": false,
     "source": "OpenRouter free router (metadata only)"
+  },
+  "ddcb75f792b294fa7729aca25d848ec1750f4aae9dd32abbbc7389568c22ca5a": {
+    "primary_category": "大脑与具身智能",
+    "secondary_categories": [],
+    "reason": "VLM智能体驱动机器人完成具身编码任务，属于大脑与具身智能的典型研究范畴，证据充足，无需审核。",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "5b35e20fd6b0217e85b1788e104ea0a308fc03ab907a70858434883259eebe95": {
+    "primary_category": "大脑与具身智能",
+    "secondary_categories": [],
+    "reason": "提出可扩展在线探索框架，生成可执行程序，提升语言代理规划能力",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "f11bb27c128f46df7859608ab76f29e370c4797dd7a499631566558273c36a31": {
+    "primary_category": "大脑与具身智能",
+    "secondary_categories": [],
+    "reason": "提出Co-VLN框架，多智能体共享观察增强VLN",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "c6e4372413c71713a4efc3f482334e971f17ea618945c9578bfc7c8ccd18e422": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "提出基于ROS2的亚毫秒反射引擎，实现快速控制切换与安全防护",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
   }
 }

@@ -2,21 +2,21 @@
 
 本表对每条已入库资源扫描标题、摘要及现有分类；疑点不等于确证错分。
 
-总资源：1470；出现一项或以上疑点：597。
+总资源：1509；出现一项或以上疑点：609。
 
 ## 分类数量
 
 - 感知建图与导航: 607
-- 小脑与运动控制: 514
+- 小脑与运动控制: 552
 - 特种应用与产品: 179
-- 基础软件与系统: 66
+- 基础软件与系统: 67
 - 硬件与防爆: 59
 - 大脑与具身智能: 45
 
 ## 疑点分布
 
 - EXISTING_REVIEW: 479
-- THIN_ABSTRACT: 141
+- THIN_ABSTRACT: 153
 - APP_ALGORITHM: 3
 - BRAIN_POLICY_REVIEW: 1
 - SOFT_ALGORITHM: 1
@@ -25,6 +25,7 @@
 ## 重点疑点逐篇示例
 
 ### EXISTING_REVIEW（479 条）
+- Arman10121995/Celisca-ROS-2-Robot | 当前：基础软件与系统 | 建议：待复核 | https://github.com/Arman10121995/Celisca-ROS-2-Robot
 - arnavsharmaa/blackbox | 当前：特种应用与产品 | 建议：待复核 | https://github.com/arnavsharmaa/blackbox
 - Yoshifumi-Masuya/slr-stride | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/Yoshifumi-Masuya/slr-stride
 - coverMoon/quadruped_control | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/coverMoon/quadruped_control
@@ -36,8 +37,7 @@
 - Perceptive Behavior Foundation Model: Adapting Human Motion Priors to Robot-Centric Terrain | 当前：大脑与具身智能 | 建议：小脑与运动控制（待复核）；待复核 | https://arxiv.org/abs/2606.08059
 - EgoTac: In-the-wild Tactile Prediction from Egocentric Vision | 当前：感知建图与导航 | 建议：待复核 | https://arxiv.org/abs/2608.15060
 - FCTS: Failure-Guided Curriculum Tree Search Over Generated Terrain for Legged Parkour | 当前：小脑与运动控制 | 建议：待复核 | https://arxiv.org/abs/2610.22619
-- LYHrmer/wheel-legged-control-lab | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/LYHrmer/wheel-legged-control-lab
-### THIN_ABSTRACT（141 条）
+### THIN_ABSTRACT（153 条）
 - coverMoon/quadruped_control | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/coverMoon/quadruped_control
 - 1ulone/quins_ros2 | 当前：特种应用与产品 | 建议：待复核 | https://github.com/1ulone/quins_ros2
 - Gait-Aware Command Timing for Decentralized Quadruped Swarms | 当前：小脑与运动控制 | 建议：待复核 | https://doi.org/10.21203/rs.3.rs-11332226/v1
