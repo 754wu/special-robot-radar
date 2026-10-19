@@ -12,7 +12,7 @@ for i,x in enumerate(data):
  findings=[]
  def flag(code,suggest,why):findings.append((code,suggest,why))
  if c=="硬件与防爆" and hit(t,r"reinforcement.learning|locomotion.policy|navigation|slam") and not hit(t,r"mechanical.design|structural.design|actuator.design|gearbox|flameproof|explosion.proof"):flag("HW_ALGORITHM","小脑与运动控制/感知建图与导航","题名主贡献可能是算法")
- if c=="硬件与防爆" and not hit(txt,r"mechanical|actuator|motor|joint|linkage|transmission|hardware|battery|explosion.proof|flameproof|chassis|gearbox|结构|电机|防爆"):flag("HW_NO_EVIDENCE","待复核","缺少明确硬件设计证据")
+ if c=="硬件与防爆" and not hit(txt,r"mechanical|actuat|motor|joint|linkage|transmission|hardware|battery|explosion.proof|flameproof|chassis|gearbox|mechanism|structural|kinematic|dimensional.synthesis|topology.size|adaptive.foot|drivetrain|piezoelectric|track.design|cable.management|visuo.tactile|tactile.sensor|sensor.design|结构|机构|电机|防爆|传动"):flag("HW_NO_EVIDENCE","待复核","缺少明确硬件设计证据")
  if c=="感知建图与导航" and hit(txt,r"skill.calling|tool.calling|skill.selection|task.decomposition|llm.based.task.planning|reflection.and.replanning") and hit(txt,r"llm|vlm|language.model|agentic|embodied.agent"):flag("NAV_AGENT","大脑与具身智能","存在高层Agent技能编排特征")
  if c=="小脑与运动控制" and hit(txt,r"skill.calling|tool.calling|task.decomposition|llm.based.task.planning") and hit(txt,r"llm|vlm|language.model|agentic"):flag("CTRL_AGENT","大脑与具身智能","存在高层Agent决策特征")
  if c=="大脑与具身智能" and hit(t,r"locomotion|gait|whole.body.control|torque.control|trajectory.tracking") and not hit(txt,r"llm|vlm|vla|vision.language|task.planning|skill.calling|tool.calling|high.level|agentic"):flag("BRAIN_CONTROL","小脑与运动控制","可能是低层控制贡献")
@@ -20,6 +20,10 @@ for i,x in enumerate(data):
  if c=="特种应用与产品" and hit(t,r"algorithm|deep.learning|reinforcement.learning|slam|visual.localization|path.planning") and not hit(t,r"system.integration|deployment|robot.prototype|robot.system|field.validation"):flag("APP_ALGORITHM","具体算法主类","应用系统类别可能混入算法论文")
  if hit(t,r"(?:^|/)awesome[-_ ]|reading[-_ ]list|curated[-_ ]list"):flag("RESOURCE_COLLECTION","资源索引","非原创研究合集")
  if x.get("source")=="GitHub" and hit(t,r"^([\w.-]+)/\1$"):flag("PROFILE","排除候选","GitHub个人简介仓库")
+ if c=="感知建图与导航" and hit(txt,r"hierarchical.reasoning|long.horizon.planning|memory.guided.exploration|subgoal.selection|active.perception|replanning|reflection|multi.step.reasoning") and hit(txt,r"vision.language|vln|llm|vlm|embodied.agent"):
+  flag("NAV_AGENT_REVIEW","大脑与具身智能（待复核）","可能为高层Agent，但普通导航也可能使用同类机制")
+ if c=="大脑与具身智能" and hit(t,r"human.motion.priors|robot.centric.terrain|locomotion|gait|whole.body.control") and not hit(txt,r"task.decomposition|skill.calling|tool.calling|language.model.planning"):
+  flag("BRAIN_POLICY_REVIEW","小脑与运动控制（待复核）","具身基础模型与低层动作策略存在边界")
  if len(a.strip())<50:flag("THIN_ABSTRACT","待复核","摘要证据不足")
  if x.get("needs_review"):flag("EXISTING_REVIEW","待复核","分类器已标记低可信度")
  record={"index":i,"title":t,"category":c,"suggested_category":"；".join(dict.fromkeys(q[1] for q in findings)),"issue_codes":"；".join(q[0] for q in findings),"reasons":"；".join(q[2] for q in findings),"url":x.get("url",""),"source":x.get("source",""),"abstract_excerpt":a[:220],"current_reason":x.get("classification_reason",""),"needs_review":bool(x.get("needs_review"))}

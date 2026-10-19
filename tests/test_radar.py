@@ -489,6 +489,20 @@ class RadarTests(unittest.TestCase):
         self.assertFalse(is_non_technical(
             {'title': 'robotlab/robot-navigation-stack', 'source': 'GitHub'})[0])
 
+    def test_application_algorithm_boundary_examples(self):
+        from taxonomy import classify_contribution
+        examples = [
+            ("Obstacle Detection and Identification Algorithm for Transmission Line Inspection Robot Based on H-CNN",
+             "Proposes an object identification algorithm for robotic inspection.", "感知建图与导航"),
+            ("Design of Firefighting Robot Guidance System Based on Stereo Vision and Deep Learning",
+             "The robot visual guidance method combines stereo images and deep learning.", "感知建图与导航"),
+            ("Research on Task Decomposition of Substation Inspection Robot Based on Improved-ISODATA Algorithm",
+             "Clustering task decomposition for robot inspection routes.", "感知建图与导航")
+        ]
+        for title, abstract, expected in examples:
+            with self.subTest(title=title):
+                self.assertEqual(classify_contribution(title, abstract).category, expected)
+
     def test_filter_config_reject_score(self):
         item = make_item('Wheel-legged quadruped locomotion', 'https://example.org/w',
                          'arXiv API', '论文（摘要）', 'robot locomotion and motion control')

@@ -649,6 +649,28 @@ def classify_contribution(title: str, description: str = "", source: str = "") -
         return result(SOFTWARE, "研究机器人软件、仿真或平台系统",
                       review=not software_deliverable)
 
+    # Inspection-robot applications are not themselves the research output.
+    # Title-level evidence of an obstacle/visual detection algorithm or a
+    # vision-guidance method belongs in Navigation/Perception rather than a
+    # general application-system bucket.
+    if has(t, r"\\b(?:obstacle.detection|obstacle.identification|"
+                r"visual.detection|stereo.vision|"
+                r"guidance.system.based.on.stereo.vision|"
+                r"image.recognition|object.detection)\\b") and has(
+                    t, r"\\b(?:inspection.robot|firefighting.robot|fire.fighting.robot|"
+                       r"robot.guidance|robot)\\b"):
+        return result(NAV, "核心贡献为机器人视觉感知/障碍检测或视觉引导算法",
+                      (APPLICATION,) if has(t, APPLICATION_TASK) else ())
+    # Task decomposition with clustering need not imply an LLM/agent; the
+    # implementation is a robotics task-allocation algorithm, not an entire
+    # inspected robot product. Keep it reviewable when metadata is sparse.
+    if has(t, r"\\btask.decomposition\\b") and has(
+        t, r"\\b(?:inspection.robot|substation.inspection)\\b") and has(
+        t, r"\\b(?:isodata|clustering|cluster.algorithm)\\b") and not has(
+        t + " " + d, r"\\b(?:llm|large.language.model|vlm|tool.calling|skill.calling)\\b"):
+        return result(NAV, "巡检任务聚类/划分算法，非整机产品或语言Agent",
+                      (APPLICATION,), review=True)
+
     # Distinguish an integrated special-robot product from an algorithm merely
     # demonstrated on an inspection or firefighting robot.
     is_special_robot = has(t, APPLICATION_TASK)

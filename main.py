@@ -688,11 +688,10 @@ def llm_enrich(items: list[dict]) -> None:
                 summary = str(enriched.get("summary", "")).strip()
                 if summary:
                     old["summary"] = clean_text(summary, 350)
-                try:
-                    old["score"] = max(0, min(100, int(enriched.get("score", old["score"]))))
-                except (TypeError, ValueError):
-                    pass
-                old["analysis_level"] = "LLM元数据初筛（未阅读全文）"
+                # Treat model output as advisory evidence only. A model may
+                # suggest a different category, but must not silently alter
+                # independently computed relevance scores or verified facts.
+                old["analysis_level"] = "规则分类；可选LLM建议（未阅读全文）"
         except Exception as ex:
             print(f"[WARN] LLM batch skipped: {ex}", file=sys.stderr)
 
