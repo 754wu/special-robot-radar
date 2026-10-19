@@ -1,8 +1,8 @@
 # 特种机器人七日技术简报
 
-生成时间：2026-10-19T09:25:35.796160+00:00
+生成时间：2026-10-19T09:40:25.749098+00:00
 
-最近 7 天首次记录 **1323** 条；本轮新增 **9** 条；总库存 **1345** 条。
+最近 7 天首次记录 **1136** 条；本轮新增 **4** 条；总库存 **1349** 条。
 
 **注意：**‘七日’按首次入库时间统计，不代表论文发表于最近七天；相关度评分只是初筛优先级，不是成熟度或质量评级。
 
@@ -33,8 +33,6 @@
   - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：消防与应急救援。来源期刊/会议：Journal of Robotics and Mechatronics。 Currently, natural disasters occur frequently. Therefore, disaster response robots are ex（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [SOFTWARE IMPLEMENTATION OF THE SPIDER4LEGS MOBILE ROBOT](https://doi.org/10.51865/jpgt.2023.02.01) | 论文（摘要） | 特种场景直接相关 | 匹配度 82/100
   - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：防爆石化与危险环境。来源期刊/会议：Romanian Journal of Petroleum & Gas Technology。The objective of this paper is to develop the control system for driving a mobil（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Digital Twin of Coal Mine Rescue Robot—Research on Intelligence and Visualization](https://doi.org/10.3390/s26092840) | 论文（摘要） | 特种场景直接相关 | 匹配度 81/100
-  - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：矿山与地下空间。来源期刊/会议：Sensors。 Mine disasters require urgent lifeline setup in confined tunnels, but manual rescue in unstable accident zones carries（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [M2CS: A Multimodal and Campus‐Scapes Dataset for Dynamic SLAM and Moving Object Perception](https://doi.org/10.1002/rob.22468) | 论文（摘要） | 特种场景直接相关 | 匹配度 81/100
   - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：野外与特种地形。来源期刊/会议：Journal of Field Robotics。ABSTRACT The deployment of the robotic system that executes specific task is being challenged by the （仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [TriSAR-3D and PaintFusion: A Novel Trimodal LiDAR-RGB-Thermal Dataset and Method for 3D Person Detection in Search and Rescue](https://arxiv.org/abs/2610.22509) | 论文（摘要） | 特种场景直接相关 | 匹配度 77/100
@@ -43,6 +41,8 @@
   - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：野外与特种地形。来源期刊/会议：Journal of Intelligent & Robotic Systems。The success of deep learning methods in a wide range of application areas has inspired（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Point clouds to as-built two-node wireframe digital twin: a novel method to support autonomous robotic inspection](https://doi.org/10.1007/s43684-024-00082-w) | 论文（摘要） | 特种场景直接相关 | 匹配度 76/100
   - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：工业与能源巡检。来源期刊/会议：Autonomous Intelligent Systems。 Abstract Previous studies have primarily focused on converting point clouds (PC) into a dense m（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [A Thermal Imaging Flame-Detection Model for Firefighting Robot Based on YOLOv4-F Model](https://doi.org/10.3390/fire5050172) | 论文（摘要） | 特种场景直接相关 | 匹配度 76/100
+  - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：消防与应急救援。来源期刊/会议：Fire。 Fire robots are an effective way to save lives from fire, but their limited detection accuracy has greatly hampered their（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 小脑与运动控制
 
@@ -58,10 +58,10 @@
   - 行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：消防与应急救援。来源期刊/会议：Heliyon。The next generation of autonomous-legged robots will herald a new era in the fields of manufacturing, healthcare, terra（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Motion control study of omnidirectional mobile robot for substation inspection](https://doi.org/10.1117/12.3052432) | 论文（摘要） | 特种场景直接相关 | 匹配度 87/100
   - 行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：工业与能源巡检。来源期刊/会议：International Workshop on Automation, Control, and Communication Engineering (IWACCE 2024)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Motion-Predictive Foothold Control for Quadruped Locomotion on Oscillating and Non-Inertial Platforms](https://eccsubmit.com/index.php/congress/article/view/251) | 论文（摘要） | 特种场景直接相关 | 匹配度 86/100
-  - 行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：消防与应急救援、工业与能源巡检。来源期刊/会议：Electronics, Communications, and Computing Summit。Quadruped robots are finding more and more applications in disaster response,（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [OP‐Follower: Onboard Vision‐Based Obstacle‐Aware Predictive Person Following for Quadruped Robots via IBVS‐NMPC Control](https://doi.org/10.1002/rob.70363) | 论文（摘要） | 特种场景直接相关 | 匹配度 85/100
   - 行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：野外与特种地形。来源期刊/会议：Journal of Field Robotics。ABSTRACT This paper presents OP‐Follower , a fully onboard, pure vision‐based, obstacle‐aware person‐（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Design and Control Co-Optimization for Dynamic Loco-Manipulation With a Robotic Arm on a Quadruped Robot](https://doi.org/10.1115/1.4066852) | 论文（摘要） | 特种场景直接相关 | 匹配度 85/100
+  - 行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：消防与应急救援、工业与能源巡检。来源期刊/会议：Journal of Mechanisms and Robotics。Abstract Research in quadrupedal robotics is transitioning to studies into loco-manipulation（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 大脑与具身智能
 
@@ -69,10 +69,6 @@
   - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。Quadruped robots performing outdoor deliveries must interpret complex scenes, anticipate changes, an（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Don't Run with Scissors: Pruning Breaks VLA Models but They Can Be Recovered](https://arxiv.org/abs/2510.08464) | 论文（摘要） | 特种场景直接相关 | 匹配度 72/100
   - 行业筛选：特种场景直接相关；方向：大脑与具身智能；关联：野外与特种地形。arXiv:2510.08464v2 Announce Type: replace Abstract: Vision-Language-Action (VLA) models are a promising paradigm for field robotics, bu（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Vision‐Language‐Action Models for Embodied Artificial Intelligence: A Comprehensive Survey](https://doi.org/10.1002/rob.70340) | 论文（摘要） | 特种场景直接相关 | 匹配度 72/100
-  - 行业筛选：特种场景直接相关；方向：大脑与具身智能；关联：野外与特种地形。来源期刊/会议：Journal of Field Robotics。ABSTRACT Embodied artificial intelligence (Embodied AI) aims to develop agents that can perceive, rea（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Agentic AI for Safety-critical Multi-drone Systems: Challenges and Opportunities](https://doi.org/10.48550/arxiv.2608.21444) | 论文（摘要） | 特种场景直接相关 | 匹配度 72/100
-  - 行业筛选：特种场景直接相关；方向：大脑与具身智能；关联：消防与应急救援。来源期刊/会议：arXiv (Cornell University)。Multi-drone systems are increasingly positioned for safety-critical missions such as search and resc（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [A Survey of Map Construction and Management Methods for Single Embodied Agents](https://doi.org/10.3390/s26196242) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 65/100
   - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Sensors。Embodied intelligent systems need to complete the closed loop of perception-understanding-decision-execution in the rea（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [NaVILA: Legged Robot Vision-Language-Action Model for Navigation](https://doi.org/10.15607/rss.2025.xxi.018) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 65/100
@@ -81,6 +77,10 @@
   - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。As robotic agents increasingly assist humans in reality, quadruped robots offer unique opportunities（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Human-Flow-Aware Long-Term Mobile Robot Task Planning Based on Hierarchical Reinforcement Learning](https://doi.org/10.1109/lra.2023.3280816) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 65/100
   - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：IEEE Robotics and Automation Letters。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [An intelligent mission-oriented and situation aware quadruped robot: a novel embodied explainable AI approach](https://doi.org/10.1117/12.2664019) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 64/100
+  - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Unmanned Systems Technology XXV。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Unifying Embodied Foundation Models via a Model-to-Policy Formulation](https://arxiv.org/abs/2610.23053) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 63/100
+  - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.23053v1 Announce Type: new Abstract: Vision-language-action (VLA) models and world-action models (WAMs) have emerged as prom（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 感知建图与导航
 
@@ -131,4 +131,4 @@
 
 ## 五年历史补录进度
 
-已完成 285 / 333 项年度/主题定向查询，详见 [backfill_report.md](backfill_report.md)。
+已完成 293 / 333 项年度/主题定向查询，详见 [backfill_report.md](backfill_report.md)。

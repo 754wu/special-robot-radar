@@ -2,28 +2,29 @@
 
 本表对每条已入库资源扫描标题、摘要及现有分类；疑点不等于确证错分。
 
-总资源：1345；出现一项或以上疑点：550。
+总资源：1349；出现一项或以上疑点：551。
 
 ## 分类数量
 
-- 感知建图与导航: 528
+- 感知建图与导航: 531
 - 小脑与运动控制: 496
-- 特种应用与产品: 154
+- 特种应用与产品: 155
 - 基础软件与系统: 65
 - 硬件与防爆: 57
 - 大脑与具身智能: 45
 
 ## 疑点分布
 
-- EXISTING_REVIEW: 451
+- EXISTING_REVIEW: 452
 - THIN_ABSTRACT: 117
 - BRAIN_POLICY_REVIEW: 1
 - SOFT_ALGORITHM: 1
 - NAV_AGENT_REVIEW: 1
+- APP_ALGORITHM: 1
 
 ## 重点疑点逐篇示例
 
-### EXISTING_REVIEW（451 条）
+### EXISTING_REVIEW（452 条）
 - Yoshifumi-Masuya/slr-stride | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/Yoshifumi-Masuya/slr-stride
 - coverMoon/quadruped_control | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/coverMoon/quadruped_control
 - xfjcoder/wam | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/xfjcoder/wam
@@ -55,3 +56,5 @@
 - SLAMs for Quadruped Robot: Mapping Capability-centric Agentic Simulation | 当前：基础软件与系统 | 建议：感知导航/小脑 | https://doi.org/10.21203/rs.3.rs-7367448/v1
 ### NAV_AGENT_REVIEW（1 条）
 - Self-Organizing Memory Based on Adaptive Resonance Theory for Vision and Language Navigation | 当前：感知建图与导航 | 建议：大脑与具身智能（待复核） | https://doi.org/10.3390/math11194192
+### APP_ALGORITHM（1 条）
+- Research on Improved Hybrid Polynomial Interpolation Algorithm for Rail Inspection Robot | 当前：特种应用与产品 | 建议：具体算法主类；待复核 | https://doi.org/10.1145/3501409.3501622
