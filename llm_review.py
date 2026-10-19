@@ -33,9 +33,9 @@ def validate(record, ids):
     review=record.get("needs_review")
     if type(review) is not bool:return None
     reason=str(record.get("reason") or "").strip()
-    reason=re.sub(r"^(?:理由|依据|reason)\\s*[:：]\\s*","",reason,flags=re.I)
+    reason=re.sub(r"^(?:理由|依据|reason)\s*[:：]\s*","",reason,flags=re.I)
     if len(reason)<8 or len(reason)>160:return None
-    if not re.search(r"[\\u4e00-\\u9fff]",reason):return None
+    if not re.search(r"[\u4e00-\u9fff]",reason):return None
     # A category label alone, a disclaimer or generic praise is not evidence.
     if re.fullmatch(r"(?:主要研究|核心技术|有关机器人|证据不足|无法判断|分类待定)[。！!]*",reason):
         return None
@@ -52,14 +52,14 @@ def validate(record, ids):
 def parse_model_response(raw):
     """Read full JSON or a JSON object embedded in surrounding text."""
     if not isinstance(raw,str) or not raw.strip():raise ValueError("empty_response")
-    text=raw.strip().lstrip("\\ufeff")
-    text=re.sub(r"^\\s*```(?:json)?\\s*|\\s*```\\s*$","",text,flags=re.I)
+    text=raw.strip().lstrip("\ufeff")
+    text=re.sub(r"^\s*```(?:json)?\s*|\s*```\s*$","",text,flags=re.I)
     try:
         data=json.loads(text)
     except json.JSONDecodeError:
         decoder=json.JSONDecoder()
         data=None
-        for found in re.finditer(r"\\{",text):
+        for found in re.finditer(r"\{",text):
             try:candidate,_=decoder.raw_decode(text[found.start():])
             except json.JSONDecodeError:continue
             if isinstance(candidate,dict):
@@ -78,7 +78,7 @@ def parse_model_response(raw):
 def parse_short_classification(raw):
     """Handle pipe, labeled and JSON answers; reject multiple conflicting choices."""
     if not isinstance(raw,str) or not raw.strip():raise ValueError("empty_response")
-    clean=raw.strip().lstrip("\\ufeff")
+    clean=raw.strip().lstrip("\ufeff")
     try:
         data=parse_model_response(clean)
         if "needs_review" in data and isinstance(data["needs_review"],str):
@@ -97,13 +97,13 @@ def parse_short_classification(raw):
             if cat in CATEGORIES and flag in ("yes","no","true","false","是","否"):
                 return {"primary_category":cat,
                         "needs_review":flag in ("yes","true","是"),"reason":reason}
-    labeled=re.search(r"(?:主分类|分类|category|primary_category)\\s*[:=]\\s*([^\\n;；]+)",clean,re.I)
-    why=re.search(r"(?:理由|依据|reason)\\s*[:=]\\s*([^\\n]+)",clean,re.I)
+    labeled=re.search(r"(?:主分类|分类|category|primary_category)\s*[:=]\s*([^\n;；]+)",clean,re.I)
+    why=re.search(r"(?:理由|依据|reason)\s*[:=]\s*([^\n]+)",clean,re.I)
     if labeled and why:
         category=labeled.group(1).strip().strip("* `")
         category=category.split("|")[0].strip()
         if category in CATEGORIES:
-            review=re.search(r"(?:待复核|needs_review|复核)\\s*[:=]\\s*(yes|no|true|false|是|否)",clean,re.I)
+            review=re.search(r"(?:待复核|needs_review|复核)\s*[:=]\s*(yes|no|true|false|是|否)",clean,re.I)
             if review:
                 return {"primary_category":category,
                         "needs_review":review.group(1).lower() in ("yes","true","是"),
