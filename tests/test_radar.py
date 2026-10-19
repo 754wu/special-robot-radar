@@ -503,6 +503,14 @@ class RadarTests(unittest.TestCase):
             with self.subTest(title=title):
                 self.assertEqual(classify_contribution(title, abstract).category, expected)
 
+    def test_model_json_parser(self):
+        from llm_review import parse_model_response
+        sample='{"primary_category":"大脑与具身智能","needs_review":false,"reason":"高层任务决策和技能调度"}'
+        self.assertEqual(parse_model_response(sample)["primary_category"],"大脑与具身智能")
+        self.assertEqual(parse_model_response("Here: `"+"``json\\n"+sample+"\\n```")["primary_category"],"大脑与具身智能")
+        with self.assertRaises(ValueError):
+            parse_model_response("")
+
     def test_filter_config_reject_score(self):
         item = make_item('Wheel-legged quadruped locomotion', 'https://example.org/w',
                          'arXiv API', '论文（摘要）', 'robot locomotion and motion control')

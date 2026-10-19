@@ -11,8 +11,10 @@ DB=ROOT/"docs/items.json"
 CACHE=ROOT/"docs/model_review_cache.json"
 REPORT=ROOT/"docs/model_review_report.md"
 CATEGORIES=("硬件与防爆","基础软件与系统","小脑与运动控制","大脑与具身智能","感知建图与导航","特种应用与产品")
-VERSION="review-v3"
-MODEL="openrouter/free"
+VERSION="review-v4"
+MODEL=os.getenv("RADAR_FREE_MODEL","qwen/qwen3-235b-a22b-2507:free")
+if not MODEL.endswith(":free"):
+    raise ValueError("RADAR_FREE_MODEL must end with :free")
 URL="https://openrouter.ai/api/v1"
 def key_for(item):
     raw=json.dumps([VERSION,MODEL,str(item.get("title","")),str(item.get("description",""))[:1400],item.get("category","")],ensure_ascii=False)
@@ -34,6 +36,31 @@ def validate(record, ids):
     return {"primary_category":cat,"secondary_categories":related,
             "reason":reason,"needs_review":bool(record.get("needs_review",True)),
             "source":"OpenRouter free router (metadata only)"}
+def parse_model_response(raw):
+    """Parse one small JSON object, accepting markdown wrapping and prose."""
+    if not isinstance(raw,str) or not raw.strip():
+        raise ValueError("empty_response")
+    text=raw.strip()
+    text=re.sub(r"^\x60\x60\x60(?:json)?\s*|\s*\x60\x60\x60$", "", text, flags=re.I).strip()
+    try:
+        obj=json.loads(text)
+    except json.JSONDecodeError:
+        decoder=json.JSONDecoder()
+        obj=None
+        for match in re.finditer(r"\\{",text):
+            try:
+                candidate,_=decoder.raw_decode(text[match.start():])
+            except json.JSONDecodeError:
+                continue
+            if isinstance(candidate,dict):
+                obj=candidate
+                break
+        if obj is None:
+            raise ValueError("json_parse_failure")
+    if not isinstance(obj,dict):
+        raise ValueError("non_object")
+    return obj
+
 def main():
     if not DB.exists():return
     items=json.loads(DB.read_text(encoding="utf-8"))
@@ -48,6 +75,9 @@ def main():
     token=os.getenv("RADAR_MODEL_API_KEY","")
     reviewed=0
     attempts=0
+    failures={}
+    def failure(code):
+        failures[code]=failures.get(code,0)+1
     if token and budget and pending:
         try:
             from openai import OpenAI
@@ -83,24 +113,25 @@ def main():
                         temperature=0,max_tokens=500)
                     choice=response.choices[0]
                     raw=(choice.message.content or "").strip()
-                    raw=re.sub(r"^\x60\x60\x60(?:json)?\s*|\s*\x60\x60\x60$", "", raw)
-                    if choice.finish_reason=="length":
-                        raise ValueError("output reached token limit")
-                    parsed=json.loads(raw)
-                    if not isinstance(parsed,dict):
-                        raise ValueError("output is not one JSON object")
+                    finish=choice.finish_reason
+                    if finish=="length":
+                        raise ValueError("output_truncated")
+                    parsed=parse_model_response(raw)
                     parsed["id"]=key_for(item)
                     checked=validate(parsed,{key_for(item)})
                     if not checked:
-                        raise ValueError("invalid category or too-short reason")
+                        raise ValueError("invalid_fields")
                     cache[key_for(item)]=checked
                     reviewed+=1
                 except (RateLimitError,AuthenticationError,PermissionDeniedError) as ex:
+                    failure("quota_or_auth")
                     print("[WARN] OpenRouter quota/authentication blocked:",type(ex).__name__)
                     break
                 except Exception as ex:
                     # A malformed answer should not waste the remaining daily quota.
-                    print("[WARN] one classification skipped:",type(ex).__name__,
+                    code=str(ex) if isinstance(ex,ValueError) else type(ex).__name__
+                    failure(code)
+                    print("[WARN] classification skipped:",code,
                           "finish="+str(locals().get("choice",None) and choice.finish_reason),
                           "chars="+str(len(locals().get("raw",""))))
                     continue
@@ -122,10 +153,14 @@ def main():
            f"- 具有当前分类版本模型建议：{reviewed_records}",
            f"- 本次新增建议：{reviewed}",
            f"- 本次API调用次数：{attempts}",
+           f"- 本次有效输出率：{(reviewed/attempts*100 if attempts else 0):.1f}%",
+           f"- 固定免费模型：{MODEL}",
            f"- 规则与模型主分类不一致：{len(disagreed)}","",
-           "## 分类冲突（前80条）",""]
+           "## 失败原因统计",""]
+    lines += [f"- {k}: {v}" for k,v in sorted(failures.items())]
+    lines += ["","## 分类冲突（前80条）",""]
     for x,v in disagreed[:80]:
         lines.append(f"- {x.get('title','')} | 规则：{x.get('category')} | 模型：{v['primary_category']} | 理由：{v['reason']} | {x.get('url','')}")
     REPORT.write_text("\n".join(lines)+"\n",encoding="utf-8")
-    print(f"LLM advisory: new={reviewed}, cached={reviewed_records}, conflicts={len(disagreed)}")
+    print(f"LLM advisory: new={reviewed}, attempted={attempts}, failed={failures}, cached={reviewed_records}, conflicts={len(disagreed)}")
 if __name__=="__main__":main()
