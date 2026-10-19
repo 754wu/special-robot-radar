@@ -26,6 +26,7 @@ jobs:
           python-version: '3.11'
           cache: pip
       - run: pip install -r requirements.txt
+      - run: python -m compileall -q main.py taxonomy.py embodied_topics.py llm_review.py audit_classifications.py backfill.py
       - run: python -m unittest discover -s tests -v
   build-and-publish:
     needs: unit-tests

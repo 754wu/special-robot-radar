@@ -120,7 +120,8 @@ def main():
     lines=["# 免费大模型辅助分类审核","","此结果仅供复核，不会自动覆盖规则主分类。","",
            f"- 规则分类资源：{len(items)}",
            f"- 具有当前分类版本模型建议：{reviewed_records}",
-           f"- 本次新增建议：{reviewed}",\n           f"- 本次API调用次数：{attempts}",
+           f"- 本次新增建议：{reviewed}",
+           f"- 本次API调用次数：{attempts}",
            f"- 规则与模型主分类不一致：{len(disagreed)}","",
            "## 分类冲突（前80条）",""]
     for x,v in disagreed[:80]:
