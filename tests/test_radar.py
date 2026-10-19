@@ -511,6 +511,18 @@ class RadarTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             parse_model_response("")
 
+    def test_compact_model_classification(self):
+        from llm_review import parse_short_classification
+        output="大脑与具身智能|NO|论文研究语言智能体高层任务推理及机器人技能调度"
+        result=parse_short_classification(output)
+        self.assertEqual(result["primary_category"],"大脑与具身智能")
+        self.assertFalse(result["needs_review"])
+        self.assertTrue(parse_short_classification(
+            "感知建图与导航|YES|论文证据不足但主要围绕场景导航规划"
+        )["needs_review"])
+        with self.assertRaises(ValueError):
+            parse_short_classification("Random text without a category")
+
     def test_filter_config_reject_score(self):
         item = make_item('Wheel-legged quadruped locomotion', 'https://example.org/w',
                          'arXiv API', '论文（摘要）', 'robot locomotion and motion control')

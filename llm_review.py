@@ -11,7 +11,7 @@ DB=ROOT/"docs/items.json"
 CACHE=ROOT/"docs/model_review_cache.json"
 REPORT=ROOT/"docs/model_review_report.md"
 CATEGORIES=("硬件与防爆","基础软件与系统","小脑与运动控制","大脑与具身智能","感知建图与导航","特种应用与产品")
-VERSION="review-v5"
+VERSION="review-v6"
 MODEL=os.getenv("RADAR_FREE_MODEL","openrouter/free")
 if MODEL != "openrouter/free" and not MODEL.endswith(":free"):
     raise ValueError("RADAR_FREE_MODEL must end with :free")
@@ -61,6 +61,33 @@ def parse_model_response(raw):
         raise ValueError("non_object")
     return obj
 
+def parse_short_classification(raw):
+    """Accept a compact one-line answer; retain JSON compatibility."""
+    if not isinstance(raw,str) or not raw.strip():
+        raise ValueError("empty_response")
+    clean=raw.strip().strip("`").strip()
+    try:
+        return parse_model_response(clean)
+    except ValueError:
+        pass
+    clean=clean.replace("｜","|").replace("：",":")
+    lines=[x.strip() for x in clean.splitlines() if x.strip()]
+    for line in lines:
+        fields=[x.strip() for x in line.split("|")]
+        if len(fields)!=3:
+            continue
+        category,review,reason=fields
+        if category not in CATEGORIES:
+            continue
+        if review.lower() not in ("yes","no","true","false","是","否"):
+            continue
+        if not (8<=len(reason)<=160):
+            continue
+        return {"primary_category":category,
+                "needs_review":review.lower() in ("yes","true","是"),
+                "reason":reason}
+    raise ValueError("invalid_compact_response")
+
 def main():
     if not DB.exists():return
     items=json.loads(DB.read_text(encoding="utf-8"))
@@ -98,17 +125,18 @@ def main():
                     "A robot platform or application alone is not the main contribution. "
                     "Distinguish high-level language-agent skill planning from ordinary VLN "
                     "and low-level RL locomotion. If unclear, set needs_review=true. "
-                    "Return ONLY one compact JSON object with EXACT keys: "
-                    "primary_category (one of the provided Chinese category strings), "
-                    "needs_review (boolean), reason (Chinese, 20-40 Han characters, a concise factual justification). "
-                    "No markdown, explanation, list, or extra fields. "
+                    "Output EXACTLY ONE LINE in the format "
+                    "CATEGORY|YES_OR_NO|REASON. CATEGORY must be one of the six Chinese "
+                    "categories. YES_OR_NO is YES if evidence is insufficient, else NO. "
+                    "REASON is a concise factual Chinese explanation of 20-40 characters. "
+                    "No markdown, prose, JSON or extra lines. "
                     "Categories: "+json.dumps(CATEGORIES,ensure_ascii=False)+
                     "\nPaper metadata: "+json.dumps(question,ensure_ascii=False)
                 )
                 try:
                     response=client.chat.completions.create(
                         model=MODEL,
-                        messages=[{"role":"system","content":"Return one small valid JSON object only."},
+                        messages=[{"role":"system","content":"Return only CATEGORY|YES_OR_NO|REASON on one line."},
                                   {"role":"user","content":prompt}],
                         temperature=0)
                     choice=response.choices[0]
@@ -116,7 +144,7 @@ def main():
                     finish=choice.finish_reason
                     if finish=="length":
                         raise ValueError("output_truncated")
-                    parsed=parse_model_response(raw)
+                    parsed=parse_short_classification(raw)
                     parsed["id"]=key_for(item)
                     checked=validate(parsed,{key_for(item)})
                     if not checked:
