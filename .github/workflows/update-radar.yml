@@ -56,6 +56,11 @@ jobs:
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
           RADAR_CONTACT_EMAIL: ${{ vars.RADAR_CONTACT_EMAIL }}
         run: python backfill.py --openalex-budget 14 --crossref-budget 5 --max-seconds 520
+      - name: Free OpenRouter advisory review (cached, no paid fallback)
+        env:
+          RADAR_MODEL_API_KEY: ${{ secrets.RADAR_MODEL_API_KEY }}
+          RADAR_LLM_REQUEST_BUDGET: '6'
+        run: python llm_review.py
       - name: Audit all classified resources
         run: python audit_classifications.py
       - name: Commit public archive (without credentials)
