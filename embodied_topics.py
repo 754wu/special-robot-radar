@@ -135,6 +135,8 @@ def embodied_decision(title: str, abstract: str = "") -> BrainEvidence | None:
     # Technically named "agents" in RL / multi-agent gait control are not
     # language-based deliberative robot agents.
     if hit(t, AGENT_FALSE_FRIEND) and not hit(t + " " + d, r"\b(?:llm|large.language.model|tool.calling|skill.calling)\b"):
+        if hit(t, NAV_OBJECTIVE) and not hit(t, r"\b(?:gait|locomotion|walking|torque.control)\b"):
+            return BrainEvidence(NAV, "RL 多智能体用于环境导航，非高层语言 Agent", tags=("Multi-agent RL",))
         return BrainEvidence(CONTROL, "主要贡献是多智能体强化学习或步态控制", tags=("Multi-agent RL",))
 
     if hit(t, SOFTWARE_PRODUCT):
