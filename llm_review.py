@@ -100,7 +100,7 @@ def main():
                     "and low-level RL locomotion. If unclear, set needs_review=true. "
                     "Return ONLY one compact JSON object with EXACT keys: "
                     "primary_category (one of the provided Chinese category strings), "
-                    "needs_review (boolean), reason (Chinese, 15-50 characters). "
+                    "needs_review (boolean), reason (Chinese, 20-40 Han characters, a concise factual justification). "
                     "No markdown, explanation, list, or extra fields. "
                     "Categories: "+json.dumps(CATEGORIES,ensure_ascii=False)+
                     "\nPaper metadata: "+json.dumps(question,ensure_ascii=False)
@@ -110,7 +110,7 @@ def main():
                         model=MODEL,
                         messages=[{"role":"system","content":"Return one small valid JSON object only."},
                                   {"role":"user","content":prompt}],
-                        temperature=0,max_tokens=500)
+                        temperature=0)
                     choice=response.choices[0]
                     raw=(choice.message.content or "").strip()
                     finish=choice.finish_reason
