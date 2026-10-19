@@ -2,11 +2,11 @@
 
 本表对每条已入库资源扫描标题、摘要及现有分类；疑点不等于确证错分。
 
-总资源：1336；出现一项或以上疑点：548。
+总资源：1345；出现一项或以上疑点：550。
 
 ## 分类数量
 
-- 感知建图与导航: 519
+- 感知建图与导航: 528
 - 小脑与运动控制: 496
 - 特种应用与产品: 154
 - 基础软件与系统: 65
@@ -16,9 +16,10 @@
 ## 疑点分布
 
 - EXISTING_REVIEW: 451
-- THIN_ABSTRACT: 116
+- THIN_ABSTRACT: 117
 - BRAIN_POLICY_REVIEW: 1
 - SOFT_ALGORITHM: 1
+- NAV_AGENT_REVIEW: 1
 
 ## 重点疑点逐篇示例
 
@@ -35,7 +36,7 @@
 - FCTS: Failure-Guided Curriculum Tree Search Over Generated Terrain for Legged Parkour | 当前：小脑与运动控制 | 建议：待复核 | https://arxiv.org/abs/2610.22619
 - LYHrmer/wheel-legged-control-lab | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/LYHrmer/wheel-legged-control-lab
 - RileyMarek/Moonbase-Orchestrator-Public-Showcase- | 当前：特种应用与产品 | 建议：待复核 | https://github.com/RileyMarek/Moonbase-Orchestrator-Public-Showcase-
-### THIN_ABSTRACT（116 条）
+### THIN_ABSTRACT（117 条）
 - coverMoon/quadruped_control | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/coverMoon/quadruped_control
 - 1ulone/quins_ros2 | 当前：特种应用与产品 | 建议：待复核 | https://github.com/1ulone/quins_ros2
 - Gait-Aware Command Timing for Decentralized Quadruped Swarms | 当前：小脑与运动控制 | 建议：待复核 | https://doi.org/10.21203/rs.3.rs-11332226/v1
@@ -52,3 +53,5 @@
 - Perceptive Behavior Foundation Model: Adapting Human Motion Priors to Robot-Centric Terrain | 当前：大脑与具身智能 | 建议：小脑与运动控制（待复核）；待复核 | https://arxiv.org/abs/2606.08059
 ### SOFT_ALGORITHM（1 条）
 - SLAMs for Quadruped Robot: Mapping Capability-centric Agentic Simulation | 当前：基础软件与系统 | 建议：感知导航/小脑 | https://doi.org/10.21203/rs.3.rs-7367448/v1
+### NAV_AGENT_REVIEW（1 条）
+- Self-Organizing Memory Based on Adaptive Resonance Theory for Vision and Language Navigation | 当前：感知建图与导航 | 建议：大脑与具身智能（待复核） | https://doi.org/10.3390/math11194192

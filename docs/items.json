@@ -6,7 +6,7 @@
     "source": "GitHub",
     "type": "代码仓库更新",
     "description": "Stride-length-conditioned quadruped locomotion for the Unitree Go2, extending SLR with an Isaac Lab port and ROS 2 deployment",
-    "published": "2026-10-19T08:58:01Z",
+    "published": "2026-10-19T09:06:56Z",
     "first_seen": "2026-10-19T09:05:52.205529+00:00",
     "stars": 0,
     "license": false,
@@ -15014,6 +15014,29 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "f60f31a665478c59e2",
+    "title": "Autonomous navigation and visual navigation in robot mission execution",
+    "url": "https://doi.org/10.1016/j.imavis.2025.105516",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Image and Vision Computing。",
+    "published": "2025-05-01",
+    "first_seen": "2026-10-19T09:25:06.700081+00:00",
+    "doi": "10.1016/j.imavis.2025.105516",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为环境感知、定位、建图或导航",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Image and Vision Computing。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "ea044cc61898d8b913",
     "title": "SLAM-Based 2D Mapping and Route Planning for Autonomous Mobile Robot Navigation",
     "url": "https://doi.org/10.1109/cros66186.2025.11066160",
@@ -16907,6 +16930,31 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "7d9276f4b3ce424f50",
+    "title": "Fine-Grained Alignment in Vision-and-Language Navigation through Bayesian Optimization",
+    "url": "https://doi.org/10.32388/0ix4xz",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "This paper addresses the challenge of fine-grained alignment in Vision-and-Language Navigation (VLN) tasks, where robots navigate realistic 3D environments based on natural language instructions. Current approaches use contrastive learning to align language with visual trajectory sequences. Nevertheless, they encounter difficulties with fine-grained vision negatives. To enhance cross-modal embeddings, we introduce a novel Bayesian Optimization-based adversarial optimization framework for creating fine-grained contrastive vision samples. To validate the proposed methodology, we conduct a series of experiments to assess the effectiveness of the enriched embeddings on fine-grained vision negatives. We conduct experiments on two common VLN benchmarks R2R and REVERIE, experiments on the them demonstrate that these embeddings benefit navigation, and can lead to a promising performance enhancem",
+    "published": "2024-12-10",
+    "first_seen": "2026-10-19T09:25:30.642484+00:00",
+    "doi": "10.32388/0ix4xz",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "以视觉语言导航算法或视觉落地为主要任务",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航",
+      "大脑与具身智能",
+      "VLN"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。This paper addresses the challenge of fine-grained alignment in Vision-and-Language Navigation (VLN) tasks, where robots navigate reali（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "1c07ab2ce841a7aaef",
     "title": "Multi-Agent Reinforcement Learning Tracking Control of a Bionic Wheel-Legged Quadruped",
     "url": "https://doi.org/10.3390/machines12120902",
@@ -17423,6 +17471,81 @@
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 64,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "198e13f7ad139c111f",
+    "title": "MG-VLN: Benchmarking Multi-Goal and Long-Horizon Vision-Language Navigation with Language Enhanced Memory Map",
+    "url": "https://doi.org/10.1109/iros58592.2024.10801689",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)。",
+    "published": "2024-10-14",
+    "first_seen": "2026-10-19T09:25:30.642430+00:00",
+    "doi": "10.1109/iros58592.2024.10801689",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "以视觉语言导航算法或视觉落地为主要任务",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航",
+      "大脑与具身智能",
+      "VLN"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 63,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "19cdc9e590969ff55c",
+    "title": "Multimodal Evolutionary Encoder for Continuous Vision-Language Navigation",
+    "url": "https://doi.org/10.1109/iros58592.2024.10802484",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)。",
+    "published": "2024-10-14",
+    "first_seen": "2026-10-19T09:25:30.642861+00:00",
+    "doi": "10.1109/iros58592.2024.10802484",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "以视觉语言导航算法或视觉落地为主要任务",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航",
+      "大脑与具身智能",
+      "VLN"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "bb34a5fafe3c703e0b",
+    "title": "Malicious Path Manipulations via Exploitation of Representation Vulnerabilities of Vision-Language Navigation Systems",
+    "url": "https://doi.org/10.1109/iros58592.2024.10802618",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)。",
+    "published": "2024-10-14",
+    "first_seen": "2026-10-19T09:25:30.643011+00:00",
+    "doi": "10.1109/iros58592.2024.10802618",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "以视觉语言导航算法或视觉落地为主要任务",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航",
+      "大脑与具身智能",
+      "VLN"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
@@ -21755,6 +21878,31 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "c3d85d2cc1b8906182",
+    "title": "Self-Organizing Memory Based on Adaptive Resonance Theory for Vision and Language Navigation",
+    "url": "https://doi.org/10.3390/math11194192",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Mathematics。 Vision and Language Navigation (VLN) is a task in which an agent needs to understand natural language instructions to reach the target location in a real-scene environment. To improve the model ability of long-horizon planning, emerging research focuses on extending the models with different types of memory structures, mainly including topological maps or a hidden state vector. However, the fixed-length hidden state vector is often insufficient to capture long-term temporal context. In comparison, topological maps have been shown to be beneficial for many robotic navigation tasks. Therefore, we focus on building a feasible and effective topological map representation and using it to improve the navigation performance and the generalization across seen and unseen environments. This paper presents a S elf-organizing Memory based on Adaptive Resonance Theory (SMART) mod",
+    "published": "2023-10-07",
+    "first_seen": "2026-10-19T09:25:24.676580+00:00",
+    "doi": "10.3390/math11194192",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "以视觉语言导航算法或视觉落地为主要任务",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航",
+      "大脑与具身智能",
+      "VLN"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Mathematics。 Vision and Language Navigation (VLN) is a task in which an agent needs to understand natural language instructions（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "d08b4e75dd0a7b2635",
     "title": "Design and Fabrication of Metal Sensor Integrated All Terrain Robot with Live Streaming",
     "url": "https://doi.org/10.46243/jst.2023.v8.i05.pp125-135",
@@ -21874,6 +22022,31 @@
     "scope": "可迁移的机器人关键技术",
     "score": 74,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：International Journal of Emerging Trends in Engineering Research。 In the realm of mobile robotics, navigating around obstacles （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "6ff0f9f4cf2fe97dff",
+    "title": "Instance-Level Semantic Maps for Vision Language Navigation",
+    "url": "https://doi.org/10.1109/ro-man57019.2023.10309534",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：2023 32nd IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)。",
+    "published": "2023-08-28",
+    "first_seen": "2026-10-19T09:25:24.676950+00:00",
+    "doi": "10.1109/ro-man57019.2023.10309534",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "以视觉语言导航算法或视觉落地为主要任务",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航",
+      "大脑与具身智能",
+      "VLN"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2023 32nd IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -26326,6 +26499,31 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "4988c68d37fc1ad25e",
+    "title": "Incorporating External Knowledge Reasoning for Vision-and-Language Navigation with Assistant’s Help",
+    "url": "https://doi.org/10.3390/app12147053",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Applied Sciences。 Vision-and-Language Navigation (VLN) is a task designed to enable embodied agents carry out natural language instructions in realistic environments. Most VLN tasks, however, are guided by an elaborate set of instructions that is depicted step-by-step. This approach deviates from real-world problems in which humans only describe the object and its surroundings and allow the robot to ask for help when required. Vision-based Navigation with Language-based Assistance (VNLA) is a recently proposed task that requires an agent to navigate and find a target object according to a high-level language instruction. Due to the lack of step-by-step navigation guidance, the key to VNLA is to conduct goal-oriented exploration. In this paper, we design an Attention-based Knowledge-enabled Cross-modality Reasoning with Assistant’s Help (AKCR-AH) model to address the unique challe",
+    "published": "2022-07-13",
+    "first_seen": "2026-10-19T09:25:18.655713+00:00",
+    "doi": "10.3390/app12147053",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "以视觉语言导航算法或视觉落地为主要任务",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航",
+      "大脑与具身智能",
+      "VLN"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 63,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Applied Sciences。 Vision-and-Language Navigation (VLN) is a task designed to enable embodied agents carry out natural language （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "115cb4d1c3ae9612bb",
     "title": "A Modular Vision Language Navigation and Manipulation Framework for Long Horizon Compositional Tasks in Indoor Environment",
     "url": "https://doi.org/10.3389/frobt.2022.930486",
@@ -30629,6 +30827,29 @@
     "scope": "可迁移的机器人关键技术",
     "score": 62,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2021 International Conference on Indoor Positioning and Indoor Navigation (IPIN)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "9d841a96c7639ca579",
+    "title": "Rock Segmentation in the Navigation Vision of the Planetary Rovers",
+    "url": "https://doi.org/10.3390/math9233048",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Mathematics。 Visual navigation is an essential part of planetary rover autonomy. Rock segmentation emerged as an important interdisciplinary topic among image processing, robotics, and mathematical modeling. Rock segmentation is a challenging topic for rover autonomy because of the high computational consumption, real-time requirement, and annotation difficulty. This research proposes a rock segmentation framework and a rock segmentation network (NI-U-Net++) to aid with the visual navigation of rovers. The framework consists of two stages: the pre-training process and the transfer-training process. The pre-training process applies the synthetic algorithm to generate the synthetic images; then, it uses the generated images to pre-train NI-U-Net++. The synthetic algorithm increases the size of the image dataset and provides pixel-level masks—both of which are challenges with machin",
+    "published": "2021-11-27",
+    "first_seen": "2026-10-19T09:25:12.835843+00:00",
+    "doi": "10.3390/math9233048",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为环境感知、定位、建图或导航",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Mathematics。 Visual navigation is an essential part of planetary rover autonomy. Rock segmentation emerged as an important inte（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {

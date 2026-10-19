@@ -26,5 +26,12 @@
     "reason": "标题和摘要表明工作是训练RL locomotion policies，属于低层运动控制，非高层LLM/VLM或VLN。",
     "needs_review": false,
     "source": "OpenRouter free router (metadata only)"
+  },
+  "2a359b071a9ab2f6bc9028a0d80d37992255c32efdc595d7d1b42b916903cd8c": {
+    "primary_category": "大脑与具身智能",
+    "secondary_categories": [],
+    "reason": "感知地形适配人类运动，实现高层次行为规划",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
   }
 }
