@@ -725,6 +725,31 @@ class RadarTests(unittest.TestCase):
         self.assertTrue(sample["needs_review"])
         self.assertEqual(sample["crosscheck_conflicts"][0]["suggested_category"],"感知建图与导航")
 
+    def test_high_confidence_crosscheck_remains_flagged_after_repeated_run(self):
+        from classification_crosscheck import apply_crosschecks
+        paper={"title":"Simultaneous Localization and Mapping Methods for Snake-like Robots Based on Gait Adjustment",
+               "description":"SLAM of snake robots using gait adjustment",
+               "category":"小脑与运动控制","rule_category":"小脑与运动控制",
+               "rule_confidence":"high","needs_review":False}
+        apply_crosschecks([paper])
+        first=list(paper["crosscheck_conflicts"])
+        self.assertTrue(first)
+        apply_crosschecks([paper])
+        self.assertEqual(paper["crosscheck_conflicts"],first)
+        self.assertTrue(paper["crosscheck_pending"])
+        self.assertTrue(paper["needs_review"])
+
+    def test_crosscheck_object_navigation_idempotent(self):
+        from classification_crosscheck import apply_crosschecks
+        paper={"title":"Can an Embodied Agent Find Your Cat-shaped Mug? LLM-Based Zero-Shot Object Navigation",
+               "description":"Language-guided exploration for zero-shot object navigation",
+               "category":"大脑与具身智能","rule_category":"大脑与具身智能",
+               "rule_confidence":"high","needs_review":False}
+        apply_crosschecks([paper])
+        self.assertEqual(paper["crosscheck_conflicts"][0]["suggested_category"],"感知建图与导航")
+        apply_crosschecks([paper])
+        self.assertEqual(len(paper["crosscheck_conflicts"]),1)
+
     def test_high_confidence_crosscheck_correct_agent_not_flagged(self):
         from classification_crosscheck import apply_crosschecks
         sample={"title":"VLM agent skill orchestration for robot navigation",

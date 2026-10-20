@@ -18,7 +18,9 @@ APPLICATION="特种应用与产品"
 def crosscheck_high_confidence(item):
     if item.get("manual_category_override") or item.get("model_applied"):
         return []
-    if item.get("rule_confidence")!="high" or item.get("needs_review"):
+    # A prior cross-check may itself have set needs_review=True. Recompute
+    # that same conflict rather than silently erasing it on the second pass.
+    if item.get("rule_confidence")!="high" or (item.get("needs_review") and not item.get("crosscheck_pending")):
         return []
     title=str(item.get("title") or "").lower()
     desc=str(item.get("description") or "").lower()
@@ -58,6 +60,9 @@ def apply_crosschecks(items):
             item["classification_confidence"]="规则分类（交叉检查待复核）"
         else:
             item["crosscheck_pending"]=False
+            if item.get("classification_confidence")=="规则分类（交叉检查待复核）":
+                item["classification_confidence"]="高"
+                item["needs_review"]=False
     return items
 
 def report(items, path):
