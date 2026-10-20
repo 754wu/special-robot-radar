@@ -1,8 +1,8 @@
 # 特种机器人七日技术简报
 
-生成时间：2026-10-20T06:42:38.116598+00:00
+生成时间：2026-10-20T06:52:45.449581+00:00
 
-最近 7 天首次记录 **1448** 条；本轮新增 **0** 条；总库存 **1668** 条。
+最近 7 天首次记录 **1449** 条；本轮新增 **0** 条；总库存 **1669** 条。
 
 **注意：**‘七日’按首次入库时间统计，不代表论文发表于最近七天；相关度评分只是初筛优先级，不是成熟度或质量评级。
 
@@ -47,7 +47,7 @@
 ## 小脑与运动控制
 
 - [Path Planning and Motion Control of Robot Dog Through Rough Terrain Based on Vision Navigation](https://doi.org/10.3390/s24227306) | 论文（摘要） | 特种场景直接相关 | 匹配度 98/100
-  - 行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：野外与特种地形。来源期刊/会议：Sensors。 This article delineates the enhancement of an autonomous navigation and obstacle avoidance system for a quadruped robo（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+  - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：野外与特种地形。来源期刊/会议：Sensors。 This article delineates the enhancement of an autonomous navigation and obstacle avoidance system for a quadruped robo（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Design of a Bio-Inspired Legged Robot for Rough Terrain Locomotion](https://ajitem.org/index.php/journal/article/view/EM32004) | 论文（摘要） | 特种场景直接相关 | 匹配度 96/100
   - 行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：野外与特种地形。来源期刊/会议：Association Journal of Interdisciplinary Technics in Engineering Mechanics。This research presents a unique biologically motivat（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Adaptive gait planning for quadruped robot based on center of inertia over rough terrain](https://doi.org/10.1016/j.birob.2021.100031) | 论文（摘要） | 特种场景直接相关 | 匹配度 95/100
