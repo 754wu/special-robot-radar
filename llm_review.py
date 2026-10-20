@@ -123,6 +123,37 @@ def parse_short_classification(raw):
                     "reason":why.group(1).strip()}
     raise ValueError("invalid_compact_response")
 
+def evidence_supported(item, reason):
+    """Conservative lexical grounding; not a factual correctness guarantee."""
+    source=(str(item.get("title") or "")+" "+str(item.get("description") or "")).lower()
+    words=re.findall(r"[a-z][a-z0-9-]{3,}",reason.lower())
+    # Also match important robot concepts expressed in Chinese explanations.
+    synonyms={
+      "视觉语言":r"vision.language|\\bvlm\\b|\\bvln\\b|视觉语言",
+      "技能":r"skill|tool.call|技能",
+      "导航":r"navigation|\\bvln\\b|导航",
+      "强化学习":r"reinforcement.learning|\\brl\\b|强化学习",
+      "运动控制":r"locomotion|motion.control|运动控制",
+      "建图":r"mapping|\\bslam\\b|建图",
+      "任务规划":r"task.planning|task.decomposition|任务规划",
+      "触觉":r"tactile|haptic|触觉",
+      "反射":r"reflex|反射",
+      "机器人":r"robot|机器人"
+    }
+    matched=any(re.search(r"(?<![a-z])"+re.escape(w)+r"(?![a-z])",source)
+                for w in words if w not in ("robot","robotics","model","based","method"))
+    matched=matched or any(re.search(pattern,source,re.I) for phrase,pattern in synonyms.items() if phrase in reason)
+    return matched
+
+def safe_diagnostic(raw,choice,response):
+    """Diagnostic metadata only; never publish response bodies or paper metadata."""
+    value=raw if isinstance(raw,str) else ""
+    shape="empty" if not value.strip() else ("json_like" if "{" in value else
+          "pipe_like" if "|" in value or "｜" in value else "other_text")
+    return {"shape":shape,"length":len(value),
+            "finish_reason":str(getattr(choice,"finish_reason",None)),
+            "served_model":str(getattr(response,"model","unknown"))[:100]}
+
 def main():
     if not DB.exists():return
     items=json.loads(DB.read_text(encoding="utf-8"))
@@ -138,6 +169,7 @@ def main():
     reviewed=0
     attempts=0
     failures={}
+    diagnostics=[]
     def failure(code):
         failures[code]=failures.get(code,0)+1
     if token and budget and pending:
@@ -184,6 +216,9 @@ def main():
                     checked=validate(parsed,{key_for(item)})
                     if not checked:
                         raise ValueError("invalid_fields")
+                    if not evidence_supported(item,checked["reason"]):
+                        checked["needs_review"]=True
+                        checked["evidence_warning"]="理由无法通过标题摘要关键词交叉验证"
                     cache[key_for(item)]=checked
                     reviewed+=1
                 except (RateLimitError,AuthenticationError,PermissionDeniedError,NotFoundError) as ex:
@@ -194,6 +229,8 @@ def main():
                     # A malformed answer should not waste the remaining daily quota.
                     code=str(ex) if isinstance(ex,ValueError) else type(ex).__name__
                     failure(code)
+                    diagnostic=safe_diagnostic(locals().get("raw",""),locals().get("choice",None),locals().get("response",None))
+                    diagnostics.append({"error":code,**diagnostic})
                     print("[WARN] classification skipped:",code,
                           "finish="+str(locals().get("choice",None) and choice.finish_reason),
                           "chars="+str(len(locals().get("raw",""))))
@@ -221,6 +258,8 @@ def main():
            f"- 规则与模型主分类不一致：{len(disagreed)}","",
            "## 失败原因统计",""]
     lines += [f"- {k}: {v}" for k,v in sorted(failures.items())]
+    lines += ["","## 安全诊断（不含模型原文）",""]
+    lines += [f"- {json.dumps(d,ensure_ascii=False)}" for d in diagnostics]
     lines += ["","## 分类冲突（前80条）",""]
     for x,v in disagreed[:80]:
         lines.append(f"- {x.get('title','')} | 规则：{x.get('category')} | 模型：{v['primary_category']} | 理由：{v['reason']} | {x.get('url','')}")

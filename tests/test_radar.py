@@ -544,6 +544,16 @@ class RadarTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             parse_short_classification("大脑与具身智能 或 感知建图与导航")
 
+    def test_grounding_and_safe_diagnostics(self):
+        from llm_review import evidence_supported, safe_diagnostic
+        paper={"title":"Vision Language Navigation with Skill Planning",
+               "description":"A VLM agent selects navigation skills."}
+        self.assertTrue(evidence_supported(paper,"视觉语言技能导航"))
+        self.assertFalse(evidence_supported(paper,"触觉传感器实现反射控制"))
+        diag=safe_diagnostic("文本|NO|理由",None,None)
+        self.assertEqual(diag["shape"],"pipe_like")
+        self.assertNotIn("文本",str(diag))
+
     def test_filter_config_reject_score(self):
         item = make_item('Wheel-legged quadruped locomotion', 'https://example.org/w',
                          'arXiv API', '论文（摘要）', 'robot locomotion and motion control')
