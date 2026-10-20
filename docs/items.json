@@ -1,5 +1,30 @@
 [
   {
+    "id": "668b4d5e2bd5028f48",
+    "title": "Daniel-Zhang2017/ros2-robotics-projects",
+    "url": "https://github.com/Daniel-Zhang2017/ros2-robotics-projects",
+    "source": "GitHub",
+    "type": "代码仓库更新",
+    "description": "ROS 2 robotics projects for autonomous mobile robots and robotic arms: SLAM, LiDAR, RGB-D vision, IMU, Nav2, custom controllers, MoveIt2, with a real-robot capstone for high-touch surface disinfection",
+    "published": "2026-10-20T02:58:03Z",
+    "first_seen": "2026-10-20T03:50:02.039843+00:00",
+    "stars": 4,
+    "license": true,
+    "repo_id": 1363630068,
+    "category": "基础软件与系统",
+    "classification_confidence": "待复核",
+    "classification_reason": "研究机器人软件、仿真或平台系统",
+    "needs_review": true,
+    "tags": [
+      "基础软件与系统"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 65,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。ROS 2 robotics projects for autonomous mobile robots and robotic arms: SLAM, LiDAR, RGB-D vision, IMU, Nav2, custom controllers, MoveIt（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "4aacbb7a71d6ed8922",
     "title": "xfjcoder/wam",
     "url": "https://github.com/xfjcoder/wam",
@@ -653,7 +678,7 @@
     "model_applied": true,
     "rule_category": "感知建图与导航",
     "model_classification_reason": "主要贡献是从自我中心视觉预测触觉信息，属于感知建图与导航",
-    "model_reviewed_at": "2026-10-20T02:55:02.321420+00:00",
+    "model_reviewed_at": "2026-10-20T03:50:20.916212+00:00",
     "model_previous_confidence": "待复核",
     "classification_history": [
       {
@@ -662,7 +687,7 @@
         "old_category": "感知建图与导航",
         "new_category": "感知建图与导航",
         "reason": "主要贡献是从自我中心视觉预测触觉信息，属于感知建图与导航",
-        "changed_at": "2026-10-20T02:55:02.321420+00:00",
+        "changed_at": "2026-10-20T03:50:20.916212+00:00",
         "needs_review": false,
         "status": "model_applied"
       }
@@ -13149,19 +13174,21 @@
     "published": "2025-12-01",
     "first_seen": "2026-10-16T01:26:14.986251+00:00",
     "doi": "https://doi.org/10.1038/s41598-025-30056-8",
-    "category": "特种应用与产品",
+    "category": "基础软件与系统",
     "classification_confidence": "待复核",
-    "classification_reason": "元数据不足，临时标记待复核（不视为应用领域确认）",
+    "classification_reason": "机器人任务分配与调度方法，并非整机产品",
     "needs_review": true,
     "tags": [
-      "特种应用与产品"
+      "基础软件与系统",
+      "特种应用与产品",
+      "大脑与具身智能"
     ],
     "industry_tags": [
       "工业与能源巡检"
     ],
     "scope": "特种场景直接相关",
     "score": 71,
-    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：Scientific Reports。The task allocation of multiple robot chemical inspection plays a vital role in enhancing the inspection eff（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：特种场景直接相关；方向：基础软件与系统；关联：工业与能源巡检。来源期刊/会议：Scientific Reports。The task allocation of multiple robot chemical inspection plays a vital role in enhancing the inspection eff（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -14508,19 +14535,21 @@
     "published": "2025-09-19",
     "first_seen": "2026-10-19T09:50:24.659224+00:00",
     "doi": "10.1007/s10586-025-05400-2",
-    "category": "特种应用与产品",
+    "category": "基础软件与系统",
     "classification_confidence": "待复核",
-    "classification_reason": "元数据不足，临时标记待复核（不视为应用领域确认）",
+    "classification_reason": "机器人任务分配与调度方法，并非整机产品",
     "needs_review": true,
     "tags": [
-      "特种应用与产品"
+      "基础软件与系统",
+      "特种应用与产品",
+      "大脑与具身智能"
     ],
     "industry_tags": [
       "工业与能源巡检"
     ],
     "scope": "特种场景直接相关",
     "score": 76,
-    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：Cluster Computing。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：特种场景直接相关；方向：基础软件与系统；关联：工业与能源巡检。来源期刊/会议：Cluster Computing。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -19083,7 +19112,7 @@
     "doi": "10.1117/12.3052432",
     "category": "小脑与运动控制",
     "classification_confidence": "高",
-    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
+    "classification_reason": "特种场景中的运动控制算法是主要研究成果",
     "needs_review": false,
     "tags": [
       "小脑与运动控制",
@@ -23721,17 +23750,18 @@
     "classification_reason": "消防机器人模糊控制设计，属特种应用产品，非高层语言规划。",
     "needs_review": false,
     "tags": [
-      "特种应用与产品"
+      "特种应用与产品",
+      "小脑与运动控制"
     ],
     "industry_tags": [
       "消防与应急救援"
     ],
     "scope": "特种场景直接相关",
     "score": 76,
-    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：2024 9th International Conference on Electronic Technology and Information Science (ICETIS)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：消防与应急救援。来源期刊/会议：2024 9th International Conference on Electronic Technology and Information Science (ICETIS)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
     "model_applied": true,
-    "rule_category": "特种应用与产品",
+    "rule_category": "小脑与运动控制",
     "model_classification_reason": "消防机器人模糊控制设计，属特种应用产品，非高层语言规划。",
     "model_reviewed_at": "2026-10-20T02:18:21.790599+00:00",
     "classification_history": [
@@ -24822,12 +24852,12 @@
     "published": "2024-01-01",
     "first_seen": "2026-10-16T01:27:13.413225+00:00",
     "doi": "10.1109/access.2024.3450502",
-    "category": "硬件与防爆",
+    "category": "感知建图与导航",
     "classification_confidence": "待复核",
-    "classification_reason": "硬件类别缺少直接设计证据",
+    "classification_reason": "导航/感知类别缺少题名中的明确研究任务",
     "needs_review": true,
     "tags": [
-      "硬件与防爆",
+      "感知建图与导航",
       "特种应用与产品"
     ],
     "industry_tags": [
@@ -24835,7 +24865,7 @@
     ],
     "scope": "特种场景直接相关",
     "score": 76,
-    "summary": "行业筛选：特种场景直接相关；方向：硬件与防爆；关联：工业与能源巡检。来源期刊/会议：IEEE Access。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：工业与能源巡检。来源期刊/会议：IEEE Access。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -24873,11 +24903,12 @@
     "published": "2024-01-01",
     "first_seen": "2026-10-17T05:34:59.979336+00:00",
     "doi": "10.5220/0012866500004547",
-    "category": "特种应用与产品",
-    "classification_confidence": "待复核",
-    "classification_reason": "特种机器人应用系统，贡献边界待复核",
-    "needs_review": true,
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "特种场景中的视觉感知算法是主要研究成果",
+    "needs_review": false,
     "tags": [
+      "感知建图与导航",
       "特种应用与产品"
     ],
     "industry_tags": [
@@ -24885,7 +24916,7 @@
     ],
     "scope": "特种场景直接相关",
     "score": 76,
-    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：Proceedings of the 1st International Conference on Data Science and Engineering。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：工业与能源巡检。来源期刊/会议：Proceedings of the 1st International Conference on Data Science and Engineering。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -26782,7 +26813,7 @@
     "doi": "10.3390/s23229238",
     "category": "小脑与运动控制",
     "classification_confidence": "高",
-    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
+    "classification_reason": "特种场景中的运动控制算法是主要研究成果",
     "needs_review": false,
     "tags": [
       "小脑与运动控制",
@@ -33288,17 +33319,18 @@
     "published": "2022-08-29",
     "first_seen": "2026-10-20T02:54:40.248068+00:00",
     "doi": "10.3389/frobt.2022.949460",
-    "category": "硬件与防爆",
+    "category": "小脑与运动控制",
     "classification_confidence": "待复核",
-    "classification_reason": "硬件类别缺少直接设计证据",
+    "classification_reason": "运动控制类别缺少题名中的控制任务证据",
     "needs_review": true,
     "tags": [
+      "小脑与运动控制",
       "硬件与防爆"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 62,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：硬件与防爆；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Frontiers in Robotics and AI。 Firm foot contact is the top priority of climbing robots to avoid catastrophic events, especially（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Frontiers in Robotics and AI。 Firm foot contact is the top priority of climbing robots to avoid catastrophic events, especially（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -33504,11 +33536,11 @@
     "doi": "10.1109/icma54519.2022.9856060",
     "category": "小脑与运动控制",
     "classification_confidence": "待复核",
-    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
+    "classification_reason": "特种场景中的运动控制算法是主要研究成果",
     "needs_review": true,
     "tags": [
       "小脑与运动控制",
-      "感知建图与导航"
+      "特种应用与产品"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",

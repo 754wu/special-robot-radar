@@ -1,8 +1,8 @@
 # 特种机器人七日技术简报
 
-生成时间：2026-10-20T02:55:02.407934+00:00
+生成时间：2026-10-20T03:50:21.009218+00:00
 
-最近 7 天首次记录 **1425** 条；本轮新增 **0** 条；总库存 **1645** 条。
+最近 7 天首次记录 **1426** 条；本轮新增 **0** 条；总库存 **1646** 条。
 
 **注意：**‘七日’按首次入库时间统计，不代表论文发表于最近七天；相关度评分只是初筛优先级，不是成熟度或质量评级。
 
@@ -39,10 +39,10 @@
   - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：消防与应急救援。arXiv:2610.22509v1 Announce Type: new Abstract: Reliable 3D person detection is important for rescue robotics to give first responders （仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [A High-fidelity Multimodal Synthetic Dataset Generation Framework for Off-road Unstructured Terrain Navigation Training of Autonomous Robots](https://doi.org/10.1007/s10846-025-02340-2) | 论文（摘要） | 特种场景直接相关 | 匹配度 77/100
   - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：野外与特种地形。来源期刊/会议：Journal of Intelligent & Robotic Systems。The success of deep learning methods in a wide range of application areas has inspired（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Research on inspection task allocation method of inspection robot based on improved genetic algorithm](https://doi.org/10.1007/s10586-025-05400-2) | 论文（摘要） | 特种场景直接相关 | 匹配度 76/100
+  - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：工业与能源巡检。来源期刊/会议：Cluster Computing。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Point clouds to as-built two-node wireframe digital twin: a novel method to support autonomous robotic inspection](https://doi.org/10.1007/s43684-024-00082-w) | 论文（摘要） | 特种场景直接相关 | 匹配度 76/100
   - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：工业与能源巡检。来源期刊/会议：Autonomous Intelligent Systems。 Abstract Previous studies have primarily focused on converting point clouds (PC) into a dense m（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [A Mobile Inspection Robot Design Analysis in ANSYS Simulation for Extreme Weather Conditions](https://doi.org/10.1109/iccma59762.2023.10375060) | 论文（摘要） | 特种场景直接相关 | 匹配度 76/100
-  - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：工业与能源巡检。来源期刊/会议：2023 11th International Conference on Control, Mechatronics and Automation (ICCMA)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 小脑与运动控制
 
