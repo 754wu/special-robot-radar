@@ -860,7 +860,9 @@ def preserve_model_classification(item, previous):
             item["model_classification_reason"]=previous.get("model_classification_reason","")
             item["model_suggested_category"]=proposed
             item["classification_history"]=list(previous.get("classification_history") or [])
-            item["tags"]=list(dict.fromkeys([proposed,item["rule_category"]]+[x for x in item.get("tags",[]) if x not in KEYWORDS]))[:6]
+            rule_category=item.get("rule_category") or previous.get("rule_category") or proposed
+            item["rule_category"]=rule_category
+            item["tags"]=list(dict.fromkeys([proposed,rule_category]+[x for x in item.get("tags",[]) if x not in KEYWORDS]))[:6]
         item["classification_confidence"]="模型建议（待复核）"
         return item
     if not previous.get("model_applied"):
