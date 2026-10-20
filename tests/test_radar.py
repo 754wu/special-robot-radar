@@ -668,6 +668,22 @@ class RadarTests(unittest.TestCase):
         self.assertEqual(len(retained),2)
         self.assertEqual(retained[0]["changed_at"],"first")
 
+    def test_rule_contribution_corrections_oct_2026(self):
+        from taxonomy import classify_contribution
+        cases = [
+            ("Explosion-proof lithium-ion battery pack – In-depth investigation and experimental study on the design criteria", "硬件与防爆"),
+            ("Research on the Pressure Relief Process of Explosion-Proof Pressure Relief Valve for Power Battery Based on Choked Flow", "硬件与防爆"),
+            ("Dynamic Inspection Algorithm Based on Substation Inspection Robot", "感知建图与导航"),
+            ("Research on Improved Hybrid Polynomial Interpolation Algorithm for Rail Inspection Robot", "小脑与运动控制"),
+            ("Hybrid motion planning with dynamics awareness for aerial-ground robots in industrial inspection and maintenance", "感知建图与导航"),
+            ("Microcontroller-Based Substation Inspection Robot Design--Software Part", "基础软件与系统"),
+            ("Research on Path Optimization Method for Warehouse Inspection Robot", "感知建图与导航"),
+            ("AI-Enhanced Radiation Classification in ROS", "感知建图与导航"),
+        ]
+        for title, expected in cases:
+            with self.subTest(title=title):
+                self.assertEqual(classify_contribution(title).category, expected)
+
     def test_filter_config_reject_score(self):
         item = make_item('Wheel-legged quadruped locomotion', 'https://example.org/w',
                          'arXiv API', '论文（摘要）', 'robot locomotion and motion control')

@@ -532,6 +532,25 @@ def classify_contribution(title: str, description: str = "", source: str = "") -
         return result(NAV, "明确的巡检视觉感知/任务划分算法，而非整机产品",
                       (APPLICATION,), review=bool(has(t, r"task.decomposition")))
 
+    # Explicit research deliverable beats contextual application words.
+    if has(t, r"\b(?:explosion.proof|flameproof)\b") and has(
+        t, r"\b(?:battery.pack|pressure.relief.valve|enclosure|actuator|motor)\b"):
+        return result(HARDWARE, "防爆物理设备设计为主要贡献，需核实机器人相关性",
+                      review=not has(t + " " + d, r"robot|quadruped|legged|机器人"))
+    if has(t, r"\b(?:path.optimization|path.planning|route.optimization|hybrid.motion.planning|dynamic.inspection.algorithm|aerial.tracking)\b") and not has(
+        t, r"\b(?:torque.control|whole.body.control)\b"):
+        return result(NAV, "主要研究机器人导航路径规划、巡检或跟踪算法",
+                      review=bool(has(t, r"dynamic.inspection.algorithm")))
+    if has(t, r"\b(?:polynomial.interpolation.algorithm|trajectory.interpolation|trajectory.generation.algorithm)\b"):
+        return result(CONTROL, "主要贡献为运动轨迹插值或轨迹生成方法",
+                      review=not has(d, r"trajectory|motion|control|interpolation"))
+    if has(t, r"\b(?:software.part|software.architecture|software.stack)\b") and has(t, r"\b(?:robot|inspection|ros)\b"):
+        return result(SOFTWARE, "主要交付机器人软件设计或架构",
+                      review=not has(d, r"software|architecture|ros"))
+    if has(t, r"\b(?:radiation.classification|isotope.classification)\b"):
+        return result(NAV, "辐射识别算法是主要研究贡献，ROS仅为部署载体",
+                      review=not has(d, r"radiation|isotope|classification"))
+
     # General contribution boundaries: prioritize the technical deliverable.
     special_context = has(t, r"\b(?:inspection|firefighting|fire.fighting|rescue|substation|mining|disaster.response)\b")
     physical_output = has(t, r"\b(?:fabrication|prototype|actuator.design|mechanical.design|mechanism.design|chassis.design|motor.design|structural.design|sensor.design)\b")
