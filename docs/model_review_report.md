@@ -3,12 +3,12 @@
 确定结果可用于改类；不确定则保留规则分类并继续待复核。
 
 - 规则分类资源：1668
-- 具有当前分类版本模型建议：55
+- 具有当前分类版本模型建议：57
 - 本次新增建议：3
-- 当日新增待复核候选：19
-- 历史待复核候选：433
-- 本次处理已有模型建议：27
-- 本次实际改变主分类：1
+- 当日新增待复核候选：11
+- 历史待复核候选：425
+- 本次处理已有模型建议：29
+- 本次实际改变主分类：0
 - 本次API调用次数：2
 - 本次理论最大审核数：6
 - 本次有效输出率：50.0%
@@ -25,7 +25,9 @@
 ## 本次分类修改
 
 - hu-zlatan/embodied-ai-radar: 大脑与具身智能 -> 大脑与具身智能
-- weihairuo/wheel-motion-uncertainty: 小脑与运动控制 -> 感知建图与导航
+- AI-Enhanced Radiation Classification in ROS: 基础软件与系统 -> 基础软件与系统
+- A Heterogeneous UAV UGV Methodology for Aerial Tracking of Mini Autonomous Cars: 特种应用与产品 -> 特种应用与产品
+- Structure over Reasoning: Unified Zero-Shot Navigation with a Small Vision-Language Model: 大脑与具身智能 -> 大脑与具身智能
 - CondenseVLA: Learnable History Condensation for Efficient Multi-Frame VLA: 大脑与具身智能 -> 大脑与具身智能
 - Time-JEPA: Grounding Video World Models with Physical Time Series: 小脑与运动控制 -> 小脑与运动控制
 - Unifying Embodied Foundation Models via a Model-to-Policy Formulation: 大脑与具身智能 -> 大脑与具身智能
@@ -54,7 +56,7 @@
 
 ## 分类冲突（前80条）
 
-- weihairuo/wheel-motion-uncertainty | 规则：感知建图与导航 | 模型：感知建图与导航 | 理由：面向轮足机器人改进激光惯性里程计，重点处理退化与轮速不确定性 | https://github.com/weihairuo/wheel-motion-uncertainty
+- AI-Enhanced Radiation Classification in ROS | 规则：基础软件与系统 | 模型：特种应用与产品 | 理由：开发辐射同位素分类节点，并在无人地面车上完成采集与验证 | https://arxiv.org/abs/2610.25225
 - Time-JEPA: Grounding Video World Models with Physical Time Series | 规则：小脑与运动控制 | 模型：大脑与具身智能 | 理由：以物理时间序列辅助视频世界模型，保持并学习跨域物理状态演化 | https://arxiv.org/abs/2610.23982
 - Causal Analysis of Robot Foundation Models Enables Efficiency Gains | 规则：小脑与运动控制 | 模型：大脑与具身智能 | 理由：机械分析视语言动作跨注意力层的因果条件接口 | https://arxiv.org/abs/2610.20750
 - SAPS: Shared Autonomy for Policy Steering by Blending Teleoperation with a Pretrained VLA | 规则：小脑与运动控制 | 模型：大脑与具身智能 | 理由：融合预训练VLA模型与遥操作进行策略引导，属于高层具身智能与自主决策范畴。 | https://arxiv.org/abs/2606.15568

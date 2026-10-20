@@ -705,5 +705,28 @@
     "needs_review": true,
     "source": "OpenRouter free router (metadata only)",
     "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "4fdee72da4cf7beb5b01aa24a31867af6dc848796ac3030c2a7d6932e79ac1bc": {
+    "primary_category": "特种应用与产品",
+    "secondary_categories": [],
+    "reason": "开发辐射同位素分类节点，并在无人地面车上完成采集与验证",
+    "needs_review": true,
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "f78488a2e38f75a79368e87bf5e31bf9c003c84b4f4409b2480e0c00fbf1d88a": {
+    "primary_category": "大脑与具身智能",
+    "secondary_categories": [],
+    "reason": "以小型视觉语言模型融合语义场与图规划，实现零样本具身导航",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "ee975cdad77af6236bdbef1e7c494a91a7206889fe239c6cbdba9e52782c950b": {
+    "primary_category": "特种应用与产品",
+    "secondary_categories": [],
+    "reason": "融合无人机与地面车视觉跟踪，面向微型自主车辆实现空中追踪",
+    "needs_review": true,
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
   }
 }

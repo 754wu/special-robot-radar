@@ -2,20 +2,20 @@
 
 本表对每条已入库资源扫描标题、摘要及现有分类；疑点不等于确证错分。
 
-总资源：1668；出现一项或以上疑点：628。
+总资源：1668；出现一项或以上疑点：614。
 
 ## 分类数量
 
 - 感知建图与导航: 691
 - 小脑与运动控制: 600
-- 特种应用与产品: 184
-- 基础软件与系统: 78
+- 特种应用与产品: 183
+- 基础软件与系统: 79
 - 硬件与防爆: 65
 - 大脑与具身智能: 50
 
 ## 疑点分布
 
-- EXISTING_REVIEW: 475
+- EXISTING_REVIEW: 461
 - THIN_ABSTRACT: 176
 - APP_ALGORITHM: 2
 - HW_NO_EVIDENCE: 1
@@ -24,19 +24,19 @@
 
 ## 重点疑点逐篇示例
 
-### EXISTING_REVIEW（475 条）
+### EXISTING_REVIEW（461 条）
 - hu-zlatan/embodied-ai-radar | 当前：大脑与具身智能 | 建议：待复核 | https://github.com/hu-zlatan/embodied-ai-radar
-- xfjcoder/wam | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/xfjcoder/wam
-- Learning Whole-Body Kinetic Coordination for Wheeled-Quadruped Long-Range Throwing | 当前：小脑与运动控制 | 建议：待复核 | https://arxiv.org/abs/2610.23883
 - AI-Enhanced Radiation Classification in ROS | 当前：基础软件与系统 | 建议：待复核 | https://arxiv.org/abs/2610.25225
-- Solving a Giant Rubik's Cube with a Quadruped Robot | 当前：小脑与运动控制 | 建议：待复核 | https://arxiv.org/abs/2610.24610
 - A Heterogeneous UAV UGV Methodology for Aerial Tracking of Mini Autonomous Cars | 当前：特种应用与产品 | 建议：待复核 | https://arxiv.org/abs/2610.23878
-- Structure over Reasoning: Unified Zero-Shot Navigation with a Small Vision-Language Model | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2610.25130
 - CondenseVLA: Learnable History Condensation for Efficient Multi-Frame VLA | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2610.25927
-- Scalable, Intuitive, Mixed Reality-Based Semi-Autonomous Robotic Telemanipulation for the Execution of a Fine-Grained Bimanual Task | 当前：小脑与运动控制 | 建议：待复核 | https://arxiv.org/abs/2610.25006
-- Vision as Proprioception: Estimating Humanoid Robot Pose from Video | 当前：感知建图与导航 | 建议：待复核 | https://arxiv.org/abs/2610.25288
-- ALIGN: Aligning Condition Estimation and Expression in Advantage-Conditioned Behavior Cloning | 当前：小脑与运动控制 | 建议：待复核 | https://arxiv.org/abs/2610.26455
 - Time-JEPA: Grounding Video World Models with Physical Time Series | 当前：小脑与运动控制 | 建议：待复核 | https://arxiv.org/abs/2610.23982
+- Daniel-Zhang2017/ros2-robotics-projects | 当前：基础软件与系统 | 建议：待复核 | https://github.com/Daniel-Zhang2017/ros2-robotics-projects
+- abusumon/Morphological-and-Control-Evolution | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/abusumon/Morphological-and-Control-Evolution
+- hossam-salhin/AMR-IX1 | 当前：特种应用与产品 | 建议：待复核 | https://github.com/hossam-salhin/AMR-IX1
+- Arman10121995/Celisca-ROS-2-Robot | 当前：基础软件与系统 | 建议：待复核 | https://github.com/Arman10121995/Celisca-ROS-2-Robot
+- coverMoon/quadruped_control | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/coverMoon/quadruped_control
+- Unifying Embodied Foundation Models via a Model-to-Policy Formulation | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2610.23053
+- RileyMarek/Moonbase-Orchestrator-Public-Showcase- | 当前：特种应用与产品 | 建议：待复核 | https://github.com/RileyMarek/Moonbase-Orchestrator-Public-Showcase-
 ### THIN_ABSTRACT（176 条）
 - coverMoon/quadruped_control | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/coverMoon/quadruped_control
 - 1ulone/quins_ros2 | 当前：特种应用与产品 | 建议：待复核 | https://github.com/1ulone/quins_ros2
