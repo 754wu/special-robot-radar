@@ -2,28 +2,28 @@
 
 本表对每条已入库资源扫描标题、摘要及现有分类；疑点不等于确证错分。
 
-总资源：1669；出现一项或以上疑点：383。
+总资源：1636；出现一项或以上疑点：362。
 
 ## 分类数量
 
-- 感知建图与导航: 698
-- 小脑与运动控制: 580
-- 特种应用与产品: 155
-- 硬件与防爆: 103
-- 基础软件与系统: 90
+- 感知建图与导航: 699
+- 小脑与运动控制: 579
+- 特种应用与产品: 145
+- 基础软件与系统: 88
+- 硬件与防爆: 82
 - 大脑与具身智能: 43
 
 ## 疑点分布
 
-- EXISTING_REVIEW: 228
-- THIN_ABSTRACT: 176
+- EXISTING_REVIEW: 206
+- THIN_ABSTRACT: 170
 - HW_NO_EVIDENCE: 5
 - NAV_AGENT_REVIEW: 2
 - SOFT_ALGORITHM: 1
 
 ## 重点疑点逐篇示例
 
-### EXISTING_REVIEW（228 条）
+### EXISTING_REVIEW（206 条）
 - Arman10121995/Celisca-ROS-2-Robot | 当前：基础软件与系统 | 建议：待复核 | https://github.com/Arman10121995/Celisca-ROS-2-Robot
 - hu-zlatan/embodied-ai-radar | 当前：大脑与具身智能 | 建议：待复核 | https://github.com/hu-zlatan/embodied-ai-radar
 - CondenseVLA: Learnable History Condensation for Efficient Multi-Frame VLA | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2610.25927
@@ -36,7 +36,7 @@
 - 1ulone/quins_ros2 | 当前：基础软件与系统 | 建议：待复核 | https://github.com/1ulone/quins_ros2
 - Robot-Nav/legbot_lab | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/Robot-Nav/legbot_lab
 - LIME: Learning Intent-aware Camera Motion from Egocentric Video | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2607.02417
-### THIN_ABSTRACT（176 条）
+### THIN_ABSTRACT（170 条）
 - coverMoon/quadruped_control | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/coverMoon/quadruped_control
 - 1ulone/quins_ros2 | 当前：基础软件与系统 | 建议：待复核 | https://github.com/1ulone/quins_ros2
 - Gait-Aware Command Timing for Decentralized Quadruped Swarms | 当前：小脑与运动控制 | 建议：待复核 | https://doi.org/10.21203/rs.3.rs-11332226/v1

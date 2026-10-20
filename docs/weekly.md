@@ -1,8 +1,8 @@
 # 特种机器人七日技术简报
 
-生成时间：2026-10-20T09:25:04.990429+00:00
+生成时间：2026-10-20T09:32:33.222622+00:00
 
-最近 7 天首次记录 **1448** 条；本轮新增 **0** 条；总库存 **1669** 条。
+最近 7 天首次记录 **1417** 条；本轮新增 **0** 条；总库存 **1636** 条。
 
 **注意：**‘七日’按首次入库时间统计，不代表论文发表于最近七天；相关度评分只是初筛优先级，不是成熟度或质量评级。
 
@@ -12,18 +12,18 @@
   - 行业筛选：特种场景直接相关；方向：硬件与防爆；关联：消防与应急救援、工业与能源巡检。来源期刊/会议：Industrial Robot the international journal of robotics research and application。Purpose This paper aims to design a novel hybri（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Resonant Inductive Coupling Power Transfer for Mid-Sized Inspection Robot](https://doi.org/10.32388/j9up4u) | 论文（摘要） | 特种场景直接相关 | 匹配度 83/100
   - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。This paper presents a wireless power transfer (WPT) for a mid-sized inspection mobile robot. The objective is to transmit 100 W of powe（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Analysis of Internal Explosion Vibration Characteristics of Explosion-Proof Equipment in Coal Mines Using Laser Doppler](https://doi.org/10.3390/app15179255) | 论文（摘要） | 特种场景直接相关 | 匹配度 81/100
-  - 行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境、矿山与地下空间。来源期刊/会议：Applied Sciences。 Currently, there is a lack of methods for detecting the mechanism of gas explosion propagation within flamepr（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Design of Motor Protection Systems for Explosion-proof Coal Mine Digging Device](https://doi.org/10.1109/ictei60496.2023.00061) | 论文（摘要） | 特种场景直接相关 | 匹配度 80/100
-  - 行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境、矿山与地下空间。来源期刊/会议：2023 International Conference on Telecommunications, Electronics and Informatics (ICTEI)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Design and Development of Explosion-Proof Cavity of Hydraulic System Power Unit Applied in Explosion-Proof Area](https://doi.org/10.3390/pr10091824) | 论文（摘要） | 特种场景直接相关 | 匹配度 80/100
-  - 行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境、消防与应急救援。来源期刊/会议：Processes。 The construction machinery and vehicles, especially the explosion-proof and explosion-isolation ability of the vehic（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Design and analysis of AGM explosion proof plug automatic assembly and inspection production line](https://doi.org/10.1088/1742-6596/2902/1/012002) | 论文（摘要） | 特种场景直接相关 | 匹配度 79/100
-  - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：防爆石化与危险环境。来源期刊/会议：Journal of Physics: Conference Series。 Abstract In order to achieve the automatic assembly and inspection of AGM battery explos（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Numerical Simulation on Flameproof Performance of the Explosion-proof Component in the Detonation Wave-based Micro-explosive Train](https://doi.org/10.1109/nems69704.2026.11633709) | 论文（摘要） | 特种场景直接相关 | 匹配度 78/100
-  - 行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境。来源期刊/会议：2026 IEEE 21st International Conference on Nano/Micro Engineered and Molecular Systems (NEMS)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Design and Experimental Validation of an Automatic Inspection Robot Control System based on Multi-Sensor Fusion](https://doi.org/10.54691/0vvjfj55) | 论文（摘要） | 特种场景直接相关 | 匹配度 78/100
   - 行业筛选：特种场景直接相关；方向：硬件与防爆；关联：工业与能源巡检。来源期刊/会议：Frontiers in Science and Engineering。To address the problems of high labor intensity, low efficiency, and safety risks in tradi（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Track Mechanism Design for a Differential Drive Fire Fighting Robot](https://doi.org/10.56220/uwjst.v8i.198) | 论文（摘要） | 特种场景直接相关 | 匹配度 78/100
+  - 行业筛选：特种场景直接相关；方向：硬件与防爆；关联：消防与应急救援。来源期刊/会议：University of Wah Journal of Science and Technology (UWJST)。Rescue missions and disaster management expose human life to risk f（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Mechanical System Structure Design of Transmission Line Maintenance Robot](https://doi.org/10.1088/1742-6596/2476/1/012057) | 论文（摘要） | 特种场景直接相关 | 匹配度 78/100
+  - 行业筛选：特种场景直接相关；方向：硬件与防爆；关联：工业与能源巡检。来源期刊/会议：Journal of Physics: Conference Series。 Abstract Aiming at the problems of insufficient research and difficult control of existi（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Design and analysis of pipeline inspection robot based on generalized parallel mechanisms](https://doi.org/10.1017/s0263574725102622) | 论文（摘要） | 特种场景直接相关 | 匹配度 77/100
+  - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：Robotica。Abstract Pipeline inspection robots play a crucial role in maintaining the integrity of pipeline systems across variou（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Mechanism design and mechanical analysis of pipeline inspection robot](https://doi.org/10.1108/ir-07-2024-0301) | 论文（摘要） | 特种场景直接相关 | 匹配度 77/100
+  - 行业筛选：特种场景直接相关；方向：硬件与防爆；关联：工业与能源巡检。来源期刊/会议：Industrial Robot: the international journal of robotics research and application。 Purpose This study aims to address the issues（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Influence of periodic pulse intake on the ventilation efficiency of positive pressure explosion-proof robot](https://doi.org/10.21203/rs.3.rs-3146415/v1) | 论文（摘要） | 特种场景直接相关 | 匹配度 77/100
+  - 行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境。Abstract When the positive pressure explosion-proof robot is in ventilation, if the air is filled into the cavity with a constant press（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 基础软件与系统
 
@@ -111,14 +111,14 @@
   - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：消防与应急救援。来源期刊/会议：IAES International Journal of Robotics and Automation (IJRA)。Search and rescue (SAR) operations in hazardous environments deman（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [VISAR: Vision-Based Robotic Arm System for Intelligent Industrial Inspection](https://doi.org/10.62051/ijcsit.v6n1.06) | 论文（摘要） | 特种场景直接相关 | 匹配度 88/100
   - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：International Journal of Computer Science and Information Technology。 VISAR (Vision-based Intelligent System for Automated Robo（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Keynote Speaker ICOM'24: Development of ANYmal X, the World's First Explosion-Proof Legged Robot](https://doi.org/10.1109/icom61675.2024.10652258) | 论文（摘要） | 特种场景直接相关 | 匹配度 88/100
-  - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：防爆石化与危险环境。来源期刊/会议：2024 9th International Conference on Mechatronics Engineering (ICOM)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [The use of AI-enabled autonomous quadruped robots in disaster response: Robo Hund](https://scientificstudiesjournal.com/index.php/ss/article/view/15) | 论文（摘要） | 特种场景直接相关 | 匹配度 87/100
   - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：Scientific Studies: A Multidisciplinary Journal。This project aims to develop an artificial intelligence (AI)-supported, autonom（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [A study on Quadruped Firefighting Robot Tactics for Supporting Life Search and Fire Suppression Activities at Firefighting Sites](https://doi.org/10.7731/kifse.36594043) | 论文（摘要） | 特种场景直接相关 | 匹配度 87/100
   - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：International Journal of Fire Science and Engineering。 This study was conducted as part of a project by the Ministry of Trade, （仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Development of a Sensor-Based Glove-Controlled Mobile Robot for Firefighting and Rescue Operations](https://doi.org/10.31763/ijrcs.v4i4.1553) | 论文（摘要） | 特种场景直接相关 | 匹配度 87/100
   - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：International Journal of Robotics and Control Systems。 Robots are important in preventing hazards. This paper presents the cons（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Control Autonomous Mobile Robot for Firefighting Task](https://doi.org/10.1109/iccri64298.2024.00013) | 论文（摘要） | 特种场景直接相关 | 匹配度 87/100
+  - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：2024 International Conference on Control, Robotics and Informatics (ICCRI)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 采集状态
 

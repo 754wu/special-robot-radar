@@ -1208,5 +1208,60 @@
     "main_contribution": "融合多传感器与无线通信的消防机器人系统",
     "model_confidence": "HIGH",
     "source": "OpenRouter free router (metadata only)"
+  },
+  "eb2b89aee04ea68276519ea9803b34377ce67bc2fd6383d8963f9f490ba3d137": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "提出面向空地机器人、考虑动力学的混合运动规划方法",
+    "needs_review": false,
+    "main_contribution": "动力学感知的空地机器人混合运动规划方法",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "33cd74931039063bc12276620bae4f46019a67da1654eb837c5498ac027d34d4": {
+    "primary_category": "特种应用与产品",
+    "secondary_categories": [],
+    "reason": "设计用于温室蔬菜篮运输的复合移动机器人系统",
+    "needs_review": false,
+    "main_contribution": "温室蔬菜篮运输复合移动机器人",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "ede9a3841f60ea1d486c6cfa72f13d332baa9b8c40ea2bfe44fa4abaf4604b02": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "仅描述RMF协调困局与尝试，未形成可验证的新方法或成果",
+    "needs_review": true,
+    "main_contribution": "RMF走廊仲裁与局部MAPF联合规划尝试",
+    "model_confidence": "LOW",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "de8015f0004bf5a7132127c87a5753271161657c3327a290e418838e8def96df": {
+    "primary_category": "特种应用与产品",
+    "secondary_categories": [],
+    "reason": "交付太阳能辅助自主消防搜救机器人整机，侧重系统集成",
+    "needs_review": false,
+    "main_contribution": "太阳能辅助自主消防搜救机器人整机",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "fa4b600cdbde151a200ff75925507382864c5dd752672fdf5fda3e80d53e5655": {
+    "primary_category": "基础软件与系统",
+    "secondary_categories": [],
+    "reason": "提供实验室移动机器人的ROS2开发环境与软件集成",
+    "needs_review": false,
+    "main_contribution": "面向实验室移动机器人的ROS2软件栈",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "858322a8b58de1072b7a3a778ba41d11ff90e0583ee4fef1ad2903826972c58a": {
+    "primary_category": "特种应用与产品",
+    "secondary_categories": [],
+    "reason": "仅题名提出物联网消防机器人，缺少具体方法与系统实现",
+    "needs_review": true,
+    "main_contribution": "物联网智能家庭消防机器人整机方案",
+    "model_confidence": "LOW",
+    "source": "OpenRouter free router (metadata only)"
   }
 }

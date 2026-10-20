@@ -17,8 +17,8 @@
     "rule_category": "基础软件与系统",
     "rule_confidence": "low",
     "category": "基础软件与系统",
-    "classification_confidence": "待复核",
-    "classification_reason": "研究机器人软件、仿真或平台系统",
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "提供实验室移动机器人的ROS2开发环境与软件集成",
     "needs_review": true,
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
@@ -30,7 +30,30 @@
     "score": 61,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。ROS 2 development for laboratory mobile robots at CELISCA, University of Rostock（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "review_priority": "P2",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "基础软件与系统",
+    "model_main_contribution": "面向实验室移动机器人的ROS2软件栈",
+    "model_contribution_conflict": "",
+    "model_classification_reason": "提供实验室移动机器人的ROS2开发环境与软件集成",
+    "model_reviewed_at": "2026-10-20T09:32:33.047847+00:00",
+    "model_previous_confidence": "待复核",
+    "classification_history": [
+      {
+        "id": "a24b8f4299b9a102fe",
+        "title": "Arman10121995/Celisca-ROS-2-Robot",
+        "old_category": "基础软件与系统",
+        "new_category": "基础软件与系统",
+        "model_suggested_category": "基础软件与系统",
+        "reason": "提供实验室移动机器人的ROS2开发环境与软件集成",
+        "changed_at": "2026-10-20T09:32:33.047847+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
   },
   {
     "id": "c18f44925816cbb911",
@@ -5982,60 +6005,6 @@
     "model_previous_confidence": "待复核"
   },
   {
-    "id": "18482c9444b9297e34",
-    "title": "New packages for Humble Hawksbill 2026-10-12",
-    "url": "https://discourse.openrobotics.org/t/new-packages-for-humble-hawksbill-2026-10-12/58802",
-    "source": "ROS Discourse",
-    "type": "社区动态",
-    "description": "We’re happy to announce 40 new packages and 446 updates to ROS 2 Humble Hawksbill This sync was tagged as humble/2026-10-12 . amd64 (40 new, 446 updates) (click for more details) arm64 (115 new, 446 updates) (click for more details) Thanks to all ROS maintainers who make packages available to the ROS community. The above list of packages was made possible by the work of the following maintainers: Alejandro Hernanadez Alvin Sun Andrej Orsula Austin Hendrix Bence Magyar Bernd Pfrommer Chris Lalancette Computer Vision And Aerial Robotics Group (UPM) Daniel Stonier Davide Faconti Felix Exner Felix Ruess Foxglove Francisco Martín Rico George Stavrinos Gonzalo Mier Haroon Rasheed Jinwoo Sung Jose Luis Blanco-Claraco Jose Miguel Guerrero Hernandez Jose-Luis Blanco-Claraco José Luis Blanco-Claraco Juan S. Cely G. Julia Jia Jungsup Lee Luis Camero Maik Knof Manan Kharwar Markus Bader Martin Günth",
-    "published": "2026-10-12T16:55:47+00:00",
-    "first_seen": "2026-10-13T01:27:20.918976+00:00",
-    "relevance_status": "可迁移的机器人关键技术",
-    "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
-    "rule_category": "特种应用与产品",
-    "rule_confidence": "low",
-    "category": "基础软件与系统",
-    "classification_confidence": "模型建议（待复核）",
-    "classification_reason": "发布40个新包及446项更新，形成可复用ROS软件基础设施",
-    "needs_review": true,
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "tags": [
-      "基础软件与系统",
-      "特种应用与产品"
-    ],
-    "industry_tags": [],
-    "scope": "可迁移的机器人关键技术",
-    "score": 61,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：特种应用与产品；关联：特种机器人共性技术（需核验应用适配性）。We’re happy to announce 40 new packages and 446 updates to ROS 2 Humble Hawksbill This sync was tagged as humble/2026-10-12 . amd64 (40（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2",
-    "model_review_attempts": 1,
-    "manual_review_required": false,
-    "model_applied": false,
-    "model_reviewed_uncertain": true,
-    "model_suggested_category": "基础软件与系统",
-    "model_main_contribution": "ROS 2 Humble软件包同步发布与更新",
-    "model_contribution_conflict": "",
-    "model_classification_reason": "发布40个新包及446项更新，形成可复用ROS软件基础设施",
-    "model_reviewed_at": "2026-10-20T09:25:04.818045+00:00",
-    "model_previous_confidence": "待复核",
-    "classification_history": [
-      {
-        "id": "18482c9444b9297e34",
-        "title": "New packages for Humble Hawksbill 2026-10-12",
-        "old_category": "特种应用与产品",
-        "new_category": "基础软件与系统",
-        "model_suggested_category": "基础软件与系统",
-        "reason": "发布40个新包及446项更新，形成可复用ROS软件基础设施",
-        "changed_at": "2026-10-20T09:25:04.818045+00:00",
-        "needs_review": true,
-        "status": "model_pending_review"
-      }
-    ]
-  },
-  {
     "id": "472f364968ea1d30f1",
     "title": "Seeed-Projects/mobile-robot-full-stack-course",
     "url": "https://github.com/Seeed-Projects/mobile-robot-full-stack-course",
@@ -7054,30 +7023,15 @@
     "score": 61,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：特种应用与产品；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Tarım Bilimleri Dergisi。This comprehensive narrative review examines the current state and future development perspectives of a（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2",
-    "model_review_attempts": 1,
-    "manual_review_required": false,
-    "model_applied": false,
     "model_reviewed_uncertain": true,
-    "model_suggested_category": "特种应用与产品",
+    "model_review_attempts": 1,
+    "model_reviewed_at": "2026-10-20T09:25:04.818045+00:00",
+    "manual_review_required": false,
     "model_main_contribution": "农业自主机器人架构、运行应用与趋势综述",
     "model_contribution_conflict": "",
-    "model_classification_reason": "综述农业机器人架构和应用，但未提出单一可归类的新算法",
-    "model_reviewed_at": "2026-10-20T09:25:04.818045+00:00",
-    "model_previous_confidence": "待复核",
-    "classification_history": [
-      {
-        "id": "809c7b74f73ce04cfd",
-        "title": "Autonomous Robotic Systems in Agriculture 5.0: A Review on Technical Architecture, Operational Applications, and Future Perspectives",
-        "old_category": "特种应用与产品",
-        "new_category": "特种应用与产品",
-        "model_suggested_category": "特种应用与产品",
-        "reason": "综述农业机器人架构和应用，但未提出单一可归类的新算法",
-        "changed_at": "2026-10-20T09:25:04.818045+00:00",
-        "needs_review": true,
-        "status": "model_pending_review"
-      }
-    ]
+    "model_applied": false,
+    "model_suggested_category": "特种应用与产品",
+    "model_classification_reason": "综述农业机器人架构和应用，但未提出单一可归类的新算法"
   },
   {
     "id": "7559d6959f3f14ad16",
@@ -7530,8 +7484,9 @@
     "description": "Hello Open-RMF maintainers and community, We are using Open-RMF with ROS 2 Jazzy to operate mobile robots in a semiconductor FAB. Our facility has many narrow corridors that are only wide enough for one robot at a time, but require bidirectional traffic. There are side bays at some locations where a robot can move aside and wait, while some sections have no alternative route. When two robots approach from opposite directions, one needs to wait before entering the corridor or yield in a side bay to let the other pass. However, in our experiments, we encounter repeated negotiations and situations where the robots stop making progress. We have tried adding an arbiter above RMF to coordinate corridor access and traversal order, but have not yet achieved reliable behavior. We are also experimenting with changes to the rmf_traffic cost function and local MAPF-based joint planning. Despite insp",
     "published": "2026-10-08T07:53:38+00:00",
     "first_seen": "2026-10-12T09:34:40.167136+00:00",
-    "category": "特种应用与产品",
+    "category": "感知建图与导航",
     "tags": [
+      "感知建图与导航",
       "特种应用与产品"
     ],
     "industry_tags": [],
@@ -7539,8 +7494,8 @@
     "score": 61,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：特种应用与产品；关联：特种机器人共性技术（需核验应用适配性）。Hello Open-RMF maintainers and community, We are using Open-RMF with ROS 2 Jazzy to operate mobile robots in a semiconductor FAB. Our f（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "classification_confidence": "待复核",
-    "classification_reason": "元数据不足，临时标记待复核（不视为应用领域确认）",
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "仅描述RMF协调困局与尝试，未形成可验证的新方法或成果",
     "needs_review": true,
     "relevance_status": "可迁移的机器人关键技术",
     "rule_category": "特种应用与产品",
@@ -7549,7 +7504,30 @@
     "crosscheck_pending": false,
     "review_priority": "P2",
     "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "感知建图与导航",
+    "model_main_contribution": "RMF走廊仲裁与局部MAPF联合规划尝试",
+    "model_contribution_conflict": "",
+    "model_classification_reason": "仅描述RMF协调困局与尝试，未形成可验证的新方法或成果",
+    "model_reviewed_at": "2026-10-20T09:32:33.047847+00:00",
+    "model_previous_confidence": "待复核",
+    "classification_history": [
+      {
+        "id": "05e5428e91ee3a076d",
+        "title": "Guidance on robot coordination in narrow bidirectional corridors with yielding bays",
+        "old_category": "特种应用与产品",
+        "new_category": "感知建图与导航",
+        "model_suggested_category": "感知建图与导航",
+        "reason": "仅描述RMF协调困局与尝试，未形成可验证的新方法或成果",
+        "changed_at": "2026-10-20T09:32:33.047847+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
   },
   {
     "id": "6947e4544d520d8f2c",
@@ -7743,36 +7721,6 @@
     "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
   },
   {
-    "id": "a74036bb4dd93acedc",
-    "title": "ROS-I Americas ROS 2 Training",
-    "url": "https://discourse.openrobotics.org/t/ros-i-americas-ros-2-training/58670",
-    "source": "ROS Discourse",
-    "type": "社区动态",
-    "description": "From Jerry Towler the Program Director for ROS-I Consortium Americas - The next ROS-Industrial Americas Developers Training is coming up next week, October 13–15, at Southwest Research Institute in San Antonio, Texas. If you want to learn to work with industrial robots in ROS 2, this in-person class is designed for you (C++ experience strongly recommended, but not required). The ROS 2 curriculum starts with the fundamentals: packages and nodes, topics and messages, services, launch files, and parameters, with exercises to help you put those concepts into practice. Later sessions are dedicated to advanced topics. Registration is $2,399 per attendee. Eligible ROS-I Consortium members can use their organization’s available included training seats. Register for the October 13–15 training: Training Registration — ROS-Industrial It’s coming up soon, but if the dates work for you or someone on ",
-    "published": "2026-10-07T20:24:59+00:00",
-    "first_seen": "2026-10-12T09:34:40.167663+00:00",
-    "category": "基础软件与系统",
-    "tags": [
-      "基础软件与系统"
-    ],
-    "industry_tags": [],
-    "scope": "可迁移的机器人关键技术",
-    "score": 61,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。From Jerry Towler the Program Director for ROS-I Consortium Americas - The next ROS-Industrial Americas Developers Training is coming u（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "classification_confidence": "待复核",
-    "classification_reason": "研究机器人软件、仿真或平台系统",
-    "needs_review": true,
-    "relevance_status": "可迁移的机器人关键技术",
-    "rule_category": "基础软件与系统",
-    "rule_confidence": "low",
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "review_priority": "P2",
-    "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
-  },
-  {
     "id": "5ef51d40313569b28f",
     "title": "PurnataPrap/FIRE-SAR",
     "url": "https://github.com/PurnataPrap/FIRE-SAR",
@@ -7790,8 +7738,8 @@
     "rule_category": "特种应用与产品",
     "rule_confidence": "low",
     "category": "特种应用与产品",
-    "classification_confidence": "待复核",
-    "classification_reason": "元数据不足，临时标记待复核（不视为应用领域确认）",
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "交付太阳能辅助自主消防搜救机器人整机，侧重系统集成",
     "needs_review": true,
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
@@ -7805,7 +7753,30 @@
     "score": 71,
     "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。Solar-Assisted Autonomous Firefighting & Search-and-Rescue Robot（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "review_priority": "P2",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "特种应用与产品",
+    "model_main_contribution": "太阳能辅助自主消防搜救机器人整机",
+    "model_contribution_conflict": "",
+    "model_classification_reason": "交付太阳能辅助自主消防搜救机器人整机，侧重系统集成",
+    "model_reviewed_at": "2026-10-20T09:32:33.047847+00:00",
+    "model_previous_confidence": "待复核",
+    "classification_history": [
+      {
+        "id": "5ef51d40313569b28f",
+        "title": "PurnataPrap/FIRE-SAR",
+        "old_category": "特种应用与产品",
+        "new_category": "特种应用与产品",
+        "model_suggested_category": "特种应用与产品",
+        "reason": "交付太阳能辅助自主消防搜救机器人整机，侧重系统集成",
+        "changed_at": "2026-10-20T09:32:33.047847+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
   },
   {
     "id": "90e44fa4e4e34067f8",
@@ -8314,42 +8285,6 @@
     "score": 80,
     "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：野外与特种地形。来源期刊/会议：Journal of Field Robotics。ABSTRACT The leader‐follower multi‐autonomous underwater vehicle (AUV) fleet equipped with multi‐beam（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
-  },
-  {
-    "id": "957b3453f34ac4744c",
-    "title": "Inhibition Mechanisms of Lithium-Ion Battery Deflagration by the Free Space and Aerogel Wall Surface Inside an Explosion-Proof Power Enclosure",
-    "url": "https://doi.org/10.1021/acs.energyfuels.6c04083",
-    "source": "Crossref",
-    "type": "论文（摘要）",
-    "description": "来源期刊/会议：Energy & Fuels。 Abstract Deflagration of lithium-ion battery thermal runaway (TR) products poses a safety challenge for explosion-proof power enclosures in underground coal mines. In this study, sealed-chamber experiments and chemical kinetic simulations were combined to investigate the effects of free-space volume and silica aerogel wall linings on the deflagration of TR products released from commercial 26700 lithium iron phosphate cells. Free-space volume exhibited a pronounced nonmonotonic effect on deflagration intensity. The maximum deflagration pressure (Pmax) reached 0.51 MPa at 53 L, whereas the maximum pressure rise rate ((dP/dt)max) peaked at 7.07 MPa/s at 42 L. Gas composition and kinetic analyses suggested that this behavior reflected the coupled effects of fuel concentration, oxidation progress, and physical confinement. Restricted further oxidation at smaller volum",
-    "published": "2026-10-05",
-    "first_seen": "2026-10-18T05:52:09.348350+00:00",
-    "doi": "10.1021/acs.energyfuels.6c04083",
-    "category": "硬件与防爆",
-    "classification_confidence": "人工核查",
-    "classification_reason": "依据资源标题及所提供摘要，主要技术成果涉及机构、电气硬件或防爆安全设计；摘要证据：Abstract Deflagration of lithium-ion battery thermal runaway (TR) products poses a safety challenge for explosion-p",
-    "needs_review": false,
-    "tags": [
-      "硬件与防爆"
-    ],
-    "industry_tags": [
-      "防爆石化与危险环境"
-    ],
-    "scope": "特种场景直接相关",
-    "score": 77,
-    "summary": "行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境。来源期刊/会议：Energy & Fuels。 Abstract Deflagration of lithium-ion battery thermal runaway (TR) products poses a safety challenge for explosi（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "relevance_status": "潜在相关（需核实机器人应用）",
-    "rule_category": "硬件与防爆",
-    "rule_confidence": "low",
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "review_priority": "P2",
-    "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
-    "manual_category_override": true,
-    "manual_override_reason": "依据资源标题及所提供摘要，主要技术成果涉及机构、电气硬件或防爆安全设计；摘要证据：Abstract Deflagration of lithium-ion battery thermal runaway (TR) products poses a safety challenge for explosion-p",
-    "model_applied": false
   },
   {
     "id": "15b33820cf7471d413",
@@ -11883,8 +11818,8 @@
     "score": 64,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：特种应用与产品；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2026 International Conference on Embodied Intelligence, Robotics, and Control Systems (EIRCS)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "classification_confidence": "待复核",
-    "classification_reason": "元数据不足，临时标记待复核（不视为应用领域确认）",
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "设计用于温室蔬菜篮运输的复合移动机器人系统",
     "needs_review": true,
     "relevance_status": "可迁移的机器人关键技术",
     "rule_category": "特种应用与产品",
@@ -11893,7 +11828,30 @@
     "crosscheck_pending": false,
     "review_priority": "P2",
     "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "特种应用与产品",
+    "model_main_contribution": "温室蔬菜篮运输复合移动机器人",
+    "model_contribution_conflict": "",
+    "model_classification_reason": "设计用于温室蔬菜篮运输的复合移动机器人系统",
+    "model_reviewed_at": "2026-10-20T09:32:33.047847+00:00",
+    "model_previous_confidence": "待复核",
+    "classification_history": [
+      {
+        "id": "52bd3ce6bfd93d8290",
+        "title": "A Composite Mobile Robot for Vegetable Basket Transportation in Greenhouse Environments",
+        "old_category": "特种应用与产品",
+        "new_category": "特种应用与产品",
+        "model_suggested_category": "特种应用与产品",
+        "reason": "设计用于温室蔬菜篮运输的复合移动机器人系统",
+        "changed_at": "2026-10-20T09:32:33.047847+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
   },
   {
     "id": "f6abea20deff68c808",
@@ -12604,8 +12562,7 @@
     "doi": "10.1016/j.robot.2026.105433",
     "category": "感知建图与导航",
     "tags": [
-      "感知建图与导航",
-      "特种应用与产品"
+      "感知建图与导航"
     ],
     "industry_tags": [
       "工业与能源巡检"
@@ -12614,9 +12571,9 @@
     "score": 76,
     "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：工业与能源巡检。来源期刊/会议：Robotics and Autonomous Systems。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "classification_confidence": "待复核",
-    "classification_reason": "导航/感知类别缺少题名中的明确研究任务",
-    "needs_review": true,
+    "classification_confidence": "模型复核（待抽查）",
+    "classification_reason": "提出面向空地机器人、考虑动力学的混合运动规划方法",
+    "needs_review": false,
     "relevance_status": "直接相关",
     "rule_category": "感知建图与导航",
     "rule_confidence": "low",
@@ -12624,7 +12581,30 @@
     "crosscheck_pending": false,
     "review_priority": "P2",
     "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": true,
+    "model_reviewed_uncertain": false,
+    "model_suggested_category": "感知建图与导航",
+    "model_main_contribution": "动力学感知的空地机器人混合运动规划方法",
+    "model_contribution_conflict": "",
+    "model_classification_reason": "提出面向空地机器人、考虑动力学的混合运动规划方法",
+    "model_reviewed_at": "2026-10-20T09:32:33.047847+00:00",
+    "model_previous_confidence": "待复核",
+    "classification_history": [
+      {
+        "id": "e4ae18b27b78711984",
+        "title": "Hybrid motion planning with dynamics awareness for aerial-ground robots in industrial inspection and maintenance",
+        "old_category": "感知建图与导航",
+        "new_category": "感知建图与导航",
+        "model_suggested_category": "感知建图与导航",
+        "reason": "提出面向空地机器人、考虑动力学的混合运动规划方法",
+        "changed_at": "2026-10-20T09:32:33.047847+00:00",
+        "needs_review": false,
+        "status": "model_applied"
+      }
+    ]
   },
   {
     "id": "d5b81f59d1373753f8",
@@ -15476,39 +15456,6 @@
     "model_previous_confidence": "待复核"
   },
   {
-    "id": "96d306d9ee08216dd9",
-    "title": "Numerical Simulation on Flameproof Performance of the Explosion-proof Component in the Detonation Wave-based Micro-explosive Train",
-    "url": "https://doi.org/10.1109/nems69704.2026.11633709",
-    "source": "Crossref",
-    "type": "论文（摘要）",
-    "description": "来源期刊/会议：2026 IEEE 21st International Conference on Nano/Micro Engineered and Molecular Systems (NEMS)。",
-    "published": "2026-04-01",
-    "first_seen": "2026-10-18T05:52:09.347624+00:00",
-    "doi": "10.1109/nems69704.2026.11633709",
-    "category": "硬件与防爆",
-    "classification_confidence": "高",
-    "classification_reason": "论文核心为机械结构、电机、执行器或防爆硬件的设计",
-    "needs_review": false,
-    "tags": [
-      "硬件与防爆",
-      "特种应用与产品"
-    ],
-    "industry_tags": [
-      "防爆石化与危险环境"
-    ],
-    "scope": "特种场景直接相关",
-    "score": 78,
-    "summary": "行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境。来源期刊/会议：2026 IEEE 21st International Conference on Nano/Micro Engineered and Molecular Systems (NEMS)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "relevance_status": "直接相关",
-    "rule_category": "硬件与防爆",
-    "rule_confidence": "high",
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
-  },
-  {
     "id": "7269de684d5e86302e",
     "title": "Design Of 6-Legged Robot With Adaptive Gait And Obstacle Sensing For Rugged Terrain Mobility",
     "url": "https://doi.org/10.64771/ijesat.2026.v26.i4(1).2787",
@@ -16247,40 +16194,6 @@
       }
     ],
     "model_previous_confidence": "待复核"
-  },
-  {
-    "id": "fd1e97787db8d7c253",
-    "title": "Development and Experimental Verification of a 1m³ Explosion-Proof Electro-Hydraulic Sand Mixing Skid for Coal Mine Underground Hydraulic Fracturing",
-    "url": "https://doi.org/10.54691/qv44qe75",
-    "source": "OpenAlex",
-    "type": "论文（摘要）",
-    "description": "来源期刊/会议：Scientific Journal of Intelligent Systems Research。To address the demand for efficient and safe sand mixing equipment in hydraulic fracturing operations within coal mine underground environments, this paper presents the development of a 1m³ electro-hydraulic driven sand mixing skid. The equipment adopts an electro-hydraulic drive system, adapting to the explosion-proof requirements of coal mine underground settings. It integrates key modules including a hydraulic system, electrical control system, and mechanical structure.The paper elaborates on the development background, technical specifications, working principles, and overall system design (covering mechanical structure, hydraulic system, and electrical control system), as well as the prototype manufacturing and experimental verification process. Test results demonstrate that the system achieves a discharge flow rate ≥ 1 m³/m",
-    "published": "2026-03-06",
-    "first_seen": "2026-10-16T01:26:13.389693+00:00",
-    "doi": "https://doi.org/10.54691/qv44qe75",
-    "category": "特种应用与产品",
-    "classification_confidence": "待复核",
-    "classification_reason": "元数据不足，临时标记待复核（不视为应用领域确认）",
-    "needs_review": true,
-    "tags": [
-      "特种应用与产品"
-    ],
-    "industry_tags": [
-      "防爆石化与危险环境",
-      "矿山与地下空间"
-    ],
-    "scope": "特种场景直接相关",
-    "score": 80,
-    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：防爆石化与危险环境、矿山与地下空间。来源期刊/会议：Scientific Journal of Intelligent Systems Research。To address the demand for efficient and safe sand mixing equipment in hydrau（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "relevance_status": "直接相关",
-    "rule_category": "特种应用与产品",
-    "rule_confidence": "low",
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "review_priority": "P2",
-    "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
   },
   {
     "id": "523d0ff9d8fc1f4747",
@@ -17137,40 +17050,6 @@
     "manual_category_override": true,
     "manual_override_reason": "依据资源标题及所提供摘要，主要技术成果涉及机器人系统集成、行业应用与现场部署；摘要证据：Pipelines are crucial for the transportation of fluids in various sectors, including oil and gas, water supply, and",
     "model_applied": false
-  },
-  {
-    "id": "0549850b3e033b85b0",
-    "title": "Integrated Aerodynamic–Thermal–Acoustic Optimization of an Explosion-Proof Motor Cooling Axial Fan Based on IIWPSO-BP",
-    "url": "https://doi.org/10.1109/access.2026.3742400",
-    "source": "Crossref",
-    "type": "论文（摘要）",
-    "description": "来源期刊/会议：IEEE Access。",
-    "published": "2026-01-01",
-    "first_seen": "2026-10-18T05:52:19.858541+00:00",
-    "doi": "10.1109/access.2026.3742400",
-    "category": "硬件与防爆",
-    "classification_confidence": "待复核",
-    "classification_reason": "防爆物理设备设计为主要贡献，需核实机器人相关性",
-    "needs_review": true,
-    "tags": [
-      "硬件与防爆",
-      "特种应用与产品"
-    ],
-    "industry_tags": [
-      "防爆石化与危险环境"
-    ],
-    "scope": "特种场景直接相关",
-    "score": 77,
-    "summary": "行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境。来源期刊/会议：IEEE Access。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "relevance_status": "潜在相关（需核实机器人应用）",
-    "rule_category": "硬件与防爆",
-    "rule_confidence": "low",
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "review_priority": "P2",
-    "rule_contribution_type": "硬件与防爆",
-    "rule_contribution_evidence": "防爆设备物理或电气设计成果"
   },
   {
     "id": "25b0ce8af0e6b447f2",
@@ -18828,78 +18707,6 @@
     "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
   },
   {
-    "id": "ef0ee5aaf71f8d75c1",
-    "title": "Considerations regarding the determination of explosion pressure at normal ambient temperature, compared to explosion pressure determination at ambient temperatures below – 40°C, for flameproof enclosure",
-    "url": "https://doi.org/10.1051/matecconf/202541800016",
-    "source": "Crossref",
-    "type": "论文（摘要）",
-    "description": "来源期刊/会议：MATEC Web of Conferences。 Flameproof enclosures (also known as explosion proof or Ex d enclosures) are critical safety components in hazardous environments where explosive atmospheres may exist. Their primary function is to contain an internal explosion without allowing the ignition to propagate to the external atmosphere. A key parameter in designing and certifying these enclosures is the maximum internal explosion pressure (P max) that the enclosure must withstand. This article explores the determination of explosion pressure under two specific ambient temperature conditions: 1. Normal ambient temperature range (typically – 200C to + 400C), and 2. Extremely low ambient temperatures, particularly below – 400C, which are often encountered in arctic or high altitude environments. The paper also presents some results obtained in our test laboratory, on a test sample (two configurat",
-    "published": "2025-12-18",
-    "first_seen": "2026-10-18T05:52:09.347529+00:00",
-    "doi": "10.1051/matecconf/202541800016",
-    "category": "硬件与防爆",
-    "classification_confidence": "人工核查",
-    "classification_reason": "依据资源标题及所提供摘要，主要技术成果涉及机构、电气硬件或防爆安全设计；摘要证据：Flameproof enclosures (also known as explosion proof or Ex d enclosures) are critical safety components in hazardou",
-    "needs_review": false,
-    "tags": [
-      "硬件与防爆"
-    ],
-    "industry_tags": [
-      "防爆石化与危险环境"
-    ],
-    "scope": "特种场景直接相关",
-    "score": 73,
-    "summary": "行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境。来源期刊/会议：MATEC Web of Conferences。 Flameproof enclosures (also known as explosion proof or Ex d enclosures) are critical safety componen（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "relevance_status": "潜在相关（需核实机器人应用）",
-    "rule_category": "硬件与防爆",
-    "rule_confidence": "low",
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "review_priority": "P2",
-    "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
-    "manual_category_override": true,
-    "manual_override_reason": "依据资源标题及所提供摘要，主要技术成果涉及机构、电气硬件或防爆安全设计；摘要证据：Flameproof enclosures (also known as explosion proof or Ex d enclosures) are critical safety components in hazardou",
-    "model_applied": false
-  },
-  {
-    "id": "c3113948f8fe5f5e5f",
-    "title": "Performance analysis of the ‘d’ explosion-flameproof enclosure type of protection for electrical equipment used in hazardous explosion areas",
-    "url": "https://doi.org/10.1051/matecconf/202541800022",
-    "source": "Crossref",
-    "type": "论文（摘要）",
-    "description": "来源期刊/会议：MATEC Web of Conferences。 In many industries such as petrochemicals, natural gas extraction, food, and pharmaceuticals, potentially explosive atmospheres can occur due to the presence of flammable gases, vapours, or combustible dust. These environments require the adoption of rigorous safety measures to prevent explosions and protect personnel and infrastructure. Explosion protection is regulated at the European level by the ATEX Directive 2014/34/EU and a series of international standards, such as the IEC/EN 60079 series. Equipment used in these environments must be designed so that it does not become a source of ignition. One of the most widespread and effective types of protection is protection by means of a flameproof enclosure, marked with the Ex d symbol. This involves enclosing the electrical components in an enclosure capable of withstanding an internal explosion and prev",
-    "published": "2025-12-18",
-    "first_seen": "2026-10-18T05:52:09.347420+00:00",
-    "doi": "10.1051/matecconf/202541800022",
-    "category": "硬件与防爆",
-    "classification_confidence": "人工核查",
-    "classification_reason": "依据资源标题及所提供摘要，主要技术成果涉及机构、电气硬件或防爆安全设计；摘要证据：In many industries such as petrochemicals, natural gas extraction, food, and pharmaceuticals, potentially explosive",
-    "needs_review": false,
-    "tags": [
-      "硬件与防爆"
-    ],
-    "industry_tags": [
-      "防爆石化与危险环境"
-    ],
-    "scope": "特种场景直接相关",
-    "score": 72,
-    "summary": "行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境。来源期刊/会议：MATEC Web of Conferences。 In many industries such as petrochemicals, natural gas extraction, food, and pharmaceuticals, potenti（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "relevance_status": "潜在相关（需核实机器人应用）",
-    "rule_category": "硬件与防爆",
-    "rule_confidence": "low",
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "review_priority": "P2",
-    "rule_contribution_type": "硬件与防爆",
-    "rule_contribution_evidence": "防爆设备物理或电气设计成果",
-    "manual_category_override": true,
-    "manual_override_reason": "依据资源标题及所提供摘要，主要技术成果涉及机构、电气硬件或防爆安全设计；摘要证据：In many industries such as petrochemicals, natural gas extraction, food, and pharmaceuticals, potentially explosive",
-    "model_applied": false
-  },
-  {
     "id": "d6ed69d61496b7bd96",
     "title": "Latent Coordination Dynamics for Legged Robot Locomotion",
     "url": "https://doi.org/10.1109/icc69100.2025.11372430",
@@ -19330,39 +19137,6 @@
         "changed_at": "2026-10-20"
       }
     ]
-  },
-  {
-    "id": "960b2f9d7b38c9b3ce",
-    "title": "The Integration of Passive and Active Methods in a Hybrid BMS for a Suspended Mining Vehicle",
-    "url": "https://doi.org/10.3390/en18246465",
-    "source": "OpenAlex",
-    "type": "论文（摘要）",
-    "description": "来源期刊/会议：Energies。Using lithium batteries to supply electric machinery and/or equipment in underground mines requires an adequate level of security. This is particularly important in coal mines, especially under the threat of methane explosions and/or fire hazards. Lithium battery cells with a BMS should be effectively isolated from the impact of the surrounding mine environment. This can be achieved by storing all battery systems in a certified explosion-proof enclosure (Ex) in accordance with the relevant regulations and standards. Preliminary tests conducted by the authors indicated that use of lithium cells without a BMS in mines is risky and, in practice, unacceptable. BMSs with passive cell balancing are most commonly employed. They allow for the equalization of cell voltages primarily during the charging process. However, the lowest-capacity cell still determines the overall lifeti",
-    "published": "2025-12-10",
-    "first_seen": "2026-10-16T01:26:13.392047+00:00",
-    "doi": "https://doi.org/10.3390/en18246465",
-    "category": "特种应用与产品",
-    "classification_confidence": "待复核",
-    "classification_reason": "元数据不足，临时标记待复核（不视为应用领域确认）",
-    "needs_review": true,
-    "tags": [
-      "特种应用与产品"
-    ],
-    "industry_tags": [
-      "防爆石化与危险环境"
-    ],
-    "scope": "特种场景直接相关",
-    "score": 73,
-    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：防爆石化与危险环境。来源期刊/会议：Energies。Using lithium batteries to supply electric machinery and/or equipment in underground mines requires an adequate level （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "relevance_status": "直接相关",
-    "rule_category": "特种应用与产品",
-    "rule_confidence": "low",
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "review_priority": "P2",
-    "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
   },
   {
     "id": "ac59f977df70ca2b20",
@@ -20139,39 +19913,6 @@
     "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
   },
   {
-    "id": "17875a6610813f1c12",
-    "title": "Fire Risk Assessment of Lithium-Ion Power Battery Shipping Containers in Maritime Transportation Scenarios",
-    "url": "https://doi.org/10.3390/fire8120453",
-    "source": "OpenAlex",
-    "type": "论文（摘要）",
-    "description": "来源期刊/会议：Fire。As the demand for maritime transportation of power battery shipping containers grows rapidly, the incidence of fire accidents has increased in tandem. However, most studies focus on analyzing fire causes through the thermal runaway mechanism; few analyze fire risk across the full maritime transportation process from a safety science perspective. To fill this gap, based on the thermal runaway mechanism of lithium-ion batteries, this study couples the loading characteristics of shipping containers with maritime operating conditions and employs the Fault Tree (FT) model, Bayesian Network (BN) model, and Attack–Defense Game Theory for investigation. The results are as follows: Starting from three core factors—battery thermal runaway mechanism, scenario characteristics of shipping container maritime transportation, and failure of initial emergency response—and combining the FT mo",
-    "published": "2025-11-25",
-    "first_seen": "2026-10-19T01:18:56.291429+00:00",
-    "doi": "https://doi.org/10.3390/fire8120453",
-    "relevance_status": "直接相关",
-    "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
-    "rule_category": "特种应用与产品",
-    "rule_confidence": "low",
-    "category": "特种应用与产品",
-    "classification_confidence": "待复核",
-    "classification_reason": "元数据不足，临时标记待复核（不视为应用领域确认）",
-    "needs_review": true,
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "tags": [
-      "特种应用与产品"
-    ],
-    "industry_tags": [
-      "消防与应急救援"
-    ],
-    "scope": "特种场景直接相关",
-    "score": 71,
-    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：Fire。As the demand for maritime transportation of power battery shipping containers grows rapidly, the incidence of fire accide（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
-  },
-  {
     "id": "fbdd8a05da93b6f4c2",
     "title": "Comparative analysis of localization methods for autonomous mobile robots using Robot Operating System 2",
     "url": "https://doi.org/10.21439/jme.v8i.122",
@@ -20857,30 +20598,15 @@
     "score": 77,
     "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：防爆石化与危险环境。来源期刊/会议：Fourth International Conference on New Materials, Machinery, and Vehicle Engineering (NMMVE 2025)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2",
-    "model_review_attempts": 1,
-    "manual_review_required": false,
-    "model_applied": false,
     "model_reviewed_uncertain": true,
-    "model_suggested_category": "特种应用与产品",
+    "model_review_attempts": 1,
+    "model_reviewed_at": "2026-10-20T09:25:04.818045+00:00",
+    "manual_review_required": false,
     "model_main_contribution": "快换式防爆巡检灭火机器人设计与应用",
     "model_contribution_conflict": "",
-    "model_classification_reason": "仅见快换式防爆巡检灭火机器人设计与应用，摘要未说明具体创新",
-    "model_reviewed_at": "2026-10-20T09:25:04.818045+00:00",
-    "model_previous_confidence": "待复核",
-    "classification_history": [
-      {
-        "id": "b573235a0cc98bc330",
-        "title": "Design and application of quick-change explosion-proof inspection fire-extinguishing robot",
-        "old_category": "特种应用与产品",
-        "new_category": "特种应用与产品",
-        "model_suggested_category": "特种应用与产品",
-        "reason": "仅见快换式防爆巡检灭火机器人设计与应用，摘要未说明具体创新",
-        "changed_at": "2026-10-20T09:25:04.818045+00:00",
-        "needs_review": true,
-        "status": "model_pending_review"
-      }
-    ]
+    "model_applied": false,
+    "model_suggested_category": "特种应用与产品",
+    "model_classification_reason": "仅见快换式防爆巡检灭火机器人设计与应用，摘要未说明具体创新"
   },
   {
     "id": "c62080b6f5703bda76",
@@ -20913,30 +20639,15 @@
     "score": 77,
     "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：防爆石化与危险环境。来源期刊/会议：Fourth International Conference on New Materials, Machinery, and Vehicle Engineering (NMMVE 2025)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2",
-    "model_review_attempts": 1,
-    "manual_review_required": false,
-    "model_applied": false,
     "model_reviewed_uncertain": true,
-    "model_suggested_category": "特种应用与产品",
+    "model_review_attempts": 1,
+    "model_reviewed_at": "2026-10-20T09:25:04.818045+00:00",
+    "manual_review_required": false,
     "model_main_contribution": "防爆巡检灭火智能机器人系统设计与应用",
     "model_contribution_conflict": "",
-    "model_classification_reason": "仅可确认防爆巡检灭火智能机器人系统设计与应用，无法判定核心贡献",
-    "model_reviewed_at": "2026-10-20T09:25:04.818045+00:00",
-    "model_previous_confidence": "待复核",
-    "classification_history": [
-      {
-        "id": "c62080b6f5703bda76",
-        "title": "Design and application of intelligent robot for explosion-proof inspection and fire-extinguishing",
-        "old_category": "特种应用与产品",
-        "new_category": "特种应用与产品",
-        "model_suggested_category": "特种应用与产品",
-        "reason": "仅可确认防爆巡检灭火智能机器人系统设计与应用，无法判定核心贡献",
-        "changed_at": "2026-10-20T09:25:04.818045+00:00",
-        "needs_review": true,
-        "status": "model_pending_review"
-      }
-    ]
+    "model_applied": false,
+    "model_suggested_category": "特种应用与产品",
+    "model_classification_reason": "仅可确认防爆巡检灭火智能机器人系统设计与应用，无法判定核心贡献"
   },
   {
     "id": "de5369a0893069f954",
@@ -22536,40 +22247,6 @@
     "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
   },
   {
-    "id": "4d91fdebd32e93f32a",
-    "title": "Analysis of Internal Explosion Vibration Characteristics of Explosion-Proof Equipment in Coal Mines Using Laser Doppler",
-    "url": "https://doi.org/10.3390/app15179255",
-    "source": "Crossref",
-    "type": "论文（摘要）",
-    "description": "来源期刊/会议：Applied Sciences。 Currently, there is a lack of methods for detecting the mechanism of gas explosion propagation within flameproof enclosures and the dynamic behavior of flameproof enclosures under explosion impact. Therefore, this paper studies a method for detecting the vibration characteristics of coal mine explosion-proof equipment under internal gas explosions using laser Doppler. First, a model of gas explosion propagation and explosion transmission response in flameproof enclosures is established to reveal the mechanism of gas explosion transmission inside coal mine flameproof enclosures. Second, a laser Doppler measurement method for coal mine flameproof enclosures is proposed, along with a step-by-step progressive vibration characteristic analysis method. This begins with a single-frequency dimension analysis using the Fourier transform (FFT), extends to time–frequency j",
-    "published": "2025-08-22",
-    "first_seen": "2026-10-15T01:40:12.708771+00:00",
-    "doi": "10.3390/app15179255",
-    "category": "硬件与防爆",
-    "classification_confidence": "高",
-    "classification_reason": "论文核心为机械结构、电机、执行器或防爆硬件的设计",
-    "needs_review": false,
-    "tags": [
-      "硬件与防爆",
-      "特种应用与产品"
-    ],
-    "industry_tags": [
-      "防爆石化与危险环境",
-      "矿山与地下空间"
-    ],
-    "scope": "特种场景直接相关",
-    "score": 81,
-    "summary": "行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境、矿山与地下空间。来源期刊/会议：Applied Sciences。 Currently, there is a lack of methods for detecting the mechanism of gas explosion propagation within flamepr（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "relevance_status": "直接相关",
-    "rule_category": "硬件与防爆",
-    "rule_confidence": "high",
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
-  },
-  {
     "id": "6a03e45f365a56399c",
     "title": "Small Modular Magnetic-Wheel-Type Wall- Climbing Inspection Robot",
     "url": "https://doi.org/10.1109/aeeca65693.2025.00071",
@@ -23200,39 +22877,6 @@
     "crosscheck_pending": false,
     "rule_contribution_type": "小脑与运动控制",
     "rule_contribution_evidence": "动作策略学习与运动执行"
-  },
-  {
-    "id": "76ce72eeae227179d4",
-    "title": "A perspective on the safety of large-format lithium-ion battery in underground mining operations: Thermal runaway and its mitigation",
-    "url": "https://doi.org/10.1007/s40789-025-00799-w",
-    "source": "OpenAlex",
-    "type": "论文（摘要）",
-    "description": "来源期刊/会议：International Journal of Coal Science & Technology。Abstract The use of lithium-ion batteries (LIBs)-operated underground mining machinery has gained tremendous momentum as a result of their numerous advantages. This includes their high energy density, long cycle life, high voltage delivery, low heat release, stability, negligible memory effects, and low carbon footprint. Battery operated vehicles are also preferred in underground mines for their flexibility. They do not emit harmful pollutants during nominal operations, making the work environment safer for miners. However, thermal runaway (TR) incidents can occur which presents risks to miners and underground infrastructure. Therefore, it is crucial to understand battery operations and their failure mechanisms. This article outlines the advantages of LIBs, the necessary precautions for their safe operations underground, the cond",
-    "published": "2025-07-28",
-    "first_seen": "2026-10-16T01:26:13.393258+00:00",
-    "doi": "https://doi.org/10.1007/s40789-025-00799-w",
-    "category": "特种应用与产品",
-    "classification_confidence": "待复核",
-    "classification_reason": "元数据不足，临时标记待复核（不视为应用领域确认）",
-    "needs_review": true,
-    "tags": [
-      "特种应用与产品"
-    ],
-    "industry_tags": [
-      "矿山与地下空间"
-    ],
-    "scope": "特种场景直接相关",
-    "score": 76,
-    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：矿山与地下空间。来源期刊/会议：International Journal of Coal Science & Technology。Abstract The use of lithium-ion batteries (LIBs)-operated underground mining（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "relevance_status": "直接相关",
-    "rule_category": "特种应用与产品",
-    "rule_confidence": "low",
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "review_priority": "P2",
-    "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
   },
   {
     "id": "a80580dc84e2729772",
@@ -25021,51 +24665,6 @@
     "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
   },
   {
-    "id": "caa317893b4a68b401",
-    "title": "Magnetic Field Analytical Calculation of No-Load Electromagnetic Performance of Line-Start Explosion-Proof Permanent Magnet Synchronous Motors Considering Saturation Effect",
-    "url": "https://doi.org/10.3390/act14060294",
-    "source": "OpenAlex",
-    "type": "论文（摘要）",
-    "description": "来源期刊/会议：Actuators。This paper proposes an improved analytical model for a line-start explosion-proof magnet synchronous motor that considers the effect of magnetic bridge saturation. Under the condition of maintaining the air-gap magnetic field unchanged, and taking into account the topological structures of embedded magnets, squirrel cages, and rotor slot openings, a subdomain model partitioning method is systematically investigated. Considering the saturation effect of the magnetic bridge of the rotor, the equivalent magnetic circuit method was utilized to calculate the permeance of the saturated region. It not only facilitates the establishment of subdomain equations and corresponding subdomain boundary conditions, but also ensures the maximum accuracy of the equivalence by maintaining the topology of the rotor. The motor was partitioned into subdomains, and in conjunction with the bou",
-    "published": "2025-06-17",
-    "first_seen": "2026-10-16T01:26:13.394001+00:00",
-    "doi": "https://doi.org/10.3390/act14060294",
-    "category": "硬件与防爆",
-    "classification_confidence": "人工核查",
-    "classification_reason": "摘要研究防爆永磁同步电机磁桥饱和条件下的电磁性能解析模型，属于电机硬件技术。",
-    "needs_review": false,
-    "tags": [
-      "硬件与防爆"
-    ],
-    "industry_tags": [
-      "防爆石化与危险环境"
-    ],
-    "scope": "特种场景直接相关",
-    "score": 77,
-    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：防爆石化与危险环境。来源期刊/会议：Actuators。This paper proposes an improved analytical model for a line-start explosion-proof magnet synchronous motor that consi（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "relevance_status": "潜在相关（需核实机器人应用）",
-    "rule_category": "特种应用与产品",
-    "rule_confidence": "low",
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "review_priority": "P2",
-    "manual_category_override": true,
-    "manual_override_reason": "摘要研究防爆永磁同步电机磁桥饱和条件下的电磁性能解析模型，属于电机硬件技术。",
-    "model_applied": false,
-    "classification_history": [
-      {
-        "old_category": "特种应用与产品",
-        "new_category": "硬件与防爆",
-        "status": "manual_correction",
-        "reason": "摘要研究防爆永磁同步电机磁桥饱和条件下的电磁性能解析模型，属于电机硬件技术。",
-        "changed_at": "2026-10-20"
-      }
-    ],
-    "rule_contribution_type": "硬件与防爆",
-    "rule_contribution_evidence": "防爆设备物理或电气设计成果"
-  },
-  {
     "id": "2fe99e6f95ff07cf3d",
     "title": "Can Pretrained Vision-Language Embeddings Alone Guide Robot Navigation?",
     "url": "https://doi.org/10.48550/arxiv.2506.14507",
@@ -25321,40 +24920,6 @@
         "changed_at": "2026-10-20"
       }
     ]
-  },
-  {
-    "id": "df0c45ac4fde933daa",
-    "title": "Explosion-Proof Enclosure Failure to Contain a Lithium-Ion Battery Thermal Runaway",
-    "url": "https://doi.org/10.1007/s42461-025-01288-z",
-    "source": "Crossref",
-    "type": "论文（摘要）",
-    "description": "来源期刊/会议：Mining, Metallurgy & Exploration。",
-    "published": "2025-06-06",
-    "first_seen": "2026-10-18T05:52:09.347594+00:00",
-    "doi": "10.1007/s42461-025-01288-z",
-    "category": "硬件与防爆",
-    "classification_confidence": "待复核",
-    "classification_reason": "防爆物理设备设计为主要贡献，需核实机器人相关性",
-    "needs_review": true,
-    "tags": [
-      "硬件与防爆",
-      "特种应用与产品"
-    ],
-    "industry_tags": [
-      "防爆石化与危险环境"
-    ],
-    "scope": "特种场景直接相关",
-    "score": 78,
-    "summary": "行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境。来源期刊/会议：Mining, Metallurgy & Exploration。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "relevance_status": "潜在相关（需核实机器人应用）",
-    "rule_category": "硬件与防爆",
-    "rule_confidence": "low",
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "review_priority": "P2",
-    "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
   },
   {
     "id": "11963102778ae9db5f",
@@ -25953,39 +25518,6 @@
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
     "review_priority": "P2",
-    "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
-  },
-  {
-    "id": "3e455b6441749278d8",
-    "title": "Simulation Study on Flameproof Performance of Flyer-Type Micro Explosive Train's Explosion-Proof Component",
-    "url": "https://doi.org/10.1109/nems67320.2025.11170001",
-    "source": "Crossref",
-    "type": "论文（摘要）",
-    "description": "来源期刊/会议：2025 IEEE 20th International Conference on Nano/Micro Engineered and Molecular Systems (NEMS)。",
-    "published": "2025-05-11",
-    "first_seen": "2026-10-18T05:52:09.347564+00:00",
-    "doi": "10.1109/nems67320.2025.11170001",
-    "category": "硬件与防爆",
-    "classification_confidence": "高",
-    "classification_reason": "论文核心为机械结构、电机、执行器或防爆硬件的设计",
-    "needs_review": false,
-    "tags": [
-      "硬件与防爆",
-      "特种应用与产品"
-    ],
-    "industry_tags": [
-      "防爆石化与危险环境"
-    ],
-    "scope": "特种场景直接相关",
-    "score": 78,
-    "summary": "行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境。来源期刊/会议：2025 IEEE 20th International Conference on Nano/Micro Engineered and Molecular Systems (NEMS)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "relevance_status": "直接相关",
-    "rule_category": "硬件与防爆",
-    "rule_confidence": "high",
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
     "rule_contribution_type": "undetermined",
     "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
   },
@@ -26904,17 +26436,9 @@
     "score": 77,
     "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。The paper presents the design and construction of a multi-sensor multifunction fire-fighting robot integrating various sensors and wire（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2",
-    "model_review_attempts": 1,
-    "manual_review_required": false,
     "model_applied": true,
-    "model_reviewed_uncertain": false,
-    "model_suggested_category": "特种应用与产品",
-    "model_main_contribution": "融合多传感器与无线通信的消防机器人系统",
-    "model_contribution_conflict": "",
     "model_classification_reason": "设计构建融合多传感器与无线通信的消防机器人系统",
     "model_reviewed_at": "2026-10-20T09:25:04.818045+00:00",
-    "model_previous_confidence": "待复核",
     "classification_history": [
       {
         "id": "99981f255de6bcb500",
@@ -26927,41 +26451,8 @@
         "needs_review": false,
         "status": "model_applied"
       }
-    ]
-  },
-  {
-    "id": "e26aa7e2885cdd1088",
-    "title": "Research on the Pressure Relief Process of Explosion-Proof Pressure Relief Valve for Power Battery Based on Choked Flow",
-    "url": "https://doi.org/10.2139/ssrn.5398446",
-    "source": "Crossref",
-    "type": "论文（摘要）",
-    "description": "",
-    "published": "2025-01-01",
-    "first_seen": "2026-10-18T05:53:39.683768+00:00",
-    "doi": "10.2139/ssrn.5398446",
-    "relevance_status": "潜在相关（需核实机器人应用）",
-    "rule_contribution_type": "硬件与防爆",
-    "rule_contribution_evidence": "防爆设备物理或电气设计成果",
-    "rule_category": "硬件与防爆",
-    "rule_confidence": "low",
-    "category": "硬件与防爆",
-    "classification_confidence": "待复核",
-    "classification_reason": "硬件类别缺少直接设计证据",
-    "needs_review": true,
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "tags": [
-      "硬件与防爆",
-      "特种应用与产品"
     ],
-    "industry_tags": [
-      "防爆石化与危险环境"
-    ],
-    "scope": "特种场景直接相关",
-    "score": 77,
-    "summary": "行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "model_previous_confidence": "待复核"
   },
   {
     "id": "f5acac6412162ad1f2",
@@ -26994,30 +26485,15 @@
     "score": 76,
     "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：Proceedings of the 1st International Conference on Research and Development in Information, Communication, and Computing Techno（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2",
-    "model_review_attempts": 1,
-    "manual_review_required": false,
-    "model_applied": false,
     "model_reviewed_uncertain": true,
-    "model_suggested_category": "特种应用与产品",
+    "model_review_attempts": 1,
+    "model_reviewed_at": "2026-10-20T09:25:04.818045+00:00",
+    "manual_review_required": false,
     "model_main_contribution": "物联网消防机器人及火灾危险自动处置系统",
     "model_contribution_conflict": "",
-    "model_classification_reason": "构建物联网消防机器人并实现火灾危险自动处置系统",
-    "model_reviewed_at": "2026-10-20T09:25:04.818045+00:00",
-    "model_previous_confidence": "待复核",
-    "classification_history": [
-      {
-        "id": "f5acac6412162ad1f2",
-        "title": "FireGuardian: A Smart IoT Firefighting Robot for Automated Fire Hazard Mitigation",
-        "old_category": "特种应用与产品",
-        "new_category": "特种应用与产品",
-        "model_suggested_category": "特种应用与产品",
-        "reason": "构建物联网消防机器人并实现火灾危险自动处置系统",
-        "changed_at": "2026-10-20T09:25:04.818045+00:00",
-        "needs_review": true,
-        "status": "model_pending_review"
-      }
-    ]
+    "model_applied": false,
+    "model_suggested_category": "特种应用与产品",
+    "model_classification_reason": "构建物联网消防机器人并实现火灾危险自动处置系统"
   },
   {
     "id": "916affd0bbafac75d8",
@@ -27035,8 +26511,8 @@
     "rule_category": "特种应用与产品",
     "rule_confidence": "low",
     "category": "特种应用与产品",
-    "classification_confidence": "待复核",
-    "classification_reason": "特种机器人应用系统，贡献边界待复核",
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "仅题名提出物联网消防机器人，缺少具体方法与系统实现",
     "needs_review": true,
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
@@ -27050,7 +26526,30 @@
     "score": 76,
     "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：Proceedings of the 1st International Conference on Computational and Cognitive Systems Science。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "review_priority": "P2",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "特种应用与产品",
+    "model_main_contribution": "物联网智能家庭消防机器人整机方案",
+    "model_contribution_conflict": "",
+    "model_classification_reason": "仅题名提出物联网消防机器人，缺少具体方法与系统实现",
+    "model_reviewed_at": "2026-10-20T09:32:33.047847+00:00",
+    "model_previous_confidence": "待复核",
+    "classification_history": [
+      {
+        "id": "916affd0bbafac75d8",
+        "title": "IoT-Based Next-Generation Smart Firefighting Robot for Intelligent and Affordable Home Safety",
+        "old_category": "特种应用与产品",
+        "new_category": "特种应用与产品",
+        "model_suggested_category": "特种应用与产品",
+        "reason": "仅题名提出物联网消防机器人，缺少具体方法与系统实现",
+        "changed_at": "2026-10-20T09:32:33.047847+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
   },
   {
     "id": "6b5f142387fa76d608",
@@ -28982,39 +28481,6 @@
     "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
   },
   {
-    "id": "2b7fc49978637e3a12",
-    "title": "Development of Automatic Detection System for Explosion-Proof Test",
-    "url": "https://doi.org/10.1109/icarce63054.2024.00089",
-    "source": "Crossref",
-    "type": "论文（摘要）",
-    "description": "来源期刊/会议：2024 3rd International Conference on Automation, Robotics and Computer Engineering (ICARCE)。",
-    "published": "2024-12-17",
-    "first_seen": "2026-10-19T09:50:16.929803+00:00",
-    "doi": "10.1109/icarce63054.2024.00089",
-    "category": "特种应用与产品",
-    "classification_confidence": "待复核",
-    "classification_reason": "元数据不足，临时标记待复核（不视为应用领域确认）",
-    "needs_review": true,
-    "tags": [
-      "特种应用与产品"
-    ],
-    "industry_tags": [
-      "防爆石化与危险环境"
-    ],
-    "scope": "特种场景直接相关",
-    "score": 77,
-    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：防爆石化与危险环境。来源期刊/会议：2024 3rd International Conference on Automation, Robotics and Computer Engineering (ICARCE)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "relevance_status": "直接相关",
-    "rule_category": "特种应用与产品",
-    "rule_confidence": "low",
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "review_priority": "P2",
-    "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
-  },
-  {
     "id": "4f0ad6b73f65d42e92",
     "title": "Review on Robotic Systems for Environmental Monitoring",
     "url": "https://doi.org/10.1109/ojim.2024.3493875",
@@ -30211,63 +29677,6 @@
     "crosscheck_pending": false,
     "rule_contribution_type": "undetermined",
     "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
-  },
-  {
-    "id": "91adb2f04c1c2ff27a",
-    "title": "Design and analysis of AGM explosion proof plug automatic assembly and inspection production line",
-    "url": "https://doi.org/10.1088/1742-6596/2902/1/012002",
-    "source": "Crossref",
-    "type": "论文（摘要）",
-    "description": "来源期刊/会议：Journal of Physics: Conference Series。 Abstract In order to achieve the automatic assembly and inspection of AGM battery explosion-proof plug bodies and acid-absorbed mats, this paper proposes a novel automatic assembly production line. The production line is designed for the assembly and functional testing of the explosion-proof plug bodies and acid-absorbed mats, aiming to enhance the automation level of assembly and testing processes for this product within the enterprise. Based on the requirements and operational conditions of the enterprise, the structure of the entire automatic assembly production line was designed using SolidWorks software. Furthermore, structural analysis and operational principles of crucial components were conducted. Static analysis of critical components of the grasping and translating mechanism within the device was performed using ANSYS software, val",
-    "published": "2024-11-01",
-    "first_seen": "2026-10-15T01:40:12.707758+00:00",
-    "doi": "10.1088/1742-6596/2902/1/012002",
-    "relevance_status": "直接相关",
-    "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
-    "rule_category": "特种应用与产品",
-    "rule_confidence": "low",
-    "category": "硬件与防爆",
-    "classification_confidence": "模型建议（待复核）",
-    "classification_reason": "提出防爆插塞自动装配检测生产线，并完成产线结构及关键机构设计分析",
-    "needs_review": true,
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "tags": [
-      "硬件与防爆",
-      "特种应用与产品"
-    ],
-    "industry_tags": [
-      "防爆石化与危险环境"
-    ],
-    "scope": "特种场景直接相关",
-    "score": 79,
-    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：防爆石化与危险环境。来源期刊/会议：Journal of Physics: Conference Series。 Abstract In order to achieve the automatic assembly and inspection of AGM battery explos（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2",
-    "model_review_attempts": 1,
-    "manual_review_required": false,
-    "model_applied": false,
-    "model_reviewed_uncertain": true,
-    "model_suggested_category": "硬件与防爆",
-    "model_main_contribution": "防爆插塞自动装配检测生产线及关键机构设计",
-    "model_contribution_conflict": "模型所述主要研究贡献无法由题名摘要核验",
-    "model_classification_reason": "提出防爆插塞自动装配检测生产线，并完成产线结构及关键机构设计分析",
-    "model_reviewed_at": "2026-10-20T09:25:04.818045+00:00",
-    "model_previous_confidence": "待复核",
-    "classification_history": [
-      {
-        "id": "91adb2f04c1c2ff27a",
-        "title": "Design and analysis of AGM explosion proof plug automatic assembly and inspection production line",
-        "old_category": "特种应用与产品",
-        "new_category": "硬件与防爆",
-        "model_suggested_category": "硬件与防爆",
-        "reason": "提出防爆插塞自动装配检测生产线，并完成产线结构及关键机构设计分析",
-        "changed_at": "2026-10-20T09:25:04.818045+00:00",
-        "needs_review": true,
-        "status": "model_pending_review"
-      }
-    ]
   },
   {
     "id": "8e5f8ff17730dc5be2",
@@ -31605,39 +31014,6 @@
         "changed_at": "2026-10-20"
       }
     ]
-  },
-  {
-    "id": "89cb2059727b9342b0",
-    "title": "Keynote Speaker ICOM'24: Development of ANYmal X, the World's First Explosion-Proof Legged Robot",
-    "url": "https://doi.org/10.1109/icom61675.2024.10652258",
-    "source": "Crossref",
-    "type": "论文（摘要）",
-    "description": "来源期刊/会议：2024 9th International Conference on Mechatronics Engineering (ICOM)。",
-    "published": "2024-08-13",
-    "first_seen": "2026-10-15T01:54:05.582568+00:00",
-    "doi": "10.1109/icom61675.2024.10652258",
-    "relevance_status": "直接相关",
-    "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
-    "rule_category": "特种应用与产品",
-    "rule_confidence": "low",
-    "category": "特种应用与产品",
-    "classification_confidence": "待复核",
-    "classification_reason": "特种机器人应用系统，贡献边界待复核",
-    "needs_review": true,
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "tags": [
-      "特种应用与产品"
-    ],
-    "industry_tags": [
-      "防爆石化与危险环境"
-    ],
-    "scope": "特种场景直接相关",
-    "score": 88,
-    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：防爆石化与危险环境。来源期刊/会议：2024 9th International Conference on Mechatronics Engineering (ICOM)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
   },
   {
     "id": "1256cc0e75f122c516",
@@ -35026,41 +34402,6 @@
     "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
   },
   {
-    "id": "ed959c4525356bc23d",
-    "title": "Research on Inspection Technology of Limited-rotation Explosion-proof Electric Actuators for Coal Mines",
-    "url": "https://doi.org/10.54097/fye9e027",
-    "source": "Crossref",
-    "type": "论文（摘要）",
-    "description": "来源期刊/会议：Highlights in Science, Engineering and Technology。 Based on the analysis of the status of the coal resource industry and the intelligent construction of coal mines, this paper introduces the application scenarios, design basis, and composition structure of the explosion-proof limited-angle electric actuator in coal mines. It establishes an inspection platform for the explosion-proof limited-angle electric actuator in coal mines and achieves the testing of rated travel time error of the explosion-proof limited-angle electric actuator in coal mines.",
-    "published": "2024-02-27",
-    "first_seen": "2026-10-15T01:54:05.582529+00:00",
-    "doi": "10.54097/fye9e027",
-    "relevance_status": "直接相关",
-    "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
-    "rule_category": "硬件与防爆",
-    "rule_confidence": "low",
-    "category": "硬件与防爆",
-    "classification_confidence": "人工核查",
-    "classification_reason": "依据资源标题及所提供摘要，主要技术成果涉及机构、电气硬件或防爆安全设计；摘要证据：Based on the analysis of the status of the coal resource industry and the intelligent construction of coal mines, t",
-    "needs_review": false,
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "tags": [
-      "硬件与防爆"
-    ],
-    "industry_tags": [
-      "防爆石化与危险环境"
-    ],
-    "scope": "特种场景直接相关",
-    "score": 78,
-    "summary": "行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境。来源期刊/会议：Highlights in Science, Engineering and Technology。 Based on the analysis of the status of the coal resource industry and the in（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "manual_category_override": true,
-    "manual_override_reason": "依据资源标题及所提供摘要，主要技术成果涉及机构、电气硬件或防爆安全设计；摘要证据：Based on the analysis of the status of the coal resource industry and the intelligent construction of coal mines, t",
-    "model_applied": false
-  },
-  {
     "id": "4077e6911ceb756e0a",
     "title": "A biomimetic fruit fly robot for studying the neuromechanics of legged locomotion",
     "url": "https://doi.org/10.1101/2024.02.22.581436",
@@ -37079,39 +36420,6 @@
     "crosscheck_pending": false,
     "rule_contribution_type": "感知建图与导航",
     "rule_contribution_evidence": "环境感知、定位或空间导航任务"
-  },
-  {
-    "id": "19545b0483a5fde598",
-    "title": "Performance Analysis of Permanent Magnet Synchronous Motor for Mining Applications – A Review",
-    "url": "https://doi.org/10.18311/jmmf/2023/35058",
-    "source": "OpenAlex",
-    "type": "论文（摘要）",
-    "description": "来源期刊/会议：Journal of Mines Metals and Fuels。The features of Permanent Magnet Synchronous Motor (PMSM) makes it suitable for mining applications such as copper mining, mining floating machine, mining scraper conveyor, mine integrated machine, mining vacuum circuit breaker, mineral extraction in mines, coal mine belt conveyor system, mining truck and many more. This study focuses on performance analysis of permanent magnet synchronous motor for mining applications and performance analysis is the confirmation and analysis of parameters, various losses and efficiency at various loads. A comparative analysis of wound rotor synchronous motor, induction motor and permanent magnet synchronous motor confirmed the suitability of PMSM for various mining applications. Advanced technology of artificial intelligence integrated with permanent magnet synchronous motor also enhances the effectiveness and p",
-    "published": "2023-12-20",
-    "first_seen": "2026-10-18T05:53:21.681327+00:00",
-    "doi": "https://doi.org/10.18311/jmmf/2023/35058",
-    "category": "特种应用与产品",
-    "classification_confidence": "待复核",
-    "classification_reason": "元数据不足，临时标记待复核（不视为应用领域确认）",
-    "needs_review": true,
-    "tags": [
-      "特种应用与产品"
-    ],
-    "industry_tags": [
-      "矿山与地下空间"
-    ],
-    "scope": "特种场景直接相关",
-    "score": 71,
-    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：矿山与地下空间。来源期刊/会议：Journal of Mines Metals and Fuels。The features of Permanent Magnet Synchronous Motor (PMSM) makes it suitable for mining applic（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "relevance_status": "直接相关",
-    "rule_category": "特种应用与产品",
-    "rule_confidence": "low",
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "review_priority": "P2",
-    "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
   },
   {
     "id": "24139bece16eacc071",
@@ -39364,41 +38672,6 @@
     "score": 76,
     "summary": "行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：工业与能源巡检。来源期刊/会议：Proceedings of the 14th International Workshop on Structural Health Monitoring。 Over the years, various methods based on comput（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
-  },
-  {
-    "id": "5d70635446e1ae00b7",
-    "title": "Design of Motor Protection Systems for Explosion-proof Coal Mine Digging Device",
-    "url": "https://doi.org/10.1109/ictei60496.2023.00061",
-    "source": "Crossref",
-    "type": "论文（摘要）",
-    "description": "来源期刊/会议：2023 International Conference on Telecommunications, Electronics and Informatics (ICTEI)。",
-    "published": "2023-09-11",
-    "first_seen": "2026-10-19T09:50:09.204928+00:00",
-    "doi": "10.1109/ictei60496.2023.00061",
-    "category": "硬件与防爆",
-    "classification_confidence": "待复核",
-    "classification_reason": "防爆物理设备设计为主要贡献，需核实机器人相关性",
-    "needs_review": true,
-    "tags": [
-      "硬件与防爆",
-      "特种应用与产品"
-    ],
-    "industry_tags": [
-      "防爆石化与危险环境",
-      "矿山与地下空间"
-    ],
-    "scope": "特种场景直接相关",
-    "score": 80,
-    "summary": "行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境、矿山与地下空间。来源期刊/会议：2023 International Conference on Telecommunications, Electronics and Informatics (ICTEI)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "relevance_status": "潜在相关（需核实机器人应用）",
-    "rule_category": "硬件与防爆",
-    "rule_confidence": "low",
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "review_priority": "P2",
-    "rule_contribution_type": "硬件与防爆",
-    "rule_contribution_evidence": "防爆设备物理或电气设计成果"
   },
   {
     "id": "01d8848e59aebc39a8",
@@ -42265,51 +41538,6 @@
     "crosscheck_pending": false,
     "rule_contribution_type": "undetermined",
     "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
-  },
-  {
-    "id": "7aef5b23501d3485d8",
-    "title": "Parallel Current-sharing Design of Mine Explosion-proof Lithium-ion Battery Power Supply",
-    "url": "https://doi.org/10.1088/1742-6596/2532/1/012014",
-    "source": "Crossref",
-    "type": "论文（摘要）",
-    "description": "来源期刊/会议：Journal of Physics: Conference Series。 Abstract When the output of explosion-proof lithium power supply is used in parallel, there exists the problem of non-uniform current between power sources, so a digital current-sharing strategy and module are designed. The digital current-sharing module uses the current-sharing MCU unit as the current regulating component to monitor the front-stage current and post-stage voltage, current and their feedback values of the power supply power circuit in real time. At the same time, the current compensation values are exchanged through the real-time communication bus, and the current-sharing modules of each power supply balance the current by adjusting the output current. The experimental results show that the problem of parallel current sharing of explosion-proof lithium power supply is solved effectively.",
-    "published": "2023-06-01",
-    "first_seen": "2026-10-17T05:36:21.015160+00:00",
-    "doi": "10.1088/1742-6596/2532/1/012014",
-    "category": "硬件与防爆",
-    "classification_confidence": "人工核查",
-    "classification_reason": "摘要研究矿用防爆电源并联均流电路与设计，属于防爆电气硬件而非机器人整机应用。",
-    "needs_review": false,
-    "tags": [
-      "硬件与防爆"
-    ],
-    "industry_tags": [
-      "防爆石化与危险环境"
-    ],
-    "scope": "特种场景直接相关",
-    "score": 77,
-    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：防爆石化与危险环境。来源期刊/会议：Journal of Physics: Conference Series。 Abstract When the output of explosion-proof lithium power supply is used in parallel, th（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "relevance_status": "潜在相关（需核实机器人应用）",
-    "rule_category": "特种应用与产品",
-    "rule_confidence": "low",
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "review_priority": "P2",
-    "manual_category_override": true,
-    "manual_override_reason": "摘要研究矿用防爆电源并联均流电路与设计，属于防爆电气硬件而非机器人整机应用。",
-    "model_applied": false,
-    "classification_history": [
-      {
-        "old_category": "特种应用与产品",
-        "new_category": "硬件与防爆",
-        "status": "manual_correction",
-        "reason": "摘要研究矿用防爆电源并联均流电路与设计，属于防爆电气硬件而非机器人整机应用。",
-        "changed_at": "2026-10-20"
-      }
-    ],
-    "rule_contribution_type": "硬件与防爆",
-    "rule_contribution_evidence": "防爆设备物理或电气设计成果"
   },
   {
     "id": "460a043d9ed85d1231",
@@ -46105,40 +45333,6 @@
     "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
   },
   {
-    "id": "93b7f6e5a8acc82058",
-    "title": "Temperature prediction and cooling structure optimization of explosion-proof high pressure water-cooled double speed motor",
-    "url": "https://doi.org/10.1016/j.egyr.2022.02.281",
-    "source": "Crossref",
-    "type": "论文（摘要）",
-    "description": "来源期刊/会议：Energy Reports。",
-    "published": "2022-11-01",
-    "first_seen": "2026-10-19T09:50:02.697208+00:00",
-    "doi": "10.1016/j.egyr.2022.02.281",
-    "category": "硬件与防爆",
-    "classification_confidence": "待复核",
-    "classification_reason": "防爆物理设备设计为主要贡献，需核实机器人相关性",
-    "needs_review": true,
-    "tags": [
-      "硬件与防爆",
-      "特种应用与产品"
-    ],
-    "industry_tags": [
-      "防爆石化与危险环境"
-    ],
-    "scope": "特种场景直接相关",
-    "score": 77,
-    "summary": "行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境。来源期刊/会议：Energy Reports。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "relevance_status": "潜在相关（需核实机器人应用）",
-    "rule_category": "硬件与防爆",
-    "rule_confidence": "low",
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "review_priority": "P2",
-    "rule_contribution_type": "硬件与防爆",
-    "rule_contribution_evidence": "防爆设备物理或电气设计成果"
-  },
-  {
     "id": "9b2df03731f102d9a0",
     "title": "Sistem Distribusi Data Kontrol Pada Differential Drive Mobile Robot Menggunakan Robot Operating System",
     "url": "https://doi.org/10.33379/metrotech.v1i3.1803",
@@ -46894,40 +46088,6 @@
     "crosscheck_pending": false,
     "rule_contribution_type": "感知建图与导航",
     "rule_contribution_evidence": "环境感知、定位或空间导航任务"
-  },
-  {
-    "id": "5d0a1aa3b33a0f094e",
-    "title": "Design and Development of Explosion-Proof Cavity of Hydraulic System Power Unit Applied in Explosion-Proof Area",
-    "url": "https://doi.org/10.3390/pr10091824",
-    "source": "Crossref",
-    "type": "论文（摘要）",
-    "description": "来源期刊/会议：Processes。 The construction machinery and vehicles, especially the explosion-proof and explosion-isolation ability of the vehicles are playing an increasingly important role in the complex and unpredictable emergency rescue field. In this paper, the explosion-proof housing of hydraulic system power unit applied in engineering machinery is investigated, wherein the power unit includes motor, power supply and control element. Motor-driven hydraulic pump provides the necessary power for the hydraulic system. The gas explosion process, basic parameters, flame acceleration mechanism and the theory model of gas explosion in finite space are analyzed. Relevant mathematical models of the experimental gas explosion for explosion-proof cavity are established. Furthermore, the models are analyzed by numerical method. We simulate the dynamic process of explosion by software. The analysis, ex",
-    "published": "2022-09-09",
-    "first_seen": "2026-10-15T01:54:05.583023+00:00",
-    "doi": "10.3390/pr10091824",
-    "relevance_status": "直接相关",
-    "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
-    "rule_category": "硬件与防爆",
-    "rule_confidence": "high",
-    "category": "硬件与防爆",
-    "classification_confidence": "高",
-    "classification_reason": "论文核心为机械结构、电机、执行器或防爆硬件的设计",
-    "needs_review": false,
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "tags": [
-      "硬件与防爆",
-      "特种应用与产品"
-    ],
-    "industry_tags": [
-      "防爆石化与危险环境",
-      "消防与应急救援"
-    ],
-    "scope": "特种场景直接相关",
-    "score": 80,
-    "summary": "行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境、消防与应急救援。来源期刊/会议：Processes。 The construction machinery and vehicles, especially the explosion-proof and explosion-isolation ability of the vehic（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "424a76552b5fa21153",
@@ -49208,42 +48368,6 @@
     "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
   },
   {
-    "id": "960076bbbefb00bb7a",
-    "title": "Explosion-proof lithium-ion battery pack – In-depth investigation and experimental study on the design criteria",
-    "url": "https://doi.org/10.1016/j.energy.2022.123715",
-    "source": "Crossref",
-    "type": "论文（摘要）",
-    "description": "来源期刊/会议：Energy。",
-    "published": "2022-06-01",
-    "first_seen": "2026-10-20T00:54:31.553408+00:00",
-    "doi": "10.1016/j.energy.2022.123715",
-    "relevance_status": "潜在相关（需核实机器人应用）",
-    "rule_contribution_type": "硬件与防爆",
-    "rule_contribution_evidence": "防爆设备物理或电气设计成果",
-    "rule_category": "硬件与防爆",
-    "rule_confidence": "low",
-    "category": "硬件与防爆",
-    "classification_confidence": "模型建议（待复核）",
-    "classification_reason": "硬件类别缺少直接设计证据",
-    "needs_review": true,
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "tags": [
-      "硬件与防爆"
-    ],
-    "industry_tags": [
-      "防爆石化与危险环境"
-    ],
-    "scope": "特种场景直接相关",
-    "score": 77,
-    "summary": "行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境。来源期刊/会议：Energy。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "model_reviewed_uncertain": true,
-    "model_applied": false,
-    "model_suggested_category": "硬件与防爆",
-    "model_classification_reason": ""
-  },
-  {
     "id": "8f897d1276c82036c8",
     "title": "Inspection Robot Design for Underwater Structure in Complex Flow Environment",
     "url": "https://doi.org/10.1109/icosr57188.2022.00043",
@@ -50875,40 +49999,6 @@
     "rule_contribution_evidence": "动作策略学习与运动执行"
   },
   {
-    "id": "4d38995d3b52298461",
-    "title": "Research on Purging and Ventilation Progress of Positive-Pressure Explosion-Proof Motor",
-    "url": "https://doi.org/10.1109/access.2022.3172353",
-    "source": "Crossref",
-    "type": "论文（摘要）",
-    "description": "来源期刊/会议：IEEE Access。",
-    "published": "2022-01-01",
-    "first_seen": "2026-10-16T05:51:50.441250+00:00",
-    "doi": "10.1109/access.2022.3172353",
-    "relevance_status": "潜在相关（需核实机器人应用）",
-    "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
-    "rule_category": "硬件与防爆",
-    "rule_confidence": "low",
-    "category": "硬件与防爆",
-    "classification_confidence": "待复核",
-    "classification_reason": "防爆物理设备设计为主要贡献，需核实机器人相关性",
-    "needs_review": true,
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "tags": [
-      "硬件与防爆",
-      "特种应用与产品"
-    ],
-    "industry_tags": [
-      "防爆石化与危险环境"
-    ],
-    "scope": "特种场景直接相关",
-    "score": 77,
-    "summary": "行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境。来源期刊/会议：IEEE Access。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
-  },
-  {
     "id": "988bbb376350779a63",
     "title": "Microcontroller-Based Substation Inspection Robot Design--Software Part",
     "url": "https://doi.org/10.2139/ssrn.4263544",
@@ -51190,39 +50280,6 @@
     "score": 72,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Proceedings of the 19th International Conference on Informatics in Control, Automation and Robotics。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
-  },
-  {
-    "id": "45012b9a05835abe99",
-    "title": "Modern means of underground transport � technical and economic effects and benefits to the working environment resulting from the operation of VOLTER monorail battery-powered locomotives",
-    "url": "https://doi.org/10.7494/miag.2022.4.552.7",
-    "source": "OpenAlex",
-    "type": "论文（摘要）",
-    "description": "来源期刊/会议：Mininig - Informatics Automation and Electrical Engineering。Modern means of underground transporttechnical and economic effects and benefits to the working environment resulting from the operation of VOLTER monorail battery-powered locomotivesBattery-powered means of transport are increasingly being used in underground mining.The article describes a suspended VOLTER battery-powered locomotive designed for the transport of equipment, materials and people.The technical and economic effects related to the operation of this innovative solution in comparison with diesel locomotives, including energy (fuel) costs and maintenance time, are presented.The article also describes the benefits to the working environment connected with the use of battery locomotives resulting from the lack of exhaust emissions and a significant reduction in noise and heat generation, which improves the climat",
-    "published": "2022-01-01",
-    "first_seen": "2026-10-19T01:19:04.170464+00:00",
-    "doi": "https://doi.org/10.7494/miag.2022.4.552.7",
-    "category": "特种应用与产品",
-    "classification_confidence": "待复核",
-    "classification_reason": "元数据不足，临时标记待复核（不视为应用领域确认）",
-    "needs_review": true,
-    "tags": [
-      "特种应用与产品"
-    ],
-    "industry_tags": [
-      "矿山与地下空间"
-    ],
-    "scope": "特种场景直接相关",
-    "score": 71,
-    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：矿山与地下空间。来源期刊/会议：Mininig - Informatics Automation and Electrical Engineering。Modern means of underground transporttechnical and economic effects（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "relevance_status": "直接相关",
-    "rule_category": "特种应用与产品",
-    "rule_confidence": "low",
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "review_priority": "P2",
-    "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
   },
   {
     "id": "5a67b38d1efc25a048",
@@ -51834,40 +50891,6 @@
     "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
   },
   {
-    "id": "d876719568b6aeea35",
-    "title": "Smart Controls for Switched Reluctance Motor 8/6 Used for Electric Vehicles Underground Mining Security",
-    "url": "https://doi.org/10.18280/ejee.230601",
-    "source": "OpenAlex",
-    "type": "论文（摘要）",
-    "description": "来源期刊/会议：European Journal of Electrical Engineering。Switched reluctance motors (SRM) are a type of electromagnetic machine that has piqued the interest of manufacturers, as opposed to induction, brushless, or permanent magnet machines.This is because the rotor is simple, robust, and lacks coils, windings, and permanent magnets.It can also operate in a wide range of power in the electric vehicle's drive, even in extreme conditions such as underground mines, ensuring a longer life of service.However, due to the toothed shape of the rotor, the SRM is characterized by vibration and acoustic noise.To solve this problem to better adapt the SRM to the electric vehicle, we propose to use intelligent techniques such as the controller (ANN) and the fractional order controller (PI α ).This article compares two intelligent speed controllers that use direct torque control (DTC) to reduce torque ripple",
-    "published": "2021-12-31",
-    "first_seen": "2026-10-19T08:59:14.251140+00:00",
-    "doi": "https://doi.org/10.18280/ejee.230601",
-    "category": "小脑与运动控制",
-    "classification_confidence": "待复核",
-    "classification_reason": "运动控制类别缺少题名中的控制任务证据",
-    "needs_review": true,
-    "tags": [
-      "小脑与运动控制",
-      "特种应用与产品"
-    ],
-    "industry_tags": [
-      "矿山与地下空间"
-    ],
-    "scope": "特种场景直接相关",
-    "score": 77,
-    "summary": "行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：矿山与地下空间。来源期刊/会议：European Journal of Electrical Engineering。Switched reluctance motors (SRM) are a type of electromagnetic machine that has piqu（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "relevance_status": "直接相关",
-    "rule_category": "小脑与运动控制",
-    "rule_confidence": "low",
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "review_priority": "P2",
-    "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
-  },
-  {
     "id": "fccd85a7bee0ef728e",
     "title": "Research on Improved Hybrid Polynomial Interpolation Algorithm for Rail Inspection Robot",
     "url": "https://doi.org/10.1145/3501409.3501622",
@@ -52217,40 +51240,6 @@
     "manual_category_override": true,
     "manual_override_reason": "依据资源标题及所提供摘要，主要技术成果涉及环境感知、定位建图与路径导航；摘要证据：In the visual positioning of Unmanned Ground Vehicle (UGV), the visual odometer based on direct sparse method (DSO)",
     "model_applied": false
-  },
-  {
-    "id": "f0a13538c4f601c455",
-    "title": "Analysis of High Voltage Explosion-proof Motor Design",
-    "url": "https://doi.org/10.47939/et.v2i12.444",
-    "source": "Crossref",
-    "type": "论文（摘要）",
-    "description": "来源期刊/会议：Foreign Language Science and Technology Journal Database Engineering Technology。",
-    "published": "2021-12-30",
-    "first_seen": "2026-10-18T05:52:09.347793+00:00",
-    "doi": "10.47939/et.v2i12.444",
-    "category": "硬件与防爆",
-    "classification_confidence": "待复核",
-    "classification_reason": "防爆物理设备设计为主要贡献，需核实机器人相关性",
-    "needs_review": true,
-    "tags": [
-      "硬件与防爆",
-      "特种应用与产品"
-    ],
-    "industry_tags": [
-      "防爆石化与危险环境"
-    ],
-    "scope": "特种场景直接相关",
-    "score": 77,
-    "summary": "行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境。来源期刊/会议：Foreign Language Science and Technology Journal Database Engineering Technology。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "relevance_status": "潜在相关（需核实机器人应用）",
-    "rule_category": "硬件与防爆",
-    "rule_confidence": "low",
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "review_priority": "P2",
-    "rule_contribution_type": "硬件与防爆",
-    "rule_contribution_evidence": "防爆设备物理或电气设计成果"
   },
   {
     "id": "06320570dd5eed4494",
@@ -54091,39 +53080,6 @@
     "rule_contribution_evidence": "环境感知、定位或空间导航任务"
   },
   {
-    "id": "9ae00d451d5ec6aaf3",
-    "title": "Research on Clean Combustion Technology of EGR-based Flameproof Diesel Engine",
-    "url": "https://doi.org/10.21203/rs.3.rs-1108080/v1",
-    "source": "Crossref",
-    "type": "论文（摘要）",
-    "description": "Abstract In view of the serious pollution of NOx emissions from flame-proof diesel engines used in coal mines and its direct and indirect hazards that cannot be ignored, the combustion process of flame-proof diesel engines is analyzed and a combustion mathematical model is established. Subsequently, the clean combustion method based on exhaust gas recirculation (EGR) is adopted, and an EGR clean combustion device is designed, which meets the requirements of the coal mine standard Safety Regulations on Coal Mine . The design content involves: (i) Composition and structure design of EGR system meeting the requirements of flame-proof standards; (ii) The closed forced cooling cycle design of the EGR system. Specifically, the clean combustion process of flame-proof diesel engine based on EGR system is simulated and analyzed by fluid simulation analysis software, and the effects of EGR system ",
-    "published": "2021-12-06",
-    "first_seen": "2026-10-19T01:20:05.341727+00:00",
-    "doi": "10.21203/rs.3.rs-1108080/v1",
-    "category": "硬件与防爆",
-    "classification_confidence": "高",
-    "classification_reason": "论文核心为机械结构、电机、执行器或防爆硬件的设计",
-    "needs_review": false,
-    "tags": [
-      "硬件与防爆",
-      "特种应用与产品"
-    ],
-    "industry_tags": [
-      "矿山与地下空间"
-    ],
-    "scope": "特种场景直接相关",
-    "score": 71,
-    "summary": "行业筛选：特种场景直接相关；方向：硬件与防爆；关联：矿山与地下空间。Abstract In view of the serious pollution of NOx emissions from flame-proof diesel engines used in coal mines and its direct and indire（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "relevance_status": "直接相关",
-    "rule_category": "硬件与防爆",
-    "rule_confidence": "high",
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
-  },
-  {
     "id": "612a1319244d43456e",
     "title": "Motion Generation of Crawling-like Locomotion Robot Composed of Two Identical Units with Passive Wobbling Mass and Its Extension to Paper Feeding",
     "url": "https://doi.org/10.1109/icar53236.2021.9659368",
@@ -54147,39 +53103,6 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
     "relevance_status": "可迁移的机器人关键技术",
     "rule_category": "小脑与运动控制",
-    "rule_confidence": "high",
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
-  },
-  {
-    "id": "6fe8a9b3f8f336156b",
-    "title": "Evaluation of the Explosion Pressure Parameters in Flameproof Enclosures under the Pressure Piling Condition",
-    "url": "https://doi.org/10.3390/en14238156",
-    "source": "Crossref",
-    "type": "论文（摘要）",
-    "description": "来源期刊/会议：Energies。 Explosion resistance is one of the most important performances for all flameproof enclosures. Pressure piling requires the flameproof enclosures to withstand explosion pressure higher than the design pressure. In order to study the explosion parameters in a flameproof enclosure under pressure piling, two experimental setups were prepared based on the theoretical analysis of the mechanism of pressure piling. One setup simulated the condition that the interior of a flameproof box is isolated by a baffle with a small hole. Another setup simulated the condition that a large number of electrical components were installed inside an explosion-proof box. The experimental result showed that the explosion pressure increased significantly in a very short time under pressure piling. When an explosion occurred in a cavity, the pressure wave of the explosion propagated faster than th",
-    "published": "2021-12-05",
-    "first_seen": "2026-10-18T05:52:09.347879+00:00",
-    "doi": "10.3390/en14238156",
-    "category": "硬件与防爆",
-    "classification_confidence": "高",
-    "classification_reason": "论文核心为机械结构、电机、执行器或防爆硬件的设计",
-    "needs_review": false,
-    "tags": [
-      "硬件与防爆",
-      "特种应用与产品"
-    ],
-    "industry_tags": [
-      "防爆石化与危险环境"
-    ],
-    "scope": "特种场景直接相关",
-    "score": 73,
-    "summary": "行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境。来源期刊/会议：Energies。 Explosion resistance is one of the most important performances for all flameproof enclosures. Pressure piling require（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "relevance_status": "潜在相关（需核实机器人应用）",
-    "rule_category": "硬件与防爆",
     "rule_confidence": "high",
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
@@ -54746,39 +53669,6 @@
         "changed_at": "2026-10-20"
       }
     ]
-  },
-  {
-    "id": "f5bf6c08ac3090fe31",
-    "title": "Study on the Explosion-proof Failure of Press-pack Power Moducle Shell",
-    "url": "https://doi.org/10.1109/peas53589.2021.9628542",
-    "source": "Crossref",
-    "type": "论文（摘要）",
-    "description": "来源期刊/会议：2021 IEEE 1st International Power Electronics and Application Symposium (PEAS)。",
-    "published": "2021-11-13",
-    "first_seen": "2026-10-18T05:53:45.163608+00:00",
-    "doi": "10.1109/peas53589.2021.9628542",
-    "category": "特种应用与产品",
-    "classification_confidence": "待复核",
-    "classification_reason": "元数据不足，临时标记待复核（不视为应用领域确认）",
-    "needs_review": true,
-    "tags": [
-      "特种应用与产品"
-    ],
-    "industry_tags": [
-      "防爆石化与危险环境"
-    ],
-    "scope": "特种场景直接相关",
-    "score": 77,
-    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：防爆石化与危险环境。来源期刊/会议：2021 IEEE 1st International Power Electronics and Application Symposium (PEAS)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "relevance_status": "直接相关",
-    "rule_category": "特种应用与产品",
-    "rule_confidence": "low",
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "review_priority": "P2",
-    "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
   },
   {
     "id": "c4d6986d7cde488bea",
