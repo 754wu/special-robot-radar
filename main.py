@@ -696,6 +696,29 @@ def llm_enrich(items: list[dict]) -> None:
             print(f"[WARN] LLM batch skipped: {ex}", file=sys.stderr)
 
 
+def preserve_model_classification(item, previous):
+    """Keep a reviewed category when title and abstract have not changed."""
+    if not previous or not previous.get("model_applied"):
+        return item
+    if any(previous.get(k) != item.get(k) for k in ("title", "description")):
+        return item
+    if previous.get("category") not in KEYWORDS:
+        return item
+    rule_category = item["category"]
+    for key in ("model_applied", "rule_category", "model_classification_reason",
+                "model_reviewed_at", "classification_history", "model_previous_confidence"):
+        if key in previous:
+            item[key] = previous[key]
+    item["category"] = previous["category"]
+    item["rule_category"] = rule_category
+    item["classification_reason"] = previous.get("model_classification_reason", "")
+    item["classification_confidence"] = "模型复核（待抽查）"
+    item["needs_review"] = False
+    item["tags"] = list(dict.fromkeys([item["category"], rule_category] +
+                      [x for x in item.get("tags", []) if x not in KEYWORDS]))[:6]
+    return item
+
+
 def load_history() -> dict[str, dict]:
     if not DB.exists():
         return {}
@@ -1110,7 +1133,7 @@ def main() -> None:
     for original in old.values():
         refreshed = rule_enrich(dict(original), cfg)
         if refreshed is not None:
-            seen[refreshed["id"]] = refreshed
+            seen[refreshed["id"]] = preserve_model_classification(refreshed, original)
     new_items = []
     for raw in candidates:
         prev = seen.get(raw["id"])
@@ -1125,7 +1148,7 @@ def main() -> None:
         # particular, never restore an old LLM category after reclassification.
         if item["id"] not in seen:
             new_items.append(item)
-        seen[item["id"]] = item
+        seen[item["id"]] = preserve_model_classification(item, prev)
     llm_enrich(sorted(new_items, key=lambda x: x["score"], reverse=True))
     # Keep the configured number of calendar months, subject to storage cap.
     cutoff = months_ago(months)
