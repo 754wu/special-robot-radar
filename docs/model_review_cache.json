@@ -822,5 +822,61 @@
     "main_contribution": "硬件与防爆",
     "model_confidence": "HIGH",
     "source": "OpenRouter free router (metadata only)"
+  },
+  "bf3275c44117745c4d2a27c21bc477fe86d5123d154d39339183d610d75d9c98": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "改进蛇机器人步态用于SLAM，提出头部稳定控制方法，属于低层运动控制贡献。",
+    "needs_review": false,
+    "main_contribution": "改进蛇机器人步态用于SLAM，提出头部稳定控制方法，属于低层运动控制贡献",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "26f668f72065699036d0202ed265bfd684e69a7f4fbe843c751e0ec08801dba2": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "提出统一低层技能控制架构，集成移动攀爬防跌倒等技能，属于运动控制贡献。",
+    "needs_review": false,
+    "main_contribution": "提出统一低层技能控制架构，集成移动攀爬防跌倒等技能，属于运动控制贡献",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "bd2cc85fce263f83c072775e2e4653f156cc6015526d8acb29b48b8f58c8efcc": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "提出分层强化学习框架实现障碍规避与导航，属于导航策略学习贡献。",
+    "needs_review": false,
+    "main_contribution": "提出分层强化学习框架实现障碍规避与导航，属于导航策略学习贡献",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "fa419aa45c7c76635d5af2ef5d1ef162acf2e797e6d0e79637f43d5eb3da516b": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "提出频解耦状态空间低光增强模型，面向矿端实时视觉处理",
+    "needs_review": true,
+    "main_contribution": "MineSSM低光增强模型",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "cf5016ed6b117384f82419f6b60b7a405490c35bab847e364384849c5db3e8fc": {
+    "primary_category": "特种应用与产品",
+    "secondary_categories": [],
+    "reason": "综述矿山救援机器人平台及恶劣环境设计部署要求",
+    "needs_review": false,
+    "main_contribution": "矿山救援机器人平台与设计要求综述",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "aac26753c8cf936fee9c8a53237a907e138ae9ad938e5af6ecb2239a85d19279": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "提出姿态感知视点采样与目标剪枝的语义探索系统",
+    "needs_review": true,
+    "main_contribution": "POSE姿态感知语义探索系统",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
   }
 }

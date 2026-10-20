@@ -941,5 +941,71 @@
     "changed_at": "2026-10-20T07:07:17.023171+00:00",
     "needs_review": true,
     "status": "model_pending_review"
+  },
+  {
+    "id": "2a6b85278378626e49",
+    "title": "Pose-aware Legged Robot Semantic Exploration with Omnidirectional Perception in Confined Unknown Environments",
+    "old_category": "感知建图与导航",
+    "new_category": "感知建图与导航",
+    "model_suggested_category": "感知建图与导航",
+    "reason": "提出姿态感知视点采样与目标剪枝的语义探索系统",
+    "changed_at": "2026-10-20T08:10:43.050727+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "4b11edead84bfc7130",
+    "title": "MineSSM: Frequency-Decoupled State-Space Modeling for Real-Time Low-Light Enhancement in Dusty Underground Mines",
+    "old_category": "特种应用与产品",
+    "new_category": "特种应用与产品",
+    "model_suggested_category": "感知建图与导航",
+    "reason": "提出频解耦状态空间低光增强模型，面向矿端实时视觉处理",
+    "changed_at": "2026-10-20T08:10:43.050727+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "913e935d13113756a6",
+    "title": "Robots in mine search and rescue operations: a review of platforms and design requirements",
+    "old_category": "特种应用与产品",
+    "new_category": "特种应用与产品",
+    "model_suggested_category": "特种应用与产品",
+    "reason": "综述矿山救援机器人平台及恶劣环境设计部署要求",
+    "changed_at": "2026-10-20T08:10:43.050727+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "d0d269c30a6a8bd514",
+    "title": "MUJICA: Multi-skill Unified Joint Integration of Control Architecture for Wheeled-Legged Robots",
+    "old_category": "小脑与运动控制",
+    "new_category": "小脑与运动控制",
+    "model_suggested_category": "小脑与运动控制",
+    "reason": "提出统一低层技能控制架构，集成移动攀爬防跌倒等技能，属于运动控制贡献。",
+    "changed_at": "2026-10-20T08:10:43.050727+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "c298ea3d5536a6f4f0",
+    "title": "Unleashing the Agility of Wheeled-Legged Robots for High-Dynamic Reflexive Obstacle Evasion",
+    "old_category": "感知建图与导航",
+    "new_category": "感知建图与导航",
+    "model_suggested_category": "感知建图与导航",
+    "reason": "提出分层强化学习框架实现障碍规避与导航，属于导航策略学习贡献。",
+    "changed_at": "2026-10-20T08:10:43.050727+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "262af43a2f2ac62e3c",
+    "title": "Simultaneous Localization and Mapping Methods for Snake-like Robots Based on Gait Adjustment",
+    "old_category": "小脑与运动控制",
+    "new_category": "小脑与运动控制",
+    "model_suggested_category": "小脑与运动控制",
+    "reason": "改进蛇机器人步态用于SLAM，提出头部稳定控制方法，属于低层运动控制贡献。",
+    "changed_at": "2026-10-20T08:10:43.050727+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
   }
 ]
