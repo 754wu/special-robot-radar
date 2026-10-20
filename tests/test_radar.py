@@ -837,6 +837,15 @@ class RadarTests(unittest.TestCase):
               "rule_category":"大脑与具身智能","rule_confidence":"high","needs_review":False}
         self.assertEqual(crosscheck_high_confidence(item)[0]["suggested_category"],"小脑与运动控制")
 
+    def test_bulk_pending_metadata_decisions(self):
+        from main import apply_manual_correction
+        cases=[["Design and motion planning of a compact direct-drive leg-wheel robot: DTransleg","硬件与防爆"],["Vision-and-Language Navigation for Human–Robot Collaboration: A Comprehensive Survey","感知建图与导航"],["One-degree-of-freedom planer link leg mechanisms design method for multi objectives through NSGA-II","硬件与防爆"],["Design of Husky V3","硬件与防爆"],["CLASH: Collaborative Large-Small Hierarchical Framework for Continuous Vision-and-Language Navigation","感知建图与导航"],["Development of a Leg-Wheel Quadruped Robot","硬件与防爆"],["Configuration Synthesis and Performance Analysis of 1T2R Decoupled Wheel-Legged Reconfigurable Mechanism","硬件与防爆"],["An Analysis of the Design and Kinematic Characteristics of an Octopedic Land–Air Bionic Robot","硬件与防爆"],["A Compact Reconfigurable Terrestrial-Aerial Robot With Foldable Mechanisms for Rolling, Crawling, and Flying","硬件与防爆"],["Development and Experimental Validation of a Novel Quadruped Robot with a Versatile Robotic Tail","硬件与防爆"],["Inlet duct inspection robot collision-avoidance intrusion trajectory planning","感知建图与导航"],["The control technique and modeling of quadruped robots","小脑与运动控制"],["Humanoid Robot for Firefighting Applications","特种应用与产品"],["Design and implementation of QUADRESCUE: A ROS-based quadruped robot for disaster response support","特种应用与产品"],["A Review of Exploration of the Stable Operation Principle of Quadruped Robots in Complex Terrains","小脑与运动控制"],["Static and Thermal Analysis Using the CFD-FEA Method of the Electronic Enclosure for an EOD Robot","硬件与防爆"],["An unobtrusive RF Sensing Solution For Passive Human-Robot Interaction Verification","感知建图与导航"],["Design and Research of Pharmacy Management Robot Based on Artificial Intelligence","特种应用与产品"]]
+        for title,category in cases:
+            with self.subTest(title=title):
+                item=apply_manual_correction({"title":title,"category":"特种应用与产品","needs_review":True,"tags":[]})
+                self.assertEqual(item["category"],category)
+                self.assertFalse(item["needs_review"])
+
     def test_filter_config_reject_score(self):
         item = make_item('Wheel-legged quadruped locomotion', 'https://example.org/w',
                          'arXiv API', '论文（摘要）', 'robot locomotion and motion control')
