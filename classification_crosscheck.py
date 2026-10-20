@@ -65,6 +65,11 @@ def crosscheck_high_confidence(item):
 def apply_crosschecks(items):
     """Recompute conflict state on every refresh; do not override manual or model labels."""
     for item in items:
+        # Pending model decisions must not be reset by rule crosschecks.
+        if item.get("model_reviewed_uncertain"):
+            item["crosscheck_conflicts"]=[]
+            item["crosscheck_pending"]=False
+            continue
         conflicts=crosscheck_high_confidence(item)
         item["crosscheck_conflicts"]=conflicts
         if conflicts:
