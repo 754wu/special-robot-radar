@@ -60,7 +60,7 @@ jobs:
       - name: Free OpenRouter advisory review (cached, no paid fallback)
         env:
           RADAR_MODEL_API_KEY: ${{ secrets.RADAR_MODEL_API_KEY }}
-          RADAR_LLM_REQUEST_BUDGET: '40'
+          RADAR_LLM_REQUEST_BUDGET: '20'
         run: python llm_review.py
       - name: Audit all classified resources
         run: python audit_classifications.py

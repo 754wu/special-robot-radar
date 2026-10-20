@@ -210,6 +210,20 @@ def prioritize_reviews(items, cache, now):
     return sum(lanes,[]),len(lanes[0]),len(lanes[1])+len(lanes[2])
 
 
+
+def priority_batches(items, batch_size=3, p4_request_cap=5):
+    """Never mix priorities; P4 is limited to five requests / 15 items."""
+    p4_used=0
+    for priority in ("P0","P1","P2","P3","P4"):
+        lane=[item for item in items if item.get("review_priority")==priority]
+        for offset in range(0,len(lane),batch_size):
+            if priority=="P4":
+                if p4_used>=p4_request_cap:
+                    break
+                p4_used+=1
+            yield lane[offset:offset+batch_size]
+
+
 def apply_model_result(item, result, at):
     """Valid model output is displayed provisionally even when uncertain."""
     if (not item.get("needs_review") and item.get("review_priority")!="P4") or item.get("model_applied") or item.get("manual_category_override"):
@@ -295,7 +309,7 @@ def main():
     for key in retry_keys:cache.pop(key,None)
     sampled_ids={str(x.get("id")) for x in pending if x.get("review_priority")=="P4"}
     # Requests, including failed attempts, count toward the daily budget.
-    budget=max(0,min(40,int(os.getenv("RADAR_LLM_REQUEST_BUDGET","40"))))
+    budget=max(0,min(20,int(os.getenv("RADAR_LLM_REQUEST_BUDGET","20"))))
     token=os.getenv("RADAR_MODEL_API_KEY","")
     reviewed=0
     attempts=0
@@ -308,10 +322,9 @@ def main():
             from openai import OpenAI
             from openai import APIStatusError, RateLimitError, AuthenticationError, PermissionDeniedError, NotFoundError
             client=OpenAI(api_key=token,base_url=URL,timeout=40,max_retries=0)
-            for offset in range(0,len(pending),3):
+            for batch in priority_batches(pending):
                 if attempts >= budget:
                     break
-                batch=pending[offset:offset+3]
                 attempts += 1
                 records=[{"index":i+1,"title":str(item.get("title",""))[:220],
                           "abstract":str(item.get("description",""))[:900],
