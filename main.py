@@ -644,7 +644,7 @@ def rule_enrich(item: dict, config: dict | None = None) -> dict | None:
                        clean_text(item.get("description", ""), 135) +
                        "（仅按标题/摘要/仓库简介筛选，未验证实际部署。）")
     item["analysis_level"] = "主要研究贡献分类（元数据规则；待复核需人工检查）"
-    return item
+    return apply_manual_correction(item)
 
 
 def llm_enrich(items: list[dict]) -> None:
@@ -696,9 +696,50 @@ def llm_enrich(items: list[dict]) -> None:
             print(f"[WARN] LLM batch skipped: {ex}", file=sys.stderr)
 
 
+MANUAL_CORRECTIONS = {
+    "perceptive behavior foundation model: adapting human motion priors to robot-centric terrain": "小脑与运动控制",
+    "the design of firefighting robot based on the fuzzy pid algorithm": "小脑与运动控制",
+    "inspection and firefighting robot based on improved svm algorithm in ship automation engine room": "感知建图与导航",
+    "cad-based optimization of the medium-sized unmanned ground vehicle": "硬件与防爆",
+}
+
+
+def apply_manual_correction(item):
+    target = MANUAL_CORRECTIONS.get(" ".join(str(item.get("title") or "").lower().split()))
+    if not target:
+        return item
+    previous=item.get("category")
+    item["category"]=target
+    item["manual_category_override"]=True
+    item["manual_override_reason"]="人工核查：主要研究贡献对应目标技术类别"
+    item["classification_confidence"]="人工核查"
+    item["classification_reason"]=item["manual_override_reason"]
+    item["needs_review"]=False
+    item["model_applied"]=False
+    item["tags"]=list(dict.fromkeys([target]+[x for x in item.get("tags",[]) if x not in KEYWORDS]))[:6]
+    if previous!=target and not any(e.get("status")=="manual_correction" and e.get("new_category")==target for e in item.get("classification_history",[])):
+        item["classification_history"]=list(item.get("classification_history") or [])+[{"old_category":previous,"new_category":target,"status":"manual_correction","reason":item["manual_override_reason"],"changed_at":"2026-10-20"}]
+    return item
+
+
 def preserve_model_classification(item, previous):
     """Keep a reviewed category when title and abstract have not changed."""
-    if not previous or not previous.get("model_applied"):
+    if item.get("manual_category_override"):
+        return item
+    if not previous:
+        return item
+    if previous.get("manual_category_override"):
+        item.update({k:previous[k] for k in ("category","manual_category_override","manual_override_reason","classification_history","classification_confidence") if k in previous})
+        item["needs_review"]=False
+        return item
+    if previous.get("model_reviewed_uncertain") or (previous.get("model_applied") and previous.get("needs_review")):
+        item["model_reviewed_uncertain"]=True
+        item["model_applied"]=False
+        item["model_suggested_category"]=previous.get("model_suggested_category",previous.get("category"))
+        item["needs_review"]=True
+        item["classification_confidence"]="规则分类（模型待复核）"
+        return item
+    if not previous.get("model_applied"):
         return item
     if any(previous.get(k) != item.get(k) for k in ("title", "description")):
         return item

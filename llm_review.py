@@ -171,7 +171,7 @@ def prioritize_reviews(items, cache, now):
 
 
 def apply_model_result(item, result, at):
-    """Persist a model category even if the model requests further review."""
+    """Uncertain model output is advisory; retain rule category and review flag."""
     if not item.get("needs_review") or item.get("model_applied"):
         return None
     if not isinstance(result,dict):
@@ -187,21 +187,25 @@ def apply_model_result(item, result, at):
                bool(result.get("evidence_warning")) or
                not evidence_supported(item,reason))
     event={"id":item.get("id"),"title":item.get("title"),
-           "old_category":old,"new_category":new,
+           "old_category":old,"new_category":old if uncertain else new,
+           "model_suggested_category":new,
            "reason":reason,"changed_at":at,
            "needs_review":uncertain,
            "status":"model_pending_review" if uncertain else "model_applied"}
-    item["model_applied"]=True
+    item["model_applied"]=not uncertain
+    item["model_reviewed_uncertain"]=uncertain
+    item["model_suggested_category"]=new
     item["rule_category"]=old
     item["model_classification_reason"]=reason
     item["model_reviewed_at"]=at
     item["model_previous_confidence"]=item.get("classification_confidence")
     item["classification_history"]=list(item.get("classification_history") or [])+[event]
-    item["category"]=new
-    item["classification_confidence"]="模型建议（待复核）" if uncertain else "模型复核（待抽查）"
-    item["classification_reason"]=reason
+    item["category"]=old if uncertain else new
+    item["classification_confidence"]="规则分类（模型待复核）" if uncertain else "模型复核（待抽查）"
+    if not uncertain:
+        item["classification_reason"]=reason
     item["needs_review"]=uncertain
-    item["tags"]=list(dict.fromkeys([new,old]+
+    item["tags"]=list(dict.fromkeys(([old] if uncertain else [new,old])+
                   [tag for tag in item.get("tags",[]) if tag not in CATEGORIES]))[:6]
     return event
 
@@ -341,13 +345,14 @@ def main():
     if changes:
         history.extend(changes)
         history_path.write_text(json.dumps(history,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
-    lines=["# 免费大模型辅助分类审核","","此结果仅供复核，不会自动覆盖规则主分类。","",
+    lines=["# 免费大模型辅助分类审核","","确定结果可用于改类；不确定则保留规则分类并继续待复核。","",
            f"- 规则分类资源：{len(items)}",
            f"- 具有当前分类版本模型建议：{reviewed_records}",
            f"- 本次新增建议：{reviewed}",
            f"- 当日新增待复核候选：{fresh_count}",
            f"- 历史待复核候选：{historical_count}",
-           f"- 本次自动修改主分类：{len(changes)}",
+           f"- 本次处理已有模型建议：{len(changes)}",
+           f"- 本次实际改变主分类：{sum(x[\x27old_category\x27] != x[\x27new_category\x27] for x in changes)}",
            f"- 本次API调用次数：{attempts}",
            f"- 本次理论最大审核数：{attempts*3}",
            f"- 本次有效输出率：{(reviewed/(attempts*3)*100 if attempts else 0):.1f}%",
