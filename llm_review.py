@@ -417,7 +417,7 @@ def main():
            f"- 本次应用审核建议：{len(changes)}",
            f"- 本次新增独立审核事件：{len(new_events)}",
            f"- 累计历史审核事件（去重）：{len(unique_history(history+new_events))}",
-           f"- 累计涉及不同资源：{len(set(str(x.get(\x27id\x27)) for x in unique_history(history+new_events)))}",
+           "- 累计涉及不同资源："+str(len({str(x.get("id")) for x in unique_history(history+new_events)})),
            "- 本次实际改变主分类："+str(sum(x["old_category"] != x["new_category"] for x in changes)),
            f"- 本次API调用次数：{attempts}",
            f"- 本次理论最大审核数：{attempts*3}",
