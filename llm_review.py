@@ -226,7 +226,7 @@ def main():
     if token and budget and pending:
         try:
             from openai import OpenAI
-            from openai import RateLimitError, AuthenticationError, PermissionDeniedError, NotFoundError
+            from openai import APIStatusError, RateLimitError, AuthenticationError, PermissionDeniedError, NotFoundError
             client=OpenAI(api_key=token,base_url=URL,timeout=40,max_retries=0)
             for offset in range(0,len(pending),3):
                 if attempts >= budget:
@@ -294,8 +294,16 @@ def main():
                         print("[WARN] batch incomplete:",missing,"of",len(batch))
                 except (RateLimitError,AuthenticationError,PermissionDeniedError,NotFoundError) as ex:
                     failure("quota_auth_or_unavailable_model")
-                    print("[WARN] OpenRouter cannot serve model:",type(ex).__name__)
+                    print("[WARN] OpenRouter quota, rate limit or access restriction:",type(ex).__name__)
                     break
+                except APIStatusError as ex:
+                    if ex.status_code in (402, 429):
+                        failure("quota_or_rate_limit")
+                        print("[WARN] OpenRouter quota exhausted or rate limited; stopping review, continuing publication.",ex.status_code)
+                        break
+                    failure("api_status_"+str(ex.status_code))
+                    print("[WARN] OpenRouter API error; skipping batch:",ex.status_code)
+                    continue
                 except Exception as ex:
                     code=str(ex) if isinstance(ex,ValueError) else type(ex).__name__
                     failure(code)
