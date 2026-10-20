@@ -554,6 +554,30 @@ class RadarTests(unittest.TestCase):
         self.assertEqual(diag["shape"],"pipe_like")
         self.assertNotIn("文本",str(diag))
 
+    def test_fresh_review_priority_and_model_override(self):
+        from llm_review import prioritize_reviews, apply_model_result
+        from main import preserve_model_classification
+        from datetime import datetime, timezone
+        now=datetime(2026,10,20,tzinfo=timezone.utc)
+        old={"id":"old","first_seen":"2026-10-01T12:00:00+00:00","needs_review":True}
+        fresh={"id":"new","first_seen":"2026-10-20T01:00:00+00:00","needs_review":True}
+        queue, recent, prior=prioritize_reviews([old,fresh],{},now)
+        self.assertEqual([r["id"] for r in queue],["new","old"])
+        self.assertEqual((recent,prior),(1,1))
+        item={"id":"new","title":"VLM robot skill planner",
+              "description":"A VLM robot agent uses language instruction to select skills for autonomous navigation. "*3,
+              "category":"感知建图与导航","needs_review":True,"tags":["感知建图与导航"]}
+        result={"primary_category":"大脑与具身智能","needs_review":False,
+                "reason":"视觉语言模型执行技能调度与高层导航任务规划"}
+        event=apply_model_result(item,result,"2026-10-20T02:00:00+00:00")
+        self.assertIsNotNone(event)
+        refreshed=dict(item,category="感知建图与导航",model_applied=False,needs_review=True)
+        refreshed.pop("classification_history",None)
+        preserved=preserve_model_classification(refreshed,item)
+        self.assertEqual(preserved["category"],"大脑与具身智能")
+        changed=dict(refreshed,description="changed")
+        self.assertEqual(preserve_model_classification(changed,item)["category"],"感知建图与导航")
+
     def test_filter_config_reject_score(self):
         item = make_item('Wheel-legged quadruped locomotion', 'https://example.org/w',
                          'arXiv API', '论文（摘要）', 'robot locomotion and motion control')
