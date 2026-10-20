@@ -211,7 +211,7 @@ def prioritize_reviews(items, cache, now):
 
 
 def apply_model_result(item, result, at):
-    """Uncertain model output is advisory; retain rule category and review flag."""
+    """Valid model output is displayed provisionally even when uncertain."""
     if (not item.get("needs_review") and item.get("review_priority")!="P4") or item.get("model_applied") or item.get("manual_category_override"):
         return None
     if not isinstance(result,dict):
@@ -233,7 +233,7 @@ def apply_model_result(item, result, at):
     if conflict:
         result["contribution_conflict"]=conflict
     event={"id":item.get("id"),"title":item.get("title"),
-           "old_category":old,"new_category":old if uncertain else new,
+           "old_category":old,"new_category":new,
            "model_suggested_category":new,
            "reason":reason,"changed_at":at,
            "needs_review":uncertain,
@@ -245,17 +245,16 @@ def apply_model_result(item, result, at):
     item["model_suggested_category"]=new
     item["model_main_contribution"]=result.get("main_contribution","")
     item["model_contribution_conflict"]=conflict
-    item["rule_category"]=old
+    item["rule_category"]=item.get("rule_category") or old
     item["model_classification_reason"]=reason
     item["model_reviewed_at"]=at
     item["model_previous_confidence"]=item.get("classification_confidence")
     item["classification_history"]=list(item.get("classification_history") or [])+[event]
-    item["category"]=old if uncertain else new
-    item["classification_confidence"]="规则分类（模型待复核）" if uncertain else "模型复核（待抽查）"
-    if not uncertain:
-        item["classification_reason"]=reason
+    item["category"]=new
+    item["classification_confidence"]="模型建议（待复核）" if uncertain else "模型复核（待抽查）"
+    item["classification_reason"]=reason
     item["needs_review"]=uncertain
-    item["tags"]=list(dict.fromkeys(([old] if uncertain else [new,old])+
+    item["tags"]=list(dict.fromkeys([new,item["rule_category"]]+
                   [tag for tag in item.get("tags",[]) if tag not in CATEGORIES]))[:6]
     return event
 

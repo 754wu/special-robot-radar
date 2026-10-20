@@ -709,7 +709,7 @@ class RadarTests(unittest.TestCase):
                   "main_contribution":"四足机器人步态控制与强化学习",
                   "reason":"四足机器人运动控制研究使用强化学习训练步态策略"}
         result=apply_model_result(item,proposal,"2026-10-20")
-        self.assertEqual(item["category"],"小脑与运动控制")
+        self.assertEqual(item["category"],"大脑与具身智能")
         self.assertTrue(item["needs_review"])
         self.assertFalse(item["model_applied"])
         self.assertEqual(result["status"],"model_pending_review")
@@ -845,6 +845,32 @@ class RadarTests(unittest.TestCase):
                 item=apply_manual_correction({"title":title,"category":"特种应用与产品","needs_review":True,"tags":[]})
                 self.assertEqual(item["category"],category)
                 self.assertFalse(item["needs_review"])
+
+    def test_uncertain_model_category_persists_and_retries_independently(self):
+        from llm_review import apply_model_result,prioritize_reviews
+        from main import preserve_model_classification
+        from datetime import datetime,timezone
+        paper={"id":"provisional","title":"Quadruped robot gait control",
+               "description":"Robot gait control with policy learning",
+               "category":"小脑与运动控制","rule_category":"小脑与运动控制",
+               "rule_confidence":"high","needs_review":True}
+        result={"primary_category":"大脑与具身智能","model_confidence":"LOW",
+                "main_contribution":"四足机器人步态控制",
+                "needs_review":True,"reason":"论文涉及机器人步态策略学习但贡献存在争议"}
+        event=apply_model_result(paper,result,"2026-10-15T00:00:00+00:00")
+        self.assertEqual(event["new_category"],"大脑与具身智能")
+        self.assertEqual(paper["category"],"大脑与具身智能")
+        self.assertTrue(paper["needs_review"])
+        refreshed=preserve_model_classification({"title":paper["title"],
+                "description":paper["description"],"category":"小脑与运动控制",
+                "rule_category":"小脑与运动控制","needs_review":True,"tags":[]},paper)
+        self.assertEqual(refreshed["category"],"大脑与具身智能")
+        self.assertEqual(refreshed["rule_category"],"小脑与运动控制")
+        queue,_,_=prioritize_reviews([refreshed],{},datetime(2026,10,20,tzinfo=timezone.utc))
+        self.assertEqual(queue[0]["review_priority"],"P3")
+        apply_model_result(refreshed,result,"2026-10-20T00:00:00+00:00")
+        self.assertEqual(refreshed["model_review_attempts"],2)
+        self.assertTrue(refreshed["manual_review_required"])
 
     def test_filter_config_reject_score(self):
         item = make_item('Wheel-legged quadruped locomotion', 'https://example.org/w',
