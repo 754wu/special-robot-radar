@@ -1,6 +1,6 @@
 # 特种机器人七日技术简报
 
-生成时间：2026-10-20T06:25:38.917539+00:00
+生成时间：2026-10-20T06:34:33.444116+00:00
 
 最近 7 天首次记录 **1448** 条；本轮新增 **0** 条；总库存 **1668** 条。
 
@@ -67,8 +67,6 @@
 
 - [Learning-enabled collaborative intelligence in search and rescue robotics: a survey of paradigms, models, and challenges](https://doi.org/10.3389/frobt.2026.1832982) | 论文（摘要） | 特种场景直接相关 | 匹配度 76/100
   - 行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：消防与应急救援。来源期刊/会议：Frontiers in Robotics and AI。Search and Rescue (SAR) robotics increasingly depends on collaborative intelligence to operate eff（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [DR-VLA: Learning Human-Like Quadruped Navigation from Egocentric Web Videos via Domain-Invariant Scene Representations](https://doi.org/10.48550/arxiv.2610.18373) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 74/100
-  - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。Quadruped robots performing outdoor deliveries must interpret complex scenes, anticipate changes, an（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Don't Run with Scissors: Pruning Breaks VLA Models but They Can Be Recovered](https://arxiv.org/abs/2510.08464) | 论文（摘要） | 特种场景直接相关 | 匹配度 72/100
   - 行业筛选：特种场景直接相关；方向：大脑与具身智能；关联：野外与特种地形。arXiv:2510.08464v2 Announce Type: replace Abstract: Vision-Language-Action (VLA) models are a promising paradigm for field robotics, bu（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [A Survey of Map Construction and Management Methods for Single Embodied Agents](https://doi.org/10.3390/s26196242) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 65/100
@@ -81,6 +79,8 @@
   - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：IEEE Robotics and Automation Letters。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Robot Learning with Vision-Language-Action Models for Agricultural Manipulation](https://arxiv.org/abs/2610.26717) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 64/100
   - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.26717v1 Announce Type: new Abstract: Robotic manipulation in agricultural environments remains challenging due to variations（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [An intelligent mission-oriented and situation aware quadruped robot: a novel embodied explainable AI approach](https://doi.org/10.1117/12.2664019) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 64/100
+  - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Unmanned Systems Technology XXV。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 感知建图与导航
 

@@ -3,17 +3,17 @@
 确定结果可用于改类；不确定则保留规则分类并继续待复核。
 
 - 规则分类资源：1668
-- 具有当前分类版本模型建议：57
+- 具有当前分类版本模型建议：52
 - 本次新增建议：0
 - 当日新增待复核候选：8
 - 历史待复核候选：425
-- 本次处理已有模型建议：28
+- 本次处理已有模型建议：25
 - 本次实际改变主分类：0
 - 本次API调用次数：1
 - 本次理论最大审核数：3
 - 本次有效输出率：0.0%
 - 固定免费模型：openrouter/free
-- 规则与模型主分类不一致：11
+- 规则与模型主分类不一致：10
 
 ## 失败原因统计
 
@@ -26,7 +26,6 @@
 
 - hu-zlatan/embodied-ai-radar: 大脑与具身智能 -> 大脑与具身智能
 - AI-Enhanced Radiation Classification in ROS: 基础软件与系统 -> 基础软件与系统
-- A Heterogeneous UAV UGV Methodology for Aerial Tracking of Mini Autonomous Cars: 特种应用与产品 -> 特种应用与产品
 - CondenseVLA: Learnable History Condensation for Efficient Multi-Frame VLA: 大脑与具身智能 -> 大脑与具身智能
 - Time-JEPA: Grounding Video World Models with Physical Time Series: 小脑与运动控制 -> 小脑与运动控制
 - Unifying Embodied Foundation Models via a Model-to-Policy Formulation: 大脑与具身智能 -> 大脑与具身智能
@@ -36,14 +35,12 @@
 - MorphAct: Robot Policies Morphing with the Worlds They Act In: 小脑与运动控制 -> 小脑与运动控制
 - LIME: Learning Intent-aware Camera Motion from Egocentric Video: 小脑与运动控制 -> 小脑与运动控制
 - Modeling and Understanding Neural Weights of Humanoid Policies with Diffusion: 小脑与运动控制 -> 小脑与运动控制
-- FACT: A Multimodal Force-Action-Track Foundation Model for Human-to-Robot Dexterity: 大脑与具身智能 -> 大脑与具身智能
 - Active Generative Simulation: Meta-Learning What to Simulate for Sim-and-Real Policy Co-Training: 基础软件与系统 -> 基础软件与系统
 - ConTrack: Constrained Hand Motion Tracking with Adaptive Trade-off Control: 小脑与运动控制 -> 小脑与运动控制
 - Learning Self-Orchestration in Decentralized Agent Swarms: 感知建图与导航 -> 感知建图与导航
 - Value-Preserving Action Quantization: 小脑与运动控制 -> 小脑与运动控制
 - Noise Space Learning for VLA Adaptation: 大脑与具身智能 -> 大脑与具身智能
 - BT-Agent: Deploying Onboard Robot Agents with Behavior Trees and Multi-Fidelity Evaluation: 大脑与具身智能 -> 大脑与具身智能
-- Mapless, Stabilizing, and Anti-Stuck Flipper Control for Articulated Tracked Robots: 感知建图与导航 -> 感知建图与导航
 - Design and Control of the "QuadBoat": A Quadruped Surface Vehicle for Drowning Rescue: 小脑与运动控制 -> 小脑与运动控制
 - Lessons from the Field: A Case Study of Robotic Intervention in an Industrial Emergency: 特种应用与产品 -> 特种应用与产品
 - HORIZON: Recoverability-Governed Curriculum for Physical-Domain Scaling: 小脑与运动控制 -> 小脑与运动控制
@@ -62,7 +59,6 @@
 - MorphAct: Robot Policies Morphing with the Worlds They Act In | 规则：小脑与运动控制 | 模型：大脑与具身智能 | 理由：基于交互语境的策略参数动态调整，体现具身智能中的语境感知与自适应能力。 | https://arxiv.org/abs/2610.20019
 - LIME: Learning Intent-aware Camera Motion from Egocentric Video | 规则：小脑与运动控制 | 模型：大脑与具身智能 | 理由：语言意识相机运动生成，旨在通过意图感知提升具身代理感知与行动能力。 | https://arxiv.org/abs/2607.02417
 - Learning Self-Orchestration in Decentralized Agent Swarms | 规则：感知建图与导航 | 模型：大脑与具身智能 | 理由：研究去中心化智能体群的自组织与高层协同，属于多智能体决策与具身智能。 | https://doi.org/10.48550/arxiv.2610.22322
-- Mapless, Stabilizing, and Anti-Stuck Flipper Control for Articulated Tracked Robots | 规则：感知建图与导航 | 模型：小脑与运动控制 | 理由：利用惯性测量和关节角实现无地图翻转控制方法 | https://arxiv.org/abs/2610.13838
 - HORIZON: Recoverability-Governed Curriculum for Physical-Domain Scaling | 规则：小脑与运动控制 | 模型：大脑与具身智能 | 理由：提出基于可恢复性的物理域扩展课程，提升具身智能策略泛化。 | http://arxiv.org/abs/2606.05143v1
 - Implementation and Feedback Controller of Mobile Platform for Hammering Inspection Robot | 规则：特种应用与产品 | 模型：小脑与运动控制 | 理由：移动平台反馈控制算法的运动控制实现与验证 | https://doi.org/10.1299/jsmeidecon.2023.0_29
 - Explosion-proof lithium-ion battery pack – In-depth investigation and experimental study on the design criteria | 规则：感知建图与导航 | 模型：硬件与防爆 | 理由：锂电池包防爆设计与实验研究，属硬件防爆类，非具身智能规划。 | https://doi.org/10.1016/j.energy.2022.123715

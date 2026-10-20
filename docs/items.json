@@ -28,7 +28,7 @@
     "model_suggested_category": "大脑与具身智能",
     "rule_category": "大脑与具身智能",
     "model_classification_reason": "具身智能资源导航图，非高层语言规划研究，属于文献与工具集合。",
-    "model_reviewed_at": "2026-10-20T06:25:38.782180+00:00",
+    "model_reviewed_at": "2026-10-20T06:34:33.335306+00:00",
     "model_previous_confidence": "规则分类（模型待复核）",
     "classification_history": [
       {
@@ -38,7 +38,7 @@
         "new_category": "大脑与具身智能",
         "model_suggested_category": "大脑与具身智能",
         "reason": "具身智能资源导航图，非高层语言规划研究，属于文献与工具集合。",
-        "changed_at": "2026-10-20T06:25:38.782180+00:00",
+        "changed_at": "2026-10-20T06:34:33.335306+00:00",
         "needs_review": true,
         "status": "model_pending_review"
       }
@@ -263,7 +263,7 @@
     "model_suggested_category": "特种应用与产品",
     "rule_category": "基础软件与系统",
     "model_classification_reason": "开发辐射同位素分类节点，并在无人地面车上完成采集与验证",
-    "model_reviewed_at": "2026-10-20T06:25:38.782180+00:00",
+    "model_reviewed_at": "2026-10-20T06:34:33.335306+00:00",
     "model_previous_confidence": "规则分类（模型待复核）",
     "classification_history": [
       {
@@ -273,7 +273,7 @@
         "new_category": "基础软件与系统",
         "model_suggested_category": "特种应用与产品",
         "reason": "开发辐射同位素分类节点，并在无人地面车上完成采集与验证",
-        "changed_at": "2026-10-20T06:25:38.782180+00:00",
+        "changed_at": "2026-10-20T06:34:33.335306+00:00",
         "needs_review": true,
         "status": "model_pending_review"
       }
@@ -335,36 +335,28 @@
     "description": "arXiv:2610.23878v1 Announce Type: new Abstract: Aerial tracking of autonomous ground vehicles can provide useful situational awareness in environments where fixed external perception infrastructure is unavailable. However, visual-only tracking from an unmanned aerial vehicle (UAV) is limited by camera field of view, viewpoint changes, occlusions, and temporary loss of target visibility. This paper presents a heterogeneous UAV--UGV methodology for aerial tracking of small-scale autonomous ground vehicles in simulation. The system is implemented in ROS~2 and Gazebo Sim using a Tello-like UAV equipped with a front-facing RGB camera and multiple LIMO-like unmanned ground vehicles (UGVs). Three approaches are evaluated: a training-free color-marker baseline, a YOLO-based visual baseline, and a proposed UAV--UGV fusion method. The proposed method uses the same visual detector as the YOLO basel",
     "published": "2026-10-20T04:00:00+00:00",
     "first_seen": "2026-10-20T05:59:57.797120+00:00",
-    "category": "特种应用与产品",
-    "classification_confidence": "规则分类（模型待复核）",
-    "classification_reason": "元数据不足，临时标记待复核（不视为应用领域确认）",
-    "needs_review": true,
+    "category": "感知建图与导航",
+    "classification_confidence": "人工核查",
+    "classification_reason": "研究无人机对地面车辆的空中目标跟踪方法，侧重感知跟踪而非整机产品。",
+    "needs_review": false,
     "tags": [
-      "特种应用与产品"
+      "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 64,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：特种应用与产品；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.23878v1 Announce Type: new Abstract: Aerial tracking of autonomous ground vehicles can provide useful situational awareness （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "model_reviewed_uncertain": true,
+    "manual_category_override": true,
+    "manual_override_reason": "研究无人机对地面车辆的空中目标跟踪方法，侧重感知跟踪而非整机产品。",
     "model_applied": false,
-    "model_suggested_category": "特种应用与产品",
-    "rule_category": "特种应用与产品",
-    "model_classification_reason": "融合无人机与地面车视觉跟踪，面向微型自主车辆实现空中追踪",
-    "model_reviewed_at": "2026-10-20T06:25:38.782180+00:00",
-    "model_previous_confidence": "规则分类（模型待复核）",
     "classification_history": [
       {
-        "id": "c9a1436c66d5dda5fc",
-        "title": "A Heterogeneous UAV UGV Methodology for Aerial Tracking of Mini Autonomous Cars",
         "old_category": "特种应用与产品",
-        "new_category": "特种应用与产品",
-        "model_suggested_category": "特种应用与产品",
-        "reason": "融合无人机与地面车视觉跟踪，面向微型自主车辆实现空中追踪",
-        "changed_at": "2026-10-20T06:25:38.782180+00:00",
-        "needs_review": true,
-        "status": "model_pending_review"
+        "new_category": "感知建图与导航",
+        "status": "manual_correction",
+        "reason": "研究无人机对地面车辆的空中目标跟踪方法，侧重感知跟踪而非整机产品。",
+        "changed_at": "2026-10-20"
       }
     ]
   },
@@ -423,12 +415,12 @@
     "description": "arXiv:2610.25130v1 Announce Type: new Abstract: Vision-language navigation is moving into photorealistic, physically simulated scenes, where the leading zero-shot agents put a vision-language model in the control loop to choose every move and stop. Robots favour small models, whose abilities are uneven: Qwen3-VL-4B can judge whether a single view looks like the goal, but its route reasoning is at chance, its distance estimates nearly constant, its stop votes unreliable. Our agent therefore asks it two perceptual questions per step, which direction looks like the goal and whether the view justifies stopping, plus one gated frontier query on route-bearing instructions, and treats the answers as evidence, not actions: a route-blind semantic field over a bird's-eye map accumulates the directional scores through a tempered update, a skeleton graph supplies frontiers and geodesic distances, an",
     "published": "2026-10-20T04:00:00+00:00",
     "first_seen": "2026-10-20T05:59:57.799787+00:00",
-    "category": "大脑与具身智能",
-    "classification_confidence": "模型复核（待抽查）",
-    "classification_reason": "以小型视觉语言模型融合语义场与图规划，实现零样本具身导航",
+    "category": "感知建图与导航",
+    "classification_confidence": "人工核查",
+    "classification_reason": "研究零样本视觉语言导航中的空间语义表示与路径规划，小型VLM仅为技术组件。",
     "needs_review": false,
     "tags": [
-      "大脑与具身智能",
+      "感知建图与导航",
       "VLM"
     ],
     "industry_tags": [],
@@ -436,24 +428,18 @@
     "score": 63,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.25130v1 Announce Type: new Abstract: Vision-language navigation is moving into photorealistic, physically simulated scenes, （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "model_applied": true,
-    "rule_category": "大脑与具身智能",
-    "model_classification_reason": "以小型视觉语言模型融合语义场与图规划，实现零样本具身导航",
-    "model_reviewed_at": "2026-10-20T06:10:01.655143+00:00",
+    "manual_category_override": true,
+    "manual_override_reason": "研究零样本视觉语言导航中的空间语义表示与路径规划，小型VLM仅为技术组件。",
+    "model_applied": false,
     "classification_history": [
       {
-        "id": "8599c4d7928cff1228",
-        "title": "Structure over Reasoning: Unified Zero-Shot Navigation with a Small Vision-Language Model",
         "old_category": "大脑与具身智能",
-        "new_category": "大脑与具身智能",
-        "model_suggested_category": "大脑与具身智能",
-        "reason": "以小型视觉语言模型融合语义场与图规划，实现零样本具身导航",
-        "changed_at": "2026-10-20T06:10:01.655143+00:00",
-        "needs_review": false,
-        "status": "model_applied"
+        "new_category": "感知建图与导航",
+        "status": "manual_correction",
+        "reason": "研究零样本视觉语言导航中的空间语义表示与路径规划，小型VLM仅为技术组件。",
+        "changed_at": "2026-10-20"
       }
-    ],
-    "model_previous_confidence": "待复核"
+    ]
   },
   {
     "id": "c1887f17d14ca9842e",
@@ -526,7 +512,7 @@
     "model_suggested_category": "大脑与具身智能",
     "rule_category": "大脑与具身智能",
     "model_classification_reason": "通过可学习历史压缩模块融合多帧视觉上下文，提升操作策略效率",
-    "model_reviewed_at": "2026-10-20T06:25:38.782180+00:00",
+    "model_reviewed_at": "2026-10-20T06:34:33.335306+00:00",
     "model_previous_confidence": "规则分类（模型待复核）",
     "classification_history": [
       {
@@ -536,7 +522,7 @@
         "new_category": "大脑与具身智能",
         "model_suggested_category": "大脑与具身智能",
         "reason": "通过可学习历史压缩模块融合多帧视觉上下文，提升操作策略效率",
-        "changed_at": "2026-10-20T06:25:38.782180+00:00",
+        "changed_at": "2026-10-20T06:34:33.335306+00:00",
         "needs_review": true,
         "status": "model_pending_review"
       }
@@ -665,7 +651,7 @@
     "model_suggested_category": "大脑与具身智能",
     "rule_category": "小脑与运动控制",
     "model_classification_reason": "以物理时间序列辅助视频世界模型，保持并学习跨域物理状态演化",
-    "model_reviewed_at": "2026-10-20T06:25:38.782180+00:00",
+    "model_reviewed_at": "2026-10-20T06:34:33.335306+00:00",
     "model_previous_confidence": "规则分类（模型待复核）",
     "classification_history": [
       {
@@ -675,7 +661,7 @@
         "new_category": "小脑与运动控制",
         "model_suggested_category": "大脑与具身智能",
         "reason": "以物理时间序列辅助视频世界模型，保持并学习跨域物理状态演化",
-        "changed_at": "2026-10-20T06:25:38.782180+00:00",
+        "changed_at": "2026-10-20T06:34:33.335306+00:00",
         "needs_review": true,
         "status": "model_pending_review"
       }
@@ -1088,7 +1074,7 @@
     "model_applied": false,
     "rule_category": "大脑与具身智能",
     "model_classification_reason": "统一具身基础模型概率公式，连接预训练与策略部署，属于大脑与具身智能。",
-    "model_reviewed_at": "2026-10-20T06:25:38.782180+00:00",
+    "model_reviewed_at": "2026-10-20T06:34:33.335306+00:00",
     "classification_history": [
       {
         "id": "b00869621ff5729ab5",
@@ -1130,6 +1116,17 @@
         "model_suggested_category": "大脑与具身智能",
         "reason": "统一具身基础模型概率公式，连接预训练与策略部署，属于大脑与具身智能。",
         "changed_at": "2026-10-20T06:25:38.782180+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      },
+      {
+        "id": "b00869621ff5729ab5",
+        "title": "Unifying Embodied Foundation Models via a Model-to-Policy Formulation",
+        "old_category": "大脑与具身智能",
+        "new_category": "大脑与具身智能",
+        "model_suggested_category": "大脑与具身智能",
+        "reason": "统一具身基础模型概率公式，连接预训练与策略部署，属于大脑与具身智能。",
+        "changed_at": "2026-10-20T06:34:33.335306+00:00",
         "needs_review": true,
         "status": "model_pending_review"
       }
@@ -1785,7 +1782,7 @@
     "model_applied": false,
     "rule_category": "小脑与运动控制",
     "model_classification_reason": "机械分析视语言动作跨注意力层的因果条件接口",
-    "model_reviewed_at": "2026-10-20T06:25:38.782180+00:00",
+    "model_reviewed_at": "2026-10-20T06:34:33.335306+00:00",
     "model_previous_confidence": "规则分类（模型待复核）",
     "classification_history": [
       {
@@ -1828,6 +1825,17 @@
         "model_suggested_category": "大脑与具身智能",
         "reason": "机械分析视语言动作跨注意力层的因果条件接口",
         "changed_at": "2026-10-20T06:25:38.782180+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      },
+      {
+        "id": "1058a19ac473d95927",
+        "title": "Causal Analysis of Robot Foundation Models Enables Efficiency Gains",
+        "old_category": "小脑与运动控制",
+        "new_category": "小脑与运动控制",
+        "model_suggested_category": "大脑与具身智能",
+        "reason": "机械分析视语言动作跨注意力层的因果条件接口",
+        "changed_at": "2026-10-20T06:34:33.335306+00:00",
         "needs_review": true,
         "status": "model_pending_review"
       }
@@ -2033,7 +2041,7 @@
     "model_applied": false,
     "rule_category": "大脑与具身智能",
     "model_classification_reason": "提出视语言动作一次性思考框架固定任务记忆联在线轻量执行器",
-    "model_reviewed_at": "2026-10-20T06:25:38.782180+00:00",
+    "model_reviewed_at": "2026-10-20T06:34:33.335306+00:00",
     "model_previous_confidence": "规则分类（模型待复核）",
     "classification_history": [
       {
@@ -2076,6 +2084,17 @@
         "model_suggested_category": "大脑与具身智能",
         "reason": "提出视语言动作一次性思考框架固定任务记忆联在线轻量执行器",
         "changed_at": "2026-10-20T06:25:38.782180+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      },
+      {
+        "id": "95b1353e5d1d80b3a8",
+        "title": "Fast-VLA: You Only Think Once for Robot Manipulation",
+        "old_category": "大脑与具身智能",
+        "new_category": "大脑与具身智能",
+        "model_suggested_category": "大脑与具身智能",
+        "reason": "提出视语言动作一次性思考框架固定任务记忆联在线轻量执行器",
+        "changed_at": "2026-10-20T06:34:33.335306+00:00",
         "needs_review": true,
         "status": "model_pending_review"
       }
@@ -2192,7 +2211,7 @@
     "model_applied": false,
     "rule_category": "小脑与运动控制",
     "model_classification_reason": "融合预训练VLA模型与遥操作进行策略引导，属于高层具身智能与自主决策范畴。",
-    "model_reviewed_at": "2026-10-20T06:25:38.782180+00:00",
+    "model_reviewed_at": "2026-10-20T06:34:33.335306+00:00",
     "model_previous_confidence": "规则分类（模型待复核）",
     "classification_history": [
       {
@@ -2235,6 +2254,17 @@
         "model_suggested_category": "大脑与具身智能",
         "reason": "融合预训练VLA模型与遥操作进行策略引导，属于高层具身智能与自主决策范畴。",
         "changed_at": "2026-10-20T06:25:38.782180+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      },
+      {
+        "id": "93046b173c195185a5",
+        "title": "SAPS: Shared Autonomy for Policy Steering by Blending Teleoperation with a Pretrained VLA",
+        "old_category": "小脑与运动控制",
+        "new_category": "小脑与运动控制",
+        "model_suggested_category": "大脑与具身智能",
+        "reason": "融合预训练VLA模型与遥操作进行策略引导，属于高层具身智能与自主决策范畴。",
+        "changed_at": "2026-10-20T06:34:33.335306+00:00",
         "needs_review": true,
         "status": "model_pending_review"
       }
@@ -2836,7 +2866,7 @@
     "model_applied": false,
     "rule_category": "小脑与运动控制",
     "model_classification_reason": "基于交互语境的策略参数动态调整，体现具身智能中的语境感知与自适应能力。",
-    "model_reviewed_at": "2026-10-20T06:25:38.782180+00:00",
+    "model_reviewed_at": "2026-10-20T06:34:33.335306+00:00",
     "model_previous_confidence": "规则分类（模型待复核）",
     "classification_history": [
       {
@@ -2879,6 +2909,17 @@
         "model_suggested_category": "大脑与具身智能",
         "reason": "基于交互语境的策略参数动态调整，体现具身智能中的语境感知与自适应能力。",
         "changed_at": "2026-10-20T06:25:38.782180+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      },
+      {
+        "id": "c4a7de98910de569f7",
+        "title": "MorphAct: Robot Policies Morphing with the Worlds They Act In",
+        "old_category": "小脑与运动控制",
+        "new_category": "小脑与运动控制",
+        "model_suggested_category": "大脑与具身智能",
+        "reason": "基于交互语境的策略参数动态调整，体现具身智能中的语境感知与自适应能力。",
+        "changed_at": "2026-10-20T06:34:33.335306+00:00",
         "needs_review": true,
         "status": "model_pending_review"
       }
@@ -2956,7 +2997,7 @@
     "model_applied": false,
     "rule_category": "小脑与运动控制",
     "model_classification_reason": "语言意识相机运动生成，旨在通过意图感知提升具身代理感知与行动能力。",
-    "model_reviewed_at": "2026-10-20T06:25:38.782180+00:00",
+    "model_reviewed_at": "2026-10-20T06:34:33.335306+00:00",
     "model_previous_confidence": "规则分类（模型待复核）",
     "classification_history": [
       {
@@ -2999,6 +3040,17 @@
         "model_suggested_category": "大脑与具身智能",
         "reason": "语言意识相机运动生成，旨在通过意图感知提升具身代理感知与行动能力。",
         "changed_at": "2026-10-20T06:25:38.782180+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      },
+      {
+        "id": "1e79933a5c5d6993fb",
+        "title": "LIME: Learning Intent-aware Camera Motion from Egocentric Video",
+        "old_category": "小脑与运动控制",
+        "new_category": "小脑与运动控制",
+        "model_suggested_category": "大脑与具身智能",
+        "reason": "语言意识相机运动生成，旨在通过意图感知提升具身代理感知与行动能力。",
+        "changed_at": "2026-10-20T06:34:33.335306+00:00",
         "needs_review": true,
         "status": "model_pending_review"
       }
@@ -3075,7 +3127,7 @@
     "model_applied": false,
     "rule_category": "小脑与运动控制",
     "model_classification_reason": "工作聚焦体重分布生成，属于运动控制范畴，非语言规划。",
-    "model_reviewed_at": "2026-10-20T06:25:38.782180+00:00",
+    "model_reviewed_at": "2026-10-20T06:34:33.335306+00:00",
     "model_previous_confidence": "规则分类（模型待复核）",
     "classification_history": [
       {
@@ -3120,6 +3172,17 @@
         "changed_at": "2026-10-20T06:25:38.782180+00:00",
         "needs_review": true,
         "status": "model_pending_review"
+      },
+      {
+        "id": "92dd4500b7dd8186ec",
+        "title": "Modeling and Understanding Neural Weights of Humanoid Policies with Diffusion",
+        "old_category": "小脑与运动控制",
+        "new_category": "小脑与运动控制",
+        "model_suggested_category": "小脑与运动控制",
+        "reason": "工作聚焦体重分布生成，属于运动控制范畴，非语言规划。",
+        "changed_at": "2026-10-20T06:34:33.335306+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
       }
     ],
     "model_reviewed_uncertain": true,
@@ -3134,12 +3197,12 @@
     "description": "arXiv:2610.19155v1 Announce Type: new Abstract: Human demonstrations offer a scalable alternative to costly robot data collection for dexterous manipulation, but most human datasets lack force measurements. Dexterous manipulation requires not only visual and proprioceptive understanding but also the ability to anticipate and regulate interaction forces. To scale force-aware human-robot co-training, we introduce EgoForce, a large-scale human tactile dataset capturing force-rich manipulation experience, and combine it with robot demonstrations for pretraining. We present FACT, a robot foundation model that cascades from prospective visual planning to force-aware refinement for dexterous manipulation. FACT comprises two jointly trained components. A Track-Guided Coarse Planner jointly predicts actions, future video, and visual tracks. Future video and visual tracks also provide a shared tas",
     "published": "2026-10-15T04:00:00+00:00",
     "first_seen": "2026-10-15T05:34:42.084421+00:00",
-    "category": "大脑与具身智能",
-    "classification_confidence": "规则分类（模型待复核）",
-    "classification_reason": "Agent 高层决策证据较弱",
-    "needs_review": true,
+    "category": "小脑与运动控制",
+    "classification_confidence": "人工核查",
+    "classification_reason": "动作及未来交互力联合预测与精细灵巧操作策略是主要技术成果，而非高层任务推理。",
+    "needs_review": false,
     "tags": [
-      "大脑与具身智能"
+      "小脑与运动控制"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -3194,10 +3257,19 @@
         "changed_at": "2026-10-20T06:25:38.782180+00:00",
         "needs_review": true,
         "status": "model_pending_review"
+      },
+      {
+        "old_category": "大脑与具身智能",
+        "new_category": "小脑与运动控制",
+        "status": "manual_correction",
+        "reason": "动作及未来交互力联合预测与精细灵巧操作策略是主要技术成果，而非高层任务推理。",
+        "changed_at": "2026-10-20"
       }
     ],
     "model_reviewed_uncertain": true,
-    "model_suggested_category": "大脑与具身智能"
+    "model_suggested_category": "大脑与具身智能",
+    "manual_category_override": true,
+    "manual_override_reason": "动作及未来交互力联合预测与精细灵巧操作策略是主要技术成果，而非高层任务推理。"
   },
   {
     "id": "f0c29e66cc75a8c7c3",
@@ -3245,7 +3317,7 @@
     "model_applied": false,
     "rule_category": "基础软件与系统",
     "model_classification_reason": "提出元学习模拟器生成策略，属基础软件系统，非语言规划。",
-    "model_reviewed_at": "2026-10-20T06:25:38.782180+00:00",
+    "model_reviewed_at": "2026-10-20T06:34:33.335306+00:00",
     "model_previous_confidence": "规则分类（模型待复核）",
     "classification_history": [
       {
@@ -3288,6 +3360,17 @@
         "model_suggested_category": "基础软件与系统",
         "reason": "提出元学习模拟器生成策略，属基础软件系统，非语言规划。",
         "changed_at": "2026-10-20T06:25:38.782180+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      },
+      {
+        "id": "8c72c61f3028e5efc3",
+        "title": "Active Generative Simulation: Meta-Learning What to Simulate for Sim-and-Real Policy Co-Training",
+        "old_category": "基础软件与系统",
+        "new_category": "基础软件与系统",
+        "model_suggested_category": "基础软件与系统",
+        "reason": "提出元学习模拟器生成策略，属基础软件系统，非语言规划。",
+        "changed_at": "2026-10-20T06:34:33.335306+00:00",
         "needs_review": true,
         "status": "model_pending_review"
       }
@@ -3402,7 +3485,7 @@
     "model_applied": false,
     "rule_category": "小脑与运动控制",
     "model_classification_reason": "聚焦于灵巧操作中的手部运动跟踪与约束控制，属于典型的运动控制与策略学习。",
-    "model_reviewed_at": "2026-10-20T06:25:38.782180+00:00",
+    "model_reviewed_at": "2026-10-20T06:34:33.335306+00:00",
     "model_previous_confidence": "规则分类（模型待复核）",
     "classification_history": [
       {
@@ -3445,6 +3528,17 @@
         "model_suggested_category": "小脑与运动控制",
         "reason": "聚焦于灵巧操作中的手部运动跟踪与约束控制，属于典型的运动控制与策略学习。",
         "changed_at": "2026-10-20T06:25:38.782180+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      },
+      {
+        "id": "a22d57229f28621033",
+        "title": "ConTrack: Constrained Hand Motion Tracking with Adaptive Trade-off Control",
+        "old_category": "小脑与运动控制",
+        "new_category": "小脑与运动控制",
+        "model_suggested_category": "小脑与运动控制",
+        "reason": "聚焦于灵巧操作中的手部运动跟踪与约束控制，属于典型的运动控制与策略学习。",
+        "changed_at": "2026-10-20T06:34:33.335306+00:00",
         "needs_review": true,
         "status": "model_pending_review"
       }
@@ -3527,7 +3621,7 @@
     "model_suggested_category": "大脑与具身智能",
     "rule_category": "感知建图与导航",
     "model_classification_reason": "研究去中心化智能体群的自组织与高层协同，属于多智能体决策与具身智能。",
-    "model_reviewed_at": "2026-10-20T06:25:38.782180+00:00",
+    "model_reviewed_at": "2026-10-20T06:34:33.335306+00:00",
     "model_previous_confidence": "规则分类（模型待复核）",
     "classification_history": [
       {
@@ -3537,7 +3631,7 @@
         "new_category": "感知建图与导航",
         "model_suggested_category": "大脑与具身智能",
         "reason": "研究去中心化智能体群的自组织与高层协同，属于多智能体决策与具身智能。",
-        "changed_at": "2026-10-20T06:25:38.782180+00:00",
+        "changed_at": "2026-10-20T06:34:33.335306+00:00",
         "needs_review": true,
         "status": "model_pending_review"
       }
@@ -4020,7 +4114,7 @@
     "model_applied": false,
     "rule_category": "小脑与运动控制",
     "model_classification_reason": "本文证明量化动作对值函数误差受状态可达性约束，确保价值保持，符合小脑与运动控制贡献。",
-    "model_reviewed_at": "2026-10-20T06:25:38.782180+00:00",
+    "model_reviewed_at": "2026-10-20T06:34:33.335306+00:00",
     "model_previous_confidence": "规则分类（模型待复核）",
     "classification_history": [
       {
@@ -4063,6 +4157,17 @@
         "model_suggested_category": "小脑与运动控制",
         "reason": "本文证明量化动作对值函数误差受状态可达性约束，确保价值保持，符合小脑与运动控制贡献。",
         "changed_at": "2026-10-20T06:25:38.782180+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      },
+      {
+        "id": "c591f034d4c196a180",
+        "title": "Value-Preserving Action Quantization",
+        "old_category": "小脑与运动控制",
+        "new_category": "小脑与运动控制",
+        "model_suggested_category": "小脑与运动控制",
+        "reason": "本文证明量化动作对值函数误差受状态可达性约束，确保价值保持，符合小脑与运动控制贡献。",
+        "changed_at": "2026-10-20T06:34:33.335306+00:00",
         "needs_review": true,
         "status": "model_pending_review"
       }
@@ -4288,12 +4393,12 @@
     "published": "2026-10-13",
     "first_seen": "2026-10-18T05:51:22.195375+00:00",
     "doi": "https://doi.org/10.48550/arxiv.2610.18373",
-    "category": "大脑与具身智能",
-    "classification_confidence": "模型复核（待抽查）",
-    "classification_reason": "通过域不变场景表示学习人类导航经验，实现四足机器人智能导航。",
+    "category": "感知建图与导航",
+    "classification_confidence": "人工核查",
+    "classification_reason": "摘要明确以四足机器人导航为核心，利用跨具身视觉表示学习导航策略，并非高层任务技能编排。",
     "needs_review": false,
     "tags": [
-      "大脑与具身智能",
+      "感知建图与导航",
       "VLA"
     ],
     "industry_tags": [],
@@ -4301,23 +4406,18 @@
     "score": 74,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。Quadruped robots performing outdoor deliveries must interpret complex scenes, anticipate changes, an（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "model_applied": true,
-    "rule_category": "大脑与具身智能",
-    "model_classification_reason": "通过域不变场景表示学习人类导航经验，实现四足机器人智能导航。",
-    "model_reviewed_at": "2026-10-20T02:18:21.790599+00:00",
+    "manual_category_override": true,
+    "manual_override_reason": "摘要明确以四足机器人导航为核心，利用跨具身视觉表示学习导航策略，并非高层任务技能编排。",
+    "model_applied": false,
     "classification_history": [
       {
-        "id": "1b1d1dbee5a012e675",
-        "title": "DR-VLA: Learning Human-Like Quadruped Navigation from Egocentric Web Videos via Domain-Invariant Scene Representations",
         "old_category": "大脑与具身智能",
-        "new_category": "大脑与具身智能",
-        "reason": "通过域不变场景表示学习人类导航经验，实现四足机器人智能导航。",
-        "changed_at": "2026-10-20T02:18:21.790599+00:00",
-        "needs_review": false,
-        "status": "model_applied"
+        "new_category": "感知建图与导航",
+        "status": "manual_correction",
+        "reason": "摘要明确以四足机器人导航为核心，利用跨具身视觉表示学习导航策略，并非高层任务技能编排。",
+        "changed_at": "2026-10-20"
       }
-    ],
-    "model_previous_confidence": "待复核"
+    ]
   },
   {
     "id": "c0d168273549e7b326",
@@ -4928,7 +5028,7 @@
     "model_applied": false,
     "rule_category": "大脑与具身智能",
     "model_classification_reason": "上下文噪聲分布學習視覺語言動作適應機制研究",
-    "model_reviewed_at": "2026-10-20T06:25:38.782180+00:00",
+    "model_reviewed_at": "2026-10-20T06:34:33.335306+00:00",
     "model_previous_confidence": "规则分类（模型待复核）",
     "classification_history": [
       {
@@ -4971,6 +5071,17 @@
         "model_suggested_category": "大脑与具身智能",
         "reason": "上下文噪聲分布學習視覺語言動作適應機制研究",
         "changed_at": "2026-10-20T06:25:38.782180+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      },
+      {
+        "id": "d96b83bf975ae8b56b",
+        "title": "Noise Space Learning for VLA Adaptation",
+        "old_category": "大脑与具身智能",
+        "new_category": "大脑与具身智能",
+        "model_suggested_category": "大脑与具身智能",
+        "reason": "上下文噪聲分布學習視覺語言動作適應機制研究",
+        "changed_at": "2026-10-20T06:34:33.335306+00:00",
         "needs_review": true,
         "status": "model_pending_review"
       }
@@ -5092,7 +5203,7 @@
     "model_applied": false,
     "rule_category": "大脑与具身智能",
     "model_classification_reason": "语言模型驱动具身代理行为树与多任务评估",
-    "model_reviewed_at": "2026-10-20T06:25:38.782180+00:00",
+    "model_reviewed_at": "2026-10-20T06:34:33.335306+00:00",
     "model_previous_confidence": "规则分类（模型待复核）",
     "classification_history": [
       {
@@ -5137,6 +5248,17 @@
         "changed_at": "2026-10-20T06:25:38.782180+00:00",
         "needs_review": true,
         "status": "model_pending_review"
+      },
+      {
+        "id": "1c8b2b2d27087b6269",
+        "title": "BT-Agent: Deploying Onboard Robot Agents with Behavior Trees and Multi-Fidelity Evaluation",
+        "old_category": "大脑与具身智能",
+        "new_category": "大脑与具身智能",
+        "model_suggested_category": "大脑与具身智能",
+        "reason": "语言模型驱动具身代理行为树与多任务评估",
+        "changed_at": "2026-10-20T06:34:33.335306+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
       }
     ],
     "model_reviewed_uncertain": true,
@@ -5151,18 +5273,18 @@
     "description": "arXiv:2610.13838v1 Announce Type: new Abstract: Nearly every autonomous or semi-autonomous flipper controller assumes access to an elevation map of the terrain under and in front of the robot. The terrain beneath the chassis is occluded in the sensors, so the map is remembered through odometry integration, whose drift corrupts it. We present Stabilizing Anti-Stuck (SAS), a mapless controller that combines a stabilization term for body roll and pitch with an anti-stuck term that frees the robot when it gets stuck. As input, SAS uses the IMU, the flipper joint angles, and a motion cue that only tells whether the robot is moving. The cue is computed over a short window and never accumulated, so SAS does not inherit the odometry-integration drift that corrupts the map. We deploy SAS on a tracked robot with four flippers and evaluate it against manual teleoperation and prior flipper controlle",
     "published": "2026-10-12T04:00:00+00:00",
     "first_seen": "2026-10-12T08:43:20.040145+00:00",
-    "category": "感知建图与导航",
+    "category": "小脑与运动控制",
     "tags": [
-      "感知建图与导航"
+      "小脑与运动控制"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 60,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.13838v1 Announce Type: new Abstract: Nearly every autonomous or semi-autonomous flipper controller assumes access to an elev（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "classification_confidence": "规则分类（模型待复核）",
-    "classification_reason": "导航/感知类别缺少题名中的明确研究任务",
-    "needs_review": true,
+    "classification_confidence": "人工核查",
+    "classification_reason": "核心技术为履带机器人翻转机构稳定控制与脱困动作控制，mapless不是建图创新。",
+    "needs_review": false,
     "model_applied": false,
     "rule_category": "感知建图与导航",
     "model_classification_reason": "利用惯性测量和关节角实现无地图翻转控制方法",
@@ -5211,10 +5333,19 @@
         "changed_at": "2026-10-20T06:25:38.782180+00:00",
         "needs_review": true,
         "status": "model_pending_review"
+      },
+      {
+        "old_category": "感知建图与导航",
+        "new_category": "小脑与运动控制",
+        "status": "manual_correction",
+        "reason": "核心技术为履带机器人翻转机构稳定控制与脱困动作控制，mapless不是建图创新。",
+        "changed_at": "2026-10-20"
       }
     ],
     "model_reviewed_uncertain": true,
-    "model_suggested_category": "小脑与运动控制"
+    "model_suggested_category": "小脑与运动控制",
+    "manual_category_override": true,
+    "manual_override_reason": "核心技术为履带机器人翻转机构稳定控制与脱困动作控制，mapless不是建图创新。"
   },
   {
     "id": "dfe68723c4038e24c4",
@@ -8833,7 +8964,7 @@
     "model_applied": false,
     "rule_category": "小脑与运动控制",
     "model_classification_reason": "逆运动学与级联MPC-PID控制实现四足水面车精准追踪，属于小脑与运动控制。",
-    "model_reviewed_at": "2026-10-20T06:25:38.782180+00:00",
+    "model_reviewed_at": "2026-10-20T06:34:33.335306+00:00",
     "model_previous_confidence": "规则分类（模型待复核）",
     "classification_history": [
       {
@@ -8876,6 +9007,17 @@
         "model_suggested_category": "小脑与运动控制",
         "reason": "逆运动学与级联MPC-PID控制实现四足水面车精准追踪，属于小脑与运动控制。",
         "changed_at": "2026-10-20T06:25:38.782180+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      },
+      {
+        "id": "bc60766eaa91c1ab6b",
+        "title": "Design and Control of the \"QuadBoat\": A Quadruped Surface Vehicle for Drowning Rescue",
+        "old_category": "小脑与运动控制",
+        "new_category": "小脑与运动控制",
+        "model_suggested_category": "小脑与运动控制",
+        "reason": "逆运动学与级联MPC-PID控制实现四足水面车精准追踪，属于小脑与运动控制。",
+        "changed_at": "2026-10-20T06:34:33.335306+00:00",
         "needs_review": true,
         "status": "model_pending_review"
       }
@@ -9377,7 +9519,7 @@
     "model_applied": false,
     "rule_category": "特种应用与产品",
     "model_classification_reason": "化工厂爆炸气体危险中，UGV定制操作工具开阀门，属特种应用与产品。",
-    "model_reviewed_at": "2026-10-20T06:25:38.782180+00:00",
+    "model_reviewed_at": "2026-10-20T06:34:33.335306+00:00",
     "model_previous_confidence": "规则分类（模型待复核）",
     "classification_history": [
       {
@@ -9420,6 +9562,17 @@
         "model_suggested_category": "特种应用与产品",
         "reason": "化工厂爆炸气体危险中，UGV定制操作工具开阀门，属特种应用与产品。",
         "changed_at": "2026-10-20T06:25:38.782180+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      },
+      {
+        "id": "c279fd0c695a65893f",
+        "title": "Lessons from the Field: A Case Study of Robotic Intervention in an Industrial Emergency",
+        "old_category": "特种应用与产品",
+        "new_category": "特种应用与产品",
+        "model_suggested_category": "特种应用与产品",
+        "reason": "化工厂爆炸气体危险中，UGV定制操作工具开阀门，属特种应用与产品。",
+        "changed_at": "2026-10-20T06:34:33.335306+00:00",
         "needs_review": true,
         "status": "model_pending_review"
       }
@@ -9542,7 +9695,7 @@
     "model_applied": false,
     "rule_category": "小脑与运动控制",
     "model_classification_reason": "提出基于可恢复性的物理域扩展课程，提升具身智能策略泛化。",
-    "model_reviewed_at": "2026-10-20T06:25:38.782180+00:00",
+    "model_reviewed_at": "2026-10-20T06:34:33.335306+00:00",
     "model_previous_confidence": "规则分类（模型待复核）",
     "classification_history": [
       {
@@ -9585,6 +9738,17 @@
         "model_suggested_category": "大脑与具身智能",
         "reason": "提出基于可恢复性的物理域扩展课程，提升具身智能策略泛化。",
         "changed_at": "2026-10-20T06:25:38.782180+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      },
+      {
+        "id": "7ca9b95be1ab48065a",
+        "title": "HORIZON: Recoverability-Governed Curriculum for Physical-Domain Scaling",
+        "old_category": "小脑与运动控制",
+        "new_category": "小脑与运动控制",
+        "model_suggested_category": "大脑与具身智能",
+        "reason": "提出基于可恢复性的物理域扩展课程，提升具身智能策略泛化。",
+        "changed_at": "2026-10-20T06:34:33.335306+00:00",
         "needs_review": true,
         "status": "model_pending_review"
       }
@@ -21222,7 +21386,7 @@
     "model_suggested_category": "感知建图与导航",
     "rule_category": "感知建图与导航",
     "model_classification_reason": "基于里程计辅助惯性的下孔定位与自主驾驶策略",
-    "model_reviewed_at": "2026-10-20T06:25:38.782180+00:00",
+    "model_reviewed_at": "2026-10-20T06:34:33.335306+00:00",
     "model_previous_confidence": "规则分类（模型待复核）",
     "classification_history": [
       {
@@ -21232,7 +21396,7 @@
         "new_category": "感知建图与导航",
         "model_suggested_category": "感知建图与导航",
         "reason": "基于里程计辅助惯性的下孔定位与自主驾驶策略",
-        "changed_at": "2026-10-20T06:25:38.782180+00:00",
+        "changed_at": "2026-10-20T06:34:33.335306+00:00",
         "needs_review": true,
         "status": "model_pending_review"
       }
@@ -22964,7 +23128,7 @@
     "model_suggested_category": "特种应用与产品",
     "rule_category": "特种应用与产品",
     "model_classification_reason": "该研究设计了一款基于HT32F52352的智能消防机器人平台，具有特种应用价值与商业潜力及实际应用前景。",
-    "model_reviewed_at": "2026-10-20T06:25:38.782180+00:00",
+    "model_reviewed_at": "2026-10-20T06:34:33.335306+00:00",
     "model_previous_confidence": "规则分类（模型待复核）",
     "classification_history": [
       {
@@ -22974,7 +23138,7 @@
         "new_category": "特种应用与产品",
         "model_suggested_category": "特种应用与产品",
         "reason": "该研究设计了一款基于HT32F52352的智能消防机器人平台，具有特种应用价值与商业潜力及实际应用前景。",
-        "changed_at": "2026-10-20T06:25:38.782180+00:00",
+        "changed_at": "2026-10-20T06:34:33.335306+00:00",
         "needs_review": true,
         "status": "model_pending_review"
       }
@@ -25703,7 +25867,7 @@
     "model_suggested_category": "特种应用与产品",
     "rule_category": "特种应用与产品",
     "model_classification_reason": "消防人机协作变量自主研究，属特种应用领域，证据充分。",
-    "model_reviewed_at": "2026-10-20T06:25:38.782180+00:00",
+    "model_reviewed_at": "2026-10-20T06:34:33.335306+00:00",
     "model_previous_confidence": "规则分类（模型待复核）",
     "classification_history": [
       {
@@ -25713,7 +25877,7 @@
         "new_category": "特种应用与产品",
         "model_suggested_category": "特种应用与产品",
         "reason": "消防人机协作变量自主研究，属特种应用领域，证据充分。",
-        "changed_at": "2026-10-20T06:25:38.782180+00:00",
+        "changed_at": "2026-10-20T06:34:33.335306+00:00",
         "needs_review": true,
         "status": "model_pending_review"
       }
@@ -32195,7 +32359,7 @@
     "model_suggested_category": "小脑与运动控制",
     "rule_category": "特种应用与产品",
     "model_classification_reason": "移动平台反馈控制算法的运动控制实现与验证",
-    "model_reviewed_at": "2026-10-20T06:25:38.782180+00:00",
+    "model_reviewed_at": "2026-10-20T06:34:33.335306+00:00",
     "model_previous_confidence": "规则分类（模型待复核）",
     "classification_history": [
       {
@@ -32205,7 +32369,7 @@
         "new_category": "特种应用与产品",
         "model_suggested_category": "小脑与运动控制",
         "reason": "移动平台反馈控制算法的运动控制实现与验证",
-        "changed_at": "2026-10-20T06:25:38.782180+00:00",
+        "changed_at": "2026-10-20T06:34:33.335306+00:00",
         "needs_review": true,
         "status": "model_pending_review"
       }
@@ -36179,7 +36343,7 @@
     "model_suggested_category": "硬件与防爆",
     "rule_category": "感知建图与导航",
     "model_classification_reason": "锂电池包防爆设计与实验研究，属硬件防爆类，非具身智能规划。",
-    "model_reviewed_at": "2026-10-20T06:25:38.782180+00:00",
+    "model_reviewed_at": "2026-10-20T06:34:33.335306+00:00",
     "model_previous_confidence": "规则分类（模型待复核）",
     "classification_history": [
       {
@@ -36189,7 +36353,7 @@
         "new_category": "感知建图与导航",
         "model_suggested_category": "硬件与防爆",
         "reason": "锂电池包防爆设计与实验研究，属硬件防爆类，非具身智能规划。",
-        "changed_at": "2026-10-20T06:25:38.782180+00:00",
+        "changed_at": "2026-10-20T06:34:33.335306+00:00",
         "needs_review": true,
         "status": "model_pending_review"
       }
