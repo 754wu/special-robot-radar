@@ -1,8 +1,8 @@
 # 特种机器人七日技术简报
 
-生成时间：2026-10-20T01:06:27.638081+00:00
+生成时间：2026-10-20T01:41:39.399070+00:00
 
-最近 7 天首次记录 **1325** 条；本轮新增 **1** 条；总库存 **1539** 条。
+最近 7 天首次记录 **1362** 条；本轮新增 **45** 条；总库存 **1582** 条。
 
 **注意：**‘七日’按首次入库时间统计，不代表论文发表于最近七天；相关度评分只是初筛优先级，不是成熟度或质量评级。
 
@@ -50,18 +50,18 @@
   - 行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：野外与特种地形。来源期刊/会议：Association Journal of Interdisciplinary Technics in Engineering Mechanics。This research presents a unique biologically motivat（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Adaptive gait planning for quadruped robot based on center of inertia over rough terrain](https://doi.org/10.1016/j.birob.2021.100031) | 论文（摘要） | 特种场景直接相关 | 匹配度 95/100
   - 行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：野外与特种地形。来源期刊/会议：Biomimetic Intelligence and Robotics。Controlling the quadruped robot for walking on a rough terrain without any visual percepti（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Embedded ML-based locomotion control for a 12-joint four-legged robot](https://doi.org/10.1177/17298806241285303) | 论文（摘要） | 特种场景直接相关 | 匹配度 92/100
+  - 行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：野外与特种地形。来源期刊/会议：International Journal of Advanced Robotic Systems。 Reinforcement learning has developed as a promising approach for robot locom（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Research on Motion Control Method of Wheel-Legged Robot in Unstructured Terrain Based on Improved Central Pattern Generator (CPG) and Biological Reflex Mechanism](https://doi.org/10.3390/app15158715) | 论文（摘要） | 特种场景直接相关 | 匹配度 91/100
   - 行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：工业与能源巡检、野外与特种地形。来源期刊/会议：Applied Sciences。 With the development of inspection robot control technology, wheel-legged robots are increasingly used in com（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Probabilistic Terrain Analysis Using Semantic Criteria for Legged Robot Locomotion](http://hdl.handle.net/10261/428167) | 论文（摘要） | 特种场景直接相关 | 匹配度 90/100
   - 行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：野外与特种地形。来源期刊/会议：DIGITAL.CSIC (Spanish National Research Council (CSIC))。In legged robotics locomotion, extracting comprehensive local informati（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Next generation legged robot locomotion: A review on control techniques](https://doi.org/10.1016/j.heliyon.2024.e37237) | 论文（摘要） | 特种场景直接相关 | 匹配度 90/100
   - 行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：消防与应急救援。来源期刊/会议：Heliyon。The next generation of autonomous-legged robots will herald a new era in the fields of manufacturing, healthcare, terra（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Rough terrain navigation for a quadruped robot using deep reinforcement learning-based blind locomotion control and a stuck-escape strategy](https://doi.org/10.1080/01691864.2025.2561643) | 论文（摘要） | 特种场景直接相关 | 匹配度 89/100
+  - 行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：野外与特种地形。来源期刊/会议：Advanced Robotics。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Motion control study of omnidirectional mobile robot for substation inspection](https://doi.org/10.1117/12.3052432) | 论文（摘要） | 特种场景直接相关 | 匹配度 87/100
   - 行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：工业与能源巡检。来源期刊/会议：International Workshop on Automation, Control, and Communication Engineering (IWACCE 2024)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [OP‐Follower: Onboard Vision‐Based Obstacle‐Aware Predictive Person Following for Quadruped Robots via IBVS‐NMPC Control](https://doi.org/10.1002/rob.70363) | 论文（摘要） | 特种场景直接相关 | 匹配度 85/100
-  - 行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：野外与特种地形。来源期刊/会议：Journal of Field Robotics。ABSTRACT This paper presents OP‐Follower , a fully onboard, pure vision‐based, obstacle‐aware person‐（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Design and Control Co-Optimization for Dynamic Loco-Manipulation With a Robotic Arm on a Quadruped Robot](https://doi.org/10.1115/1.4066852) | 论文（摘要） | 特种场景直接相关 | 匹配度 85/100
-  - 行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：消防与应急救援、工业与能源巡检。来源期刊/会议：Journal of Mechanisms and Robotics。Abstract Research in quadrupedal robotics is transitioning to studies into loco-manipulation（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 大脑与具身智能
 
@@ -131,4 +131,4 @@
 
 ## 五年历史补录进度
 
-已完成 343 / 363 项年度/主题定向查询，详见 [backfill_report.md](backfill_report.md)。
+已完成 348 / 363 项年度/主题定向查询，详见 [backfill_report.md](backfill_report.md)。

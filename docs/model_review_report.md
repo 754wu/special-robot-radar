@@ -2,18 +2,17 @@
 
 此结果仅供复核，不会自动覆盖规则主分类。
 
-- 规则分类资源：1539
-- 具有当前分类版本模型建议：15
-- 本次新增建议：15
+- 规则分类资源：1582
+- 具有当前分类版本模型建议：33
+- 本次新增建议：18
 - 本次API调用次数：6
 - 本次理论最大审核数：18
-- 本次有效输出率：83.3%
+- 本次有效输出率：100.0%
 - 固定免费模型：openrouter/free
-- 规则与模型主分类不一致：8
+- 规则与模型主分类不一致：10
 
 ## 失败原因统计
 
-- missing_or_invalid_batch_items: 1
 
 ## 安全诊断（不含模型原文）
 
@@ -28,3 +27,5 @@
 - ACRO: Actor-Critic Rollout Orchestration | 规则：小脑与运动控制 | 模型：大脑与具身智能 | 理由：基于语言意图的视觉语言动作策略编排与干预决策，属于具身智能范畴。 | https://arxiv.org/abs/2610.19677
 - MorphAct: Robot Policies Morphing with the Worlds They Act In | 规则：小脑与运动控制 | 模型：大脑与具身智能 | 理由：基于交互语境的策略参数动态调整，体现具身智能中的语境感知与自适应能力。 | https://arxiv.org/abs/2610.20019
 - LIME: Learning Intent-aware Camera Motion from Egocentric Video | 规则：小脑与运动控制 | 模型：大脑与具身智能 | 理由：语言意识相机运动生成，旨在通过意图感知提升具身代理感知与行动能力。 | https://arxiv.org/abs/2607.02417
+- Learning Self-Orchestration in Decentralized Agent Swarms | 规则：感知建图与导航 | 模型：大脑与具身智能 | 理由：研究去中心化智能体群的自组织与高层协同，属于多智能体决策与具身智能。 | https://doi.org/10.48550/arxiv.2610.22322
+- Learning-enabled collaborative intelligence in search and rescue robotics: a survey of paradigms, models, and challenges | 规则：小脑与运动控制 | 模型：大脑与具身智能 | 理由：综述搜救机器人协作智能，涉及多智能体决策与任务执行，属具身智能范畴。 | https://doi.org/10.3389/frobt.2026.1832982

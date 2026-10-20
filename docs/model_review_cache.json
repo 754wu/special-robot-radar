@@ -308,5 +308,137 @@
     "needs_review": true,
     "source": "OpenRouter free router (metadata only)",
     "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "45da7c505ae4a7db40d8ed6aa3e7773ea46b096964d6cccefaa3833923eadbd0": {
+    "primary_category": "大脑与具身智能",
+    "secondary_categories": [],
+    "reason": "研究VLA模型剪枝与恢复，属于大脑与具身智能领域的视觉语言动作模型。",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "65b459b31156ae6ac0054be0cf64c30f9d112af2b9cfa829e17392cb5feb10f8": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "多无人机协同侦察与无人车安全导航规划，核心属于感知建图与导航领域。",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "2e76d4ae471489d730ba5f81d67d7f15798f9977ce37178870fd91d663be1347": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "提出任务导向的环形记忆视觉航向估计方法，属于视觉导航与定位技术。",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "c8491766863f82ddc1c1bb7e6c7e58188cf340cc977d9f4c45621593301bb722": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "工作聚焦体重分布生成，属于运动控制范畴，非语言规划。",
+    "needs_review": true,
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "9e715aa90ea6b76ebcfe7f599cebd7a00c9cfb8917cc11fc8cdad85253a40ff5": {
+    "primary_category": "大脑与具身智能",
+    "secondary_categories": [],
+    "reason": "研究人力演示与力感知，属于具身智能，非语言规划。",
+    "needs_review": true,
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "779a22392bb5a8c4abbd30510f7b9f28327bf73077729b821d38a3902d10ad14": {
+    "primary_category": "基础软件与系统",
+    "secondary_categories": [],
+    "reason": "提出元学习模拟器生成策略，属基础软件系统，非语言规划。",
+    "needs_review": true,
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "c7fdf2ec51c5bbff2b1f5f35f1312bae1ba6ac531f5c0c4dd150b2782677f3e0": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "研究机器人运动策略的测试时自适应，涉及critic驱动的策略更新与运动控制。",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "58bf36898fd6b6698b185bece8f089c4c3fa27ff4937d5a057c8b65689c4ec1f": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "聚焦于灵巧操作中的手部运动跟踪与约束控制，属于典型的运动控制与策略学习。",
+    "needs_review": true,
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "92519b63e52d95462056af146668df9d95892062e440e9d58d1d92b1ba8c352c": {
+    "primary_category": "大脑与具身智能",
+    "secondary_categories": [],
+    "reason": "研究去中心化智能体群的自组织与高层协同，属于多智能体决策与具身智能。",
+    "needs_review": true,
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "2b32a045730cd8c1465d8e1294260c2b4efd2d8ac575da160445fcde58fc3664": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "FlowVLA在训练阶段引入3D流学习，使VLA模型具备动态理解，符合小脑与运动控制贡献。",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "9d0c98ed118a34ea3569d80d70817d4cc8f2021adec32a33016fc20c66a255f8": {
+    "primary_category": "大脑与具身智能",
+    "secondary_categories": [],
+    "reason": "ProWorld通过联合视频与状态预测，提供闭环评估环境，满足大脑与具身智能贡献。",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "3349036868e6b9c53e7752164e58447a43fa1551bbf4a749a0e82e9a07dad4c7": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "本文证明量化动作对值函数误差受状态可达性约束，确保价值保持，符合小脑与运动控制贡献。",
+    "needs_review": true,
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "937503fc3f7542cad678bfb342ff23b7f83d15287d723934ba6603f2c3e82775": {
+    "primary_category": "大脑与具身智能",
+    "secondary_categories": [],
+    "reason": "综述搜救机器人协作智能，涉及多智能体决策与任务执行，属具身智能范畴。",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "504e15857837cfa1b41cfb567ba734665ffc1a0be0b25531730a5a3356413eeb": {
+    "primary_category": "基础软件与系统",
+    "secondary_categories": [],
+    "reason": "ROS2内联防火墙网关，基于Rust与DDS域桥，实现流量检查与隔离。",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "703e37e90e6450a0b4505635c007239db476bdb94f4ba3eebdc27213485d401d": {
+    "primary_category": "基础软件与系统",
+    "secondary_categories": [],
+    "reason": "机器人工程一体化工作区，集成可视化调试诊断仿真，面向ROS2开发工作流。",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "b87dce333ad8a8e32e1fbb69e7c787386184b987f9b174cbfeee9f37b5a3d4c3": {
+    "primary_category": "基础软件与系统",
+    "secondary_categories": [],
+    "reason": "提供Android应用实现ROS2工具的可视化和遥控，属于基础软件系统。",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "ebd379e0ce7c713e18ada9869a8e66c492d6c0f026119509b06cb2b7071ceb1f": {
+    "primary_category": "大脑与具身智能",
+    "secondary_categories": [],
+    "reason": "通过域不变场景表示学习人类导航经验，实现四足机器人智能导航。",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "ca678226eba0795b50a8b03a78200eb835dba88dd5f29f79233722ced53e0a35": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "从少量人类演示学习机器人策略，用于快速适应新任务的运动控制。",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
   }
 }
