@@ -568,6 +568,8 @@ class RadarTests(unittest.TestCase):
               "description":"A VLM robot agent uses language instruction to select skills for autonomous navigation. "*3,
               "category":"感知建图与导航","needs_review":True,"tags":["感知建图与导航"]}
         result={"primary_category":"大脑与具身智能","needs_review":False,
+                "model_confidence":"HIGH",
+                "main_contribution":"视觉语言模型调用技能进行机器人任务规划",
                 "reason":"视觉语言模型执行技能调度与高层导航任务规划"}
         event=apply_model_result(item,result,"2026-10-20T02:00:00+00:00")
         self.assertIsNotNone(event)
