@@ -1,5 +1,55 @@
 [
   {
+    "id": "4aacbb7a71d6ed8922",
+    "title": "xfjcoder/wam",
+    "url": "https://github.com/xfjcoder/wam",
+    "source": "GitHub",
+    "type": "代码仓库更新",
+    "description": "Learned forward-dynamics world model for the Unitree Go2 quadruped: predict next state from (state, velocity-command), trained on real MuJoCo + classical-MPC rollouts, verified by open-loop autoregressive comparison.",
+    "published": "2026-10-20T02:49:31Z",
+    "first_seen": "2026-10-18T05:52:41.473985+00:00",
+    "stars": 0,
+    "license": false,
+    "repo_id": 1420404659,
+    "category": "小脑与运动控制",
+    "classification_confidence": "待复核",
+    "classification_reason": "运动控制类别缺少题名中的控制任务证据",
+    "needs_review": true,
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。Learned forward-dynamics world model for the Unitree Go2 quadruped: predict next state from (state, velocity-command), trained on real （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "397b2c7dde8f10ce6b",
+    "title": "abusumon/Morphological-and-Control-Evolution",
+    "url": "https://github.com/abusumon/Morphological-and-Control-Evolution",
+    "source": "GitHub",
+    "type": "代码仓库更新",
+    "description": "Memetic GA that co-evolves a quadruped’s CPG gait, leg length, and steering gains for box-pushing in PyBullet. First phase of a master’s plan on morphology-behavior co-design; documents overfitting and an inert local search.",
+    "published": "2026-10-20T02:17:09Z",
+    "first_seen": "2026-10-20T02:54:17.434336+00:00",
+    "stars": 1,
+    "license": true,
+    "repo_id": 1387400174,
+    "category": "小脑与运动控制",
+    "classification_confidence": "待复核",
+    "classification_reason": "运动控制类别缺少题名中的控制任务证据",
+    "needs_review": true,
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 60,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。Memetic GA that co-evolves a quadruped’s CPG gait, leg length, and steering gains for box-pushing in PyBullet. First phase of a master’（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "c019f7702a5eb624c7",
     "title": "hossam-salhin/AMR-IX1",
     "url": "https://github.com/hossam-salhin/AMR-IX1",
@@ -79,7 +129,6 @@
     "rule_category": "大脑与具身智能",
     "model_classification_reason": "具身智能资源导航图，非高层语言规划研究，属于文献与工具集合。",
     "model_reviewed_at": "2026-10-20T02:18:21.790599+00:00",
-    "model_previous_confidence": "待复核",
     "classification_history": [
       {
         "id": "0d6c65ca1222dca4b0",
@@ -91,32 +140,8 @@
         "needs_review": true,
         "status": "model_pending_review"
       }
-    ]
-  },
-  {
-    "id": "4aacbb7a71d6ed8922",
-    "title": "xfjcoder/wam",
-    "url": "https://github.com/xfjcoder/wam",
-    "source": "GitHub",
-    "type": "代码仓库更新",
-    "description": "Learned forward-dynamics world model for the Unitree Go2 quadruped: predict next state from (state, velocity-command), trained on real MuJoCo + classical-MPC rollouts, verified by open-loop autoregressive comparison.",
-    "published": "2026-10-19T22:32:05Z",
-    "first_seen": "2026-10-18T05:52:41.473985+00:00",
-    "stars": 0,
-    "license": false,
-    "repo_id": 1420404659,
-    "category": "小脑与运动控制",
-    "classification_confidence": "待复核",
-    "classification_reason": "运动控制类别缺少题名中的控制任务证据",
-    "needs_review": true,
-    "tags": [
-      "小脑与运动控制"
     ],
-    "industry_tags": [],
-    "scope": "可迁移的机器人关键技术",
-    "score": 62,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。Learned forward-dynamics world model for the Unitree Go2 quadruped: predict next state from (state, velocity-command), trained on real （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+    "model_previous_confidence": "待复核"
   },
   {
     "id": "a24b8f4299b9a102fe",
@@ -384,7 +409,6 @@
     "rule_category": "大脑与具身智能",
     "model_classification_reason": "统一具身基础模型概率公式，连接预训练与策略部署，属于大脑与具身智能。",
     "model_reviewed_at": "2026-10-20T02:18:21.790599+00:00",
-    "model_previous_confidence": "待复核",
     "classification_history": [
       {
         "id": "b00869621ff5729ab5",
@@ -396,7 +420,8 @@
         "needs_review": true,
         "status": "model_pending_review"
       }
-    ]
+    ],
+    "model_previous_confidence": "待复核"
   },
   {
     "id": "8ef1125406692b9dbc",
@@ -467,7 +492,6 @@
     "rule_category": "大脑与具身智能",
     "model_classification_reason": "视觉语言代理编写代码控制双臂机器人，通过日志自我修正，属于具身智能规划。",
     "model_reviewed_at": "2026-10-20T02:18:21.790599+00:00",
-    "model_previous_confidence": "待复核",
     "classification_history": [
       {
         "id": "6e62a0b105a0715cb2",
@@ -479,7 +503,8 @@
         "needs_review": false,
         "status": "model_applied"
       }
-    ]
+    ],
+    "model_previous_confidence": "待复核"
   },
   {
     "id": "b194e5931e7ff1fc3a",
@@ -590,7 +615,6 @@
     "rule_category": "大脑与具身智能",
     "model_classification_reason": "主要贡献是感知感知的人形行为基础模型，属于大脑与具身智能",
     "model_reviewed_at": "2026-10-20T02:18:21.790599+00:00",
-    "model_previous_confidence": "待复核",
     "classification_history": [
       {
         "id": "4d8ae61370e28c73be",
@@ -602,7 +626,8 @@
         "needs_review": true,
         "status": "model_pending_review"
       }
-    ]
+    ],
+    "model_previous_confidence": "待复核"
   },
   {
     "id": "d18a5f4b5791fcaea2",
@@ -628,7 +653,7 @@
     "model_applied": true,
     "rule_category": "感知建图与导航",
     "model_classification_reason": "主要贡献是从自我中心视觉预测触觉信息，属于感知建图与导航",
-    "model_reviewed_at": "2026-10-20T02:18:21.790599+00:00",
+    "model_reviewed_at": "2026-10-20T02:55:02.321420+00:00",
     "model_previous_confidence": "待复核",
     "classification_history": [
       {
@@ -637,7 +662,7 @@
         "old_category": "感知建图与导航",
         "new_category": "感知建图与导航",
         "reason": "主要贡献是从自我中心视觉预测触觉信息，属于感知建图与导航",
-        "changed_at": "2026-10-20T02:18:21.790599+00:00",
+        "changed_at": "2026-10-20T02:55:02.321420+00:00",
         "needs_review": false,
         "status": "model_applied"
       }
@@ -668,7 +693,6 @@
     "rule_category": "小脑与运动控制",
     "model_classification_reason": "主要贡献是基于失败引导的课程树搜索用于四足跑酷，属于小脑与运动控制",
     "model_reviewed_at": "2026-10-20T02:18:21.790599+00:00",
-    "model_previous_confidence": "待复核",
     "classification_history": [
       {
         "id": "0e64f0d22542be8c7c",
@@ -680,7 +704,8 @@
         "needs_review": false,
         "status": "model_applied"
       }
-    ]
+    ],
+    "model_previous_confidence": "待复核"
   },
   {
     "id": "c18f44925816cbb911",
@@ -2455,7 +2480,6 @@
     "rule_category": "感知建图与导航",
     "model_classification_reason": "研究去中心化智能体群的自组织与高层协同，属于多智能体决策与具身智能。",
     "model_reviewed_at": "2026-10-20T02:18:21.790599+00:00",
-    "model_previous_confidence": "待复核",
     "classification_history": [
       {
         "id": "b7767ac9725d829f47",
@@ -2467,7 +2491,8 @@
         "needs_review": true,
         "status": "model_pending_review"
       }
-    ]
+    ],
+    "model_previous_confidence": "待复核"
   },
   {
     "id": "69e61c4529817d0edd",
@@ -3027,7 +3052,6 @@
     "rule_category": "基础软件与系统",
     "model_classification_reason": "ROS2内联防火墙网关，基于Rust与DDS域桥，实现流量检查与隔离。",
     "model_reviewed_at": "2026-10-20T02:18:21.790599+00:00",
-    "model_previous_confidence": "待复核",
     "classification_history": [
       {
         "id": "0ea1a543c9ca3a3dca",
@@ -3039,7 +3063,8 @@
         "needs_review": false,
         "status": "model_applied"
       }
-    ]
+    ],
+    "model_previous_confidence": "待复核"
   },
   {
     "id": "62e5abafea4d1728b2",
@@ -3066,7 +3091,6 @@
     "rule_category": "基础软件与系统",
     "model_classification_reason": "机器人工程一体化工作区，集成可视化调试诊断仿真，面向ROS2开发工作流。",
     "model_reviewed_at": "2026-10-20T02:18:21.790599+00:00",
-    "model_previous_confidence": "待复核",
     "classification_history": [
       {
         "id": "62e5abafea4d1728b2",
@@ -3078,7 +3102,8 @@
         "needs_review": false,
         "status": "model_applied"
       }
-    ]
+    ],
+    "model_previous_confidence": "待复核"
   },
   {
     "id": "7e3ab91a00ade0e558",
@@ -3105,7 +3130,6 @@
     "rule_category": "基础软件与系统",
     "model_classification_reason": "提供Android应用实现ROS2工具的可视化和遥控，属于基础软件系统。",
     "model_reviewed_at": "2026-10-20T02:18:21.790599+00:00",
-    "model_previous_confidence": "待复核",
     "classification_history": [
       {
         "id": "7e3ab91a00ade0e558",
@@ -3117,7 +3141,8 @@
         "needs_review": false,
         "status": "model_applied"
       }
-    ]
+    ],
+    "model_previous_confidence": "待复核"
   },
   {
     "id": "7e991965be12d47e7d",
@@ -3196,7 +3221,6 @@
     "rule_category": "大脑与具身智能",
     "model_classification_reason": "通过域不变场景表示学习人类导航经验，实现四足机器人智能导航。",
     "model_reviewed_at": "2026-10-20T02:18:21.790599+00:00",
-    "model_previous_confidence": "待复核",
     "classification_history": [
       {
         "id": "1b1d1dbee5a012e675",
@@ -3208,7 +3232,8 @@
         "needs_review": false,
         "status": "model_applied"
       }
-    ]
+    ],
+    "model_previous_confidence": "待复核"
   },
   {
     "id": "c0d168273549e7b326",
@@ -3397,7 +3422,6 @@
     "rule_category": "小脑与运动控制",
     "model_classification_reason": "从少量人类演示学习机器人策略，用于快速适应新任务的运动控制。",
     "model_reviewed_at": "2026-10-20T02:18:21.790599+00:00",
-    "model_previous_confidence": "待复核",
     "classification_history": [
       {
         "id": "f93181f2be9f3b7fef",
@@ -3409,7 +3433,8 @@
         "needs_review": false,
         "status": "model_applied"
       }
-    ]
+    ],
+    "model_previous_confidence": "待复核"
   },
   {
     "id": "18482c9444b9297e34",
@@ -9425,7 +9450,6 @@
     "rule_category": "小脑与运动控制",
     "model_classification_reason": "论文聚焦无人车CAD多目标优化与运动控制系统集成，核心在于车辆设计与控制。",
     "model_reviewed_at": "2026-10-20T02:18:21.790599+00:00",
-    "model_previous_confidence": "待复核",
     "classification_history": [
       {
         "id": "3e4aebafbade10b53b",
@@ -9437,7 +9461,8 @@
         "needs_review": false,
         "status": "model_applied"
       }
-    ]
+    ],
+    "model_previous_confidence": "待复核"
   },
   {
     "id": "40f9aef40dcdba5397",
@@ -9689,7 +9714,6 @@
     "rule_category": "特种应用与产品",
     "model_classification_reason": "论文设计蜘蛛形六足机器人，用嵌入式系统和AI视觉进行灾难搜救，属特种应用。",
     "model_reviewed_at": "2026-10-20T02:18:21.790599+00:00",
-    "model_previous_confidence": "待复核",
     "classification_history": [
       {
         "id": "7db2a5ae63d78260e4",
@@ -9701,7 +9725,8 @@
         "needs_review": false,
         "status": "model_applied"
       }
-    ]
+    ],
+    "model_previous_confidence": "待复核"
   },
   {
     "id": "beb67f6823a013c6b0",
@@ -9876,7 +9901,6 @@
     "rule_category": "小脑与运动控制",
     "model_classification_reason": "论文提出地形条件对抗运动先验，用于四足机器人学习动作，属运动控制，未涉语言。",
     "model_reviewed_at": "2026-10-20T02:18:21.790599+00:00",
-    "model_previous_confidence": "待复核",
     "classification_history": [
       {
         "id": "0c1e21053446a05336",
@@ -9888,7 +9912,8 @@
         "needs_review": false,
         "status": "model_applied"
       }
-    ]
+    ],
+    "model_previous_confidence": "待复核"
   },
   {
     "id": "96d306d9ee08216dd9",
@@ -10427,7 +10452,6 @@
     "rule_category": "小脑与运动控制",
     "model_classification_reason": "论文通过坡度和朝向对四足机器人能耗建模，属于运动控制研究，未涉及语言代理规划。",
     "model_reviewed_at": "2026-10-20T02:18:21.790599+00:00",
-    "model_previous_confidence": "待复核",
     "classification_history": [
       {
         "id": "b6628c4d45745cefa9",
@@ -10439,7 +10463,8 @@
         "needs_review": false,
         "status": "model_applied"
       }
-    ]
+    ],
+    "model_previous_confidence": "待复核"
   },
   {
     "id": "fd1e97787db8d7c253",
@@ -12861,7 +12886,6 @@
     "rule_category": "感知建图与导航",
     "model_classification_reason": "论文提出融合多传感器的语义建图方法，实现环境感知与设施标注，属于感知建图与导航。",
     "model_reviewed_at": "2026-10-20T02:18:21.790599+00:00",
-    "model_previous_confidence": "待复核",
     "classification_history": [
       {
         "id": "4b1ea0d7a48fe2639d",
@@ -12873,7 +12897,8 @@
         "needs_review": false,
         "status": "model_applied"
       }
-    ]
+    ],
+    "model_previous_confidence": "待复核"
   },
   {
     "id": "befdac72cf3ab6ead6",
@@ -14875,6 +14900,29 @@
     "scope": "可迁移的机器人关键技术",
     "score": 64,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Results in Engineering。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "ed99ecc8b0393eb161",
+    "title": "Spatial multi-locomotion tensegrity mobile robot with modular design",
+    "url": "https://doi.org/10.1016/j.ijmecsci.2025.110501",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：International Journal of Mechanical Sciences。",
+    "published": "2025-09-01",
+    "first_seen": "2026-10-20T02:54:56.337086+00:00",
+    "doi": "10.1016/j.ijmecsci.2025.110501",
+    "category": "小脑与运动控制",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
+    "needs_review": false,
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 64,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：International Journal of Mechanical Sciences。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -19603,7 +19651,6 @@
     "rule_category": "特种应用与产品",
     "model_classification_reason": "论文设计实现搭载传感器的消防机器人原型，针对高危灭火场景，属于特种应用与产品。",
     "model_reviewed_at": "2026-10-20T02:18:21.790599+00:00",
-    "model_previous_confidence": "待复核",
     "classification_history": [
       {
         "id": "4edc12285a3cf29783",
@@ -19615,7 +19662,8 @@
         "needs_review": false,
         "status": "model_applied"
       }
-    ]
+    ],
+    "model_previous_confidence": "待复核"
   },
   {
     "id": "a87afd825a16d26b66",
@@ -19882,7 +19930,6 @@
     "rule_category": "感知建图与导航",
     "model_classification_reason": "基于里程计辅助惯性的下孔定位与自主驾驶策略",
     "model_reviewed_at": "2026-10-20T02:18:21.790599+00:00",
-    "model_previous_confidence": "待复核",
     "classification_history": [
       {
         "id": "c83c2162a28aa42920",
@@ -19894,7 +19941,8 @@
         "needs_review": true,
         "status": "model_pending_review"
       }
-    ]
+    ],
+    "model_previous_confidence": "待复核"
   },
   {
     "id": "7a7e9688413aa69c15",
@@ -21283,6 +21331,32 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "95fee6ef736bd235e9",
+    "title": "Oil and gas pipeline robot localization techniques: A review",
+    "url": "https://doi.org/10.1177/09544062241272431",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science。 Globally, pipelines are the primary means for transporting resources. To ensure the safety and reliability of pipeline transportation, it is essential to regularly use pipeline robots for inspections. Localization techniques for these robots are critical as they determine the real-time position and status of the robot inside the pipeline, playing an extremely important role in pipeline operations. Understanding the latest research trends in pipeline robot localization techniques can help advance the overall development of the pipeline field and reduce the potential for research duplication. This paper reviews the global developments in pipeline robot localization techniques over the past decade, categorizing them into three major methods: in-pipe localization, out-of-pipe lo",
+    "published": "2024-09-16",
+    "first_seen": "2026-10-20T02:54:51.015981+00:00",
+    "doi": "10.1177/09544062241272431",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为环境感知、定位、建图或导航",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航",
+      "特种应用与产品"
+    ],
+    "industry_tags": [
+      "防爆石化与危险环境"
+    ],
+    "scope": "特种场景直接相关",
+    "score": 77,
+    "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：防爆石化与危险环境。来源期刊/会议：Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science。 Globally, pipelines （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "562d7fc4e098c3cbf7",
     "title": "Magnetically Driven Quadruped Soft Robot with Multimodal Motion for Targeted Drug Delivery",
     "url": "https://doi.org/10.3390/biomimetics9090559",
@@ -21418,6 +21492,32 @@
     "scope": "可迁移的机器人关键技术",
     "score": 61,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Advanced Intelligent Systems。 This article presents a reactive planning and control framework to enhance the robustness of huma（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "18a0163d2e4c084cdc",
+    "title": "Mechanism design and mechanical analysis of pipeline inspection robot",
+    "url": "https://doi.org/10.1108/ir-07-2024-0301",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Industrial Robot: the international journal of robotics research and application。 Purpose This study aims to address the issues of limited pipe diameter adaptability and low inspection efficiency of current pipeline inspection robots, a new type of pipeline inspection robot capable of adapting to various pipe diameters was designed. Design/methodology/approach The diameter-changing mechanism uses a multilink elastic telescopic structure consisting of telescopic rods, connecting rods and wheel frames, driven by a single motor with a helical drive scheme. A geometric model of the position relationships of the hinge points was established based on the two extreme positions of the diameter-changing mechanism. Findings A pipeline inspection robot was designed using a simple linkage agency, which significantly reduced the weight of the robot and enhanced its adaptive pipe diameter abil",
+    "published": "2024-09-03",
+    "first_seen": "2026-10-20T02:54:51.016219+00:00",
+    "doi": "10.1108/ir-07-2024-0301",
+    "category": "硬件与防爆",
+    "classification_confidence": "高",
+    "classification_reason": "论文核心为机械结构、电机、执行器或防爆硬件的设计",
+    "needs_review": false,
+    "tags": [
+      "硬件与防爆",
+      "特种应用与产品"
+    ],
+    "industry_tags": [
+      "工业与能源巡检"
+    ],
+    "scope": "特种场景直接相关",
+    "score": 77,
+    "summary": "行业筛选：特种场景直接相关；方向：硬件与防爆；关联：工业与能源巡检。来源期刊/会议：Industrial Robot: the international journal of robotics research and application。 Purpose This study aims to address the issues（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -21569,7 +21669,6 @@
     "rule_category": "特种应用与产品",
     "model_classification_reason": "该研究设计了一款基于HT32F52352的智能消防机器人平台，具有特种应用价值与商业潜力及实际应用前景。",
     "model_reviewed_at": "2026-10-20T02:18:21.790599+00:00",
-    "model_previous_confidence": "待复核",
     "classification_history": [
       {
         "id": "704b2303aed996cfc1",
@@ -21581,7 +21680,8 @@
         "needs_review": true,
         "status": "model_pending_review"
       }
-    ]
+    ],
+    "model_previous_confidence": "待复核"
   },
   {
     "id": "27408a76ef4bb7fc71",
@@ -21920,7 +22020,6 @@
     "rule_category": "特种应用与产品",
     "model_classification_reason": "自主移动机器人执行灭火任务，属特种应用产品，证据充分。",
     "model_reviewed_at": "2026-10-20T02:18:21.790599+00:00",
-    "model_previous_confidence": "待复核",
     "classification_history": [
       {
         "id": "8c27d2bdd2a14eafad",
@@ -21932,7 +22031,8 @@
         "needs_review": false,
         "status": "model_applied"
       }
-    ]
+    ],
+    "model_previous_confidence": "待复核"
   },
   {
     "id": "3654b317788d8a25c9",
@@ -22998,7 +23098,6 @@
     "rule_category": "特种应用与产品",
     "model_classification_reason": "船舶机舱消防检测机器人，改进SVM算法，属特种应用，证据充分。",
     "model_reviewed_at": "2026-10-20T02:18:21.790599+00:00",
-    "model_previous_confidence": "待复核",
     "classification_history": [
       {
         "id": "d4ddad8d5bb2884b0a",
@@ -23010,7 +23109,8 @@
         "needs_review": false,
         "status": "model_applied"
       }
-    ]
+    ],
+    "model_previous_confidence": "待复核"
   },
   {
     "id": "3990f84d334fff5c74",
@@ -23634,7 +23734,6 @@
     "rule_category": "特种应用与产品",
     "model_classification_reason": "消防机器人模糊控制设计，属特种应用产品，非高层语言规划。",
     "model_reviewed_at": "2026-10-20T02:18:21.790599+00:00",
-    "model_previous_confidence": "待复核",
     "classification_history": [
       {
         "id": "88bff18ef148c46919",
@@ -23646,7 +23745,8 @@
         "needs_review": false,
         "status": "model_applied"
       }
-    ]
+    ],
+    "model_previous_confidence": "待复核"
   },
   {
     "id": "6de92eed120efe5da7",
@@ -24324,7 +24424,6 @@
     "rule_category": "特种应用与产品",
     "model_classification_reason": "消防人机协作变量自主研究，属特种应用领域，证据充分。",
     "model_reviewed_at": "2026-10-20T02:18:21.790599+00:00",
-    "model_previous_confidence": "待复核",
     "classification_history": [
       {
         "id": "eceec0cc81b08e3c69",
@@ -24336,7 +24435,8 @@
         "needs_review": true,
         "status": "model_pending_review"
       }
-    ]
+    ],
+    "model_previous_confidence": "待复核"
   },
   {
     "id": "6023aed6f3a94c853e",
@@ -24673,7 +24773,6 @@
     "rule_category": "特种应用与产品",
     "model_classification_reason": "提出了一个具备环境感知、火灾预测和智能灭火的多模态自主消防机器人系统，具有实际应用价值。",
     "model_reviewed_at": "2026-10-20T02:18:21.790599+00:00",
-    "model_previous_confidence": "待复核",
     "classification_history": [
       {
         "id": "3a98bf03a6cf8ba194",
@@ -24685,7 +24784,8 @@
         "needs_review": false,
         "status": "model_applied"
       }
-    ]
+    ],
+    "model_previous_confidence": "待复核"
   },
   {
     "id": "d148ecb49975410756",
@@ -27585,6 +27685,29 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "3f62b3f861cf71e1e4",
+    "title": "Gait planning and optimization of an 18 DOF quadruped robot with compliant shanks",
+    "url": "https://doi.org/10.1177/09544062231194893",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science。 Legged robots made of rigid links have disadvantages like poor energy efficiency and large impact forces during foot/terrain contact while walking on 3D uneven terrain. This paper proposes a unique design of an 18 DOF quadruped robot with compliant shanks. Compliance has been added to the quadruped by introducing a “c-section“ in the shank of each leg. The robot dynamics has been modeled using the projected Newton-Euler method, while the “Craig-Bampton Method” has been utilized to model the compliant shanks. Optimal body trajectory and foot placements while maintaining dynamic stability is obtained using an NLP based optimization strategy. A torque-based inverse dynamics control technique ensures that the quadruped follows the desired trajectory. The robot was simulated usin",
+    "published": "2023-09-06",
+    "first_seen": "2026-10-20T02:54:45.612079+00:00",
+    "doi": "10.1177/09544062231194893",
+    "category": "小脑与运动控制",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
+    "needs_review": false,
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 72,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science。 Legged robots made o（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "b4606fc082da28862f",
     "title": "Research on Automatic Path Planning Method of Warehouse Inspection Robot",
     "url": "https://doi.org/10.1080/08839514.2023.2252262",
@@ -27771,6 +27894,31 @@
     "scope": "可迁移的机器人关键技术",
     "score": 64,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：IET Conference Proceedings。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "f5762cb31b3449dce0",
+    "title": "Design and implementation of the wheel-clamping stay cable inspection robot",
+    "url": "https://doi.org/10.1177/16878132231194409",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Advances in Mechanical Engineering。 A new wheel-clamping type inspection robot for bridge stay cables was designed. Its clamping mechanism adopts a four-auxiliary-two-drive wheel clamping scheme, and the driving unit utilizes a single motor with double output shaft. A simple automatic control system of the robot was designed based on Arduino. Then, the diameter range of the stay cable that the robot can hold was calculated. The mechanical model of the robot under clamping condition was established. The curves for the minimum thrust F e and driving force F required by the robot under different stay cable diameters Φ and inclined angles γ were obtained through Matlab data processing. Based on Adams dynamic simulation, the appropriate shape and material of the wheel, the optimal position of the centroid distribution and how to improve the wind resistance of the wheel were determined",
+    "published": "2023-08-18",
+    "first_seen": "2026-10-20T02:54:45.611901+00:00",
+    "doi": "10.1177/16878132231194409",
+    "category": "特种应用与产品",
+    "classification_confidence": "待复核",
+    "classification_reason": "特种机器人应用系统，贡献边界待复核",
+    "needs_review": true,
+    "tags": [
+      "特种应用与产品"
+    ],
+    "industry_tags": [
+      "工业与能源巡检"
+    ],
+    "scope": "特种场景直接相关",
+    "score": 76,
+    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：Advances in Mechanical Engineering。 A new wheel-clamping type inspection robot for bridge stay cables was designed. Its clampin（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -30765,7 +30913,6 @@
     "rule_category": "特种应用与产品",
     "model_classification_reason": "移动平台反馈控制算法的运动控制实现与验证",
     "model_reviewed_at": "2026-10-20T02:18:21.790599+00:00",
-    "model_previous_confidence": "待复核",
     "classification_history": [
       {
         "id": "3d172c42f4a2626c0d",
@@ -30777,7 +30924,8 @@
         "needs_review": true,
         "status": "model_pending_review"
       }
-    ]
+    ],
+    "model_previous_confidence": "待复核"
   },
   {
     "id": "74410192a12fa3f411",
@@ -32336,6 +32484,29 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "b28e590af9d7e66493",
+    "title": "Walking locomotion of a cable-driven soft-legged robot",
+    "url": "https://doi.org/10.1177/09544062221135889",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science。 A soft quadruped robot that can perform linear locomotion and turning patterns is proposed. The silicone rubber legs were cable-actuated and powered by motors. First, the bending behavior of the soft legs under quasi-static conditions was studied, and then mathematical models for linear and turning motions were established based on gait analysis. The soft-legged robot can decouple linear and turning motions. Furthermore, slope walking and payload were experimentally tested. The results showed that the robot can conduct linear locomotion at a speed of 19.8 mm/s and turn with an angular velocity of 4.4°/s. In addition, it had a payload of up to 300 g, and performed well on a smooth surface with a 17° slope.",
+    "published": "2022-11-10",
+    "first_seen": "2026-10-20T02:54:40.248270+00:00",
+    "doi": "10.1177/09544062221135889",
+    "category": "小脑与运动控制",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
+    "needs_review": false,
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 65,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science。 A soft quadruped rob（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "a8fa33127b62fc9a14",
     "title": "Stewart-Inspired Vibration Isolation Control for a Wheel-legged Robot via Variable Target Force Impedance Control",
     "url": "https://doi.org/10.1007/s10846-022-01757-3",
@@ -32478,6 +32649,29 @@
     "scope": "特种场景直接相关",
     "score": 77,
     "summary": "行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境。来源期刊/会议：Energy Reports。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "9b2df03731f102d9a0",
+    "title": "Sistem Distribusi Data Kontrol Pada Differential Drive Mobile Robot Menggunakan Robot Operating System",
+    "url": "https://doi.org/10.33379/metrotech.v1i3.1803",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Metrotech (Journal of Mechanical and Electrical Technology)。 Pada umumnya mikrokontroler untuk menggerakkan sistem robot hanya menggunakan satu buah saja. Hal ini dapat mengakibatkan berlebihnya beban yang diterima oleh mikrokontroler. Kelebihan beban pada mikrokontroler mengakibatkan tidak akuratnya waktu sampling yang digunakan pada sistem robot tersebut dan dapat berujung pada error atau hank pada robot. Untuk mengurangi terjadinya error, maka diujicobakan sistem multikontroler pada robot Differential Drive(DDMR). Sistem distribusi data antar kontroler memanfaatkan protokol komunikasi serial I2C, dan komunikasi antara kontroler dengan mini komputer menggunakan protokol rosserial yang disediakan oleh Robot Operating System (ROS). Hasil yang didapatkan untuk melakukan distribusi data dengan serial I2C membutuhkan waktu sebesar 1.4 ms, sedangkan untuk melakukan komunikasi ketiga ",
+    "published": "2022-11-01",
+    "first_seen": "2026-10-20T02:54:40.248150+00:00",
+    "doi": "10.33379/metrotech.v1i3.1803",
+    "category": "基础软件与系统",
+    "classification_confidence": "高",
+    "classification_reason": "研究机器人软件、仿真或平台系统",
+    "needs_review": false,
+    "tags": [
+      "基础软件与系统"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 72,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Metrotech (Journal of Mechanical and Electrical Technology)。 Pada umumnya mikrokontroler untuk menggerakkan sistem robot hanya （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -33085,6 +33279,29 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "79addfd29e4bae262a",
+    "title": "Adaptive robot climbing with magnetic feet in unknown slippery structure",
+    "url": "https://doi.org/10.3389/frobt.2022.949460",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Frontiers in Robotics and AI。 Firm foot contact is the top priority of climbing robots to avoid catastrophic events, especially when working at height. This study proposes a robust planning and control framework for climbing robots that provides robustness to slippage in unknown environments. The framework includes 1) a center of mass (CoM) trajectory optimization under the estimated contact condition, 2) Kalman filter–like approach for uncertain environment parameter estimation and subsequent CoM trajectory re-planing, and 3) an online weight adaptation approach for whole-body control (WBC) framework that can adjust the ground reaction force (GRF) distribution in real time. Though the friction and adhesion characteristics are often assumed to be known, the presence of several factors that lead to a reduction in adhesion may cause critical problems for climbing robots. To address",
+    "published": "2022-08-29",
+    "first_seen": "2026-10-20T02:54:40.248068+00:00",
+    "doi": "10.3389/frobt.2022.949460",
+    "category": "硬件与防爆",
+    "classification_confidence": "待复核",
+    "classification_reason": "硬件类别缺少直接设计证据",
+    "needs_review": true,
+    "tags": [
+      "硬件与防爆"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：硬件与防爆；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Frontiers in Robotics and AI。 Firm foot contact is the top priority of climbing robots to avoid catastrophic events, especially（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "297b732b3669ee5ae2",
     "title": "Ground Traversability Estimation for Quadruped Robot with Modified DWA Algorithm",
     "url": "https://doi.org/10.1109/iconsip49665.2022.10007496",
@@ -33227,6 +33444,29 @@
     "scope": "可迁移的机器人关键技术",
     "score": 72,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Electronics Letters。 Abstract Stator wedge tightness inspection is one of the most important periodic inspections carried out o（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "5095a54f771615ca9a",
+    "title": "ROS-based remote control of industrial robot joystick",
+    "url": "https://doi.org/10.1177/09544062221115549",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science。 This study is interested in how to remotely control the industrial robot with a joystick. Thus, a robotic remote control system was designed. The developed system solved two key problems. One is to realize the information exchange between robot operating system (ROS) and control cabinet. A new application program interface (API) was developed to carry out the secondary development of industrial robots. Ethernet connection was used to exchange system data and the communication delay is less than 10 ms. The other is to improve the robot operation efficiency. Because of the joystick’s unique operation mode, the robot motion operation can be realized efficiently and reliably through a joystick as an external input device of ROS. Finally, the validating experiments were carried o",
+    "published": "2022-08-16",
+    "first_seen": "2026-10-20T02:54:40.248241+00:00",
+    "doi": "10.1177/09544062221115549",
+    "category": "基础软件与系统",
+    "classification_confidence": "待复核",
+    "classification_reason": "仅摘要含软件平台相关证据",
+    "needs_review": true,
+    "tags": [
+      "基础软件与系统"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science。 This study is intere（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -33489,6 +33729,32 @@
     "scope": "可迁移的机器人关键技术",
     "score": 62,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Frontiers in Robotics and AI。 In this paper we propose a new framework—MoViLan (Modular Vision and Language) for execution of v（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "beb51f59089c06ada1",
+    "title": "A review of mechanical model, structure, and prospect for long-distance pipeline pig and robot",
+    "url": "https://doi.org/10.1017/s026357472200090x",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Robotica。 Abstract The safety and reliability of robots are very important for the inspection in a long-distance pipeline used for the oil and gas transportation. In this paper, the long-distance pipeline pig and robots (LDPPRs) are classified into two categories, which are velocity-uncontrollable type and velocity-controllable type. Among them, the velocity control of velocity-controllable LDPPR has three ways, which are friction resistance, driving force, and self-running. Meanwhile, the mechanical models of the motion of the LDPPRs are classified into the dynamic model of the velocity-uncontrollable LDPPRs, velocity-controllable LDPPRs, and vibration, and the contact mechanics model between the rubber barrel and the pipe wall. In addition, the anti-stuck technologies, the inspection technologies, and the location technologies are investigated and analyzed. Thus, the purpose of",
+    "published": "2022-07-11",
+    "first_seen": "2026-10-20T02:54:40.247988+00:00",
+    "doi": "10.1017/s026357472200090x",
+    "category": "硬件与防爆",
+    "classification_confidence": "待复核",
+    "classification_reason": "硬件类别缺少直接设计证据",
+    "needs_review": true,
+    "tags": [
+      "硬件与防爆",
+      "特种应用与产品"
+    ],
+    "industry_tags": [
+      "防爆石化与危险环境"
+    ],
+    "scope": "特种场景直接相关",
+    "score": 71,
+    "summary": "行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境。来源期刊/会议：Robotica。 Abstract The safety and reliability of robots are very important for the inspection in a long-distance pipeline used （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -34628,7 +34894,6 @@
     "rule_category": "感知建图与导航",
     "model_classification_reason": "锂电池包防爆设计与实验研究，属硬件防爆类，非具身智能规划。",
     "model_reviewed_at": "2026-10-20T02:18:21.790599+00:00",
-    "model_previous_confidence": "待复核",
     "classification_history": [
       {
         "id": "960076bbbefb00bb7a",
@@ -34640,7 +34905,8 @@
         "needs_review": true,
         "status": "model_pending_review"
       }
-    ]
+    ],
+    "model_previous_confidence": "待复核"
   },
   {
     "id": "8f897d1276c82036c8",
@@ -37574,6 +37840,31 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "688a4543f53246d513",
+    "title": "The climbing performance analysis of a robot for power line inspection with retractable double serial manipulators",
+    "url": "https://doi.org/10.1177/09544062211054984",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science。 A power line inspection robot has to overcome many kinds of obstacles in inspection processes. The strain clamp is the obstacles difficult for inspection robots to overcome. The inspection robot needs to have a particular climbing ability to overcome the strain clamp. Therefore, the ability to climb power lines is the key point of the inspection robot’s design. An inspection robot with retractable double serial manipulators is proposed to improve the climbing and obstacle-crossing ability. Besides, this paper shows that the inspection robot is more suitable for climbing from static analysis and dynamic evaluation index. Firstly, the obstacle-crossing processes and structures of the inspection robot are introduced. Next, the static analysis is carried out when inspection robo",
+    "published": "2021-12-22",
+    "first_seen": "2026-10-20T02:54:34.941404+00:00",
+    "doi": "10.1177/09544062211054984",
+    "category": "特种应用与产品",
+    "classification_confidence": "待复核",
+    "classification_reason": "元数据不足，临时标记待复核（不视为应用领域确认）",
+    "needs_review": true,
+    "tags": [
+      "特种应用与产品"
+    ],
+    "industry_tags": [
+      "工业与能源巡检"
+    ],
+    "scope": "特种场景直接相关",
+    "score": 76,
+    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science。 A power line inspect（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "a696ac764b5a7e047e",
     "title": "Loop Closure Detection in RGB-D SLAM by Utilizing Siamese ConvNet Features",
     "url": "https://doi.org/10.3390/app12010062",
@@ -38523,6 +38814,29 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "be66ccb54ed9ef6736",
+    "title": "Study of Indoor Visual SLAM System for Semi-autonomous Robot Platform",
+    "url": "https://doi.org/10.47191/etj/v6i11.04",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Engineering and Technology Journal。 This study propose the use of heterogeneous visual landmarks, points and line segments, to achieve effective cooperation in indoor SLAM environments. In order to achieve un-delayed initialization required by the bearing-only observations, the well-known inverse-depth parameterization is adopted to estimate 3D points. Similarly, to estimate 3D line segments, we present a novel parameterization based on anchored Plücker coordinates, to which extensible endpoints are added",
+    "published": "2021-11-29",
+    "first_seen": "2026-10-20T02:54:34.941462+00:00",
+    "doi": "10.47191/etj/v6i11.04",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "主要任务是环境感知/地形估计而非 Agent 决策",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Engineering and Technology Journal。 This study propose the use of heterogeneous visual landmarks, points and line segments, to （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "7f08901fa8fd1696d8",
     "title": "Multispectral Visual Odometry Using SVSF for Mobile Robot Localization",
     "url": "https://doi.org/10.1142/s2301385022500157",
@@ -39233,6 +39547,32 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "7baee656a20643778e",
+    "title": "Hopping Robot: Current Status and Future Perspectives",
+    "url": "https://doi.org/10.2174/2212797614666210224161332",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Recent Patents on Mechanical Engineering。 Background: Search and rescue in high-risk situations and searches in unknown environments pose certain threats to human physical life. The development of mobile robots with exploratory capabilities that can be adapted to complex sites, with high mobility and high obstacle-crossing capabilities, is therefore a research trend. Existing wheeled and tracked mobile robots have excellent locomotion, but they are less adaptable and less efficient when faced with complex terrain or outer space environments. Therefore, how to increase the obstacle-crossing ability and improve the movement efficiency of mobile robots has become a research hotspot in the field of mobile robotics. Objective: To introduce the classification, characteristics and development of existing hopping robots. Methods: The various products and patents of hopping robots are sum",
+    "published": "2021-11-01",
+    "first_seen": "2026-10-20T02:54:34.941584+00:00",
+    "doi": "10.2174/2212797614666210224161332",
+    "category": "小脑与运动控制",
+    "classification_confidence": "待复核",
+    "classification_reason": "运动控制类别缺少题名中的控制任务证据",
+    "needs_review": true,
+    "tags": [
+      "小脑与运动控制",
+      "特种应用与产品"
+    ],
+    "industry_tags": [
+      "消防与应急救援"
+    ],
+    "scope": "特种场景直接相关",
+    "score": 71,
+    "summary": "行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：消防与应急救援。来源期刊/会议：Recent Patents on Mechanical Engineering。 Background: Search and rescue in high-risk situations and searches in unknown environ（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "3dbe8e0305bf2c06a1",
     "title": "Trotting gait control of quadruped robot based on Trajectory Planning",
     "url": "https://doi.org/10.1109/wcmeim54377.2021.00031",
@@ -39299,6 +39639,29 @@
     "scope": "可迁移的机器人关键技术",
     "score": 64,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2021 Fifth IEEE International Conference on Robotic Computing (IRC)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
+    "id": "643c35c6dd07e07172",
+    "title": "Mobile robot path planning based on improved genetic algorithm",
+    "url": "https://doi.org/10.1109/wcmeim54377.2021.00083",
+    "source": "Crossref",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：2021 4th World Conference on Mechanical Engineering and Intelligent Manufacturing (WCMEIM)。",
+    "published": "2021-11-01",
+    "first_seen": "2026-10-20T02:54:34.941596+00:00",
+    "doi": "10.1109/wcmeim54377.2021.00083",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为环境感知、定位、建图或导航",
+    "needs_review": false,
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 64,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2021 4th World Conference on Mechanical Engineering and Intelligent Manufacturing (WCMEIM)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {

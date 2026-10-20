@@ -644,5 +644,15 @@
     "changed_at": "2026-10-20T02:18:21.790599+00:00",
     "needs_review": true,
     "status": "model_pending_review"
+  },
+  {
+    "id": "d18a5f4b5791fcaea2",
+    "title": "EgoTac: In-the-wild Tactile Prediction from Egocentric Vision",
+    "old_category": "感知建图与导航",
+    "new_category": "感知建图与导航",
+    "reason": "主要贡献是从自我中心视觉预测触觉信息，属于感知建图与导航",
+    "changed_at": "2026-10-20T02:55:02.321420+00:00",
+    "needs_review": false,
+    "status": "model_applied"
   }
 ]
