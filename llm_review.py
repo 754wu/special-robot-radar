@@ -154,6 +154,52 @@ def safe_diagnostic(raw,choice,response):
             "finish_reason":str(getattr(choice,"finish_reason",None)),
             "served_model":str(getattr(response,"model","unknown"))[:100]}
 
+def prioritize_reviews(items, cache, now):
+    fresh, historical = [], []
+    for item in items:
+        if not item.get("needs_review") or item.get("model_applied") or key_for(item) in cache:
+            continue
+        try:
+            seen = datetime.fromisoformat(str(item.get("first_seen","")).replace("Z","+00:00"))
+            today = seen.date() == now.date()
+        except ValueError:
+            today = False
+        (fresh if today else historical).append(item)
+    fresh.sort(key=lambda x:str(x.get("first_seen","")), reverse=True)
+    historical.sort(key=lambda x:str(x.get("first_seen","")))
+    return fresh+historical, len(fresh), len(historical)
+
+
+def apply_model_result(item, result, at):
+    if not item.get("needs_review") or item.get("model_applied"):
+        return None
+    if not result or result.get("needs_review") is not False or result.get("evidence_warning"):
+        return None
+    old, new = item.get("category"), result.get("primary_category")
+    if old not in CATEGORIES or new not in CATEGORIES or old == new:
+        return None
+    if len(str(item.get("description") or "")) < 80:
+        return None
+    if not evidence_supported(item, result.get("reason","")):
+        return None
+    event = {"id":item.get("id"),"title":item.get("title"),
+             "old_category":old,"new_category":new,
+             "reason":result["reason"],"changed_at":at}
+    item["model_applied"] = True
+    item["rule_category"] = old
+    item["model_classification_reason"] = result["reason"]
+    item["model_reviewed_at"] = at
+    item["model_previous_confidence"] = item.get("classification_confidence")
+    item["classification_history"] = list(item.get("classification_history") or []) + [event]
+    item["category"] = new
+    item["classification_confidence"] = "模型复核（待抽查）"
+    item["classification_reason"] = result["reason"]
+    item["needs_review"] = False
+    item["tags"] = list(dict.fromkeys([new,old] +
+                    [x for x in item.get("tags",[]) if x not in CATEGORIES]))[:6]
+    return event
+
+
 def main():
     if not DB.exists():return
     items=json.loads(DB.read_text(encoding="utf-8"))
@@ -161,8 +207,7 @@ def main():
     try:cache=json.loads(CACHE.read_text(encoding="utf-8")) if CACHE.exists() else {}
     except (ValueError,OSError):cache={}
     if not isinstance(cache,dict):cache={}
-    pending=sorted((x for x in items if eligible(x) and key_for(x) not in cache),
-                   key=lambda x:(not bool(x.get("needs_review")), -len(str(x.get("description") or ""))))
+    pending,fresh_count,historical_count=prioritize_reviews(items,cache,datetime.now(timezone.utc))
     # Requests, including failed attempts, count toward the daily budget.
     budget=max(0,min(10,int(os.getenv("RADAR_LLM_REQUEST_BUDGET","6"))))
     token=os.getenv("RADAR_MODEL_API_KEY","")
@@ -258,12 +303,16 @@ def main():
     CACHE.write_text(json.dumps(cache,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     disagreed=[]
     reviewed_records=0
+    changes=[]
+    reviewed_at=datetime.now(timezone.utc).isoformat()
     for x in items:
         result=cache.get(key_for(x))
         if not result:continue
         reviewed_records+=1
         if result["primary_category"]!=x.get("category"):
             disagreed.append((x,result))
+        event=apply_model_result(x,result,reviewed_at)
+        if event: changes.append(event)
     lines=["# 免费大模型辅助分类审核","","此结果仅供复核，不会自动覆盖规则主分类。","",
            f"- 规则分类资源：{len(items)}",
            f"- 具有当前分类版本模型建议：{reviewed_records}",
