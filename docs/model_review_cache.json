@@ -571,5 +571,116 @@
     "reason": "论文设计蜘蛛形六足机器人，用嵌入式系统和AI视觉进行灾难搜救，属特种应用。",
     "needs_review": false,
     "source": "OpenRouter free router (metadata only)"
+  },
+  "a4aec6cad83ea6a0beefb42fd79409e1959a13686d96352cfbae5e74918ab25a": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "论文聚焦无人车CAD多目标优化与运动控制系统集成，核心在于车辆设计与控制。",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "9d9ee576a6b143132648848b90b216d190d5148302b03e473bcfb84991754c95": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "论文提出融合多传感器的语义建图方法，实现环境感知与设施标注，属于感知建图与导航。",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "a034a8959d11179d95e83850795320e62cb502655fad76d4e70267c6a0bdf84d": {
+    "primary_category": "特种应用与产品",
+    "secondary_categories": [],
+    "reason": "论文设计实现搭载传感器的消防机器人原型，针对高危灭火场景，属于特种应用与产品。",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "04371e92f1516595e4e852fff665e0b76d69e5226b3420e4618c144520f90778": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "利用惯性测量和关节角实现无地图翻转控制方法",
+    "needs_review": true,
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "18df193f4be23001661f21bd498a0b89e622bcb9a3aec47e9db4b5137264f7e4": {
+    "primary_category": "大脑与具身智能",
+    "secondary_categories": [],
+    "reason": "语言模型驱动具身代理行为树与多任务评估",
+    "needs_review": true,
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "63cad94b6b12b2da0a58c16947561588b373b0dd1896de01f6a6202b78995723": {
+    "primary_category": "大脑与具身智能",
+    "secondary_categories": [],
+    "reason": "上下文噪聲分布學習視覺語言動作適應機制研究",
+    "needs_review": true,
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "ec3cf7725558f7635be03df146e0326336c7d427496738771ccf53839916fc1f": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "四足机器人强化学习训练与部署，属于小脑运动控制，证据充分。",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "3766b4863cb03c54acc8d6194694f841b6000ba922cf2235d075667f07c6ed15": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "基于仿真到真机部署的四足机器人运动控制，证据充分。",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "621fd31eeadaeb09cfdeb0c44ec8e221ad1852325f4f3aca54ee9eefc6c350bd": {
+    "primary_category": "基础软件与系统",
+    "secondary_categories": [],
+    "reason": "机器人原生仿真核心含物理传感器与机器人中间件适配，属基础软件系统。",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "393a7a3a8cfef5a2b34b10eb65b10e65a76ac0cdb0d98356838476b67fc4c4f0": {
+    "primary_category": "基础软件与系统",
+    "secondary_categories": [],
+    "reason": "ROS2去中心化多机器人舰队，通过任务拍卖与车道预约协调，属基础软件与系统。",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "8e5e69c9332638531d8a8351ff97e027dabe17afd2e49a2e964b6ad97b24b1e5": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "逆运动学与级联MPC-PID控制实现四足水面车精准追踪，属于小脑与运动控制。",
+    "needs_review": true,
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "00174e25d584e8d38664cd5fe3d16ef84a8152de7a1288a3c7e143b155b8f499": {
+    "primary_category": "特种应用与产品",
+    "secondary_categories": [],
+    "reason": "化工厂爆炸气体危险中，UGV定制操作工具开阀门，属特种应用与产品。",
+    "needs_review": true,
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "5a90d1c91fc087ec61fd13411198d3f1895b7c5d7d462891f2e7e0c8e6135a3c": {
+    "primary_category": "硬件与防爆",
+    "secondary_categories": [],
+    "reason": "设计并实验验证了水下四足机器人硬件设计与姿态控制，证据充分。",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "f92e97b117fb0ee0fc44a183883b359eabccb1446c8786ea4ca8765cf427bf7b": {
+    "primary_category": "大脑与具身智能",
+    "secondary_categories": [],
+    "reason": "提出基于可恢复性的物理域扩展课程，提升具身智能策略泛化。",
+    "needs_review": true,
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "fb8a25b375fb3fbe69e3e7cde2b227ac3e1e6ae43e6b07b6ee9b90835b6f5e70": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "提出机器人身体感知的风险图规划算法，解决复杂地形支撑问题。",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
   }
 }

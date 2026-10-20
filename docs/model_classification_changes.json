@@ -54,5 +54,595 @@
     "new_category": "感知建图与导航",
     "reason": "移动机器人红外热成像复合材料损伤感知与导航实现",
     "changed_at": "2026-10-20T01:57:12.242641+00:00"
+  },
+  {
+    "id": "0d6c65ca1222dca4b0",
+    "title": "hu-zlatan/embodied-ai-radar",
+    "old_category": "大脑与具身智能",
+    "new_category": "大脑与具身智能",
+    "reason": "具身智能资源导航图，非高层语言规划研究，属于文献与工具集合。",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "b00869621ff5729ab5",
+    "title": "Unifying Embodied Foundation Models via a Model-to-Policy Formulation",
+    "old_category": "大脑与具身智能",
+    "new_category": "大脑与具身智能",
+    "reason": "统一具身基础模型概率公式，连接预训练与策略部署，属于大脑与具身智能。",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "6e62a0b105a0715cb2",
+    "title": "HexaShell: A Thin Harness for Exploring the Limits of VLM Agents as Robot Coding Agents",
+    "old_category": "大脑与具身智能",
+    "new_category": "大脑与具身智能",
+    "reason": "视觉语言代理编写代码控制双臂机器人，通过日志自我修正，属于具身智能规划。",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": false,
+    "status": "model_applied"
+  },
+  {
+    "id": "4d8ae61370e28c73be",
+    "title": "Perceptive Behavior Foundation Model: Adapting Human Motion Priors to Robot-Centric Terrain",
+    "old_category": "大脑与具身智能",
+    "new_category": "大脑与具身智能",
+    "reason": "主要贡献是感知感知的人形行为基础模型，属于大脑与具身智能",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "d18a5f4b5791fcaea2",
+    "title": "EgoTac: In-the-wild Tactile Prediction from Egocentric Vision",
+    "old_category": "感知建图与导航",
+    "new_category": "感知建图与导航",
+    "reason": "主要贡献是从自我中心视觉预测触觉信息，属于感知建图与导航",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": false,
+    "status": "model_applied"
+  },
+  {
+    "id": "0e64f0d22542be8c7c",
+    "title": "FCTS: Failure-Guided Curriculum Tree Search Over Generated Terrain for Legged Parkour",
+    "old_category": "小脑与运动控制",
+    "new_category": "小脑与运动控制",
+    "reason": "主要贡献是基于失败引导的课程树搜索用于四足跑酷，属于小脑与运动控制",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": false,
+    "status": "model_applied"
+  },
+  {
+    "id": "1058a19ac473d95927",
+    "title": "Causal Analysis of Robot Foundation Models Enables Efficiency Gains",
+    "old_category": "小脑与运动控制",
+    "new_category": "大脑与具身智能",
+    "reason": "机械分析视语言动作跨注意力层的因果条件接口",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "95b1353e5d1d80b3a8",
+    "title": "Fast-VLA: You Only Think Once for Robot Manipulation",
+    "old_category": "大脑与具身智能",
+    "new_category": "大脑与具身智能",
+    "reason": "提出视语言动作一次性思考框架固定任务记忆联在线轻量执行器",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "93046b173c195185a5",
+    "title": "SAPS: Shared Autonomy for Policy Steering by Blending Teleoperation with a Pretrained VLA",
+    "old_category": "小脑与运动控制",
+    "new_category": "大脑与具身智能",
+    "reason": "融合预训练VLA模型与遥操作进行策略引导，属于高层具身智能与自主决策范畴。",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "ab21a250277c2c8d6d",
+    "title": "RoPE-Flow: Monocular Vision-based Robot Pose Estimation via 2D Graph-Conditioned 3D Flow Matching",
+    "old_category": "感知建图与导航",
+    "new_category": "感知建图与导航",
+    "reason": "提出基于单目视觉的机器人位姿估计与3D流匹配框架，属于机器人感知与建模技术。",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": false,
+    "status": "model_applied"
+  },
+  {
+    "id": "b5e6a221003d1ac55d",
+    "title": "Don't Run with Scissors: Pruning Breaks VLA Models but They Can Be Recovered",
+    "old_category": "大脑与具身智能",
+    "new_category": "大脑与具身智能",
+    "reason": "研究VLA模型剪枝与恢复，属于大脑与具身智能领域的视觉语言动作模型。",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": false,
+    "status": "model_applied"
+  },
+  {
+    "id": "84f68e1c42a3606791",
+    "title": "UGV-Conditioned Multi-UAV Informative Planning on a Shared Exposure Belief",
+    "old_category": "感知建图与导航",
+    "new_category": "感知建图与导航",
+    "reason": "多无人机协同侦察与无人车安全导航规划，核心属于感知建图与导航领域。",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": false,
+    "status": "model_applied"
+  },
+  {
+    "id": "99bc9ca0e5a0e8735f",
+    "title": "RingNav: Task-Shaped Circular Memory for Visual Heading",
+    "old_category": "感知建图与导航",
+    "new_category": "感知建图与导航",
+    "reason": "提出任务导向的环形记忆视觉航向估计方法，属于视觉导航与定位技术。",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": false,
+    "status": "model_applied"
+  },
+  {
+    "id": "c4a7de98910de569f7",
+    "title": "MorphAct: Robot Policies Morphing with the Worlds They Act In",
+    "old_category": "小脑与运动控制",
+    "new_category": "大脑与具身智能",
+    "reason": "基于交互语境的策略参数动态调整，体现具身智能中的语境感知与自适应能力。",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "1e79933a5c5d6993fb",
+    "title": "LIME: Learning Intent-aware Camera Motion from Egocentric Video",
+    "old_category": "小脑与运动控制",
+    "new_category": "大脑与具身智能",
+    "reason": "语言意识相机运动生成，旨在通过意图感知提升具身代理感知与行动能力。",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "92dd4500b7dd8186ec",
+    "title": "Modeling and Understanding Neural Weights of Humanoid Policies with Diffusion",
+    "old_category": "小脑与运动控制",
+    "new_category": "小脑与运动控制",
+    "reason": "工作聚焦体重分布生成，属于运动控制范畴，非语言规划。",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "fa20fe5d691f702a7e",
+    "title": "FACT: A Multimodal Force-Action-Track Foundation Model for Human-to-Robot Dexterity",
+    "old_category": "大脑与具身智能",
+    "new_category": "大脑与具身智能",
+    "reason": "研究人力演示与力感知，属于具身智能，非语言规划。",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "8c72c61f3028e5efc3",
+    "title": "Active Generative Simulation: Meta-Learning What to Simulate for Sim-and-Real Policy Co-Training",
+    "old_category": "基础软件与系统",
+    "new_category": "基础软件与系统",
+    "reason": "提出元学习模拟器生成策略，属基础软件系统，非语言规划。",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "62e95432959d9748ad",
+    "title": "Efficient Test-Time Adaptation For Robot Policies",
+    "old_category": "小脑与运动控制",
+    "new_category": "小脑与运动控制",
+    "reason": "研究机器人运动策略的测试时自适应，涉及critic驱动的策略更新与运动控制。",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": false,
+    "status": "model_applied"
+  },
+  {
+    "id": "a22d57229f28621033",
+    "title": "ConTrack: Constrained Hand Motion Tracking with Adaptive Trade-off Control",
+    "old_category": "小脑与运动控制",
+    "new_category": "小脑与运动控制",
+    "reason": "聚焦于灵巧操作中的手部运动跟踪与约束控制，属于典型的运动控制与策略学习。",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "b7767ac9725d829f47",
+    "title": "Learning Self-Orchestration in Decentralized Agent Swarms",
+    "old_category": "感知建图与导航",
+    "new_category": "大脑与具身智能",
+    "reason": "研究去中心化智能体群的自组织与高层协同，属于多智能体决策与具身智能。",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "69e61c4529817d0edd",
+    "title": "rsasaki0109/RobotNativeEngine",
+    "old_category": "特种应用与产品",
+    "new_category": "基础软件与系统",
+    "reason": "机器人原生仿真核心含物理传感器与机器人中间件适配，属基础软件系统。",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": false,
+    "status": "model_applied"
+  },
+  {
+    "id": "07fe6a4cd040c1a28e",
+    "title": "FlowVLA: Enabling World Dynamics Understanding through Pluggable 3D Flow Learning",
+    "old_category": "小脑与运动控制",
+    "new_category": "小脑与运动控制",
+    "reason": "FlowVLA在训练阶段引入3D流学习，使VLA模型具备动态理解，符合小脑与运动控制贡献。",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": false,
+    "status": "model_applied"
+  },
+  {
+    "id": "bb21ab6f942bca4d58",
+    "title": "ProWorld: Multi-View World Model with Proprioceptive Feedback for Closed-Loop Policy Evaluation",
+    "old_category": "大脑与具身智能",
+    "new_category": "大脑与具身智能",
+    "reason": "ProWorld通过联合视频与状态预测，提供闭环评估环境，满足大脑与具身智能贡献。",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": false,
+    "status": "model_applied"
+  },
+  {
+    "id": "c591f034d4c196a180",
+    "title": "Value-Preserving Action Quantization",
+    "old_category": "小脑与运动控制",
+    "new_category": "小脑与运动控制",
+    "reason": "本文证明量化动作对值函数误差受状态可达性约束，确保价值保持，符合小脑与运动控制贡献。",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "0ea1a543c9ca3a3dca",
+    "title": "RoboShield v2: an inline command firewall gateway for ROS 2 (Rust + rclrs, two-domain bridge, SROS2)",
+    "old_category": "基础软件与系统",
+    "new_category": "基础软件与系统",
+    "reason": "ROS2内联防火墙网关，基于Rust与DDS域桥，实现流量检查与隔离。",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": false,
+    "status": "model_applied"
+  },
+  {
+    "id": "62e5abafea4d1728b2",
+    "title": "Introducing RobotLens — a connected engineering workspace for ROS 2",
+    "old_category": "基础软件与系统",
+    "new_category": "基础软件与系统",
+    "reason": "机器人工程一体化工作区，集成可视化调试诊断仿真，面向ROS2开发工作流。",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": false,
+    "status": "model_applied"
+  },
+  {
+    "id": "7e3ab91a00ade0e558",
+    "title": "VizMini2: RViz, teleop and ROS 2 tools on your Android phone or tablet",
+    "old_category": "基础软件与系统",
+    "new_category": "基础软件与系统",
+    "reason": "提供Android应用实现ROS2工具的可视化和遥控，属于基础软件系统。",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": false,
+    "status": "model_applied"
+  },
+  {
+    "id": "1b1d1dbee5a012e675",
+    "title": "DR-VLA: Learning Human-Like Quadruped Navigation from Egocentric Web Videos via Domain-Invariant Scene Representations",
+    "old_category": "大脑与具身智能",
+    "new_category": "大脑与具身智能",
+    "reason": "通过域不变场景表示学习人类导航经验，实现四足机器人智能导航。",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": false,
+    "status": "model_applied"
+  },
+  {
+    "id": "f93181f2be9f3b7fef",
+    "title": "Steertuning Policies from a Few Human Videos",
+    "old_category": "小脑与运动控制",
+    "new_category": "小脑与运动控制",
+    "reason": "从少量人类演示学习机器人策略，用于快速适应新任务的运动控制。",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": false,
+    "status": "model_applied"
+  },
+  {
+    "id": "e6022e72d1cd262c0b",
+    "title": "mohamedelnahas2004/decentralized-multi-robot-fleet",
+    "old_category": "特种应用与产品",
+    "new_category": "基础软件与系统",
+    "reason": "ROS2去中心化多机器人舰队，通过任务拍卖与车道预约协调，属基础软件与系统。",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": false,
+    "status": "model_applied"
+  },
+  {
+    "id": "cc36a076dc50ada883",
+    "title": "yingjian-peng/quadruped_robot",
+    "old_category": "小脑与运动控制",
+    "new_category": "小脑与运动控制",
+    "reason": "四足机器人强化学习训练与部署，属于小脑运动控制，证据充分。",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": false,
+    "status": "model_applied"
+  },
+  {
+    "id": "1a00e3d82c2ce40d32",
+    "title": "yanyuze1/Legged_deploy",
+    "old_category": "小脑与运动控制",
+    "new_category": "小脑与运动控制",
+    "reason": "基于仿真到真机部署的四足机器人运动控制，证据充分。",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": false,
+    "status": "model_applied"
+  },
+  {
+    "id": "d96b83bf975ae8b56b",
+    "title": "Noise Space Learning for VLA Adaptation",
+    "old_category": "大脑与具身智能",
+    "new_category": "大脑与具身智能",
+    "reason": "上下文噪聲分布學習視覺語言動作適應機制研究",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "1c8b2b2d27087b6269",
+    "title": "BT-Agent: Deploying Onboard Robot Agents with Behavior Trees and Multi-Fidelity Evaluation",
+    "old_category": "大脑与具身智能",
+    "new_category": "大脑与具身智能",
+    "reason": "语言模型驱动具身代理行为树与多任务评估",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "8b5be3dbfac7bc8242",
+    "title": "Mapless, Stabilizing, and Anti-Stuck Flipper Control for Articulated Tracked Robots",
+    "old_category": "感知建图与导航",
+    "new_category": "小脑与运动控制",
+    "reason": "利用惯性测量和关节角实现无地图翻转控制方法",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "7fc5ce33b5414b6d79",
+    "title": "Design and Attitude Control of an Underwater Quadruped Robot",
+    "old_category": "小脑与运动控制",
+    "new_category": "硬件与防爆",
+    "reason": "设计并实验验证了水下四足机器人硬件设计与姿态控制，证据充分。",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": false,
+    "status": "model_applied"
+  },
+  {
+    "id": "bbdb8d609045f48ac8",
+    "title": "Robot-Body-Aware Traversal Risk Graph Planning for Wheeled-Legged Robots in Complex Terrain",
+    "old_category": "感知建图与导航",
+    "new_category": "感知建图与导航",
+    "reason": "提出机器人身体感知的风险图规划算法，解决复杂地形支撑问题。",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": false,
+    "status": "model_applied"
+  },
+  {
+    "id": "bc60766eaa91c1ab6b",
+    "title": "Design and Control of the \"QuadBoat\": A Quadruped Surface Vehicle for Drowning Rescue",
+    "old_category": "小脑与运动控制",
+    "new_category": "小脑与运动控制",
+    "reason": "逆运动学与级联MPC-PID控制实现四足水面车精准追踪，属于小脑与运动控制。",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "c279fd0c695a65893f",
+    "title": "Lessons from the Field: A Case Study of Robotic Intervention in an Industrial Emergency",
+    "old_category": "特种应用与产品",
+    "new_category": "特种应用与产品",
+    "reason": "化工厂爆炸气体危险中，UGV定制操作工具开阀门，属特种应用与产品。",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "7ca9b95be1ab48065a",
+    "title": "HORIZON: Recoverability-Governed Curriculum for Physical-Domain Scaling",
+    "old_category": "小脑与运动控制",
+    "new_category": "大脑与具身智能",
+    "reason": "提出基于可恢复性的物理域扩展课程，提升具身智能策略泛化。",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "3e4aebafbade10b53b",
+    "title": "CAD-based Optimization of the Medium-sized Unmanned Ground Vehicle",
+    "old_category": "小脑与运动控制",
+    "new_category": "小脑与运动控制",
+    "reason": "论文聚焦无人车CAD多目标优化与运动控制系统集成，核心在于车辆设计与控制。",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": false,
+    "status": "model_applied"
+  },
+  {
+    "id": "7db2a5ae63d78260e4",
+    "title": "Design and Development of a Spider-Inspired Hexapod Robot for Disaster Search and Rescue Operations Using Embedded Systems and AI-Based Vision",
+    "old_category": "特种应用与产品",
+    "new_category": "特种应用与产品",
+    "reason": "论文设计蜘蛛形六足机器人，用嵌入式系统和AI视觉进行灾难搜救，属特种应用。",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": false,
+    "status": "model_applied"
+  },
+  {
+    "id": "0c1e21053446a05336",
+    "title": "Parkour Learning for Quadrupeds via Terrain-Conditional Adversarial Motion Priors",
+    "old_category": "小脑与运动控制",
+    "new_category": "小脑与运动控制",
+    "reason": "论文提出地形条件对抗运动先验，用于四足机器人学习动作，属运动控制，未涉语言。",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": false,
+    "status": "model_applied"
+  },
+  {
+    "id": "b6628c4d45745cefa9",
+    "title": "Energy Prediction on Sloping Ground for Quadruped Robots",
+    "old_category": "小脑与运动控制",
+    "new_category": "小脑与运动控制",
+    "reason": "论文通过坡度和朝向对四足机器人能耗建模，属于运动控制研究，未涉及语言代理规划。",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": false,
+    "status": "model_applied"
+  },
+  {
+    "id": "4b1ea0d7a48fe2639d",
+    "title": "A Deep Learning-Driven Semantic Mapping Strategy for Robotic Inspection of Desalination Facilities",
+    "old_category": "感知建图与导航",
+    "new_category": "感知建图与导航",
+    "reason": "论文提出融合多传感器的语义建图方法，实现环境感知与设施标注，属于感知建图与导航。",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": false,
+    "status": "model_applied"
+  },
+  {
+    "id": "da5061f98f70c5c4a4",
+    "title": "Rough terrain navigation for a quadruped robot using deep reinforcement learning-based blind locomotion control and a stuck-escape strategy",
+    "old_category": "小脑与运动控制",
+    "new_category": "小脑与运动控制",
+    "reason": "使用深度强化学习实现盲目行走，结合卡住逃逸策略提升粗糙地形导航能力，实验验证显著。",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": false,
+    "status": "model_applied"
+  },
+  {
+    "id": "4edc12285a3cf29783",
+    "title": "Prototype of Fire Fighting Robot",
+    "old_category": "特种应用与产品",
+    "new_category": "特种应用与产品",
+    "reason": "论文设计实现搭载传感器的消防机器人原型，针对高危灭火场景，属于特种应用与产品。",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": false,
+    "status": "model_applied"
+  },
+  {
+    "id": "c83c2162a28aa42920",
+    "title": "Research on Downhole MTATBOT Positioning and Autonomous Driving Strategies Based on Odometer-Assisted Inertial Measurement",
+    "old_category": "感知建图与导航",
+    "new_category": "感知建图与导航",
+    "reason": "基于里程计辅助惯性的下孔定位与自主驾驶策略",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "4d00ba2be049a4c333",
+    "title": "Path Planning and Motion Control of Robot Dog Through Rough Terrain Based on Vision Navigation",
+    "old_category": "小脑与运动控制",
+    "new_category": "小脑与运动控制",
+    "reason": "视觉导航四足机器人粗糙地形规划控制，MPC+WBC实现稳定跨越，实验验证有效。",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": false,
+    "status": "model_applied"
+  },
+  {
+    "id": "704b2303aed996cfc1",
+    "title": "Intelligent Firefighting Robot Based on HT32F52352",
+    "old_category": "特种应用与产品",
+    "new_category": "特种应用与产品",
+    "reason": "该研究设计了一款基于HT32F52352的智能消防机器人平台，具有特种应用价值与商业潜力及实际应用前景。",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "8c27d2bdd2a14eafad",
+    "title": "Control Autonomous Mobile Robot for Firefighting Task",
+    "old_category": "特种应用与产品",
+    "new_category": "特种应用与产品",
+    "reason": "自主移动机器人执行灭火任务，属特种应用产品，证据充分。",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": false,
+    "status": "model_applied"
+  },
+  {
+    "id": "d4ddad8d5bb2884b0a",
+    "title": "Inspection and Firefighting Robot based on Improved SVM Algorithm in Ship Automation Engine Room",
+    "old_category": "特种应用与产品",
+    "new_category": "特种应用与产品",
+    "reason": "船舶机舱消防检测机器人，改进SVM算法，属特种应用，证据充分。",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": false,
+    "status": "model_applied"
+  },
+  {
+    "id": "88bff18ef148c46919",
+    "title": "The Design of Firefighting Robot Based on the Fuzzy PID Algorithm",
+    "old_category": "特种应用与产品",
+    "new_category": "特种应用与产品",
+    "reason": "消防机器人模糊控制设计，属特种应用产品，非高层语言规划。",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": false,
+    "status": "model_applied"
+  },
+  {
+    "id": "eceec0cc81b08e3c69",
+    "title": "Meaningful human control and variable autonomy in human-robot teams for firefighting",
+    "old_category": "特种应用与产品",
+    "new_category": "特种应用与产品",
+    "reason": "消防人机协作变量自主研究，属特种应用领域，证据充分。",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "3a98bf03a6cf8ba194",
+    "title": "Autonomous Firefighting Robot for Detection and Prevention",
+    "old_category": "特种应用与产品",
+    "new_category": "特种应用与产品",
+    "reason": "提出了一个具备环境感知、火灾预测和智能灭火的多模态自主消防机器人系统，具有实际应用价值。",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": false,
+    "status": "model_applied"
+  },
+  {
+    "id": "ad95452a76ce6804fe",
+    "title": "Motion Control Method of Bionic Robot Dog Based on Vision and Navigation Information",
+    "old_category": "小脑与运动控制",
+    "new_category": "小脑与运动控制",
+    "reason": "双目视觉测距与姿态校准，基于关节DOF约束的鲁棒控制算法提升仿生机器人定位精度。",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": false,
+    "status": "model_applied"
+  },
+  {
+    "id": "3d172c42f4a2626c0d",
+    "title": "Implementation and Feedback Controller of Mobile Platform for Hammering Inspection Robot",
+    "old_category": "特种应用与产品",
+    "new_category": "小脑与运动控制",
+    "reason": "移动平台反馈控制算法的运动控制实现与验证",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "960076bbbefb00bb7a",
+    "title": "Explosion-proof lithium-ion battery pack – In-depth investigation and experimental study on the design criteria",
+    "old_category": "感知建图与导航",
+    "new_category": "硬件与防爆",
+    "reason": "锂电池包防爆设计与实验研究，属硬件防爆类，非具身智能规划。",
+    "changed_at": "2026-10-20T02:18:21.790599+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
   }
 ]
