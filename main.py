@@ -630,6 +630,10 @@ def rule_enrich(item: dict, config: dict | None = None) -> dict | None:
         tags.append("特种应用与产品")
     from contribution_review import relevance_status
     item["relevance_status"] = relevance_status(title, desc, direct, transferable, native, robots)
+    from contribution_review import contribution_evidence
+    contribution_type, contribution_reason = contribution_evidence(title, desc)
+    item["rule_contribution_type"] = contribution_type or "undetermined"
+    item["rule_contribution_evidence"] = contribution_reason
     item["rule_category"] = category
     item["rule_confidence"] = "low" if classified.review else "high"
     item["category"] = category

@@ -827,6 +827,16 @@ class RadarTests(unittest.TestCase):
                 self.assertTrue(result["manual_category_override"])
                 self.assertFalse(result["needs_review"])
 
+    def test_independent_model_input_and_rule_evidence_schema(self):
+        from contribution_review import contribution_evidence
+        category,evidence=contribution_evidence("Robot SLAM and localization","")
+        self.assertEqual(category,"感知建图与导航")
+        self.assertTrue(evidence)
+        from classification_crosscheck import crosscheck_high_confidence
+        item={"title":"VLA robot manipulation policy adaptation","category":"大脑与具身智能",
+              "rule_category":"大脑与具身智能","rule_confidence":"high","needs_review":False}
+        self.assertEqual(crosscheck_high_confidence(item)[0]["suggested_category"],"小脑与运动控制")
+
     def test_filter_config_reject_score(self):
         item = make_item('Wheel-legged quadruped locomotion', 'https://example.org/w',
                          'arXiv API', '论文（摘要）', 'robot locomotion and motion control')

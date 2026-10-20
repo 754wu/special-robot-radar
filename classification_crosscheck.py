@@ -47,6 +47,19 @@ def crosscheck_high_confidence(item):
         flag("application_vs_hardware",HARDWARE,"防爆电气或结构设计并非整机机器人产品")
     if category in (BRAIN,NAV,APPLICATION) and has(r"\b(?:dataset|benchmark|simulation.framework|middleware)\b") and not has(r"using.(?:a|the).(?:dataset|benchmark)"):
         flag("deliverable_vs_task",SOFTWARE,"题名显示交付数据集、基准或软件框架")
+    # Conservative cross-domain warning patterns: a model acronym or platform
+    # alone is not sufficient; explicit task output must be present in the title.
+    if category==BRAIN and has(r"(?:vla|vision.language.action)") and has(
+        r"action.policy|manipulation.policy|policy.adaptation|action.generation|robot.manipulation|motion.generation") and not has(
+        r"tool.calling|skill.orchestration|task.reasoning|long.horizon.task.planning"):
+        flag("vla_action_vs_agent",CONTROL,"题名以动作策略或机器人操作为目标，VLA模型名称不能直接证明高层推理贡献")
+    if category==CONTROL and has(r"mechanical.design|mechanism.design|semi.modular|independently.actuated.leg.joints|robot.structural.design") and not has(
+        r"control.algorithm|gait.policy|reinforcement.learning.control"):
+        flag("hardware_vs_motion",HARDWARE,"主要研究对象是机械结构或机器人实体平台设计，非单纯运动控制")
+    if category==SOFTWARE and has(r"using.ros|based.on.ros|with.ros") and has(
+        r"object.detection|visual.recognition|navigation.algorithm|path.planning.algorithm") and not has(
+        r"middleware|framework|software.architecture|benchmark|dataset"):
+        flag("tool_vs_deliverable",NAV,"ROS只是算法运行环境，主要成果可能是感知或导航方法")
     return flags[:2]
 
 def apply_crosschecks(items):
