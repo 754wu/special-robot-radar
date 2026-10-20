@@ -196,5 +196,117 @@
     "reason": "多无人机协同共享暴露信念，引导地面车辆规划避障路线，属导航规划。",
     "needs_review": false,
     "source": "OpenRouter free router (metadata only)"
+  },
+  "5b0cdea782e46bf157178146603bf9bc648cd7f2e2cb2ac438eced18d16fc731": {
+    "primary_category": "大脑与具身智能",
+    "secondary_categories": [],
+    "reason": "统一具身基础模型概率公式，连接预训练与策略部署，属于大脑与具身智能。",
+    "needs_review": true,
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "148547c222ff505f4e1bfbc33c7ab090c30522f366410a4b41571caab6392906": {
+    "primary_category": "大脑与具身智能",
+    "secondary_categories": [],
+    "reason": "视觉语言代理编写代码控制双臂机器人，通过日志自我修正，属于具身智能规划。",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "8960751e8421c3a43e8c03943e1a1aff076f2119bd2c30343a7cbeea8f966f60": {
+    "primary_category": "大脑与具身智能",
+    "secondary_categories": [],
+    "reason": "编码代理通过在线探索生成机器人控制代码，无需示范数据，属于具身智能规划。",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "52c55f1a758468677b3c14c7135c70e14dec477eb472eba4f39761743715132a": {
+    "primary_category": "大脑与具身智能",
+    "secondary_categories": [],
+    "reason": "主要贡献是感知感知的人形行为基础模型，属于大脑与具身智能",
+    "needs_review": true,
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "03811ff79568355e1e115ab1ac2fea1893b5d87a09cc7415c9a2f6fae5dfb1aa": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "主要贡献是从自我中心视觉预测触觉信息，属于感知建图与导航",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "8c825ae57a4a8407168ac466b4e83733efcc01e5e7d2031b56c0fe3eda04a0b8": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "主要贡献是基于失败引导的课程树搜索用于四足跑酷，属于小脑与运动控制",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "f87d0af3fc906c7d9c454d4653274a1b8a6899c7352675bfae507b74220c159a": {
+    "primary_category": "大脑与具身智能",
+    "secondary_categories": [],
+    "reason": "机械分析视语言动作跨注意力层的因果条件接口",
+    "needs_review": true,
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "5e2df44ea6f3df2f186243886313f6b39954546bc3d142dd127b99197748dadd": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "提出同伴观测导航协作框架扩展感知受域提升导航效率",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "8347a26cbdef5a495d61d1fd27eb9769f99127cdb0a9f1ebe377ae7ef63e313f": {
+    "primary_category": "大脑与具身智能",
+    "secondary_categories": [],
+    "reason": "提出视语言动作一次性思考框架固定任务记忆联在线轻量执行器",
+    "needs_review": true,
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "c6f55b754fca76cb7b180eacaea1c2bca65107b4b1ba1bfbaa20fb3a82418974": {
+    "primary_category": "基础软件与系统",
+    "secondary_categories": [],
+    "reason": "提出基于ROS 2的亚毫秒级反射引擎与多模态控制器，属于机器人基础软件与系统。",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "de7a58f8fc6332c24d165d87bc350ad774de913e728094d071c9cbd3a53062c1": {
+    "primary_category": "大脑与具身智能",
+    "secondary_categories": [],
+    "reason": "融合预训练VLA模型与遥操作进行策略引导，属于高层具身智能与自主决策范畴。",
+    "needs_review": true,
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "9a6a2ea7eb2a23288c771b62586e475c2618582488a2e264f0506348f328c513": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "提出基于单目视觉的机器人位姿估计与3D流匹配框架，属于机器人感知与建模技术。",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "a706649399fc6637652c1f66f61e4350146f32e4ee6debb0ed5032dd920ce122": {
+    "primary_category": "大脑与具身智能",
+    "secondary_categories": [],
+    "reason": "基于语言意图的视觉语言动作策略编排与干预决策，属于具身智能范畴。",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "76b7c14451e6a4bfcb6d06521b8bf9ad9e4d45629427349c4629dc94e75a5052": {
+    "primary_category": "大脑与具身智能",
+    "secondary_categories": [],
+    "reason": "基于交互语境的策略参数动态调整，体现具身智能中的语境感知与自适应能力。",
+    "needs_review": true,
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "44c654778966697487fb92e74110191c0ab01c1d47e6fb2f3f9c6411842e6f07": {
+    "primary_category": "大脑与具身智能",
+    "secondary_categories": [],
+    "reason": "语言意识相机运动生成，旨在通过意图感知提升具身代理感知与行动能力。",
+    "needs_review": true,
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
   }
 }
