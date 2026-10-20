@@ -628,6 +628,10 @@ def rule_enrich(item: dict, config: dict | None = None) -> dict | None:
     tags = [category] + secondary_topics
     if matched_sectors and category != "特种应用与产品":
         tags.append("特种应用与产品")
+    from contribution_review import relevance_status
+    item["relevance_status"] = relevance_status(title, desc, direct, transferable, native, robots)
+    item["rule_category"] = category
+    item["rule_confidence"] = "low" if classified.review else "high"
     item["category"] = category
     item["classification_confidence"] = classified.confidence
     item["classification_reason"] = classified.reason
@@ -763,6 +767,8 @@ def preserve_model_classification(item, previous):
     if previous.get("manual_category_override"):
         item.update({k:previous[k] for k in ("category","manual_category_override","manual_override_reason","classification_history","classification_confidence") if k in previous})
         item["needs_review"]=False
+        item["model_applied"]=False
+        item["tags"]=list(dict.fromkeys([item["category"]]+[x for x in item.get("tags",[]) if x not in KEYWORDS]))[:6]
         return item
     if previous.get("model_reviewed_uncertain") or (previous.get("model_applied") and previous.get("needs_review")):
         item["model_reviewed_uncertain"]=True

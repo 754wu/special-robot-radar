@@ -684,6 +684,19 @@ class RadarTests(unittest.TestCase):
             with self.subTest(title=title):
                 self.assertEqual(classify_contribution(title).category, expected)
 
+    def test_contribution_guard_and_relevance(self):
+        from contribution_review import contribution_conflict, relevance_status
+        self.assertIn("冲突",contribution_conflict(
+            {"title":"Quadruped robot gait control with reinforcement learning","description":"locomotion policy"},
+            "大脑与具身智能"))
+        self.assertEqual(contribution_conflict(
+            {"title":"Robot SLAM and odometry","description":"visual localization"},
+            "感知建图与导航"),"")
+        self.assertEqual(relevance_status("Explosion-proof battery pack design","",False,False,False,[]),
+                         "潜在相关（需核实机器人应用）")
+        self.assertEqual(relevance_status("Quadruped robot gait control","",True,True,True,["robot"]),
+                         "直接相关")
+
     def test_filter_config_reject_score(self):
         item = make_item('Wheel-legged quadruped locomotion', 'https://example.org/w',
                          'arXiv API', '论文（摘要）', 'robot locomotion and motion control')
