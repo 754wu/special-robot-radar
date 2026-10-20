@@ -872,6 +872,23 @@ class RadarTests(unittest.TestCase):
         self.assertEqual(refreshed["model_review_attempts"],2)
         self.assertTrue(refreshed["manual_review_required"])
 
+    def test_large_metadata_review_batch_is_exact_and_protected(self):
+        from metadata_review_20261020 import BATCH_DECISIONS
+        from main import apply_manual_correction,preserve_model_classification,KEYWORDS
+        self.assertEqual(len(BATCH_DECISIONS),182)
+        for title,(category,reason) in BATCH_DECISIONS.items():
+            with self.subTest(title=title):
+                self.assertIn(category,KEYWORDS)
+                self.assertGreater(len(reason),40)
+                item=apply_manual_correction({"title":title,"category":"特种应用与产品",
+                                               "needs_review":True,"tags":[]})
+                self.assertEqual(item["category"],category)
+                self.assertTrue(item["manual_category_override"])
+                self.assertFalse(item["needs_review"])
+                restored=preserve_model_classification({"title":title,"category":"特种应用与产品",
+                                          "needs_review":True,"tags":[]},item)
+                self.assertEqual(restored["category"],category)
+
     def test_filter_config_reject_score(self):
         item = make_item('Wheel-legged quadruped locomotion', 'https://example.org/w',
                          'arXiv API', '论文（摘要）', 'robot locomotion and motion control')

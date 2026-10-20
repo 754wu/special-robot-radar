@@ -792,6 +792,11 @@ MANUAL_REVIEWED_CASES = {
 }
 
 
+from metadata_review_20261020 import BATCH_DECISIONS
+for _title, _decision in BATCH_DECISIONS.items():
+    MANUAL_REVIEWED_CASES.setdefault(_title, _decision)
+
+
 def apply_manual_correction(item):
     target = MANUAL_CORRECTIONS.get(" ".join(str(item.get("title") or "").lower().split()))
     reviewed = MANUAL_REVIEWED_CASES.get(" ".join(str(item.get("title") or "").lower().split()))
