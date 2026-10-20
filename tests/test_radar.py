@@ -575,7 +575,7 @@ class RadarTests(unittest.TestCase):
         refreshed.pop("classification_history",None)
         preserved=preserve_model_classification(refreshed,item)
         self.assertEqual(preserved["category"],"大脑与具身智能")
-        changed=dict(refreshed,description="changed")
+        changed=dict(item,category="感知建图与导航",model_applied=False,needs_review=True,description="changed")
         self.assertEqual(preserve_model_classification(changed,item)["category"],"感知建图与导航")
 
     def test_filter_config_reject_score(self):
