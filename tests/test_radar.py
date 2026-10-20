@@ -846,6 +846,31 @@ class RadarTests(unittest.TestCase):
                 self.assertEqual(item["category"],category)
                 self.assertFalse(item["needs_review"])
 
+    def test_pending_model_crosscheck_does_not_change_review_status(self):
+        from classification_crosscheck import apply_crosschecks
+        item={"category":"大脑与具身智能","rule_category":"感知建图与导航",
+              "rule_confidence":"high","title":"Vision language navigation benchmark",
+              "model_reviewed_uncertain":True,"model_suggested_category":"大脑与具身智能",
+              "model_review_attempts":1,"needs_review":True,
+              "classification_confidence":"模型建议（待复核）",
+              "crosscheck_pending":True}
+        apply_crosschecks([item])
+        self.assertEqual(item["category"],"大脑与具身智能")
+        self.assertTrue(item["needs_review"])
+        self.assertEqual(item["classification_confidence"],"模型建议（待复核）")
+
+    def test_legacy_pending_model_decision_survives_rule_refresh(self):
+        from main import preserve_model_classification
+        old={"category":"大脑与具身智能","rule_category":"感知建图与导航",
+             "model_reviewed_uncertain":True,"needs_review":True,
+             "classification_history":[{"status":"model_pending_review",
+                                        "new_category":"大脑与具身智能"}]}
+        refreshed={"category":"感知建图与导航","rule_category":"感知建图与导航",
+                   "needs_review":True,"tags":[]}
+        result=preserve_model_classification(refreshed,old)
+        self.assertEqual(result["category"],"大脑与具身智能")
+        self.assertTrue(result["needs_review"])
+
     def test_uncertain_model_category_persists_and_retries_independently(self):
         from llm_review import apply_model_result,prioritize_reviews
         from main import preserve_model_classification
