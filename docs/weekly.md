@@ -1,6 +1,6 @@
 # 特种机器人七日技术简报
 
-生成时间：2026-10-20T09:08:50.613343+00:00
+生成时间：2026-10-20T09:25:04.990429+00:00
 
 最近 7 天首次记录 **1448** 条；本轮新增 **0** 条；总库存 **1669** 条。
 
@@ -18,12 +18,12 @@
   - 行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境、矿山与地下空间。来源期刊/会议：2023 International Conference on Telecommunications, Electronics and Informatics (ICTEI)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Design and Development of Explosion-Proof Cavity of Hydraulic System Power Unit Applied in Explosion-Proof Area](https://doi.org/10.3390/pr10091824) | 论文（摘要） | 特种场景直接相关 | 匹配度 80/100
   - 行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境、消防与应急救援。来源期刊/会议：Processes。 The construction machinery and vehicles, especially the explosion-proof and explosion-isolation ability of the vehic（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Design and analysis of AGM explosion proof plug automatic assembly and inspection production line](https://doi.org/10.1088/1742-6596/2902/1/012002) | 论文（摘要） | 特种场景直接相关 | 匹配度 79/100
+  - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：防爆石化与危险环境。来源期刊/会议：Journal of Physics: Conference Series。 Abstract In order to achieve the automatic assembly and inspection of AGM battery explos（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Numerical Simulation on Flameproof Performance of the Explosion-proof Component in the Detonation Wave-based Micro-explosive Train](https://doi.org/10.1109/nems69704.2026.11633709) | 论文（摘要） | 特种场景直接相关 | 匹配度 78/100
   - 行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境。来源期刊/会议：2026 IEEE 21st International Conference on Nano/Micro Engineered and Molecular Systems (NEMS)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Design and Experimental Validation of an Automatic Inspection Robot Control System based on Multi-Sensor Fusion](https://doi.org/10.54691/0vvjfj55) | 论文（摘要） | 特种场景直接相关 | 匹配度 78/100
   - 行业筛选：特种场景直接相关；方向：硬件与防爆；关联：工业与能源巡检。来源期刊/会议：Frontiers in Science and Engineering。To address the problems of high labor intensity, low efficiency, and safety risks in tradi（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Explosion-Proof Enclosure Failure to Contain a Lithium-Ion Battery Thermal Runaway](https://doi.org/10.1007/s42461-025-01288-z) | 论文（摘要） | 特种场景直接相关 | 匹配度 78/100
-  - 行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境。来源期刊/会议：Mining, Metallurgy & Exploration。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 基础软件与系统
 

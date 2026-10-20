@@ -1260,5 +1260,137 @@
     "changed_at": "2026-10-20T09:08:50.422484+00:00",
     "needs_review": true,
     "status": "model_pending_review"
+  },
+  {
+    "id": "d45d6bb8ccb66a393b",
+    "title": "1ulone/quins_ros2",
+    "old_category": "特种应用与产品",
+    "new_category": "基础软件与系统",
+    "model_suggested_category": "基础软件与系统",
+    "reason": "交付四足机器人ROS源码，属于可复用软件基础设施",
+    "changed_at": "2026-10-20T09:25:04.818045+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "18482c9444b9297e34",
+    "title": "New packages for Humble Hawksbill 2026-10-12",
+    "old_category": "特种应用与产品",
+    "new_category": "基础软件与系统",
+    "model_suggested_category": "基础软件与系统",
+    "reason": "发布40个新包及446项更新，形成可复用ROS软件基础设施",
+    "changed_at": "2026-10-20T09:25:04.818045+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "809c7b74f73ce04cfd",
+    "title": "Autonomous Robotic Systems in Agriculture 5.0: A Review on Technical Architecture, Operational Applications, and Future Perspectives",
+    "old_category": "特种应用与产品",
+    "new_category": "特种应用与产品",
+    "model_suggested_category": "特种应用与产品",
+    "reason": "综述农业机器人架构和应用，但未提出单一可归类的新算法",
+    "changed_at": "2026-10-20T09:25:04.818045+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "07c614461c09a93347",
+    "title": "Path Identification in Multi-Robot Environments Using a Restricted Minimum Spanning Tree Based Motion Strategy",
+    "old_category": "小脑与运动控制",
+    "new_category": "感知建图与导航",
+    "model_suggested_category": "感知建图与导航",
+    "reason": "基于RFID网络提出受限最小生成树运动策略，规划路径并处理机器人碰撞",
+    "changed_at": "2026-10-20T09:25:04.818045+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "b573235a0cc98bc330",
+    "title": "Design and application of quick-change explosion-proof inspection fire-extinguishing robot",
+    "old_category": "特种应用与产品",
+    "new_category": "特种应用与产品",
+    "model_suggested_category": "特种应用与产品",
+    "reason": "仅见快换式防爆巡检灭火机器人设计与应用，摘要未说明具体创新",
+    "changed_at": "2026-10-20T09:25:04.818045+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "c62080b6f5703bda76",
+    "title": "Design and application of intelligent robot for explosion-proof inspection and fire-extinguishing",
+    "old_category": "特种应用与产品",
+    "new_category": "特种应用与产品",
+    "model_suggested_category": "特种应用与产品",
+    "reason": "仅可确认防爆巡检灭火智能机器人系统设计与应用，无法判定核心贡献",
+    "changed_at": "2026-10-20T09:25:04.818045+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "59d7c2676000a44aa5",
+    "title": "Edge AI-Based LSTM Voice-Controlled Mobile Robot for Industrial Pipe Inspection",
+    "old_category": "感知建图与导航",
+    "new_category": "特种应用与产品",
+    "model_suggested_category": "特种应用与产品",
+    "reason": "仅见边缘LSTM语音控制工业管道巡检机器人，摘要缺失难以确认主要创新",
+    "changed_at": "2026-10-20T09:25:04.818045+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "970ab7ddd1ea658892",
+    "title": "Inchworm-inspired micro-inspection robot: Autonomous design for aero-engine inspection",
+    "old_category": "特种应用与产品",
+    "new_category": "硬件与防爆",
+    "model_suggested_category": "硬件与防爆",
+    "reason": "提出毛毛虫仿生微型巡检机器人本体及自主设计方案",
+    "changed_at": "2026-10-20T09:25:04.818045+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "20ae4a7a66b2f8454d",
+    "title": "Tunnel Apparent Disease Inspection Robot Based on Mobile LiDAR",
+    "old_category": "特种应用与产品",
+    "new_category": "感知建图与导航",
+    "model_suggested_category": "感知建图与导航",
+    "reason": "仅表明基于移动激光雷达的隧道病害巡检机器人，具体感知方法与系统贡献不明",
+    "changed_at": "2026-10-20T09:25:04.818045+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "99981f255de6bcb500",
+    "title": "\"Wireless Firefighting Robot for Emergency Response: A Critique of its Design, Functionality, and Real-World Application\"",
+    "old_category": "特种应用与产品",
+    "new_category": "特种应用与产品",
+    "model_suggested_category": "特种应用与产品",
+    "reason": "设计构建融合多传感器与无线通信的消防机器人系统",
+    "changed_at": "2026-10-20T09:25:04.818045+00:00",
+    "needs_review": false,
+    "status": "model_applied"
+  },
+  {
+    "id": "f5acac6412162ad1f2",
+    "title": "FireGuardian: A Smart IoT Firefighting Robot for Automated Fire Hazard Mitigation",
+    "old_category": "特种应用与产品",
+    "new_category": "特种应用与产品",
+    "model_suggested_category": "特种应用与产品",
+    "reason": "构建物联网消防机器人并实现火灾危险自动处置系统",
+    "changed_at": "2026-10-20T09:25:04.818045+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "91adb2f04c1c2ff27a",
+    "title": "Design and analysis of AGM explosion proof plug automatic assembly and inspection production line",
+    "old_category": "特种应用与产品",
+    "new_category": "硬件与防爆",
+    "model_suggested_category": "硬件与防爆",
+    "reason": "提出防爆插塞自动装配检测生产线，并完成产线结构及关键机构设计分析",
+    "changed_at": "2026-10-20T09:25:04.818045+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
   }
 ]

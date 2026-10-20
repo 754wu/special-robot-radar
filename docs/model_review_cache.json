@@ -1097,5 +1097,116 @@
     "model_confidence": "HIGH",
     "source": "OpenRouter free router (metadata only)",
     "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "48020083e5d7736aad3e570e42fa100a38413443606b49fab527d91401f73193": {
+    "primary_category": "基础软件与系统",
+    "secondary_categories": [],
+    "reason": "发布40个新包及446项更新，形成可复用ROS软件基础设施",
+    "needs_review": true,
+    "main_contribution": "ROS 2 Humble软件包同步发布与更新",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "0f65961e5c23e8622aa8619af3553fefe60352019b4e6a626691e77bcebdcddd": {
+    "primary_category": "特种应用与产品",
+    "secondary_categories": [],
+    "reason": "综述农业机器人架构和应用，但未提出单一可归类的新算法",
+    "needs_review": true,
+    "main_contribution": "农业自主机器人架构、运行应用与趋势综述",
+    "model_confidence": "LOW",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "811a5fae8c818374b29783b660ae5c81898552f357479184629692aa640e8e0c": {
+    "primary_category": "基础软件与系统",
+    "secondary_categories": [],
+    "reason": "交付四足机器人ROS源码，属于可复用软件基础设施",
+    "needs_review": true,
+    "main_contribution": "QUINS四足机器人ROS源码包",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "88a7c6855f4bc129ed14c7af20d2eadda609a065006679cfe6abe7954f6679e0": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "基于RFID网络提出受限最小生成树运动策略，规划路径并处理机器人碰撞",
+    "needs_review": false,
+    "main_contribution": "受限最小生成树运动规划方法",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "7fe0189358b830847b2715e52b8c37c3538ce61a52fb46b6dfbaa600c224bb5a": {
+    "primary_category": "特种应用与产品",
+    "secondary_categories": [],
+    "reason": "仅见快换式防爆巡检灭火机器人设计与应用，摘要未说明具体创新",
+    "needs_review": true,
+    "main_contribution": "快换式防爆巡检灭火机器人设计与应用",
+    "model_confidence": "LOW",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "157dae9a150838afed6f9eb7dee4253e5f336097f790a11c649fdacbf7482ac3": {
+    "primary_category": "特种应用与产品",
+    "secondary_categories": [],
+    "reason": "仅可确认防爆巡检灭火智能机器人系统设计与应用，无法判定核心贡献",
+    "needs_review": true,
+    "main_contribution": "防爆巡检灭火智能机器人系统设计与应用",
+    "model_confidence": "LOW",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "85e37f93205d304a5c14d0b16919bdb7ddcb94bb1dffb0c104a09ff2f26bd464": {
+    "primary_category": "硬件与防爆",
+    "secondary_categories": [],
+    "reason": "提出防爆插塞自动装配检测生产线，并完成产线结构及关键机构设计分析",
+    "needs_review": true,
+    "main_contribution": "防爆插塞自动装配检测生产线及关键机构设计",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "b66bbb305df59ae7cd5b9b1f0531daea50ded4566977ea85e338676280b31f08": {
+    "primary_category": "特种应用与产品",
+    "secondary_categories": [],
+    "reason": "仅见边缘LSTM语音控制工业管道巡检机器人，摘要缺失难以确认主要创新",
+    "needs_review": true,
+    "main_contribution": "边缘LSTM语音控制的工业管道巡检移动机器人",
+    "model_confidence": "LOW",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "ff71fe658b9886b32941438bcaf3e32d4e6861103e01115698f7d3a2697406b5": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "仅表明基于移动激光雷达的隧道病害巡检机器人，具体感知方法与系统贡献不明",
+    "needs_review": true,
+    "main_contribution": "基于移动激光雷达的隧道表观病害巡检机器人",
+    "model_confidence": "LOW",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "55de084c991bfdff06b891c4f79a0a44aacfc244d257bda7e00960ef31fe5a0d": {
+    "primary_category": "硬件与防爆",
+    "secondary_categories": [],
+    "reason": "提出毛毛虫仿生微型巡检机器人本体及自主设计方案",
+    "needs_review": false,
+    "main_contribution": "毛毛虫仿生微型巡检机器人本体及自主设计方案",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "d6d2ed9e34a760427b898ad7cd2a5404e4089154eb3d345956b1594e771aed16": {
+    "primary_category": "特种应用与产品",
+    "secondary_categories": [],
+    "reason": "构建物联网消防机器人并实现火灾危险自动处置系统",
+    "needs_review": false,
+    "main_contribution": "物联网消防机器人及火灾危险自动处置系统",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "abba6a9e655339470a72dc1a8c4658162d43f7e262d7d21aad333a33db0d5a9a": {
+    "primary_category": "特种应用与产品",
+    "secondary_categories": [],
+    "reason": "设计构建融合多传感器与无线通信的消防机器人系统",
+    "needs_review": false,
+    "main_contribution": "融合多传感器与无线通信的消防机器人系统",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)"
   }
 }

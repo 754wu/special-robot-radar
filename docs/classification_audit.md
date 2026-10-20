@@ -2,20 +2,20 @@
 
 本表对每条已入库资源扫描标题、摘要及现有分类；疑点不等于确证错分。
 
-总资源：1669；出现一项或以上疑点：566。
+总资源：1669；出现一项或以上疑点：383。
 
 ## 分类数量
 
-- 感知建图与导航: 707
-- 小脑与运动控制: 579
-- 特种应用与产品: 163
-- 硬件与防爆: 89
-- 基础软件与系统: 85
-- 大脑与具身智能: 46
+- 感知建图与导航: 698
+- 小脑与运动控制: 580
+- 特种应用与产品: 155
+- 硬件与防爆: 103
+- 基础软件与系统: 90
+- 大脑与具身智能: 43
 
 ## 疑点分布
 
-- EXISTING_REVIEW: 411
+- EXISTING_REVIEW: 228
 - THIN_ABSTRACT: 176
 - HW_NO_EVIDENCE: 5
 - NAV_AGENT_REVIEW: 2
@@ -23,22 +23,22 @@
 
 ## 重点疑点逐篇示例
 
-### EXISTING_REVIEW（411 条）
+### EXISTING_REVIEW（228 条）
 - Arman10121995/Celisca-ROS-2-Robot | 当前：基础软件与系统 | 建议：待复核 | https://github.com/Arman10121995/Celisca-ROS-2-Robot
-- limxdynamics/tron1-mujoco-sim | 当前：基础软件与系统 | 建议：待复核 | https://github.com/limxdynamics/tron1-mujoco-sim
 - hu-zlatan/embodied-ai-radar | 当前：大脑与具身智能 | 建议：待复核 | https://github.com/hu-zlatan/embodied-ai-radar
 - CondenseVLA: Learnable History Condensation for Efficient Multi-Frame VLA | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2610.25927
 - Time-JEPA: Grounding Video World Models with Physical Time Series | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2610.23982
-- Daniel-Zhang2017/ros2-robotics-projects | 当前：基础软件与系统 | 建议：待复核 | https://github.com/Daniel-Zhang2017/ros2-robotics-projects
-- abusumon/Morphological-and-Control-Evolution | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/abusumon/Morphological-and-Control-Evolution
 - hossam-salhin/AMR-IX1 | 当前：特种应用与产品 | 建议：待复核 | https://github.com/hossam-salhin/AMR-IX1
 - coverMoon/quadruped_control | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/coverMoon/quadruped_control
 - Unifying Embodied Foundation Models via a Model-to-Policy Formulation | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2610.23053
-- RileyMarek/Moonbase-Orchestrator-Public-Showcase- | 当前：特种应用与产品 | 建议：待复核 | https://github.com/RileyMarek/Moonbase-Orchestrator-Public-Showcase-
-- PelleNybe/CoraxCoLABs-GAP-GreenAutomatedPlatform---GAPbot | 当前：特种应用与产品 | 建议：待复核 | https://github.com/PelleNybe/CoraxCoLABs-GAP-GreenAutomatedPlatform---GAPbot
+- AchillesJS/GuideDog-Go2 | 当前：特种应用与产品 | 建议：待复核 | https://github.com/AchillesJS/GuideDog-Go2
+- abhijit-dash-2005/campus-drive-ai-robotics-simulation | 当前：基础软件与系统 | 建议：待复核 | https://github.com/abhijit-dash-2005/campus-drive-ai-robotics-simulation
+- 1ulone/quins_ros2 | 当前：基础软件与系统 | 建议：待复核 | https://github.com/1ulone/quins_ros2
+- Robot-Nav/legbot_lab | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/Robot-Nav/legbot_lab
+- LIME: Learning Intent-aware Camera Motion from Egocentric Video | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2607.02417
 ### THIN_ABSTRACT（176 条）
 - coverMoon/quadruped_control | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/coverMoon/quadruped_control
-- 1ulone/quins_ros2 | 当前：特种应用与产品 | 建议：待复核 | https://github.com/1ulone/quins_ros2
+- 1ulone/quins_ros2 | 当前：基础软件与系统 | 建议：待复核 | https://github.com/1ulone/quins_ros2
 - Gait-Aware Command Timing for Decentralized Quadruped Swarms | 当前：小脑与运动控制 | 建议：待复核 | https://doi.org/10.21203/rs.3.rs-11332226/v1
 - bell-ha/visually-impaired-navigation-robot | 当前：感知建图与导航 | 建议：待复核 | https://github.com/bell-ha/visually-impaired-navigation-robot
 - HAVEN: A unified monocular RGB vision-and-language navigation framework for wheeled-legged robots | 当前：感知建图与导航 | 建议：待复核 | https://doi.org/10.1016/j.displa.2026.103724
