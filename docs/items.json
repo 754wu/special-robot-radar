@@ -57,14 +57,14 @@
     "score": 61,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。MuJoCo simulation environment for TRON1 biped and wheel-legged robots — Sim-to-Real validation and RL policy evaluation（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "model_applied": false,
     "model_reviewed_uncertain": true,
+    "model_applied": false,
     "model_suggested_category": "基础软件与系统",
     "model_main_contribution": "基础软件与系统",
     "model_contribution_conflict": "模型所述主要研究贡献无法由题名摘要核验",
     "model_classification_reason": "提供TRON1双足及轮腿机器人MuJoCo仿真环境，支持策略评估与实机迁移验证",
-    "model_reviewed_at": "2026-10-20T07:07:17.023171+00:00",
-    "model_previous_confidence": "待复核",
+    "model_reviewed_at": "2026-10-20T07:12:10.115039+00:00",
+    "model_previous_confidence": "规则分类（模型待复核）",
     "classification_history": [
       {
         "id": "b943d0aced5dc35222",
@@ -73,7 +73,7 @@
         "new_category": "基础软件与系统",
         "model_suggested_category": "基础软件与系统",
         "reason": "提供TRON1双足及轮腿机器人MuJoCo仿真环境，支持策略评估与实机迁移验证",
-        "changed_at": "2026-10-20T07:07:17.023171+00:00",
+        "changed_at": "2026-10-20T07:12:10.115039+00:00",
         "needs_review": true,
         "status": "model_pending_review"
       }
@@ -797,8 +797,8 @@
     "model_main_contribution": "基础软件与系统",
     "model_contribution_conflict": "模型所述主要研究贡献无法由题名摘要核验",
     "model_classification_reason": "集成SLAM、激光雷达、Nav2及机械臂控制等ROS2项目并开展实机验证",
-    "model_reviewed_at": "2026-10-20T07:07:17.023171+00:00",
-    "model_previous_confidence": "待复核",
+    "model_reviewed_at": "2026-10-20T07:12:10.115039+00:00",
+    "model_previous_confidence": "规则分类（模型待复核）",
     "classification_history": [
       {
         "id": "668b4d5e2bd5028f48",
@@ -808,6 +808,17 @@
         "model_suggested_category": "基础软件与系统",
         "reason": "集成SLAM、激光雷达、Nav2及机械臂控制等ROS2项目并开展实机验证",
         "changed_at": "2026-10-20T07:07:17.023171+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      },
+      {
+        "id": "668b4d5e2bd5028f48",
+        "title": "Daniel-Zhang2017/ros2-robotics-projects",
+        "old_category": "基础软件与系统",
+        "new_category": "基础软件与系统",
+        "model_suggested_category": "基础软件与系统",
+        "reason": "集成SLAM、激光雷达、Nav2及机械臂控制等ROS2项目并开展实机验证",
+        "changed_at": "2026-10-20T07:12:10.115039+00:00",
         "needs_review": true,
         "status": "model_pending_review"
       }
@@ -33170,8 +33181,8 @@
     "model_main_contribution": "硬件与防爆",
     "model_contribution_conflict": "模型所述主要研究贡献无法由题名摘要核验",
     "model_classification_reason": "设计轮夹式斜拉索巡检机器人及夹持驱动机构，并优化抗风与夹持参数",
-    "model_reviewed_at": "2026-10-20T07:07:17.023171+00:00",
-    "model_previous_confidence": "待复核",
+    "model_reviewed_at": "2026-10-20T07:12:10.115039+00:00",
+    "model_previous_confidence": "规则分类（模型待复核）",
     "classification_history": [
       {
         "id": "f5762cb31b3449dce0",
@@ -33181,6 +33192,17 @@
         "model_suggested_category": "硬件与防爆",
         "reason": "设计轮夹式斜拉索巡检机器人及夹持驱动机构，并优化抗风与夹持参数",
         "changed_at": "2026-10-20T07:07:17.023171+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      },
+      {
+        "id": "f5762cb31b3449dce0",
+        "title": "Design and implementation of the wheel-clamping stay cable inspection robot",
+        "old_category": "特种应用与产品",
+        "new_category": "特种应用与产品",
+        "model_suggested_category": "硬件与防爆",
+        "reason": "设计轮夹式斜拉索巡检机器人及夹持驱动机构，并优化抗风与夹持参数",
+        "changed_at": "2026-10-20T07:12:10.115039+00:00",
         "needs_review": true,
         "status": "model_pending_review"
       }
@@ -38558,6 +38580,9 @@
     "published": "2022-10-18",
     "first_seen": "2026-10-15T01:54:05.583036+00:00",
     "doi": "10.1109/conescapan56456.2022.9959592",
+    "relevance_status": "直接相关",
+    "rule_category": "基础软件与系统",
+    "rule_confidence": "low",
     "category": "基础软件与系统",
     "classification_confidence": "待复核",
     "classification_reason": "研究机器人软件、仿真或平台系统",
@@ -38572,10 +38597,7 @@
     "scope": "特种场景直接相关",
     "score": 87,
     "summary": "行业筛选：特种场景直接相关；方向：基础软件与系统；关联：工业与能源巡检。来源期刊/会议：2022 IEEE Central America and Panama Student Conference (CONESCAPAN)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "relevance_status": "直接相关",
-    "rule_category": "基础软件与系统",
-    "rule_confidence": "low"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "6dd31c9b6ef9fd607b",
