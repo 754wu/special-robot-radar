@@ -860,6 +860,25 @@ class RadarTests(unittest.TestCase):
         self.assertEqual(result["rule_category"],"小脑与运动控制")
         self.assertTrue(result["model_applied"])
 
+    def test_followup_confirmed_classifications_are_protected(self):
+        from metadata_review_followup_20261020 import BATCH_DECISIONS
+        from main import apply_manual_correction, preserve_model_classification, KEYWORDS
+        self.assertEqual(len(BATCH_DECISIONS), 28)
+        for title, (category, reason) in BATCH_DECISIONS.items():
+            with self.subTest(title=title):
+                self.assertIn(category, KEYWORDS)
+                self.assertGreater(len(reason), 25)
+                item = apply_manual_correction(
+                    {"title": title, "category": "特种应用与产品",
+                     "needs_review": True, "tags": []})
+                self.assertEqual(item["category"], category)
+                self.assertTrue(item["manual_category_override"])
+                self.assertFalse(item["needs_review"])
+                preserved = preserve_model_classification(
+                    {"title": title, "category": "感知建图与导航",
+                     "needs_review": True, "tags": []}, item)
+                self.assertEqual(preserved["category"], category)
+
     def test_pending_model_crosscheck_does_not_change_review_status(self):
         from classification_crosscheck import apply_crosschecks
         item={"category":"大脑与具身智能","rule_category":"感知建图与导航",
