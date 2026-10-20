@@ -352,7 +352,7 @@ def main():
            f"- 当日新增待复核候选：{fresh_count}",
            f"- 历史待复核候选：{historical_count}",
            f"- 本次处理已有模型建议：{len(changes)}",
-           f"- 本次实际改变主分类：{sum(x[\x27old_category\x27] != x[\x27new_category\x27] for x in changes)}",
+           "- 本次实际改变主分类："+str(sum(x["old_category"] != x["new_category"] for x in changes)),
            f"- 本次API调用次数：{attempts}",
            f"- 本次理论最大审核数：{attempts*3}",
            f"- 本次有效输出率：{(reviewed/(attempts*3)*100 if attempts else 0):.1f}%",
