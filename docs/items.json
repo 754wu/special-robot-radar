@@ -67,7 +67,7 @@
     "model_main_contribution": "基础软件与系统",
     "model_contribution_conflict": "模型所述主要研究贡献无法由题名摘要核验",
     "model_classification_reason": "提供TRON1双足及轮腿机器人MuJoCo仿真环境，支持策略评估与实机迁移验证",
-    "model_reviewed_at": "2026-10-20T07:28:12.613406+00:00",
+    "model_reviewed_at": "2026-10-20T07:34:55.982881+00:00",
     "model_previous_confidence": "规则分类（模型待复核）",
     "classification_history": [
       {
@@ -77,7 +77,7 @@
         "new_category": "基础软件与系统",
         "model_suggested_category": "基础软件与系统",
         "reason": "提供TRON1双足及轮腿机器人MuJoCo仿真环境，支持策略评估与实机迁移验证",
-        "changed_at": "2026-10-20T07:28:12.613406+00:00",
+        "changed_at": "2026-10-20T07:34:55.982881+00:00",
         "needs_review": true,
         "status": "model_pending_review"
       }
@@ -849,7 +849,7 @@
     "model_main_contribution": "基础软件与系统",
     "model_contribution_conflict": "模型所述主要研究贡献无法由题名摘要核验",
     "model_classification_reason": "集成SLAM、激光雷达、Nav2及机械臂控制等ROS2项目并开展实机验证",
-    "model_reviewed_at": "2026-10-20T07:28:12.613406+00:00",
+    "model_reviewed_at": "2026-10-20T07:34:55.982881+00:00",
     "model_previous_confidence": "规则分类（模型待复核）",
     "classification_history": [
       {
@@ -882,6 +882,17 @@
         "model_suggested_category": "基础软件与系统",
         "reason": "集成SLAM、激光雷达、Nav2及机械臂控制等ROS2项目并开展实机验证",
         "changed_at": "2026-10-20T07:28:12.613406+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      },
+      {
+        "id": "668b4d5e2bd5028f48",
+        "title": "Daniel-Zhang2017/ros2-robotics-projects",
+        "old_category": "基础软件与系统",
+        "new_category": "基础软件与系统",
+        "model_suggested_category": "基础软件与系统",
+        "reason": "集成SLAM、激光雷达、Nav2及机械臂控制等ROS2项目并开展实机验证",
+        "changed_at": "2026-10-20T07:34:55.982881+00:00",
         "needs_review": true,
         "status": "model_pending_review"
       }
@@ -12648,6 +12659,8 @@
     "classification_confidence": "高",
     "classification_reason": "核心任务为运动、步态、控制或机器人操作",
     "needs_review": false,
+    "crosscheck_conflicts": [],
+    "crosscheck_pending": false,
     "tags": [
       "小脑与运动控制"
     ],
@@ -12655,9 +12668,7 @@
     "scope": "可迁移的机器人关键技术",
     "score": 65,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2026 38th Chinese Control and Decision Conference (CCDC)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "9e0ae03ea3f11395c5",
@@ -26683,8 +26694,14 @@
     "relevance_status": "可迁移的机器人关键技术",
     "rule_category": "小脑与运动控制",
     "rule_confidence": "high",
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false
+    "crosscheck_conflicts": [
+      {
+        "type": "research_goal_vs_method",
+        "suggested_category": "感知建图与导航",
+        "reason": "论文明确以定位建图为研究目标，运动方式可能只是辅助手段"
+      }
+    ],
+    "crosscheck_pending": true
   },
   {
     "id": "ca62b15200a0f9930a",
@@ -27012,8 +27029,14 @@
     "relevance_status": "可迁移的机器人关键技术",
     "rule_category": "感知建图与导航",
     "rule_confidence": "high",
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false
+    "crosscheck_conflicts": [
+      {
+        "type": "deliverable_vs_task",
+        "suggested_category": "基础软件与系统",
+        "reason": "题名显示交付数据集、基准或软件框架"
+      }
+    ],
+    "crosscheck_pending": true
   },
   {
     "id": "29a6904999fae1ca30",
@@ -32855,8 +32878,14 @@
     "relevance_status": "可迁移的机器人关键技术",
     "rule_category": "大脑与具身智能",
     "rule_confidence": "high",
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false
+    "crosscheck_conflicts": [
+      {
+        "type": "model_name_vs_research_task",
+        "suggested_category": "感知建图与导航",
+        "reason": "研究目标是目标导航或视觉语言导航，不应仅凭Agent/LLM归入大脑"
+      }
+    ],
+    "crosscheck_pending": true
   },
   {
     "id": "63b8051486f4e9c971",
@@ -35508,7 +35537,7 @@
     "model_main_contribution": "硬件与防爆",
     "model_contribution_conflict": "模型所述主要研究贡献无法由题名摘要核验",
     "model_classification_reason": "设计轮夹式斜拉索巡检机器人及夹持驱动机构，并优化抗风与夹持参数",
-    "model_reviewed_at": "2026-10-20T07:28:12.613406+00:00",
+    "model_reviewed_at": "2026-10-20T07:34:55.982881+00:00",
     "model_previous_confidence": "规则分类（模型待复核）",
     "classification_history": [
       {
@@ -35541,6 +35570,17 @@
         "model_suggested_category": "硬件与防爆",
         "reason": "设计轮夹式斜拉索巡检机器人及夹持驱动机构，并优化抗风与夹持参数",
         "changed_at": "2026-10-20T07:28:12.613406+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      },
+      {
+        "id": "f5762cb31b3449dce0",
+        "title": "Design and implementation of the wheel-clamping stay cable inspection robot",
+        "old_category": "特种应用与产品",
+        "new_category": "特种应用与产品",
+        "model_suggested_category": "硬件与防爆",
+        "reason": "设计轮夹式斜拉索巡检机器人及夹持驱动机构，并优化抗风与夹持参数",
+        "changed_at": "2026-10-20T07:34:55.982881+00:00",
         "needs_review": true,
         "status": "model_pending_review"
       }
