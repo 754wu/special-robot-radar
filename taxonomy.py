@@ -532,6 +532,26 @@ def classify_contribution(title: str, description: str = "", source: str = "") -
         return result(NAV, "明确的巡检视觉感知/任务划分算法，而非整机产品",
                       (APPLICATION,), review=bool(has(t, r"task.decomposition")))
 
+    # General contribution boundaries: prioritize the technical deliverable.
+    special_context = has(t, r"\b(?:inspection|firefighting|fire.fighting|rescue|substation|mining|disaster.response)\b")
+    physical_output = has(t, r"\b(?:fabrication|prototype|actuator.design|mechanical.design|mechanism.design|chassis.design|motor.design|structural.design|sensor.design)\b")
+    if special_context and not physical_output:
+        if has(t, r"\b(?:fuzzy.pid|pid.control|trajectory.tracking|force.control|motion.control|gait.control)\b"):
+            return result(CONTROL, "特种场景中的运动控制算法是主要研究成果",
+                          (APPLICATION,), review=not has(d, r"control|tracking|robot"))
+        if has(t, r"\b(?:object.detection|defect.detection|image.recognition|visual.detection|image.segmentation|stereo.vision)\b"):
+            return result(NAV, "特种场景中的视觉感知算法是主要研究成果",
+                          (APPLICATION,))
+        if has(t, r"\b(?:task.allocation|task.assignment|task.scheduling|multi.robot.scheduling)\b") and has(
+                  t, r"\b(?:algorithm|optimization|genetic.algorithm|method|strategy)\b"):
+            return result(SOFTWARE, "机器人任务分配与调度方法，并非整机产品",
+                          (APPLICATION, BRAIN), review=True)
+    if has(t, r"\b(?:magnetic.feet|magnetic.foot|adhesive.feet)\b") and has(
+        t, r"\b(?:climbing|adaptation|locomotion|control|slippery)\b") and not has(
+        t, r"\b(?:design|fabrication|development|prototype|mechanism)\b"):
+        return result(CONTROL, "特殊足端是使用条件，主要贡献可能是攀爬运动控制",
+                      (HARDWARE,), review=True)
+
     # Dedicated evidence-based embodied classifier; avoid counting every use of
     # "agent" or "VLM" as high-level embodied reasoning.
     from embodied_topics import embodied_decision

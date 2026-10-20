@@ -599,6 +599,23 @@ class RadarTests(unittest.TestCase):
         self.assertEqual(queue,[])
         self.assertEqual(event["status"],"model_pending_review")
 
+    def test_generalized_special_robot_contribution_boundaries(self):
+        from taxonomy import classify_contribution
+        cases=[
+            ("Adaptive fuzzy PID control for firefighting robot",
+             "Robot motion control and tracking experiments.", "小脑与运动控制"),
+            ("Visual defect detection algorithm for industrial inspection robot",
+             "Robot image recognition and defect detection.", "感知建图与导航"),
+            ("Task allocation method based on genetic algorithm for substation inspection robots",
+             "Task allocation optimization for a fleet of robots.", "基础软件与系统"),
+            ("Adaptive robot climbing with magnetic feet in unknown slippery structure",
+             "Locomotion adaptation and climbing control on slippery surfaces.", "小脑与运动控制"),
+        ]
+        for title,abstract,category in cases:
+            with self.subTest(title=title):
+                decision=classify_contribution(title,abstract)
+                self.assertEqual(decision.category,category)
+
     def test_filter_config_reject_score(self):
         item = make_item('Wheel-legged quadruped locomotion', 'https://example.org/w',
                          'arXiv API', '论文（摘要）', 'robot locomotion and motion control')
