@@ -716,6 +716,18 @@ MANUAL_CORRECTIONS = {
 
 # Individually reviewed metadata cases (not full-text peer review).
 MANUAL_REVIEWED_CASES = {
+    "rosmonitoring 2.0: extending ros runtime verification to services and ordered topics": ("基础软件与系统", "论文交付ROS运行时形式化验证工具扩展，核心成果是服务与有序主题的软件监测机制。"),
+    "the open stack of tasks library: opensot": ("基础软件与系统", "主要交付用于全身运动规划与控制的可复用开源软件库OpenSoT，算法用途不改变软件交付物属性。"),
+    "embodied visual route following by an insect-inspired robot": ("感知建图与导航", "摘要描述依赖视觉记忆的路线跟随与路径导航任务，研究目标不是高层具身任务推理。"),
+    "mini-q: a miniature, wire-free quadruped with unbounded, independently actuated leg joints": ("硬件与防爆", "论文提出小型无线四足机器人及无界独立驱动腿关节机械设计，创新重点是物理机构。"),
+    "kyon: semi-modular wheel-legged quadruped with agile bimanual capability": ("硬件与防爆", "摘要提出半模块化轮足四足机器人与双臂本体平台，主要交付机器人机械系统。"),
+    "foldable spherical pipeline robot: design, control and simulation": ("硬件与防爆", "标题及摘要以可折叠球形管道机器人机构设计为核心，同时包含控制和仿真验证。"),
+    "design and analysis of pipeline inspection robot based on generalized parallel mechanisms": ("硬件与防爆", "摘要提出采用广义并联机构的新型管道巡检机器人，主要创新为机械机构设计与分析。"),
+    "resonant inductive coupling power transfer for mid-sized inspection robot": ("硬件与防爆", "摘要提出面向巡检机器人的谐振感应无线功率传输硬件，目标为一米距离传输百瓦功率。"),
+    "research on inspection method of intelligent factory inspection robot for personnel safety protection": ("感知建图与导航", "摘要以智能工厂人员安全着装自动识别方法为主，重点是视觉检测而非巡检整机。"),
+    "sf6 gas leakage detection method for substation gis equipment based on intelligent inspection robot technology": ("感知建图与导航", "摘要围绕变电站GIS设备六氟化硫泄漏感知与检测方法，机器人为应用平台。"),
+    "what makes a space traversable? a formal definition and on-policy certificate for contact-rich egress in confined environments": ("感知建图与导航", "论文研究未知受限环境中面向机器人的可通行性形式化定义与触觉通行判定，属于环境可通行性推断。"),
+    "design and implementation of a semi-autonomous quadruped assistive robot for remote elderly monitoring and covid-19 response": ("特种应用与产品", "摘要主要介绍养老监护与疫情响应四足辅助机器人系统的设计实现，研究成果为集成机器人应用。"),
     "simultaneous localization and mapping methods for snake-like robots based on gait adjustment": ("感知建图与导航", "标题和摘要以蛇形机器人同步定位建图为研究目标，步态调整属于配套技术。"),
     "can an embodied agent find your “cat-shaped mug”? llm-based zero-shot object navigation": ("感知建图与导航", "摘要明确提出语言引导探索的零样本目标导航算法，主要成果是目标搜索与导航。"),
     "benchmark analysis of sampling methods for rrt path planning": ("感知建图与导航", "研究RRT路径规划采样方法的性能比较，而非交付可复用的Benchmark软件平台。"),

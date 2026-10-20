@@ -806,6 +806,17 @@ class RadarTests(unittest.TestCase):
                                   "tags":["特种应用与产品"],"needs_review":True},item)
                 self.assertEqual(updated["category"],expected)
 
+    def test_second_batch_metadata_confirmed_categories(self):
+        from main import apply_manual_correction
+        cases=[["ROSMonitoring 2.0: Extending ROS Runtime Verification to Services and Ordered Topics","基础软件与系统"],["The Open Stack of Tasks Library: OpenSoT","基础软件与系统"],["Embodied visual route following by an insect-inspired robot","感知建图与导航"],["MiNI-Q: A Miniature, Wire-Free Quadruped with Unbounded, Independently Actuated Leg Joints","硬件与防爆"],["KYON: Semi-Modular Wheel-Legged Quadruped With Agile Bimanual Capability","硬件与防爆"],["Foldable Spherical Pipeline Robot: Design, Control and Simulation","硬件与防爆"],["Design and analysis of pipeline inspection robot based on generalized parallel mechanisms","硬件与防爆"],["Resonant Inductive Coupling Power Transfer for Mid-Sized Inspection Robot","硬件与防爆"],["Research on Inspection Method of Intelligent Factory Inspection Robot for Personnel Safety Protection","感知建图与导航"],["SF6 gas leakage detection method for substation GIS equipment based on intelligent inspection robot technology","感知建图与导航"],["What Makes a Space Traversable? A Formal Definition and On-Policy Certificate for Contact-Rich Egress in Confined Environments","感知建图与导航"],["Design and Implementation of a Semi-Autonomous Quadruped Assistive Robot for Remote Elderly Monitoring and COVID-19 Response","特种应用与产品"]]
+        for title,category in cases:
+            with self.subTest(title=title):
+                item=apply_manual_correction({"title":title,"category":"特种应用与产品",
+                                              "needs_review":True,"tags":[]})
+                self.assertEqual(item["category"],category)
+                self.assertTrue(item["manual_category_override"])
+                self.assertFalse(item["needs_review"])
+
     def test_filter_config_reject_score(self):
         item = make_item('Wheel-legged quadruped locomotion', 'https://example.org/w',
                          'arXiv API', '论文（摘要）', 'robot locomotion and motion control')
