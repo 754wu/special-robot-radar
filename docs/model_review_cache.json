@@ -907,5 +907,62 @@
     "model_confidence": "MEDIUM",
     "source": "OpenRouter free router (metadata only)",
     "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "460b5a4bd18524d56000e6bc7ea614ffe23af46b586ae9a2327057fae38e7e6d": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "提出黎曼度量运动编排框架，融合目标导航、感知运动生成与避障",
+    "needs_review": false,
+    "main_contribution": "Riemannian度量异构集群运动编排框架",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "1b6f2e6c99b170f49b7d5f5a31c42ddfc638deaff6aaa0ca8dc82284318c4ced": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "综述步态生成、落脚点规划及模型预测控制到全身控制体系",
+    "needs_review": true,
+    "main_contribution": "双足导航与运动控制算法综述",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "30ea02d7550329f76a5a9bcf01e2256e959e6123ef68ecc3d3868a2c6c88915f": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "提出磁力矩建模估计补偿框架，结合模型预测控制与全身控制提升稳定性",
+    "needs_review": true,
+    "main_contribution": "磁感知扰动补偿与全身控制框架",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "62f0b362eca4bf4ce6ec4cad8c81a1adc6a885f15a4bbaa589d0f49488cfab6f": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "提出滤波感知微调方法，协调全身跟踪策略与安全过滤器接口",
+    "needs_review": true,
+    "main_contribution": "小脑与运动控制",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "d2785380b996135d12b1985cfe213f7c0645b620603320b6beb7269883fd233d": {
+    "primary_category": "特种应用与产品",
+    "secondary_categories": [],
+    "reason": "构建面向卒中康复的安全感知多模态机器人系统并完成临床前评估",
+    "needs_review": false,
+    "main_contribution": "特种应用与产品",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "05337f78558bccc8b3291fc7977634df004829000f7def00b6feea4915f707e0": {
+    "primary_category": "基础软件与系统",
+    "secondary_categories": [],
+    "reason": "提出六层电力机器人架构及统一可靠性建模与定量评估框架",
+    "needs_review": false,
+    "main_contribution": "基础软件与系统",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)"
   }
 }

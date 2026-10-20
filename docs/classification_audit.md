@@ -2,20 +2,20 @@
 
 本表对每条已入库资源扫描标题、摘要及现有分类；疑点不等于确证错分。
 
-总资源：1669；出现一项或以上疑点：596。
+总资源：1669；出现一项或以上疑点：584。
 
 ## 分类数量
 
-- 感知建图与导航: 707
-- 小脑与运动控制: 594
-- 特种应用与产品: 168
-- 基础软件与系统: 82
-- 硬件与防爆: 75
-- 大脑与具身智能: 43
+- 感知建图与导航: 708
+- 小脑与运动控制: 591
+- 特种应用与产品: 169
+- 基础软件与系统: 83
+- 硬件与防爆: 76
+- 大脑与具身智能: 42
 
 ## 疑点分布
 
-- EXISTING_REVIEW: 443
+- EXISTING_REVIEW: 431
 - THIN_ABSTRACT: 176
 - NAV_AGENT_REVIEW: 2
 - HW_NO_EVIDENCE: 2
@@ -23,10 +23,9 @@
 
 ## 重点疑点逐篇示例
 
-### EXISTING_REVIEW（443 条）
+### EXISTING_REVIEW（431 条）
 - limxdynamics/tron1-mujoco-sim | 当前：基础软件与系统 | 建议：待复核 | https://github.com/limxdynamics/tron1-mujoco-sim
 - hu-zlatan/embodied-ai-radar | 当前：大脑与具身智能 | 建议：待复核 | https://github.com/hu-zlatan/embodied-ai-radar
-- AI-Enhanced Radiation Classification in ROS | 当前：感知建图与导航 | 建议：待复核 | https://arxiv.org/abs/2610.25225
 - CondenseVLA: Learnable History Condensation for Efficient Multi-Frame VLA | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2610.25927
 - Time-JEPA: Grounding Video World Models with Physical Time Series | 当前：小脑与运动控制 | 建议：待复核 | https://arxiv.org/abs/2610.23982
 - Daniel-Zhang2017/ros2-robotics-projects | 当前：基础软件与系统 | 建议：待复核 | https://github.com/Daniel-Zhang2017/ros2-robotics-projects
@@ -36,6 +35,7 @@
 - coverMoon/quadruped_control | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/coverMoon/quadruped_control
 - Unifying Embodied Foundation Models via a Model-to-Policy Formulation | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2610.23053
 - RileyMarek/Moonbase-Orchestrator-Public-Showcase- | 当前：特种应用与产品 | 建议：待复核 | https://github.com/RileyMarek/Moonbase-Orchestrator-Public-Showcase-
+- PelleNybe/CoraxCoLABs-GAP-GreenAutomatedPlatform---GAPbot | 当前：特种应用与产品 | 建议：待复核 | https://github.com/PelleNybe/CoraxCoLABs-GAP-GreenAutomatedPlatform---GAPbot
 ### THIN_ABSTRACT（176 条）
 - coverMoon/quadruped_control | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/coverMoon/quadruped_control
 - 1ulone/quins_ros2 | 当前：特种应用与产品 | 建议：待复核 | https://github.com/1ulone/quins_ros2

@@ -1,6 +1,6 @@
 # 特种机器人七日技术简报
 
-生成时间：2026-10-20T08:32:49.796397+00:00
+生成时间：2026-10-20T08:41:57.270871+00:00
 
 最近 7 天首次记录 **1448** 条；本轮新增 **0** 条；总库存 **1669** 条。
 
@@ -69,8 +69,6 @@
   - 行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：消防与应急救援。来源期刊/会议：Frontiers in Robotics and AI。Search and Rescue (SAR) robotics increasingly depends on collaborative intelligence to operate eff（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Don't Run with Scissors: Pruning Breaks VLA Models but They Can Be Recovered](https://arxiv.org/abs/2510.08464) | 论文（摘要） | 特种场景直接相关 | 匹配度 72/100
   - 行业筛选：特种场景直接相关；方向：大脑与具身智能；关联：野外与特种地形。arXiv:2510.08464v2 Announce Type: replace Abstract: Vision-Language-Action (VLA) models are a promising paradigm for field robotics, bu（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [A Survey of Map Construction and Management Methods for Single Embodied Agents](https://doi.org/10.3390/s26196242) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 65/100
-  - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Sensors。Embodied intelligent systems need to complete the closed loop of perception-understanding-decision-execution in the rea（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [NaVILA: Legged Robot Vision-Language-Action Model for Navigation](https://doi.org/10.15607/rss.2025.xxi.018) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 65/100
   - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Robotics: Science and Systems XXI。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [QuadrupedGPT: Towards a Versatile Quadruped Agent in Open-ended Worlds](https://doi.org/10.48550/arxiv.2406.16578) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 65/100
@@ -81,6 +79,8 @@
   - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.26717v1 Announce Type: new Abstract: Robotic manipulation in agricultural environments remains challenging due to variations（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [An intelligent mission-oriented and situation aware quadruped robot: a novel embodied explainable AI approach](https://doi.org/10.1117/12.2664019) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 64/100
   - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Unmanned Systems Technology XXV。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [hu-zlatan/embodied-ai-radar](https://github.com/hu-zlatan/embodied-ai-radar) | 代码仓库更新 | 可迁移的机器人关键技术 | 匹配度 63/100
+  - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。Bilingual (EN/中文), daily-updated map of embodied AI & robot learning: verified papers, code, datasets, simulators, hardware + every new（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 感知建图与导航
 
