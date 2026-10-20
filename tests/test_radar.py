@@ -578,6 +578,27 @@ class RadarTests(unittest.TestCase):
         changed=dict(item,category="感知建图与导航",model_applied=False,needs_review=True,description="changed")
         self.assertEqual(preserve_model_classification(changed,item)["category"],"感知建图与导航")
 
+    def test_ambiguous_model_category_survives_rule_refresh_without_long_abstract(self):
+        from llm_review import apply_model_result, prioritize_reviews
+        from main import preserve_model_classification
+        from datetime import datetime, timezone
+        item={"id":"short","title":"Agentic skill planning","description":"VLM skill planning",
+              "category":"感知建图与导航","needs_review":True}
+        proposal={"primary_category":"大脑与具身智能","needs_review":True,
+                  "reason":"视觉语言模型用于技能规划仍需进一步核查"}
+        event=apply_model_result(item,proposal,"2026-10-20T03:00:00+00:00")
+        self.assertIsNotNone(event)
+        self.assertEqual(item["category"],"大脑与具身智能")
+        self.assertTrue(item["needs_review"])
+        refreshed={"id":"short","title":item["title"],"description":item["description"],
+                   "category":"感知建图与导航","needs_review":True}
+        outcome=preserve_model_classification(refreshed,item)
+        self.assertEqual(outcome["category"],"大脑与具身智能")
+        self.assertTrue(outcome["needs_review"])
+        queue,_,_=prioritize_reviews([outcome],{},datetime(2026,10,20,tzinfo=timezone.utc))
+        self.assertEqual(queue,[])
+        self.assertEqual(event["status"],"model_pending_review")
+
     def test_filter_config_reject_score(self):
         item = make_item('Wheel-legged quadruped locomotion', 'https://example.org/w',
                          'arXiv API', '论文（摘要）', 'robot locomotion and motion control')

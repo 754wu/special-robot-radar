@@ -713,7 +713,8 @@ def preserve_model_classification(item, previous):
     item["rule_category"] = rule_category
     item["classification_reason"] = previous.get("model_classification_reason", "")
     item["classification_confidence"] = "模型复核（待抽查）"
-    item["needs_review"] = False
+    item["needs_review"] = bool(previous.get("needs_review", False))
+    item["classification_confidence"] = ("模型建议（待复核）" if item["needs_review"] else "模型复核（待抽查）")
     item["tags"] = list(dict.fromkeys([item["category"], rule_category] +
                       [x for x in item.get("tags", []) if x not in KEYWORDS]))[:6]
     return item

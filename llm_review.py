@@ -171,32 +171,38 @@ def prioritize_reviews(items, cache, now):
 
 
 def apply_model_result(item, result, at):
+    """Persist a model category even if the model requests further review."""
     if not item.get("needs_review") or item.get("model_applied"):
         return None
-    if not result or result.get("needs_review") is not False or result.get("evidence_warning"):
+    if not isinstance(result,dict):
         return None
-    old, new = item.get("category"), result.get("primary_category")
-    if old not in CATEGORIES or new not in CATEGORIES or old == new:
+    old,new=item.get("category"),result.get("primary_category")
+    if old not in CATEGORIES or new not in CATEGORIES:
         return None
-    if len(str(item.get("description") or "")) < 80:
+    reason=str(result.get("reason") or "").strip()
+    if len(reason)<8:
         return None
-    if not evidence_supported(item, result.get("reason","")):
-        return None
-    event = {"id":item.get("id"),"title":item.get("title"),
-             "old_category":old,"new_category":new,
-             "reason":result["reason"],"changed_at":at}
-    item["model_applied"] = True
-    item["rule_category"] = old
-    item["model_classification_reason"] = result["reason"]
-    item["model_reviewed_at"] = at
-    item["model_previous_confidence"] = item.get("classification_confidence")
-    item["classification_history"] = list(item.get("classification_history") or []) + [event]
-    item["category"] = new
-    item["classification_confidence"] = "模型复核（待抽查）"
-    item["classification_reason"] = result["reason"]
-    item["needs_review"] = False
-    item["tags"] = list(dict.fromkeys([new,old] +
-                    [x for x in item.get("tags",[]) if x not in CATEGORIES]))[:6]
+    # A weak or ungrounded model judgment is retained but still awaits review.
+    uncertain=(result.get("needs_review") is not False or
+               bool(result.get("evidence_warning")) or
+               not evidence_supported(item,reason))
+    event={"id":item.get("id"),"title":item.get("title"),
+           "old_category":old,"new_category":new,
+           "reason":reason,"changed_at":at,
+           "needs_review":uncertain,
+           "status":"model_pending_review" if uncertain else "model_applied"}
+    item["model_applied"]=True
+    item["rule_category"]=old
+    item["model_classification_reason"]=reason
+    item["model_reviewed_at"]=at
+    item["model_previous_confidence"]=item.get("classification_confidence")
+    item["classification_history"]=list(item.get("classification_history") or [])+[event]
+    item["category"]=new
+    item["classification_confidence"]="模型建议（待复核）" if uncertain else "模型复核（待抽查）"
+    item["classification_reason"]=reason
+    item["needs_review"]=uncertain
+    item["tags"]=list(dict.fromkeys([new,old]+
+                  [tag for tag in item.get("tags",[]) if tag not in CATEGORIES]))[:6]
     return event
 
 
