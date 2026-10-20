@@ -809,5 +809,104 @@
     "changed_at": "2026-10-20T06:10:01.655143+00:00",
     "needs_review": false,
     "status": "model_applied"
+  },
+  {
+    "id": "397b2c7dde8f10ce6b",
+    "title": "abusumon/Morphological-and-Control-Evolution",
+    "old_category": "小脑与运动控制",
+    "new_category": "小脑与运动控制",
+    "model_suggested_category": "小脑与运动控制",
+    "reason": "用遗传算法协同进化四足步态、腿长与转向增益",
+    "changed_at": "2026-10-20T06:42:37.983101+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "630543869363bc568b",
+    "title": "knoblog: a changelog of default-parameter changes from git history (Nav2, PX4, ArduPilot), feedback wanted",
+    "old_category": "特种应用与产品",
+    "new_category": "基础软件与系统",
+    "model_suggested_category": "基础软件与系统",
+    "reason": "开发工具解析版本历史并汇总机器人默认参数变更",
+    "changed_at": "2026-10-20T06:42:37.983101+00:00",
+    "needs_review": false,
+    "status": "model_applied"
+  },
+  {
+    "id": "25c3b17facd6b27698",
+    "title": "EasyNav 0.5.0 released for Humble, Jazzy, Kilted and Lyrical",
+    "old_category": "感知建图与导航",
+    "new_category": "基础软件与系统",
+    "model_suggested_category": "基础软件与系统",
+    "reason": "发布可复用的ROS 2导航系统，整合定位规划控制与地图配置",
+    "changed_at": "2026-10-20T06:42:37.983101+00:00",
+    "needs_review": false,
+    "status": "model_applied"
+  },
+  {
+    "id": "6947e4544d520d8f2c",
+    "title": "Air–ground teaming with a humanoid robot: ROS 2 patterns for a shared event record?",
+    "old_category": "基础软件与系统",
+    "new_category": "基础软件与系统",
+    "model_suggested_category": "基础软件与系统",
+    "reason": "提出空地协作ROS 2集成模式，以统一事件记录关联资产与任务",
+    "changed_at": "2026-10-20T06:42:37.983101+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "b3129125ae36354b09",
+    "title": "S2M-Trek: From Single to Multi-Sphere Transport via Per-Frame Deep Sets on a Wheel-Legged Robot",
+    "old_category": "小脑与运动控制",
+    "new_category": "小脑与运动控制",
+    "model_suggested_category": "小脑与运动控制",
+    "reason": "提出逐帧深度集编码与强化学习，实现多球无约束动态运输",
+    "changed_at": "2026-10-20T06:42:37.983101+00:00",
+    "needs_review": false,
+    "status": "model_applied"
+  },
+  {
+    "id": "79addfd29e4bae262a",
+    "title": "Adaptive robot climbing with magnetic feet in unknown slippery structure",
+    "old_category": "小脑与运动控制",
+    "new_category": "小脑与运动控制",
+    "model_suggested_category": "小脑与运动控制",
+    "reason": "提出质心轨迹优化、在线重规划与全身控制适应框架",
+    "changed_at": "2026-10-20T06:42:37.983101+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "beb51f59089c06ada1",
+    "title": "A review of mechanical model, structure, and prospect for long-distance pipeline pig and robot",
+    "old_category": "硬件与防爆",
+    "new_category": "硬件与防爆",
+    "model_suggested_category": "硬件与防爆",
+    "reason": "综述管道机器人机械模型、结构和运动分类，未设计新硬件",
+    "changed_at": "2026-10-20T06:42:37.983101+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "688a4543f53246d513",
+    "title": "The climbing performance analysis of a robot for power line inspection with retractable double serial manipulators",
+    "old_category": "特种应用与产品",
+    "new_category": "特种应用与产品",
+    "model_suggested_category": "硬件与防爆",
+    "reason": "提出可伸缩双串联机械臂结构，并分析其爬线越障性能",
+    "changed_at": "2026-10-20T06:42:37.983101+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "7baee656a20643778e",
+    "title": "Hopping Robot: Current Status and Future Perspectives",
+    "old_category": "小脑与运动控制",
+    "new_category": "小脑与运动控制",
+    "model_suggested_category": "小脑与运动控制",
+    "reason": "综述跳跃机器人分类、特征与专利进展，未提出新的跳跃运动控制方法",
+    "changed_at": "2026-10-20T06:42:37.983101+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
   }
 ]

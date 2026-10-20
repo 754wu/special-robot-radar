@@ -728,5 +728,72 @@
     "needs_review": true,
     "source": "OpenRouter free router (metadata only)",
     "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "e3225f68a093d71f6052ab83df86fd853c6b61f8b30f2579e145ac783fbbd77e": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "提出质心轨迹优化、在线重规划与全身控制适应框架",
+    "needs_review": true,
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "cca209ad325aee71bc238f9f438244ec03b294b959d1c4a82e30ec24201018a6": {
+    "primary_category": "硬件与防爆",
+    "secondary_categories": [],
+    "reason": "综述管道机器人机械模型、结构和运动分类，未设计新硬件",
+    "needs_review": true,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "4695e67492361e58d0a9f75a79b390129d00fe03a2010bdd662263e892075118": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "综述跳跃机器人分类、特征与专利进展，未提出新的跳跃运动控制方法",
+    "needs_review": true,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "7ed6003ca358c86ddc1997c29d3849e9138dd06d7fe90b76143f3f0e32a181a8": {
+    "primary_category": "硬件与防爆",
+    "secondary_categories": [],
+    "reason": "提出可伸缩双串联机械臂结构，并分析其爬线越障性能",
+    "needs_review": true,
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "3d5eac03133dc7ce54dfd9a509a064a0f89709cc1595c2ca77f16e0d79595e1c": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "用遗传算法协同进化四足步态、腿长与转向增益",
+    "needs_review": true,
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "6931f85105d4b4c374621ea10c41e547aadf31470954fc63cd0779a89fc249e4": {
+    "primary_category": "基础软件与系统",
+    "secondary_categories": [],
+    "reason": "开发工具解析版本历史并汇总机器人默认参数变更",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "4d574adc1957a0258cbc604e4d8825344056863641b76a0f2b4442e85be76575": {
+    "primary_category": "基础软件与系统",
+    "secondary_categories": [],
+    "reason": "发布可复用的ROS 2导航系统，整合定位规划控制与地图配置",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "6b9fbe57a8f3a89cca352cdf6c5b0b209fee83e8603ab5136dac8e5284635734": {
+    "primary_category": "基础软件与系统",
+    "secondary_categories": [],
+    "reason": "提出空地协作ROS 2集成模式，以统一事件记录关联资产与任务",
+    "needs_review": true,
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "adc229c915db87bb449d7361c63e9a8d50e58e6006548269120e4e5ea8241dd1": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "提出逐帧深度集编码与强化学习，实现多球无约束动态运输",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
   }
 }

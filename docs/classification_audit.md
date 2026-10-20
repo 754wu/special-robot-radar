@@ -2,20 +2,20 @@
 
 本表对每条已入库资源扫描标题、摘要及现有分类；疑点不等于确证错分。
 
-总资源：1668；出现一项或以上疑点：611。
+总资源：1668；出现一项或以上疑点：608。
 
 ## 分类数量
 
-- 感知建图与导航: 693
+- 感知建图与导航: 692
 - 小脑与运动控制: 602
-- 特种应用与产品: 182
-- 基础软件与系统: 79
+- 特种应用与产品: 181
+- 基础软件与系统: 81
 - 硬件与防爆: 65
 - 大脑与具身智能: 47
 
 ## 疑点分布
 
-- EXISTING_REVIEW: 458
+- EXISTING_REVIEW: 455
 - THIN_ABSTRACT: 176
 - APP_ALGORITHM: 2
 - HW_NO_EVIDENCE: 1
@@ -24,7 +24,7 @@
 
 ## 重点疑点逐篇示例
 
-### EXISTING_REVIEW（458 条）
+### EXISTING_REVIEW（455 条）
 - hu-zlatan/embodied-ai-radar | 当前：大脑与具身智能 | 建议：待复核 | https://github.com/hu-zlatan/embodied-ai-radar
 - AI-Enhanced Radiation Classification in ROS | 当前：基础软件与系统 | 建议：待复核 | https://arxiv.org/abs/2610.25225
 - CondenseVLA: Learnable History Condensation for Efficient Multi-Frame VLA | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2610.25927
