@@ -190,7 +190,9 @@ def apply_model_result(item, result, at):
     # A weak or ungrounded model judgment is retained but still awaits review.
     from contribution_review import contribution_conflict
     conflict=contribution_conflict(item,new,result.get("main_contribution",""))
-    uncertain=(bool(conflict) or result.get("needs_review") is not False or
+    uncertain=(bool(conflict) or (new!=old and item.get("rule_confidence")=="high") or
+               (result.get("model_confidence","UNKNOWN")!="HIGH") or
+               result.get("needs_review") is not False or
                bool(result.get("evidence_warning")) or
                not evidence_supported(item,reason))
     if conflict:
