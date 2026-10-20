@@ -795,6 +795,9 @@ MANUAL_REVIEWED_CASES = {
 from metadata_review_20261020 import BATCH_DECISIONS
 for _title, _decision in BATCH_DECISIONS.items():
     MANUAL_REVIEWED_CASES.setdefault(_title, _decision)
+from metadata_review_remaining_20261020 import BATCH_DECISIONS as REMAINING_BATCH_DECISIONS
+for _title, _decision in REMAINING_BATCH_DECISIONS.items():
+    MANUAL_REVIEWED_CASES.setdefault(_title, _decision)
 
 
 def apply_manual_correction(item):

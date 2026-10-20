@@ -911,6 +911,17 @@ class RadarTests(unittest.TestCase):
             with self.subTest(title=title):
                 self.assertTrue(explicit_robot_relevance({"title":title,"description":description})[0])
 
+    def test_remaining_mixed_resources_metadata_review(self):
+        from metadata_review_remaining_20261020 import BATCH_DECISIONS
+        from main import apply_manual_correction
+        self.assertEqual(len(BATCH_DECISIONS),81)
+        for title,(category,reason) in BATCH_DECISIONS.items():
+            with self.subTest(title=title):
+                item=apply_manual_correction({"title":title,"category":"特种应用与产品","needs_review":True,"tags":[]})
+                self.assertEqual(item["category"],category)
+                self.assertTrue(item["manual_category_override"])
+                self.assertFalse(item["needs_review"])
+
     def test_filter_config_reject_score(self):
         item = make_item('Wheel-legged quadruped locomotion', 'https://example.org/w',
                          'arXiv API', '论文（摘要）', 'robot locomotion and motion control')
