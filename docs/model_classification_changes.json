@@ -1007,5 +1007,38 @@
     "changed_at": "2026-10-20T08:10:43.050727+00:00",
     "needs_review": true,
     "status": "model_pending_review"
+  },
+  {
+    "id": "7425fe003b8f39026d",
+    "title": "Cybersecurity: Protecting a Teleoperated ROS 2 Quadruped Robot",
+    "old_category": "基础软件与系统",
+    "new_category": "基础软件与系统",
+    "model_suggested_category": "基础软件与系统",
+    "reason": "提出融合SROS2、DDS及容器隔离的机器人纵深防御安全架构",
+    "changed_at": "2026-10-20T08:32:49.646727+00:00",
+    "needs_review": false,
+    "status": "model_applied"
+  },
+  {
+    "id": "ca83d9e924b55e3c19",
+    "title": "Immersive Teleoperation of Adaptive Mobile Robots: Evaluating Human Factors and Network Resilience in Mixed Reality",
+    "old_category": "特种应用与产品",
+    "new_category": "特种应用与产品",
+    "model_suggested_category": "基础软件与系统",
+    "reason": "提出无外设三维空间虚拟驾驶舱及多通道远程操控框架",
+    "changed_at": "2026-10-20T08:32:49.646727+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "5095a54f771615ca9a",
+    "title": "ROS-based remote control of industrial robot joystick",
+    "old_category": "基础软件与系统",
+    "new_category": "基础软件与系统",
+    "model_suggested_category": "基础软件与系统",
+    "reason": "开发ROS控制柜通信API，实现低于十毫秒的手柄远程操控",
+    "changed_at": "2026-10-20T08:32:49.646727+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
   }
 ]

@@ -2,28 +2,28 @@
 
 本表对每条已入库资源扫描标题、摘要及现有分类；疑点不等于确证错分。
 
-总资源：1669；出现一项或以上疑点：608。
+总资源：1669；出现一项或以上疑点：596。
 
 ## 分类数量
 
-- 感知建图与导航: 703
-- 小脑与运动控制: 598
-- 特种应用与产品: 173
-- 基础软件与系统: 81
-- 硬件与防爆: 70
-- 大脑与具身智能: 44
+- 感知建图与导航: 707
+- 小脑与运动控制: 594
+- 特种应用与产品: 168
+- 基础软件与系统: 82
+- 硬件与防爆: 75
+- 大脑与具身智能: 43
 
 ## 疑点分布
 
-- EXISTING_REVIEW: 456
+- EXISTING_REVIEW: 443
 - THIN_ABSTRACT: 176
 - NAV_AGENT_REVIEW: 2
-- HW_NO_EVIDENCE: 1
+- HW_NO_EVIDENCE: 2
 - SOFT_ALGORITHM: 1
 
 ## 重点疑点逐篇示例
 
-### EXISTING_REVIEW（456 条）
+### EXISTING_REVIEW（443 条）
 - limxdynamics/tron1-mujoco-sim | 当前：基础软件与系统 | 建议：待复核 | https://github.com/limxdynamics/tron1-mujoco-sim
 - hu-zlatan/embodied-ai-radar | 当前：大脑与具身智能 | 建议：待复核 | https://github.com/hu-zlatan/embodied-ai-radar
 - AI-Enhanced Radiation Classification in ROS | 当前：感知建图与导航 | 建议：待复核 | https://arxiv.org/abs/2610.25225
@@ -52,7 +52,8 @@
 ### NAV_AGENT_REVIEW（2 条）
 - Verifier-Mediated Multi-LLM Coordination for Multi-Robot Path Planning | 当前：感知建图与导航 | 建议：大脑与具身智能（待复核） | https://arxiv.org/abs/2610.12761
 - Self-Organizing Memory Based on Adaptive Resonance Theory for Vision and Language Navigation | 当前：感知建图与导航 | 建议：大脑与具身智能（待复核） | https://doi.org/10.3390/math11194192
-### HW_NO_EVIDENCE（1 条）
+### HW_NO_EVIDENCE（2 条）
 - CAD-based Optimization of the Medium-sized Unmanned Ground Vehicle | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.18372/1990-5548.88.20978
+- Resonant Inductive Coupling Power Transfer for Mid-Sized Inspection Robot | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.32388/j9up4u
 ### SOFT_ALGORITHM（1 条）
 - SLAMs for Quadruped Robot: Mapping Capability-centric Agentic Simulation | 当前：基础软件与系统 | 建议：感知导航/小脑 | https://doi.org/10.21203/rs.3.rs-7367448/v1

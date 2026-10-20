@@ -1,6 +1,6 @@
 # 特种机器人七日技术简报
 
-生成时间：2026-10-20T08:17:09.380663+00:00
+生成时间：2026-10-20T08:32:49.796397+00:00
 
 最近 7 天首次记录 **1448** 条；本轮新增 **0** 条；总库存 **1669** 条。
 
@@ -10,6 +10,8 @@
 
 - [FlyingDog: design and implementation of a quadruped robot with flight capability](https://doi.org/10.1108/ir-09-2024-0455) | 论文（摘要） | 特种场景直接相关 | 匹配度 85/100
   - 行业筛选：特种场景直接相关；方向：硬件与防爆；关联：消防与应急救援、工业与能源巡检。来源期刊/会议：Industrial Robot the international journal of robotics research and application。Purpose This paper aims to design a novel hybri（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Resonant Inductive Coupling Power Transfer for Mid-Sized Inspection Robot](https://doi.org/10.32388/j9up4u) | 论文（摘要） | 特种场景直接相关 | 匹配度 83/100
+  - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。This paper presents a wireless power transfer (WPT) for a mid-sized inspection mobile robot. The objective is to transmit 100 W of powe（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Analysis of Internal Explosion Vibration Characteristics of Explosion-Proof Equipment in Coal Mines Using Laser Doppler](https://doi.org/10.3390/app15179255) | 论文（摘要） | 特种场景直接相关 | 匹配度 81/100
   - 行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境、矿山与地下空间。来源期刊/会议：Applied Sciences。 Currently, there is a lack of methods for detecting the mechanism of gas explosion propagation within flamepr（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Design of Motor Protection Systems for Explosion-proof Coal Mine Digging Device](https://doi.org/10.1109/ictei60496.2023.00061) | 论文（摘要） | 特种场景直接相关 | 匹配度 80/100
@@ -22,8 +24,6 @@
   - 行业筛选：特种场景直接相关；方向：硬件与防爆；关联：工业与能源巡检。来源期刊/会议：Frontiers in Science and Engineering。To address the problems of high labor intensity, low efficiency, and safety risks in tradi（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Explosion-Proof Enclosure Failure to Contain a Lithium-Ion Battery Thermal Runaway](https://doi.org/10.1007/s42461-025-01288-z) | 论文（摘要） | 特种场景直接相关 | 匹配度 78/100
   - 行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境。来源期刊/会议：Mining, Metallurgy & Exploration。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Simulation Study on Flameproof Performance of Flyer-Type Micro Explosive Train's Explosion-Proof Component](https://doi.org/10.1109/nems67320.2025.11170001) | 论文（摘要） | 特种场景直接相关 | 匹配度 78/100
-  - 行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境。来源期刊/会议：2025 IEEE 20th International Conference on Nano/Micro Engineered and Molecular Systems (NEMS)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 基础软件与系统
 
@@ -35,14 +35,14 @@
   - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：防爆石化与危险环境。来源期刊/会议：Romanian Journal of Petroleum & Gas Technology。The objective of this paper is to develop the control system for driving a mobil（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [M2CS: A Multimodal and Campus‐Scapes Dataset for Dynamic SLAM and Moving Object Perception](https://doi.org/10.1002/rob.22468) | 论文（摘要） | 特种场景直接相关 | 匹配度 81/100
   - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：野外与特种地形。来源期刊/会议：Journal of Field Robotics。ABSTRACT The deployment of the robotic system that executes specific task is being challenged by the （仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [ROSMonitoring 2.0: Extending ROS Runtime Verification to Services and Ordered Topics](https://doi.org/10.4204/eptcs.411.3) | 论文（摘要） | 特种场景直接相关 | 匹配度 79/100
+  - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：Electronic Proceedings in Theoretical Computer Science。Formal verification of robotic applications presents challenges due to t（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [TriSAR-3D and PaintFusion: A Novel Trimodal LiDAR-RGB-Thermal Dataset and Method for 3D Person Detection in Search and Rescue](https://arxiv.org/abs/2610.22509) | 论文（摘要） | 特种场景直接相关 | 匹配度 77/100
   - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：消防与应急救援。arXiv:2610.22509v1 Announce Type: new Abstract: Reliable 3D person detection is important for rescue robotics to give first responders （仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [A High-fidelity Multimodal Synthetic Dataset Generation Framework for Off-road Unstructured Terrain Navigation Training of Autonomous Robots](https://doi.org/10.1007/s10846-025-02340-2) | 论文（摘要） | 特种场景直接相关 | 匹配度 77/100
   - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：野外与特种地形。来源期刊/会议：Journal of Intelligent & Robotic Systems。The success of deep learning methods in a wide range of application areas has inspired（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Research on inspection task allocation method of inspection robot based on improved genetic algorithm](https://doi.org/10.1007/s10586-025-05400-2) | 论文（摘要） | 特种场景直接相关 | 匹配度 76/100
   - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：工业与能源巡检。来源期刊/会议：Cluster Computing。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Point clouds to as-built two-node wireframe digital twin: a novel method to support autonomous robotic inspection](https://doi.org/10.1007/s43684-024-00082-w) | 论文（摘要） | 特种场景直接相关 | 匹配度 76/100
-  - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：工业与能源巡检。来源期刊/会议：Autonomous Intelligent Systems。 Abstract Previous studies have primarily focused on converting point clouds (PC) into a dense m（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 小脑与运动控制
 
@@ -127,8 +127,3 @@
 ## 下一步人工核验
 
 优先核实论文正文、开源许可证、仿真/实机差异和适用硬件；涉及防爆的技术需查原始认证文件、气体组别与温度组别。
-
-
-## 五年历史补录进度
-
-已完成 363 / 363 项年度/主题定向查询，详见 [backfill_report.md](backfill_report.md)。
