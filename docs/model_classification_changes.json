@@ -1106,5 +1106,93 @@
     "changed_at": "2026-10-20T08:41:57.103302+00:00",
     "needs_review": true,
     "status": "model_pending_review"
+  },
+  {
+    "id": "57295d3cffd6203d47",
+    "title": "Distributed Infrastructure Sensors and Cues for Robotic Fire-Fighting and Safety System on a Lunar Base",
+    "old_category": "特种应用与产品",
+    "new_category": "特种应用与产品",
+    "model_suggested_category": "特种应用与产品",
+    "reason": "交付月面基地消防原型，由QR地标、传感器和低功耗车构成",
+    "changed_at": "2026-10-20T08:49:38.786069+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "23798d3895a590bd1d",
+    "title": "Global Path Planner with Multi-Model Switching",
+    "old_category": "感知建图与导航",
+    "new_category": "感知建图与导航",
+    "model_suggested_category": "感知建图与导航",
+    "reason": "提出多模型切换纯跟踪控制与朝向感知A星规划，改进跨地形路径效率",
+    "changed_at": "2026-10-20T08:49:38.786069+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "7425fe003b8f39026d",
+    "title": "Cybersecurity: Protecting a Teleoperated ROS 2 Quadruped Robot",
+    "old_category": "基础软件与系统",
+    "new_category": "基础软件与系统",
+    "model_suggested_category": "基础软件与系统",
+    "reason": "融合网络分区、SROS2强制模式、DDS控制与容器隔离",
+    "changed_at": "2026-10-20T08:49:38.786069+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "4314567ad8e9a574d6",
+    "title": "A Soft Worm Robot for Sub-Centimeter Scale Pipeline Inspection",
+    "old_category": "特种应用与产品",
+    "new_category": "特种应用与产品",
+    "model_suggested_category": "硬件与防爆",
+    "reason": "仅题名指向亚厘米管道检测软体蠕形机器人，缺少设计验证信息",
+    "changed_at": "2026-10-20T08:49:38.786069+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "df510a5a574e426444",
+    "title": "AI based intuitionistic dense fuzzy entropy decision- making system and its application in firefighting robot selection",
+    "old_category": "特种应用与产品",
+    "new_category": "特种应用与产品",
+    "model_suggested_category": "特种应用与产品",
+    "reason": "提出直觉稠密模糊熵决策系统用于消防机器人选型",
+    "changed_at": "2026-10-20T08:49:38.786069+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "fceff817ae02181c32",
+    "title": "Leader-Trend-Guided Adaptive Formation Coordination Under Delayed Communication for Indoor Firefighting Multi-Robot Systems",
+    "old_category": "特种应用与产品",
+    "new_category": "特种应用与产品",
+    "model_suggested_category": "小脑与运动控制",
+    "reason": "提出领航趋势引导的延迟通信自适应编队协调算法",
+    "changed_at": "2026-10-20T08:49:38.786069+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "3865dd46dd2a17d593",
+    "title": "Digital Twin of Coal Mine Rescue Robot—Research on Intelligence and Visualization",
+    "old_category": "基础软件与系统",
+    "new_category": "基础软件与系统",
+    "model_suggested_category": "基础软件与系统",
+    "reason": "构建煤矿救援机器人数字孪生及虚实映射可视化系统",
+    "changed_at": "2026-10-20T08:49:38.786069+00:00",
+    "needs_review": false,
+    "status": "model_applied"
+  },
+  {
+    "id": "57898e38b802d6ce91",
+    "title": "Wheeled Autonomous Inspection Robot",
+    "old_category": "特种应用与产品",
+    "new_category": "特种应用与产品",
+    "model_suggested_category": "特种应用与产品",
+    "reason": "集成温控、气体与超声传感巡检机器人，形成可运行检测系统",
+    "changed_at": "2026-10-20T08:49:38.786069+00:00",
+    "needs_review": false,
+    "status": "model_applied"
   }
 ]

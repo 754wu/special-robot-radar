@@ -2,7 +2,7 @@
 
 本表对每条已入库资源扫描标题、摘要及现有分类；疑点不等于确证错分。
 
-总资源：1669；出现一项或以上疑点：584。
+总资源：1669；出现一项或以上疑点：583。
 
 ## 分类数量
 
@@ -15,7 +15,7 @@
 
 ## 疑点分布
 
-- EXISTING_REVIEW: 431
+- EXISTING_REVIEW: 430
 - THIN_ABSTRACT: 176
 - NAV_AGENT_REVIEW: 2
 - HW_NO_EVIDENCE: 2
@@ -23,7 +23,7 @@
 
 ## 重点疑点逐篇示例
 
-### EXISTING_REVIEW（431 条）
+### EXISTING_REVIEW（430 条）
 - limxdynamics/tron1-mujoco-sim | 当前：基础软件与系统 | 建议：待复核 | https://github.com/limxdynamics/tron1-mujoco-sim
 - hu-zlatan/embodied-ai-radar | 当前：大脑与具身智能 | 建议：待复核 | https://github.com/hu-zlatan/embodied-ai-radar
 - CondenseVLA: Learnable History Condensation for Efficient Multi-Frame VLA | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2610.25927

@@ -964,5 +964,80 @@
     "main_contribution": "基础软件与系统",
     "model_confidence": "MEDIUM",
     "source": "OpenRouter free router (metadata only)"
+  },
+  "8cacd2d49df5eee473b1b93168aab9f87fe938f7a0c2550bed84013553bf06b0": {
+    "primary_category": "基础软件与系统",
+    "secondary_categories": [],
+    "reason": "融合网络分区、SROS2强制模式、DDS控制与容器隔离",
+    "needs_review": false,
+    "main_contribution": "ROS2遥操作纵深网络安全架构",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "ce3bc4554d86620a9ede446a103bee4e208fe609b2f6a41fe91be56d2426344c": {
+    "primary_category": "特种应用与产品",
+    "secondary_categories": [],
+    "reason": "交付月面基地消防原型，由QR地标、传感器和低功耗车构成",
+    "needs_review": true,
+    "main_contribution": "月面基地传感器与QR引导消防原型",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "669b48269f3e7c451a48c0fd8ee800d6e5ce46b41f9b36fb17fddee11cc18775": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "提出多模型切换纯跟踪控制与朝向感知A星规划，改进跨地形路径效率",
+    "needs_review": true,
+    "main_contribution": "多模型切换全局路径规划与纯跟踪控制",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "440cef71ba50310f079480e2855e6b791168f7318712181ed54d996ab82ee68a": {
+    "primary_category": "硬件与防爆",
+    "secondary_categories": [],
+    "reason": "仅题名指向亚厘米管道检测软体蠕形机器人，缺少设计验证信息",
+    "needs_review": true,
+    "main_contribution": "亚厘米管道检测用软体蠕形机器人",
+    "model_confidence": "LOW",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "c6e9ef5e76c866297a2501e26113563936afd735b0f39a5595b61afeb6909566": {
+    "primary_category": "特种应用与产品",
+    "secondary_categories": [],
+    "reason": "集成温控、气体与超声传感巡检机器人，形成可运行检测系统",
+    "needs_review": false,
+    "main_contribution": "可自动巡检与多传感报警的轮式机器人系统",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "ac29b860d367e2d7b362cafe82770a053b2e763592576c33d0a47abf8acbd16e": {
+    "primary_category": "特种应用与产品",
+    "secondary_categories": [],
+    "reason": "提出直觉稠密模糊熵决策系统用于消防机器人选型",
+    "needs_review": false,
+    "main_contribution": "直觉稠密模糊熵决策系统用于消防机器人选型",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "d1df050d2e3e43407e19dfe2e92f8e370171f4b5318fde7081705e03c30bc5d8": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "提出领航趋势引导的延迟通信自适应编队协调算法",
+    "needs_review": true,
+    "main_contribution": "领航趋势引导的延迟通信自适应编队协调算法",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "7f7d810965155877fdec91fe0a268edd509d9cb291c2a682eb5a8cab3d714b07": {
+    "primary_category": "基础软件与系统",
+    "secondary_categories": [],
+    "reason": "构建煤矿救援机器人数字孪生及虚实映射可视化系统",
+    "needs_review": false,
+    "main_contribution": "煤矿救援机器人数字孪生及虚实映射可视化系统",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)"
   }
 }
