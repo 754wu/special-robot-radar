@@ -98,7 +98,7 @@ def apply_batches(history: dict[str, dict], incoming: list[dict], config: dict,
             continue
         if raw["id"] not in history:
             added.add(raw["id"])
-        history[raw["id"]] = item
+        history[raw["id"]] = radar.preserve_model_classification(item, previous)
     return added
 
 
@@ -154,7 +154,7 @@ def run_backfill(config: dict, max_openalex: int = 24, max_crossref: int = 8,
     for source in original_history.values():
         updated = radar.rule_enrich(dict(source), config)
         if updated is not None:
-            history[updated['id']] = updated
+            history[updated['id']] = radar.preserve_model_classification(updated, source)
     recent_added: set[str] = set()
     finished = []
     errors = []
