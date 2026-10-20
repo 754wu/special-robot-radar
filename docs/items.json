@@ -1,5 +1,38 @@
 [
   {
+    "id": "4aacbb7a71d6ed8922",
+    "title": "xfjcoder/wam",
+    "url": "https://github.com/xfjcoder/wam",
+    "source": "GitHub",
+    "type": "代码仓库更新",
+    "description": "Learned forward-dynamics world model for the Unitree Go2 quadruped: predict next state from (state, velocity-command), trained on real MuJoCo + classical-MPC rollouts, verified by open-loop autoregressive comparison.",
+    "published": "2026-10-20T08:07:19Z",
+    "first_seen": "2026-10-18T05:52:41.473985+00:00",
+    "stars": 0,
+    "license": false,
+    "repo_id": 1420404659,
+    "relevance_status": "可迁移的机器人关键技术",
+    "rule_category": "小脑与运动控制",
+    "rule_confidence": "low",
+    "category": "小脑与运动控制",
+    "classification_confidence": "人工核查",
+    "classification_reason": "Go2前向动力学世界模型，基于状态与速度命令预测下一状态，服务模型预测运动控制。",
+    "needs_review": false,
+    "crosscheck_conflicts": [],
+    "crosscheck_pending": false,
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。Learned forward-dynamics world model for the Unitree Go2 quadruped: predict next state from (state, velocity-command), trained on real （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
+    "manual_category_override": true,
+    "manual_override_reason": "Go2前向动力学世界模型，基于状态与速度命令预测下一状态，服务模型预测运动控制。",
+    "model_applied": false
+  },
+  {
     "id": "6d00a3e8f667da3f45",
     "title": "weihairuo/wheel-motion-uncertainty",
     "url": "https://github.com/weihairuo/wheel-motion-uncertainty",
@@ -190,39 +223,6 @@
     "model_reviewed_uncertain": true,
     "model_applied": false,
     "model_suggested_category": "大脑与具身智能"
-  },
-  {
-    "id": "4aacbb7a71d6ed8922",
-    "title": "xfjcoder/wam",
-    "url": "https://github.com/xfjcoder/wam",
-    "source": "GitHub",
-    "type": "代码仓库更新",
-    "description": "Learned forward-dynamics world model for the Unitree Go2 quadruped: predict next state from (state, velocity-command), trained on real MuJoCo + classical-MPC rollouts, verified by open-loop autoregressive comparison.",
-    "published": "2026-10-20T04:07:11Z",
-    "first_seen": "2026-10-18T05:52:41.473985+00:00",
-    "stars": 0,
-    "license": false,
-    "repo_id": 1420404659,
-    "category": "小脑与运动控制",
-    "classification_confidence": "人工核查",
-    "classification_reason": "Go2前向动力学世界模型，基于状态与速度命令预测下一状态，服务模型预测运动控制。",
-    "needs_review": false,
-    "tags": [
-      "小脑与运动控制"
-    ],
-    "industry_tags": [],
-    "scope": "可迁移的机器人关键技术",
-    "score": 62,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。Learned forward-dynamics world model for the Unitree Go2 quadruped: predict next state from (state, velocity-command), trained on real （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "manual_category_override": true,
-    "manual_override_reason": "Go2前向动力学世界模型，基于状态与速度命令预测下一状态，服务模型预测运动控制。",
-    "model_applied": false,
-    "relevance_status": "可迁移的机器人关键技术",
-    "rule_category": "小脑与运动控制",
-    "rule_confidence": "low",
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false
   },
   {
     "id": "13cbfd16c85badb1ba",
@@ -1851,8 +1851,7 @@
     "scope": "特种场景直接相关",
     "score": 81,
     "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。Public showcase of the GAP Ecosystem (GAPdrone & GAPbot). Highly autonomous swarm robotics powered by Edge AI (Hailo-8) and ROS 2. Buil（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "ed80163eb46f8284e6",
@@ -1879,8 +1878,7 @@
     "scope": "可迁移的机器人关键技术",
     "score": 61,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。I could not find anything out there built specifically for OTA updates in the ROS 2 ecosystem. Coming from the web I wanted to see how （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "d62511bb9d6d517811",
@@ -5606,8 +5604,7 @@
     "scope": "可迁移的机器人关键技术",
     "score": 61,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：特种应用与产品；关联：特种机器人共性技术（需核验应用适配性）。We’re happy to announce 40 new packages and 446 updates to ROS 2 Humble Hawksbill This sync was tagged as humble/2026-10-12 . amd64 (40（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "472f364968ea1d30f1",
@@ -6566,8 +6563,7 @@
     "scope": "可迁移的机器人关键技术",
     "score": 61,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：特种应用与产品；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Tarım Bilimleri Dergisi。This comprehensive narrative review examines the current state and future development perspectives of a（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "7559d6959f3f14ad16",
@@ -6697,8 +6693,7 @@
     "scope": "可迁移的机器人关键技术",
     "score": 65,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Autonomous Intelligent Systems。Abstract The orchestration of heterogeneous swarm systems, such as Unmanned Aerial Vehicle (UAV)（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "2801971d1cdef09f66",
@@ -7088,8 +7083,7 @@
     "scope": "可迁移的机器人关键技术",
     "score": 63,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Applied and Computational Engineering。With their anthropomorphic design, humanoid robots are naturally adapted to human environ（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "8d8d82a01c52778798",
@@ -7205,8 +7199,7 @@
     "scope": "特种场景直接相关",
     "score": 71,
     "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。Solar-Assisted Autonomous Firefighting & Search-and-Rescue Robot（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "90e44fa4e4e34067f8",
@@ -7293,8 +7286,7 @@
     "scope": "可迁移的机器人关键技术",
     "score": 65,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。Nano unmanned aerial vehicles (nano-UAVs) can navigate confined spaces that larger robots cannot, bu（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "3c2b70c363c684acb9",
@@ -7572,8 +7564,7 @@
     "scope": "可迁移的机器人关键技术",
     "score": 70,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。Autonomous robots can increase uptime and reduce human exposure in Big Science facilities, but stron（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "7517337e50d701d5ea",
@@ -7629,8 +7620,7 @@
     "scope": "可迁移的机器人关键技术",
     "score": 61,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。Humanoid robots operating in unstructured environments must combine robust whole-body control with t（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "da34cc5fd5df4714bb",
@@ -7750,8 +7740,7 @@
     "scope": "可迁移的机器人关键技术",
     "score": 63,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。Navigation for humanoid robots is critical, yet large-scale evaluation on physical hardware is often（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "f51d722224d8324b68",
@@ -7923,8 +7912,7 @@
     "scope": "特种场景直接相关",
     "score": 74,
     "summary": "行业筛选：特种场景直接相关；方向：基础软件与系统；关联：消防与应急救援、工业与能源巡检。来源期刊/会议：Results in Engineering。Modern canine applications span medical and service roles, while robotic legged dogs serve as autonomous（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "49a63b62254c95fb93",
@@ -8011,8 +7999,7 @@
     "scope": "可迁移的机器人关键技术",
     "score": 65,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Sensors。Embodied intelligent systems need to complete the closed loop of perception-understanding-decision-execution in the rea（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "eb6f2d7896bd7798a3",
@@ -8243,8 +8230,7 @@
     "scope": "特种场景直接相关",
     "score": 72,
     "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：Research Square。Abstract Robotic inspection and artificial intelligence (AI) are increasingly used in power-system operation an（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "b5489f47ae9b1c7e31",
@@ -8272,8 +8258,7 @@
     "scope": "可迁移的机器人关键技术",
     "score": 65,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。Aerial seed broadcasting can reach remote restoration sites, but provides limited control over seed （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "4900e7a8af2f1bbf4c",
@@ -8638,8 +8623,7 @@
     "scope": "可迁移的机器人关键技术",
     "score": 65,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Applied Sciences。Accurate sensing is essential for automated inspection in complex construction environments. This study develo（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "ae48a37a568fdcaf0c",
@@ -9034,8 +9018,7 @@
     "scope": "特种场景直接相关",
     "score": 76,
     "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：arXiv (Cornell University)。There are renewed efforts to build a lunar base and house a team of astronauts on the Moon for exten（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "ea48ca6a0c10be9599",
@@ -9260,30 +9243,14 @@
     "score": 65,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。Semantic exploration in confined environments requires both environment mapping and detailed observa（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2",
-    "model_review_attempts": 1,
-    "manual_review_required": false,
-    "model_applied": false,
     "model_reviewed_uncertain": true,
-    "model_suggested_category": "感知建图与导航",
+    "model_review_attempts": 1,
+    "model_reviewed_at": "2026-10-20T08:10:43.050727+00:00",
+    "manual_review_required": false,
     "model_main_contribution": "POSE姿态感知语义探索系统",
     "model_contribution_conflict": "",
-    "model_classification_reason": "提出姿态感知视点采样与目标剪枝的语义探索系统",
-    "model_reviewed_at": "2026-10-20T08:10:43.050727+00:00",
-    "model_previous_confidence": "待复核",
-    "classification_history": [
-      {
-        "id": "2a6b85278378626e49",
-        "title": "Pose-aware Legged Robot Semantic Exploration with Omnidirectional Perception in Confined Unknown Environments",
-        "old_category": "感知建图与导航",
-        "new_category": "感知建图与导航",
-        "model_suggested_category": "感知建图与导航",
-        "reason": "提出姿态感知视点采样与目标剪枝的语义探索系统",
-        "changed_at": "2026-10-20T08:10:43.050727+00:00",
-        "needs_review": true,
-        "status": "model_pending_review"
-      }
-    ]
+    "model_applied": false,
+    "model_suggested_category": "感知建图与导航"
   },
   {
     "id": "f37bfcecb23623d64d",
@@ -9542,30 +9509,14 @@
     "score": 72,
     "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：防爆石化与危险环境。来源期刊/会议：Applied Sciences。Safety monitoring and visual surveillance in underground coal mines must cope with extreme low light and perva（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2",
-    "model_review_attempts": 1,
-    "manual_review_required": false,
-    "model_applied": false,
     "model_reviewed_uncertain": true,
-    "model_suggested_category": "感知建图与导航",
+    "model_review_attempts": 1,
+    "model_reviewed_at": "2026-10-20T08:10:43.050727+00:00",
+    "manual_review_required": false,
     "model_main_contribution": "MineSSM低光增强模型",
     "model_contribution_conflict": "",
-    "model_classification_reason": "提出频解耦状态空间低光增强模型，面向矿端实时视觉处理",
-    "model_reviewed_at": "2026-10-20T08:10:43.050727+00:00",
-    "model_previous_confidence": "待复核",
-    "classification_history": [
-      {
-        "id": "4b11edead84bfc7130",
-        "title": "MineSSM: Frequency-Decoupled State-Space Modeling for Real-Time Low-Light Enhancement in Dusty Underground Mines",
-        "old_category": "特种应用与产品",
-        "new_category": "特种应用与产品",
-        "model_suggested_category": "感知建图与导航",
-        "reason": "提出频解耦状态空间低光增强模型，面向矿端实时视觉处理",
-        "changed_at": "2026-10-20T08:10:43.050727+00:00",
-        "needs_review": true,
-        "status": "model_pending_review"
-      }
-    ]
+    "model_applied": false,
+    "model_suggested_category": "感知建图与导航"
   },
   {
     "id": "c54b6fa9247dec9d98",
@@ -9848,8 +9799,7 @@
     "scope": "可迁移的机器人关键技术",
     "score": 73,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Jornadas de Automática。 This paper proposes a defense-in-depth cybersecurity architecture for a mobile robot (Unitree Go2 Pro) （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "127cee40865d3efff8",
@@ -10176,8 +10126,7 @@
     "scope": "特种场景直接相关",
     "score": 72,
     "summary": "行业筛选：特种场景直接相关；方向：大脑与具身智能；关联：消防与应急救援。来源期刊/会议：arXiv (Cornell University)。Multi-drone systems are increasingly positioned for safety-critical missions such as search and resc（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "f26f3d17e15cbea6a3",
@@ -10573,30 +10522,14 @@
     "score": 80,
     "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援、矿山与地下空间。来源期刊/会议：Frontiers in Robotics and AI。The use of automation in mining can be found at all stages of the mining process, covering explora（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2",
-    "model_review_attempts": 1,
-    "manual_review_required": false,
-    "model_applied": false,
     "model_reviewed_uncertain": true,
-    "model_suggested_category": "特种应用与产品",
+    "model_review_attempts": 1,
+    "model_reviewed_at": "2026-10-20T08:10:43.050727+00:00",
+    "manual_review_required": false,
     "model_main_contribution": "矿山救援机器人平台与设计要求综述",
     "model_contribution_conflict": "",
-    "model_classification_reason": "综述矿山救援机器人平台及恶劣环境设计部署要求",
-    "model_reviewed_at": "2026-10-20T08:10:43.050727+00:00",
-    "model_previous_confidence": "待复核",
-    "classification_history": [
-      {
-        "id": "913e935d13113756a6",
-        "title": "Robots in mine search and rescue operations: a review of platforms and design requirements",
-        "old_category": "特种应用与产品",
-        "new_category": "特种应用与产品",
-        "model_suggested_category": "特种应用与产品",
-        "reason": "综述矿山救援机器人平台及恶劣环境设计部署要求",
-        "changed_at": "2026-10-20T08:10:43.050727+00:00",
-        "needs_review": true,
-        "status": "model_pending_review"
-      }
-    ]
+    "model_applied": false,
+    "model_suggested_category": "特种应用与产品"
   },
   {
     "id": "39b7bf36b05cdea651",
@@ -10857,8 +10790,7 @@
     "scope": "特种场景直接相关",
     "score": 77,
     "summary": "行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：工业与能源巡检。来源期刊/会议：E3S Web of Conferences。 Pipeline infrastructure carries oil, gas, water, and industrial fluids across vast distances, and requi（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "4d2aad6dc4c140010d",
@@ -14601,8 +14533,7 @@
     "scope": "可迁移的机器人关键技术",
     "score": 65,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。Physical joint limits are common in legged robots and can restrict workspace, constrain gait design,（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "04ae7407f98ca45302",
@@ -15146,8 +15077,7 @@
     "scope": "特种场景直接相关",
     "score": 81,
     "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：防爆石化与危险环境、工业与能源巡检。来源期刊/会议：Young Scientists, Vol. 4, No. 5 (2026)。 The rapid digitalization of industrial environments has increased the demand for autono（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "3c603789631b77a765",
@@ -15738,8 +15668,7 @@
     "scope": "特种场景直接相关",
     "score": 73,
     "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：防爆石化与危险环境。来源期刊/会议：International Journal of Information and Communication Technology。With hydrogen energy emerging as a key pathway for achieving （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "89caa3e4da62f0338b",
@@ -17698,8 +17627,7 @@
     "scope": "特种场景直接相关",
     "score": 72,
     "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：消防与应急救援。来源期刊/会议：Computer Communications。Cellular-enabled collaborative robots are becoming paramount in Search-and-Rescue (SAR) and emergency r（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "cf7e5a524fbc9eb116",
@@ -17944,13 +17872,11 @@
     "first_seen": "2026-10-16T01:26:14.986251+00:00",
     "doi": "https://doi.org/10.1038/s41598-025-30056-8",
     "category": "基础软件与系统",
-    "classification_confidence": "待复核",
-    "classification_reason": "机器人任务分配与调度方法，并非整机产品",
-    "needs_review": true,
+    "classification_confidence": "人工核查",
+    "classification_reason": "摘要以异构机器人化工巡检任务分配算法为主要贡献，非整机产品；按现有体系归任务调度软件方法。",
+    "needs_review": false,
     "tags": [
-      "基础软件与系统",
-      "特种应用与产品",
-      "大脑与具身智能"
+      "基础软件与系统"
     ],
     "industry_tags": [
       "工业与能源巡检"
@@ -17964,7 +17890,10 @@
     "rule_confidence": "low",
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
-    "review_priority": "P2"
+    "review_priority": "P2",
+    "manual_category_override": true,
+    "manual_override_reason": "摘要以异构机器人化工巡检任务分配算法为主要贡献，非整机产品；按现有体系归任务调度软件方法。",
+    "model_applied": false
   },
   {
     "id": "f86f527a1539924845",
@@ -17992,8 +17921,7 @@
     "scope": "可迁移的机器人关键技术",
     "score": 64,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：IEEE/ASME Transactions on Mechatronics。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P4"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "9eae76eaf8facc5a7e",
@@ -18222,8 +18150,7 @@
     "scope": "特种场景直接相关",
     "score": 71,
     "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：Fire。As the demand for maritime transportation of power battery shipping containers grows rapidly, the incidence of fire accide（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "fbdd8a05da93b6f4c2",
@@ -18811,8 +18738,7 @@
     "scope": "特种场景直接相关",
     "score": 77,
     "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：防爆石化与危险环境。来源期刊/会议：Fourth International Conference on New Materials, Machinery, and Vehicle Engineering (NMMVE 2025)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "c62080b6f5703bda76",
@@ -18842,8 +18768,7 @@
     "scope": "特种场景直接相关",
     "score": 77,
     "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：防爆石化与危险环境。来源期刊/会议：Fourth International Conference on New Materials, Machinery, and Vehicle Engineering (NMMVE 2025)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "de5369a0893069f954",
@@ -19079,8 +19004,7 @@
     "scope": "可迁移的机器人关键技术",
     "score": 72,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。Over the past decade, bioinspiration has driven extensive research on robotic tails, where researchers have often employed simplified m（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "a6e9d988f2cb2d6739",
@@ -19505,8 +19429,7 @@
     "scope": "特种场景直接相关",
     "score": 87,
     "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：International Journal of Fire Science and Engineering。 This study was conducted as part of a project by the Ministry of Trade, （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "ddbaf448bb196eed7f",
@@ -19606,13 +19529,11 @@
     "first_seen": "2026-10-19T09:50:24.659224+00:00",
     "doi": "10.1007/s10586-025-05400-2",
     "category": "基础软件与系统",
-    "classification_confidence": "待复核",
-    "classification_reason": "机器人任务分配与调度方法，并非整机产品",
-    "needs_review": true,
+    "classification_confidence": "人工核查",
+    "classification_reason": "题目明确研究机器人任务分配的遗传算法优化，属于任务调度方法，不是整机产品。",
+    "needs_review": false,
     "tags": [
-      "基础软件与系统",
-      "特种应用与产品",
-      "大脑与具身智能"
+      "基础软件与系统"
     ],
     "industry_tags": [
       "工业与能源巡检"
@@ -19626,7 +19547,10 @@
     "rule_confidence": "low",
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
-    "review_priority": "P2"
+    "review_priority": "P2",
+    "manual_category_override": true,
+    "manual_override_reason": "题目明确研究机器人任务分配的遗传算法优化，属于任务调度方法，不是整机产品。",
+    "model_applied": false
   },
   {
     "id": "5d4cf9e93493b7ef07",
@@ -20706,8 +20630,7 @@
     "scope": "特种场景直接相关",
     "score": 77,
     "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：消防与应急救援。来源期刊/会议：Spectrum of Emerging Sciences。 Fire incidents pose severe threats to life, property, and mental well-being, with firefighters o（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "303b27c890f7a3e994",
@@ -22493,12 +22416,12 @@
     "published": "2025-06-17",
     "first_seen": "2026-10-16T01:26:13.394001+00:00",
     "doi": "https://doi.org/10.3390/act14060294",
-    "category": "特种应用与产品",
-    "classification_confidence": "待复核",
-    "classification_reason": "元数据不足，临时标记待复核（不视为应用领域确认）",
-    "needs_review": true,
+    "category": "硬件与防爆",
+    "classification_confidence": "人工核查",
+    "classification_reason": "摘要研究防爆永磁同步电机磁桥饱和条件下的电磁性能解析模型，属于电机硬件技术。",
+    "needs_review": false,
     "tags": [
-      "特种应用与产品"
+      "硬件与防爆"
     ],
     "industry_tags": [
       "防爆石化与危险环境"
@@ -22512,7 +22435,19 @@
     "rule_confidence": "low",
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
-    "review_priority": "P2"
+    "review_priority": "P2",
+    "manual_category_override": true,
+    "manual_override_reason": "摘要研究防爆永磁同步电机磁桥饱和条件下的电磁性能解析模型，属于电机硬件技术。",
+    "model_applied": false,
+    "classification_history": [
+      {
+        "old_category": "特种应用与产品",
+        "new_category": "硬件与防爆",
+        "status": "manual_correction",
+        "reason": "摘要研究防爆永磁同步电机磁桥饱和条件下的电磁性能解析模型，属于电机硬件技术。",
+        "changed_at": "2026-10-20"
+      }
+    ]
   },
   {
     "id": "2fe99e6f95ff07cf3d",
@@ -24204,8 +24139,7 @@
     "scope": "特种场景直接相关",
     "score": 77,
     "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。The paper presents the design and construction of a multi-sensor multifunction fire-fighting robot integrating various sensors and wire（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "e26aa7e2885cdd1088",
@@ -24236,8 +24170,7 @@
     "scope": "特种场景直接相关",
     "score": 77,
     "summary": "行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "f5acac6412162ad1f2",
@@ -24267,8 +24200,7 @@
     "scope": "特种场景直接相关",
     "score": 76,
     "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：Proceedings of the 1st International Conference on Research and Development in Information, Communication, and Computing Techno（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "916affd0bbafac75d8",
@@ -24298,8 +24230,7 @@
     "scope": "特种场景直接相关",
     "score": 76,
     "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：Proceedings of the 1st International Conference on Computational and Cognitive Systems Science。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "6b5f142387fa76d608",
@@ -24923,8 +24854,7 @@
     "scope": "特种场景直接相关",
     "score": 77,
     "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：International Journal for Research in Applied Science and Engineering Technology。 Firefighting is an inherently dangerous profe（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "e32d28faac9a4dfd19",
@@ -24954,8 +24884,7 @@
     "scope": "特种场景直接相关",
     "score": 71,
     "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：Asian Journal of Science Engineering and Technology (AJSET)。Lack of visibility in fire-and-smoke environments is a major factor（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "5d33153c6c408aa9e7",
@@ -25914,12 +25843,11 @@
     "published": "2024-12-20",
     "first_seen": "2026-10-15T05:35:17.533542+00:00",
     "doi": "https://doi.org/10.1109/tase.2024.3519012",
-    "category": "小脑与运动控制",
-    "classification_confidence": "待复核",
-    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
-    "needs_review": true,
+    "category": "感知建图与导航",
+    "classification_confidence": "人工核查",
+    "classification_reason": "论文研究人群环境下双足机器人社会规范导航，MPC是实现安全导航的规划方法。",
+    "needs_review": false,
     "tags": [
-      "小脑与运动控制",
       "感知建图与导航"
     ],
     "industry_tags": [],
@@ -25932,7 +25860,19 @@
     "rule_confidence": "low",
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
-    "review_priority": "P2"
+    "review_priority": "P2",
+    "manual_category_override": true,
+    "manual_override_reason": "论文研究人群环境下双足机器人社会规范导航，MPC是实现安全导航的规划方法。",
+    "model_applied": false,
+    "classification_history": [
+      {
+        "old_category": "小脑与运动控制",
+        "new_category": "感知建图与导航",
+        "status": "manual_correction",
+        "reason": "论文研究人群环境下双足机器人社会规范导航，MPC是实现安全导航的规划方法。",
+        "changed_at": "2026-10-20"
+      }
+    ]
   },
   {
     "id": "a20b37f603f48f8298",
@@ -26312,8 +26252,7 @@
     "scope": "特种场景直接相关",
     "score": 76,
     "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：2024 Eighth IEEE International Conference on Robotic Computing (IRC)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "623fd95bd5c04ad76d",
@@ -26707,8 +26646,7 @@
     "scope": "特种场景直接相关",
     "score": 76,
     "summary": "行业筛选：特种场景直接相关；方向：基础软件与系统；关联：工业与能源巡检。来源期刊/会议：Autonomous Intelligent Systems。 Abstract Previous studies have primarily focused on converting point clouds (PC) into a dense m（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "eb6a3de3f5e2321cee",
@@ -26978,12 +26916,12 @@
     "published": "2024-11-19",
     "first_seen": "2026-10-19T10:14:44.086472+00:00",
     "doi": "10.3390/biomimetics9110710",
-    "category": "小脑与运动控制",
-    "classification_confidence": "规则分类（模型待复核）",
-    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
-    "needs_review": true,
+    "category": "感知建图与导航",
+    "classification_confidence": "人工核查",
+    "classification_reason": "标题和摘要以蛇形机器人同步定位建图为研究目标，步态调整属于配套技术。",
+    "needs_review": false,
     "tags": [
-      "小脑与运动控制"
+      "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -26993,14 +26931,8 @@
     "relevance_status": "可迁移的机器人关键技术",
     "rule_category": "小脑与运动控制",
     "rule_confidence": "high",
-    "crosscheck_conflicts": [
-      {
-        "type": "research_goal_vs_method",
-        "suggested_category": "感知建图与导航",
-        "reason": "论文明确以定位建图为研究目标，运动方式可能只是辅助手段"
-      }
-    ],
-    "crosscheck_pending": true,
+    "crosscheck_conflicts": [],
+    "crosscheck_pending": false,
     "review_priority": "P1",
     "model_review_attempts": 1,
     "manual_review_required": false,
@@ -27023,8 +26955,17 @@
         "changed_at": "2026-10-20T08:10:43.050727+00:00",
         "needs_review": true,
         "status": "model_pending_review"
+      },
+      {
+        "old_category": "小脑与运动控制",
+        "new_category": "感知建图与导航",
+        "status": "manual_correction",
+        "reason": "标题和摘要以蛇形机器人同步定位建图为研究目标，步态调整属于配套技术。",
+        "changed_at": "2026-10-20"
       }
-    ]
+    ],
+    "manual_category_override": true,
+    "manual_override_reason": "标题和摘要以蛇形机器人同步定位建图为研究目标，步态调整属于配套技术。"
   },
   {
     "id": "ca62b15200a0f9930a",
@@ -27214,8 +27155,7 @@
     "scope": "特种场景直接相关",
     "score": 79,
     "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：防爆石化与危险环境。来源期刊/会议：Journal of Physics: Conference Series。 Abstract In order to achieve the automatic assembly and inspection of AGM battery explos（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "8e5f8ff17730dc5be2",
@@ -27340,9 +27280,9 @@
     "first_seen": "2026-10-18T05:51:25.043862+00:00",
     "doi": "https://doi.org/10.59247/csol.v2i2.132",
     "category": "感知建图与导航",
-    "classification_confidence": "规则分类（交叉检查待复核）",
-    "classification_reason": "主要研究机器人导航路径规划、巡检或跟踪算法",
-    "needs_review": true,
+    "classification_confidence": "人工核查",
+    "classification_reason": "研究RRT路径规划采样方法的性能比较，而非交付可复用的Benchmark软件平台。",
+    "needs_review": false,
     "tags": [
       "感知建图与导航"
     ],
@@ -27354,15 +27294,12 @@
     "relevance_status": "可迁移的机器人关键技术",
     "rule_category": "感知建图与导航",
     "rule_confidence": "high",
-    "crosscheck_conflicts": [
-      {
-        "type": "deliverable_vs_task",
-        "suggested_category": "基础软件与系统",
-        "reason": "题名显示交付数据集、基准或软件框架"
-      }
-    ],
-    "crosscheck_pending": true,
-    "review_priority": "P1"
+    "crosscheck_conflicts": [],
+    "crosscheck_pending": false,
+    "review_priority": "P1",
+    "manual_category_override": true,
+    "manual_override_reason": "研究RRT路径规划采样方法的性能比较，而非交付可复用的Benchmark软件平台。",
+    "model_applied": false
   },
   {
     "id": "29a6904999fae1ca30",
@@ -27392,8 +27329,7 @@
     "scope": "特种场景直接相关",
     "score": 76,
     "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：International Journal of Intelligent Robotics and Applications。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "eb61308c1749382632",
@@ -27744,8 +27680,7 @@
     "scope": "特种场景直接相关",
     "score": 87,
     "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：International Journal of Robotics and Control Systems。 Robots are important in preventing hazards. This paper presents the cons（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "d863ea5879043856bf",
@@ -28093,8 +28028,7 @@
     "scope": "可迁移的机器人关键技术",
     "score": 73,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Inquiry@Queen's Undergraduate Research Conference Proceedings。 Robots are becoming more prevalent in our daily lives. As robots（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "a82e00fe1cfe3f016f",
@@ -28451,8 +28385,7 @@
     "scope": "特种场景直接相关",
     "score": 88,
     "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：防爆石化与危险环境。来源期刊/会议：2024 9th International Conference on Mechatronics Engineering (ICOM)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "1256cc0e75f122c516",
@@ -31379,8 +31312,7 @@
     "scope": "特种场景直接相关",
     "score": 76,
     "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：2024 IEEE Integrated STEM Education Conference (ISEC)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "ad1556bbf126816a35",
@@ -31557,8 +31489,7 @@
     "scope": "特种场景直接相关",
     "score": 78,
     "summary": "行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境。来源期刊/会议：Highlights in Science, Engineering and Technology。 Based on the analysis of the status of the coal resource industry and the in（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "4077e6911ceb756e0a",
@@ -32130,8 +32061,7 @@
     "scope": "特种场景直接相关",
     "score": 76,
     "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：Proceedings of the 2nd International Conference on Intelligent and Sustainable Power and Energy Systems。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "9a0ebc21bfc2fdab5b",
@@ -33245,12 +33175,11 @@
     "published": "2023-12-25",
     "first_seen": "2026-10-16T05:51:27.191178+00:00",
     "doi": "https://doi.org/10.1109/lra.2023.3346800",
-    "category": "大脑与具身智能",
-    "classification_confidence": "规则分类（交叉检查待复核）",
-    "classification_reason": "核心创新是具身 Agent、高层任务推理、技能调用或协作决策",
-    "needs_review": true,
+    "category": "感知建图与导航",
+    "classification_confidence": "人工核查",
+    "classification_reason": "摘要明确提出语言引导探索的零样本目标导航算法，主要成果是目标搜索与导航。",
+    "needs_review": false,
     "tags": [
-      "大脑与具身智能",
       "感知建图与导航",
       "Agentic"
     ],
@@ -33262,15 +33191,21 @@
     "relevance_status": "可迁移的机器人关键技术",
     "rule_category": "大脑与具身智能",
     "rule_confidence": "high",
-    "crosscheck_conflicts": [
+    "crosscheck_conflicts": [],
+    "crosscheck_pending": false,
+    "review_priority": "P1",
+    "manual_category_override": true,
+    "manual_override_reason": "摘要明确提出语言引导探索的零样本目标导航算法，主要成果是目标搜索与导航。",
+    "model_applied": false,
+    "classification_history": [
       {
-        "type": "model_name_vs_research_task",
-        "suggested_category": "感知建图与导航",
-        "reason": "研究目标是目标导航或视觉语言导航，不应仅凭Agent/LLM归入大脑"
+        "old_category": "大脑与具身智能",
+        "new_category": "感知建图与导航",
+        "status": "manual_correction",
+        "reason": "摘要明确提出语言引导探索的零样本目标导航算法，主要成果是目标搜索与导航。",
+        "changed_at": "2026-10-20"
       }
-    ],
-    "crosscheck_pending": true,
-    "review_priority": "P1"
+    ]
   },
   {
     "id": "63b8051486f4e9c971",
@@ -34832,8 +34767,7 @@
     "scope": "特种场景直接相关",
     "score": 76,
     "summary": "行业筛选：特种场景直接相关；方向：基础软件与系统；关联：工业与能源巡检。来源期刊/会议：2023 11th International Conference on Control, Mechatronics and Automation (ICCMA)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "a07bb22e2918613cbc",
@@ -35481,12 +35415,11 @@
     "first_seen": "2026-10-19T09:50:09.205415+00:00",
     "doi": "10.1080/08839514.2023.2254048",
     "category": "感知建图与导航",
-    "classification_confidence": "待复核",
-    "classification_reason": "导航/感知类别缺少题名中的明确研究任务",
-    "needs_review": true,
+    "classification_confidence": "人工核查",
+    "classification_reason": "题目明确研究仓库巡检机器人的路径优化方法，主要技术成果是空间路径规划。",
+    "needs_review": false,
     "tags": [
-      "感知建图与导航",
-      "特种应用与产品"
+      "感知建图与导航"
     ],
     "industry_tags": [
       "工业与能源巡检"
@@ -35500,7 +35433,10 @@
     "rule_confidence": "low",
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
-    "review_priority": "P2"
+    "review_priority": "P2",
+    "manual_category_override": true,
+    "manual_override_reason": "题目明确研究仓库巡检机器人的路径优化方法，主要技术成果是空间路径规划。",
+    "model_applied": false
   },
   {
     "id": "1cfc58ca47aaf33dbf",
@@ -36287,8 +36223,7 @@
     "scope": "特种场景直接相关",
     "score": 76,
     "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：Prototyping High Mobility Inspection Robot。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "1a970c475d0b4c9fde",
@@ -36609,8 +36544,7 @@
     "scope": "特种场景直接相关",
     "score": 76,
     "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：International Journal of Progressive Research in Engineering Management and Science。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "ef3cf4c571ecf0fe05",
@@ -37928,8 +37862,7 @@
     "scope": "特种场景直接相关",
     "score": 83,
     "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：工业与能源巡检。来源期刊/会议：Applied and Computational Engineering。 The machine room inspection robot, as a special robot, can locate and navigate in the ma（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "275a593724ce2e5beb",
@@ -38199,12 +38132,12 @@
     "published": "2023-06-01",
     "first_seen": "2026-10-17T05:36:21.015160+00:00",
     "doi": "10.1088/1742-6596/2532/1/012014",
-    "category": "特种应用与产品",
-    "classification_confidence": "待复核",
-    "classification_reason": "元数据不足，临时标记待复核（不视为应用领域确认）",
-    "needs_review": true,
+    "category": "硬件与防爆",
+    "classification_confidence": "人工核查",
+    "classification_reason": "摘要研究矿用防爆电源并联均流电路与设计，属于防爆电气硬件而非机器人整机应用。",
+    "needs_review": false,
     "tags": [
-      "特种应用与产品"
+      "硬件与防爆"
     ],
     "industry_tags": [
       "防爆石化与危险环境"
@@ -38218,7 +38151,19 @@
     "rule_confidence": "low",
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
-    "review_priority": "P2"
+    "review_priority": "P2",
+    "manual_category_override": true,
+    "manual_override_reason": "摘要研究矿用防爆电源并联均流电路与设计，属于防爆电气硬件而非机器人整机应用。",
+    "model_applied": false,
+    "classification_history": [
+      {
+        "old_category": "特种应用与产品",
+        "new_category": "硬件与防爆",
+        "status": "manual_correction",
+        "reason": "摘要研究矿用防爆电源并联均流电路与设计，属于防爆电气硬件而非机器人整机应用。",
+        "changed_at": "2026-10-20"
+      }
+    ]
   },
   {
     "id": "460a043d9ed85d1231",
@@ -38332,8 +38277,7 @@
     "scope": "特种场景直接相关",
     "score": 76,
     "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。Fires pose a significant threat to human life and property. An autonomous fire detection and fighting robot has the potential to mitiga（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "d96126222500525e12",
@@ -39609,8 +39553,7 @@
     "scope": "特种场景直接相关",
     "score": 77,
     "summary": "行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：防爆石化与危险环境。来源期刊/会议：Modeling and Simulation。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "3d172c42f4a2626c0d",
@@ -42727,8 +42670,7 @@
     "scope": "特种场景直接相关",
     "score": 76,
     "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：Journal of Advanced Research in Mechanical Engineering and Technology。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "85709242612540da21",
@@ -43775,8 +43717,7 @@
     "scope": "特种场景直接相关",
     "score": 72,
     "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：工业与能源巡检。来源期刊/会议：Industrial Robot: the international journal of robotics research and application。 Purpose Automatic robots can improve the effi（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "761d1d6c5fc1dcd8d9",
@@ -45148,8 +45089,7 @@
     "scope": "可迁移的机器人关键技术",
     "score": 68,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Autonomous Intelligent Systems。 Abstract Machine learning and in particular deep learning techniques have demonstrated the most（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "adef41c6ed3d7f8629",
@@ -45609,8 +45549,7 @@
     "scope": "特种场景直接相关",
     "score": 90,
     "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援、野外与特种地形。来源期刊/会议：Field Robotics。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "73358c1a817edbce27",
@@ -45842,8 +45781,7 @@
     "scope": "可迁移的机器人关键技术",
     "score": 64,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Science Robotics。 Perception-based locomotion learning accelerates the real-world deployment of quadruped robots.（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "ab1cabfd1c4f7a868a",
@@ -46073,8 +46011,7 @@
     "scope": "特种场景直接相关",
     "score": 77,
     "summary": "行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境。来源期刊/会议：IEEE Access。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "988bbb376350779a63",
