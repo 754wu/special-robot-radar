@@ -714,6 +714,25 @@ class RadarTests(unittest.TestCase):
         self.assertFalse(item["model_applied"])
         self.assertEqual(result["status"],"model_pending_review")
 
+    def test_high_confidence_crosscheck_detects_conflict_without_relabeling(self):
+        from classification_crosscheck import apply_crosschecks
+        sample={"id":"s","title":"Simultaneous Localization and Mapping Methods for Snake-like Robots Based on Gait Adjustment",
+                "description":"Snake robot SLAM localization mapping",
+                "category":"小脑与运动控制","rule_category":"小脑与运动控制",
+                "rule_confidence":"high","needs_review":False}
+        apply_crosschecks([sample])
+        self.assertEqual(sample["category"],"小脑与运动控制")
+        self.assertTrue(sample["needs_review"])
+        self.assertEqual(sample["crosscheck_conflicts"][0]["suggested_category"],"感知建图与导航")
+
+    def test_high_confidence_crosscheck_correct_agent_not_flagged(self):
+        from classification_crosscheck import apply_crosschecks
+        sample={"title":"VLM agent skill orchestration for robot navigation",
+                "category":"大脑与具身智能","rule_category":"大脑与具身智能",
+                "rule_confidence":"high","needs_review":False}
+        apply_crosschecks([sample])
+        self.assertFalse(sample["crosscheck_conflicts"])
+
     def test_filter_config_reject_score(self):
         item = make_item('Wheel-legged quadruped locomotion', 'https://example.org/w',
                          'arXiv API', '论文（摘要）', 'robot locomotion and motion control')

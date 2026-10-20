@@ -636,6 +636,8 @@ def rule_enrich(item: dict, config: dict | None = None) -> dict | None:
     item["classification_confidence"] = classified.confidence
     item["classification_reason"] = classified.reason
     item["needs_review"] = classified.review
+    from classification_crosscheck import apply_crosschecks
+    apply_crosschecks([item])
     extra = embodied_decision(title, desc)
     if extra:
         tags.extend(extra.tags)

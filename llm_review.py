@@ -251,6 +251,9 @@ def main():
     try:cache=json.loads(CACHE.read_text(encoding="utf-8")) if CACHE.exists() else {}
     except (ValueError,OSError):cache={}
     if not isinstance(cache,dict):cache={}
+    from classification_crosscheck import apply_crosschecks, report as write_crosscheck_report
+    apply_crosschecks(items)
+    write_crosscheck_report(items,ROOT/"docs/classification_crosscheck.md")
     pending,fresh_count,historical_count=prioritize_reviews(items,cache,datetime.now(timezone.utc))
     # Requests, including failed attempts, count toward the daily budget.
     budget=max(0,min(40,int(os.getenv("RADAR_LLM_REQUEST_BUDGET","40"))))
