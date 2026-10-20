@@ -703,15 +703,37 @@ MANUAL_CORRECTIONS = {
     "cad-based optimization of the medium-sized unmanned ground vehicle": "硬件与防爆",
 }
 
+# Individually reviewed metadata cases (not full-text peer review).
+MANUAL_REVIEWED_CASES = {
+    "xfjcoder/wam": ("小脑与运动控制", "Go2前向动力学世界模型，基于状态与速度命令预测下一状态，服务模型预测运动控制。"),
+    "learning whole-body kinetic coordination for wheeled-quadruped long-range throwing": ("小脑与运动控制", "论文研究轮足机器人全身动力学协调实现远距离投掷，主要贡献属于运动执行。"),
+    "solving a giant rubik's cube with a quadruped robot": ("小脑与运动控制", "核心为四足机器人平衡约束下的物体操作与协调控制。"),
+    "scalable, intuitive, mixed reality-based semi-autonomous robotic telemanipulation for the execution of a fine-grained bimanual task": ("小脑与运动控制", "研究混合现实辅助双臂遥操作执行细粒度操作任务，主成果为操作控制方法。"),
+    "vision as proprioception: estimating humanoid robot pose from video": ("感知建图与导航", "从视频估计人形机器人位姿和状态，核心任务属于视觉感知与状态估计。"),
+    "align: aligning condition estimation and expression in advantage-conditioned behavior cloning": ("小脑与运动控制", "研究优势条件行为克隆中机器人操作数据与策略训练问题。"),
+    "dillonfaulk/h1v3-robotpolicies": ("小脑与运动控制", "项目提供人形与四足机器人PPO/AMP步行策略训练和ROS2遥操作。"),
+    "yoshifumi-masuya/slr-stride": ("小脑与运动控制", "项目实现Go2四足机器人步长条件运动策略及部署。"),
+    "lyhrmer/wheel-legged-control-lab": ("小脑与运动控制", "对轮足机器人的LQR、MPC与残差PPO外环控制进行对比。"),
+    "manankharwar/fusioncore": ("感知建图与导航", "机器人使用IMU、轮速和GPS开展UKF融合定位，核心成果为状态估计。"),
+    "omnilink-tech/omnisim": ("基础软件与系统", "项目交付机器人仿真器与物理引擎、ROS2接口和可复现测试基准。"),
+    "arnavsharmaa/blackbox": ("基础软件与系统", "项目交付ROS2事件记录、同步回放和故障根因分析工具。"),
+    "joengineer656/wheel-legged-balancing-robot": ("小脑与运动控制", "轮足平衡机器人的PID、LQR和MPC控制器比较研究。"),
+}
+
 
 def apply_manual_correction(item):
     target = MANUAL_CORRECTIONS.get(" ".join(str(item.get("title") or "").lower().split()))
+    reviewed = MANUAL_REVIEWED_CASES.get(" ".join(str(item.get("title") or "").lower().split()))
+    if reviewed:
+        target, evidence_reason = reviewed
+    else:
+        evidence_reason = "人工核查：主要研究贡献对应目标技术类别"
     if not target:
         return item
     previous=item.get("category")
     item["category"]=target
     item["manual_category_override"]=True
-    item["manual_override_reason"]="人工核查：主要研究贡献对应目标技术类别"
+    item["manual_override_reason"]=evidence_reason
     item["classification_confidence"]="人工核查"
     item["classification_reason"]=item["manual_override_reason"]
     item["needs_review"]=False

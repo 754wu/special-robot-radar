@@ -617,6 +617,27 @@ class RadarTests(unittest.TestCase):
                 decision=classify_contribution(title,abstract)
                 self.assertEqual(decision.category,category)
 
+    def test_individually_reviewed_cases_are_stable(self):
+        from main import apply_manual_correction, preserve_model_classification
+        records = [
+            ("xfjcoder/wam", "小脑与运动控制"),
+            ("manankharwar/fusioncore", "感知建图与导航"),
+            ("omnilink-tech/omnisim", "基础软件与系统"),
+            ("arnavsharmaa/blackbox", "基础软件与系统"),
+        ]
+        for title, expected in records:
+            with self.subTest(title=title):
+                paper={"id":title,"title":title,"description":"Robot system",
+                       "category":"特种应用与产品","needs_review":True}
+                checked=apply_manual_correction(paper)
+                self.assertEqual(checked["category"],expected)
+                self.assertFalse(checked["needs_review"])
+                self.assertTrue(checked["manual_category_override"])
+                new_rule=dict(paper,category="特种应用与产品",manual_category_override=False)
+                new_rule.pop("classification_history",None)
+                restored=preserve_model_classification(new_rule,paper)
+                self.assertEqual(restored["category"],expected)
+
     def test_filter_config_reject_score(self):
         item = make_item('Wheel-legged quadruped locomotion', 'https://example.org/w',
                          'arXiv API', '论文（摘要）', 'robot locomotion and motion control')
