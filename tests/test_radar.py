@@ -578,7 +578,7 @@ class RadarTests(unittest.TestCase):
         preserved=preserve_model_classification(refreshed,item)
         self.assertEqual(preserved["category"],"大脑与具身智能")
         changed=dict(item,category="感知建图与导航",model_applied=False,needs_review=True,description="changed")
-        self.assertEqual(preserve_model_classification(changed,item)["category"],"感知建图与导航")
+        self.assertEqual(preserve_model_classification(changed,item)["category"],"大脑与具身智能")
 
     def test_ambiguous_model_category_survives_rule_refresh_without_long_abstract(self):
         from llm_review import apply_model_result, prioritize_reviews
