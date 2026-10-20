@@ -578,7 +578,7 @@ class RadarTests(unittest.TestCase):
         preserved=preserve_model_classification(refreshed,item)
         self.assertEqual(preserved["category"],"大脑与具身智能")
         changed=dict(item,category="感知建图与导航",model_applied=False,needs_review=True,description="changed")
-        self.assertEqual(preserve_model_classification(changed,item)["category"],"感知建图与导航")
+        self.assertEqual(preserve_model_classification(changed,item)["category"],"大脑与具身智能")
 
     def test_ambiguous_model_category_survives_rule_refresh_without_long_abstract(self):
         from llm_review import apply_model_result, prioritize_reviews
@@ -845,6 +845,64 @@ class RadarTests(unittest.TestCase):
                 item=apply_manual_correction({"title":title,"category":"特种应用与产品","needs_review":True,"tags":[]})
                 self.assertEqual(item["category"],category)
                 self.assertFalse(item["needs_review"])
+
+    def test_rule_reclassification_does_not_override_confirmed_model(self):
+        from main import preserve_model_classification
+        old={"title":"A","description":"old","category":"大脑与具身智能",
+             "rule_category":"感知建图与导航","model_applied":True,
+             "model_reviewed_at":"2026-10-15T00:00:00+00:00",
+             "model_classification_reason":"Reviewed research goal",
+             "needs_review":False}
+        fresh={"title":"A","description":"updated","category":"小脑与运动控制",
+               "rule_category":"小脑与运动控制","needs_review":False,"tags":[]}
+        result=preserve_model_classification(fresh,old)
+        self.assertEqual(result["category"],"大脑与具身智能")
+        self.assertEqual(result["rule_category"],"小脑与运动控制")
+        self.assertTrue(result["model_applied"])
+
+    def test_followup_confirmed_classifications_are_protected(self):
+        from metadata_review_followup_20261020 import BATCH_DECISIONS
+        from main import apply_manual_correction, preserve_model_classification, KEYWORDS
+        self.assertEqual(len(BATCH_DECISIONS), 28)
+        for title, (category, reason) in BATCH_DECISIONS.items():
+            with self.subTest(title=title):
+                self.assertIn(category, KEYWORDS)
+                self.assertGreater(len(reason), 25)
+                item = apply_manual_correction(
+                    {"title": title, "category": "特种应用与产品",
+                     "needs_review": True, "tags": []})
+                self.assertEqual(item["category"], category)
+                self.assertTrue(item["manual_category_override"])
+                self.assertFalse(item["needs_review"])
+                preserved = preserve_model_classification(
+                    {"title": title, "category": "感知建图与导航",
+                     "needs_review": True, "tags": []}, item)
+                self.assertEqual(preserved["category"], category)
+
+    def test_pending_model_crosscheck_does_not_change_review_status(self):
+        from classification_crosscheck import apply_crosschecks
+        item={"category":"大脑与具身智能","rule_category":"感知建图与导航",
+              "rule_confidence":"high","title":"Vision language navigation benchmark",
+              "model_reviewed_uncertain":True,"model_suggested_category":"大脑与具身智能",
+              "model_review_attempts":1,"needs_review":True,
+              "classification_confidence":"模型建议（待复核）",
+              "crosscheck_pending":True}
+        apply_crosschecks([item])
+        self.assertEqual(item["category"],"大脑与具身智能")
+        self.assertTrue(item["needs_review"])
+        self.assertEqual(item["classification_confidence"],"模型建议（待复核）")
+
+    def test_legacy_pending_model_decision_survives_rule_refresh(self):
+        from main import preserve_model_classification
+        old={"category":"大脑与具身智能","rule_category":"感知建图与导航",
+             "model_reviewed_uncertain":True,"needs_review":True,
+             "classification_history":[{"status":"model_pending_review",
+                                        "new_category":"大脑与具身智能"}]}
+        refreshed={"category":"感知建图与导航","rule_category":"感知建图与导航",
+                   "needs_review":True,"tags":[]}
+        result=preserve_model_classification(refreshed,old)
+        self.assertEqual(result["category"],"大脑与具身智能")
+        self.assertTrue(result["needs_review"])
 
     def test_uncertain_model_category_persists_and_retries_independently(self):
         from llm_review import apply_model_result,prioritize_reviews

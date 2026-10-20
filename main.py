@@ -798,6 +798,9 @@ for _title, _decision in BATCH_DECISIONS.items():
 from metadata_review_remaining_20261020 import BATCH_DECISIONS as REMAINING_BATCH_DECISIONS
 for _title, _decision in REMAINING_BATCH_DECISIONS.items():
     MANUAL_REVIEWED_CASES.setdefault(_title, _decision)
+from metadata_review_followup_20261020 import BATCH_DECISIONS as FOLLOWUP_BATCH_DECISIONS
+for _title, _decision in FOLLOWUP_BATCH_DECISIONS.items():
+    MANUAL_REVIEWED_CASES.setdefault(_title, _decision)
 
 
 def apply_manual_correction(item):
@@ -824,7 +827,7 @@ def apply_manual_correction(item):
 
 
 def preserve_model_classification(item, previous):
-    """Keep a reviewed category when title and abstract have not changed."""
+    """Merge current rule classification with durable model/manual decisions."""
     if item.get("manual_category_override"):
         return item
     if not previous:
@@ -840,26 +843,36 @@ def preserve_model_classification(item, previous):
         for k in ("model_review_attempts","model_reviewed_at","manual_review_required","model_main_contribution","model_contribution_conflict"):
             if k in previous:item[k]=previous[k]
         item["model_applied"]=False
-        item["model_suggested_category"]=previous.get("model_suggested_category",previous.get("category"))
         item["needs_review"]=True
         proposed=previous.get("model_suggested_category")
+        # Recover legacy pending model decisions, never from refreshed rule labels.
+        if proposed not in KEYWORDS:
+            for event in reversed(previous.get("classification_history") or []):
+                if (isinstance(event, dict) and event.get("status")=="model_pending_review"
+                        and event.get("new_category") in KEYWORDS):
+                    proposed=event["new_category"]
+                    break
+        if proposed not in KEYWORDS and previous.get("model_classification_reason"):
+            proposed=previous.get("category")
         if proposed in KEYWORDS:
             item["category"]=proposed
-            item["rule_category"]=previous.get("rule_category") or item.get("rule_category")
             item["classification_reason"]=previous.get("model_classification_reason") or item.get("classification_reason","")
             item["model_classification_reason"]=previous.get("model_classification_reason","")
-            item["tags"]=list(dict.fromkeys([proposed,item["rule_category"]]+[x for x in item.get("tags",[]) if x not in KEYWORDS]))[:6]
+            item["model_suggested_category"]=proposed
+            item["classification_history"]=list(previous.get("classification_history") or [])
+            rule_category=item.get("rule_category") or previous.get("rule_category") or proposed
+            item["rule_category"]=rule_category
+            item["tags"]=list(dict.fromkeys([proposed,rule_category]+[x for x in item.get("tags",[]) if x not in KEYWORDS]))[:6]
         item["classification_confidence"]="模型建议（待复核）"
         return item
     if not previous.get("model_applied"):
         return item
-    if any(previous.get(k) != item.get(k) for k in ("title", "description")):
-        return item
     if previous.get("category") not in KEYWORDS:
         return item
     rule_category = item["category"]
-    for key in ("model_applied", "rule_category", "model_classification_reason",
-                "model_reviewed_at", "classification_history", "model_previous_confidence"):
+    for key in ("model_applied", "model_suggested_category", "model_classification_reason",
+                "model_reviewed_at", "classification_history", "model_previous_confidence",
+                "model_review_attempts", "model_main_contribution", "model_contribution_conflict"):
         if key in previous:
             item[key] = previous[key]
     item["category"] = previous["category"]
@@ -1298,8 +1311,7 @@ def main() -> None:
         item = rule_enrich(raw, cfg)
         if not item:
             continue
-        # Always use current taxonomy for existing and new records. In
-        # particular, never restore an old LLM category after reclassification.
+        # Rules refresh rule_category; reviewed labels remain authoritative.
         if item["id"] not in seen:
             new_items.append(item)
         seen[item["id"]] = preserve_model_classification(item, prev)
