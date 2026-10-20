@@ -846,6 +846,20 @@ class RadarTests(unittest.TestCase):
                 self.assertEqual(item["category"],category)
                 self.assertFalse(item["needs_review"])
 
+    def test_rule_reclassification_does_not_override_confirmed_model(self):
+        from main import preserve_model_classification
+        old={"title":"A","description":"old","category":"大脑与具身智能",
+             "rule_category":"感知建图与导航","model_applied":True,
+             "model_reviewed_at":"2026-10-15T00:00:00+00:00",
+             "model_classification_reason":"Reviewed research goal",
+             "needs_review":False}
+        fresh={"title":"A","description":"updated","category":"小脑与运动控制",
+               "rule_category":"小脑与运动控制","needs_review":False,"tags":[]}
+        result=preserve_model_classification(fresh,old)
+        self.assertEqual(result["category"],"大脑与具身智能")
+        self.assertEqual(result["rule_category"],"小脑与运动控制")
+        self.assertTrue(result["model_applied"])
+
     def test_pending_model_crosscheck_does_not_change_review_status(self):
         from classification_crosscheck import apply_crosschecks
         item={"category":"大脑与具身智能","rule_category":"感知建图与导航",
