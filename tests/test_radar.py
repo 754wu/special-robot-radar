@@ -697,6 +697,21 @@ class RadarTests(unittest.TestCase):
         self.assertEqual(relevance_status("Quadruped robot gait control","",True,True,True,["robot"]),
                          "直接相关")
 
+    def test_model_confidence_and_rule_conflict_do_not_override(self):
+        from llm_review import apply_model_result
+        item={"id":"guard","title":"Quadruped robot gait control with reinforcement learning",
+              "description":"A locomotion policy for a quadruped robot",
+              "category":"小脑与运动控制","needs_review":True,"rule_confidence":"high"}
+        proposal={"primary_category":"大脑与具身智能","needs_review":False,
+                  "model_confidence":"HIGH",
+                  "main_contribution":"四足机器人步态控制与强化学习",
+                  "reason":"四足机器人运动控制研究使用强化学习训练步态策略"}
+        result=apply_model_result(item,proposal,"2026-10-20")
+        self.assertEqual(item["category"],"小脑与运动控制")
+        self.assertTrue(item["needs_review"])
+        self.assertFalse(item["model_applied"])
+        self.assertEqual(result["status"],"model_pending_review")
+
     def test_filter_config_reject_score(self):
         item = make_item('Wheel-legged quadruped locomotion', 'https://example.org/w',
                          'arXiv API', '论文（摘要）', 'robot locomotion and motion control')
