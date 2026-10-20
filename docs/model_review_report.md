@@ -4,24 +4,22 @@
 
 - 规则分类资源：1669
 - 具有当前分类版本模型建议：8
-- 本次新增建议：8
+- 本次新增建议：0
 - 当日新增待复核候选：0
-- 历史待复核候选：389
-- 本次应用审核建议：8
-- 本次新增独立审核事件：8
+- 历史待复核候选：363
+- 本次应用审核建议：0
+- 本次新增独立审核事件：0
 - 累计历史审核事件（去重）：116
 - 累计涉及不同资源：106
 - 本次实际改变主分类：0
-- 本次API调用次数：4
-- 本次理论最大审核数：12
-- 本次有效输出率：66.7%
+- 本次API调用次数：1
+- 本次理论最大审核数：3
+- 本次有效输出率：0.0%
 - 固定免费模型：openrouter/free
 - 规则与模型主分类不一致：2
 
 ## 失败原因统计
 
-- invalid_review_flag: 1
-- missing_or_invalid_batch_items: 1
 - quota_auth_or_unavailable_model: 1
 
 ## 安全诊断（不含模型原文）
@@ -29,14 +27,6 @@
 
 ## 本次分类修改
 
-- Distributed Infrastructure Sensors and Cues for Robotic Fire-Fighting and Safety System on a Lunar Base: 特种应用与产品 -> 特种应用与产品
-- Global Path Planner with Multi-Model Switching: 感知建图与导航 -> 感知建图与导航
-- Cybersecurity: Protecting a Teleoperated ROS 2 Quadruped Robot: 基础软件与系统 -> 基础软件与系统
-- A Soft Worm Robot for Sub-Centimeter Scale Pipeline Inspection: 特种应用与产品 -> 特种应用与产品
-- AI based intuitionistic dense fuzzy entropy decision- making system and its application in firefighting robot selection: 特种应用与产品 -> 特种应用与产品
-- Leader-Trend-Guided Adaptive Formation Coordination Under Delayed Communication for Indoor Firefighting Multi-Robot Systems: 特种应用与产品 -> 特种应用与产品
-- Digital Twin of Coal Mine Rescue Robot—Research on Intelligence and Visualization: 基础软件与系统 -> 基础软件与系统
-- Wheeled Autonomous Inspection Robot: 特种应用与产品 -> 特种应用与产品
 
 ## 分类冲突（前80条）
 

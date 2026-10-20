@@ -1,6 +1,6 @@
 # 特种机器人七日技术简报
 
-生成时间：2026-10-20T08:49:38.942312+00:00
+生成时间：2026-10-20T08:58:50.015000+00:00
 
 最近 7 天首次记录 **1448** 条；本轮新增 **0** 条；总库存 **1669** 条。
 
@@ -107,6 +107,8 @@
   - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援、野外与特种地形。来源期刊/会议：Field Robotics。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Autonomous firefighting using a quadruped robot](https://doi.org/10.1139/tcsme-2023-0175) | 论文（摘要） | 特种场景直接相关 | 匹配度 89/100
   - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：消防与应急救援。来源期刊/会议：Transactions of the Canadian Society for Mechanical Engineering。 This paper presents the development of a proof-of-concept auto（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Design and implementation of QUADRESCUE: A ROS-based quadruped robot for disaster response support](https://doi.org/10.11591/ijra.v14i3.pp387-398) | 论文（摘要） | 特种场景直接相关 | 匹配度 88/100
+  - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：消防与应急救援。来源期刊/会议：IAES International Journal of Robotics and Automation (IJRA)。Search and rescue (SAR) operations in hazardous environments deman（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [VISAR: Vision-Based Robotic Arm System for Intelligent Industrial Inspection](https://doi.org/10.62051/ijcsit.v6n1.06) | 论文（摘要） | 特种场景直接相关 | 匹配度 88/100
   - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：International Journal of Computer Science and Information Technology。 VISAR (Vision-based Intelligent System for Automated Robo（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Keynote Speaker ICOM'24: Development of ANYmal X, the World's First Explosion-Proof Legged Robot](https://doi.org/10.1109/icom61675.2024.10652258) | 论文（摘要） | 特种场景直接相关 | 匹配度 88/100
@@ -117,8 +119,6 @@
   - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：International Journal of Fire Science and Engineering。 This study was conducted as part of a project by the Ministry of Trade, （仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Development of a Sensor-Based Glove-Controlled Mobile Robot for Firefighting and Rescue Operations](https://doi.org/10.31763/ijrcs.v4i4.1553) | 论文（摘要） | 特种场景直接相关 | 匹配度 87/100
   - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：International Journal of Robotics and Control Systems。 Robots are important in preventing hazards. This paper presents the cons（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Control Autonomous Mobile Robot for Firefighting Task](https://doi.org/10.1109/iccri64298.2024.00013) | 论文（摘要） | 特种场景直接相关 | 匹配度 87/100
-  - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：2024 International Conference on Control, Robotics and Informatics (ICCRI)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 采集状态
 
@@ -127,3 +127,8 @@
 ## 下一步人工核验
 
 优先核实论文正文、开源许可证、仿真/实机差异和适用硬件；涉及防爆的技术需查原始认证文件、气体组别与温度组别。
+
+
+## 五年历史补录进度
+
+已完成 363 / 363 项年度/主题定向查询，详见 [backfill_report.md](backfill_report.md)。

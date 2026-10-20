@@ -2,28 +2,29 @@
 
 本表对每条已入库资源扫描标题、摘要及现有分类；疑点不等于确证错分。
 
-总资源：1669；出现一项或以上疑点：583。
+总资源：1669；出现一项或以上疑点：567。
 
 ## 分类数量
 
-- 感知建图与导航: 708
-- 小脑与运动控制: 591
-- 特种应用与产品: 169
+- 感知建图与导航: 707
+- 小脑与运动控制: 583
+- 特种应用与产品: 171
+- 硬件与防爆: 85
 - 基础软件与系统: 83
-- 硬件与防爆: 76
-- 大脑与具身智能: 42
+- 大脑与具身智能: 40
 
 ## 疑点分布
 
-- EXISTING_REVIEW: 430
+- EXISTING_REVIEW: 412
 - THIN_ABSTRACT: 176
+- HW_NO_EVIDENCE: 4
 - NAV_AGENT_REVIEW: 2
-- HW_NO_EVIDENCE: 2
 - SOFT_ALGORITHM: 1
 
 ## 重点疑点逐篇示例
 
-### EXISTING_REVIEW（430 条）
+### EXISTING_REVIEW（412 条）
+- Arman10121995/Celisca-ROS-2-Robot | 当前：基础软件与系统 | 建议：待复核 | https://github.com/Arman10121995/Celisca-ROS-2-Robot
 - limxdynamics/tron1-mujoco-sim | 当前：基础软件与系统 | 建议：待复核 | https://github.com/limxdynamics/tron1-mujoco-sim
 - hu-zlatan/embodied-ai-radar | 当前：大脑与具身智能 | 建议：待复核 | https://github.com/hu-zlatan/embodied-ai-radar
 - CondenseVLA: Learnable History Condensation for Efficient Multi-Frame VLA | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2610.25927
@@ -31,7 +32,6 @@
 - Daniel-Zhang2017/ros2-robotics-projects | 当前：基础软件与系统 | 建议：待复核 | https://github.com/Daniel-Zhang2017/ros2-robotics-projects
 - abusumon/Morphological-and-Control-Evolution | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/abusumon/Morphological-and-Control-Evolution
 - hossam-salhin/AMR-IX1 | 当前：特种应用与产品 | 建议：待复核 | https://github.com/hossam-salhin/AMR-IX1
-- Arman10121995/Celisca-ROS-2-Robot | 当前：基础软件与系统 | 建议：待复核 | https://github.com/Arman10121995/Celisca-ROS-2-Robot
 - coverMoon/quadruped_control | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/coverMoon/quadruped_control
 - Unifying Embodied Foundation Models via a Model-to-Policy Formulation | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2610.23053
 - RileyMarek/Moonbase-Orchestrator-Public-Showcase- | 当前：特种应用与产品 | 建议：待复核 | https://github.com/RileyMarek/Moonbase-Orchestrator-Public-Showcase-
@@ -49,11 +49,13 @@
 - Adaptive fuzzy-learning control with multi-objective optimization for robust mobile robot navigation | 当前：感知建图与导航 | 建议：待复核 | https://doi.org/10.1016/j.array.2026.101053
 - MAXIMAL X-PROJECTION OF CHUA ATTRACTORS: THEORY AND MOBILE ROBOT NAVIGATION APPLICATIONS | 当前：感知建图与导航 | 建议：待复核 | https://doi.org/10.1007/s10958-026-08613-x
 - Constrained-Axis Visual-Inertial Odometry for Mobile Robot Displacement Logging Using Commodity Mobile Devices | 当前：感知建图与导航 | 建议：待复核 | https://doi.org/10.21203/rs.3.rs-10175959/v1
+### HW_NO_EVIDENCE（4 条）
+- CAD-based Optimization of the Medium-sized Unmanned Ground Vehicle | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.18372/1990-5548.88.20978
+- Development of a Leg-Wheel Quadruped Robot | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.17587/mau.26.588-593
+- Development and Experimental Validation of a Novel Quadruped Robot with a Versatile Robotic Tail | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.36227/techrxiv.176127306.69222504/v1
+- Resonant Inductive Coupling Power Transfer for Mid-Sized Inspection Robot | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.32388/j9up4u
 ### NAV_AGENT_REVIEW（2 条）
 - Verifier-Mediated Multi-LLM Coordination for Multi-Robot Path Planning | 当前：感知建图与导航 | 建议：大脑与具身智能（待复核） | https://arxiv.org/abs/2610.12761
 - Self-Organizing Memory Based on Adaptive Resonance Theory for Vision and Language Navigation | 当前：感知建图与导航 | 建议：大脑与具身智能（待复核） | https://doi.org/10.3390/math11194192
-### HW_NO_EVIDENCE（2 条）
-- CAD-based Optimization of the Medium-sized Unmanned Ground Vehicle | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.18372/1990-5548.88.20978
-- Resonant Inductive Coupling Power Transfer for Mid-Sized Inspection Robot | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.32388/j9up4u
 ### SOFT_ALGORITHM（1 条）
 - SLAMs for Quadruped Robot: Mapping Capability-centric Agentic Simulation | 当前：基础软件与系统 | 建议：感知导航/小脑 | https://doi.org/10.21203/rs.3.rs-7367448/v1
