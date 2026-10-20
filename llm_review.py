@@ -215,7 +215,7 @@ def main():
     if not isinstance(cache,dict):cache={}
     pending,fresh_count,historical_count=prioritize_reviews(items,cache,datetime.now(timezone.utc))
     # Requests, including failed attempts, count toward the daily budget.
-    budget=max(0,min(10,int(os.getenv("RADAR_LLM_REQUEST_BUDGET","6"))))
+    budget=max(0,min(40,int(os.getenv("RADAR_LLM_REQUEST_BUDGET","40"))))
     token=os.getenv("RADAR_MODEL_API_KEY","")
     reviewed=0
     attempts=0
