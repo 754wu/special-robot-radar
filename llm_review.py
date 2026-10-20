@@ -196,7 +196,7 @@ def main():
                     "evidence; NO means enough. REASON is 20-40 Chinese characters. "
                     "No headings, markdown or other text. Categories: "
                     +json.dumps(CATEGORIES,ensure_ascii=False)
-                    +"\\nPapers: "+json.dumps(records,ensure_ascii=False))
+                    +"\nPapers: "+json.dumps(records,ensure_ascii=False))
                 raw=""
                 choice=None
                 response=None
@@ -268,7 +268,8 @@ def main():
            f"- 规则分类资源：{len(items)}",
            f"- 具有当前分类版本模型建议：{reviewed_records}",
            f"- 本次新增建议：{reviewed}",
-           f"- 本次API调用次数：{attempts}",\n           f"- 本次理论最大审核数：{attempts*3}",
+           f"- 本次API调用次数：{attempts}",
+           f"- 本次理论最大审核数：{attempts*3}",
            f"- 本次有效输出率：{(reviewed/(attempts*3)*100 if attempts else 0):.1f}%",
            f"- 固定免费模型：{MODEL}",
            f"- 规则与模型主分类不一致：{len(disagreed)}","",
