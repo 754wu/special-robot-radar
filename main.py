@@ -716,6 +716,18 @@ MANUAL_CORRECTIONS = {
 
 # Individually reviewed metadata cases (not full-text peer review).
 MANUAL_REVIEWED_CASES = {
+    "kevinnana0049-arch/go2w_ros2": ("基础软件与系统", "项目主要交付Go2-W轮足四足机器人的URDF、网格与RViz配置，属于机器人模型与软件资源，并非完整应用产品。"),
+    "a survey of map construction and management methods for single embodied agents": ("感知建图与导航", "综述主要研究单具身智能体地图构建与管理方法，Agent是使用背景，核心任务仍是空间地图。"),
+    "from sky to soil: a morphing aerial-ground robot for seed deployment": ("硬件与防爆", "摘要提出空地变形机器人及其播种机构，主要贡献为可变形机器人实体平台设计。"),
+    "an integrated mobile robot framework for worker safety, defect, and thermal monitoring in construction": ("特种应用与产品", "论文构建并现场验证集人员安全、缺陷识别及热监测于一体的移动机器人巡检系统，主要成果为集成应用。"),
+    "vision-based gesture-controlled mobile robot for human–robot interaction using ros 2": ("特种应用与产品", "论文开发并实现基于手势视觉交互的差速移动机器人整机系统，ROS2是实现框架而非创新软件。"),
+    "what the elevation map cannot see: semantic-aware locomotion and execution-aware navigation for humanoid robot": ("感知建图与导航", "论文围绕人形机器人语义感知与可执行性导航，核心目标是路径规划与自主导航而非单独步态控制。"),
+    "joey114132/claude-robotics-skills": ("基础软件与系统", "项目提供跨机器人领域的Claude编程技能与开发顾问集合，属于可复用机器人开发工具资源而非底层运动控制。"),
+    "evaluating long-horizon robot planning under uncertainty": ("基础软件与系统", "摘要明确提出含七类长程不确定任务的机器人规划评测基准，主要交付Benchmark。"),
+    "ai-enhanced radiation classification in ros": ("感知建图与导航", "摘要介绍以ROS节点进行七类放射性同位素识别，核心贡献是辐射感知分类而非通用ROS软件架构。"),
+    "bt-agent: deploying onboard robot agents with behavior trees and multi-fidelity evaluation": ("大脑与具身智能", "提出在端侧机器人以行为树组织语言模型智能体任务推理和动作执行的系统，主要贡献是Agent任务组织。"),
+    "saps: shared autonomy for policy steering by blending teleoperation with a pretrained vla": ("小脑与运动控制", "研究将遥操作与预训练VLA融合以引导机器人操作策略，重点是共享控制与动作执行。"),
+    "pose-aware legged robot semantic exploration with omnidirectional perception in confined unknown environments": ("感知建图与导航", "围绕未知受限环境中结合全向感知与姿态约束的机器人语义探索和建图。"),
     "rosmonitoring 2.0: extending ros runtime verification to services and ordered topics": ("基础软件与系统", "论文交付ROS运行时形式化验证工具扩展，核心成果是服务与有序主题的软件监测机制。"),
     "the open stack of tasks library: opensot": ("基础软件与系统", "主要交付用于全身运动规划与控制的可复用开源软件库OpenSoT，算法用途不改变软件交付物属性。"),
     "embodied visual route following by an insect-inspired robot": ("感知建图与导航", "摘要描述依赖视觉记忆的路线跟随与路径导航任务，研究目标不是高层具身任务推理。"),

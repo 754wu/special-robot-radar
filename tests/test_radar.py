@@ -817,6 +817,16 @@ class RadarTests(unittest.TestCase):
                 self.assertTrue(item["manual_category_override"])
                 self.assertFalse(item["needs_review"])
 
+    def test_third_batch_metadata_confirmed_categories(self):
+        from main import apply_manual_correction
+        cases=[["kevinnana0049-arch/go2w_ROS2","基础软件与系统"],["A Survey of Map Construction and Management Methods for Single Embodied Agents","感知建图与导航"],["From Sky to Soil: A Morphing Aerial-Ground Robot for Seed Deployment","硬件与防爆"],["An Integrated Mobile Robot Framework for Worker Safety, Defect, and Thermal Monitoring in Construction","特种应用与产品"],["Vision-Based Gesture-Controlled Mobile Robot for Human–Robot Interaction Using ROS 2","特种应用与产品"],["What the Elevation Map Cannot See: Semantic-Aware Locomotion and Execution-Aware Navigation for Humanoid Robot","感知建图与导航"],["joey114132/claude-robotics-skills","基础软件与系统"],["Evaluating Long-Horizon Robot Planning under Uncertainty","基础软件与系统"],["AI-Enhanced Radiation Classification in ROS","感知建图与导航"],["BT-Agent: Deploying Onboard Robot Agents with Behavior Trees and Multi-Fidelity Evaluation","大脑与具身智能"],["SAPS: Shared Autonomy for Policy Steering by Blending Teleoperation with a Pretrained VLA","小脑与运动控制"],["Pose-aware Legged Robot Semantic Exploration with Omnidirectional Perception in Confined Unknown Environments","感知建图与导航"]]
+        for title,expected in cases:
+            with self.subTest(title=title):
+                result=apply_manual_correction({"title":title,"category":"特种应用与产品","needs_review":True,"tags":[]})
+                self.assertEqual(result["category"],expected)
+                self.assertTrue(result["manual_category_override"])
+                self.assertFalse(result["needs_review"])
+
     def test_filter_config_reject_score(self):
         item = make_item('Wheel-legged quadruped locomotion', 'https://example.org/w',
                          'arXiv API', '论文（摘要）', 'robot locomotion and motion control')
