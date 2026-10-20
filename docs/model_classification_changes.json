@@ -1,0 +1,58 @@
+[
+  {
+    "id": "2a122ca1f7b466798b",
+    "title": "Scaling Online Exploration for Robot Agents",
+    "old_category": "小脑与运动控制",
+    "new_category": "大脑与具身智能",
+    "reason": "编码代理通过在线探索生成机器人控制代码，无需示范数据，属于具身智能规划。",
+    "changed_at": "2026-10-20T01:57:12.242641+00:00"
+  },
+  {
+    "id": "d216992c4a032d9a88",
+    "title": "Does Peer Observation Help? Vision-Sharing Collaboration for Vision-Language Navigation",
+    "old_category": "大脑与具身智能",
+    "new_category": "感知建图与导航",
+    "reason": "提出同伴观测导航协作框架扩展感知受域提升导航效率",
+    "changed_at": "2026-10-20T01:57:12.242641+00:00"
+  },
+  {
+    "id": "56f13385475ea86269",
+    "title": "Sub-Millisecond Reflexes for Continuous Physical Human-Robot Interaction",
+    "old_category": "特种应用与产品",
+    "new_category": "基础软件与系统",
+    "reason": "提出基于ROS 2的亚毫秒级反射引擎与多模态控制器，属于机器人基础软件与系统。",
+    "changed_at": "2026-10-20T01:57:12.242641+00:00"
+  },
+  {
+    "id": "645b4cf378ea5a5a4e",
+    "title": "ACRO: Actor-Critic Rollout Orchestration",
+    "old_category": "小脑与运动控制",
+    "new_category": "大脑与具身智能",
+    "reason": "基于语言意图的视觉语言动作策略编排与干预决策，属于具身智能范畴。",
+    "changed_at": "2026-10-20T01:57:12.242641+00:00"
+  },
+  {
+    "id": "f61ec30c900a5df62a",
+    "title": "Learning-enabled collaborative intelligence in search and rescue robotics: a survey of paradigms, models, and challenges",
+    "old_category": "小脑与运动控制",
+    "new_category": "大脑与具身智能",
+    "reason": "综述搜救机器人协作智能，涉及多智能体决策与任务执行，属具身智能范畴。",
+    "changed_at": "2026-10-20T01:57:12.242641+00:00"
+  },
+  {
+    "id": "5abe81d0e7e404b12d",
+    "title": "Autonomous firefighting using a quadruped robot",
+    "old_category": "感知建图与导航",
+    "new_category": "特种应用与产品",
+    "reason": "开发了基于四足机器人的消防机器人系统，实现了火灾检测、定位和灭火功能，具备实际应用价值。",
+    "changed_at": "2026-10-20T01:57:12.242641+00:00"
+  },
+  {
+    "id": "337870a936876cb4c2",
+    "title": "The effect of positional instability on the detection of barely visible impact damage in composites using a mobile thermographic inspection robot",
+    "old_category": "特种应用与产品",
+    "new_category": "感知建图与导航",
+    "reason": "移动机器人红外热成像复合材料损伤感知与导航实现",
+    "changed_at": "2026-10-20T01:57:12.242641+00:00"
+  }
+]

@@ -2,21 +2,21 @@
 
 本表对每条已入库资源扫描标题、摘要及现有分类；疑点不等于确证错分。
 
-总资源：1582；出现一项或以上疑点：639。
+总资源：1619；出现一项或以上疑点：640。
 
 ## 分类数量
 
-- 感知建图与导航: 636
-- 小脑与运动控制: 584
-- 特种应用与产品: 189
-- 基础软件与系统: 67
+- 感知建图与导航: 672
+- 小脑与运动控制: 582
+- 特种应用与产品: 188
+- 基础软件与系统: 69
 - 硬件与防爆: 60
-- 大脑与具身智能: 46
+- 大脑与具身智能: 48
 
 ## 疑点分布
 
-- EXISTING_REVIEW: 499
-- THIN_ABSTRACT: 165
+- EXISTING_REVIEW: 493
+- THIN_ABSTRACT: 172
 - APP_ALGORITHM: 5
 - BRAIN_POLICY_REVIEW: 1
 - SOFT_ALGORITHM: 1
@@ -24,7 +24,7 @@
 
 ## 重点疑点逐篇示例
 
-### EXISTING_REVIEW（499 条）
+### EXISTING_REVIEW（493 条）
 - hossam-salhin/AMR-IX1 | 当前：特种应用与产品 | 建议：待复核 | https://github.com/hossam-salhin/AMR-IX1
 - dillonfaulk/H1V3-RobotPolicies | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/dillonfaulk/H1V3-RobotPolicies
 - hu-zlatan/embodied-ai-radar | 当前：大脑与具身智能 | 建议：待复核 | https://github.com/hu-zlatan/embodied-ai-radar
@@ -35,9 +35,9 @@
 - coverMoon/quadruped_control | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/coverMoon/quadruped_control
 - Unifying Embodied Foundation Models via a Model-to-Policy Formulation | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2610.23053
 - HexaShell: A Thin Harness for Exploring the Limits of VLM Agents as Robot Coding Agents | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2610.23479
-- Scaling Online Exploration for Robot Agents | 当前：小脑与运动控制 | 建议：待复核 | https://arxiv.org/abs/2610.22496
 - Perceptive Behavior Foundation Model: Adapting Human Motion Priors to Robot-Centric Terrain | 当前：大脑与具身智能 | 建议：小脑与运动控制（待复核）；待复核 | https://arxiv.org/abs/2606.08059
-### THIN_ABSTRACT（165 条）
+- EgoTac: In-the-wild Tactile Prediction from Egocentric Vision | 当前：感知建图与导航 | 建议：待复核 | https://arxiv.org/abs/2608.15060
+### THIN_ABSTRACT（172 条）
 - coverMoon/quadruped_control | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/coverMoon/quadruped_control
 - 1ulone/quins_ros2 | 当前：特种应用与产品 | 建议：待复核 | https://github.com/1ulone/quins_ros2
 - Gait-Aware Command Timing for Decentralized Quadruped Swarms | 当前：小脑与运动控制 | 建议：待复核 | https://doi.org/10.21203/rs.3.rs-11332226/v1

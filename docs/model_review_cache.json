@@ -440,5 +440,136 @@
     "reason": "从少量人类演示学习机器人策略，用于快速适应新任务的运动控制。",
     "needs_review": false,
     "source": "OpenRouter free router (metadata only)"
+  },
+  "6c199eb9ae1b69cfac703f05f362ce0f0dda57531fc65a29ced04e7e96d225ec": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "视觉导航四足机器人粗糙地形规划控制，MPC+WBC实现稳定跨越，实验验证有效。",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "de1a5c07446db60c9a04c956c386bac77ef55e714f349f5ebf154dd803ea6de4": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "双目视觉测距与姿态校准，基于关节DOF约束的鲁棒控制算法提升仿生机器人定位精度。",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "8a72b326d4e1b8d73d88e1bbede869876429559fa63042de86d72de553217bb0": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "使用深度强化学习实现盲目行走，结合卡住逃逸策略提升粗糙地形导航能力，实验验证显著。",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "196a07267cb407815808f930a620f92650ebc001a084395750c91cf4dd9d4a04": {
+    "primary_category": "大脑与具身智能",
+    "secondary_categories": [],
+    "reason": "具身智能资源导航图，非高层语言规划研究，属于文献与工具集合。",
+    "needs_review": true,
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "8a4cfd4e6e3771b0da6b243ab818b07829d3289815616b531dbd2dd5132975aa": {
+    "primary_category": "硬件与防爆",
+    "secondary_categories": [],
+    "reason": "锂电池包防爆设计与实验研究，属硬件防爆类，非具身智能规划。",
+    "needs_review": true,
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "a35ff8187c57d672c7336266172f5666033f8d1da0ff329d4670806527a0a4c1": {
+    "primary_category": "特种应用与产品",
+    "secondary_categories": [],
+    "reason": "消防机器人模糊控制设计，属特种应用产品，非高层语言规划。",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "d9d0507dc41b99865920bfec23d0e13d48d4437fe2856ba301cd01e873eb9c46": {
+    "primary_category": "特种应用与产品",
+    "secondary_categories": [],
+    "reason": "开发了基于四足机器人的消防机器人系统，实现了火灾检测、定位和灭火功能，具备实际应用价值。",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "e895ec9ae69c5b516241fdba9e5dceba69005bf9e205e5155e093592c148b8f6": {
+    "primary_category": "特种应用与产品",
+    "secondary_categories": [],
+    "reason": "该研究设计了一款基于HT32F52352的智能消防机器人平台，具有特种应用价值与商业潜力及实际应用前景。",
+    "needs_review": true,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "8af19ae79059fccdaa8a705caae5838a8a05c7283820c6a66c2eb59beb0dd30d": {
+    "primary_category": "特种应用与产品",
+    "secondary_categories": [],
+    "reason": "提出了一个具备环境感知、火灾预测和智能灭火的多模态自主消防机器人系统，具有实际应用价值。",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "9236f43cdeb2e017192c7ca144f92c355104e70ba700a8e518cddeb08cc8481d": {
+    "primary_category": "特种应用与产品",
+    "secondary_categories": [],
+    "reason": "船舶机舱消防检测机器人，改进SVM算法，属特种应用，证据充分。",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "57b499d11d34887efb7d0ab658ed5c8a5ffcfd7ccb808dbbdec7498b458f9e5b": {
+    "primary_category": "特种应用与产品",
+    "secondary_categories": [],
+    "reason": "自主移动机器人执行灭火任务，属特种应用产品，证据充分。",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "0bbd85c74934694e6e98fe8816ca5d59fe95bc542c92e87406d426517d2073df": {
+    "primary_category": "特种应用与产品",
+    "secondary_categories": [],
+    "reason": "消防人机协作变量自主研究，属特种应用领域，证据充分。",
+    "needs_review": true,
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "03c62894d0555c6102740d4465348b901e336280af157d2a561897971397a772": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "移动平台反馈控制算法的运动控制实现与验证",
+    "needs_review": true,
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "3b754defbf8667ef53412285198dce75b1676a61a4bcad00404822c6d90a7201": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "移动机器人红外热成像复合材料损伤感知与导航实现",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "b2625af1624ff500dedaee620c6e45ed606d1c32053ee3ffa5c1ac91ddc1ea7f": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "基于里程计辅助惯性的下孔定位与自主驾驶策略",
+    "needs_review": true,
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "42dc73bc3ab4ad694bf3be892927f986157f153729faba9de1679a2ce9de0a63": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "论文通过坡度和朝向对四足机器人能耗建模，属于运动控制研究，未涉及语言代理规划。",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "a4630d4e12f1995ec24f81b8768cf5fa56edf864a68d78bce8eec6ad9a8af3ca": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "论文提出地形条件对抗运动先验，用于四足机器人学习动作，属运动控制，未涉语言。",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "6c4807e2e7732da0b36894ebbcc25b3004027211b98d52f0e3eda67493936fd4": {
+    "primary_category": "特种应用与产品",
+    "secondary_categories": [],
+    "reason": "论文设计蜘蛛形六足机器人，用嵌入式系统和AI视觉进行灾难搜救，属特种应用。",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
   }
 }

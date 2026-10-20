@@ -1,8 +1,8 @@
 # 特种机器人七日技术简报
 
-生成时间：2026-10-20T01:41:39.399070+00:00
+生成时间：2026-10-20T01:57:12.371948+00:00
 
-最近 7 天首次记录 **1362** 条；本轮新增 **45** 条；总库存 **1582** 条。
+最近 7 天首次记录 **1399** 条；本轮新增 **0** 条；总库存 **1619** 条。
 
 **注意：**‘七日’按首次入库时间统计，不代表论文发表于最近七天；相关度评分只是初筛优先级，不是成熟度或质量评级。
 
@@ -46,6 +46,8 @@
 
 ## 小脑与运动控制
 
+- [Path Planning and Motion Control of Robot Dog Through Rough Terrain Based on Vision Navigation](https://doi.org/10.3390/s24227306) | 论文（摘要） | 特种场景直接相关 | 匹配度 98/100
+  - 行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：野外与特种地形。来源期刊/会议：Sensors。 This article delineates the enhancement of an autonomous navigation and obstacle avoidance system for a quadruped robo（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Design of a Bio-Inspired Legged Robot for Rough Terrain Locomotion](https://ajitem.org/index.php/journal/article/view/EM32004) | 论文（摘要） | 特种场景直接相关 | 匹配度 96/100
   - 行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：野外与特种地形。来源期刊/会议：Association Journal of Interdisciplinary Technics in Engineering Mechanics。This research presents a unique biologically motivat（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Adaptive gait planning for quadruped robot based on center of inertia over rough terrain](https://doi.org/10.1016/j.birob.2021.100031) | 论文（摘要） | 特种场景直接相关 | 匹配度 95/100
@@ -60,11 +62,11 @@
   - 行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：消防与应急救援。来源期刊/会议：Heliyon。The next generation of autonomous-legged robots will herald a new era in the fields of manufacturing, healthcare, terra（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Rough terrain navigation for a quadruped robot using deep reinforcement learning-based blind locomotion control and a stuck-escape strategy](https://doi.org/10.1080/01691864.2025.2561643) | 论文（摘要） | 特种场景直接相关 | 匹配度 89/100
   - 行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：野外与特种地形。来源期刊/会议：Advanced Robotics。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Motion control study of omnidirectional mobile robot for substation inspection](https://doi.org/10.1117/12.3052432) | 论文（摘要） | 特种场景直接相关 | 匹配度 87/100
-  - 行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：工业与能源巡检。来源期刊/会议：International Workshop on Automation, Control, and Communication Engineering (IWACCE 2024)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 大脑与具身智能
 
+- [Learning-enabled collaborative intelligence in search and rescue robotics: a survey of paradigms, models, and challenges](https://doi.org/10.3389/frobt.2026.1832982) | 论文（摘要） | 特种场景直接相关 | 匹配度 76/100
+  - 行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：消防与应急救援。来源期刊/会议：Frontiers in Robotics and AI。Search and Rescue (SAR) robotics increasingly depends on collaborative intelligence to operate eff（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [DR-VLA: Learning Human-Like Quadruped Navigation from Egocentric Web Videos via Domain-Invariant Scene Representations](https://doi.org/10.48550/arxiv.2610.18373) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 74/100
   - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。Quadruped robots performing outdoor deliveries must interpret complex scenes, anticipate changes, an（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Don't Run with Scissors: Pruning Breaks VLA Models but They Can Be Recovered](https://arxiv.org/abs/2510.08464) | 论文（摘要） | 特种场景直接相关 | 匹配度 72/100
@@ -79,8 +81,6 @@
   - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：IEEE Robotics and Automation Letters。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [An intelligent mission-oriented and situation aware quadruped robot: a novel embodied explainable AI approach](https://doi.org/10.1117/12.2664019) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 64/100
   - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Unmanned Systems Technology XXV。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [hu-zlatan/embodied-ai-radar](https://github.com/hu-zlatan/embodied-ai-radar) | 代码仓库更新 | 可迁移的机器人关键技术 | 匹配度 63/100
-  - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。Bilingual (EN/中文), daily-updated map of embodied AI & robot learning: verified papers, code, datasets, simulators, hardware + every new（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 感知建图与导航
 
@@ -105,6 +105,8 @@
 
 - [An Aerial/Ground Robot Team for Autonomous Firefighting in Urban GNSS-Denied Scenarios](https://doi.org/10.55417/fr.2022010) | 论文（摘要） | 特种场景直接相关 | 匹配度 90/100
   - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援、野外与特种地形。来源期刊/会议：Field Robotics。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Autonomous firefighting using a quadruped robot](https://doi.org/10.1139/tcsme-2023-0175) | 论文（摘要） | 特种场景直接相关 | 匹配度 89/100
+  - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：消防与应急救援。来源期刊/会议：Transactions of the Canadian Society for Mechanical Engineering。 This paper presents the development of a proof-of-concept auto（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [VISAR: Vision-Based Robotic Arm System for Intelligent Industrial Inspection](https://doi.org/10.62051/ijcsit.v6n1.06) | 论文（摘要） | 特种场景直接相关 | 匹配度 88/100
   - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：International Journal of Computer Science and Information Technology。 VISAR (Vision-based Intelligent System for Automated Robo（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Keynote Speaker ICOM'24: Development of ANYmal X, the World's First Explosion-Proof Legged Robot](https://doi.org/10.1109/icom61675.2024.10652258) | 论文（摘要） | 特种场景直接相关 | 匹配度 88/100
@@ -117,8 +119,6 @@
   - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：International Journal of Robotics and Control Systems。 Robots are important in preventing hazards. This paper presents the cons（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Control Autonomous Mobile Robot for Firefighting Task](https://doi.org/10.1109/iccri64298.2024.00013) | 论文（摘要） | 特种场景直接相关 | 匹配度 87/100
   - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：2024 International Conference on Control, Robotics and Informatics (ICCRI)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Steering Mechanism for an IC engine powered tracked firefighting UGV](https://doi.org/10.56220/uwjst.v5i0.81) | 论文（摘要） | 特种场景直接相关 | 匹配度 87/100
-  - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：University of Wah Journal of Science and Technology (UWJST)。Rescue and hazard management operations are susceptible to damages （仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 采集状态
 
@@ -127,8 +127,3 @@
 ## 下一步人工核验
 
 优先核实论文正文、开源许可证、仿真/实机差异和适用硬件；涉及防爆的技术需查原始认证文件、气体组别与温度组别。
-
-
-## 五年历史补录进度
-
-已完成 348 / 363 项年度/主题定向查询，详见 [backfill_report.md](backfill_report.md)。
