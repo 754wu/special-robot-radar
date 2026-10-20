@@ -157,7 +157,9 @@ def safe_diagnostic(raw,choice,response):
 def prioritize_reviews(items, cache, now):
     fresh, historical = [], []
     for item in items:
-        if not item.get("needs_review") or item.get("model_applied") or key_for(item) in cache:
+        if (not item.get("needs_review") or item.get("model_applied") or
+                item.get("model_reviewed_uncertain") or item.get("manual_category_override") or
+                key_for(item) in cache):
             continue
         try:
             seen = datetime.fromisoformat(str(item.get("first_seen","")).replace("Z","+00:00"))
