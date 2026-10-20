@@ -2,41 +2,41 @@
 
 本表对每条已入库资源扫描标题、摘要及现有分类；疑点不等于确证错分。
 
-总资源：1646；出现一项或以上疑点：620。
+总资源：1668；出现一项或以上疑点：628。
 
 ## 分类数量
 
-- 感知建图与导航: 682
-- 小脑与运动控制: 585
+- 感知建图与导航: 691
+- 小脑与运动控制: 600
 - 特种应用与产品: 184
-- 基础软件与系统: 76
+- 基础软件与系统: 78
 - 硬件与防爆: 65
-- 大脑与具身智能: 54
+- 大脑与具身智能: 50
 
 ## 疑点分布
 
-- EXISTING_REVIEW: 466
+- EXISTING_REVIEW: 475
 - THIN_ABSTRACT: 176
-- APP_ALGORITHM: 4
-- BRAIN_POLICY_REVIEW: 1
+- APP_ALGORITHM: 2
+- HW_NO_EVIDENCE: 1
 - SOFT_ALGORITHM: 1
 - NAV_AGENT_REVIEW: 1
 
 ## 重点疑点逐篇示例
 
-### EXISTING_REVIEW（466 条）
-- Daniel-Zhang2017/ros2-robotics-projects | 当前：基础软件与系统 | 建议：待复核 | https://github.com/Daniel-Zhang2017/ros2-robotics-projects
-- xfjcoder/wam | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/xfjcoder/wam
-- abusumon/Morphological-and-Control-Evolution | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/abusumon/Morphological-and-Control-Evolution
-- hossam-salhin/AMR-IX1 | 当前：特种应用与产品 | 建议：待复核 | https://github.com/hossam-salhin/AMR-IX1
-- dillonfaulk/H1V3-RobotPolicies | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/dillonfaulk/H1V3-RobotPolicies
+### EXISTING_REVIEW（475 条）
 - hu-zlatan/embodied-ai-radar | 当前：大脑与具身智能 | 建议：待复核 | https://github.com/hu-zlatan/embodied-ai-radar
-- Arman10121995/Celisca-ROS-2-Robot | 当前：基础软件与系统 | 建议：待复核 | https://github.com/Arman10121995/Celisca-ROS-2-Robot
-- arnavsharmaa/blackbox | 当前：特种应用与产品 | 建议：待复核 | https://github.com/arnavsharmaa/blackbox
-- Yoshifumi-Masuya/slr-stride | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/Yoshifumi-Masuya/slr-stride
-- coverMoon/quadruped_control | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/coverMoon/quadruped_control
-- Unifying Embodied Foundation Models via a Model-to-Policy Formulation | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2610.23053
-- Perceptive Behavior Foundation Model: Adapting Human Motion Priors to Robot-Centric Terrain | 当前：大脑与具身智能 | 建议：小脑与运动控制（待复核）；待复核 | https://arxiv.org/abs/2606.08059
+- xfjcoder/wam | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/xfjcoder/wam
+- Learning Whole-Body Kinetic Coordination for Wheeled-Quadruped Long-Range Throwing | 当前：小脑与运动控制 | 建议：待复核 | https://arxiv.org/abs/2610.23883
+- AI-Enhanced Radiation Classification in ROS | 当前：基础软件与系统 | 建议：待复核 | https://arxiv.org/abs/2610.25225
+- Solving a Giant Rubik's Cube with a Quadruped Robot | 当前：小脑与运动控制 | 建议：待复核 | https://arxiv.org/abs/2610.24610
+- A Heterogeneous UAV UGV Methodology for Aerial Tracking of Mini Autonomous Cars | 当前：特种应用与产品 | 建议：待复核 | https://arxiv.org/abs/2610.23878
+- Structure over Reasoning: Unified Zero-Shot Navigation with a Small Vision-Language Model | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2610.25130
+- CondenseVLA: Learnable History Condensation for Efficient Multi-Frame VLA | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2610.25927
+- Scalable, Intuitive, Mixed Reality-Based Semi-Autonomous Robotic Telemanipulation for the Execution of a Fine-Grained Bimanual Task | 当前：小脑与运动控制 | 建议：待复核 | https://arxiv.org/abs/2610.25006
+- Vision as Proprioception: Estimating Humanoid Robot Pose from Video | 当前：感知建图与导航 | 建议：待复核 | https://arxiv.org/abs/2610.25288
+- ALIGN: Aligning Condition Estimation and Expression in Advantage-Conditioned Behavior Cloning | 当前：小脑与运动控制 | 建议：待复核 | https://arxiv.org/abs/2610.26455
+- Time-JEPA: Grounding Video World Models with Physical Time Series | 当前：小脑与运动控制 | 建议：待复核 | https://arxiv.org/abs/2610.23982
 ### THIN_ABSTRACT（176 条）
 - coverMoon/quadruped_control | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/coverMoon/quadruped_control
 - 1ulone/quins_ros2 | 当前：特种应用与产品 | 建议：待复核 | https://github.com/1ulone/quins_ros2
@@ -50,13 +50,11 @@
 - Adaptive fuzzy-learning control with multi-objective optimization for robust mobile robot navigation | 当前：感知建图与导航 | 建议：待复核 | https://doi.org/10.1016/j.array.2026.101053
 - MAXIMAL X-PROJECTION OF CHUA ATTRACTORS: THEORY AND MOBILE ROBOT NAVIGATION APPLICATIONS | 当前：感知建图与导航 | 建议：待复核 | https://doi.org/10.1007/s10958-026-08613-x
 - Constrained-Axis Visual-Inertial Odometry for Mobile Robot Displacement Logging Using Commodity Mobile Devices | 当前：感知建图与导航 | 建议：待复核 | https://doi.org/10.21203/rs.3.rs-10175959/v1
-### APP_ALGORITHM（4 条）
-- Inspection and Firefighting Robot based on Improved SVM Algorithm in Ship Automation Engine Room | 当前：特种应用与产品 | 建议：具体算法主类 | https://doi.org/10.1109/isoirs63136.2024.00042
-- The Design of Firefighting Robot Based on the Fuzzy PID Algorithm | 当前：特种应用与产品 | 建议：具体算法主类 | https://doi.org/10.1109/icetis61828.2024.10593783
+### APP_ALGORITHM（2 条）
 - Dynamic Inspection Algorithm Based on Substation Inspection Robot | 当前：特种应用与产品 | 建议：具体算法主类；待复核 | https://doi.org/10.1109/aikiie60097.2023.10390268
 - Research on Improved Hybrid Polynomial Interpolation Algorithm for Rail Inspection Robot | 当前：特种应用与产品 | 建议：具体算法主类；待复核 | https://doi.org/10.1145/3501409.3501622
-### BRAIN_POLICY_REVIEW（1 条）
-- Perceptive Behavior Foundation Model: Adapting Human Motion Priors to Robot-Centric Terrain | 当前：大脑与具身智能 | 建议：小脑与运动控制（待复核）；待复核 | https://arxiv.org/abs/2606.08059
+### HW_NO_EVIDENCE（1 条）
+- CAD-based Optimization of the Medium-sized Unmanned Ground Vehicle | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.18372/1990-5548.88.20978
 ### SOFT_ALGORITHM（1 条）
 - SLAMs for Quadruped Robot: Mapping Capability-centric Agentic Simulation | 当前：基础软件与系统 | 建议：感知导航/小脑 | https://doi.org/10.21203/rs.3.rs-7367448/v1
 ### NAV_AGENT_REVIEW（1 条）

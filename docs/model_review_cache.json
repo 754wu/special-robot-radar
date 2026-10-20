@@ -682,5 +682,28 @@
     "reason": "提出机器人身体感知的风险图规划算法，解决复杂地形支撑问题。",
     "needs_review": false,
     "source": "OpenRouter free router (metadata only)"
+  },
+  "808f889c0fb7d1f9b17cf050539d76eac6bb25148594cf5e4e06bc249f0aa58f": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "面向轮足机器人改进激光惯性里程计，重点处理退化与轮速不确定性",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "fec197c16ddd7448eee6b2c599d0da56a31b4db96927dd0670ffd5bb0e7af221": {
+    "primary_category": "大脑与具身智能",
+    "secondary_categories": [],
+    "reason": "以物理时间序列辅助视频世界模型，保持并学习跨域物理状态演化",
+    "needs_review": true,
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "dd09a880bcadc944d332c7b8f7e67543f2d9919fc401a459729f354c9178269e": {
+    "primary_category": "大脑与具身智能",
+    "secondary_categories": [],
+    "reason": "通过可学习历史压缩模块融合多帧视觉上下文，提升操作策略效率",
+    "needs_review": true,
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
   }
 }
