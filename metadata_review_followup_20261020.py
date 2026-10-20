@@ -20,4 +20,12 @@ BATCH_DECISIONS = {
     "a task level fusion autonomous switching mechanism": ("感知建图与导航", "摘要明确利用黑板架构多传感器融合提高消防机器人室内定位精度。"),
     "value-preserving action quantization": ("小脑与运动控制", "研究机器人连续动作量化的价值函数保持和策略搜索，核心为动作学习算法。"),
     "design and development of a manual controlled mobile robot for inspection of cracks in storm sewer using machine learning": ("特种应用与产品", "明确交付雨水排水管道裂缝巡检机器人系统，机器学习检测是整机功能。"),
+    "arman10121995/celisca-ros-2-robot": ("基础软件与系统", "GitHub项目说明为实验室移动机器人ROS2开发代码，交付物是机器人软件资源。"),
+    "hu-zlatan/embodied-ai-radar": ("基础软件与系统", "GitHub项目描述为具身智能论文与开源代码资料的双语自动更新雷达，交付物为信息整理网站，不是具身Agent。"),
+    "semantic-augmented reality: a hybrid robotic framework combining edge ai and vision language models for dynamic industrial inspection": ("感知建图与导航", "摘要说明边缘视觉检测与VLM语义解释形成工业巡检场景感知方案，主要是语义环境识别。"),
+    "design and fabrication of metal sensor integrated all terrain robot with live streaming": ("特种应用与产品", "摘要以全地形移动机器人集成金属检测与直播监控为核心交付物。"),
+    "realization and control of a mobile robot based on a dynamic model with the implementation of artificial intelligence": ("小脑与运动控制", "摘要提出三轮移动机器人动力学模型及运动轨迹跟踪控制优化，属于底层运动控制。"),
+    "mobile robot combination autonomous behavior strategy to inspect hazardous gases in relatively narrow man–machine environment": ("感知建图与导航", "摘要重点是动态人机环境下机器人社会力避障策略和导航速度规划。"),
+    "adaptive event address map denoising for event cameras": ("感知建图与导航", "摘要提出事件相机噪声分类及自适应事件地址图去噪算法，为机器人视觉感知提供前处理。"),
+    "the model relates to an substation inspection robot carrying a unmanned aerial vehicle": ("特种应用与产品", "摘要提出变电站巡检机器人搭载无人机的地空联合巡检系统及其起降控制。"),
 }
