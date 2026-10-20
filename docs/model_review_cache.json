@@ -795,5 +795,32 @@
     "reason": "提出逐帧深度集编码与强化学习，实现多球无约束动态运输",
     "needs_review": false,
     "source": "OpenRouter free router (metadata only)"
+  },
+  "8470e941bb244642c5e26f60ab46c1a36b1392d37dae6223cd3ec88d9802d41f": {
+    "primary_category": "基础软件与系统",
+    "secondary_categories": [],
+    "reason": "提供TRON1双足及轮腿机器人MuJoCo仿真环境，支持策略评估与实机迁移验证",
+    "needs_review": false,
+    "main_contribution": "基础软件与系统",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "4e8c3fb69cbb799dc1fc706fe9926850753c121f0f50e4959b8aefc7008c0d8e": {
+    "primary_category": "基础软件与系统",
+    "secondary_categories": [],
+    "reason": "集成SLAM、激光雷达、Nav2及机械臂控制等ROS2项目并开展实机验证",
+    "needs_review": false,
+    "main_contribution": "基础软件与系统",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "be3a1f1a823505a1872ff43f5b59212168006aad9335275de7ac1e06aef984a3": {
+    "primary_category": "硬件与防爆",
+    "secondary_categories": [],
+    "reason": "设计轮夹式斜拉索巡检机器人及夹持驱动机构，并优化抗风与夹持参数",
+    "needs_review": false,
+    "main_contribution": "硬件与防爆",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)"
   }
 }

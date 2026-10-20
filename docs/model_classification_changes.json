@@ -908,5 +908,38 @@
     "changed_at": "2026-10-20T06:42:37.983101+00:00",
     "needs_review": true,
     "status": "model_pending_review"
+  },
+  {
+    "id": "b943d0aced5dc35222",
+    "title": "limxdynamics/tron1-mujoco-sim",
+    "old_category": "基础软件与系统",
+    "new_category": "基础软件与系统",
+    "model_suggested_category": "基础软件与系统",
+    "reason": "提供TRON1双足及轮腿机器人MuJoCo仿真环境，支持策略评估与实机迁移验证",
+    "changed_at": "2026-10-20T07:07:17.023171+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "668b4d5e2bd5028f48",
+    "title": "Daniel-Zhang2017/ros2-robotics-projects",
+    "old_category": "基础软件与系统",
+    "new_category": "基础软件与系统",
+    "model_suggested_category": "基础软件与系统",
+    "reason": "集成SLAM、激光雷达、Nav2及机械臂控制等ROS2项目并开展实机验证",
+    "changed_at": "2026-10-20T07:07:17.023171+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "f5762cb31b3449dce0",
+    "title": "Design and implementation of the wheel-clamping stay cable inspection robot",
+    "old_category": "特种应用与产品",
+    "new_category": "特种应用与产品",
+    "model_suggested_category": "硬件与防爆",
+    "reason": "设计轮夹式斜拉索巡检机器人及夹持驱动机构，并优化抗风与夹持参数",
+    "changed_at": "2026-10-20T07:07:17.023171+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
   }
 ]
