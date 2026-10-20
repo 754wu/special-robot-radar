@@ -1039,5 +1039,63 @@
     "main_contribution": "煤矿救援机器人数字孪生及虚实映射可视化系统",
     "model_confidence": "HIGH",
     "source": "OpenRouter free router (metadata only)"
+  },
+  "3417dfda788581f79414720fcff3373d54ff7ca126181947ea0dbdaa04da20d7": {
+    "primary_category": "大脑与具身智能",
+    "secondary_categories": [],
+    "reason": "仅综合两项计划并提出社技治理观点，未给出可验证的新方法",
+    "needs_review": true,
+    "main_contribution": "NAMUR与PERSIST计划经验综合及多机智能体社技治理框架",
+    "model_confidence": "LOW",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "0d9cd2f4ae32de45235bafeaab459ffde6666bc470b20f0a3cfd2cb9fe98a0e9": {
+    "primary_category": "特种应用与产品",
+    "secondary_categories": [],
+    "reason": "仅见题名与有限状态机机器人实现，控制机制及创新范围不明",
+    "needs_review": true,
+    "main_contribution": "有限状态机驱动的自主室内消防机器人设计与实现",
+    "model_confidence": "LOW",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "1703560e3776f4596c4fe7f894ec3bba335c50ee7f122f5f0dda3946767f9aa4": {
+    "primary_category": "特种应用与产品",
+    "secondary_categories": [],
+    "reason": "完成检测机器人、Mesh链路与中继信标的一体化救援系统集成",
+    "needs_review": false,
+    "main_contribution": "集成履带检测机器人、无线Mesh与中继信标的矿井救援系统",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "e035db3e2a6f2da1a238d7b3364ad8cc9a41f092e0eea6aea8d1610201fa6caf": {
+    "primary_category": "特种应用与产品",
+    "secondary_categories": [],
+    "reason": "交付自主巡检型轮腿四足番茄成熟度监测系统，并完成商业温室部署验证",
+    "needs_review": true,
+    "main_contribution": "轮腿四足温室番茄成熟度监测系统",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "aabb87727c47d994dc4101cba9a8bb0acf267be826107ba7eb56dbdc154e0e43": {
+    "primary_category": "硬件与防爆",
+    "secondary_categories": [],
+    "reason": "核心成果是基于牛顿拉夫森与正向运动学分析爬树机构可达工作空间",
+    "needs_review": true,
+    "main_contribution": "爬树四足机器人工作空间分析方法",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "9540a4ba981b923bf3b6a663a688e6a02166188308fc669b87c69f184054a5bf": {
+    "primary_category": "基础软件与系统",
+    "secondary_categories": [],
+    "reason": "可复现的增强现实与ROS2模块化遥操作架构，集成通信感知及用户评估",
+    "needs_review": true,
+    "main_contribution": "增强现实—ROS2沉浸式遥操作架构",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
   }
 }
