@@ -1,6 +1,6 @@
 # 特种机器人七日技术简报
 
-生成时间：2026-10-20T09:54:08.124417+00:00
+生成时间：2026-10-20T10:32:19.950791+00:00
 
 最近 7 天首次记录 **1417** 条；本轮新增 **0** 条；总库存 **1636** 条。
 
@@ -16,14 +16,14 @@
   - 行业筛选：特种场景直接相关；方向：硬件与防爆；关联：消防与应急救援、工业与能源巡检。来源期刊/会议：Industrial Robot the international journal of robotics research and application。Purpose This paper aims to design a novel hybri（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Resonant Inductive Coupling Power Transfer for Mid-Sized Inspection Robot](https://doi.org/10.32388/j9up4u) | 论文（摘要） | 特种场景直接相关 | 匹配度 83/100
   - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。This paper presents a wireless power transfer (WPT) for a mid-sized inspection mobile robot. The objective is to transmit 100 W of powe（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Metaheuristic Approach to Synthesis of Suspension System of Mobile Robot for Mining Infrastructure Inspection](https://doi.org/10.3390/s22228839) | 论文（摘要） | 特种场景直接相关 | 匹配度 83/100
+  - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：Sensors。 The article describes the problem of geometric synthesis of the inspection robot suspension system, designed for opera（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Research on Heat Transfer through a Double-Walled Heat Shield of a Firefighting Robot](https://doi.org/10.3390/machines10100942) | 论文（摘要） | 特种场景直接相关 | 匹配度 80/100
   - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：防爆石化与危险环境、消防与应急救援。来源期刊/会议：Machines。Burning forests, petrochemical installations and material warehouses generate very large fields and thermal gradients,（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Design and Experimental Validation of an Automatic Inspection Robot Control System based on Multi-Sensor Fusion](https://doi.org/10.54691/0vvjfj55) | 论文（摘要） | 特种场景直接相关 | 匹配度 78/100
   - 行业筛选：特种场景直接相关；方向：硬件与防爆；关联：工业与能源巡检。来源期刊/会议：Frontiers in Science and Engineering。To address the problems of high labor intensity, low efficiency, and safety risks in tradi（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Track Mechanism Design for a Differential Drive Fire Fighting Robot](https://doi.org/10.56220/uwjst.v8i.198) | 论文（摘要） | 特种场景直接相关 | 匹配度 78/100
   - 行业筛选：特种场景直接相关；方向：硬件与防爆；关联：消防与应急救援。来源期刊/会议：University of Wah Journal of Science and Technology (UWJST)。Rescue missions and disaster management expose human life to risk f（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Mechanical System Structure Design of Transmission Line Maintenance Robot](https://doi.org/10.1088/1742-6596/2476/1/012057) | 论文（摘要） | 特种场景直接相关 | 匹配度 78/100
-  - 行业筛选：特种场景直接相关；方向：硬件与防爆；关联：工业与能源巡检。来源期刊/会议：Journal of Physics: Conference Series。 Abstract Aiming at the problems of insufficient research and difficult control of existi（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 基础软件与系统
 
@@ -69,6 +69,10 @@
   - 行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：消防与应急救援。来源期刊/会议：Frontiers in Robotics and AI。Search and Rescue (SAR) robotics increasingly depends on collaborative intelligence to operate eff（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Don't Run with Scissors: Pruning Breaks VLA Models but They Can Be Recovered](https://arxiv.org/abs/2510.08464) | 论文（摘要） | 特种场景直接相关 | 匹配度 72/100
   - 行业筛选：特种场景直接相关；方向：大脑与具身智能；关联：野外与特种地形。arXiv:2510.08464v2 Announce Type: replace Abstract: Vision-Language-Action (VLA) models are a promising paradigm for field robotics, bu（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Cognitive Load-Based Affective Workload Allocation for Multihuman Multirobot Teams](https://doi.org/10.1109/thms.2024.3509223) | 论文（摘要） | 特种场景直接相关 | 匹配度 71/100
+  - 行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：消防与应急救援。来源期刊/会议：IEEE Transactions on Human-Machine Systems。The interaction and collaboration between humans and multiple robots represent a nov（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Generalized Behavior Framework for Mobile Robots Teaming With Humans in Harsh Environments](https://doi.org/10.3389/frobt.2022.898366) | 论文（摘要） | 特种场景直接相关 | 匹配度 71/100
+  - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：防爆石化与危险环境。来源期刊/会议：Frontiers in Robotics and AI。Industrial contexts, typically characterized by highly unstructured environments, where task seque（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [NaVILA: Legged Robot Vision-Language-Action Model for Navigation](https://doi.org/10.15607/rss.2025.xxi.018) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 65/100
   - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Robotics: Science and Systems XXI。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [QuadrupedGPT: Towards a Versatile Quadruped Agent in Open-ended Worlds](https://doi.org/10.48550/arxiv.2406.16578) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 65/100
@@ -77,10 +81,6 @@
   - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：IEEE Robotics and Automation Letters。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Robot Learning with Vision-Language-Action Models for Agricultural Manipulation](https://arxiv.org/abs/2610.26717) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 64/100
   - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.26717v1 Announce Type: new Abstract: Robotic manipulation in agricultural environments remains challenging due to variations（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [An intelligent mission-oriented and situation aware quadruped robot: a novel embodied explainable AI approach](https://doi.org/10.1117/12.2664019) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 64/100
-  - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Unmanned Systems Technology XXV。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [hu-zlatan/embodied-ai-radar](https://github.com/hu-zlatan/embodied-ai-radar) | 代码仓库更新 | 可迁移的机器人关键技术 | 匹配度 63/100
-  - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。Bilingual (EN/中文), daily-updated map of embodied AI & robot learning: verified papers, code, datasets, simulators, hardware + every new（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 感知建图与导航
 

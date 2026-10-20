@@ -1,5 +1,49 @@
 [
   {
+    "id": "472f364968ea1d30f1",
+    "title": "Seeed-Projects/mobile-robot-full-stack-course",
+    "url": "https://github.com/Seeed-Projects/mobile-robot-full-stack-course",
+    "source": "GitHub",
+    "type": "代码仓库更新",
+    "description": "An open-source, hands-on mobile robotics course covering Jetson, ROS 2, AI perception, SLAM, autonomous navigation, semantic understanding, and robotic manipulation.",
+    "published": "2026-10-20T10:21:39Z",
+    "first_seen": "2026-10-12T09:34:55.254700+00:00",
+    "stars": 48,
+    "license": true,
+    "repo_id": 1308694936,
+    "relevance_status": "可迁移的机器人关键技术",
+    "rule_contribution_type": "undetermined",
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "rule_category": "感知建图与导航",
+    "rule_confidence": "low",
+    "category": "基础软件与系统",
+    "classification_confidence": "人工核查",
+    "classification_reason": "依据资源标题及所提供摘要，主要技术成果涉及可复用软件、系统架构或开发工具；摘要证据：An open-source, hands-on mobile robotics course covering Jetson, ROS 2, AI perception, SLAM, autonomous navigation,",
+    "needs_review": false,
+    "crosscheck_conflicts": [],
+    "crosscheck_pending": false,
+    "tags": [
+      "基础软件与系统"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 63,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。An open-source, hands-on mobile robotics course covering Jetson, ROS 2, AI perception, SLAM, autonomous navigation, semantic understand（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
+    "manual_category_override": true,
+    "manual_override_reason": "依据资源标题及所提供摘要，主要技术成果涉及可复用软件、系统架构或开发工具；摘要证据：An open-source, hands-on mobile robotics course covering Jetson, ROS 2, AI perception, SLAM, autonomous navigation,",
+    "model_applied": false,
+    "classification_history": [
+      {
+        "old_category": "感知建图与导航",
+        "new_category": "基础软件与系统",
+        "status": "manual_correction",
+        "reason": "依据资源标题及所提供摘要，主要技术成果涉及可复用软件、系统架构或开发工具；摘要证据：An open-source, hands-on mobile robotics course covering Jetson, ROS 2, AI perception, SLAM, autonomous navigation,",
+        "changed_at": "2026-10-20"
+      }
+    ]
+  },
+  {
     "id": "6d00a3e8f667da3f45",
     "title": "weihairuo/wheel-motion-uncertainty",
     "url": "https://github.com/weihairuo/wheel-motion-uncertainty",
@@ -67,9 +111,9 @@
     "rule_category": "基础软件与系统",
     "rule_confidence": "low",
     "category": "基础软件与系统",
-    "classification_confidence": "模型建议（待复核）",
-    "classification_reason": "提供实验室移动机器人的ROS2开发环境与软件集成",
-    "needs_review": true,
+    "classification_confidence": "人工核查",
+    "classification_reason": "GitHub项目说明为实验室移动机器人ROS2开发代码，交付物是机器人软件资源。",
+    "needs_review": false,
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
     "tags": [
@@ -80,15 +124,9 @@
     "score": 61,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。ROS 2 development for laboratory mobile robots at CELISCA, University of Rostock（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "model_reviewed_uncertain": true,
-    "model_review_attempts": 1,
-    "model_reviewed_at": "2026-10-20T09:32:33.047847+00:00",
-    "manual_review_required": false,
-    "model_main_contribution": "面向实验室移动机器人的ROS2软件栈",
-    "model_contribution_conflict": "",
-    "model_applied": false,
-    "model_suggested_category": "基础软件与系统",
-    "model_classification_reason": "提供实验室移动机器人的ROS2开发环境与软件集成"
+    "manual_category_override": true,
+    "manual_override_reason": "GitHub项目说明为实验室移动机器人ROS2开发代码，交付物是机器人软件资源。",
+    "model_applied": false
   },
   {
     "id": "c18f44925816cbb911",
@@ -254,14 +292,14 @@
     "relevance_status": "可迁移的机器人关键技术",
     "rule_category": "大脑与具身智能",
     "rule_confidence": "low",
-    "category": "大脑与具身智能",
-    "classification_confidence": "模型建议（待复核）",
-    "classification_reason": "Agent 高层决策证据较弱",
-    "needs_review": true,
+    "category": "基础软件与系统",
+    "classification_confidence": "人工核查",
+    "classification_reason": "GitHub项目描述为具身智能论文与开源代码资料的双语自动更新雷达，交付物为信息整理网站，不是具身Agent。",
+    "needs_review": false,
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
     "tags": [
-      "大脑与具身智能"
+      "基础软件与系统"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -273,7 +311,18 @@
     "model_suggested_category": "大脑与具身智能",
     "rule_contribution_type": "undetermined",
     "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
-    "model_classification_reason": ""
+    "model_classification_reason": "",
+    "manual_category_override": true,
+    "manual_override_reason": "GitHub项目描述为具身智能论文与开源代码资料的双语自动更新雷达，交付物为信息整理网站，不是具身Agent。",
+    "classification_history": [
+      {
+        "old_category": "大脑与具身智能",
+        "new_category": "基础软件与系统",
+        "status": "manual_correction",
+        "reason": "GitHub项目描述为具身智能论文与开源代码资料的双语自动更新雷达，交付物为信息整理网站，不是具身Agent。",
+        "changed_at": "2026-10-20"
+      }
+    ]
   },
   {
     "id": "13cbfd16c85badb1ba",
@@ -730,14 +779,14 @@
     "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
     "rule_category": "大脑与具身智能",
     "rule_confidence": "low",
-    "category": "大脑与具身智能",
-    "classification_confidence": "模型建议（待复核）",
-    "classification_reason": "Agent 高层决策证据较弱",
-    "needs_review": true,
+    "category": "小脑与运动控制",
+    "classification_confidence": "人工核查",
+    "classification_reason": "摘要提出多帧VLA动作策略中的历史视觉特征压缩模块，贡献为机器人操作动作解码。",
+    "needs_review": false,
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
     "tags": [
-      "大脑与具身智能",
+      "小脑与运动控制",
       "VLA"
     ],
     "industry_tags": [],
@@ -745,10 +794,18 @@
     "score": 62,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.25927v1 Announce Type: cross Abstract: Robot manipulation often depends on short-term cues - such as brief contacts, tempora（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "model_reviewed_uncertain": true,
+    "manual_category_override": true,
+    "manual_override_reason": "摘要提出多帧VLA动作策略中的历史视觉特征压缩模块，贡献为机器人操作动作解码。",
     "model_applied": false,
-    "model_suggested_category": "大脑与具身智能",
-    "model_classification_reason": ""
+    "classification_history": [
+      {
+        "old_category": "大脑与具身智能",
+        "new_category": "小脑与运动控制",
+        "status": "manual_correction",
+        "reason": "摘要提出多帧VLA动作策略中的历史视觉特征压缩模块，贡献为机器人操作动作解码。",
+        "changed_at": "2026-10-20"
+      }
+    ]
   },
   {
     "id": "986716f2e6fd750fdb",
@@ -906,8 +963,9 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
     "model_reviewed_uncertain": true,
     "model_applied": false,
+    "model_classification_reason": "",
     "model_suggested_category": "大脑与具身智能",
-    "model_classification_reason": ""
+    "classification_history": []
   },
   {
     "id": "ed7a81a26e33080210",
@@ -3929,13 +3987,12 @@
     "description": "arXiv:2607.02417v2 Announce Type: replace Abstract: Autonomous robots often need to move their camera before they can act: to inspect an object, reveal an occluded region, or obtain a view that responds to a user's intent. While vision-language navigation translates instructions to base motion and vision-language-action policies map instructions to manipulation actions, vision-language conditioned camera motion remains comparatively underexplored as a first-class action. We formulate vision-language conditioned camera motion generation: given a current RGB observation and a free-form natural-language intent, predict a relative target camera pose for the next observation. The challenge is that useful viewpoint changes depend on latent perceptual intent, ranging from coarse spatial moves to fine-grained inspection or occlusion revealing. To model this structure, we mine multi-intent camera",
     "published": "2026-10-15T04:00:00+00:00",
     "first_seen": "2026-10-15T05:34:42.091757+00:00",
-    "category": "大脑与具身智能",
-    "classification_confidence": "模型建议（待复核）",
-    "classification_reason": "语言意识相机运动生成，旨在通过意图感知提升具身代理感知与行动能力。",
-    "needs_review": true,
+    "category": "感知建图与导航",
+    "classification_confidence": "人工核查",
+    "classification_reason": "摘要明确根据RGB图像和自然语言意图预测相机下一观测位姿，属于主动视觉观测。",
+    "needs_review": false,
     "tags": [
-      "大脑与具身智能",
-      "小脑与运动控制"
+      "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -4023,6 +4080,13 @@
         "changed_at": "2026-10-20T06:52:45.312983+00:00",
         "needs_review": true,
         "status": "model_pending_review"
+      },
+      {
+        "old_category": "小脑与运动控制",
+        "new_category": "感知建图与导航",
+        "status": "manual_correction",
+        "reason": "摘要明确根据RGB图像和自然语言意图预测相机下一观测位姿，属于主动视觉观测。",
+        "changed_at": "2026-10-20"
       }
     ],
     "model_reviewed_uncertain": true,
@@ -4032,7 +4096,9 @@
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
     "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "manual_category_override": true,
+    "manual_override_reason": "摘要明确根据RGB图像和自然语言意图预测相机下一观测位姿，属于主动视觉观测。"
   },
   {
     "id": "4f43b7974dceb6e4fd",
@@ -4748,24 +4814,31 @@
     "rule_category": "感知建图与导航",
     "rule_confidence": "low",
     "category": "大脑与具身智能",
-    "classification_confidence": "模型建议（待复核）",
-    "classification_reason": "导航/感知类别缺少题名中的明确研究任务",
-    "needs_review": true,
+    "classification_confidence": "人工核查",
+    "classification_reason": "提出通过市场式后训练与竞价组织分布式智能体协作，核心为高层协同决策。",
+    "needs_review": false,
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
     "tags": [
-      "大脑与具身智能",
-      "感知建图与导航"
+      "大脑与具身智能"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 62,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。The capabilities of an agent swarm depend on both its individual members and how they coordinate. Ye（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "model_reviewed_uncertain": true,
+    "manual_category_override": true,
+    "manual_override_reason": "提出通过市场式后训练与竞价组织分布式智能体协作，核心为高层协同决策。",
     "model_applied": false,
-    "model_suggested_category": "大脑与具身智能",
-    "model_classification_reason": ""
+    "classification_history": [
+      {
+        "old_category": "感知建图与导航",
+        "new_category": "大脑与具身智能",
+        "status": "manual_correction",
+        "reason": "提出通过市场式后训练与竞价组织分布式智能体协作，核心为高层协同决策。",
+        "changed_at": "2026-10-20"
+      }
+    ]
   },
   {
     "id": "69e61c4529817d0edd",
@@ -5361,9 +5434,9 @@
     "score": 61,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.17252v1 Announce Type: new Abstract: Search-based policy learning, such as Monte Carlo tree search (MCTS), offers the flexib（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "classification_confidence": "模型建议（待复核）",
-    "classification_reason": "本文证明量化动作对值函数误差受状态可达性约束，确保价值保持，符合小脑与运动控制贡献。",
-    "needs_review": true,
+    "classification_confidence": "人工核查",
+    "classification_reason": "研究机器人连续动作量化的价值函数保持和策略搜索，核心为动作学习算法。",
+    "needs_review": false,
     "model_applied": false,
     "rule_category": "小脑与运动控制",
     "model_classification_reason": "本文证明量化动作对值函数误差受状态可达性约束，确保价值保持，符合小脑与运动控制贡献。",
@@ -5454,7 +5527,9 @@
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
     "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "manual_category_override": true,
+    "manual_override_reason": "研究机器人连续动作量化的价值函数保持和策略搜索，核心为动作学习算法。"
   },
   {
     "id": "f61ec30c900a5df62a",
@@ -6015,51 +6090,6 @@
     "model_previous_confidence": "待复核"
   },
   {
-    "id": "472f364968ea1d30f1",
-    "title": "Seeed-Projects/mobile-robot-full-stack-course",
-    "url": "https://github.com/Seeed-Projects/mobile-robot-full-stack-course",
-    "source": "GitHub",
-    "type": "代码仓库更新",
-    "description": "An open-source, hands-on mobile robotics course covering Jetson, ROS 2, AI perception, SLAM, autonomous navigation, semantic understanding, and robotic manipulation.",
-    "published": "2026-10-12T09:05:59Z",
-    "first_seen": "2026-10-12T09:34:55.254700+00:00",
-    "stars": 40,
-    "license": true,
-    "repo_id": 1308694936,
-    "category": "基础软件与系统",
-    "tags": [
-      "基础软件与系统"
-    ],
-    "industry_tags": [],
-    "scope": "可迁移的机器人关键技术",
-    "score": 63,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。An open-source, hands-on mobile robotics course covering Jetson, ROS 2, AI perception, SLAM, autonomous navigation, semantic understand（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "classification_confidence": "人工核查",
-    "classification_reason": "依据资源标题及所提供摘要，主要技术成果涉及可复用软件、系统架构或开发工具；摘要证据：An open-source, hands-on mobile robotics course covering Jetson, ROS 2, AI perception, SLAM, autonomous navigation,",
-    "needs_review": false,
-    "relevance_status": "可迁移的机器人关键技术",
-    "rule_category": "感知建图与导航",
-    "rule_confidence": "low",
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "review_priority": "P2",
-    "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
-    "manual_category_override": true,
-    "manual_override_reason": "依据资源标题及所提供摘要，主要技术成果涉及可复用软件、系统架构或开发工具；摘要证据：An open-source, hands-on mobile robotics course covering Jetson, ROS 2, AI perception, SLAM, autonomous navigation,",
-    "model_applied": false,
-    "classification_history": [
-      {
-        "old_category": "感知建图与导航",
-        "new_category": "基础软件与系统",
-        "status": "manual_correction",
-        "reason": "依据资源标题及所提供摘要，主要技术成果涉及可复用软件、系统架构或开发工具；摘要证据：An open-source, hands-on mobile robotics course covering Jetson, ROS 2, AI perception, SLAM, autonomous navigation,",
-        "changed_at": "2026-10-20"
-      }
-    ]
-  },
-  {
     "id": "39340a24c57510684b",
     "title": "lsiwei68-alt/mecanum-multi-robot-navigation",
     "url": "https://github.com/lsiwei68-alt/mecanum-multi-robot-navigation",
@@ -6484,9 +6514,9 @@
     "description": "arXiv:2610.13943v1 Announce Type: new Abstract: Pretrained vision-language-action (VLA) models encode broad manipulation priors, yet adapting them to specific tasks requires balancing limited robot interaction, computational resources, and safety constraints. Noise space learning (NSL) adapts flow-matching-based VLAs by learning a context-conditioned distribution over noise while keeping the pretrained VLA fixed. Building on prior noise-steering methods, we formulate NSL as an interface for VLA adaptation that accommodates different learning algorithms and instantiate it with PPO, SAC, and AWR. Theoretically, we provide an information-theoretic analysis of how NSL enables efficient adaptation. Empirically, we study these NSL algorithms on LIBERO, RoboTwin, and four real-robot manipulation tasks under interaction, computation, and execution constraints. Across these settings, we develop a",
     "published": "2026-10-12T04:00:00+00:00",
     "first_seen": "2026-10-12T08:43:20.040390+00:00",
-    "category": "大脑与具身智能",
+    "category": "小脑与运动控制",
     "tags": [
-      "大脑与具身智能",
+      "小脑与运动控制",
       "VLA"
     ],
     "industry_tags": [],
@@ -6494,9 +6524,9 @@
     "score": 62,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.13943v1 Announce Type: new Abstract: Pretrained vision-language-action (VLA) models encode broad manipulation priors, yet ad（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "classification_confidence": "模型建议（待复核）",
-    "classification_reason": "上下文噪聲分布學習視覺語言動作適應機制研究",
-    "needs_review": true,
+    "classification_confidence": "人工核查",
+    "classification_reason": "摘要说明基于PPO、SAC与AWR调整VLA操作策略，研究目标是机器人动作策略适配。",
+    "needs_review": false,
     "model_applied": false,
     "rule_category": "大脑与具身智能",
     "model_classification_reason": "上下文噪聲分布學習視覺語言動作適應機制研究",
@@ -6578,6 +6608,13 @@
         "changed_at": "2026-10-20T06:52:45.312983+00:00",
         "needs_review": true,
         "status": "model_pending_review"
+      },
+      {
+        "old_category": "大脑与具身智能",
+        "new_category": "小脑与运动控制",
+        "status": "manual_correction",
+        "reason": "摘要说明基于PPO、SAC与AWR调整VLA操作策略，研究目标是机器人动作策略适配。",
+        "changed_at": "2026-10-20"
       }
     ],
     "model_reviewed_uncertain": true,
@@ -6587,7 +6624,9 @@
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
     "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "manual_category_override": true,
+    "manual_override_reason": "摘要说明基于PPO、SAC与AWR调整VLA操作策略，研究目标是机器人动作策略适配。"
   },
   {
     "id": "ecea16bf80b085dec1",
@@ -7040,8 +7079,9 @@
     "model_main_contribution": "农业自主机器人架构、运行应用与趋势综述",
     "model_contribution_conflict": "",
     "model_applied": false,
+    "model_classification_reason": "综述农业机器人架构和应用，但未提出单一可归类的新算法",
     "model_suggested_category": "特种应用与产品",
-    "model_classification_reason": "综述农业机器人架构和应用，但未提出单一可归类的新算法"
+    "classification_history": []
   },
   {
     "id": "7559d6959f3f14ad16",
@@ -8921,7 +8961,8 @@
     "model_contribution_conflict": "模型所述主要研究贡献无法由题名摘要核验",
     "model_applied": false,
     "model_suggested_category": "基础软件与系统",
-    "model_classification_reason": ""
+    "model_classification_reason": "",
+    "classification_history": []
   },
   {
     "id": "b5489f47ae9b1c7e31",
@@ -10380,8 +10421,9 @@
     "model_main_contribution": "MineSSM低光增强模型",
     "model_contribution_conflict": "",
     "model_applied": false,
+    "model_classification_reason": "",
     "model_suggested_category": "感知建图与导航",
-    "model_classification_reason": ""
+    "classification_history": []
   },
   {
     "id": "c54b6fa9247dec9d98",
@@ -11574,8 +11616,9 @@
     "model_main_contribution": "矿山救援机器人平台与设计要求综述",
     "model_contribution_conflict": "",
     "model_applied": false,
+    "model_classification_reason": "",
     "model_suggested_category": "特种应用与产品",
-    "model_classification_reason": ""
+    "classification_history": []
   },
   {
     "id": "39b7bf36b05cdea651",
@@ -11887,8 +11930,9 @@
     "model_main_contribution": "自主管道巡检的多模态传感与异常识别技术综述",
     "model_contribution_conflict": "模型所述主要研究贡献无法由题名摘要核验",
     "model_applied": false,
+    "model_classification_reason": "摘要仅归纳多模态巡检传感与异常识别，未给出新增方法或系统",
     "model_suggested_category": "感知建图与导航",
-    "model_classification_reason": "摘要仅归纳多模态巡检传感与异常识别，未给出新增方法或系统"
+    "classification_history": []
   },
   {
     "id": "4d2aad6dc4c140010d",
@@ -13113,9 +13157,8 @@
     "description": "Scaling robust robot policies requires more than broader randomization, because physical-domain experience must remain organized and learnable throughout training. We study when a policy can benefit from harder physics and identify recoverability as a central constraint in on-policy physical-domain scaling. In on-policy training, new dynamics are useful only insofar as they remain close enough to the current policy to generate corrective on-policy data, rather than collapsing rollouts into unrecoverable failures. Using quadruped locomotion as a physically demanding benchmark for embodied generalization, we introduce HORIZON, a checkpointed frontier curriculum that expands physical domains only within the current policy's recoverable boundary. HORIZON uses rollback and boundary refinement to govern each expansion step, turning fixed randomization into a continual process of physical-domai",
     "published": "2026-06-03T17:50:02Z",
     "first_seen": "2026-10-12T09:34:01.411878+00:00",
-    "category": "大脑与具身智能",
+    "category": "小脑与运动控制",
     "tags": [
-      "大脑与具身智能",
       "小脑与运动控制"
     ],
     "industry_tags": [],
@@ -13123,9 +13166,9 @@
     "score": 62,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。Scaling robust robot policies requires more than broader randomization, because physical-domain experience must remain organized and le（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "classification_confidence": "模型建议（待复核）",
-    "classification_reason": "提出基于可恢复性的物理域扩展课程，提升具身智能策略泛化。",
-    "needs_review": true,
+    "classification_confidence": "人工核查",
+    "classification_reason": "提出面向四足运动策略训练的可恢复性约束物理域课程学习。",
+    "needs_review": false,
     "model_applied": false,
     "rule_category": "小脑与运动控制",
     "model_classification_reason": "提出基于可恢复性的物理域扩展课程，提升具身智能策略泛化。",
@@ -13216,7 +13259,9 @@
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
     "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "manual_category_override": true,
+    "manual_override_reason": "提出面向四足运动策略训练的可恢复性约束物理域课程学习。"
   },
   {
     "id": "a78696bf94fc3cdee9",
@@ -17362,14 +17407,13 @@
     "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
     "rule_category": "感知建图与导航",
     "rule_confidence": "low",
-    "category": "感知建图与导航",
-    "classification_confidence": "待复核",
-    "classification_reason": "根据题名初步判断感知相关研究",
-    "needs_review": true,
+    "category": "特种应用与产品",
+    "classification_confidence": "人工核查",
+    "classification_reason": "摘要明确开发融合视觉识别、力位控制和防爆外壳的自动加氢机器人系统。",
+    "needs_review": false,
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
     "tags": [
-      "感知建图与导航",
       "特种应用与产品"
     ],
     "industry_tags": [
@@ -17379,7 +17423,18 @@
     "score": 73,
     "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：防爆石化与危险环境。来源期刊/会议：International Journal of Information and Communication Technology。With hydrogen energy emerging as a key pathway for achieving （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "manual_category_override": true,
+    "manual_override_reason": "摘要明确开发融合视觉识别、力位控制和防爆外壳的自动加氢机器人系统。",
+    "model_applied": false,
+    "classification_history": [
+      {
+        "old_category": "感知建图与导航",
+        "new_category": "特种应用与产品",
+        "status": "manual_correction",
+        "reason": "摘要明确开发融合视觉识别、力位控制和防爆外壳的自动加氢机器人系统。",
+        "changed_at": "2026-10-20"
+      }
+    ]
   },
   {
     "id": "89caa3e4da62f0338b",
@@ -18435,12 +18490,11 @@
     "first_seen": "2026-10-15T02:19:18.611842+00:00",
     "doi": "10.20944/preprints202512.2091.v1",
     "category": "感知建图与导航",
-    "classification_confidence": "待复核",
-    "classification_reason": "根据题名初步判断感知相关研究",
-    "needs_review": true,
+    "classification_confidence": "人工核查",
+    "classification_reason": "摘要说明边缘视觉检测与VLM语义解释形成工业巡检场景感知方案，主要是语义环境识别。",
+    "needs_review": false,
     "tags": [
-      "感知建图与导航",
-      "特种应用与产品"
+      "感知建图与导航"
     ],
     "industry_tags": [
       "工业与能源巡检"
@@ -18456,7 +18510,10 @@
     "crosscheck_pending": false,
     "review_priority": "P2",
     "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "manual_category_override": true,
+    "manual_override_reason": "摘要说明边缘视觉检测与VLM语义解释形成工业巡检场景感知方案，主要是语义环境识别。",
+    "model_applied": false
   },
   {
     "id": "12c0175c29565a2837",
@@ -28149,13 +28206,12 @@
     "published": "2024-12-27",
     "first_seen": "2026-10-19T09:06:40.327699+00:00",
     "doi": "https://doi.org/10.1109/thms.2024.3509223",
-    "category": "小脑与运动控制",
-    "classification_confidence": "待复核",
-    "classification_reason": "运动控制类别缺少题名中的控制任务证据",
-    "needs_review": true,
+    "category": "大脑与具身智能",
+    "classification_confidence": "人工核查",
+    "classification_reason": "提出基于人类认知负荷的多人与多机器人任务动态分配决策器，属高层任务协调。",
+    "needs_review": false,
     "tags": [
-      "小脑与运动控制",
-      "特种应用与产品"
+      "大脑与具身智能"
     ],
     "industry_tags": [
       "消防与应急救援"
@@ -28171,7 +28227,19 @@
     "crosscheck_pending": false,
     "review_priority": "P2",
     "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "manual_category_override": true,
+    "manual_override_reason": "提出基于人类认知负荷的多人与多机器人任务动态分配决策器，属高层任务协调。",
+    "model_applied": false,
+    "classification_history": [
+      {
+        "old_category": "小脑与运动控制",
+        "new_category": "大脑与具身智能",
+        "status": "manual_correction",
+        "reason": "提出基于人类认知负荷的多人与多机器人任务动态分配决策器，属高层任务协调。",
+        "changed_at": "2026-10-20"
+      }
+    ]
   },
   {
     "id": "8f7d58aab385790782",
@@ -28920,8 +28988,9 @@
     "model_main_contribution": "生成式AI时代工业机器人检测的挑战与机遇综述",
     "model_contribution_conflict": "",
     "model_applied": false,
+    "model_classification_reason": "仅见综述题目，未提供具体方法、交付物或实验验证",
     "model_suggested_category": "特种应用与产品",
-    "model_classification_reason": "仅见综述题目，未提供具体方法、交付物或实验验证"
+    "classification_history": []
   },
   {
     "id": "623fd95bd5c04ad76d",
@@ -29364,8 +29433,9 @@
     "model_main_contribution": "点云到双节点线框数字孪生的直接转换方法",
     "model_contribution_conflict": "模型所述主要研究贡献无法由题名摘要核验",
     "model_applied": false,
+    "model_classification_reason": "提出点云直接转双节点线框数字孪生方法，并完成误差验证",
     "model_suggested_category": "感知建图与导航",
-    "model_classification_reason": "提出点云直接转双节点线框数字孪生方法，并完成误差验证"
+    "classification_history": []
   },
   {
     "id": "eb6a3de3f5e2321cee",
@@ -30099,8 +30169,9 @@
     "model_main_contribution": "爬楼履带救援机器人的倾覆现象及机理分析",
     "model_contribution_conflict": "",
     "model_applied": false,
+    "model_classification_reason": "仅题名可判定爬楼倾覆机理研究，尚不明确是否提出结构优化",
     "model_suggested_category": "硬件与防爆",
-    "model_classification_reason": "仅题名可判定爬楼倾覆机理研究，尚不明确是否提出结构优化"
+    "classification_history": []
   },
   {
     "id": "eb61308c1749382632",
@@ -30873,8 +30944,8 @@
     "rule_category": "小脑与运动控制",
     "rule_confidence": "low",
     "category": "小脑与运动控制",
-    "classification_confidence": "待复核",
-    "classification_reason": "运动控制类别缺少题名中的控制任务证据",
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "实现AprilTag步速跟随与恒距运动控制，用于评估人机交互反应",
     "needs_review": true,
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
@@ -30886,7 +30957,30 @@
     "score": 73,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Inquiry@Queen's Undergraduate Research Conference Proceedings。 Robots are becoming more prevalent in our daily lives. As robots（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "review_priority": "P2",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "小脑与运动控制",
+    "model_main_contribution": "基于AprilTag的自适应步速跟随与恒距控制程序",
+    "model_contribution_conflict": "模型所述主要研究贡献无法由题名摘要核验",
+    "model_classification_reason": "实现AprilTag步速跟随与恒距运动控制，用于评估人机交互反应",
+    "model_reviewed_at": "2026-10-20T10:32:19.837821+00:00",
+    "model_previous_confidence": "待复核",
+    "classification_history": [
+      {
+        "id": "7127eca2367dec5386",
+        "title": "Investigating Human-Robot Interactions with a Quadruped Robot",
+        "old_category": "小脑与运动控制",
+        "new_category": "小脑与运动控制",
+        "model_suggested_category": "小脑与运动控制",
+        "reason": "实现AprilTag步速跟随与恒距运动控制，用于评估人机交互反应",
+        "changed_at": "2026-10-20T10:32:19.837821+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
   },
   {
     "id": "a82e00fe1cfe3f016f",
@@ -34063,12 +34157,11 @@
     "published": "2024-04-30",
     "first_seen": "2026-10-17T05:34:59.979080+00:00",
     "doi": "10.22214/ijraset.2024.60538",
-    "category": "感知建图与导航",
-    "classification_confidence": "待复核",
-    "classification_reason": "导航/感知类别缺少题名中的明确研究任务",
-    "needs_review": true,
+    "category": "特种应用与产品",
+    "classification_confidence": "人工核查",
+    "classification_reason": "明确交付雨水排水管道裂缝巡检机器人系统，机器学习检测是整机功能。",
+    "needs_review": false,
     "tags": [
-      "感知建图与导航",
       "特种应用与产品"
     ],
     "industry_tags": [
@@ -34085,7 +34178,19 @@
     "crosscheck_pending": false,
     "review_priority": "P2",
     "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "manual_category_override": true,
+    "manual_override_reason": "明确交付雨水排水管道裂缝巡检机器人系统，机器学习检测是整机功能。",
+    "model_applied": false,
+    "classification_history": [
+      {
+        "old_category": "感知建图与导航",
+        "new_category": "特种应用与产品",
+        "status": "manual_correction",
+        "reason": "明确交付雨水排水管道裂缝巡检机器人系统，机器学习检测是整机功能。",
+        "changed_at": "2026-10-20"
+      }
+    ]
   },
   {
     "id": "cd02eab0198bfc05e3",
@@ -34499,8 +34604,8 @@
     "rule_category": "特种应用与产品",
     "rule_confidence": "low",
     "category": "特种应用与产品",
-    "classification_confidence": "待复核",
-    "classification_reason": "特种机器人应用系统，贡献边界待复核",
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "仅题名可确认FireX消防机器人应用，系统设计与算法细节均缺失",
     "needs_review": true,
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
@@ -34514,7 +34619,30 @@
     "score": 76,
     "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：2024 IEEE Integrated STEM Education Conference (ISEC)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "review_priority": "P2",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "特种应用与产品",
+    "model_main_contribution": "FireX高风险场景消防机器人",
+    "model_contribution_conflict": "",
+    "model_classification_reason": "仅题名可确认FireX消防机器人应用，系统设计与算法细节均缺失",
+    "model_reviewed_at": "2026-10-20T10:32:19.837821+00:00",
+    "model_previous_confidence": "待复核",
+    "classification_history": [
+      {
+        "id": "e9fb5d3a10a0bba853",
+        "title": "AI-Powered Firefighting Robot to Manage High-Risk Situations While Improving Standard Fire Response Time -Robot FireX",
+        "old_category": "特种应用与产品",
+        "new_category": "特种应用与产品",
+        "model_suggested_category": "特种应用与产品",
+        "reason": "仅题名可确认FireX消防机器人应用，系统设计与算法细节均缺失",
+        "changed_at": "2026-10-20T10:32:19.837821+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
   },
   {
     "id": "ad1556bbf126816a35",
@@ -34801,8 +34929,9 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
     "model_reviewed_uncertain": true,
     "model_applied": false,
+    "model_classification_reason": "",
     "model_suggested_category": "特种应用与产品",
-    "model_classification_reason": ""
+    "classification_history": []
   },
   {
     "id": "6023aed6f3a94c853e",
@@ -35288,8 +35417,8 @@
     "rule_category": "特种应用与产品",
     "rule_confidence": "low",
     "category": "特种应用与产品",
-    "classification_confidence": "待复核",
-    "classification_reason": "元数据不足，临时标记待复核（不视为应用领域确认）",
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "交付集成实时监测与灭火功能的人形消防机器人系统",
     "needs_review": true,
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
@@ -35303,7 +35432,30 @@
     "score": 76,
     "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：Proceedings of the 2nd International Conference on Intelligent and Sustainable Power and Energy Systems。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "review_priority": "P2",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "特种应用与产品",
+    "model_main_contribution": "实时监测与灭火一体化人形消防机器人",
+    "model_contribution_conflict": "",
+    "model_classification_reason": "交付集成实时监测与灭火功能的人形消防机器人系统",
+    "model_reviewed_at": "2026-10-20T10:32:19.837821+00:00",
+    "model_previous_confidence": "待复核",
+    "classification_history": [
+      {
+        "id": "d148ecb49975410756",
+        "title": "Design and Implementation of a Humanoid Firefighter Robot with Real-Time Monitoring and Firefighting Applications",
+        "old_category": "特种应用与产品",
+        "new_category": "特种应用与产品",
+        "model_suggested_category": "特种应用与产品",
+        "reason": "交付集成实时监测与灭火功能的人形消防机器人系统",
+        "changed_at": "2026-10-20T10:32:19.837821+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
   },
   {
     "id": "9a0ebc21bfc2fdab5b",
@@ -37147,12 +37299,12 @@
     "published": "2023-12-12",
     "first_seen": "2026-10-16T01:48:18.850787+00:00",
     "doi": "https://doi.org/10.1016/j.device.2023.100181",
-    "category": "小脑与运动控制",
-    "classification_confidence": "待复核",
-    "classification_reason": "运动控制类别缺少题名中的控制任务证据",
-    "needs_review": true,
+    "category": "硬件与防爆",
+    "classification_confidence": "人工核查",
+    "classification_reason": "以液态金属软电子集成多足微型机器人实现磁驱动与射频感知，主要交付新型机器人本体。",
+    "needs_review": false,
     "tags": [
-      "小脑与运动控制"
+      "硬件与防爆"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -37166,7 +37318,19 @@
     "crosscheck_pending": false,
     "review_priority": "P2",
     "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "manual_category_override": true,
+    "manual_override_reason": "以液态金属软电子集成多足微型机器人实现磁驱动与射频感知，主要交付新型机器人本体。",
+    "model_applied": false,
+    "classification_history": [
+      {
+        "old_category": "小脑与运动控制",
+        "new_category": "硬件与防爆",
+        "status": "manual_correction",
+        "reason": "以液态金属软电子集成多足微型机器人实现磁驱动与射频感知，主要交付新型机器人本体。",
+        "changed_at": "2026-10-20"
+      }
+    ]
   },
   {
     "id": "0c7b4564ee7956d13f",
@@ -37726,12 +37890,12 @@
     "published": "2023-11-27",
     "first_seen": "2026-10-17T05:34:10.754627+00:00",
     "doi": "https://doi.org/10.1186/s10033-023-00963-w",
-    "category": "小脑与运动控制",
-    "classification_confidence": "待复核",
-    "classification_reason": "运动控制类别缺少题名中的控制任务证据",
-    "needs_review": true,
+    "category": "硬件与防爆",
+    "classification_confidence": "人工核查",
+    "classification_reason": "提出滚动、行走和越障多模态仿生八足机器人机构并进行结构与样机实验。",
+    "needs_review": false,
     "tags": [
-      "小脑与运动控制"
+      "硬件与防爆"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -37745,7 +37909,19 @@
     "crosscheck_pending": false,
     "review_priority": "P2",
     "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "manual_category_override": true,
+    "manual_override_reason": "提出滚动、行走和越障多模态仿生八足机器人机构并进行结构与样机实验。",
+    "model_applied": false,
+    "classification_history": [
+      {
+        "old_category": "小脑与运动控制",
+        "new_category": "硬件与防爆",
+        "status": "manual_correction",
+        "reason": "提出滚动、行走和越障多模态仿生八足机器人机构并进行结构与样机实验。",
+        "changed_at": "2026-10-20"
+      }
+    ]
   },
   {
     "id": "8aec32690e0d978357",
@@ -38005,12 +38181,11 @@
     "first_seen": "2026-10-15T02:18:30.637454+00:00",
     "doi": "https://doi.org/10.1371/journal.pone.0287791",
     "category": "感知建图与导航",
-    "classification_confidence": "待复核",
-    "classification_reason": "导航/感知类别缺少题名中的明确研究任务",
-    "needs_review": true,
+    "classification_confidence": "人工核查",
+    "classification_reason": "摘要明确利用黑板架构多传感器融合提高消防机器人室内定位精度。",
+    "needs_review": false,
     "tags": [
-      "感知建图与导航",
-      "特种应用与产品"
+      "感知建图与导航"
     ],
     "industry_tags": [
       "消防与应急救援"
@@ -38026,7 +38201,10 @@
     "crosscheck_pending": false,
     "review_priority": "P2",
     "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "manual_category_override": true,
+    "manual_override_reason": "摘要明确利用黑板架构多传感器融合提高消防机器人室内定位精度。",
+    "model_applied": false
   },
   {
     "id": "63476f43b8711f319a",
@@ -38628,12 +38806,11 @@
     "published": "2023-10-05",
     "first_seen": "2026-10-15T02:19:29.252913+00:00",
     "doi": "https://doi.org/10.46243/jst.2023.v8.i05.pp125-135",
-    "category": "感知建图与导航",
-    "classification_confidence": "待复核",
-    "classification_reason": "根据题名初步判断感知相关研究",
-    "needs_review": true,
+    "category": "特种应用与产品",
+    "classification_confidence": "人工核查",
+    "classification_reason": "摘要以全地形移动机器人集成金属检测与直播监控为核心交付物。",
+    "needs_review": false,
     "tags": [
-      "感知建图与导航",
       "特种应用与产品"
     ],
     "industry_tags": [
@@ -38650,7 +38827,19 @@
     "crosscheck_pending": false,
     "review_priority": "P2",
     "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "manual_category_override": true,
+    "manual_override_reason": "摘要以全地形移动机器人集成金属检测与直播监控为核心交付物。",
+    "model_applied": false,
+    "classification_history": [
+      {
+        "old_category": "感知建图与导航",
+        "new_category": "特种应用与产品",
+        "status": "manual_correction",
+        "reason": "摘要以全地形移动机器人集成金属检测与直播监控为核心交付物。",
+        "changed_at": "2026-10-20"
+      }
+    ]
   },
   {
     "id": "6cb2c8e2ccb9ee702f",
@@ -40493,12 +40682,12 @@
     "published": "2023-06-30",
     "first_seen": "2026-10-15T05:54:51.780163+00:00",
     "doi": "https://doi.org/10.3390/act12070270",
-    "category": "小脑与运动控制",
-    "classification_confidence": "待复核",
-    "classification_reason": "运动控制类别缺少题名中的控制任务证据",
-    "needs_review": true,
+    "category": "感知建图与导航",
+    "classification_confidence": "人工核查",
+    "classification_reason": "摘要明确提出基于风险指标优化图搜索的移动机器人全局路径规划算法。",
+    "needs_review": false,
     "tags": [
-      "小脑与运动控制"
+      "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -40512,7 +40701,19 @@
     "crosscheck_pending": false,
     "review_priority": "P2",
     "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "manual_category_override": true,
+    "manual_override_reason": "摘要明确提出基于风险指标优化图搜索的移动机器人全局路径规划算法。",
+    "model_applied": false,
+    "classification_history": [
+      {
+        "old_category": "小脑与运动控制",
+        "new_category": "感知建图与导航",
+        "status": "manual_correction",
+        "reason": "摘要明确提出基于风险指标优化图搜索的移动机器人全局路径规划算法。",
+        "changed_at": "2026-10-20"
+      }
+    ]
   },
   {
     "id": "7b27fd15f3cfcc44ef",
@@ -40967,12 +41168,12 @@
     "published": "2023-06-26",
     "first_seen": "2026-10-15T03:42:13.872481+00:00",
     "doi": "",
-    "category": "感知建图与导航",
-    "classification_confidence": "待复核",
-    "classification_reason": "导航/感知类别缺少题名中的明确研究任务",
-    "needs_review": true,
+    "category": "硬件与防爆",
+    "classification_confidence": "人工核查",
+    "classification_reason": "摘要主要提出可切换履带轮式模态的机器人变形结构与机构设计。",
+    "needs_review": false,
     "tags": [
-      "感知建图与导航"
+      "硬件与防爆"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -40986,7 +41187,19 @@
     "crosscheck_pending": false,
     "review_priority": "P2",
     "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "manual_category_override": true,
+    "manual_override_reason": "摘要主要提出可切换履带轮式模态的机器人变形结构与机构设计。",
+    "model_applied": false,
+    "classification_history": [
+      {
+        "old_category": "感知建图与导航",
+        "new_category": "硬件与防爆",
+        "status": "manual_correction",
+        "reason": "摘要主要提出可切换履带轮式模态的机器人变形结构与机构设计。",
+        "changed_at": "2026-10-20"
+      }
+    ]
   },
   {
     "id": "e0042ebecd6cf5aafa",
@@ -43416,8 +43629,9 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
     "model_reviewed_uncertain": true,
     "model_applied": false,
+    "model_classification_reason": "",
     "model_suggested_category": "小脑与运动控制",
-    "model_classification_reason": ""
+    "classification_history": []
   },
   {
     "id": "74410192a12fa3f411",
@@ -43908,12 +44122,12 @@
     "published": "2022-12-31",
     "first_seen": "2026-10-15T05:54:59.065044+00:00",
     "doi": "https://doi.org/10.37394/23202.2022.21.39",
-    "category": "感知建图与导航",
-    "classification_confidence": "待复核",
-    "classification_reason": "导航/感知类别缺少题名中的明确研究任务",
-    "needs_review": true,
+    "category": "小脑与运动控制",
+    "classification_confidence": "人工核查",
+    "classification_reason": "摘要提出三轮移动机器人动力学模型及运动轨迹跟踪控制优化，属于底层运动控制。",
+    "needs_review": false,
     "tags": [
-      "感知建图与导航"
+      "小脑与运动控制"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -43927,7 +44141,19 @@
     "crosscheck_pending": false,
     "review_priority": "P2",
     "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "manual_category_override": true,
+    "manual_override_reason": "摘要提出三轮移动机器人动力学模型及运动轨迹跟踪控制优化，属于底层运动控制。",
+    "model_applied": false,
+    "classification_history": [
+      {
+        "old_category": "感知建图与导航",
+        "new_category": "小脑与运动控制",
+        "status": "manual_correction",
+        "reason": "摘要提出三轮移动机器人动力学模型及运动轨迹跟踪控制优化，属于底层运动控制。",
+        "changed_at": "2026-10-20"
+      }
+    ]
   },
   {
     "id": "d74d23496010bcb1a7",
@@ -45389,12 +45615,12 @@
     "published": "2022-11-15",
     "first_seen": "2026-10-15T02:18:28.932050+00:00",
     "doi": "10.3390/s22228839",
-    "category": "特种应用与产品",
-    "classification_confidence": "待复核",
-    "classification_reason": "元数据不足，临时标记待复核（不视为应用领域确认）",
-    "needs_review": true,
+    "category": "硬件与防爆",
+    "classification_confidence": "人工核查",
+    "classification_reason": "研究矿山巡检机器人四杆悬架机构的几何综合与优化，主要贡献为机械设计。",
+    "needs_review": false,
     "tags": [
-      "特种应用与产品"
+      "硬件与防爆"
     ],
     "industry_tags": [
       "工业与能源巡检"
@@ -45410,7 +45636,19 @@
     "crosscheck_pending": false,
     "review_priority": "P2",
     "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "manual_category_override": true,
+    "manual_override_reason": "研究矿山巡检机器人四杆悬架机构的几何综合与优化，主要贡献为机械设计。",
+    "model_applied": false,
+    "classification_history": [
+      {
+        "old_category": "特种应用与产品",
+        "new_category": "硬件与防爆",
+        "status": "manual_correction",
+        "reason": "研究矿山巡检机器人四杆悬架机构的几何综合与优化，主要贡献为机械设计。",
+        "changed_at": "2026-10-20"
+      }
+    ]
   },
   {
     "id": "b516ea5e948e27e76a",
@@ -45682,9 +45920,9 @@
     "first_seen": "2026-10-15T02:18:28.932223+00:00",
     "doi": "https://doi.org/10.1186/s10033-022-00798-x",
     "category": "感知建图与导航",
-    "classification_confidence": "待复核",
-    "classification_reason": "导航/感知类别缺少题名中的明确研究任务",
-    "needs_review": true,
+    "classification_confidence": "人工核查",
+    "classification_reason": "摘要重点是动态人机环境下机器人社会力避障策略和导航速度规划。",
+    "needs_review": false,
     "tags": [
       "感知建图与导航"
     ],
@@ -45700,7 +45938,10 @@
     "crosscheck_pending": false,
     "review_priority": "P2",
     "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "manual_category_override": true,
+    "manual_override_reason": "摘要重点是动态人机环境下机器人社会力避障策略和导航速度规划。",
+    "model_applied": false
   },
   {
     "id": "9b2df03731f102d9a0",
@@ -45809,17 +46050,15 @@
     "score": 87,
     "summary": "行业筛选：特种场景直接相关；方向：基础软件与系统；关联：工业与能源巡检。来源期刊/会议：2022 IEEE Central America and Panama Student Conference (CONESCAPAN)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2",
-    "model_review_attempts": 1,
-    "manual_review_required": false,
-    "model_applied": false,
     "model_reviewed_uncertain": true,
-    "model_suggested_category": "硬件与防爆",
+    "model_review_attempts": 1,
+    "model_reviewed_at": "2026-10-20T09:54:07.966789+00:00",
+    "manual_review_required": false,
     "model_main_contribution": "仅题名给出移动机器人设计与仿真，无法确认具体硬件创新",
     "model_contribution_conflict": "",
+    "model_applied": false,
     "model_classification_reason": "仅题名可确认移动机器人设计与仿真，缺少具体硬件创新",
-    "model_reviewed_at": "2026-10-20T09:54:07.966789+00:00",
-    "model_previous_confidence": "待复核",
+    "model_suggested_category": "硬件与防爆",
     "classification_history": [
       {
         "id": "e32d119fb5db367579",
@@ -46047,12 +46286,12 @@
     "published": "2022-10-10",
     "first_seen": "2026-10-15T05:35:39.476869+00:00",
     "doi": "10.56884/wfts1248",
-    "category": "小脑与运动控制",
-    "classification_confidence": "待复核",
-    "classification_reason": "运动控制类别缺少题名中的控制任务证据",
-    "needs_review": true,
+    "category": "硬件与防爆",
+    "classification_confidence": "人工核查",
+    "classification_reason": "摘要提出仿生多趾足端及主动柔性脊柱四足机器人本体，主要创新是结构设计。",
+    "needs_review": false,
     "tags": [
-      "小脑与运动控制"
+      "硬件与防爆"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -46066,7 +46305,19 @@
     "crosscheck_pending": false,
     "review_priority": "P2",
     "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "manual_category_override": true,
+    "manual_override_reason": "摘要提出仿生多趾足端及主动柔性脊柱四足机器人本体，主要创新是结构设计。",
+    "model_applied": false,
+    "classification_history": [
+      {
+        "old_category": "小脑与运动控制",
+        "new_category": "硬件与防爆",
+        "status": "manual_correction",
+        "reason": "摘要提出仿生多趾足端及主动柔性脊柱四足机器人本体，主要创新是结构设计。",
+        "changed_at": "2026-10-20"
+      }
+    ]
   },
   {
     "id": "09e46d895839b7e73f",
@@ -47830,12 +48081,12 @@
     "published": "2022-06-29",
     "first_seen": "2026-10-15T05:35:21.011062+00:00",
     "doi": "https://doi.org/10.3389/frobt.2022.898366",
-    "category": "特种应用与产品",
-    "classification_confidence": "待复核",
-    "classification_reason": "元数据不足，临时标记待复核（不视为应用领域确认）",
-    "needs_review": true,
+    "category": "大脑与具身智能",
+    "classification_confidence": "人工核查",
+    "classification_reason": "摘要提出面向动态环境人机协作的行为获取、复用和实例化高层审议式框架。",
+    "needs_review": false,
     "tags": [
-      "特种应用与产品"
+      "大脑与具身智能"
     ],
     "industry_tags": [
       "防爆石化与危险环境"
@@ -47851,7 +48102,19 @@
     "crosscheck_pending": false,
     "review_priority": "P2",
     "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "manual_category_override": true,
+    "manual_override_reason": "摘要提出面向动态环境人机协作的行为获取、复用和实例化高层审议式框架。",
+    "model_applied": false,
+    "classification_history": [
+      {
+        "old_category": "特种应用与产品",
+        "new_category": "大脑与具身智能",
+        "status": "manual_correction",
+        "reason": "摘要提出面向动态环境人机协作的行为获取、复用和实例化高层审议式框架。",
+        "changed_at": "2026-10-20"
+      }
+    ]
   },
   {
     "id": "c83762027980149776",
@@ -48633,12 +48896,12 @@
     "published": "2022-06-15",
     "first_seen": "2026-10-15T03:42:12.102196+00:00",
     "doi": "https://doi.org/10.3390/app12126071",
-    "category": "感知建图与导航",
-    "classification_confidence": "待复核",
-    "classification_reason": "导航/感知类别缺少题名中的明确研究任务",
-    "needs_review": true,
+    "category": "基础软件与系统",
+    "classification_confidence": "人工核查",
+    "classification_reason": "提出用于机器人远程操控的VR人机交互软件界面和辅助遥操作框架。",
+    "needs_review": false,
     "tags": [
-      "感知建图与导航"
+      "基础软件与系统"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -48652,7 +48915,19 @@
     "crosscheck_pending": false,
     "review_priority": "P2",
     "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "manual_category_override": true,
+    "manual_override_reason": "提出用于机器人远程操控的VR人机交互软件界面和辅助遥操作框架。",
+    "model_applied": false,
+    "classification_history": [
+      {
+        "old_category": "感知建图与导航",
+        "new_category": "基础软件与系统",
+        "status": "manual_correction",
+        "reason": "提出用于机器人远程操控的VR人机交互软件界面和辅助遥操作框架。",
+        "changed_at": "2026-10-20"
+      }
+    ]
   },
   {
     "id": "8a537f4069a286f9be",
@@ -49427,17 +49702,15 @@
     "score": 68,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Autonomous Intelligent Systems。 Abstract Machine learning and in particular deep learning techniques have demonstrated the most（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2",
-    "model_review_attempts": 1,
-    "manual_review_required": false,
-    "model_applied": false,
     "model_reviewed_uncertain": true,
-    "model_suggested_category": "感知建图与导航",
+    "model_review_attempts": 1,
+    "model_reviewed_at": "2026-10-20T09:54:07.966789+00:00",
+    "manual_review_required": false,
     "model_main_contribution": "综述机器学习用于机器人自主巡检的规划、导航与感知",
     "model_contribution_conflict": "",
+    "model_applied": false,
     "model_classification_reason": "仅见跨导航视觉操作综述，未明确单一新技术成果",
-    "model_reviewed_at": "2026-10-20T09:54:07.966789+00:00",
-    "model_previous_confidence": "待复核",
+    "model_suggested_category": "感知建图与导航",
     "classification_history": [
       {
         "id": "a24512edd8f5b7f916",
@@ -49960,17 +50233,15 @@
     "score": 90,
     "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援、野外与特种地形。来源期刊/会议：Field Robotics。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2",
-    "model_review_attempts": 1,
-    "manual_review_required": false,
-    "model_applied": false,
     "model_reviewed_uncertain": true,
-    "model_suggested_category": "特种应用与产品",
+    "model_review_attempts": 1,
+    "model_reviewed_at": "2026-10-20T09:54:07.966789+00:00",
+    "manual_review_required": false,
     "model_main_contribution": "题名仅显示空地机器人消防系统，缺少协调或导航算法贡献",
     "model_contribution_conflict": "",
+    "model_applied": false,
     "model_classification_reason": "题名仅显示空地机器人消防系统，缺少协调或导航算法贡献",
-    "model_reviewed_at": "2026-10-20T09:54:07.966789+00:00",
-    "model_previous_confidence": "待复核",
+    "model_suggested_category": "特种应用与产品",
     "classification_history": [
       {
         "id": "702c6e63460652ecdb",
@@ -50025,18 +50296,18 @@
     "published": "2022-03-01",
     "first_seen": "2026-10-15T03:42:20.271006+00:00",
     "doi": "10.5194/ms-13-137-2022",
-    "category": "基础软件与系统",
+    "category": "硬件与防爆",
     "tags": [
-      "基础软件与系统"
+      "硬件与防爆"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 64,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Mechanical Sciences。 In this paper, a leg structure of quadruped robot was designed, based on mechanism synthesis, and aims to （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "classification_confidence": "待复核",
-    "classification_reason": "研究机器人软件、仿真或平台系统",
-    "needs_review": true,
+    "classification_confidence": "人工核查",
+    "classification_reason": "提出仅靠单电机驱动的四足连杆腿机构，完成运动学、仿真和样机验证。",
+    "needs_review": false,
     "relevance_status": "可迁移的机器人关键技术",
     "rule_category": "基础软件与系统",
     "rule_confidence": "low",
@@ -50044,7 +50315,19 @@
     "crosscheck_pending": false,
     "review_priority": "P2",
     "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "manual_category_override": true,
+    "manual_override_reason": "提出仅靠单电机驱动的四足连杆腿机构，完成运动学、仿真和样机验证。",
+    "model_applied": false,
+    "classification_history": [
+      {
+        "old_category": "基础软件与系统",
+        "new_category": "硬件与防爆",
+        "status": "manual_correction",
+        "reason": "提出仅靠单电机驱动的四足连杆腿机构，完成运动学、仿真和样机验证。",
+        "changed_at": "2026-10-20"
+      }
+    ]
   },
   {
     "id": "3a60457f7124e86ff0",
@@ -51817,9 +52100,9 @@
     "first_seen": "2026-10-16T05:51:09.744613+00:00",
     "doi": "https://doi.org/10.1109/jsen.2021.3139635",
     "category": "感知建图与导航",
-    "classification_confidence": "待复核",
-    "classification_reason": "导航/感知类别缺少题名中的明确研究任务",
-    "needs_review": true,
+    "classification_confidence": "人工核查",
+    "classification_reason": "摘要提出事件相机噪声分类及自适应事件地址图去噪算法，为机器人视觉感知提供前处理。",
+    "needs_review": false,
     "tags": [
       "感知建图与导航"
     ],
@@ -51835,7 +52118,10 @@
     "crosscheck_pending": false,
     "review_priority": "P2",
     "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "manual_category_override": true,
+    "manual_override_reason": "摘要提出事件相机噪声分类及自适应事件地址图去噪算法，为机器人视觉感知提供前处理。",
+    "model_applied": false
   },
   {
     "id": "7f76e8ac195989f4b3",
@@ -54440,12 +54726,12 @@
     "published": "2021-11-06",
     "first_seen": "2026-10-16T01:26:17.460710+00:00",
     "doi": "https://doi.org/10.17559/tv-20200804125931",
-    "category": "小脑与运动控制",
-    "classification_confidence": "待复核",
-    "classification_reason": "运动控制类别缺少题名中的控制任务证据",
-    "needs_review": true,
+    "category": "硬件与防爆",
+    "classification_confidence": "人工核查",
+    "classification_reason": "提出全转动副闭环可变形移动机器人机构，研究其自由度与多滚动模式。",
+    "needs_review": false,
     "tags": [
-      "小脑与运动控制"
+      "硬件与防爆"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -54459,7 +54745,19 @@
     "crosscheck_pending": false,
     "review_priority": "P2",
     "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "manual_category_override": true,
+    "manual_override_reason": "提出全转动副闭环可变形移动机器人机构，研究其自由度与多滚动模式。",
+    "model_applied": false,
+    "classification_history": [
+      {
+        "old_category": "小脑与运动控制",
+        "new_category": "硬件与防爆",
+        "status": "manual_correction",
+        "reason": "提出全转动副闭环可变形移动机器人机构，研究其自由度与多滚动模式。",
+        "changed_at": "2026-10-20"
+      }
+    ]
   },
   {
     "id": "cd4d57a1867042d66e",
@@ -54827,9 +55125,9 @@
     "first_seen": "2026-10-18T05:53:45.164170+00:00",
     "doi": "10.1088/1742-6596/2087/1/012049",
     "category": "特种应用与产品",
-    "classification_confidence": "待复核",
-    "classification_reason": "特种机器人应用系统，贡献边界待复核",
-    "needs_review": true,
+    "classification_confidence": "人工核查",
+    "classification_reason": "摘要提出变电站巡检机器人搭载无人机的地空联合巡检系统及其起降控制。",
+    "needs_review": false,
     "tags": [
       "特种应用与产品"
     ],
@@ -54847,7 +55145,10 @@
     "crosscheck_pending": false,
     "review_priority": "P2",
     "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "manual_category_override": true,
+    "manual_override_reason": "摘要提出变电站巡检机器人搭载无人机的地空联合巡检系统及其起降控制。",
+    "model_applied": false
   },
   {
     "id": "280634b0526641c41a",

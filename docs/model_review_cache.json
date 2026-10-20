@@ -1378,5 +1378,33 @@
     "model_confidence": "HIGH",
     "source": "OpenRouter free router (metadata only)",
     "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "13a5c5f332034698ebe61008e4d654ed29386a676cfcafb926be8a365f1062a8": {
+    "primary_category": "特种应用与产品",
+    "secondary_categories": [],
+    "reason": "仅题名可确认FireX消防机器人应用，系统设计与算法细节均缺失",
+    "needs_review": true,
+    "main_contribution": "FireX高风险场景消防机器人",
+    "model_confidence": "LOW",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "bbb6ec3c099cdf7c19d3a1a50267e6050c3a9ab22f08bcbda68588f9724d9b6c": {
+    "primary_category": "特种应用与产品",
+    "secondary_categories": [],
+    "reason": "交付集成实时监测与灭火功能的人形消防机器人系统",
+    "needs_review": false,
+    "main_contribution": "实时监测与灭火一体化人形消防机器人",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "dadd05a3055a69f77d397c3afcf5bc93ccdea4805e3703bc03fb4dd4978f704c": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "实现AprilTag步速跟随与恒距运动控制，用于评估人机交互反应",
+    "needs_review": true,
+    "main_contribution": "基于AprilTag的自适应步速跟随与恒距控制程序",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
   }
 }

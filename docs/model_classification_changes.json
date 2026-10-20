@@ -1590,5 +1590,38 @@
     "changed_at": "2026-10-20T09:54:07.966789+00:00",
     "needs_review": true,
     "status": "model_pending_review"
+  },
+  {
+    "id": "7127eca2367dec5386",
+    "title": "Investigating Human-Robot Interactions with a Quadruped Robot",
+    "old_category": "小脑与运动控制",
+    "new_category": "小脑与运动控制",
+    "model_suggested_category": "小脑与运动控制",
+    "reason": "实现AprilTag步速跟随与恒距运动控制，用于评估人机交互反应",
+    "changed_at": "2026-10-20T10:32:19.837821+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "e9fb5d3a10a0bba853",
+    "title": "AI-Powered Firefighting Robot to Manage High-Risk Situations While Improving Standard Fire Response Time -Robot FireX",
+    "old_category": "特种应用与产品",
+    "new_category": "特种应用与产品",
+    "model_suggested_category": "特种应用与产品",
+    "reason": "仅题名可确认FireX消防机器人应用，系统设计与算法细节均缺失",
+    "changed_at": "2026-10-20T10:32:19.837821+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "d148ecb49975410756",
+    "title": "Design and Implementation of a Humanoid Firefighter Robot with Real-Time Monitoring and Firefighting Applications",
+    "old_category": "特种应用与产品",
+    "new_category": "特种应用与产品",
+    "model_suggested_category": "特种应用与产品",
+    "reason": "交付集成实时监测与灭火功能的人形消防机器人系统",
+    "changed_at": "2026-10-20T10:32:19.837821+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
   }
 ]

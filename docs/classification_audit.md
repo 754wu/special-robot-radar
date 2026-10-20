@@ -2,22 +2,22 @@
 
 本表对每条已入库资源扫描标题、摘要及现有分类；疑点不等于确证错分。
 
-总资源：1636；出现一项或以上疑点：291。
+总资源：1636；出现一项或以上疑点：265。
 
 ## 分类数量
 
-- 感知建图与导航: 702
-- 小脑与运动控制: 577
-- 特种应用与产品: 133
-- 硬件与防爆: 95
-- 基础软件与系统: 86
-- 大脑与具身智能: 43
+- 感知建图与导航: 698
+- 小脑与运动控制: 575
+- 特种应用与产品: 134
+- 硬件与防爆: 102
+- 基础软件与系统: 87
+- 大脑与具身智能: 40
 
 ## 疑点分布
 
 - THIN_ABSTRACT: 170
-- EXISTING_REVIEW: 125
-- HW_NO_EVIDENCE: 13
+- EXISTING_REVIEW: 97
+- HW_NO_EVIDENCE: 15
 - NAV_AGENT_REVIEW: 2
 - SOFT_ALGORITHM: 1
 
@@ -36,20 +36,20 @@
 - Adaptive fuzzy-learning control with multi-objective optimization for robust mobile robot navigation | 当前：感知建图与导航 | 建议：待复核 | https://doi.org/10.1016/j.array.2026.101053
 - MAXIMAL X-PROJECTION OF CHUA ATTRACTORS: THEORY AND MOBILE ROBOT NAVIGATION APPLICATIONS | 当前：感知建图与导航 | 建议：待复核 | https://doi.org/10.1007/s10958-026-08613-x
 - Constrained-Axis Visual-Inertial Odometry for Mobile Robot Displacement Logging Using Commodity Mobile Devices | 当前：感知建图与导航 | 建议：待复核 | https://doi.org/10.21203/rs.3.rs-10175959/v1
-### EXISTING_REVIEW（125 条）
-- Arman10121995/Celisca-ROS-2-Robot | 当前：基础软件与系统 | 建议：待复核 | https://github.com/Arman10121995/Celisca-ROS-2-Robot
-- hu-zlatan/embodied-ai-radar | 当前：大脑与具身智能 | 建议：待复核 | https://github.com/hu-zlatan/embodied-ai-radar
-- CondenseVLA: Learnable History Condensation for Efficient Multi-Frame VLA | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2610.25927
+### EXISTING_REVIEW（97 条）
 - Time-JEPA: Grounding Video World Models with Physical Time Series | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2610.23982
-- LIME: Learning Intent-aware Camera Motion from Egocentric Video | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2607.02417
 - Active Generative Simulation: Meta-Learning What to Simulate for Sim-and-Real Policy Co-Training | 当前：基础软件与系统 | 建议：待复核 | https://arxiv.org/abs/2610.19479
-- Learning Self-Orchestration in Decentralized Agent Swarms | 当前：大脑与具身智能 | 建议：待复核 | https://doi.org/10.48550/arxiv.2610.22322
-- Value-Preserving Action Quantization | 当前：小脑与运动控制 | 建议：待复核 | https://arxiv.org/abs/2610.17252
-- Noise Space Learning for VLA Adaptation | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2610.13943
 - Autonomous Robotic Systems in Agriculture 5.0: A Review on Technical Architecture, Operational Applications, and Future Perspectives | 当前：特种应用与产品 | 建议：待复核 | https://doi.org/10.15832/ankutbd.1957708
 - Guidance on robot coordination in narrow bidirectional corridors with yielding bays | 当前：感知建图与导航 | 建议：待复核 | https://discourse.openrobotics.org/t/guidance-on-robot-coordination-in-narrow-bidirectional-corridors-with-yielding-bays/58684
 - Air–ground teaming with a humanoid robot: ROS 2 patterns for a shared event record? | 当前：基础软件与系统 | 建议：待复核 | https://discourse.openrobotics.org/t/air-ground-teaming-with-a-humanoid-robot-ros-2-patterns-for-a-shared-event-record/58681
-### HW_NO_EVIDENCE（13 条）
+- AI-Powered Robotics for Reliable, Stable, and Robust Operation and Maintenance of Power Systems: Architecture, Unified Modeling, and Quantitative Evaluation | 当前：基础软件与系统 | 建议：待复核 | https://doi.org/10.21203/rs.3.rs-11188533/v1
+- MineSSM: Frequency-Decoupled State-Space Modeling for Real-Time Low-Light Enhancement in Dusty Underground Mines | 当前：感知建图与导航 | 建议：待复核 | https://doi.org/10.3390/app16188944
+- Immersive Teleoperation of Adaptive Mobile Robots: Evaluating Human Factors and Network Resilience in Mixed Reality | 当前：基础软件与系统 | 建议：待复核 | https://doi.org/10.3390/robotics15080149
+- Robots in mine search and rescue operations: a review of platforms and design requirements | 当前：特种应用与产品 | 建议：待复核 | https://doi.org/10.3389/frobt.2026.1857704
+- Autonomous robotic pipeline inspection technologies | 当前：感知建图与导航 | 建议：待复核 | https://doi.org/10.1051/e3sconf/202672907004
+- AI based intuitionistic dense fuzzy entropy decision- making system and its application in firefighting robot selection | 当前：特种应用与产品 | 建议：待复核 | https://doi.org/10.1016/j.asej.2026.104189
+- DeCoNav: Dialog enhanced Long-Horizon Collaborative Vision-Language Navigation | 当前：大脑与具身智能 | 建议：待复核 | https://doi.org/10.48550/arxiv.2604.12486
+### HW_NO_EVIDENCE（15 条）
 - A Soft Worm Robot for Sub-Centimeter Scale Pipeline Inspection | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.1109/lra.2026.3699247
 - CAD-based Optimization of the Medium-sized Unmanned Ground Vehicle | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.18372/1990-5548.88.20978
 - Research progress in thermal protection materials and technologies for firefighting robots | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.11868/j.issn.1001-4381.2025.000330
@@ -61,7 +61,7 @@
 - Small Modular Magnetic-Wheel-Type Wall- Climbing Inspection Robot | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.1109/aeeca65693.2025.00071
 - Resonant Inductive Coupling Power Transfer for Mid-Sized Inspection Robot | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.32388/j9up4u
 - Research on the overturning phenomenon of firefighting and rescue crawler robots when climbing up and down stairs | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.1007/s41315-024-00394-3
-- Design and Simulation of a Mobile Robot for Pipeline Inspection | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.1109/conescapan56456.2022.9959592
+- Design and Implementation of Transformable Tracked Robots | 当前：硬件与防爆 | 建议：待复核 | https://iroboticsjournal.org/index.php/irobotics/article/view/150
 ### NAV_AGENT_REVIEW（2 条）
 - Verifier-Mediated Multi-LLM Coordination for Multi-Robot Path Planning | 当前：感知建图与导航 | 建议：大脑与具身智能（待复核） | https://arxiv.org/abs/2610.12761
 - Self-Organizing Memory Based on Adaptive Resonance Theory for Vision and Language Navigation | 当前：感知建图与导航 | 建议：大脑与具身智能（待复核） | https://doi.org/10.3390/math11194192
