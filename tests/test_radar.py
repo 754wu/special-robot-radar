@@ -889,6 +889,28 @@ class RadarTests(unittest.TestCase):
                                           "needs_review":True,"tags":[]},item)
                 self.assertEqual(restored["category"],category)
 
+    def test_nonrobot_mining_and_notice_exclusions(self):
+        from taxonomy import is_non_technical,explicit_robot_relevance
+        excluded=[
+            ("ROS-I Americas ROS 2 Training","ROS training at institute","ROS Discourse"),
+            ("New packages for Humble Hawksbill 2026-10-12","ROS package sync announcement","ROS Discourse"),
+            ("Inhibition Mechanisms of Lithium-Ion Battery Deflagration by the Free Space and Aerogel Wall Surface Inside an Explosion-Proof Power Enclosure","Explosion safety in underground coal mines","OpenAlex"),
+            ("The Integration of Passive and Active Methods in a Hybrid BMS for a Suspended Mining Vehicle","Lithium battery safety for mining machinery","OpenAlex"),
+            ("Analysis of High Voltage Explosion-proof Motor Design","Generic electrical equipment in mines","Crossref"),
+            ("Development and Experimental Verification of a 1m³ Explosion-Proof Electro-Hydraulic Sand Mixing Skid for Coal Mine Underground Hydraulic Fracturing","Sand mixing apparatus","Crossref"),
+        ]
+        for title,description,source in excluded:
+            with self.subTest(title=title):
+                self.assertTrue(is_non_technical({"title":title,"description":description,"source":source})[0])
+        included=[
+            ("Explosion-proof motor design for a quadruped robot","Motor integrates with robot joints"),
+            ("Explosion-proof lithium-ion battery pack for inspection robots","Robot power design for hazardous area"),
+            ("Design of ANYmal X explosion-proof legged robot","Safety in mining operations"),
+        ]
+        for title,description in included:
+            with self.subTest(title=title):
+                self.assertTrue(explicit_robot_relevance({"title":title,"description":description})[0])
+
     def test_filter_config_reject_score(self):
         item = make_item('Wheel-legged quadruped locomotion', 'https://example.org/w',
                          'arXiv API', '论文（摘要）', 'robot locomotion and motion control')

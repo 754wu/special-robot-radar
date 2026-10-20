@@ -173,6 +173,58 @@ def has(text: str, pattern: str) -> bool:
     return re.search(pattern, text, re.I) is not None
 
 
+
+# Scope gate: a special environment alone is not evidence of robot research.
+GENERIC_INDUSTRIAL_DEVICE = re.compile(
+    r"\\b(?:explosion[- ]?proof|flameproof|intrinsically.safe|lithium[- ]?ion|"
+    r"power.battery|battery.pack|battery.management|\\bBMS\\b|"
+    r"electric.motor|synchronous.motor|motor.cooling|motor.protection|"
+    r"mining.vehicle|mining.equipment|coal.mine|mine.ventilation|"
+    r"underground.transport|switch(?:ed)?.reluctance.motor|"
+    r"pressure.relief.valve|electro.hydraulic.sand.mixing)\\b|"
+    r"防爆|隔爆|锂电池|矿用电机|矿用车辆|矿用设备|煤矿",
+    re.I,
+)
+ROBOT_TITLE_LINK = re.compile(
+    r"\\b(?:robot(?:ic)?s?|quadruped|legged|humanoid|"
+    r"unmanned.ground.vehicle|\\bUGV\\b|autonomous.mobile.robot)\\b|"
+    r"机器人|四足|轮足|无人地面车",
+    re.I,
+)
+ROBOT_COMPONENT_LINK = re.compile(
+    r"\\b(?:robot(?:ic)?s?|quadruped|legged|humanoid)\\W{0,25}"
+    r"(?:motor|battery|actuator|power.supply|drive|electrical|component|safety)\\b|"
+    r"\\b(?:motor|battery|actuator|power.supply|drive|component)\\W{0,25}"
+    r"(?:for|of|in|on|used.by)\\W{0,12}"
+    r"(?:robot(?:ic)?s?|quadruped|legged|humanoid)\\b|"
+    r"机器人.{0,14}(?:电机|电池|防爆|驱动|执行器|电源)|"
+    r"(?:电机|电池|防爆|驱动|执行器|电源).{0,14}机器人",
+    re.I,
+)
+NONTECHNICAL_HEADLINE = re.compile(
+    r"\\b(?:ros[- ]?i.{0,30}training|developers?.training|"
+    r"robotics?.training|training.course|workshop.registration|"
+    r"training.announcement|new.packages.for|release.news|"
+    r"industry.news|industry.outlook|market.trends|market.forecast|"
+    r"investment.outlook|conference.keynote|keynote.speaker)\\b|"
+    r"培训通知|行业新闻|产业资讯|产业动态|市场趋势|会议主旨演讲",
+    re.I,
+)
+
+
+def explicit_robot_relevance(item: dict) -> tuple[bool, str]:
+    \"\"\"Reject generic mine/electrical research lacking a robot-specific contribution.\"\"\"
+    title = str(item.get("title") or "")
+    description = str(item.get("description") or "")
+    if NONTECHNICAL_HEADLINE.search(title):
+        return False, "培训公告或非研究类行业动态"
+    if not GENERIC_INDUSTRIAL_DEVICE.search(title):
+        return True, ""
+    if ROBOT_TITLE_LINK.search(title) or ROBOT_COMPONENT_LINK.search(description):
+        return True, ""
+    return False, "普通防爆电机、电池或矿用设备研究未说明明确机器人技术关联"
+
+
 def is_non_technical(item: dict) -> tuple[bool, str]:
     """Remove jobs/events using their headline and source context.
 
@@ -183,6 +235,9 @@ def is_non_technical(item: dict) -> tuple[bool, str]:
     source = str(item.get("source") or "")
     kind = str(item.get("type") or "")
     nonpaper = kind == "社区动态" or source in ("ROS Discourse",)
+    scope_ok, scope_reason = explicit_robot_relevance(item)
+    if not scope_ok:
+        return True, scope_reason
     if JOBS.search(title):
         return True, "招聘或实习岗位通知"
     if nonpaper and (EVENTS.search(title) or SOCIAL.search(title)):
