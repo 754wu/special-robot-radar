@@ -716,6 +716,15 @@ MANUAL_CORRECTIONS = {
 
 # Individually reviewed metadata cases (not full-text peer review).
 MANUAL_REVIEWED_CASES = {
+    "simultaneous localization and mapping methods for snake-like robots based on gait adjustment": ("感知建图与导航", "标题和摘要以蛇形机器人同步定位建图为研究目标，步态调整属于配套技术。"),
+    "can an embodied agent find your “cat-shaped mug”? llm-based zero-shot object navigation": ("感知建图与导航", "摘要明确提出语言引导探索的零样本目标导航算法，主要成果是目标搜索与导航。"),
+    "benchmark analysis of sampling methods for rrt path planning": ("感知建图与导航", "研究RRT路径规划采样方法的性能比较，而非交付可复用的Benchmark软件平台。"),
+    "magnetic field analytical calculation of no-load electromagnetic performance of line-start explosion-proof permanent magnet synchronous motors considering saturation effect": ("硬件与防爆", "摘要研究防爆永磁同步电机磁桥饱和条件下的电磁性能解析模型，属于电机硬件技术。"),
+    "parallel current-sharing design of mine explosion-proof lithium-ion battery power supply": ("硬件与防爆", "摘要研究矿用防爆电源并联均流电路与设计，属于防爆电气硬件而非机器人整机应用。"),
+    "socially acceptable bipedal robot navigation via social zonotope network model predictive control": ("感知建图与导航", "论文研究人群环境下双足机器人社会规范导航，MPC是实现安全导航的规划方法。"),
+    "an improved artemisinin algorithm for task allocation in heterogeneous robot systems for chemical inspection": ("基础软件与系统", "摘要以异构机器人化工巡检任务分配算法为主要贡献，非整机产品；按现有体系归任务调度软件方法。"),
+    "research on inspection task allocation method of inspection robot based on improved genetic algorithm": ("基础软件与系统", "题目明确研究机器人任务分配的遗传算法优化，属于任务调度方法，不是整机产品。"),
+    "research on path optimization method for warehouse inspection robot": ("感知建图与导航", "题目明确研究仓库巡检机器人的路径优化方法，主要技术成果是空间路径规划。"),
     "dr-vla: learning human-like quadruped navigation from egocentric web videos via domain-invariant scene representations": ("感知建图与导航", "摘要明确以四足机器人导航为核心，利用跨具身视觉表示学习导航策略，并非高层任务技能编排。"),
     "structure over reasoning: unified zero-shot navigation with a small vision-language model": ("感知建图与导航", "研究零样本视觉语言导航中的空间语义表示与路径规划，小型VLM仅为技术组件。"),
     "fact: a multimodal force-action-track foundation model for human-to-robot dexterity": ("小脑与运动控制", "动作及未来交互力联合预测与精细灵巧操作策略是主要技术成果，而非高层任务推理。"),

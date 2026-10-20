@@ -782,6 +782,30 @@ class RadarTests(unittest.TestCase):
         self.assertTrue(p3["manual_review_required"])
         self.assertFalse(p3["model_applied"])
 
+    def test_manual_metadata_review_batch_applied_and_protected(self):
+        from main import apply_manual_correction,preserve_model_classification
+        cases=[
+            ("Simultaneous Localization and Mapping Methods for Snake-like Robots Based on Gait Adjustment","感知建图与导航"),
+            ("Can an Embodied Agent Find Your “Cat-shaped Mug”? LLM-Based Zero-Shot Object Navigation","感知建图与导航"),
+            ("Benchmark Analysis of Sampling Methods for RRT Path Planning","感知建图与导航"),
+            ("Magnetic Field Analytical Calculation of No-Load Electromagnetic Performance of Line-Start Explosion-Proof Permanent Magnet Synchronous Motors Considering Saturation Effect","硬件与防爆"),
+            ("Parallel Current-sharing Design of Mine Explosion-proof Lithium-ion Battery Power Supply","硬件与防爆"),
+            ("Socially Acceptable Bipedal Robot Navigation via Social Zonotope Network Model Predictive Control","感知建图与导航"),
+            ("An improved artemisinin algorithm for task allocation in heterogeneous robot systems for chemical inspection","基础软件与系统"),
+            ("Research on inspection task allocation method of inspection robot based on improved genetic algorithm","基础软件与系统"),
+            ("Research on Path Optimization Method for Warehouse Inspection Robot","感知建图与导航")
+        ]
+        for title,expected in cases:
+            with self.subTest(title=title):
+                item=apply_manual_correction({"title":title,"category":"特种应用与产品",
+                                              "needs_review":True,"tags":["特种应用与产品"]})
+                self.assertEqual(item["category"],expected)
+                self.assertTrue(item["manual_category_override"])
+                self.assertFalse(item["needs_review"])
+                updated=preserve_model_classification({"title":title,"category":"特种应用与产品",
+                                  "tags":["特种应用与产品"],"needs_review":True},item)
+                self.assertEqual(updated["category"],expected)
+
     def test_filter_config_reject_score(self):
         item = make_item('Wheel-legged quadruped locomotion', 'https://example.org/w',
                          'arXiv API', '论文（摘要）', 'robot locomotion and motion control')
