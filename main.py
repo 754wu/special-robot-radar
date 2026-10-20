@@ -843,6 +843,15 @@ def preserve_model_classification(item, previous):
         item["model_suggested_category"]=previous.get("model_suggested_category",previous.get("category"))
         item["needs_review"]=True
         proposed=previous.get("model_suggested_category")
+        # Recover legacy pending model decisions, never from refreshed rule labels.
+        if proposed not in KEYWORDS:
+            for event in reversed(previous.get("classification_history") or []):
+                if (isinstance(event, dict) and event.get("status")=="model_pending_review"
+                        and event.get("new_category") in KEYWORDS):
+                    proposed=event["new_category"]
+                    break
+        if proposed not in KEYWORDS and previous.get("model_classification_reason"):
+            proposed=previous.get("category")
         if proposed in KEYWORDS:
             item["category"]=proposed
             item["rule_category"]=previous.get("rule_category") or item.get("rule_category")
