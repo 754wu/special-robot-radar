@@ -313,10 +313,27 @@ def main():
             disagreed.append((x,result))
         event=apply_model_result(x,result,reviewed_at)
         if event: changes.append(event)
+    if changes:
+        DB.write_text(json.dumps(items,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+        from main import render_html, render_digest
+        config=json.loads((ROOT/"config.json").read_text(encoding="utf-8"))
+        (ROOT/"docs/index.html").write_text(render_html(items,[],config),encoding="utf-8")
+        (ROOT/"docs/weekly.md").write_text(render_digest(items,set(),[]),encoding="utf-8")
+    history_path=ROOT/"docs/model_classification_changes.json"
+    try:
+        history=json.loads(history_path.read_text(encoding="utf-8")) if history_path.exists() else []
+    except (OSError,ValueError):
+        history=[]
+    if changes:
+        history.extend(changes)
+        history_path.write_text(json.dumps(history,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     lines=["# 免费大模型辅助分类审核","","此结果仅供复核，不会自动覆盖规则主分类。","",
            f"- 规则分类资源：{len(items)}",
            f"- 具有当前分类版本模型建议：{reviewed_records}",
            f"- 本次新增建议：{reviewed}",
+           f"- 当日新增待复核候选：{fresh_count}",
+           f"- 历史待复核候选：{historical_count}",
+           f"- 本次自动修改主分类：{len(changes)}",
            f"- 本次API调用次数：{attempts}",
            f"- 本次理论最大审核数：{attempts*3}",
            f"- 本次有效输出率：{(reviewed/(attempts*3)*100 if attempts else 0):.1f}%",
@@ -326,6 +343,9 @@ def main():
     lines += [f"- {k}: {v}" for k,v in sorted(failures.items())]
     lines += ["","## 安全诊断（不含模型原文）",""]
     lines += [f"- {json.dumps(d,ensure_ascii=False)}" for d in diagnostics]
+    lines += ["","## 本次分类修改",""]
+    for e in changes:
+        lines.append("- "+str(e["title"])+": "+e["old_category"]+" -> "+e["new_category"])
     lines += ["","## 分类冲突（前80条）",""]
     for x,v in disagreed[:80]:
         lines.append(f"- {x.get('title','')} | 规则：{x.get('category')} | 模型：{v['primary_category']} | 理由：{v['reason']} | {x.get('url','')}")
