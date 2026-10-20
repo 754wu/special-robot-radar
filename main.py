@@ -774,6 +774,8 @@ def preserve_model_classification(item, previous):
         return item
     if previous.get("model_reviewed_uncertain") or (previous.get("model_applied") and previous.get("needs_review")):
         item["model_reviewed_uncertain"]=True
+        for k in ("model_review_attempts","model_reviewed_at","manual_review_required","model_main_contribution","model_contribution_conflict"):
+            if k in previous:item[k]=previous[k]
         item["model_applied"]=False
         item["model_suggested_category"]=previous.get("model_suggested_category",previous.get("category"))
         item["needs_review"]=True

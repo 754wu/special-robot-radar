@@ -158,26 +158,61 @@ def safe_diagnostic(raw,choice,response):
             "served_model":str(getattr(response,"model","unknown"))[:100]}
 
 def prioritize_reviews(items, cache, now):
-    fresh, historical = [], []
+    """P0 new uncertain, P1 rule conflicts, P2 old first reviews, P3 delayed
+    second attempts, P4 infrequent confidence sampling. No reserved quota.
+    """
+    lanes=[[],[],[],[],[]]
     for item in items:
-        if (not item.get("needs_review") or item.get("model_applied") or
-                item.get("model_reviewed_uncertain") or item.get("manual_category_override") or
-                key_for(item) in cache):
+        if item.get("manual_category_override") or item.get("model_applied") or item.get("manual_review_required"):
+            continue
+        key=key_for(item)
+        attempts=int(item.get("model_review_attempts") or (1 if item.get("model_reviewed_uncertain") else 0))
+        if attempts>=2:
+            if item.get("model_reviewed_uncertain"):
+                item["manual_review_required"]=True
             continue
         try:
-            seen = datetime.fromisoformat(str(item.get("first_seen","")).replace("Z","+00:00"))
-            today = seen.date() == now.date()
-        except ValueError:
-            today = False
-        (fresh if today else historical).append(item)
-    fresh.sort(key=lambda x:str(x.get("first_seen","")), reverse=True)
-    historical.sort(key=lambda x:str(x.get("first_seen","")))
-    return fresh+historical, len(fresh), len(historical)
+            seen=datetime.fromisoformat(str(item.get("first_seen","")).replace("Z","+00:00"))
+            is_new=seen.date()==now.date()
+        except (ValueError,TypeError):
+            is_new=False
+        if attempts:
+            if not item.get("model_reviewed_uncertain"):
+                continue
+            try:
+                last=datetime.fromisoformat(str(item.get("model_reviewed_at","")).replace("Z","+00:00"))
+                if last.tzinfo is None:last=last.replace(tzinfo=timezone.utc)
+                if (now-last).total_seconds()<4*86400:
+                    continue
+            except (ValueError,TypeError):
+                continue  # Missing timestamp: don't risk immediate repeat requests.
+            lanes[3].append(item)
+        elif item.get("needs_review"):
+            if key in cache:
+                continue
+            if is_new:lanes[0].append(item)
+            elif item.get("crosscheck_pending") or item.get("crosscheck_conflicts"):
+                lanes[1].append(item)
+            else:lanes[2].append(item)
+        elif item.get("rule_confidence")=="high" and not item.get("model_reviewed_uncertain") and key not in cache:
+            # Deterministic low-frequency sample; stable per record and UTC day.
+            seed=str(item.get("id") or item.get("title") or "")
+            slot=int(hashlib.sha256(seed.encode()).hexdigest()[:8],16)%90
+            if slot==now.toordinal()%90:
+                lanes[4].append(item)
+    lanes[0].sort(key=lambda x:str(x.get("first_seen","")),reverse=True)
+    lanes[1].sort(key=lambda x:str(x.get("first_seen","")))
+    lanes[2].sort(key=lambda x:str(x.get("first_seen","")))
+    lanes[3].sort(key=lambda x:str(x.get("model_reviewed_at","")))
+    lanes[4].sort(key=lambda x:str(x.get("title","")))
+    for priority,lane in enumerate(lanes):
+        for item in lane:item["review_priority"]="P"+str(priority)
+    return sum(lanes,[]),len(lanes[0]),len(lanes[1])+len(lanes[2])
 
 
 def apply_model_result(item, result, at):
     """Uncertain model output is advisory; retain rule category and review flag."""
-    if not item.get("needs_review") or item.get("model_applied"):
+    if (not item.get("needs_review") and item.get("review_priority")!="P4") or item.get("model_applied") or item.get("manual_category_override"):
         return None
     if not isinstance(result,dict):
         return None
@@ -203,6 +238,8 @@ def apply_model_result(item, result, at):
            "reason":reason,"changed_at":at,
            "needs_review":uncertain,
            "status":"model_pending_review" if uncertain else "model_applied"}
+    item["model_review_attempts"]=int(item.get("model_review_attempts") or (1 if item.get("model_reviewed_uncertain") else 0))+1
+    item["manual_review_required"]=bool(uncertain and item["model_review_attempts"]>=2)
     item["model_applied"]=not uncertain
     item["model_reviewed_uncertain"]=uncertain
     item["model_suggested_category"]=new
@@ -255,6 +292,9 @@ def main():
     apply_crosschecks(items)
     write_crosscheck_report(items,ROOT/"docs/classification_crosscheck.md")
     pending,fresh_count,historical_count=prioritize_reviews(items,cache,datetime.now(timezone.utc))
+    retry_keys={key_for(x) for x in pending if x.get("review_priority")=="P3"}
+    for key in retry_keys:cache.pop(key,None)
+    sampled_ids={str(x.get("id")) for x in pending if x.get("review_priority")=="P4"}
     # Requests, including failed attempts, count toward the daily budget.
     budget=max(0,min(40,int(os.getenv("RADAR_LLM_REQUEST_BUDGET","40"))))
     token=os.getenv("RADAR_MODEL_API_KEY","")
@@ -415,9 +455,13 @@ def main():
         reviewed_records+=1
         if result["primary_category"]!=x.get("category"):
             disagreed.append((x,result))
+        if x.get("model_reviewed_uncertain") and key_for(x) not in retry_keys:
+            continue
+        if not x.get("needs_review") and str(x.get("id")) not in sampled_ids:
+            continue
         event=apply_model_result(x,result,reviewed_at)
         if event: changes.append(event)
-    if changes:
+    if changes or any(x.get("manual_review_required") for x in items):
         DB.write_text(json.dumps(items,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
         from main import render_html, render_digest
         config=json.loads((ROOT/"config.json").read_text(encoding="utf-8"))
@@ -432,6 +476,11 @@ def main():
     new_events=[e for e in changes if event_identity(e) not in existing_keys]
     if new_events:
         history_path.write_text(json.dumps(unique_history(history+new_events),ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+    manual_queue=[x for x in items if x.get("manual_review_required")]
+    manual_lines=["# 人工分类待审队列","","模型最多审核两次且间隔至少4天；两次后仍不明确的资源列于此处。","",f"- 资源数量：{len(manual_queue)}",""]
+    for x in manual_queue:
+        manual_lines += [f"- {x.get('title','')} | {x.get('category','')} | {x.get('url','')}"]
+    (ROOT/"docs/manual_review_queue.md").write_text("\n".join(manual_lines)+"\n",encoding="utf-8")
     lines=["# 免费大模型辅助分类审核","","确定结果可用于改类；不确定则保留规则分类并继续待复核。","",
            f"- 规则分类资源：{len(items)}",
            f"- 具有当前分类版本模型建议：{reviewed_records}",

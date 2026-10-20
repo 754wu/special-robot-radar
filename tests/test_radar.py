@@ -758,6 +758,30 @@ class RadarTests(unittest.TestCase):
         apply_crosschecks([sample])
         self.assertFalse(sample["crosscheck_conflicts"])
 
+    def test_priority_retry_four_days_and_manual_handoff(self):
+        from llm_review import prioritize_reviews,apply_model_result
+        from datetime import datetime,timezone
+        now=datetime(2026,10,20,tzinfo=timezone.utc)
+        base={"title":"Quadruped robot gait control","description":"Quadruped gait control policy",
+              "category":"小脑与运动控制","rule_confidence":"low","needs_review":True}
+        p0=dict(base,id="new",first_seen="2026-10-20T01:00:00+00:00")
+        p1=dict(base,id="conflict",first_seen="2026-10-01T01:00:00+00:00",crosscheck_pending=True)
+        p2=dict(base,id="old",first_seen="2026-10-01T01:00:00+00:00")
+        p3=dict(base,id="retry",first_seen="2026-10-01T01:00:00+00:00",
+                model_reviewed_uncertain=True,model_review_attempts=1,
+                model_reviewed_at="2026-10-15T00:00:00+00:00")
+        too_soon=dict(p3,id="too_soon",model_reviewed_at="2026-10-18T00:00:00+00:00")
+        exhausted=dict(p3,id="exhausted",model_review_attempts=2)
+        candidates,_,_=prioritize_reviews([p3,p2,exhausted,p1,p0,too_soon],{},now)
+        self.assertEqual([x["id"] for x in candidates],["new","conflict","old","retry"])
+        self.assertTrue(exhausted["manual_review_required"])
+        result={"primary_category":"小脑与运动控制","model_confidence":"LOW",
+                "needs_review":True,"reason":"四足机器人的步态控制技术仍需验证具体贡献"}
+        apply_model_result(p3,result,"2026-10-20T00:00:00+00:00")
+        self.assertEqual(p3["model_review_attempts"],2)
+        self.assertTrue(p3["manual_review_required"])
+        self.assertFalse(p3["model_applied"])
+
     def test_filter_config_reject_score(self):
         item = make_item('Wheel-legged quadruped locomotion', 'https://example.org/w',
                          'arXiv API', '论文（摘要）', 'robot locomotion and motion control')
