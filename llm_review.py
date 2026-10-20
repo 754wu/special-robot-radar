@@ -212,6 +212,27 @@ def apply_model_result(item, result, at):
     return event
 
 
+def event_identity(event):
+    """A logical review decision; retries do not create new history entries."""
+    return (str(event.get("id") or ""), str(event.get("status") or "model_applied"),
+            str(event.get("new_category") or ""), str(event.get("model_suggested_category") or event.get("new_category") or ""),
+            bool(event.get("needs_review",False)),str(event.get("reason") or "").strip())
+
+
+def unique_history(events):
+    """Keep earliest historical evidence of each distinct review decision."""
+    result,seen=[],set()
+    for event in events:
+        if not isinstance(event,dict):
+            continue
+        key=event_identity(event)
+        if key in seen:
+            continue
+        seen.add(key)
+        result.append(event)
+    return result
+
+
 def main():
     if not DB.exists():return
     items=json.loads(DB.read_text(encoding="utf-8"))
@@ -383,16 +404,20 @@ def main():
         history=json.loads(history_path.read_text(encoding="utf-8")) if history_path.exists() else []
     except (OSError,ValueError):
         history=[]
-    if changes:
-        history.extend(changes)
-        history_path.write_text(json.dumps(history,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+    existing_keys={event_identity(e) for e in history if isinstance(e,dict)}
+    new_events=[e for e in changes if event_identity(e) not in existing_keys]
+    if new_events:
+        history_path.write_text(json.dumps(unique_history(history+new_events),ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     lines=["# 免费大模型辅助分类审核","","确定结果可用于改类；不确定则保留规则分类并继续待复核。","",
            f"- 规则分类资源：{len(items)}",
            f"- 具有当前分类版本模型建议：{reviewed_records}",
            f"- 本次新增建议：{reviewed}",
            f"- 当日新增待复核候选：{fresh_count}",
            f"- 历史待复核候选：{historical_count}",
-           f"- 本次处理已有模型建议：{len(changes)}",
+           f"- 本次应用审核建议：{len(changes)}",
+           f"- 本次新增独立审核事件：{len(new_events)}",
+           f"- 累计历史审核事件（去重）：{len(unique_history(history+new_events))}",
+           f"- 累计涉及不同资源：{len(set(str(x.get(\x27id\x27)) for x in unique_history(history+new_events)))}",
            "- 本次实际改变主分类："+str(sum(x["old_category"] != x["new_category"] for x in changes)),
            f"- 本次API调用次数：{attempts}",
            f"- 本次理论最大审核数：{attempts*3}",

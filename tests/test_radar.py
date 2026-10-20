@@ -659,6 +659,15 @@ class RadarTests(unittest.TestCase):
                 persisted = preserve_model_classification(reclassified, verified)
                 self.assertEqual(persisted["category"], expected)
 
+    def test_model_event_history_deduplicates_retry_but_keeps_revisions(self):
+        from llm_review import unique_history
+        a={"id":"paper1","status":"model_applied","new_category":"小脑与运动控制","reason":"策略学习方法","changed_at":"first"}
+        b=dict(a,changed_at="second")
+        c=dict(a,new_category="感知建图与导航",changed_at="third")
+        retained=unique_history([a,b,c])
+        self.assertEqual(len(retained),2)
+        self.assertEqual(retained[0]["changed_at"],"first")
+
     def test_filter_config_reject_score(self):
         item = make_item('Wheel-legged quadruped locomotion', 'https://example.org/w',
                          'arXiv API', '论文（摘要）', 'robot locomotion and motion control')
