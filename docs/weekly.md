@@ -1,6 +1,6 @@
 # 特种机器人七日技术简报
 
-生成时间：2026-10-20T09:32:33.222622+00:00
+生成时间：2026-10-20T09:44:30.232115+00:00
 
 最近 7 天首次记录 **1417** 条；本轮新增 **0** 条；总库存 **1636** 条。
 
@@ -8,10 +8,14 @@
 
 ## 硬件与防爆
 
+- [Steering Mechanism for an IC engine powered tracked firefighting UGV](https://doi.org/10.56220/uwjst.v5i0.81) | 论文（摘要） | 特种场景直接相关 | 匹配度 87/100
+  - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：University of Wah Journal of Science and Technology (UWJST)。Rescue and hazard management operations are susceptible to damages （仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [FlyingDog: design and implementation of a quadruped robot with flight capability](https://doi.org/10.1108/ir-09-2024-0455) | 论文（摘要） | 特种场景直接相关 | 匹配度 85/100
   - 行业筛选：特种场景直接相关；方向：硬件与防爆；关联：消防与应急救援、工业与能源巡检。来源期刊/会议：Industrial Robot the international journal of robotics research and application。Purpose This paper aims to design a novel hybri（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Resonant Inductive Coupling Power Transfer for Mid-Sized Inspection Robot](https://doi.org/10.32388/j9up4u) | 论文（摘要） | 特种场景直接相关 | 匹配度 83/100
   - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。This paper presents a wireless power transfer (WPT) for a mid-sized inspection mobile robot. The objective is to transmit 100 W of powe（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Research on Heat Transfer through a Double-Walled Heat Shield of a Firefighting Robot](https://doi.org/10.3390/machines10100942) | 论文（摘要） | 特种场景直接相关 | 匹配度 80/100
+  - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：防爆石化与危险环境、消防与应急救援。来源期刊/会议：Machines。Burning forests, petrochemical installations and material warehouses generate very large fields and thermal gradients,（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Design and Experimental Validation of an Automatic Inspection Robot Control System based on Multi-Sensor Fusion](https://doi.org/10.54691/0vvjfj55) | 论文（摘要） | 特种场景直接相关 | 匹配度 78/100
   - 行业筛选：特种场景直接相关；方向：硬件与防爆；关联：工业与能源巡检。来源期刊/会议：Frontiers in Science and Engineering。To address the problems of high labor intensity, low efficiency, and safety risks in tradi（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Track Mechanism Design for a Differential Drive Fire Fighting Robot](https://doi.org/10.56220/uwjst.v8i.198) | 论文（摘要） | 特种场景直接相关 | 匹配度 78/100
@@ -20,10 +24,6 @@
   - 行业筛选：特种场景直接相关；方向：硬件与防爆；关联：工业与能源巡检。来源期刊/会议：Journal of Physics: Conference Series。 Abstract Aiming at the problems of insufficient research and difficult control of existi（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Design and analysis of pipeline inspection robot based on generalized parallel mechanisms](https://doi.org/10.1017/s0263574725102622) | 论文（摘要） | 特种场景直接相关 | 匹配度 77/100
   - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：Robotica。Abstract Pipeline inspection robots play a crucial role in maintaining the integrity of pipeline systems across variou（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Mechanism design and mechanical analysis of pipeline inspection robot](https://doi.org/10.1108/ir-07-2024-0301) | 论文（摘要） | 特种场景直接相关 | 匹配度 77/100
-  - 行业筛选：特种场景直接相关；方向：硬件与防爆；关联：工业与能源巡检。来源期刊/会议：Industrial Robot: the international journal of robotics research and application。 Purpose This study aims to address the issues（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Influence of periodic pulse intake on the ventilation efficiency of positive pressure explosion-proof robot](https://doi.org/10.21203/rs.3.rs-3146415/v1) | 论文（摘要） | 特种场景直接相关 | 匹配度 77/100
-  - 行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境。Abstract When the positive pressure explosion-proof robot is in ventilation, if the air is filled into the cavity with a constant press（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 基础软件与系统
 

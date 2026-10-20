@@ -1263,5 +1263,64 @@
     "main_contribution": "物联网智能家庭消防机器人整机方案",
     "model_confidence": "LOW",
     "source": "OpenRouter free router (metadata only)"
+  },
+  "1c83f4ade6e6a7d918ec26439a394bd2c99844decdfb31db09b5c84c348223c2": {
+    "primary_category": "硬件与防爆",
+    "secondary_categories": [],
+    "reason": "仅题名可判定爬楼倾覆机理研究，尚不明确是否提出结构优化",
+    "needs_review": true,
+    "main_contribution": "爬楼履带救援机器人的倾覆现象及机理分析",
+    "model_confidence": "LOW",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "829ffcc1239d5768e16c63d7f0d4489dbe1fdfdf78919006f60205c815e4cb5d": {
+    "primary_category": "硬件与防爆",
+    "secondary_categories": [],
+    "reason": "题名指向超小型脉冲消防无人机设计，但摘要未说明结构创新",
+    "needs_review": true,
+    "main_contribution": "超小型脉冲式消防无人机及快速响应设计",
+    "model_confidence": "LOW",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "2e0ce896847ed417c4a70b20ebc191f2285a87b2a1b370f7a6fd41e37b8da106": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "摘要仅归纳多模态巡检传感与异常识别，未给出新增方法或系统",
+    "needs_review": true,
+    "main_contribution": "自主管道巡检的多模态传感与异常识别技术综述",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "35ea5ac63b32c294c303f61351ba4137322f6522d4b25dc267e3dbce7c0b223a": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "提出点云直接转双节点线框数字孪生方法，并完成误差验证",
+    "needs_review": true,
+    "main_contribution": "点云到双节点线框数字孪生的直接转换方法",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "f911959061f798014e9276a223ca5ba2dfb0ddff94c6062ba4037dee0ad0f63f": {
+    "primary_category": "特种应用与产品",
+    "secondary_categories": [],
+    "reason": "仅见综述题目，未提供具体方法、交付物或实验验证",
+    "needs_review": true,
+    "main_contribution": "生成式AI时代工业机器人检测的挑战与机遇综述",
+    "model_confidence": "LOW",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "b28e2f8c736374cb55a314fc29f22ecbb9cd55560595f083fc9e4935e7ca89e5": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "标题指向视觉导航方案，但缺少摘要以确认创新与实验",
+    "needs_review": true,
+    "main_contribution": "基于视觉的移动机器人自主导航与操作方案",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)"
   }
 }
