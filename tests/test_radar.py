@@ -588,16 +588,17 @@ class RadarTests(unittest.TestCase):
                   "reason":"视觉语言模型用于技能规划仍需进一步核查"}
         event=apply_model_result(item,proposal,"2026-10-20T03:00:00+00:00")
         self.assertIsNotNone(event)
-        self.assertEqual(item["category"],"大脑与具身智能")
+        self.assertEqual(item["category"],"感知建图与导航")
         self.assertTrue(item["needs_review"])
         refreshed={"id":"short","title":item["title"],"description":item["description"],
                    "category":"感知建图与导航","needs_review":True}
         outcome=preserve_model_classification(refreshed,item)
-        self.assertEqual(outcome["category"],"大脑与具身智能")
+        self.assertEqual(outcome["category"],"感知建图与导航")
         self.assertTrue(outcome["needs_review"])
         queue,_,_=prioritize_reviews([outcome],{},datetime(2026,10,20,tzinfo=timezone.utc))
         self.assertEqual(queue,[])
         self.assertEqual(event["status"],"model_pending_review")
+        self.assertEqual(item["model_suggested_category"],"大脑与具身智能")
 
     def test_generalized_special_robot_contribution_boundaries(self):
         from taxonomy import classify_contribution
