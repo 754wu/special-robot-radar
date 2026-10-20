@@ -1524,5 +1524,71 @@
     "changed_at": "2026-10-20T09:44:30.072619+00:00",
     "needs_review": true,
     "status": "model_pending_review"
+  },
+  {
+    "id": "18e690f1d31ffac9ef",
+    "title": "DeCoNav: Dialog enhanced Long-Horizon Collaborative Vision-Language Navigation",
+    "old_category": "大脑与具身智能",
+    "new_category": "大脑与具身智能",
+    "model_suggested_category": "大脑与具身智能",
+    "reason": "以事件触发对话实现动态任务分配，支撑多机器人长程协作",
+    "changed_at": "2026-10-20T09:54:07.966789+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "b08795100dcff2beb6",
+    "title": "Advances in Robotic Welding for Metallic Materials: Application of Inspection, Modeling, Monitoring and Automation Techniques",
+    "old_category": "特种应用与产品",
+    "new_category": "小脑与运动控制",
+    "model_suggested_category": "小脑与运动控制",
+    "reason": "主要产出为焊接技术综述，未给出新的控制方法",
+    "changed_at": "2026-10-20T09:54:07.966789+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "e32d119fb5db367579",
+    "title": "Design and Simulation of a Mobile Robot for Pipeline Inspection",
+    "old_category": "基础软件与系统",
+    "new_category": "硬件与防爆",
+    "model_suggested_category": "硬件与防爆",
+    "reason": "仅题名可确认移动机器人设计与仿真，缺少具体硬件创新",
+    "changed_at": "2026-10-20T09:54:07.966789+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "a24512edd8f5b7f916",
+    "title": "Machine learning techniques for robotic and autonomous inspection of mechanical systems and civil infrastructure",
+    "old_category": "感知建图与导航",
+    "new_category": "感知建图与导航",
+    "model_suggested_category": "感知建图与导航",
+    "reason": "仅见跨导航视觉操作综述，未明确单一新技术成果",
+    "changed_at": "2026-10-20T09:54:07.966789+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "702c6e63460652ecdb",
+    "title": "An Aerial/Ground Robot Team for Autonomous Firefighting in Urban GNSS-Denied Scenarios",
+    "old_category": "特种应用与产品",
+    "new_category": "特种应用与产品",
+    "model_suggested_category": "特种应用与产品",
+    "reason": "题名仅显示空地机器人消防系统，缺少协调或导航算法贡献",
+    "changed_at": "2026-10-20T09:54:07.966789+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "76e7495dc630147677",
+    "title": "Design and Implementation of Intelligent EOD System Based on Six-Rotor UAV",
+    "old_category": "感知建图与导航",
+    "new_category": "特种应用与产品",
+    "model_suggested_category": "特种应用与产品",
+    "reason": "完成排爆整机集成，并设计绞盘夹持器执行机构",
+    "changed_at": "2026-10-20T09:54:07.966789+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
   }
 ]

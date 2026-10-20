@@ -6,7 +6,7 @@
     "source": "GitHub",
     "type": "代码仓库更新",
     "description": "Project website for Learning Wheel Motion Uncertainty for Degeneracy-Aware LiDAR-Inertial Odometry on Quadrupedal Wheel-Legged Robots.",
-    "published": "2026-10-20T09:41:07Z",
+    "published": "2026-10-20T09:43:47Z",
     "first_seen": "2026-10-20T06:00:08.613987+00:00",
     "stars": 0,
     "license": false,
@@ -11880,30 +11880,15 @@
     "score": 77,
     "summary": "行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：工业与能源巡检。来源期刊/会议：E3S Web of Conferences。 Pipeline infrastructure carries oil, gas, water, and industrial fluids across vast distances, and requi（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2",
-    "model_review_attempts": 1,
-    "manual_review_required": false,
-    "model_applied": false,
     "model_reviewed_uncertain": true,
-    "model_suggested_category": "感知建图与导航",
+    "model_review_attempts": 1,
+    "model_reviewed_at": "2026-10-20T09:44:30.072619+00:00",
+    "manual_review_required": false,
     "model_main_contribution": "自主管道巡检的多模态传感与异常识别技术综述",
     "model_contribution_conflict": "模型所述主要研究贡献无法由题名摘要核验",
-    "model_classification_reason": "摘要仅归纳多模态巡检传感与异常识别，未给出新增方法或系统",
-    "model_reviewed_at": "2026-10-20T09:44:30.072619+00:00",
-    "model_previous_confidence": "待复核",
-    "classification_history": [
-      {
-        "id": "f6abea20deff68c808",
-        "title": "Autonomous robotic pipeline inspection technologies",
-        "old_category": "小脑与运动控制",
-        "new_category": "感知建图与导航",
-        "model_suggested_category": "感知建图与导航",
-        "reason": "摘要仅归纳多模态巡检传感与异常识别，未给出新增方法或系统",
-        "changed_at": "2026-10-20T09:44:30.072619+00:00",
-        "needs_review": true,
-        "status": "model_pending_review"
-      }
-    ]
+    "model_applied": false,
+    "model_suggested_category": "感知建图与导航",
+    "model_classification_reason": "摘要仅归纳多模态巡检传感与异常识别，未给出新增方法或系统"
   },
   {
     "id": "4d2aad6dc4c140010d",
@@ -15086,7 +15071,6 @@
     "category": "大脑与具身智能",
     "tags": [
       "大脑与具身智能",
-      "感知建图与导航",
       "VLN",
       "Agentic VLN"
     ],
@@ -15095,8 +15079,8 @@
     "score": 63,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。Long-horizon collaborative vision-language navigation (VLN) is critical for multi-robot systems to a（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "classification_confidence": "待复核",
-    "classification_reason": "Agent 高层决策证据较弱",
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "以事件触发对话实现动态任务分配，支撑多机器人长程协作",
     "needs_review": true,
     "relevance_status": "可迁移的机器人关键技术",
     "rule_category": "大脑与具身智能",
@@ -15105,7 +15089,30 @@
     "crosscheck_pending": false,
     "review_priority": "P2",
     "rule_contribution_type": "感知建图与导航",
-    "rule_contribution_evidence": "环境感知、定位或空间导航任务"
+    "rule_contribution_evidence": "环境感知、定位或空间导航任务",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "大脑与具身智能",
+    "model_main_contribution": "提出事件触发对话与动态任务分配框架，支撑多机器人长程协作",
+    "model_contribution_conflict": "研究贡献冲突：环境感知、定位或空间导航任务；任务证据更支持感知建图与导航",
+    "model_classification_reason": "以事件触发对话实现动态任务分配，支撑多机器人长程协作",
+    "model_reviewed_at": "2026-10-20T09:54:07.966789+00:00",
+    "model_previous_confidence": "待复核",
+    "classification_history": [
+      {
+        "id": "18e690f1d31ffac9ef",
+        "title": "DeCoNav: Dialog enhanced Long-Horizon Collaborative Vision-Language Navigation",
+        "old_category": "大脑与具身智能",
+        "new_category": "大脑与具身智能",
+        "model_suggested_category": "大脑与具身智能",
+        "reason": "以事件触发对话实现动态任务分配，支撑多机器人长程协作",
+        "changed_at": "2026-10-20T09:54:07.966789+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
   },
   {
     "id": "97df5e1181d423d0b7",
@@ -28906,30 +28913,15 @@
     "score": 76,
     "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：2024 Eighth IEEE International Conference on Robotic Computing (IRC)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2",
-    "model_review_attempts": 1,
-    "manual_review_required": false,
-    "model_applied": false,
     "model_reviewed_uncertain": true,
-    "model_suggested_category": "特种应用与产品",
+    "model_review_attempts": 1,
+    "model_reviewed_at": "2026-10-20T09:44:30.072619+00:00",
+    "manual_review_required": false,
     "model_main_contribution": "生成式AI时代工业机器人检测的挑战与机遇综述",
     "model_contribution_conflict": "",
-    "model_classification_reason": "仅见综述题目，未提供具体方法、交付物或实验验证",
-    "model_reviewed_at": "2026-10-20T09:44:30.072619+00:00",
-    "model_previous_confidence": "待复核",
-    "classification_history": [
-      {
-        "id": "665fff8918dd627fb8",
-        "title": "On the Future of Robotic Industrial Inspection: Challenges and Opportunities in the Era of Generative AI",
-        "old_category": "特种应用与产品",
-        "new_category": "特种应用与产品",
-        "model_suggested_category": "特种应用与产品",
-        "reason": "仅见综述题目，未提供具体方法、交付物或实验验证",
-        "changed_at": "2026-10-20T09:44:30.072619+00:00",
-        "needs_review": true,
-        "status": "model_pending_review"
-      }
-    ]
+    "model_applied": false,
+    "model_suggested_category": "特种应用与产品",
+    "model_classification_reason": "仅见综述题目，未提供具体方法、交付物或实验验证"
   },
   {
     "id": "623fd95bd5c04ad76d",
@@ -29365,30 +29357,15 @@
     "score": 76,
     "summary": "行业筛选：特种场景直接相关；方向：基础软件与系统；关联：工业与能源巡检。来源期刊/会议：Autonomous Intelligent Systems。 Abstract Previous studies have primarily focused on converting point clouds (PC) into a dense m（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2",
-    "model_review_attempts": 1,
-    "manual_review_required": false,
-    "model_applied": false,
     "model_reviewed_uncertain": true,
-    "model_suggested_category": "感知建图与导航",
+    "model_review_attempts": 1,
+    "model_reviewed_at": "2026-10-20T09:44:30.072619+00:00",
+    "manual_review_required": false,
     "model_main_contribution": "点云到双节点线框数字孪生的直接转换方法",
     "model_contribution_conflict": "模型所述主要研究贡献无法由题名摘要核验",
-    "model_classification_reason": "提出点云直接转双节点线框数字孪生方法，并完成误差验证",
-    "model_reviewed_at": "2026-10-20T09:44:30.072619+00:00",
-    "model_previous_confidence": "待复核",
-    "classification_history": [
-      {
-        "id": "b9f2def7f631d70144",
-        "title": "Point clouds to as-built two-node wireframe digital twin: a novel method to support autonomous robotic inspection",
-        "old_category": "基础软件与系统",
-        "new_category": "感知建图与导航",
-        "model_suggested_category": "感知建图与导航",
-        "reason": "提出点云直接转双节点线框数字孪生方法，并完成误差验证",
-        "changed_at": "2026-10-20T09:44:30.072619+00:00",
-        "needs_review": true,
-        "status": "model_pending_review"
-      }
-    ]
+    "model_applied": false,
+    "model_suggested_category": "感知建图与导航",
+    "model_classification_reason": "提出点云直接转双节点线框数字孪生方法，并完成误差验证"
   },
   {
     "id": "eb6a3de3f5e2321cee",
@@ -30115,30 +30092,15 @@
     "score": 76,
     "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：International Journal of Intelligent Robotics and Applications。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2",
-    "model_review_attempts": 1,
-    "manual_review_required": false,
-    "model_applied": false,
     "model_reviewed_uncertain": true,
-    "model_suggested_category": "硬件与防爆",
+    "model_review_attempts": 1,
+    "model_reviewed_at": "2026-10-20T09:44:30.072619+00:00",
+    "manual_review_required": false,
     "model_main_contribution": "爬楼履带救援机器人的倾覆现象及机理分析",
     "model_contribution_conflict": "",
-    "model_classification_reason": "仅题名可判定爬楼倾覆机理研究，尚不明确是否提出结构优化",
-    "model_reviewed_at": "2026-10-20T09:44:30.072619+00:00",
-    "model_previous_confidence": "待复核",
-    "classification_history": [
-      {
-        "id": "29a6904999fae1ca30",
-        "title": "Research on the overturning phenomenon of firefighting and rescue crawler robots when climbing up and down stairs",
-        "old_category": "特种应用与产品",
-        "new_category": "硬件与防爆",
-        "model_suggested_category": "硬件与防爆",
-        "reason": "仅题名可判定爬楼倾覆机理研究，尚不明确是否提出结构优化",
-        "changed_at": "2026-10-20T09:44:30.072619+00:00",
-        "needs_review": true,
-        "status": "model_pending_review"
-      }
-    ]
+    "model_applied": false,
+    "model_suggested_category": "硬件与防爆",
+    "model_classification_reason": "仅题名可判定爬楼倾覆机理研究，尚不明确是否提出结构优化"
   },
   {
     "id": "eb61308c1749382632",
@@ -42739,8 +42701,9 @@
     "published": "2023-04-05",
     "first_seen": "2026-10-15T01:54:43.533024+00:00",
     "doi": "10.3390/met13040711",
-    "category": "特种应用与产品",
+    "category": "小脑与运动控制",
     "tags": [
+      "小脑与运动控制",
       "特种应用与产品"
     ],
     "industry_tags": [
@@ -42750,8 +42713,8 @@
     "score": 71,
     "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：防爆石化与危险环境。来源期刊/会议：Metals。 The robotic welding manufacturing of metal parts is a very important process, especially in heavy industries such as sh（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "classification_confidence": "待复核",
-    "classification_reason": "元数据不足，临时标记待复核（不视为应用领域确认）",
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "主要产出为焊接技术综述，未给出新的控制方法",
     "needs_review": true,
     "relevance_status": "直接相关",
     "rule_category": "特种应用与产品",
@@ -42760,7 +42723,30 @@
     "crosscheck_pending": false,
     "review_priority": "P2",
     "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "小脑与运动控制",
+    "model_main_contribution": "综述机器人焊接的检测、建模、监测与自动化技术",
+    "model_contribution_conflict": "",
+    "model_classification_reason": "主要产出为焊接技术综述，未给出新的控制方法",
+    "model_reviewed_at": "2026-10-20T09:54:07.966789+00:00",
+    "model_previous_confidence": "待复核",
+    "classification_history": [
+      {
+        "id": "b08795100dcff2beb6",
+        "title": "Advances in Robotic Welding for Metallic Materials: Application of Inspection, Modeling, Monitoring and Automation Techniques",
+        "old_category": "特种应用与产品",
+        "new_category": "小脑与运动控制",
+        "model_suggested_category": "小脑与运动控制",
+        "reason": "主要产出为焊接技术综述，未给出新的控制方法",
+        "changed_at": "2026-10-20T09:54:07.966789+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
   },
   {
     "id": "f28ed13e5cdb1a25d5",
@@ -45806,15 +45792,15 @@
     "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
     "rule_category": "基础软件与系统",
     "rule_confidence": "low",
-    "category": "基础软件与系统",
-    "classification_confidence": "待复核",
-    "classification_reason": "研究机器人软件、仿真或平台系统",
+    "category": "硬件与防爆",
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "仅题名可确认移动机器人设计与仿真，缺少具体硬件创新",
     "needs_review": true,
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
     "tags": [
-      "基础软件与系统",
-      "特种应用与产品"
+      "硬件与防爆",
+      "基础软件与系统"
     ],
     "industry_tags": [
       "工业与能源巡检"
@@ -45823,7 +45809,30 @@
     "score": 87,
     "summary": "行业筛选：特种场景直接相关；方向：基础软件与系统；关联：工业与能源巡检。来源期刊/会议：2022 IEEE Central America and Panama Student Conference (CONESCAPAN)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "review_priority": "P2",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "硬件与防爆",
+    "model_main_contribution": "仅题名给出移动机器人设计与仿真，无法确认具体硬件创新",
+    "model_contribution_conflict": "",
+    "model_classification_reason": "仅题名可确认移动机器人设计与仿真，缺少具体硬件创新",
+    "model_reviewed_at": "2026-10-20T09:54:07.966789+00:00",
+    "model_previous_confidence": "待复核",
+    "classification_history": [
+      {
+        "id": "e32d119fb5db367579",
+        "title": "Design and Simulation of a Mobile Robot for Pipeline Inspection",
+        "old_category": "基础软件与系统",
+        "new_category": "硬件与防爆",
+        "model_suggested_category": "硬件与防爆",
+        "reason": "仅题名可确认移动机器人设计与仿真，缺少具体硬件创新",
+        "changed_at": "2026-10-20T09:54:07.966789+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
   },
   {
     "id": "6dd31c9b6ef9fd607b",
@@ -49405,21 +49414,43 @@
     "rule_category": "感知建图与导航",
     "rule_confidence": "low",
     "category": "感知建图与导航",
-    "classification_confidence": "待复核",
-    "classification_reason": "导航/感知类别缺少题名中的明确研究任务",
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "仅见跨导航视觉操作综述，未明确单一新技术成果",
     "needs_review": true,
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
     "tags": [
-      "感知建图与导航",
-      "特种应用与产品"
+      "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 68,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Autonomous Intelligent Systems。 Abstract Machine learning and in particular deep learning techniques have demonstrated the most（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "review_priority": "P2",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "感知建图与导航",
+    "model_main_contribution": "综述机器学习用于机器人自主巡检的规划、导航与感知",
+    "model_contribution_conflict": "",
+    "model_classification_reason": "仅见跨导航视觉操作综述，未明确单一新技术成果",
+    "model_reviewed_at": "2026-10-20T09:54:07.966789+00:00",
+    "model_previous_confidence": "待复核",
+    "classification_history": [
+      {
+        "id": "a24512edd8f5b7f916",
+        "title": "Machine learning techniques for robotic and autonomous inspection of mechanical systems and civil infrastructure",
+        "old_category": "感知建图与导航",
+        "new_category": "感知建图与导航",
+        "model_suggested_category": "感知建图与导航",
+        "reason": "仅见跨导航视觉操作综述，未明确单一新技术成果",
+        "changed_at": "2026-10-20T09:54:07.966789+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
   },
   {
     "id": "adef41c6ed3d7f8629",
@@ -49913,8 +49944,8 @@
     "rule_category": "特种应用与产品",
     "rule_confidence": "low",
     "category": "特种应用与产品",
-    "classification_confidence": "待复核",
-    "classification_reason": "元数据不足，临时标记待复核（不视为应用领域确认）",
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "题名仅显示空地机器人消防系统，缺少协调或导航算法贡献",
     "needs_review": true,
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
@@ -49929,7 +49960,30 @@
     "score": 90,
     "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援、野外与特种地形。来源期刊/会议：Field Robotics。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "review_priority": "P2",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "特种应用与产品",
+    "model_main_contribution": "题名仅显示空地机器人消防系统，缺少协调或导航算法贡献",
+    "model_contribution_conflict": "",
+    "model_classification_reason": "题名仅显示空地机器人消防系统，缺少协调或导航算法贡献",
+    "model_reviewed_at": "2026-10-20T09:54:07.966789+00:00",
+    "model_previous_confidence": "待复核",
+    "classification_history": [
+      {
+        "id": "702c6e63460652ecdb",
+        "title": "An Aerial/Ground Robot Team for Autonomous Firefighting in Urban GNSS-Denied Scenarios",
+        "old_category": "特种应用与产品",
+        "new_category": "特种应用与产品",
+        "model_suggested_category": "特种应用与产品",
+        "reason": "题名仅显示空地机器人消防系统，缺少协调或导航算法贡献",
+        "changed_at": "2026-10-20T09:54:07.966789+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
   },
   {
     "id": "73358c1a817edbce27",
@@ -53298,13 +53352,13 @@
     "published": "2021-12-11",
     "first_seen": "2026-10-15T02:18:27.194617+00:00",
     "doi": "https://doi.org/10.3390/drones5040146",
-    "category": "感知建图与导航",
-    "classification_confidence": "待复核",
-    "classification_reason": "导航/感知类别缺少题名中的明确研究任务",
+    "category": "特种应用与产品",
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "完成排爆整机集成，并设计绞盘夹持器执行机构",
     "needs_review": true,
     "tags": [
-      "感知建图与导航",
-      "特种应用与产品"
+      "特种应用与产品",
+      "感知建图与导航"
     ],
     "industry_tags": [
       "排爆与高风险作业"
@@ -53320,7 +53374,30 @@
     "crosscheck_pending": false,
     "review_priority": "P2",
     "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "特种应用与产品",
+    "model_main_contribution": "设计六旋翼智能排爆系统及绞盘夹持执行器",
+    "model_contribution_conflict": "模型所述主要研究贡献无法由题名摘要核验",
+    "model_classification_reason": "完成排爆整机集成，并设计绞盘夹持器执行机构",
+    "model_reviewed_at": "2026-10-20T09:54:07.966789+00:00",
+    "model_previous_confidence": "待复核",
+    "classification_history": [
+      {
+        "id": "76e7495dc630147677",
+        "title": "Design and Implementation of Intelligent EOD System Based on Six-Rotor UAV",
+        "old_category": "感知建图与导航",
+        "new_category": "特种应用与产品",
+        "model_suggested_category": "特种应用与产品",
+        "reason": "完成排爆整机集成，并设计绞盘夹持器执行机构",
+        "changed_at": "2026-10-20T09:54:07.966789+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
   },
   {
     "id": "858867d9649d8dbe72",

@@ -1322,5 +1322,61 @@
     "main_contribution": "基于视觉的移动机器人自主导航与操作方案",
     "model_confidence": "MEDIUM",
     "source": "OpenRouter free router (metadata only)"
+  },
+  "f08dbc4152e72e2938cf3c4f60e7b8eb694497642bd62d8ba80a749f79353e37": {
+    "primary_category": "大脑与具身智能",
+    "secondary_categories": [],
+    "reason": "以事件触发对话实现动态任务分配，支撑多机器人长程协作",
+    "needs_review": false,
+    "main_contribution": "提出事件触发对话与动态任务分配框架，支撑多机器人长程协作",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "377ecba1658138ec4ebdb7bbbcd070fa01221f0f6b122fc66beacb2401dfca9c": {
+    "primary_category": "硬件与防爆",
+    "secondary_categories": [],
+    "reason": "仅题名可确认移动机器人设计与仿真，缺少具体硬件创新",
+    "needs_review": true,
+    "main_contribution": "仅题名给出移动机器人设计与仿真，无法确认具体硬件创新",
+    "model_confidence": "LOW",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "c6cd2dbf6e1bebc698f1c086c5c5b3ee5a6bb698fd8b4f27a8de4b2321ab517d": {
+    "primary_category": "特种应用与产品",
+    "secondary_categories": [],
+    "reason": "题名仅显示空地机器人消防系统，缺少协调或导航算法贡献",
+    "needs_review": true,
+    "main_contribution": "题名仅显示空地机器人消防系统，缺少协调或导航算法贡献",
+    "model_confidence": "LOW",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "d3a952de86c1bffb8fa497d3459eeaeb76c1893ab522b31e731bbfc9eb8575f1": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "仅见跨导航视觉操作综述，未明确单一新技术成果",
+    "needs_review": true,
+    "main_contribution": "综述机器学习用于机器人自主巡检的规划、导航与感知",
+    "model_confidence": "LOW",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "4e232ba4c185a76a7a7274da1054a6527834c571f2a997fb0319f2fc6b917de8": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "主要产出为焊接技术综述，未给出新的控制方法",
+    "needs_review": true,
+    "main_contribution": "综述机器人焊接的检测、建模、监测与自动化技术",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "016b200cfb780cca162b42fc26ecdbfa33b360d88dbc4f9db145fc46016db88a": {
+    "primary_category": "特种应用与产品",
+    "secondary_categories": [],
+    "reason": "完成排爆整机集成，并设计绞盘夹持器执行机构",
+    "needs_review": true,
+    "main_contribution": "设计六旋翼智能排爆系统及绞盘夹持执行器",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
   }
 }

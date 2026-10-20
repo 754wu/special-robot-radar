@@ -1,6 +1,6 @@
 # 特种机器人七日技术简报
 
-生成时间：2026-10-20T09:44:30.232115+00:00
+生成时间：2026-10-20T09:54:08.124417+00:00
 
 最近 7 天首次记录 **1417** 条；本轮新增 **0** 条；总库存 **1636** 条。
 
@@ -8,6 +8,8 @@
 
 ## 硬件与防爆
 
+- [Design and Simulation of a Mobile Robot for Pipeline Inspection](https://doi.org/10.1109/conescapan56456.2022.9959592) | 论文（摘要） | 特种场景直接相关 | 匹配度 87/100
+  - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：工业与能源巡检。来源期刊/会议：2022 IEEE Central America and Panama Student Conference (CONESCAPAN)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Steering Mechanism for an IC engine powered tracked firefighting UGV](https://doi.org/10.56220/uwjst.v5i0.81) | 论文（摘要） | 特种场景直接相关 | 匹配度 87/100
   - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：University of Wah Journal of Science and Technology (UWJST)。Rescue and hazard management operations are susceptible to damages （仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [FlyingDog: design and implementation of a quadruped robot with flight capability](https://doi.org/10.1108/ir-09-2024-0455) | 论文（摘要） | 特种场景直接相关 | 匹配度 85/100
@@ -22,13 +24,9 @@
   - 行业筛选：特种场景直接相关；方向：硬件与防爆；关联：消防与应急救援。来源期刊/会议：University of Wah Journal of Science and Technology (UWJST)。Rescue missions and disaster management expose human life to risk f（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Mechanical System Structure Design of Transmission Line Maintenance Robot](https://doi.org/10.1088/1742-6596/2476/1/012057) | 论文（摘要） | 特种场景直接相关 | 匹配度 78/100
   - 行业筛选：特种场景直接相关；方向：硬件与防爆；关联：工业与能源巡检。来源期刊/会议：Journal of Physics: Conference Series。 Abstract Aiming at the problems of insufficient research and difficult control of existi（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Design and analysis of pipeline inspection robot based on generalized parallel mechanisms](https://doi.org/10.1017/s0263574725102622) | 论文（摘要） | 特种场景直接相关 | 匹配度 77/100
-  - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：Robotica。Abstract Pipeline inspection robots play a crucial role in maintaining the integrity of pipeline systems across variou（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 基础软件与系统
 
-- [Design and Simulation of a Mobile Robot for Pipeline Inspection](https://doi.org/10.1109/conescapan56456.2022.9959592) | 论文（摘要） | 特种场景直接相关 | 匹配度 87/100
-  - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：工业与能源巡检。来源期刊/会议：2022 IEEE Central America and Panama Student Conference (CONESCAPAN)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Landing Impact Simulation of a One-Legged Robot with a Series Elastic Actuator](https://doi.org/10.20965/jrm.2025.p0627) | 论文（摘要） | 特种场景直接相关 | 匹配度 82/100
   - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：消防与应急救援。来源期刊/会议：Journal of Robotics and Mechatronics。 Currently, natural disasters occur frequently. Therefore, disaster response robots are ex（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [SOFTWARE IMPLEMENTATION OF THE SPIDER4LEGS MOBILE ROBOT](https://doi.org/10.51865/jpgt.2023.02.01) | 论文（摘要） | 特种场景直接相关 | 匹配度 82/100
@@ -43,6 +41,8 @@
   - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：野外与特种地形。来源期刊/会议：Journal of Intelligent & Robotic Systems。The success of deep learning methods in a wide range of application areas has inspired（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Research on inspection task allocation method of inspection robot based on improved genetic algorithm](https://doi.org/10.1007/s10586-025-05400-2) | 论文（摘要） | 特种场景直接相关 | 匹配度 76/100
   - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：工业与能源巡检。来源期刊/会议：Cluster Computing。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [A Mobile Inspection Robot Design Analysis in ANSYS Simulation for Extreme Weather Conditions](https://doi.org/10.1109/iccma59762.2023.10375060) | 论文（摘要） | 特种场景直接相关 | 匹配度 76/100
+  - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：工业与能源巡检。来源期刊/会议：2023 11th International Conference on Control, Mechatronics and Automation (ICCMA)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 小脑与运动控制
 

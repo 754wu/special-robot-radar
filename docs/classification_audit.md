@@ -6,18 +6,18 @@
 
 ## 分类数量
 
-- 感知建图与导航: 703
-- 小脑与运动控制: 576
+- 感知建图与导航: 702
+- 小脑与运动控制: 577
 - 特种应用与产品: 133
-- 硬件与防爆: 94
-- 基础软件与系统: 87
+- 硬件与防爆: 95
+- 基础软件与系统: 86
 - 大脑与具身智能: 43
 
 ## 疑点分布
 
 - THIN_ABSTRACT: 170
 - EXISTING_REVIEW: 125
-- HW_NO_EVIDENCE: 12
+- HW_NO_EVIDENCE: 13
 - NAV_AGENT_REVIEW: 2
 - SOFT_ALGORITHM: 1
 
@@ -49,7 +49,7 @@
 - Autonomous Robotic Systems in Agriculture 5.0: A Review on Technical Architecture, Operational Applications, and Future Perspectives | 当前：特种应用与产品 | 建议：待复核 | https://doi.org/10.15832/ankutbd.1957708
 - Guidance on robot coordination in narrow bidirectional corridors with yielding bays | 当前：感知建图与导航 | 建议：待复核 | https://discourse.openrobotics.org/t/guidance-on-robot-coordination-in-narrow-bidirectional-corridors-with-yielding-bays/58684
 - Air–ground teaming with a humanoid robot: ROS 2 patterns for a shared event record? | 当前：基础软件与系统 | 建议：待复核 | https://discourse.openrobotics.org/t/air-ground-teaming-with-a-humanoid-robot-ros-2-patterns-for-a-shared-event-record/58681
-### HW_NO_EVIDENCE（12 条）
+### HW_NO_EVIDENCE（13 条）
 - A Soft Worm Robot for Sub-Centimeter Scale Pipeline Inspection | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.1109/lra.2026.3699247
 - CAD-based Optimization of the Medium-sized Unmanned Ground Vehicle | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.18372/1990-5548.88.20978
 - Research progress in thermal protection materials and technologies for firefighting robots | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.11868/j.issn.1001-4381.2025.000330
@@ -61,7 +61,7 @@
 - Small Modular Magnetic-Wheel-Type Wall- Climbing Inspection Robot | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.1109/aeeca65693.2025.00071
 - Resonant Inductive Coupling Power Transfer for Mid-Sized Inspection Robot | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.32388/j9up4u
 - Research on the overturning phenomenon of firefighting and rescue crawler robots when climbing up and down stairs | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.1007/s41315-024-00394-3
-- Research on Heat Transfer through a Double-Walled Heat Shield of a Firefighting Robot | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.3390/machines10100942
+- Design and Simulation of a Mobile Robot for Pipeline Inspection | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.1109/conescapan56456.2022.9959592
 ### NAV_AGENT_REVIEW（2 条）
 - Verifier-Mediated Multi-LLM Coordination for Multi-Robot Path Planning | 当前：感知建图与导航 | 建议：大脑与具身智能（待复核） | https://arxiv.org/abs/2610.12761
 - Self-Organizing Memory Based on Adaptive Resonance Theory for Vision and Language Navigation | 当前：感知建图与导航 | 建议：大脑与具身智能（待复核） | https://doi.org/10.3390/math11194192
