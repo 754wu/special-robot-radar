@@ -638,6 +638,27 @@ class RadarTests(unittest.TestCase):
                 restored=preserve_model_classification(new_rule,paper)
                 self.assertEqual(restored["category"],expected)
 
+    def test_model_review_manual_corrections_persist(self):
+        from main import apply_manual_correction, preserve_model_classification
+        cases = [
+            ("DR-VLA: Learning Human-Like Quadruped Navigation from Egocentric Web Videos via Domain-Invariant Scene Representations", "感知建图与导航"),
+            ("Structure over Reasoning: Unified Zero-Shot Navigation with a Small Vision-Language Model", "感知建图与导航"),
+            ("FACT: A Multimodal Force-Action-Track Foundation Model for Human-to-Robot Dexterity", "小脑与运动控制"),
+            ("Mapless, Stabilizing, and Anti-Stuck Flipper Control for Articulated Tracked Robots", "小脑与运动控制"),
+            ("A Heterogeneous UAV UGV Methodology for Aerial Tracking of Mini Autonomous Cars", "感知建图与导航"),
+        ]
+        for title, expected in cases:
+            with self.subTest(title=title):
+                paper = {"id": title, "title": title, "description": "Metadata summary",
+                         "category": "大脑与具身智能", "needs_review": True}
+                verified = apply_manual_correction(paper)
+                self.assertEqual(verified["category"], expected)
+                self.assertTrue(verified["manual_category_override"])
+                reclassified = {"id": title, "title": title, "description": "Metadata summary",
+                                "category": "特种应用与产品", "needs_review": True}
+                persisted = preserve_model_classification(reclassified, verified)
+                self.assertEqual(persisted["category"], expected)
+
     def test_filter_config_reject_score(self):
         item = make_item('Wheel-legged quadruped locomotion', 'https://example.org/w',
                          'arXiv API', '论文（摘要）', 'robot locomotion and motion control')

@@ -697,6 +697,11 @@ def llm_enrich(items: list[dict]) -> None:
 
 
 MANUAL_CORRECTIONS = {
+    "dr-vla: learning human-like quadruped navigation from egocentric web videos via domain-invariant scene representations": "感知建图与导航",
+    "structure over reasoning: unified zero-shot navigation with a small vision-language model": "感知建图与导航",
+    "fact: a multimodal force-action-track foundation model for human-to-robot dexterity": "小脑与运动控制",
+    "mapless, stabilizing, and anti-stuck flipper control for articulated tracked robots": "小脑与运动控制",
+    "a heterogeneous uav ugv methodology for aerial tracking of mini autonomous cars": "感知建图与导航",
     "perceptive behavior foundation model: adapting human motion priors to robot-centric terrain": "小脑与运动控制",
     "the design of firefighting robot based on the fuzzy pid algorithm": "小脑与运动控制",
     "inspection and firefighting robot based on improved svm algorithm in ship automation engine room": "感知建图与导航",
@@ -705,6 +710,11 @@ MANUAL_CORRECTIONS = {
 
 # Individually reviewed metadata cases (not full-text peer review).
 MANUAL_REVIEWED_CASES = {
+    "dr-vla: learning human-like quadruped navigation from egocentric web videos via domain-invariant scene representations": ("感知建图与导航", "摘要明确以四足机器人导航为核心，利用跨具身视觉表示学习导航策略，并非高层任务技能编排。"),
+    "structure over reasoning: unified zero-shot navigation with a small vision-language model": ("感知建图与导航", "研究零样本视觉语言导航中的空间语义表示与路径规划，小型VLM仅为技术组件。"),
+    "fact: a multimodal force-action-track foundation model for human-to-robot dexterity": ("小脑与运动控制", "动作及未来交互力联合预测与精细灵巧操作策略是主要技术成果，而非高层任务推理。"),
+    "mapless, stabilizing, and anti-stuck flipper control for articulated tracked robots": ("小脑与运动控制", "核心技术为履带机器人翻转机构稳定控制与脱困动作控制，mapless不是建图创新。"),
+    "a heterogeneous uav ugv methodology for aerial tracking of mini autonomous cars": ("感知建图与导航", "研究无人机对地面车辆的空中目标跟踪方法，侧重感知跟踪而非整机产品。"),
     "xfjcoder/wam": ("小脑与运动控制", "Go2前向动力学世界模型，基于状态与速度命令预测下一状态，服务模型预测运动控制。"),
     "learning whole-body kinetic coordination for wheeled-quadruped long-range throwing": ("小脑与运动控制", "论文研究轮足机器人全身动力学协调实现远距离投掷，主要贡献属于运动执行。"),
     "solving a giant rubik's cube with a quadruped robot": ("小脑与运动控制", "核心为四足机器人平衡约束下的物体操作与协调控制。"),
