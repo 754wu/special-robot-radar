@@ -152,5 +152,49 @@
     "reason": "提出基于ROS2的亚毫秒反射引擎，实现快速控制切换与安全防护",
     "needs_review": false,
     "source": "OpenRouter free router (metadata only)"
+  },
+  "fb76c6bb0d80cd143ccc17bbcfd2c4eefb2eba6db7a4d68de3942ccdb2765a1e": {
+    "primary_category": "大脑与具身智能",
+    "secondary_categories": [],
+    "reason": "因果分析机器人基模作用机制，非单一硬件或应用",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "6ca47dae4399fe031af1bd6fe86b6289e3edd47e088332b12a0b9679b6930cf0": {
+    "primary_category": "大脑与具身智能",
+    "secondary_categories": [],
+    "reason": "Fast-VLA 利用冻结 VLM 构建固定任务记忆，实现高效机器人操作",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "a3447fa6c472abfb63a33c90f258c7334d1d8801ec9519b09b0bcc2b9b68907f": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "共享自主框架融合遥操作与VLA动作实现动作级仲裁",
+    "needs_review": true,
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "e528a1dfbcc9b3c038f2b71f9d4ead04414b233325894fba08ab7b2281fc7cb5": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "提出基于图条件流匹配的单目视觉机器人位姿估计框架",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "c6e6c313157750513af324494945667f3ba9bd1950a0cb08fef0de07a87dfc0e": {
+    "primary_category": "大脑与具身智能",
+    "secondary_categories": [],
+    "reason": "论文针对VLA模型剪枝问题提出恢复方法，涉及高级认知与动作规划，属于具身智能范畴。",
+    "needs_review": true,
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "c7e5b6451149fb8dc2863b67516fff08e86318719226a58f7fd82d95e6ecf494": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "多无人机协同共享暴露信念，引导地面车辆规划避障路线，属导航规划。",
+    "needs_review": false,
+    "source": "OpenRouter free router (metadata only)"
   }
 }
