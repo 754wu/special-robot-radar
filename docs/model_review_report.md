@@ -4,14 +4,14 @@
 
 - 规则分类资源：1668
 - 具有当前分类版本模型建议：57
-- 本次新增建议：3
-- 当日新增待复核候选：11
+- 本次新增建议：0
+- 当日新增待复核候选：8
 - 历史待复核候选：425
-- 本次处理已有模型建议：29
+- 本次处理已有模型建议：28
 - 本次实际改变主分类：0
-- 本次API调用次数：2
-- 本次理论最大审核数：6
-- 本次有效输出率：50.0%
+- 本次API调用次数：1
+- 本次理论最大审核数：3
+- 本次有效输出率：0.0%
 - 固定免费模型：openrouter/free
 - 规则与模型主分类不一致：11
 
@@ -27,7 +27,6 @@
 - hu-zlatan/embodied-ai-radar: 大脑与具身智能 -> 大脑与具身智能
 - AI-Enhanced Radiation Classification in ROS: 基础软件与系统 -> 基础软件与系统
 - A Heterogeneous UAV UGV Methodology for Aerial Tracking of Mini Autonomous Cars: 特种应用与产品 -> 特种应用与产品
-- Structure over Reasoning: Unified Zero-Shot Navigation with a Small Vision-Language Model: 大脑与具身智能 -> 大脑与具身智能
 - CondenseVLA: Learnable History Condensation for Efficient Multi-Frame VLA: 大脑与具身智能 -> 大脑与具身智能
 - Time-JEPA: Grounding Video World Models with Physical Time Series: 小脑与运动控制 -> 小脑与运动控制
 - Unifying Embodied Foundation Models via a Model-to-Policy Formulation: 大脑与具身智能 -> 大脑与具身智能
