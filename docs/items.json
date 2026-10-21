@@ -1140,7 +1140,7 @@
     "url": "https://arxiv.org/abs/2610.25927",
     "source": "arXiv Robotics RSS",
     "type": "论文（摘要）",
-    "description": "arXiv:2610.25927v1 Announce Type: cross Abstract: Robot manipulation often depends on short-term cues - such as brief contacts, temporary occlusions, and intermediate object states - that are ambiguous in a single frame and can only be resolved by integrating observations over time. However, injecting historical information solely by enlarging the history window is computationally costly and frequently yields limited gains due to substantial redundancy and task-agnostic, inflexible sampling of observations. We propose CondenseVLA, a multi-frame VLA policy with a learnable decoder-side history condensation module for using short-term visual context in action decoding. Given a sequence of cached per-frame features from the VLM backbone, CondenseVLA distills observation history into a fixed set of slot tokens using learnable queries and multi-head cross-attention. Simple auxiliary regulariz",
+    "description": "arXiv:2610.25927v2 Announce Type: cross Abstract: Robot manipulation often depends on short-term cues - such as brief contacts, temporary occlusions, and intermediate object states - that are ambiguous in a single frame and can only be resolved by integrating observations over time. However, injecting historical information solely by enlarging the history window is computationally costly and frequently yields limited gains due to substantial redundancy and task-agnostic, inflexible sampling of observations. We propose CondenseVLA, a multi-frame VLA policy with a learnable decoder-side history condensation module for using short-term visual context in action decoding. Given a sequence of cached per-frame features from the VLM backbone, CondenseVLA distills observation history into a fixed set of slot tokens using learnable queries and multi-head cross-attention. Simple auxiliary regulariz",
     "published": "2026-10-20T04:00:00+00:00",
     "first_seen": "2026-10-20T05:59:57.804086+00:00",
     "relevance_status": "可迁移的机器人关键技术",
@@ -1161,7 +1161,7 @@
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 62,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.25927v1 Announce Type: cross Abstract: Robot manipulation often depends on short-term cues - such as brief contacts, tempora（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.25927v2 Announce Type: cross Abstract: Robot manipulation often depends on short-term cues - such as brief contacts, tempora（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
     "manual_category_override": true,
     "manual_override_reason": "摘要提出多帧VLA动作策略中的历史视觉特征压缩模块，贡献为机器人操作动作解码。",
@@ -21596,17 +21596,15 @@
     "score": 76,
     "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：Scilight。 Review provides pathway for researchers interested in studying inspection robots for instruments and meters（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2",
-    "model_review_attempts": 1,
-    "manual_review_required": false,
-    "model_applied": false,
     "model_reviewed_uncertain": true,
-    "model_suggested_category": "特种应用与产品",
+    "model_review_attempts": 1,
+    "model_reviewed_at": "2026-10-21T02:20:39.148649+00:00",
+    "manual_review_required": false,
     "model_main_contribution": "仪表巡检机器人研究综述与入门路径",
     "model_contribution_conflict": "",
+    "model_applied": false,
     "model_classification_reason": "仅说明综述面向仪表巡检机器人，未给出具体方法或系统产出",
-    "model_reviewed_at": "2026-10-21T02:20:39.148649+00:00",
-    "model_previous_confidence": "待复核",
+    "model_suggested_category": "特种应用与产品",
     "classification_history": [
       {
         "id": "cf5cecf79088408baa",
@@ -45268,17 +45266,15 @@
     "score": 65,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Proceedings of the 20th International Conference on Informatics in Control, Automation and Robotics。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P4",
-    "model_review_attempts": 1,
-    "manual_review_required": false,
-    "model_applied": false,
     "model_reviewed_uncertain": true,
-    "model_suggested_category": "感知建图与导航",
+    "model_review_attempts": 1,
+    "model_reviewed_at": "2026-10-21T02:20:39.148649+00:00",
+    "manual_review_required": false,
     "model_main_contribution": "mobile robot mapping, localization and navigation in robot-inclusive spaces",
     "model_contribution_conflict": "",
+    "model_applied": false,
     "model_classification_reason": "论文聚焦于辅助移动机器人的建图、定位与导航技术，属于感知建图与导航领域，未提及具身智能或控制算法创新。",
-    "model_reviewed_at": "2026-10-21T02:20:39.148649+00:00",
-    "model_previous_confidence": "高",
+    "model_suggested_category": "感知建图与导航",
     "classification_history": [
       {
         "id": "98291ba69d4dcbd388",
@@ -53871,19 +53867,18 @@
     "scope": "特种场景直接相关",
     "score": 73,
     "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：矿山与地下空间。来源期刊/会议：Global Journal of Engineering and Technology Advances。Underground mining operations face persistent challenges associated with （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "1bd32224175dc345cb",
     "title": "Vision-based vanishing point detection of autonomous navigation of mobile robot for outdoor applications",
     "url": "https://doi.org/10.14203/j.mev.2021.v12.117-125",
-    "source": "OpenAlex",
+    "source": "Crossref",
     "type": "论文（摘要）",
-    "description": "来源期刊/会议：Mechatronics Electrical Power and Vehicular Technology。The vision-based approach to mobile robot navigation is considered superior due to its affordability. This paper aims to design and construct an autonomous mobile robot with a vision-based system for outdoor navigation. This robot receives inputs from camera and ultrasonic sensor. The camera is used to detect vanishing points and obstacles from the road. The vanishing point is used to detect the heading of the road. Lines are extracted from the environment using a canny edge detector and Houghline Transforms from OpenCV to navigate the system. Then, removed lines are processed to locate the vanishing point and the road angle. A low pass filter is then applied to detect a vanishing point better. The robot is tested to run in several outdoor conditions such as asphalt roads and pedestrian roads to follow the detected vanishing ",
+    "description": "来源期刊/会议：Journal of Mechatronics, Electrical Power, and Vehicular Technology。 The vision-based approach to mobile robot navigation is considered superior due to its affordability. This paper aims to design and construct an autonomous mobile robot with a vision-based system for outdoor navigation. This robot receives inputs from camera and ultrasonic sensor. The camera is used to detect vanishing points and obstacles from the road. The vanishing point is used to detect the heading of the road. Lines are extracted from the environment using a canny edge detector and Houghline Transforms from OpenCV to navigate the system. Then, removed lines are processed to locate the vanishing point and the road angle. A low pass filter is then applied to detect a vanishing point better. The robot is tested to run in several outdoor conditions such as asphalt roads and pedestrian roads to follow the detec",
     "published": "2021-12-31",
     "first_seen": "2026-10-15T05:54:57.265469+00:00",
-    "doi": "https://doi.org/10.14203/j.mev.2021.v12.117-125",
+    "doi": "10.14203/j.mev.2021.v12.117-125",
     "relevance_status": "可迁移的机器人关键技术",
     "rule_contribution_type": "undetermined",
     "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
@@ -53901,7 +53896,7 @@
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 72,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Mechatronics Electrical Power and Vehicular Technology。The vision-based approach to mobile robot navigation is considered super（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Journal of Mechatronics, Electrical Power, and Vehicular Technology。 The vision-based approach to mobile robot navigation is co（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -54459,10 +54454,17 @@
     "published": "2021-12-28",
     "first_seen": "2026-10-20T01:50:45.110322+00:00",
     "doi": "10.36227/techrxiv.17493605.v1",
+    "relevance_status": "可迁移的机器人关键技术",
+    "rule_contribution_type": "undetermined",
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "rule_category": "感知建图与导航",
+    "rule_confidence": "high",
     "category": "感知建图与导航",
     "classification_confidence": "高",
     "classification_reason": "核心任务为环境感知、定位、建图或导航",
     "needs_review": false,
+    "crosscheck_conflicts": [],
+    "crosscheck_pending": false,
     "tags": [
       "感知建图与导航",
       "小脑与运动控制"
@@ -54471,14 +54473,7 @@
     "scope": "可迁移的机器人关键技术",
     "score": 62,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。The evolution of social robots has increased with the advent of recent artificial intelligence techniques. Alongside humans, social rob（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "relevance_status": "可迁移的机器人关键技术",
-    "rule_category": "感知建图与导航",
-    "rule_confidence": "high",
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "1ddbff7d12127cb09f",
@@ -54838,10 +54833,17 @@
     "published": "2021-12-27",
     "first_seen": "2026-10-20T01:50:45.110917+00:00",
     "doi": "10.1109/robio54168.2021.9739455",
+    "relevance_status": "可迁移的机器人关键技术",
+    "rule_contribution_type": "undetermined",
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "rule_category": "感知建图与导航",
+    "rule_confidence": "high",
     "category": "感知建图与导航",
     "classification_confidence": "高",
     "classification_reason": "核心任务为环境感知、定位、建图或导航",
     "needs_review": false,
+    "crosscheck_conflicts": [],
+    "crosscheck_pending": false,
     "tags": [
       "感知建图与导航",
       "小脑与运动控制"
@@ -54850,14 +54852,7 @@
     "scope": "可迁移的机器人关键技术",
     "score": 62,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2021 IEEE International Conference on Robotics and Biomimetics (ROBIO)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "relevance_status": "可迁移的机器人关键技术",
-    "rule_category": "感知建图与导航",
-    "rule_confidence": "high",
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "e0ee612f30e7544c8b",
@@ -55139,10 +55134,17 @@
     "published": "2021-12-22",
     "first_seen": "2026-10-20T02:54:34.941404+00:00",
     "doi": "10.1177/09544062211054984",
+    "relevance_status": "直接相关",
+    "rule_contribution_type": "undetermined",
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "rule_category": "特种应用与产品",
+    "rule_confidence": "low",
     "category": "硬件与防爆",
     "classification_confidence": "人工核查",
     "classification_reason": "根据标题及当前资源描述，主要技术成果是机器人机构或专用硬件设计；可核对的内容：来源期刊/会议：Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechani",
     "needs_review": false,
+    "crosscheck_conflicts": [],
+    "crosscheck_pending": false,
     "tags": [
       "硬件与防爆"
     ],
@@ -55153,36 +55155,10 @@
     "score": 76,
     "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science。 A power line inspect（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
+    "manual_category_override": true,
+    "manual_override_reason": "根据标题及当前资源描述，主要技术成果是机器人机构或专用硬件设计；可核对的内容：来源期刊/会议：Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechani",
     "model_applied": false,
-    "model_reviewed_uncertain": true,
-    "model_suggested_category": "硬件与防爆",
-    "rule_category": "特种应用与产品",
-    "model_classification_reason": "提出可伸缩双串联机械臂结构，并分析其爬线越障性能",
-    "model_reviewed_at": "2026-10-20T06:52:45.312983+00:00",
-    "model_previous_confidence": "规则分类（模型待复核）",
     "classification_history": [
-      {
-        "id": "688a4543f53246d513",
-        "title": "The climbing performance analysis of a robot for power line inspection with retractable double serial manipulators",
-        "old_category": "特种应用与产品",
-        "new_category": "特种应用与产品",
-        "model_suggested_category": "硬件与防爆",
-        "reason": "提出可伸缩双串联机械臂结构，并分析其爬线越障性能",
-        "changed_at": "2026-10-20T06:42:37.983101+00:00",
-        "needs_review": true,
-        "status": "model_pending_review"
-      },
-      {
-        "id": "688a4543f53246d513",
-        "title": "The climbing performance analysis of a robot for power line inspection with retractable double serial manipulators",
-        "old_category": "特种应用与产品",
-        "new_category": "特种应用与产品",
-        "model_suggested_category": "硬件与防爆",
-        "reason": "提出可伸缩双串联机械臂结构，并分析其爬线越障性能",
-        "changed_at": "2026-10-20T06:52:45.312983+00:00",
-        "needs_review": true,
-        "status": "model_pending_review"
-      },
       {
         "old_category": "特种应用与产品",
         "new_category": "硬件与防爆",
@@ -55190,15 +55166,7 @@
         "reason": "根据标题及当前资源描述，主要技术成果是机器人机构或专用硬件设计；可核对的内容：来源期刊/会议：Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechani",
         "changed_at": "2026-10-20"
       }
-    ],
-    "relevance_status": "直接相关",
-    "rule_confidence": "low",
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
-    "manual_category_override": true,
-    "manual_override_reason": "根据标题及当前资源描述，主要技术成果是机器人机构或专用硬件设计；可核对的内容：来源期刊/会议：Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechani"
+    ]
   },
   {
     "id": "a696ac764b5a7e047e",
@@ -55333,10 +55301,17 @@
     "published": "2021-12-20",
     "first_seen": "2026-10-16T01:27:03.162219+00:00",
     "doi": "10.1109/icc54714.2021.9703148",
+    "relevance_status": "可迁移的机器人关键技术",
+    "rule_contribution_type": "undetermined",
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "rule_category": "感知建图与导航",
+    "rule_confidence": "high",
     "category": "感知建图与导航",
     "classification_confidence": "高",
     "classification_reason": "核心任务为环境感知、定位、建图或导航",
     "needs_review": false,
+    "crosscheck_conflicts": [],
+    "crosscheck_pending": false,
     "tags": [
       "感知建图与导航"
     ],
@@ -55344,14 +55319,7 @@
     "scope": "可迁移的机器人关键技术",
     "score": 72,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2021 Seventh Indian Control Conference (ICC)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "relevance_status": "可迁移的机器人关键技术",
-    "rule_category": "感知建图与导航",
-    "rule_confidence": "high",
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "817a4309728c35d868",
@@ -56360,10 +56328,17 @@
     "published": "2021-12-01",
     "first_seen": "2026-10-20T01:50:45.110740+00:00",
     "doi": "10.1016/j.robot.2021.103890",
+    "relevance_status": "可迁移的机器人关键技术",
+    "rule_contribution_type": "undetermined",
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "rule_category": "感知建图与导航",
+    "rule_confidence": "high",
     "category": "感知建图与导航",
     "classification_confidence": "高",
     "classification_reason": "核心任务为环境感知、定位、建图或导航",
     "needs_review": false,
+    "crosscheck_conflicts": [],
+    "crosscheck_pending": false,
     "tags": [
       "感知建图与导航"
     ],
@@ -56371,14 +56346,7 @@
     "scope": "可迁移的机器人关键技术",
     "score": 61,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Robotics and Autonomous Systems。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "relevance_status": "可迁移的机器人关键技术",
-    "rule_category": "感知建图与导航",
-    "rule_confidence": "high",
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "9551c1ece6a6bca458",
@@ -56507,10 +56475,17 @@
     "published": "2021-11-29",
     "first_seen": "2026-10-16T01:27:03.162856+00:00",
     "doi": "10.1109/ipin51156.2021.9662528",
+    "relevance_status": "可迁移的机器人关键技术",
+    "rule_contribution_type": "undetermined",
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "rule_category": "感知建图与导航",
+    "rule_confidence": "high",
     "category": "感知建图与导航",
     "classification_confidence": "高",
     "classification_reason": "核心任务为环境感知、定位、建图或导航",
     "needs_review": false,
+    "crosscheck_conflicts": [],
+    "crosscheck_pending": false,
     "tags": [
       "感知建图与导航"
     ],
@@ -56518,14 +56493,7 @@
     "scope": "可迁移的机器人关键技术",
     "score": 62,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2021 International Conference on Indoor Positioning and Indoor Navigation (IPIN)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "relevance_status": "可迁移的机器人关键技术",
-    "rule_category": "感知建图与导航",
-    "rule_confidence": "high",
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "be66ccb54ed9ef6736",
@@ -56537,10 +56505,17 @@
     "published": "2021-11-29",
     "first_seen": "2026-10-20T02:54:34.941462+00:00",
     "doi": "10.47191/etj/v6i11.04",
+    "relevance_status": "可迁移的机器人关键技术",
+    "rule_contribution_type": "感知建图与导航",
+    "rule_contribution_evidence": "环境感知、定位或空间导航任务",
+    "rule_category": "感知建图与导航",
+    "rule_confidence": "high",
     "category": "感知建图与导航",
     "classification_confidence": "高",
     "classification_reason": "主要任务是环境感知/地形估计而非 Agent 决策",
     "needs_review": false,
+    "crosscheck_conflicts": [],
+    "crosscheck_pending": false,
     "tags": [
       "感知建图与导航"
     ],
@@ -56548,14 +56523,7 @@
     "scope": "可迁移的机器人关键技术",
     "score": 61,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Engineering and Technology Journal。 This study propose the use of heterogeneous visual landmarks, points and line segments, to （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "relevance_status": "可迁移的机器人关键技术",
-    "rule_category": "感知建图与导航",
-    "rule_confidence": "high",
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "rule_contribution_type": "感知建图与导航",
-    "rule_contribution_evidence": "环境感知、定位或空间导航任务"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "9359c5f6bd6d742eba",
@@ -57103,10 +57071,17 @@
     "published": "2021-11-05",
     "first_seen": "2026-10-16T01:27:03.162058+00:00",
     "doi": "10.5614/itb.ijp.2021.32.1.1",
+    "relevance_status": "可迁移的机器人关键技术",
+    "rule_contribution_type": "undetermined",
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "rule_category": "感知建图与导航",
+    "rule_confidence": "high",
     "category": "感知建图与导航",
     "classification_confidence": "高",
     "classification_reason": "核心任务为环境感知、定位、建图或导航",
     "needs_review": false,
+    "crosscheck_conflicts": [],
+    "crosscheck_pending": false,
     "tags": [
       "感知建图与导航"
     ],
@@ -57114,14 +57089,7 @@
     "scope": "可迁移的机器人关键技术",
     "score": 74,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Indonesian Journal of Physics。 Volcano is a geological environment including magma, eruption, volcanic edifice and its basement（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "relevance_status": "可迁移的机器人关键技术",
-    "rule_category": "感知建图与导航",
-    "rule_confidence": "high",
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "60cbe870a540fb3177",
@@ -57575,10 +57543,17 @@
     "published": "2021-11-01",
     "first_seen": "2026-10-20T02:54:34.941584+00:00",
     "doi": "10.2174/2212797614666210224161332",
+    "relevance_status": "直接相关",
+    "rule_contribution_type": "undetermined",
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "rule_category": "小脑与运动控制",
+    "rule_confidence": "low",
     "category": "小脑与运动控制",
     "classification_confidence": "模型建议（待复核）",
     "classification_reason": "综述跳跃机器人分类、特征与专利进展，未提出新的跳跃运动控制方法",
     "needs_review": true,
+    "crosscheck_conflicts": [],
+    "crosscheck_pending": false,
     "tags": [
       "小脑与运动控制"
     ],
@@ -57589,13 +57564,11 @@
     "score": 71,
     "summary": "行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：消防与应急救援。来源期刊/会议：Recent Patents on Mechanical Engineering。 Background: Search and rescue in high-risk situations and searches in unknown environ（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "model_applied": false,
     "model_reviewed_uncertain": true,
-    "model_suggested_category": "小脑与运动控制",
-    "rule_category": "小脑与运动控制",
-    "model_classification_reason": "综述跳跃机器人分类、特征与专利进展，未提出新的跳跃运动控制方法",
     "model_reviewed_at": "2026-10-20T06:52:45.312983+00:00",
-    "model_previous_confidence": "规则分类（模型待复核）",
+    "model_applied": false,
+    "model_classification_reason": "综述跳跃机器人分类、特征与专利进展，未提出新的跳跃运动控制方法",
+    "model_suggested_category": "小脑与运动控制",
     "classification_history": [
       {
         "id": "7baee656a20643778e",
@@ -57619,13 +57592,7 @@
         "needs_review": true,
         "status": "model_pending_review"
       }
-    ],
-    "relevance_status": "直接相关",
-    "rule_confidence": "low",
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
+    ]
   },
   {
     "id": "3dbe8e0305bf2c06a1",
@@ -57697,10 +57664,17 @@
     "published": "2021-11-01",
     "first_seen": "2026-10-16T01:27:03.162251+00:00",
     "doi": "10.1109/irc52146.2021.00019",
+    "relevance_status": "可迁移的机器人关键技术",
+    "rule_contribution_type": "undetermined",
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "rule_category": "感知建图与导航",
+    "rule_confidence": "high",
     "category": "感知建图与导航",
     "classification_confidence": "高",
     "classification_reason": "核心任务为环境感知、定位、建图或导航",
     "needs_review": false,
+    "crosscheck_conflicts": [],
+    "crosscheck_pending": false,
     "tags": [
       "感知建图与导航"
     ],
@@ -57708,14 +57682,7 @@
     "scope": "可迁移的机器人关键技术",
     "score": 64,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2021 Fifth IEEE International Conference on Robotic Computing (IRC)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "relevance_status": "可迁移的机器人关键技术",
-    "rule_category": "感知建图与导航",
-    "rule_confidence": "high",
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "643c35c6dd07e07172",
@@ -57727,10 +57694,17 @@
     "published": "2021-11-01",
     "first_seen": "2026-10-20T02:54:34.941596+00:00",
     "doi": "10.1109/wcmeim54377.2021.00083",
+    "relevance_status": "可迁移的机器人关键技术",
+    "rule_contribution_type": "感知建图与导航",
+    "rule_contribution_evidence": "环境感知、定位或空间导航任务",
+    "rule_category": "感知建图与导航",
+    "rule_confidence": "high",
     "category": "感知建图与导航",
     "classification_confidence": "高",
     "classification_reason": "主要研究机器人导航路径规划、巡检或跟踪算法",
     "needs_review": false,
+    "crosscheck_conflicts": [],
+    "crosscheck_pending": false,
     "tags": [
       "感知建图与导航"
     ],
@@ -57738,14 +57712,7 @@
     "scope": "可迁移的机器人关键技术",
     "score": 64,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2021 4th World Conference on Mechanical Engineering and Intelligent Manufacturing (WCMEIM)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "relevance_status": "可迁移的机器人关键技术",
-    "rule_category": "感知建图与导航",
-    "rule_confidence": "high",
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "rule_contribution_type": "感知建图与导航",
-    "rule_contribution_evidence": "环境感知、定位或空间导航任务"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "7851c0c55ddfd5bf6a",
@@ -57952,10 +57919,17 @@
     "published": "2021-10-26",
     "first_seen": "2026-10-20T01:50:45.110866+00:00",
     "doi": "10.3390/s21217087",
+    "relevance_status": "可迁移的机器人关键技术",
+    "rule_contribution_type": "undetermined",
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "rule_category": "感知建图与导航",
+    "rule_confidence": "high",
     "category": "感知建图与导航",
     "classification_confidence": "高",
     "classification_reason": "核心任务为环境感知、定位、建图或导航",
     "needs_review": false,
+    "crosscheck_conflicts": [],
+    "crosscheck_pending": false,
     "tags": [
       "感知建图与导航"
     ],
@@ -57963,14 +57937,7 @@
     "scope": "可迁移的机器人关键技术",
     "score": 61,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Sensors。 Social robot navigation in public spaces, buildings or private houses is a difficult problem that is not well solved d（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "relevance_status": "可迁移的机器人关键技术",
-    "rule_category": "感知建图与导航",
-    "rule_confidence": "high",
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "fa549dbc5ba4d81440",
@@ -58014,10 +57981,17 @@
     "published": "2021-10-22",
     "first_seen": "2026-10-16T01:27:03.162190+00:00",
     "doi": "10.1109/cac53003.2021.9728061",
+    "relevance_status": "可迁移的机器人关键技术",
+    "rule_contribution_type": "undetermined",
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "rule_category": "感知建图与导航",
+    "rule_confidence": "high",
     "category": "感知建图与导航",
     "classification_confidence": "高",
     "classification_reason": "核心任务为环境感知、定位、建图或导航",
     "needs_review": false,
+    "crosscheck_conflicts": [],
+    "crosscheck_pending": false,
     "tags": [
       "感知建图与导航",
       "小脑与运动控制"
@@ -58026,14 +58000,7 @@
     "scope": "可迁移的机器人关键技术",
     "score": 73,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2021 China Automation Congress (CAC)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "relevance_status": "可迁移的机器人关键技术",
-    "rule_category": "感知建图与导航",
-    "rule_confidence": "high",
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "d5bed316c7fc2adb8a",
@@ -58075,10 +58042,17 @@
     "published": "2021-10-22",
     "first_seen": "2026-10-16T01:27:03.161903+00:00",
     "doi": "10.1109/cac53003.2021.9727831",
+    "relevance_status": "可迁移的机器人关键技术",
+    "rule_contribution_type": "undetermined",
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "rule_category": "感知建图与导航",
+    "rule_confidence": "high",
     "category": "感知建图与导航",
     "classification_confidence": "高",
     "classification_reason": "核心任务为环境感知、定位、建图或导航",
     "needs_review": false,
+    "crosscheck_conflicts": [],
+    "crosscheck_pending": false,
     "tags": [
       "感知建图与导航"
     ],
@@ -58086,14 +58060,7 @@
     "scope": "可迁移的机器人关键技术",
     "score": 72,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2021 China Automation Congress (CAC)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "relevance_status": "可迁移的机器人关键技术",
-    "rule_category": "感知建图与导航",
-    "rule_confidence": "high",
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "ecad627dbb36e19da5",
@@ -58225,10 +58192,17 @@
     "published": "2021-10-21",
     "first_seen": "2026-10-16T01:27:03.161984+00:00",
     "doi": "10.3390/rs13214216",
+    "relevance_status": "可迁移的机器人关键技术",
+    "rule_contribution_type": "undetermined",
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "rule_category": "感知建图与导航",
+    "rule_confidence": "high",
     "category": "感知建图与导航",
     "classification_confidence": "高",
     "classification_reason": "核心任务为环境感知、定位、建图或导航",
     "needs_review": false,
+    "crosscheck_conflicts": [],
+    "crosscheck_pending": false,
     "tags": [
       "感知建图与导航"
     ],
@@ -58236,13 +58210,6 @@
     "scope": "可迁移的机器人关键技术",
     "score": 73,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Remote Sensing。 The paper addresses the problem of mobile robots’ navigation using a hexagonal lattice. We carried out experime（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "relevance_status": "可迁移的机器人关键技术",
-    "rule_category": "感知建图与导航",
-    "rule_confidence": "high",
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   }
 ]
