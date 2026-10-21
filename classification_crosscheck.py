@@ -76,7 +76,16 @@ def apply_crosschecks(items):
             item["crosscheck_conflicts"]=[]
             item["crosscheck_pending"]=False
             continue
+        old_flags=list(item.get("crosscheck_conflicts") or [])
+        was_pending=bool(item.get("crosscheck_pending"))
         conflicts=crosscheck_high_confidence(item)
+        if was_pending and not conflicts:
+            # Keep the unresolved finding even if updated rules stop matching.
+            item["crosscheck_conflicts"]=old_flags
+            item["crosscheck_pending"]=True
+            item["needs_review"]=True
+            item["classification_confidence"]="规则分类（交叉检查待复核）"
+            continue
         item["crosscheck_conflicts"]=conflicts
         if conflicts:
             item["needs_review"]=True
