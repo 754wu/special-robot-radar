@@ -2426,5 +2426,38 @@
     "changed_at": "2026-10-21T03:06:16.935169+00:00",
     "needs_review": true,
     "status": "model_pending_review"
+  },
+  {
+    "id": "d864c808790f1d1900",
+    "title": "som-anshu/house_cleaner_ws",
+    "old_category": "特种应用与产品",
+    "new_category": "特种应用与产品",
+    "model_suggested_category": "特种应用与产品",
+    "reason": "集成ROS2自主清扫、自动回充与定位导航，形成完整家务机器人系统",
+    "changed_at": "2026-10-21T06:02:12.189060+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "4c793044b85b7446cc",
+    "title": "EMMA: Enhancing Robotic Control Robustness through a Generative Visual Model",
+    "old_category": "小脑与运动控制",
+    "new_category": "小脑与运动控制",
+    "model_suggested_category": "小脑与运动控制",
+    "reason": "提出EMMA生成数据增强及AdaMix训练，提升VLA操作鲁棒性",
+    "changed_at": "2026-10-21T06:02:12.189060+00:00",
+    "needs_review": false,
+    "status": "model_applied"
+  },
+  {
+    "id": "878bc2cc26bc4c139d",
+    "title": "Physical Canvas: A Vision Tactile World Model For Robot Policy Evaluation And Learning",
+    "old_category": "大脑与具身智能",
+    "new_category": "大脑与具身智能",
+    "model_suggested_category": "大脑与具身智能",
+    "reason": "构建状态一致的视觉触觉世界模型，统一多模态观测与动作条件",
+    "changed_at": "2026-10-21T06:02:12.189060+00:00",
+    "needs_review": false,
+    "status": "model_applied"
   }
 ]

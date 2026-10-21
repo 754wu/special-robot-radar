@@ -2091,5 +2091,32 @@
     "main_contribution": "MR-RAS混合现实搜救引导系统",
     "model_confidence": "MEDIUM",
     "source": "OpenRouter free router (metadata only)"
+  },
+  "d83fb8271353c245bd2dccce3010fa922522c3f862df201cd636c5f7194218c7": {
+    "primary_category": "特种应用与产品",
+    "secondary_categories": [],
+    "reason": "集成ROS2自主清扫、自动回充与定位导航，形成完整家务机器人系统",
+    "needs_review": false,
+    "main_contribution": "ROS2自主清扫机器人工作空间及自动回充集成",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "18a0f11c65c925c93658a3cfc36e8a4e82ec32aaf789e4bed146e8084df960a3": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "提出EMMA生成数据增强及AdaMix训练，提升VLA操作鲁棒性",
+    "needs_review": false,
+    "main_contribution": "EMMA生成数据增强与AdaMix训练框架",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "f0aaa5705c42d0e2bf45c733eaaba83d6143b345a3c100911d14e3fb4395f4ae": {
+    "primary_category": "大脑与具身智能",
+    "secondary_categories": [],
+    "reason": "构建状态一致的视觉触觉世界模型，统一多模态观测与动作条件",
+    "needs_review": false,
+    "main_contribution": "PhysCanvas状态一致的视觉触觉世界模型",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)"
   }
 }
