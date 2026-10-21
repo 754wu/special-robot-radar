@@ -1,8 +1,8 @@
 # 特种机器人七日技术简报
 
-生成时间：2026-10-20T10:32:19.950791+00:00
+生成时间：2026-10-21T01:48:33.103090+00:00
 
-最近 7 天首次记录 **1417** 条；本轮新增 **0** 条；总库存 **1636** 条。
+最近 7 天首次记录 **1439** 条；本轮新增 **0** 条；总库存 **1658** 条。
 
 **注意：**‘七日’按首次入库时间统计，不代表论文发表于最近七天；相关度评分只是初筛优先级，不是成熟度或质量评级。
 
@@ -17,7 +17,7 @@
 - [Resonant Inductive Coupling Power Transfer for Mid-Sized Inspection Robot](https://doi.org/10.32388/j9up4u) | 论文（摘要） | 特种场景直接相关 | 匹配度 83/100
   - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。This paper presents a wireless power transfer (WPT) for a mid-sized inspection mobile robot. The objective is to transmit 100 W of powe（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Metaheuristic Approach to Synthesis of Suspension System of Mobile Robot for Mining Infrastructure Inspection](https://doi.org/10.3390/s22228839) | 论文（摘要） | 特种场景直接相关 | 匹配度 83/100
-  - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：Sensors。 The article describes the problem of geometric synthesis of the inspection robot suspension system, designed for opera（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+  - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：Sensors。The article describes the problem of geometric synthesis of the inspection robot suspension system, designed for operat（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Research on Heat Transfer through a Double-Walled Heat Shield of a Firefighting Robot](https://doi.org/10.3390/machines10100942) | 论文（摘要） | 特种场景直接相关 | 匹配度 80/100
   - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：防爆石化与危险环境、消防与应急救援。来源期刊/会议：Machines。Burning forests, petrochemical installations and material warehouses generate very large fields and thermal gradients,（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Design and Experimental Validation of an Automatic Inspection Robot Control System based on Multi-Sensor Fusion](https://doi.org/10.54691/0vvjfj55) | 论文（摘要） | 特种场景直接相关 | 匹配度 78/100
@@ -67,6 +67,8 @@
 
 - [Learning-enabled collaborative intelligence in search and rescue robotics: a survey of paradigms, models, and challenges](https://doi.org/10.3389/frobt.2026.1832982) | 论文（摘要） | 特种场景直接相关 | 匹配度 76/100
   - 行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：消防与应急救援。来源期刊/会议：Frontiers in Robotics and AI。Search and Rescue (SAR) robotics increasingly depends on collaborative intelligence to operate eff（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Combined inspection strategy of bionic substation inspection robot based on improved Biological Inspired Neural Network](https://doi.org/10.1016/j.egyr.2021.10.007) | 论文（摘要） | 特种场景直接相关 | 匹配度 76/100
+  - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：Energy Reports。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Don't Run with Scissors: Pruning Breaks VLA Models but They Can Be Recovered](https://arxiv.org/abs/2510.08464) | 论文（摘要） | 特种场景直接相关 | 匹配度 72/100
   - 行业筛选：特种场景直接相关；方向：大脑与具身智能；关联：野外与特种地形。arXiv:2510.08464v2 Announce Type: replace Abstract: Vision-Language-Action (VLA) models are a promising paradigm for field robotics, bu（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Cognitive Load-Based Affective Workload Allocation for Multihuman Multirobot Teams](https://doi.org/10.1109/thms.2024.3509223) | 论文（摘要） | 特种场景直接相关 | 匹配度 71/100
@@ -79,8 +81,6 @@
   - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。As robotic agents increasingly assist humans in reality, quadruped robots offer unique opportunities（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Human-Flow-Aware Long-Term Mobile Robot Task Planning Based on Hierarchical Reinforcement Learning](https://doi.org/10.1109/lra.2023.3280816) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 65/100
   - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：IEEE Robotics and Automation Letters。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Robot Learning with Vision-Language-Action Models for Agricultural Manipulation](https://arxiv.org/abs/2610.26717) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 64/100
-  - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.26717v1 Announce Type: new Abstract: Robotic manipulation in agricultural environments remains challenging due to variations（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 感知建图与导航
 
