@@ -860,6 +860,26 @@ class RadarTests(unittest.TestCase):
         self.assertEqual(result["rule_category"],"小脑与运动控制")
         self.assertTrue(result["model_applied"])
 
+    def test_rule_crosscheck_pending_survives_daily_refresh(self):
+        from classification_crosscheck import apply_crosschecks
+        from main import preserve_model_classification
+        old={"title":"An uncertain robotics resource", "category":"大脑与具身智能",
+             "rule_confidence":"high", "crosscheck_pending":True,
+             "crosscheck_conflicts":[{"type":"historical","suggested_category":"感知建图与导航",
+                                       "reason":"曾发现研究贡献冲突"}],
+             "needs_review":True}
+        recomputed=dict(old, title="New description", needs_review=False,
+                        classification_confidence="高")
+        apply_crosschecks([recomputed])
+        self.assertTrue(recomputed["crosscheck_pending"])
+        self.assertTrue(recomputed["needs_review"])
+        raw={"title":"New description","category":"感知建图与导航",
+             "needs_review":False,"tags":[]}
+        carried=preserve_model_classification(raw,old)
+        self.assertTrue(carried["crosscheck_pending"])
+        self.assertTrue(carried["needs_review"])
+        self.assertEqual(carried["crosscheck_conflicts"][0]["type"],"historical")
+
     def test_generalized_contribution_boundary_cases(self):
         from taxonomy import classify_contribution
         examples=[
