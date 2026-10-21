@@ -197,12 +197,13 @@ def prioritize_reviews(items, cache, now):
         elif item.get("rule_confidence")=="high" and not item.get("model_reviewed_uncertain") and key not in cache:
             # Deterministic low-frequency sample; stable per record and UTC day.
             seed=str(item.get("id") or item.get("title") or "")
-            slot=int(hashlib.sha256(seed.encode()).hexdigest()[:8],16)%90
-            if slot==now.toordinal()%90:
+            slot=int(hashlib.sha256(seed.encode()).hexdigest()[:8],16)%30
+            if slot==now.toordinal()%30:
                 lanes[4].append(item)
     lanes[0].sort(key=lambda x:str(x.get("first_seen","")),reverse=True)
     lanes[1].sort(key=lambda x:str(x.get("first_seen","")))
     lanes[2].sort(key=lambda x:str(x.get("first_seen","")))
+    # Oldest pending second reviews first: do not let P4 sampling displace them.
     lanes[3].sort(key=lambda x:str(x.get("model_reviewed_at","")))
     lanes[4].sort(key=lambda x:str(x.get("title","")))
     for priority,lane in enumerate(lanes):
@@ -211,8 +212,8 @@ def prioritize_reviews(items, cache, now):
 
 
 
-def priority_batches(items, batch_size=3, p4_request_cap=5):
-    """Never mix priorities; P4 is limited to five requests / 15 items."""
+def priority_batches(items, batch_size=3, p4_request_cap=10):
+    """Never mix priorities; P4 is limited to ten requests / 30 items."""
     p4_used=0
     for priority in ("P0","P1","P2","P3","P4"):
         lane=[item for item in items if item.get("review_priority")==priority]
@@ -495,11 +496,11 @@ def main():
     if new_events:
         history_path.write_text(json.dumps(unique_history(history+new_events),ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     manual_queue=[x for x in items if x.get("manual_review_required")]
-    manual_lines=["# 人工分类待审队列","","模型最多审核两次且间隔至少4天；两次后仍不明确的资源列于此处。","",f"- 资源数量：{len(manual_queue)}",""]
+    manual_lines=["# 人工分类待审队列","","模型最多审核两次，首次复核后第4至第7天安排二次复核；若API额度或故障未能及时执行则持续优先重试。两次后仍不明确的资源列于此处。","",f"- 资源数量：{len(manual_queue)}",""]
     for x in manual_queue:
         manual_lines += [f"- {x.get('title','')} | {x.get('category','')} | {x.get('url','')}"]
     (ROOT/"docs/manual_review_queue.md").write_text("\n".join(manual_lines)+"\n",encoding="utf-8")
-    lines=["# 免费大模型辅助分类审核","","确定结果可用于改类；不确定则保留规则分类并继续待复核。","",
+    lines=["# 免费大模型辅助分类审核","","分类冲突时暂用模型类别并进入二次复核；分类一致则记录已审核、不再重复抽查。","",
            f"- 规则分类资源：{len(items)}",
            f"- 具有当前分类版本模型建议：{reviewed_records}",
            f"- 本次新增建议：{reviewed}",
