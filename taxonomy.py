@@ -626,6 +626,14 @@ def classify_contribution(title: str, description: str = "", source: str = "") -
         return result(CONTROL, "特殊足端是使用条件，主要贡献可能是攀爬运动控制",
                       (HARDWARE,), review=True)
 
+    # Explicit software deliverables win over the task they are used to test.
+    if has(t, r"simulation.worlds|gazebo.worlds|simulation.scenarios|benchmark.dataset|navigation.dataset") and has(t + " " + d, r"gazebo|simulation|dataset|benchmark|worlds"):
+        return result(SOFTWARE, "主要交付可复用的仿真场景、数据集或基准，而非其中测试的导航方法")
+    # ROS/Gazebo are merely development environments when the contribution
+    # is a navigation/perception method.
+    if has(t, r"pure.pursuit.algorithm|lidar.sensor.for.mobile.robot.delivery|slam.algorithm.using.ros|path.planning.algorithm.using.ros"):
+        return result(NAV, "主要交付路径跟随、激光感知或导航算法，ROS仅为实现环境")
+
     # Dedicated evidence-based embodied classifier; avoid counting every use of
     # "agent" or "VLM" as high-level embodied reasoning.
     from embodied_topics import embodied_decision

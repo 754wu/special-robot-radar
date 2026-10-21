@@ -19,6 +19,15 @@ def contribution_evidence(title, description=""):
         return bool(re.search(pattern,source,re.I))
     if match(r"(?:explosion.proof|flameproof).{0,50}(?:motor|battery|valve|actuator|enclosure)|(?:motor|battery|valve).{0,35}explosion.proof") and match(r"design|performance|optimization|model|current.sharing|relief|electromagnetic|structure"):
         return HARDWARE,"防爆设备物理或电气设计成果"
+    # Primary deliverable boundaries, before generic keyword evidence.
+    if match(r"simulation.worlds|gazebo.worlds|simulation.scenarios|navigation.dataset"):
+        return SOFTWARE,"主要交付仿真场景或数据资源，而非导航算法"
+    if match(r"pure.pursuit.algorithm|lidar.sensor.for.mobile.robot.delivery|slam.algorithm.using.ros"):
+        return NAV,"ROS是实现平台，贡献为导航、跟踪或激光感知方法"
+    if match(r"token.compression|geometric.inductive.bias|human.video.guided.adaptation") and match(r"vla|vision.language.action"):
+        return BRAIN,"具身基础模型架构、表示或推理效率创新"
+    if match(r"vla.models?.for.agricultural.manipulation"):
+        return CONTROL,"特定机器人操作任务的动作策略适配"
     if match(r"\b(?:pid|lqr|mpc)\b.{0,30}control|gait.control|locomotion.policy|trajectory.interpolation|polynomial.interpolation.algorithm|flipper.control|force.control"):
         return CONTROL,"底层运动控制或轨迹生成"
     if match(r"\b(?:slam|odometry|localization|visual.pose.estimation|object.detection|defect.detection|path.planning|path.optimization|vision.language.navigation|zero.shot.navigation)\b"):

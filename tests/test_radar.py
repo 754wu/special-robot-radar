@@ -860,6 +860,26 @@ class RadarTests(unittest.TestCase):
         self.assertEqual(result["rule_category"],"小脑与运动控制")
         self.assertTrue(result["model_applied"])
 
+    def test_generalized_contribution_boundary_cases(self):
+        from taxonomy import classify_contribution
+        examples=[
+            ("FastVLA: Task-Conditioned and Temporally Adaptive Visual Token Compression for Efficient Vision-Language-Action Models",
+             "vision language action inference efficiency", "大脑与具身智能"),
+            ("G$^3$VLA: Geometric Inductive Bias for Vision-Language-Action Models",
+             "cross view fusion geometry", "大脑与具身智能"),
+            ("Robot Learning with Vision-Language-Action Models for Agricultural Manipulation",
+             "robot manipulation action policy adaptation", "小脑与运动控制"),
+            ("42 Gazebo Harmonic Simulation Worlds for Navigation, Exploration and SLAM workflows",
+             "we release reusable simulator worlds", "基础软件与系统"),
+            ("Implementation of Pure Pursuit Algorithm for Nonholonomic Mobile Robot using Robot Operating System",
+             "robot path following with ROS", "感知建图与导航"),
+            ("Implementation of LiDAR Sensor for Mobile Robot Delivery Based on Robot Operating System",
+             "sensor perception for delivery navigation", "感知建图与导航"),
+        ]
+        for title, abstract, category in examples:
+            with self.subTest(title=title):
+                self.assertEqual(classify_contribution(title, abstract).category, category)
+
     def test_vla_model_research_categories_are_brain_and_protected(self):
         from main import apply_manual_correction, preserve_model_classification
         titles = [
