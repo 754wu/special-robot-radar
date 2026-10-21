@@ -900,6 +900,24 @@ class RadarTests(unittest.TestCase):
             with self.subTest(title=title):
                 self.assertEqual(classify_contribution(title, abstract).category, category)
 
+    def test_manual_reaudit_overrides_prior_protected_category(self):
+        from metadata_review_manual_reaudit_20261021 import BATCH_DECISIONS
+        from main import apply_manual_correction, preserve_model_classification
+        self.assertEqual(len(BATCH_DECISIONS), 7)
+        for title, (expected, reason) in BATCH_DECISIONS.items():
+            with self.subTest(title=title):
+                original = {"title": title, "category": "特种应用与产品",
+                            "needs_review": True, "tags": []}
+                corrected = apply_manual_correction(original)
+                self.assertEqual(corrected["category"], expected)
+                self.assertTrue(corrected["manual_category_override"])
+                self.assertGreater(len(reason), 30)
+                rule_update = {"title": title, "category": "小脑与运动控制",
+                               "rule_category": "小脑与运动控制", "tags": []}
+                preserved = preserve_model_classification(rule_update, corrected)
+                self.assertEqual(preserved["category"], expected)
+                self.assertFalse(preserved["needs_review"])
+
     def test_vla_model_research_categories_are_brain_and_protected(self):
         from main import apply_manual_correction, preserve_model_classification
         titles = [
