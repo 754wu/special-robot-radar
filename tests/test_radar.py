@@ -860,6 +860,26 @@ class RadarTests(unittest.TestCase):
         self.assertEqual(result["rule_category"],"小脑与运动控制")
         self.assertTrue(result["model_applied"])
 
+    def test_vla_model_research_categories_are_brain_and_protected(self):
+        from main import apply_manual_correction, preserve_model_classification
+        titles = [
+            "FastVLA: Task-Conditioned and Temporally Adaptive Visual Token Compression for Efficient Vision-Language-Action Models",
+            "One-shot Human Video-Guided Adaptation for Vision-Language-Action Models",
+            "G$^3$VLA: Geometric Inductive Bias for Vision-Language-Action Models",
+        ]
+        for title in titles:
+            with self.subTest(title=title):
+                reviewed = apply_manual_correction(
+                    {"title": title, "category": "小脑与运动控制",
+                     "needs_review": True, "tags": []})
+                self.assertEqual(reviewed["category"], "大脑与具身智能")
+                self.assertTrue(reviewed["manual_category_override"])
+                refreshed = preserve_model_classification(
+                    {"title": title, "category": "小脑与运动控制",
+                     "needs_review": True, "tags": []}, reviewed)
+                self.assertEqual(refreshed["category"], "大脑与具身智能")
+                self.assertFalse(refreshed["needs_review"])
+
     def test_high_confidence_rule_audit_corrections_stay_protected(self):
         from metadata_review_high_confidence_20261020 import BATCH_DECISIONS
         from main import apply_manual_correction, preserve_model_classification, KEYWORDS
