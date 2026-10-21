@@ -60,6 +60,12 @@ def crosscheck_high_confidence(item):
         r"object.detection|visual.recognition|navigation.algorithm|path.planning.algorithm") and not has(
         r"middleware|framework|software.architecture|benchmark|dataset"):
         flag("tool_vs_deliverable",NAV,"ROS只是算法运行环境，主要成果可能是感知或导航方法")
+    if category==CONTROL and has(r"token.compression|geometric.inductive.bias|human.video.guided.adaptation") and has(r"vla|vision.language.action"):
+        flag("foundation_model_vs_policy",BRAIN,"主要研究VLA模型架构、表示或推理效率，而非直接优化动作控制器")
+    if category==NAV and has(r"simulation.worlds|gazebo.worlds|simulation.scenarios"):
+        flag("simulation_deliverable_vs_navigation",SOFTWARE,"主要交付仿真环境资源，导航是其测试用途")
+    if category==SOFTWARE and has(r"pure.pursuit.algorithm|lidar.sensor.for.mobile.robot.delivery"):
+        flag("ros_tool_vs_navigation",NAV,"ROS只是实现平台，主要贡献为导航或激光感知")
     return flags[:2]
 
 def apply_crosschecks(items):
