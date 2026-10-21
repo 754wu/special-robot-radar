@@ -1,6 +1,6 @@
 # 特种机器人七日技术简报
 
-生成时间：2026-10-21T03:06:17.097373+00:00
+生成时间：2026-10-21T03:31:48.769418+00:00
 
 最近 7 天首次记录 **1439** 条；本轮新增 **0** 条；总库存 **1658** 条。
 
@@ -14,6 +14,8 @@
   - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：University of Wah Journal of Science and Technology (UWJST)。Rescue and hazard management operations are susceptible to damages （仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [FlyingDog: design and implementation of a quadruped robot with flight capability](https://doi.org/10.1108/ir-09-2024-0455) | 论文（摘要） | 特种场景直接相关 | 匹配度 85/100
   - 行业筛选：特种场景直接相关；方向：硬件与防爆；关联：消防与应急救援、工业与能源巡检。来源期刊/会议：Industrial Robot the international journal of robotics research and application。Purpose This paper aims to design a novel hybri（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Improving the energy efficiency of quadruped robots on uneven terrains through bio-inspired elastic design](https://doi.org/10.56028/aetr.15.1.1430.2025) | 论文（摘要） | 特种场景直接相关 | 匹配度 83/100
+  - 行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：消防与应急救援。来源期刊/会议：Advances in Engineering Technology Research。This study demonstrates that bio-inspired elastic leg design significantly enhances（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Resonant Inductive Coupling Power Transfer for Mid-Sized Inspection Robot](https://doi.org/10.32388/j9up4u) | 论文（摘要） | 特种场景直接相关 | 匹配度 83/100
   - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。This paper presents a wireless power transfer (WPT) for a mid-sized inspection mobile robot. The objective is to transmit 100 W of powe（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Metaheuristic Approach to Synthesis of Suspension System of Mobile Robot for Mining Infrastructure Inspection](https://doi.org/10.3390/s22228839) | 论文（摘要） | 特种场景直接相关 | 匹配度 83/100
@@ -22,8 +24,6 @@
   - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：防爆石化与危险环境、消防与应急救援。来源期刊/会议：Machines。Burning forests, petrochemical installations and material warehouses generate very large fields and thermal gradients,（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Design and Experimental Validation of an Automatic Inspection Robot Control System based on Multi-Sensor Fusion](https://doi.org/10.54691/0vvjfj55) | 论文（摘要） | 特种场景直接相关 | 匹配度 78/100
   - 行业筛选：特种场景直接相关；方向：硬件与防爆；关联：工业与能源巡检。来源期刊/会议：Frontiers in Science and Engineering。To address the problems of high labor intensity, low efficiency, and safety risks in tradi（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Track Mechanism Design for a Differential Drive Fire Fighting Robot](https://doi.org/10.56220/uwjst.v8i.198) | 论文（摘要） | 特种场景直接相关 | 匹配度 78/100
-  - 行业筛选：特种场景直接相关；方向：硬件与防爆；关联：消防与应急救援。来源期刊/会议：University of Wah Journal of Science and Technology (UWJST)。Rescue missions and disaster management expose human life to risk f（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 基础软件与系统
 
@@ -127,3 +127,8 @@
 ## 下一步人工核验
 
 优先核实论文正文、开源许可证、仿真/实机差异和适用硬件；涉及防爆的技术需查原始认证文件、气体组别与温度组别。
+
+
+## 五年历史补录进度
+
+已完成 395 / 395 项年度/主题定向查询，详见 [backfill_report.md](backfill_report.md)。

@@ -1148,14 +1148,14 @@
     "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
     "rule_category": "大脑与具身智能",
     "rule_confidence": "low",
-    "category": "小脑与运动控制",
+    "category": "大脑与具身智能",
     "classification_confidence": "人工核查",
-    "classification_reason": "摘要提出多帧VLA动作策略中的历史视觉特征压缩模块，贡献为机器人操作动作解码。",
+    "classification_reason": "摘要提出VLA解码端可学习的历史视觉Token凝缩模块，通过查询和交叉注意力压缩多帧上下文；主要创新为基础模型的多帧表征与推理结构，并非运动控制器。",
     "needs_review": false,
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
     "tags": [
-      "小脑与运动控制",
+      "大脑与具身智能",
       "VLA"
     ],
     "industry_tags": [],
@@ -1164,17 +1164,8 @@
     "summary": "行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.25927v2 Announce Type: cross Abstract: Robot manipulation often depends on short-term cues - such as brief contacts, tempora（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
     "manual_category_override": true,
-    "manual_override_reason": "摘要提出多帧VLA动作策略中的历史视觉特征压缩模块，贡献为机器人操作动作解码。",
-    "model_applied": false,
-    "classification_history": [
-      {
-        "old_category": "大脑与具身智能",
-        "new_category": "小脑与运动控制",
-        "status": "manual_correction",
-        "reason": "摘要提出多帧VLA动作策略中的历史视觉特征压缩模块，贡献为机器人操作动作解码。",
-        "changed_at": "2026-10-20"
-      }
-    ]
+    "manual_override_reason": "摘要提出VLA解码端可学习的历史视觉Token凝缩模块，通过查询和交叉注意力压缩多帧上下文；主要创新为基础模型的多帧表征与推理结构，并非运动控制器。",
+    "model_applied": false
   },
   {
     "id": "986716f2e6fd750fdb",
@@ -2655,12 +2646,12 @@
     "description": "arXiv:2610.20750v1 Announce Type: new Abstract: Vision-language-action (VLA) models are a promising approach to general purpose robot manipulation. While the internal computation of vision-language models, which compose the backbone of VLAs, has been studied extensively, less is known about how their perceptual and semantic representations are transformed into action in VLA models. We study this question mechanistically in three frontier VLA models ($\\pi_{0.5}$, MolmoAct2, and MolmoBot) by analyzing the causal pathways through which the input image and the instruction shape actions. Across the three models, activation patching shows that causally relevant information influences the action expert (AE) through a narrow band of mid-to-late cross-attention layers, which we term the action-conditioning interface. The content of this information changes with token and layer within the model. E",
     "published": "2026-10-16T04:00:00+00:00",
     "first_seen": "2026-10-16T05:50:30.977545+00:00",
-    "category": "小脑与运动控制",
+    "category": "大脑与具身智能",
     "classification_confidence": "人工核查",
-    "classification_reason": "依据资源标题及所提供摘要，主要技术成果涉及动作策略、运动动力学与控制；摘要证据：arXiv:2610.20750v1 Announce Type: new Abstract: Vision-language-action (VLA) models are a promising approach to gen",
+    "classification_reason": "摘要采用激活修补分析π0.5等VLA的视觉语言信息到动作专家的因果通路，主要贡献为具身基础模型机制解释与计算效率。",
     "needs_review": false,
     "tags": [
-      "小脑与运动控制"
+      "大脑与具身智能"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -2748,6 +2739,13 @@
         "changed_at": "2026-10-20T06:52:45.312983+00:00",
         "needs_review": true,
         "status": "model_pending_review"
+      },
+      {
+        "old_category": "小脑与运动控制",
+        "new_category": "大脑与具身智能",
+        "status": "manual_correction",
+        "reason": "摘要采用激活修补分析π0.5等VLA的视觉语言信息到动作专家的因果通路，主要贡献为具身基础模型机制解释与计算效率。",
+        "changed_at": "2026-10-20"
       }
     ],
     "model_reviewed_uncertain": true,
@@ -2759,7 +2757,7 @@
     "rule_contribution_type": "undetermined",
     "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
     "manual_category_override": true,
-    "manual_override_reason": "依据资源标题及所提供摘要，主要技术成果涉及动作策略、运动动力学与控制；摘要证据：arXiv:2610.20750v1 Announce Type: new Abstract: Vision-language-action (VLA) models are a promising approach to gen"
+    "manual_override_reason": "摘要采用激活修补分析π0.5等VLA的视觉语言信息到动作专家的因果通路，主要贡献为具身基础模型机制解释与计算效率。"
   },
   {
     "id": "70ac399918fe3f0206",
@@ -2991,12 +2989,12 @@
     "description": "arXiv:2610.21389v1 Announce Type: new Abstract: Vision-language-action (VLA) policies commonly place a multi-billion-parameter model inside the feedback loop, repeatedly recomputing task context whenever they predict a new action chunk. Yet task understanding changes far more slowly than the robot state. We introduce Fast-VLA, which invokes a frozen 4B VLM once per episode to contextualize the instruction and initial views as fixed, multi-layer key-value task memory. During execution, a lightweight online actor fuses learned time- and arm-indexed queries with current visual and proprioceptive feedback to form action queries. These queries retrieve task context from the fixed memory and predict action chunks without re-running the foundation model. Fast-VLA achieves 92.46% and 92.40% success on RoboTwin 2.0 Clean and Randomized, and 95.95% and 79.11% on LIBERO and LIBERO-Plus evaluation. ",
     "published": "2026-10-16T04:00:00+00:00",
     "first_seen": "2026-10-16T05:50:30.978844+00:00",
-    "category": "小脑与运动控制",
+    "category": "大脑与具身智能",
     "classification_confidence": "人工核查",
-    "classification_reason": "依据资源标题及所提供摘要，主要技术成果涉及动作策略、运动动力学与控制；摘要证据：arXiv:2610.21389v1 Announce Type: new Abstract: Vision-language-action (VLA) policies commonly place a multi-billio",
+    "classification_reason": "摘要提出VLM每回合仅编码一次任务上下文、利用固定多层KV记忆供在线Actor查询，主要贡献为VLA模型推理架构与效率优化。",
     "needs_review": false,
     "tags": [
-      "小脑与运动控制",
+      "大脑与具身智能",
       "VLA"
     ],
     "industry_tags": [],
@@ -3103,7 +3101,7 @@
     "rule_contribution_type": "undetermined",
     "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
     "manual_category_override": true,
-    "manual_override_reason": "依据资源标题及所提供摘要，主要技术成果涉及动作策略、运动动力学与控制；摘要证据：arXiv:2610.21389v1 Announce Type: new Abstract: Vision-language-action (VLA) policies commonly place a multi-billio"
+    "manual_override_reason": "摘要提出VLM每回合仅编码一次任务上下文、利用固定多层KV记忆供在线Actor查询，主要贡献为VLA模型推理架构与效率优化。"
   },
   {
     "id": "fbc3ecfb0afec1b8cb",
@@ -20958,12 +20956,12 @@
     "published": "2025-11-20",
     "first_seen": "2026-10-15T02:18:32.297178+00:00",
     "doi": "https://doi.org/10.56028/aetr.15.1.1430.2025",
-    "category": "小脑与运动控制",
+    "category": "硬件与防爆",
     "classification_confidence": "人工核查",
-    "classification_reason": "根据标题及当前资源描述，主要技术成果是运动与操作控制策略；可核对的内容：来源期刊/会议：Advances in Engineering Technology Research。This study demonstrates that bio-inspi",
+    "classification_reason": "摘要提出可调刚度弹性腿结构与样机并验证不同地形下能效提升；创新集中在仿生弹性物理腿设计。",
     "needs_review": false,
     "tags": [
-      "小脑与运动控制"
+      "硬件与防爆"
     ],
     "industry_tags": [
       "消防与应急救援"
@@ -20981,8 +20979,17 @@
     "rule_contribution_type": "undetermined",
     "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
     "manual_category_override": true,
-    "manual_override_reason": "根据标题及当前资源描述，主要技术成果是运动与操作控制策略；可核对的内容：来源期刊/会议：Advances in Engineering Technology Research。This study demonstrates that bio-inspi",
-    "model_applied": false
+    "manual_override_reason": "摘要提出可调刚度弹性腿结构与样机并验证不同地形下能效提升；创新集中在仿生弹性物理腿设计。",
+    "model_applied": false,
+    "classification_history": [
+      {
+        "old_category": "小脑与运动控制",
+        "new_category": "硬件与防爆",
+        "status": "manual_correction",
+        "reason": "摘要提出可调刚度弹性腿结构与样机并验证不同地形下能效提升；创新集中在仿生弹性物理腿设计。",
+        "changed_at": "2026-10-20"
+      }
+    ]
   },
   {
     "id": "13bf95af619c1fccc5",
@@ -27992,9 +27999,9 @@
     "published": "2025-01-01",
     "first_seen": "2026-10-15T03:42:36.724034+00:00",
     "doi": "10.7868/s3034644425030146",
-    "category": "小脑与运动控制",
+    "category": "硬件与防爆",
     "tags": [
-      "小脑与运动控制"
+      "硬件与防爆"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -28002,7 +28009,7 @@
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Известия Российской академии наук. Теория и системы управления / Journal of Computer and System Sciences International。 The art（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
     "classification_confidence": "人工核查",
-    "classification_reason": "根据标题及当前资源描述，主要技术成果是运动与操作控制策略；可核对的内容：来源期刊/会议：Известия Российской академии наук. Теория и системы управления / Journal of Comput",
+    "classification_reason": "摘要明确交付MORS小型四足机器人整机的机械设计、无刷驱动电子与模块化结构；运动控制算法属于集成组成部分。",
     "needs_review": false,
     "relevance_status": "可迁移的机器人关键技术",
     "rule_category": "小脑与运动控制",
@@ -28013,8 +28020,17 @@
     "rule_contribution_type": "undetermined",
     "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
     "manual_category_override": true,
-    "manual_override_reason": "根据标题及当前资源描述，主要技术成果是运动与操作控制策略；可核对的内容：来源期刊/会议：Известия Российской академии наук. Теория и системы управления / Journal of Comput",
-    "model_applied": false
+    "manual_override_reason": "摘要明确交付MORS小型四足机器人整机的机械设计、无刷驱动电子与模块化结构；运动控制算法属于集成组成部分。",
+    "model_applied": false,
+    "classification_history": [
+      {
+        "old_category": "小脑与运动控制",
+        "new_category": "硬件与防爆",
+        "status": "manual_correction",
+        "reason": "摘要明确交付MORS小型四足机器人整机的机械设计、无刷驱动电子与模块化结构；运动控制算法属于集成组成部分。",
+        "changed_at": "2026-10-20"
+      }
+    ]
   },
   {
     "id": "f6d6c9956adc725f40",
@@ -31905,12 +31921,12 @@
     "published": "2024-09-16",
     "first_seen": "2026-10-15T05:35:50.678725+00:00",
     "doi": "10.3390/biomimetics9090559",
-    "category": "特种应用与产品",
+    "category": "硬件与防爆",
     "classification_confidence": "人工核查",
-    "classification_reason": "依据资源标题及所提供摘要，主要技术成果涉及机器人系统集成、行业应用与现场部署；摘要证据：Untethered magnetic soft robots show great potential for biomedical and small-scale micromanipulation applications ",
+    "classification_reason": "摘要明确提出具有特定磁化角度、磁性顶盖和多模态运动能力的磁驱四足软体机器人新结构，主要技术交付为机器人本体与驱动机制。",
     "needs_review": false,
     "tags": [
-      "特种应用与产品"
+      "硬件与防爆"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -31926,7 +31942,7 @@
     "rule_contribution_type": "undetermined",
     "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
     "manual_category_override": true,
-    "manual_override_reason": "依据资源标题及所提供摘要，主要技术成果涉及机器人系统集成、行业应用与现场部署；摘要证据：Untethered magnetic soft robots show great potential for biomedical and small-scale micromanipulation applications ",
+    "manual_override_reason": "摘要明确提出具有特定磁化角度、磁性顶盖和多模态运动能力的磁驱四足软体机器人新结构，主要技术交付为机器人本体与驱动机制。",
     "model_applied": false,
     "classification_history": [
       {
@@ -31934,6 +31950,13 @@
         "new_category": "特种应用与产品",
         "status": "manual_correction",
         "reason": "依据资源标题及所提供摘要，主要技术成果涉及机器人系统集成、行业应用与现场部署；摘要证据：Untethered magnetic soft robots show great potential for biomedical and small-scale micromanipulation applications ",
+        "changed_at": "2026-10-20"
+      },
+      {
+        "old_category": "小脑与运动控制",
+        "new_category": "硬件与防爆",
+        "status": "manual_correction",
+        "reason": "摘要明确提出具有特定磁化角度、磁性顶盖和多模态运动能力的磁驱四足软体机器人新结构，主要技术交付为机器人本体与驱动机制。",
         "changed_at": "2026-10-20"
       }
     ]
@@ -51369,12 +51392,12 @@
     "published": "2022-05-25",
     "first_seen": "2026-10-16T05:51:50.441597+00:00",
     "doi": "10.1126/scirobotics.abm8597",
-    "category": "特种应用与产品",
+    "category": "硬件与防爆",
     "classification_confidence": "人工核查",
-    "classification_reason": "依据资源标题及所提供摘要，主要技术成果涉及机器人系统集成、行业应用与现场部署；摘要证据：In complex systems like aircraft engines and oil refinery machines, pipeline inspection is an essential task for en",
+    "classification_reason": "摘要提出2.2克、直径小于10毫米的介电弹性体驱动微型管道机器人及锚定结构，主要创新为微型机器人驱动硬件与实体构型。",
     "needs_review": false,
     "tags": [
-      "特种应用与产品"
+      "硬件与防爆"
     ],
     "industry_tags": [
       "工业与能源巡检"
@@ -51392,8 +51415,17 @@
     "rule_contribution_type": "undetermined",
     "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
     "manual_category_override": true,
-    "manual_override_reason": "依据资源标题及所提供摘要，主要技术成果涉及机器人系统集成、行业应用与现场部署；摘要证据：In complex systems like aircraft engines and oil refinery machines, pipeline inspection is an essential task for en",
-    "model_applied": false
+    "manual_override_reason": "摘要提出2.2克、直径小于10毫米的介电弹性体驱动微型管道机器人及锚定结构，主要创新为微型机器人驱动硬件与实体构型。",
+    "model_applied": false,
+    "classification_history": [
+      {
+        "old_category": "特种应用与产品",
+        "new_category": "硬件与防爆",
+        "status": "manual_correction",
+        "reason": "摘要提出2.2克、直径小于10毫米的介电弹性体驱动微型管道机器人及锚定结构，主要创新为微型机器人驱动硬件与实体构型。",
+        "changed_at": "2026-10-20"
+      }
+    ]
   },
   {
     "id": "26ff52a10f2195997d",
@@ -53962,8 +53994,7 @@
     "scope": "特种场景直接相关",
     "score": 73,
     "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：矿山与地下空间。来源期刊/会议：Global Journal of Engineering and Technology Advances。Underground mining operations face persistent challenges associated with （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "1bd32224175dc345cb",
