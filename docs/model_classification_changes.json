@@ -2393,5 +2393,38 @@
     "changed_at": "2026-10-21T02:20:39.148649+00:00",
     "needs_review": true,
     "status": "model_pending_review"
+  },
+  {
+    "id": "1dc0968478dc39f58b",
+    "title": "Development of a Legged Robot for Diverse and Challenging Terrains",
+    "old_category": "小脑与运动控制",
+    "new_category": "硬件与防爆",
+    "model_suggested_category": "硬件与防爆",
+    "reason": "提出低成本四足机器人平台与平面腿机构，并设计伺服标定补偿以改善步态重复性",
+    "changed_at": "2026-10-21T03:06:16.935169+00:00",
+    "needs_review": false,
+    "status": "model_applied"
+  },
+  {
+    "id": "d334dd4739904875c0",
+    "title": "Enhancing cellular-enabled collaborative robots planning through GNSS data for SAR scenarios",
+    "old_category": "感知建图与导航",
+    "new_category": "感知建图与导航",
+    "model_suggested_category": "感知建图与导航",
+    "reason": "提出融合GNSS、能耗与响应目标的搜救机器人任务规划及部署优化框架",
+    "changed_at": "2026-10-21T03:06:16.935169+00:00",
+    "needs_review": false,
+    "status": "model_applied"
+  },
+  {
+    "id": "918a89969289440932",
+    "title": "Mixed-reality for quadruped-robotic guidance in SAR tasks",
+    "old_category": "感知建图与导航",
+    "new_category": "特种应用与产品",
+    "model_suggested_category": "特种应用与产品",
+    "reason": "研发混合现实救援系统，结合手势引导与视觉信息管理完成四足机器人搜救验证",
+    "changed_at": "2026-10-21T03:06:16.935169+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
   }
 ]

@@ -2064,5 +2064,32 @@
     "model_confidence": "LOW",
     "source": "OpenRouter free router (metadata only)",
     "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "c5ecfb12d34bca41ee2bd080bfd7369419930a04ce2a3e1d8bee5d7fb16b3b30": {
+    "primary_category": "硬件与防爆",
+    "secondary_categories": [],
+    "reason": "提出低成本四足机器人平台与平面腿机构，并设计伺服标定补偿以改善步态重复性",
+    "needs_review": false,
+    "main_contribution": "低成本四足机器人平台、平面腿机构及伺服标定补偿设计",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "24ad5dcc818255b6fc68415cbd8f70b2156d015046a1b62252a3598ad4d8df52": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "提出融合GNSS、能耗与响应目标的搜救机器人任务规划及部署优化框架",
+    "needs_review": false,
+    "main_contribution": "融合GNSS与能耗的搜救机器人任务规划框架",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "830e061fb7beb8f8c5973675d231ad3e999010f7bfff4843993fefbd6fa0319e": {
+    "primary_category": "特种应用与产品",
+    "secondary_categories": [],
+    "reason": "研发混合现实救援系统，结合手势引导与视觉信息管理完成四足机器人搜救验证",
+    "needs_review": false,
+    "main_contribution": "MR-RAS混合现实搜救引导系统",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)"
   }
 }
