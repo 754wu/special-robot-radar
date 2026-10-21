@@ -43,6 +43,18 @@ jobs:
           python-version: '3.11'
           cache: pip
       - run: pip install -r requirements.txt
+      - name: Synchronize latest archive before generation
+        run: |
+          # Queued runs can start from an older main after an earlier run has
+          # committed docs/. Always generate against the latest archive.
+          git fetch origin main
+          changed_source="$(git diff --name-only HEAD origin/main -- . ':!docs')"
+          if [ -n "$changed_source" ]; then
+            echo "::error::Source code changed since this run started. Wait for the newer push workflow instead of publishing stale code."
+            printf '%s\n' "$changed_source"
+            exit 1
+          fi
+          git checkout -B build-main origin/main
       - name: Fetch, classify, render
         env:
           OPENAI_API_KEY: ''
