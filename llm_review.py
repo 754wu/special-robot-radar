@@ -213,9 +213,9 @@ def prioritize_reviews(items, cache, now):
 
 
 def priority_batches(items, batch_size=3, p4_request_cap=10):
-    """Never mix priorities; P4 is limited to ten requests / 30 items."""
+    """Never mix priorities; second reviews take precedence over new sampling."""
     p4_used=0
-    for priority in ("P0","P1","P2","P3","P4"):
+    for priority in ("P3","P0","P1","P2","P4"):
         lane=[item for item in items if item.get("review_priority")==priority]
         for offset in range(0,len(lane),batch_size):
             if priority=="P4":
