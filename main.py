@@ -869,6 +869,11 @@ def preserve_model_classification(item, previous):
         item["classification_confidence"]="模型建议（待复核）"
         return item
     if not previous.get("model_applied"):
+        if previous.get("crosscheck_pending") and not item.get("manual_category_override"):
+            item["crosscheck_pending"]=True
+            item["crosscheck_conflicts"]=list(previous.get("crosscheck_conflicts") or item.get("crosscheck_conflicts") or [])
+            item["needs_review"]=True
+            item["classification_confidence"]="规则分类（交叉检查待复核）"
         return item
     if previous.get("category") not in KEYWORDS:
         return item
