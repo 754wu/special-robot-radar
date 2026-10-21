@@ -900,6 +900,24 @@ class RadarTests(unittest.TestCase):
             with self.subTest(title=title):
                 self.assertEqual(classify_contribution(title, abstract).category, category)
 
+    def test_manual_reaudit_overrides_prior_protected_category(self):
+        from metadata_review_manual_reaudit_20261021 import BATCH_DECISIONS
+        from main import apply_manual_correction, preserve_model_classification
+        self.assertEqual(len(BATCH_DECISIONS), 7)
+        for title, (expected, reason) in BATCH_DECISIONS.items():
+            with self.subTest(title=title):
+                original = {"title": title, "category": "特种应用与产品",
+                            "needs_review": True, "tags": []}
+                corrected = apply_manual_correction(original)
+                self.assertEqual(corrected["category"], expected)
+                self.assertTrue(corrected["manual_category_override"])
+                self.assertGreater(len(reason), 30)
+                rule_update = {"title": title, "category": "小脑与运动控制",
+                               "rule_category": "小脑与运动控制", "tags": []}
+                preserved = preserve_model_classification(rule_update, corrected)
+                self.assertEqual(preserved["category"], expected)
+                self.assertFalse(preserved["needs_review"])
+
     def test_vla_model_research_categories_are_brain_and_protected(self):
         from main import apply_manual_correction, preserve_model_classification
         titles = [
@@ -941,6 +959,7 @@ class RadarTests(unittest.TestCase):
 
     def test_followup_confirmed_classifications_are_protected(self):
         from metadata_review_followup_20261020 import BATCH_DECISIONS
+        from metadata_review_manual_reaudit_20261021 import BATCH_DECISIONS as NEW_DECISIONS
         from main import apply_manual_correction, preserve_model_classification, KEYWORDS
         self.assertEqual(len(BATCH_DECISIONS), 28)
         for title, (category, reason) in BATCH_DECISIONS.items():
@@ -950,13 +969,13 @@ class RadarTests(unittest.TestCase):
                 item = apply_manual_correction(
                     {"title": title, "category": "特种应用与产品",
                      "needs_review": True, "tags": []})
-                self.assertEqual(item["category"], category)
+                self.assertEqual(item["category"], NEW_DECISIONS.get(title, (category,))[0])
                 self.assertTrue(item["manual_category_override"])
                 self.assertFalse(item["needs_review"])
                 preserved = preserve_model_classification(
                     {"title": title, "category": "感知建图与导航",
                      "needs_review": True, "tags": []}, item)
-                self.assertEqual(preserved["category"], category)
+                self.assertEqual(preserved["category"], NEW_DECISIONS.get(title, (category,))[0])
 
     def test_pending_model_crosscheck_does_not_change_review_status(self):
         from classification_crosscheck import apply_crosschecks
@@ -1011,6 +1030,7 @@ class RadarTests(unittest.TestCase):
 
     def test_large_metadata_review_batch_is_exact_and_protected(self):
         from metadata_review_20261020 import BATCH_DECISIONS
+        from metadata_review_manual_reaudit_20261021 import BATCH_DECISIONS as NEW_DECISIONS
         from main import apply_manual_correction,preserve_model_classification,KEYWORDS
         self.assertEqual(len(BATCH_DECISIONS),182)
         for title,(category,reason) in BATCH_DECISIONS.items():
@@ -1019,12 +1039,12 @@ class RadarTests(unittest.TestCase):
                 self.assertGreater(len(reason),40)
                 item=apply_manual_correction({"title":title,"category":"特种应用与产品",
                                                "needs_review":True,"tags":[]})
-                self.assertEqual(item["category"],category)
+                self.assertEqual(item["category"],NEW_DECISIONS.get(title, (category,))[0])
                 self.assertTrue(item["manual_category_override"])
                 self.assertFalse(item["needs_review"])
                 restored=preserve_model_classification({"title":title,"category":"特种应用与产品",
                                           "needs_review":True,"tags":[]},item)
-                self.assertEqual(restored["category"],category)
+                self.assertEqual(restored["category"],NEW_DECISIONS.get(title, (category,))[0])
 
     def test_nonrobot_mining_and_notice_exclusions(self):
         from taxonomy import is_non_technical,explicit_robot_relevance
@@ -1050,12 +1070,13 @@ class RadarTests(unittest.TestCase):
 
     def test_remaining_mixed_resources_metadata_review(self):
         from metadata_review_remaining_20261020 import BATCH_DECISIONS
+        from metadata_review_manual_reaudit_20261021 import BATCH_DECISIONS as NEW_DECISIONS
         from main import apply_manual_correction
         self.assertEqual(len(BATCH_DECISIONS),81)
         for title,(category,reason) in BATCH_DECISIONS.items():
             with self.subTest(title=title):
                 item=apply_manual_correction({"title":title,"category":"特种应用与产品","needs_review":True,"tags":[]})
-                self.assertEqual(item["category"],category)
+                self.assertEqual(item["category"],NEW_DECISIONS.get(title, (category,))[0])
                 self.assertTrue(item["manual_category_override"])
                 self.assertFalse(item["needs_review"])
 
