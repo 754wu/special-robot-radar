@@ -196,6 +196,12 @@ def embodied_decision(title: str, abstract: str = "") -> BrainEvidence | None:
             tags=("Agentic", "Skill/Tool Calling") if hit(t+d, r"skill|tool|behavior.tree") else ("Agentic",)
         )
 
+    # Distinguish concrete foundation-model innovations from action policies.
+    if hit(t, VLA) and hit(t, r"token.compression|visual.token|geometric.inductive.bias|cross.view.fusion|human.video.guided.adaptation"):
+        return BrainEvidence(BRAIN, "VLA基础模型架构、表示或推理机制创新", related=(CONTROL,), tags=("VLA",))
+    if hit(t, VLA) and hit(t, r"agricultural.manipulation|grasping.policy|locomotion.policy|whole.body.control"):
+        return BrainEvidence(CONTROL, "面向具体任务的VLA动作策略学习", related=(BRAIN,), tags=("VLA",))
+
     # VLA model research rather than robot's low-level controller: action-
     # oriented policy steering/whole-body control remains in Control.
     if hit(t, VLA):
