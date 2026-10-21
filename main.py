@@ -804,6 +804,9 @@ for _title, _decision in FOLLOWUP_BATCH_DECISIONS.items():
 from metadata_review_high_confidence_20261020 import BATCH_DECISIONS as HIGH_CONFIDENCE_AUDIT
 for _title, _decision in HIGH_CONFIDENCE_AUDIT.items():
     MANUAL_REVIEWED_CASES.setdefault(_title, _decision)
+from metadata_review_manual_reaudit_20261021 import BATCH_DECISIONS as MANUAL_REAUDIT
+# New evidence-backed corrections supersede earlier protected metadata decisions.
+MANUAL_REVIEWED_CASES.update(MANUAL_REAUDIT)
 
 
 def apply_manual_correction(item):
