@@ -1801,5 +1801,268 @@
     "main_contribution": "Combined inspection strategy of bionic substation inspection robot based on improved Biological Inspired Neural Network",
     "model_confidence": "HIGH",
     "source": "OpenRouter free router (metadata only)"
+  },
+  "605ea8a8e114d29b407c84795123b6984bbe74fefa24f72ee1868d7ef535c800": {
+    "primary_category": "基础软件与系统",
+    "secondary_categories": [],
+    "reason": "系统实现自动化点云获取，属于软件工具交付，证据充分",
+    "needs_review": true,
+    "main_contribution": "提出自动化点云数据采集系统，实现高效三维测绘",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "c9460d20ec4595b1ef8da978694ee4e327be16ae1b4304559c1544293e75e4e3": {
+    "primary_category": "特种应用与产品",
+    "secondary_categories": [],
+    "reason": "机器人采用现有ROS和平台，功能实现基本，属于应用部署，证据充足",
+    "needs_review": true,
+    "main_contribution": "开发风力发电机叶片检测机器人原型，并实现多坡度移动与实时图像传输",
+    "model_confidence": "LOW",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "4f4f163a51aacfc4831c317a3d4e685d33f9392131cc487805880a9bbc97c978": {
+    "primary_category": "基础软件与系统",
+    "secondary_categories": [],
+    "reason": "在Gazebo中构建单脚机器人仿真模型，提供复杂地形运动仿真能力，证据明确",
+    "needs_review": false,
+    "main_contribution": "在Gazebo中设计单脚跳跃机器人模型，以实现复杂地形运动仿真",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "79876df8ff1c3730fd80f852de77dc60023f0eaca2424ff98edb58921b35afa6": {
+    "primary_category": "硬件与防爆",
+    "secondary_categories": [],
+    "reason": "设计了基于微控制器的变电站巡检机器人硬件及软件方案，属于硬件设计范畴。",
+    "needs_review": false,
+    "main_contribution": "Microcontroller-based hardware and software design of a substation inspection robot",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "2a6cca139f972e6cb5b6dc83548ebaee8c5208924c8b0abc1fafcd08d11d56d1": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "针对地下环境开发了新型控制系统，实现机器人稳定行驶与精确定位。",
+    "needs_review": false,
+    "main_contribution": "Control system design for underground inspection robot",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "c483b57c454cfa2a5812b8a39fccddbb4d07d05693cef71ab6ca052c8c8889f6": {
+    "primary_category": "硬件与防爆",
+    "secondary_categories": [],
+    "reason": "开发了适用于化工储罐清洗巡检的机器人整机设计与控制策略。",
+    "needs_review": false,
+    "main_contribution": "Tank cleaning and inspection robot hardware and control system design",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "8af9ce11a4e03cb0cbaa280363df5aa378505e062839dc5a195394ec0da8dc85": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "固定深度控制算法为水下船体检查提供低层次运动控制体现运动控制创新",
+    "needs_review": true,
+    "main_contribution": "固定深度控制算法",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "af26880d8e2f44617c5fa5e063997cfbf26c19b42b7a1f1d2b98dd4dbc6ea16e": {
+    "primary_category": "硬件与防爆",
+    "secondary_categories": [],
+    "reason": "管道检查机器人设计创新，结合非破坏性评估实现硬件实现",
+    "needs_review": false,
+    "main_contribution": "管道检查机器人硬件设计",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "87f04f047dcc51373b2cf4d702e2b9730e49690d742d580deb6dbbddb4a05a58": {
+    "primary_category": "硬件与防爆",
+    "secondary_categories": [],
+    "reason": "模块化操作臂提升检查灵活性，体现硬件机制创新",
+    "needs_review": true,
+    "main_contribution": "模块化操作臂分布站检查机器人设计实现多功能检查",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "622398773c068919df21dff784e29366c6bb700fb5a61f2da01b6f76c361fadc": {
+    "primary_category": "大脑与具身智能",
+    "secondary_categories": [],
+    "reason": "元数据仅标题，算法细节缺失，确实难以确定类别",
+    "needs_review": true,
+    "main_contribution": "改进ISODATA算法用于任务分解",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "a0588c4797cfb3e291e4dd78755043525aaf7b5d943c1f678a98ccc1e9a048d9": {
+    "primary_category": "特种应用与产品",
+    "secondary_categories": [],
+    "reason": "便携式磁粉检测机器人磁偏铁极骨架设计属产品级工程",
+    "needs_review": false,
+    "main_contribution": "便携式磁粉检测机器人，磁偏铁极作为骨架",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "3a03bf3e9e780e79ac6f85be44e71def749a96d16e684dbfd1c1604c6a088b2b": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "综述类文献系统梳理轮式移动机器人稳定性与导航技术未提出新方法实体产出",
+    "needs_review": true,
+    "main_contribution": "轮式移动机器人稳定性与导航技术综述",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "c1b1c19d0ef7daca2808379c67083f07006a9f4381618029b04e8f4bbe144bed": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "提出多目标下一最佳视角探索，定位火场中移动作业人员",
+    "needs_review": true,
+    "main_contribution": "多目标下一最佳视角火场动态人员搜索方法",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "f1b5be9fd34404ccc0c5ee410cb23e9a3e384f9b57d6a636423dd23ccb04e0ff": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "提出不确定多车环境中的安全换道决策与交通协同规划方法",
+    "needs_review": true,
+    "main_contribution": "安全区与价值函数驱动的多车换道及信号协同规划",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "99f10b5b40a24840ad1b5ae2c93ba41b5377836573c5ba657e343943d656a595": {
+    "primary_category": "大脑与具身智能",
+    "secondary_categories": [],
+    "reason": "提出任务导向、情境感知的四足机器人可解释具身AI方法",
+    "needs_review": false,
+    "main_contribution": "任务导向情境感知的四足机器人可解释具身AI方案",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "9b5a3ccfcb3dbc0277f0101d5385321212e1ec9fbb26e5a39d47fb5b454be2bb": {
+    "primary_category": "基础软件与系统",
+    "secondary_categories": [],
+    "reason": "设计开发了输电线路巡检机器人领域本体，属于专用知识软件系统构建。",
+    "needs_review": false,
+    "main_contribution": "输电线路巡检机器人领域本体设计与开发",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "40d4962ee3d1ab8b7df2a4c23c8e8b8445e03d1093e9a6e2062f32081f263c4c": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "提出了乏燃料检测机器人的预批量检测策略，核心为路径规划与检测任务调度。",
+    "needs_review": false,
+    "main_contribution": "乏燃料检测机器人的预批量检测策略（PBIS）",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "b74429dc468fc22567e0ca7fba884e5681331b878aa4f669ac6c49066200c882": {
+    "primary_category": "特种应用与产品",
+    "secondary_categories": [],
+    "reason": "标题仅提“关键技术”且摘要缺失，无法判断具体算法或硬件贡献。",
+    "needs_review": true,
+    "main_contribution": "小型岩孔巡检机器人关键技术研究",
+    "model_confidence": "LOW",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "5cbc124c43c3cf21da530ed16822252738cf4f54ff0b7730b1308fc6dc4d7e38": {
+    "primary_category": "基础软件与系统",
+    "secondary_categories": [],
+    "reason": "元数据中仅包含会议来源信息，未描述任何具体研究输出，无法分类",
+    "needs_review": true,
+    "main_contribution": "无",
+    "model_confidence": "LOW",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "f78a0ef924cf1a25a345f3891bdb05c11743fe24915411895eab9d12b4dd54f9": {
+    "primary_category": "基础软件与系统",
+    "secondary_categories": [],
+    "reason": "元数据中仅包含会议来源信息，未描述任何具体研究输出，无法分类",
+    "needs_review": true,
+    "main_contribution": "无",
+    "model_confidence": "LOW",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "637ac641acea865ec14d8f1755e031356b7dfe880a6e12354b85aceaeacf6120": {
+    "primary_category": "基础软件与系统",
+    "secondary_categories": [],
+    "reason": "元数据中仅包含会议来源信息，未描述任何具体研究输出，无法分类",
+    "needs_review": true,
+    "main_contribution": "无",
+    "model_confidence": "LOW",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "cd7f6da004aac8234d43d682d7c144fa90a822b39cd6a1c9111645c25954e45f": {
+    "primary_category": "特种应用与产品",
+    "secondary_categories": [],
+    "reason": "仅说明综述面向仪表巡检机器人，未给出具体方法或系统产出",
+    "needs_review": true,
+    "main_contribution": "仪表巡检机器人研究综述与入门路径",
+    "model_confidence": "LOW",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "8cea433c7814790f1d3f2507bd4d92e02017dbba302bbcb6334b3b763265ab82": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "该论文综述了移动机器人在已知与未知环境中的各类路径规划算法，属于导航规划范畴。",
+    "needs_review": false,
+    "main_contribution": "移动机器人路径规划技术综述",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "e32838a44e0ec0754b5a07da3535ad6b1f1f5c6fc29a602e5a7eab0fcfebf9c4": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "该论文综述了越野移动机器人的SLAM方法，按传感器和算法分类，属于定位建图领域。",
+    "needs_review": false,
+    "main_contribution": "越野移动机器人SLAM方法综述",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "a9619c12550cca34b9c7c7d035ab682b2184cb0318b9d23330268c5057851f4a": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "该论文提出约束轴视觉惯性里程计用于移动机器人位移记录，属于视觉定位与导航技术。",
+    "needs_review": false,
+    "main_contribution": "约束轴视觉惯性里程计方法",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "265cd33b52c6a64debcead847561231d709644fb9bd28fd8bd0922c31c6acc37": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "MILD提出了面向可变形地面的双足机器人行走控制方法，包括离散元接触求解器和基于强化学习的terrain-aware控制器，属于运动控制领域。",
+    "needs_review": true,
+    "main_contribution": "terrain-aware bipedal locomotion controller with physics-grounded deformable terrain simulation",
+    "model_confidence": "LOW",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "12d1d6defbd74a74d508de6a2c60783c487a6431d6690eb8cb0c3c624a438e12": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "论文聚焦于辅助移动机器人的建图、定位与导航技术，属于感知建图与导航领域，未提及具身智能或控制算法创新。",
+    "needs_review": false,
+    "main_contribution": "mobile robot mapping, localization and navigation in robot-inclusive spaces",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "d7ebe130b89e53f571d7e5b4bef1006c007986442467deacd00ae7ed5e11e01a": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "提出了基于显微光学地面纹理的高精度定位系统，解决标定与相机建模问题，属于定位感知技术，未涉及导航或控制创新。",
+    "needs_review": true,
+    "main_contribution": "microscope-based high-precision ground texture localization system",
+    "model_confidence": "LOW",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
   }
 }
