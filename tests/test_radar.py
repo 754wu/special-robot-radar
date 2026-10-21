@@ -1066,9 +1066,9 @@ class RadarTests(unittest.TestCase):
                for i in range(n)]
         batches=list(priority_batches(items))
         self.assertEqual([batch[0]["review_priority"] for batch in batches],
-                         ["P0","P1","P2","P2","P3","P3"]+["P4"]*5)
+                         ["P3","P3","P0","P1","P2","P2"]+["P4"]*10)
         self.assertTrue(all(len({x["review_priority"] for x in batch})==1 for batch in batches))
-        self.assertEqual(sum(len(batch) for batch in batches if batch[0]["review_priority"]=="P4"),15)
+        self.assertEqual(sum(len(batch) for batch in batches if batch[0]["review_priority"]=="P4"),30)
         self.assertEqual(len(list(priority_batches([{"review_priority":"P4"}]))),1)
         self.assertEqual(list(priority_batches([])),[])
 
