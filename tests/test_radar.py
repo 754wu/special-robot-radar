@@ -1080,16 +1080,16 @@ class RadarTests(unittest.TestCase):
                 self.assertTrue(item["manual_category_override"])
                 self.assertFalse(item["needs_review"])
 
-    def test_priority_batches_do_not_mix_and_p4_has_five_request_cap(self):
+    def test_priority_batches_do_not_mix_and_p4_has_twenty_request_cap(self):
         from llm_review import priority_batches
         items=[{"id":str(i),"review_priority":p}
                for p,n in (("P0",1),("P1",2),("P2",4),("P3",5),("P4",38))
                for i in range(n)]
         batches=list(priority_batches(items))
         self.assertEqual([batch[0]["review_priority"] for batch in batches],
-                         ["P3","P3","P0","P1","P2","P2"]+["P4"]*10)
+                         ["P3","P3","P0","P1","P2","P2"]+["P4"]*13)
         self.assertTrue(all(len({x["review_priority"] for x in batch})==1 for batch in batches))
-        self.assertEqual(sum(len(batch) for batch in batches if batch[0]["review_priority"]=="P4"),30)
+        self.assertEqual(sum(len(batch) for batch in batches if batch[0]["review_priority"]=="P4"),38)
         self.assertEqual(len(list(priority_batches([{"review_priority":"P4"}]))),1)
         self.assertEqual(list(priority_batches([])),[])
 
