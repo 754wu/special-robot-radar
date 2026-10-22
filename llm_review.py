@@ -214,7 +214,7 @@ def prioritize_reviews(items, cache, now):
 
 
 
-def priority_batches(items, batch_size=3, p4_request_cap=10):
+def priority_batches(items, batch_size=3, p4_request_cap=20):
     """Never mix priorities; second reviews take precedence over new sampling."""
     p4_used=0
     for priority in ("P3","P0","P1","P2","P4"):
@@ -323,7 +323,7 @@ def main():
     usage["p4_requests"]=max(0,int(usage.get("p4_requests",0)))
     daily_limit=max(0,min(40,int(os.getenv("RADAR_LLM_REQUEST_BUDGET","40"))))
     budget=max(0,daily_limit-usage["requests"])
-    p4_remaining=max(0,5-usage["p4_requests"])
+    p4_remaining=max(0,20-usage["p4_requests"])
     token=os.getenv("RADAR_MODEL_API_KEY","")
     reviewed=0
     attempts=0
@@ -531,7 +531,7 @@ def main():
            "- 本次实际改变主分类："+str(sum(x["old_category"] != x["new_category"] for x in changes)),
            f"- 本次API调用次数：{attempts}",
            f"- 今日累计API调用次数（北京时间）：{usage['requests']}/{daily_limit}",
-           f"- 今日P4抽查API调用次数（北京时间）：{usage['p4_requests']}/5",
+           f"- 今日P4抽查API调用次数（北京时间）：{usage['p4_requests']}/20",
            f"- 本次理论最大审核数：{attempts*3}",
            f"- 本次有效输出率：{(reviewed/(attempts*3)*100 if attempts else 0):.1f}%",
            f"- 固定免费模型：{MODEL}",
