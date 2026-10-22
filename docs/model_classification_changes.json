@@ -3075,5 +3075,137 @@
     "changed_at": "2026-10-22T06:33:01.903433+00:00",
     "needs_review": true,
     "status": "model_pending_review"
+  },
+  {
+    "id": "2fbe111cb39fe369a8",
+    "title": "RoboSimStudio: An Interactive Toolkit for Human and Agent Rapid Real2Sim of Robot Manipulation Tasks",
+    "old_category": "小脑与运动控制",
+    "new_category": "基础软件与系统",
+    "model_suggested_category": "基础软件与系统",
+    "reason": "提出可编辑物理仿真工具支持快速真实到仿真迁移",
+    "changed_at": "2026-10-22T08:04:03.656658+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "ddf49ccb4bc64ccbcb",
+    "title": "QR Code based Indoor Navigation for Mobile Robot",
+    "old_category": "感知建图与导航",
+    "new_category": "感知建图与导航",
+    "model_suggested_category": "感知建图与导航",
+    "reason": "摘要未详细说明新方法，无法确认其具体创新贡献，信息不足以评估其技术新颖性和影响.",
+    "changed_at": "2026-10-22T08:04:03.656658+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "2613b16e9c2c21bd37",
+    "title": "Robotic lava tube mapping and multimodal data collection using quadruped and LiDAR",
+    "old_category": "感知建图与导航",
+    "new_category": "感知建图与导航",
+    "model_suggested_category": "感知建图与导航",
+    "reason": "开发机器人测绘方法并构建火山岩层新数据集",
+    "changed_at": "2026-10-22T08:04:03.656658+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "30e05109f6a0ce7a42",
+    "title": "Mobile Robot Inspection Path Planning Based on Multi-agent Co-Evolutionary Algorithm",
+    "old_category": "感知建图与导航",
+    "new_category": "感知建图与导航",
+    "model_suggested_category": "感知建图与导航",
+    "reason": "提出多代理协同进化算法实现移动机器人巡检路径规划",
+    "changed_at": "2026-10-22T08:04:03.656658+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "f8b3aeb13b0d2d2673",
+    "title": "Recent Advances in Legged Robot Locomotion and Control",
+    "old_category": "小脑与运动控制",
+    "new_category": "小脑与运动控制",
+    "model_suggested_category": "小脑与运动控制",
+    "reason": "该文仅综述未提出具创新性的腿地机器人控制研究",
+    "changed_at": "2026-10-22T08:04:03.656658+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "a8ae00a2e0b5ab9c8a",
+    "title": "Study of Quadruped Robot Dog Gait Simulation Control",
+    "old_category": "小脑与运动控制",
+    "new_category": "小脑与运动控制",
+    "model_suggested_category": "小脑与运动控制",
+    "reason": "仿真环境下四足机器人步态控制研究，属运动控制",
+    "changed_at": "2026-10-22T08:04:03.656658+00:00",
+    "needs_review": false,
+    "status": "model_applied"
+  },
+  {
+    "id": "afe8cce040c079bcdf",
+    "title": "ROBOT NAVIGATION IN INDOOR ENVIRONMENT THROUGH SELF LEARNING",
+    "old_category": "感知建图与导航",
+    "new_category": "感知建图与导航",
+    "model_suggested_category": "感知建图与导航",
+    "reason": "提出基于深度强化学习的室内导航策略学习方法，实现自主路径规划和障碍物避让能力提升.",
+    "changed_at": "2026-10-22T08:04:03.656658+00:00",
+    "needs_review": false,
+    "status": "model_applied"
+  },
+  {
+    "id": "56294e90c1fb618014",
+    "title": "RL2AC: Reinforcement Learning-based Rapid Online Adaptive Control for Legged Robot Robust Locomotion",
+    "old_category": "小脑与运动控制",
+    "new_category": "小脑与运动控制",
+    "model_suggested_category": "小脑与运动控制",
+    "reason": "摘要未详细说明新方法，无法确认其具体创新贡献，信息不足以评估其技术新颖性和影响.",
+    "changed_at": "2026-10-22T08:04:03.656658+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "0a19a341645a38e372",
+    "title": "Wheel-Leg Collaborative Control for Wheel-legged Robots Based on MPC with Preview",
+    "old_category": "小脑与运动控制",
+    "new_category": "小脑与运动控制",
+    "model_suggested_category": "小脑与运动控制",
+    "reason": "基于预览MPC的轮腿协同控制，核心为运动控制算法",
+    "changed_at": "2026-10-22T08:04:03.656658+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "04abceef930f46571a",
+    "title": "Mobile Robot Integrated Navigation Algorithm Based on Template Matching VO/IMU/UWB",
+    "old_category": "感知建图与导航",
+    "new_category": "感知建图与导航",
+    "model_suggested_category": "感知建图与导航",
+    "reason": "提出基于模板匹配的VO/IMU/UWB融合导航算法提高移动机器人定位精度",
+    "changed_at": "2026-10-22T08:04:03.656658+00:00",
+    "needs_review": false,
+    "status": "model_applied"
+  },
+  {
+    "id": "5828b58dc08202b25f",
+    "title": "Structure optimization and gait analysis of parallel quadruped robot",
+    "old_category": "小脑与运动控制",
+    "new_category": "硬件与防爆",
+    "model_suggested_category": "硬件与防爆",
+    "reason": "结构优化与步态分析并重，难以判断主贡献属硬件或控制",
+    "changed_at": "2026-10-22T08:04:03.656658+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "3bf670d5fe1e3eb547",
+    "title": "Multi-robot Learning and Coverage of Unknown Spatial Fields",
+    "old_category": "小脑与运动控制",
+    "new_category": "感知建图与导航",
+    "model_suggested_category": "感知建图与导航",
+    "reason": "提出多机器人学习算法实现未知空间字段的覆盖探索",
+    "changed_at": "2026-10-22T08:04:03.656658+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
   }
 ]

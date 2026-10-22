@@ -2648,5 +2648,118 @@
     "main_contribution": "社会导航评估准则与基准方法",
     "model_confidence": "MEDIUM",
     "source": "OpenRouter free router (metadata only)"
+  },
+  "25bea0b099c0534e9d28f7fccb8459c7a6182a1a4f34aad2e26f9a8a86ba7f9a": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "提出多代理协同进化算法实现移动机器人巡检路径规划",
+    "needs_review": false,
+    "main_contribution": "多代理协同进化算法实现巡检路径规划",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "bf9d8881440aceabcdf62b6329a5636b94b4e5aaca5ff12e90d24960024d7470": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "提出基于模板匹配的VO/IMU/UWB融合导航算法提高移动机器人定位精度",
+    "needs_review": false,
+    "main_contribution": "基于模板匹配的VO/IMU/UWB集成导航算法",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "650606db1b6f3ba83438b394dcddc949385be3c353654cdb97047d24dcd181fb": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "提出多机器人学习算法实现未知空间字段的覆盖探索",
+    "needs_review": false,
+    "main_contribution": "多机器人学习算法实现未知空间字段覆盖",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "d7c42f96b841a17e4c473437931d2440a3ddce4b03dcb3d4fae4a61bb6563bfe": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "摘要未详细说明新方法，无法确认其具体创新贡献，信息不足以评估其技术新颖性和影响.",
+    "needs_review": true,
+    "main_contribution": "QR code based indoor navigation method",
+    "model_confidence": "LOW",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "11532082d252dce021b9790ebfa82bf9ee1f1f832d4c6e1fd673d44c210adefc": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "摘要未详细说明新方法，无法确认其具体创新贡献，信息不足以评估其技术新颖性和影响.",
+    "needs_review": true,
+    "main_contribution": "RL2AC rapid online adaptive control method for legged robot locomotion",
+    "model_confidence": "LOW",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "ed5d772faa7c460f3bf9d5220909468109a141e10055fb6333e544c9b181c4cf": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "提出基于深度强化学习的室内导航策略学习方法，实现自主路径规划和障碍物避让能力提升.",
+    "needs_review": false,
+    "main_contribution": "Deep reinforcement learning based indoor navigation policy learning",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "e985b9c3160db3bd9ea78ede986849e587ceb879fb4568ee07a6fde7cafacb70": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "该文仅综述未提出具创新性的腿地机器人控制研究",
+    "needs_review": true,
+    "main_contribution": "综述未提出新颖腿地机器人控制方法",
+    "model_confidence": "LOW",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "8fa8f6006a84e0567451dbf0e20b4bff32eedf0474e186ea6048b218d182485b": {
+    "primary_category": "基础软件与系统",
+    "secondary_categories": [],
+    "reason": "提出可编辑物理仿真工具支持快速真实到仿真迁移",
+    "needs_review": true,
+    "main_contribution": "RoboSimStudio可编辑物理仿真工具支持快速Real2Sim",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "42062d8dc2a2892aa63c3fabadf055d991b9a9c46e2b9fd5bb5de18caeb15144": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "开发机器人测绘方法并构建火山岩层新数据集",
+    "needs_review": false,
+    "main_contribution": "开发机器人测绘方法并构建火山岩层新数据集",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "b0d66a66245e2f707e8e46d754612521f51f5b8ffe61b67c65a33f57c675d47d": {
+    "primary_category": "硬件与防爆",
+    "secondary_categories": [],
+    "reason": "结构优化与步态分析并重，难以判断主贡献属硬件或控制",
+    "needs_review": true,
+    "main_contribution": "并联四足机器人结构优化与步态分析方法",
+    "model_confidence": "LOW",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "36c9dceac4f5422e6c951a7d7a05007264cf5400e27245c00e8be2bb89ec65e8": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "仿真环境下四足机器人步态控制研究，属运动控制",
+    "needs_review": false,
+    "main_contribution": "四足机器人步态仿真控制方法",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "0a8b86cd2cbc37aa6a5b13b97f90d6efe7cc520227118c0b187997d930e72be7": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "基于预览MPC的轮腿协同控制，核心为运动控制算法",
+    "needs_review": true,
+    "main_contribution": "基于预览MPC的轮腿协同控制方法",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
   }
 }
