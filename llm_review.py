@@ -10,6 +10,7 @@ ROOT=Path(__file__).resolve().parent
 DB=ROOT/"docs/items.json"
 CACHE=ROOT/"docs/model_review_cache.json"
 REPORT=ROOT/"docs/model_review_report.md"
+USAGE=ROOT/"docs/model_review_daily_usage.json"
 CATEGORIES=("硬件与防爆","基础软件与系统","小脑与运动控制","大脑与具身智能","感知建图与导航","特种应用与产品")
 VERSION="review-v9-independent"
 MODEL=os.getenv("RADAR_FREE_MODEL","openrouter/free")
@@ -309,8 +310,19 @@ def main():
     retry_keys={key_for(x) for x in pending if x.get("review_priority")=="P3"}
     for key in retry_keys:cache.pop(key,None)
     sampled_ids={str(x.get("id")) for x in pending if x.get("review_priority")=="P4"}
-    # Requests, including failed attempts, count toward the daily budget.
-    budget=max(0,min(20,int(os.getenv("RADAR_LLM_REQUEST_BUDGET","20"))))
+    # Persist UTC-day usage across workflow runs; failed attempts also consume budget.
+    today=datetime.now(timezone.utc).date().isoformat()
+    try:
+        usage=json.loads(USAGE.read_text(encoding="utf-8")) if USAGE.exists() else {}
+    except (ValueError,OSError):
+        usage={}
+    if not isinstance(usage,dict) or usage.get("date")!=today:
+        usage={"date":today,"requests":0,"p4_requests":0}
+    usage["requests"]=max(0,int(usage.get("requests",0)))
+    usage["p4_requests"]=max(0,int(usage.get("p4_requests",0)))
+    daily_limit=max(0,min(40,int(os.getenv("RADAR_LLM_REQUEST_BUDGET","40"))))
+    budget=max(0,daily_limit-usage["requests"])
+    p4_remaining=max(0,5-usage["p4_requests"])
     token=os.getenv("RADAR_MODEL_API_KEY","")
     reviewed=0
     attempts=0
@@ -323,10 +335,15 @@ def main():
             from openai import OpenAI
             from openai import APIStatusError, RateLimitError, AuthenticationError, PermissionDeniedError, NotFoundError
             client=OpenAI(api_key=token,base_url=URL,timeout=40,max_retries=0)
-            for batch in priority_batches(pending):
+            for batch in priority_batches(pending,p4_request_cap=p4_remaining):
                 if attempts >= budget:
                     break
                 attempts += 1
+                usage["requests"] += 1
+                if batch and batch[0].get("review_priority")=="P4":
+                    usage["p4_requests"] += 1
+                USAGE.parent.mkdir(parents=True,exist_ok=True)
+                USAGE.write_text(json.dumps(usage,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
                 records=[{"index":i+1,"title":str(item.get("title",""))[:220],
                           "abstract":str(item.get("description",""))[:900],
                           "relevance_status":item.get("relevance_status","")}
@@ -512,6 +529,8 @@ def main():
            "- 累计涉及不同资源："+str(len({str(x.get("id")) for x in unique_history(history+new_events)})),
            "- 本次实际改变主分类："+str(sum(x["old_category"] != x["new_category"] for x in changes)),
            f"- 本次API调用次数：{attempts}",
+           f"- 今日累计API调用次数（UTC）：{usage['requests']}/{daily_limit}",
+           f"- 今日P4抽查API调用次数（UTC）：{usage['p4_requests']}/5",
            f"- 本次理论最大审核数：{attempts*3}",
            f"- 本次有效输出率：{(reviewed/(attempts*3)*100 if attempts else 0):.1f}%",
            f"- 固定免费模型：{MODEL}",
