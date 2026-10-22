@@ -2,29 +2,29 @@
 
 本表对每条已入库资源扫描标题、摘要及现有分类；疑点不等于确证错分。
 
-总资源：1671；出现一项或以上疑点：286。
+总资源：1716；出现一项或以上疑点：309。
 
 ## 分类数量
 
-- 感知建图与导航: 714
-- 小脑与运动控制: 582
-- 特种应用与产品: 123
-- 硬件与防爆: 115
-- 基础软件与系统: 89
-- 大脑与具身智能: 48
+- 感知建图与导航: 722
+- 小脑与运动控制: 601
+- 特种应用与产品: 125
+- 硬件与防爆: 119
+- 基础软件与系统: 94
+- 大脑与具身智能: 55
 
 ## 疑点分布
 
-- THIN_ABSTRACT: 174
-- EXISTING_REVIEW: 110
+- THIN_ABSTRACT: 173
+- EXISTING_REVIEW: 136
 - HW_NO_EVIDENCE: 20
-- SOFT_ALGORITHM: 2
+- SOFT_ALGORITHM: 3
 - NAV_AGENT_REVIEW: 2
 - APP_ALGORITHM: 1
 
 ## 重点疑点逐篇示例
 
-### THIN_ABSTRACT（174 条）
+### THIN_ABSTRACT（173 条）
 - coverMoon/quadruped_control | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/coverMoon/quadruped_control
 - 1ulone/quins_ros2 | 当前：基础软件与系统 | 建议：待复核 | https://github.com/1ulone/quins_ros2
 - Gait-Aware Command Timing for Decentralized Quadruped Swarms | 当前：小脑与运动控制 | 建议：待复核 | https://doi.org/10.21203/rs.3.rs-11332226/v1
@@ -37,19 +37,19 @@
 - Adaptive fuzzy-learning control with multi-objective optimization for robust mobile robot navigation | 当前：感知建图与导航 | 建议：待复核 | https://doi.org/10.1016/j.array.2026.101053
 - MAXIMAL X-PROJECTION OF CHUA ATTRACTORS: THEORY AND MOBILE ROBOT NAVIGATION APPLICATIONS | 当前：感知建图与导航 | 建议：待复核 | https://doi.org/10.1007/s10958-026-08613-x
 - Constrained-Axis Visual-Inertial Odometry for Mobile Robot Displacement Logging Using Commodity Mobile Devices | 当前：感知建图与导航 | 建议：待复核 | https://doi.org/10.21203/rs.3.rs-10175959/v1
-### EXISTING_REVIEW（110 条）
+### EXISTING_REVIEW（136 条）
+- Integrating Flow Matching and Model Predictive Control for Safe Robot Navigation | 当前：感知建图与导航 | 建议：待复核 | https://arxiv.org/abs/2610.29377
+- $\mu_0$: A Scalable 3D Interaction-Trace World Model | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2606.13769
+- A2I-Calib++: A Kinematics-Driven Anti-noise Active Calibration Framework for Whole-Body Multi-IMU Systems on Legged Robots | 当前：感知建图与导航 | 建议：待复核 | https://arxiv.org/abs/2610.29438
+- Toward Recursive Self-Improvement in Physical AI | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2610.29677
+- Upcoming ROS 2 Workshop: Building AI Robots with Vision-Language Models and ROS 2 | 当前：大脑与具身智能 | 建议：待复核 | https://discourse.openrobotics.org/t/upcoming-ros-2-workshop-building-ai-robots-with-vision-language-models-and-ros-2/59032
+- PlanSys2 4.0.0 released: robust, and covering PDDL from 1.2 to PDDL+ | 当前：基础软件与系统 | 建议：待复核 | https://discourse.openrobotics.org/t/plansys2-4-0-0-released-robust-and-covering-pddl-from-1-2-to-pddl/59031
+- Beyond Callback Scheduling: Choosing Where Computation Executes in ROS 2 with C++26 | 当前：基础软件与系统 | 建议：待复核 | https://discourse.openrobotics.org/t/beyond-callback-scheduling-choosing-where-computation-executes-in-ros-2-with-c-26/59021
+- Founding Robotics Engineer - Subsea/Autonomy | 当前：感知建图与导航 | 建议：待复核 | https://discourse.openrobotics.org/t/founding-robotics-engineer-subsea-autonomy/59020
 - som-anshu/house_cleaner_ws | 当前：特种应用与产品 | 建议：待复核 | https://github.com/som-anshu/house_cleaner_ws
-- Towards Autonomous Bricklaying Using Boston Dynamics Spot | 当前：感知建图与导航 | 建议：待复核 | https://arxiv.org/abs/2610.27472
+- Towards Autonomous Bricklaying Using Boston Dynamics Spot | 当前：特种应用与产品 | 建议：待复核 | https://arxiv.org/abs/2610.27472
 - Design and Control of a Multimodal Legged-Aerial Robot Through Separate Control Contraction Metrics | 当前：小脑与运动控制 | 建议：待复核 | https://arxiv.org/abs/2610.27315
 - MAPLE: Mondrian-Anchored Prior for Learning-free Indoor Exploration | 当前：感知建图与导航 | 建议：待复核 | https://arxiv.org/abs/2610.28566
-- ACE-Brain-0.6: Scaling Spatial Grounding for Physical Foundation Models | 当前：小脑与运动控制 | 建议：待复核 | https://arxiv.org/abs/2610.27040
-- A Head Camera Is (Almost) All You Need: An Electronics-Free UMI Glove Labelled and Observed by One Moving Camera | 当前：感知建图与导航 | 建议：待复核 | https://arxiv.org/abs/2610.27622
-- From Multi-Agent RL in Simulation to Physical Multi-Robot Coordination | 当前：感知建图与导航 | 建议：待复核 | https://discourse.openrobotics.org/t/from-multi-agent-rl-in-simulation-to-physical-multi-robot-coordination/58999
-- OpenAMRobot 2.0: open-source dual-arm mobile manipulator on ROS 2, rc.1 on 20 November | 当前：基础软件与系统 | 建议：待复核 | https://discourse.openrobotics.org/t/openamrobot-2-0-open-source-dual-arm-mobile-manipulator-on-ros-2-rc-1-on-20-november/58998
-- aryan-chandra-cmu/robotics-portfolio | 当前：基础软件与系统 | 建议：待复核 | https://github.com/aryan-chandra-cmu/robotics-portfolio
-- Gazebo PMC Meeting Minutes 2026-10-19 | 当前：基础软件与系统 | 建议：待复核 | https://discourse.openrobotics.org/t/gazebo-pmc-meeting-minutes-2026-10-19/58995
-- Time-JEPA: Grounding Video World Models with Physical Time Series | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2610.23982
-- Micro-Localization: High-Precision Mobile Robot Localization Using Microscopic Ground Texture | 当前：感知建图与导航 | 建议：待复核 | https://arxiv.org/abs/2610.22563
 ### HW_NO_EVIDENCE（20 条）
 - A Soft Worm Robot for Sub-Centimeter Scale Pipeline Inspection | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.1109/lra.2026.3699247
 - CAD-based Optimization of the Medium-sized Unmanned Ground Vehicle | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.18372/1990-5548.88.20978
@@ -63,9 +63,10 @@
 - Resonant Inductive Coupling Power Transfer for Mid-Sized Inspection Robot | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.32388/j9up4u
 - Research on the overturning phenomenon of firefighting and rescue crawler robots when climbing up and down stairs | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.1007/s41315-024-00394-3
 - Advanced Pipeline Inspection Robot Development Utilizing Non-Destructive Evaluation and Simulated with Verilog | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.2139/ssrn.4894242
-### SOFT_ALGORITHM（2 条）
+### SOFT_ALGORITHM（3 条）
 - 42 Gazebo Harmonic Simulation Worlds for Navigation, Exploration and SLAM workflows | 当前：基础软件与系统 | 建议：感知导航/小脑 | https://discourse.openrobotics.org/t/42-gazebo-harmonic-simulation-worlds-for-navigation-exploration-and-slam-workflows/58934
 - SLAMs for Quadruped Robot: Mapping Capability-centric Agentic Simulation | 当前：基础软件与系统 | 建议：感知导航/小脑 | https://doi.org/10.21203/rs.3.rs-7367448/v1
+- Principles and Guidelines for Evaluating Social Robot Navigation Algorithms | 当前：基础软件与系统 | 建议：感知导航/小脑；待复核 | https://doi.org/10.1145/3700599
 ### NAV_AGENT_REVIEW（2 条）
 - Verifier-Mediated Multi-LLM Coordination for Multi-Robot Path Planning | 当前：感知建图与导航 | 建议：大脑与具身智能（待复核） | https://arxiv.org/abs/2610.12761
 - Self-Organizing Memory Based on Adaptive Resonance Theory for Vision and Language Navigation | 当前：感知建图与导航 | 建议：大脑与具身智能（待复核） | https://doi.org/10.3390/math11194192
