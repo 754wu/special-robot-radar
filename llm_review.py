@@ -4,6 +4,7 @@ Never modifies an item's primary category, relevance score, or public summary.
 """
 from __future__ import annotations
 import hashlib,json,os,re,time
+from zoneinfo import ZoneInfo
 from datetime import datetime,timezone
 from pathlib import Path
 ROOT=Path(__file__).resolve().parent
@@ -311,7 +312,7 @@ def main():
     for key in retry_keys:cache.pop(key,None)
     sampled_ids={str(x.get("id")) for x in pending if x.get("review_priority")=="P4"}
     # Persist UTC-day usage across workflow runs; failed attempts also consume budget.
-    today=datetime.now(timezone.utc).date().isoformat()
+    today=datetime.now(ZoneInfo("Asia/Shanghai")).date().isoformat()
     try:
         usage=json.loads(USAGE.read_text(encoding="utf-8")) if USAGE.exists() else {}
     except (ValueError,OSError):
@@ -529,8 +530,8 @@ def main():
            "- 累计涉及不同资源："+str(len({str(x.get("id")) for x in unique_history(history+new_events)})),
            "- 本次实际改变主分类："+str(sum(x["old_category"] != x["new_category"] for x in changes)),
            f"- 本次API调用次数：{attempts}",
-           f"- 今日累计API调用次数（UTC）：{usage['requests']}/{daily_limit}",
-           f"- 今日P4抽查API调用次数（UTC）：{usage['p4_requests']}/5",
+           f"- 今日累计API调用次数（北京时间）：{usage['requests']}/{daily_limit}",
+           f"- 今日P4抽查API调用次数（北京时间）：{usage['p4_requests']}/5",
            f"- 本次理论最大审核数：{attempts*3}",
            f"- 本次有效输出率：{(reviewed/(attempts*3)*100 if attempts else 0):.1f}%",
            f"- 固定免费模型：{MODEL}",
