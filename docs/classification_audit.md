@@ -2,7 +2,7 @@
 
 本表对每条已入库资源扫描标题、摘要及现有分类；疑点不等于确证错分。
 
-总资源：1716；出现一项或以上疑点：317。
+总资源：1717；出现一项或以上疑点：318。
 
 ## 分类数量
 
@@ -10,13 +10,13 @@
 - 小脑与运动控制: 598
 - 特种应用与产品: 125
 - 硬件与防爆: 120
-- 基础软件与系统: 95
+- 基础软件与系统: 96
 - 大脑与具身智能: 55
 
 ## 疑点分布
 
 - THIN_ABSTRACT: 173
-- EXISTING_REVIEW: 145
+- EXISTING_REVIEW: 146
 - HW_NO_EVIDENCE: 21
 - SOFT_ALGORITHM: 3
 - NAV_AGENT_REVIEW: 2
@@ -37,7 +37,8 @@
 - Adaptive fuzzy-learning control with multi-objective optimization for robust mobile robot navigation | 当前：感知建图与导航 | 建议：待复核 | https://doi.org/10.1016/j.array.2026.101053
 - MAXIMAL X-PROJECTION OF CHUA ATTRACTORS: THEORY AND MOBILE ROBOT NAVIGATION APPLICATIONS | 当前：感知建图与导航 | 建议：待复核 | https://doi.org/10.1007/s10958-026-08613-x
 - Constrained-Axis Visual-Inertial Odometry for Mobile Robot Displacement Logging Using Commodity Mobile Devices | 当前：感知建图与导航 | 建议：待复核 | https://doi.org/10.21203/rs.3.rs-10175959/v1
-### EXISTING_REVIEW（145 条）
+### EXISTING_REVIEW（146 条）
+- mertgulerx/frontier_exploration_ros2 | 当前：基础软件与系统 | 建议：待复核 | https://github.com/mertgulerx/frontier_exploration_ros2
 - Integrating Flow Matching and Model Predictive Control for Safe Robot Navigation | 当前：感知建图与导航 | 建议：待复核 | https://arxiv.org/abs/2610.29377
 - $\mu_0$: A Scalable 3D Interaction-Trace World Model | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2606.13769
 - A2I-Calib++: A Kinematics-Driven Anti-noise Active Calibration Framework for Whole-Body Multi-IMU Systems on Legged Robots | 当前：感知建图与导航 | 建议：待复核 | https://arxiv.org/abs/2610.29438
@@ -49,7 +50,6 @@
 - som-anshu/house_cleaner_ws | 当前：特种应用与产品 | 建议：待复核 | https://github.com/som-anshu/house_cleaner_ws
 - Towards Autonomous Bricklaying Using Boston Dynamics Spot | 当前：特种应用与产品 | 建议：待复核 | https://arxiv.org/abs/2610.27472
 - Design and Control of a Multimodal Legged-Aerial Robot Through Separate Control Contraction Metrics | 当前：小脑与运动控制 | 建议：待复核 | https://arxiv.org/abs/2610.27315
-- MAPLE: Mondrian-Anchored Prior for Learning-free Indoor Exploration | 当前：感知建图与导航 | 建议：待复核 | https://arxiv.org/abs/2610.28566
 ### HW_NO_EVIDENCE（21 条）
 - A Soft Worm Robot for Sub-Centimeter Scale Pipeline Inspection | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.1109/lra.2026.3699247
 - CAD-based Optimization of the Medium-sized Unmanned Ground Vehicle | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.18372/1990-5548.88.20978

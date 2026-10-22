@@ -1,5 +1,62 @@
 [
   {
+    "id": "5d2160e1c2880e4fa9",
+    "title": "mertgulerx/frontier_exploration_ros2",
+    "url": "https://github.com/mertgulerx/frontier_exploration_ros2",
+    "source": "GitHub",
+    "type": "代码仓库更新",
+    "description": "Modern C++ frontier exploration package for autonomous mobile robots, with a core C++ library for custom integrations alongside ROS 2 Jazzy & Humble, Nav2 support.",
+    "published": "2026-10-22T08:16:08Z",
+    "first_seen": "2026-10-22T08:21:27.017916+00:00",
+    "stars": 108,
+    "license": true,
+    "repo_id": 1203069374,
+    "relevance_status": "可迁移的机器人关键技术",
+    "rule_contribution_type": "undetermined",
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "rule_category": "感知建图与导航",
+    "rule_confidence": "low",
+    "category": "基础软件与系统",
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "提供了基于ROS 2的现代C++前沿探索软件包与核心库，属于可复用软件工具。",
+    "needs_review": true,
+    "crosscheck_conflicts": [],
+    "crosscheck_pending": false,
+    "tags": [
+      "基础软件与系统",
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 64,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。Modern C++ frontier exploration package for autonomous mobile robots, with a core C++ library for custom integrations alongside ROS 2 J（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
+    "review_priority": "P0",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "基础软件与系统",
+    "model_main_contribution": "基于ROS 2的现代C++前沿探索软件包与核心库",
+    "model_contribution_conflict": "模型所述主要研究贡献无法由题名摘要核验",
+    "model_classification_reason": "提供了基于ROS 2的现代C++前沿探索软件包与核心库，属于可复用软件工具。",
+    "model_reviewed_at": "2026-10-22T08:23:13.608774+00:00",
+    "model_previous_confidence": "待复核",
+    "classification_history": [
+      {
+        "id": "5d2160e1c2880e4fa9",
+        "title": "mertgulerx/frontier_exploration_ros2",
+        "old_category": "感知建图与导航",
+        "new_category": "基础软件与系统",
+        "model_suggested_category": "基础软件与系统",
+        "reason": "提供了基于ROS 2的现代C++前沿探索软件包与核心库，属于可复用软件工具。",
+        "changed_at": "2026-10-22T08:23:13.608774+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
+  },
+  {
     "id": "7e991965be12d47e7d",
     "title": "iit-DLSLab/basic-locomotion-isaaclab",
     "url": "https://github.com/iit-DLSLab/basic-locomotion-isaaclab",
@@ -25233,12 +25290,11 @@
     "first_seen": "2026-10-18T05:52:14.754210+00:00",
     "doi": "10.1109/ecmr65884.2025.11163286",
     "category": "感知建图与导航",
-    "classification_confidence": "高",
-    "classification_reason": "核心任务为环境感知、定位、建图或导航",
+    "classification_confidence": "模型复核（待抽查）",
+    "classification_reason": "提出适用于动态环境Sim-to-Real导航强化学习算法研究",
     "needs_review": false,
     "tags": [
-      "感知建图与导航",
-      "小脑与运动控制"
+      "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
@@ -25252,7 +25308,30 @@
     "crosscheck_pending": false,
     "rule_contribution_type": "undetermined",
     "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
-    "review_priority": "P4"
+    "review_priority": "P4",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": true,
+    "model_reviewed_uncertain": false,
+    "model_suggested_category": "感知建图与导航",
+    "model_main_contribution": "提出适用于动态环境的Sim-to-Real导航强化学习算法",
+    "model_contribution_conflict": "",
+    "model_classification_reason": "提出适用于动态环境Sim-to-Real导航强化学习算法研究",
+    "model_reviewed_at": "2026-10-22T08:23:13.608774+00:00",
+    "model_previous_confidence": "高",
+    "classification_history": [
+      {
+        "id": "e77e807193e9cb35d5",
+        "title": "Sim-to-Real Reinforcement Learning for Local Mobile Robot Navigation in Dynamic Environments",
+        "old_category": "感知建图与导航",
+        "new_category": "感知建图与导航",
+        "model_suggested_category": "感知建图与导航",
+        "reason": "提出适用于动态环境Sim-to-Real导航强化学习算法研究",
+        "changed_at": "2026-10-22T08:23:13.608774+00:00",
+        "needs_review": false,
+        "status": "model_applied"
+      }
+    ]
   },
   {
     "id": "59d7c2676000a44aa5",
@@ -25647,8 +25726,8 @@
     "first_seen": "2026-10-15T01:40:39.626065+00:00",
     "doi": "10.1109/ro-man63969.2025.11217602",
     "category": "感知建图与导航",
-    "classification_confidence": "高",
-    "classification_reason": "核心任务为环境感知、定位、建图或导航",
+    "classification_confidence": "模型复核（待抽查）",
+    "classification_reason": "提出社会感知导航行人行为建模与自适应规划方法",
     "needs_review": false,
     "tags": [
       "感知建图与导航"
@@ -25665,7 +25744,30 @@
     "crosscheck_pending": false,
     "rule_contribution_type": "undetermined",
     "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
-    "review_priority": "P4"
+    "review_priority": "P4",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": true,
+    "model_reviewed_uncertain": false,
+    "model_suggested_category": "感知建图与导航",
+    "model_main_contribution": "提出社会感知导航行人行为建模与自适应规划方法",
+    "model_contribution_conflict": "",
+    "model_classification_reason": "提出社会感知导航行人行为建模与自适应规划方法",
+    "model_reviewed_at": "2026-10-22T08:23:13.608774+00:00",
+    "model_previous_confidence": "高",
+    "classification_history": [
+      {
+        "id": "e19fa968a3943f72a5",
+        "title": "Socially-Aware Mobile Robot Navigation: Pedestrian Behavior Modeling and Adaptive Motion Planning",
+        "old_category": "感知建图与导航",
+        "new_category": "感知建图与导航",
+        "model_suggested_category": "感知建图与导航",
+        "reason": "提出社会感知导航行人行为建模与自适应规划方法",
+        "changed_at": "2026-10-22T08:23:13.608774+00:00",
+        "needs_review": false,
+        "status": "model_applied"
+      }
+    ]
   },
   {
     "id": "6a03e45f365a56399c",
@@ -37540,12 +37642,11 @@
     "first_seen": "2026-10-20T01:41:34.201412+00:00",
     "doi": "10.1109/lra.2024.3387171",
     "category": "感知建图与导航",
-    "classification_confidence": "高",
-    "classification_reason": "以视觉语言导航算法或视觉落地为主要任务",
+    "classification_confidence": "模型复核（待抽查）",
+    "classification_reason": "提出面向连续环境视觉语言导航碰撞避免算法",
     "needs_review": false,
     "tags": [
       "感知建图与导航",
-      "大脑与具身智能",
       "VLN"
     ],
     "industry_tags": [],
@@ -37560,7 +37661,30 @@
     "crosscheck_pending": false,
     "rule_contribution_type": "undetermined",
     "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
-    "review_priority": "P4"
+    "review_priority": "P4",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": true,
+    "model_reviewed_uncertain": false,
+    "model_suggested_category": "感知建图与导航",
+    "model_main_contribution": "提出用于连续环境视觉语言导航的碰撞避免方法",
+    "model_contribution_conflict": "",
+    "model_classification_reason": "提出面向连续环境视觉语言导航碰撞避免算法",
+    "model_reviewed_at": "2026-10-22T08:23:13.608774+00:00",
+    "model_previous_confidence": "高",
+    "classification_history": [
+      {
+        "id": "dd20b40a2ae69cc8b7",
+        "title": "Safe-VLN: Collision Avoidance for Vision-and-Language Navigation of Autonomous Robots Operating in Continuous Environments",
+        "old_category": "感知建图与导航",
+        "new_category": "感知建图与导航",
+        "model_suggested_category": "感知建图与导航",
+        "reason": "提出面向连续环境视觉语言导航碰撞避免算法",
+        "changed_at": "2026-10-22T08:23:13.608774+00:00",
+        "needs_review": false,
+        "status": "model_applied"
+      }
+    ]
   },
   {
     "id": "27a141fe5a1e29e5a2",
@@ -56978,12 +57102,12 @@
     "id": "1bd32224175dc345cb",
     "title": "Vision-based vanishing point detection of autonomous navigation of mobile robot for outdoor applications",
     "url": "https://doi.org/10.14203/j.mev.2021.v12.117-125",
-    "source": "OpenAlex",
+    "source": "Crossref",
     "type": "论文（摘要）",
-    "description": "来源期刊/会议：Mechatronics Electrical Power and Vehicular Technology。The vision-based approach to mobile robot navigation is considered superior due to its affordability. This paper aims to design and construct an autonomous mobile robot with a vision-based system for outdoor navigation. This robot receives inputs from camera and ultrasonic sensor. The camera is used to detect vanishing points and obstacles from the road. The vanishing point is used to detect the heading of the road. Lines are extracted from the environment using a canny edge detector and Houghline Transforms from OpenCV to navigate the system. Then, removed lines are processed to locate the vanishing point and the road angle. A low pass filter is then applied to detect a vanishing point better. The robot is tested to run in several outdoor conditions such as asphalt roads and pedestrian roads to follow the detected vanishing ",
+    "description": "来源期刊/会议：Journal of Mechatronics, Electrical Power, and Vehicular Technology。 The vision-based approach to mobile robot navigation is considered superior due to its affordability. This paper aims to design and construct an autonomous mobile robot with a vision-based system for outdoor navigation. This robot receives inputs from camera and ultrasonic sensor. The camera is used to detect vanishing points and obstacles from the road. The vanishing point is used to detect the heading of the road. Lines are extracted from the environment using a canny edge detector and Houghline Transforms from OpenCV to navigate the system. Then, removed lines are processed to locate the vanishing point and the road angle. A low pass filter is then applied to detect a vanishing point better. The robot is tested to run in several outdoor conditions such as asphalt roads and pedestrian roads to follow the detec",
     "published": "2021-12-31",
     "first_seen": "2026-10-15T05:54:57.265469+00:00",
-    "doi": "https://doi.org/10.14203/j.mev.2021.v12.117-125",
+    "doi": "10.14203/j.mev.2021.v12.117-125",
     "relevance_status": "可迁移的机器人关键技术",
     "rule_contribution_type": "undetermined",
     "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
@@ -57001,7 +57125,7 @@
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 72,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Mechatronics Electrical Power and Vehicular Technology。The vision-based approach to mobile robot navigation is considered super（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Journal of Mechatronics, Electrical Power, and Vehicular Technology。 The vision-based approach to mobile robot navigation is co（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
@@ -57576,17 +57700,10 @@
     "score": 62,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。The evolution of social robots has increased with the advent of recent artificial intelligence techniques. Alongside humans, social rob（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P4",
-    "model_review_attempts": 1,
-    "manual_review_required": false,
     "model_applied": true,
-    "model_reviewed_uncertain": false,
     "model_suggested_category": "感知建图与导航",
-    "model_main_contribution": "拥挤环境导航多奖励深度强化学习策略",
-    "model_contribution_conflict": "",
     "model_classification_reason": "提出拥挤环境导航多奖励强化学习策略，属于导航策略学习，非低层运动控制。",
     "model_reviewed_at": "2026-10-22T06:33:01.903433+00:00",
-    "model_previous_confidence": "高",
     "classification_history": [
       {
         "id": "6e7e7c98aab3f5070c",
@@ -57599,7 +57716,11 @@
         "needs_review": false,
         "status": "model_applied"
       }
-    ]
+    ],
+    "model_previous_confidence": "高",
+    "model_review_attempts": 1,
+    "model_main_contribution": "拥挤环境导航多奖励深度强化学习策略",
+    "model_contribution_conflict": ""
   },
   {
     "id": "1ddbff7d12127cb09f",
@@ -59510,10 +59631,17 @@
     "published": "2021-12-01",
     "first_seen": "2026-10-16T01:27:03.162305+00:00",
     "doi": "10.65136/jati.v5i1.244",
+    "relevance_status": "可迁移的机器人关键技术",
+    "rule_contribution_type": "undetermined",
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "rule_category": "感知建图与导航",
+    "rule_confidence": "high",
     "category": "感知建图与导航",
     "classification_confidence": "高",
     "classification_reason": "核心任务为环境感知、定位、建图或导航",
     "needs_review": false,
+    "crosscheck_conflicts": [],
+    "crosscheck_pending": false,
     "tags": [
       "感知建图与导航"
     ],
@@ -59521,14 +59649,7 @@
     "scope": "可迁移的机器人关键技术",
     "score": 73,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Journal of Applied Technology and Innovation。 This research provide an overview of computational intelligence and robotics. Map（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "relevance_status": "可迁移的机器人关键技术",
-    "rule_category": "感知建图与导航",
-    "rule_confidence": "high",
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "ad9c062d492820dce7",
@@ -59849,17 +59970,15 @@
     "score": 62,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2021 International Conference on Indoor Positioning and Indoor Navigation (IPIN)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P4",
-    "model_review_attempts": 1,
-    "manual_review_required": false,
-    "model_applied": false,
     "model_reviewed_uncertain": true,
-    "model_suggested_category": "感知建图与导航",
+    "model_review_attempts": 1,
+    "model_reviewed_at": "2026-10-22T06:33:01.903433+00:00",
+    "manual_review_required": false,
     "model_main_contribution": "Magnetic mapping technique for indoor robot navigation using magnetic field sensors",
     "model_contribution_conflict": "",
+    "model_applied": false,
     "model_classification_reason": "摘要缺失，无法确定主要研究贡献，信息不足以进行分类",
-    "model_reviewed_at": "2026-10-22T06:33:01.903433+00:00",
-    "model_previous_confidence": "高",
+    "model_suggested_category": "感知建图与导航",
     "classification_history": [
       {
         "id": "465d74b1bd750d3e16",
@@ -61457,17 +61576,15 @@
     "score": 73,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2021 China Automation Congress (CAC)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P4",
-    "model_review_attempts": 1,
-    "manual_review_required": false,
-    "model_applied": false,
     "model_reviewed_uncertain": true,
-    "model_suggested_category": "感知建图与导航",
+    "model_review_attempts": 1,
+    "model_reviewed_at": "2026-10-22T06:33:01.903433+00:00",
+    "manual_review_required": false,
     "model_main_contribution": "神经网络与强化学习参数调优的移动机器人导航方法",
     "model_contribution_conflict": "",
+    "model_applied": false,
     "model_classification_reason": "基于神经网络与强化学习参数调优的移动机器人导航方法",
-    "model_reviewed_at": "2026-10-22T06:33:01.903433+00:00",
-    "model_previous_confidence": "高",
+    "model_suggested_category": "感知建图与导航",
     "classification_history": [
       {
         "id": "a61ebe1a574475240b",

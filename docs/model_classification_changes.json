@@ -3207,5 +3207,49 @@
     "changed_at": "2026-10-22T08:04:03.656658+00:00",
     "needs_review": true,
     "status": "model_pending_review"
+  },
+  {
+    "id": "5d2160e1c2880e4fa9",
+    "title": "mertgulerx/frontier_exploration_ros2",
+    "old_category": "感知建图与导航",
+    "new_category": "基础软件与系统",
+    "model_suggested_category": "基础软件与系统",
+    "reason": "提供了基于ROS 2的现代C++前沿探索软件包与核心库，属于可复用软件工具。",
+    "changed_at": "2026-10-22T08:23:13.608774+00:00",
+    "needs_review": true,
+    "status": "model_pending_review"
+  },
+  {
+    "id": "e77e807193e9cb35d5",
+    "title": "Sim-to-Real Reinforcement Learning for Local Mobile Robot Navigation in Dynamic Environments",
+    "old_category": "感知建图与导航",
+    "new_category": "感知建图与导航",
+    "model_suggested_category": "感知建图与导航",
+    "reason": "提出适用于动态环境Sim-to-Real导航强化学习算法研究",
+    "changed_at": "2026-10-22T08:23:13.608774+00:00",
+    "needs_review": false,
+    "status": "model_applied"
+  },
+  {
+    "id": "e19fa968a3943f72a5",
+    "title": "Socially-Aware Mobile Robot Navigation: Pedestrian Behavior Modeling and Adaptive Motion Planning",
+    "old_category": "感知建图与导航",
+    "new_category": "感知建图与导航",
+    "model_suggested_category": "感知建图与导航",
+    "reason": "提出社会感知导航行人行为建模与自适应规划方法",
+    "changed_at": "2026-10-22T08:23:13.608774+00:00",
+    "needs_review": false,
+    "status": "model_applied"
+  },
+  {
+    "id": "dd20b40a2ae69cc8b7",
+    "title": "Safe-VLN: Collision Avoidance for Vision-and-Language Navigation of Autonomous Robots Operating in Continuous Environments",
+    "old_category": "感知建图与导航",
+    "new_category": "感知建图与导航",
+    "model_suggested_category": "感知建图与导航",
+    "reason": "提出面向连续环境视觉语言导航碰撞避免算法",
+    "changed_at": "2026-10-22T08:23:13.608774+00:00",
+    "needs_review": false,
+    "status": "model_applied"
   }
 ]

@@ -2761,5 +2761,42 @@
     "model_confidence": "HIGH",
     "source": "OpenRouter free router (metadata only)",
     "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "39ca2b73264b3eaaa5da6e09c9f254aada067a86dd9b41baddcb969ad761e731": {
+    "primary_category": "基础软件与系统",
+    "secondary_categories": [],
+    "reason": "提供了基于ROS 2的现代C++前沿探索软件包与核心库，属于可复用软件工具。",
+    "needs_review": true,
+    "main_contribution": "基于ROS 2的现代C++前沿探索软件包与核心库",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "c1c35d25e7cbf3d442e1e0f85742114efdbeb6031a4d89a355eea8862cd0f85b": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "提出面向连续环境视觉语言导航碰撞避免算法",
+    "needs_review": false,
+    "main_contribution": "提出用于连续环境视觉语言导航的碰撞避免方法",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "b3f676a3e93956db58925f0e4e599168aedf1693189576ca80e85dc8c815a39e": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "提出适用于动态环境Sim-to-Real导航强化学习算法研究",
+    "needs_review": false,
+    "main_contribution": "提出适用于动态环境的Sim-to-Real导航强化学习算法",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "06eb2f14f90ae4586b8625c8147ca8da074db9f51b30faead6f5db00fd1b93b8": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "提出社会感知导航行人行为建模与自适应规划方法",
+    "needs_review": false,
+    "main_contribution": "提出社会感知导航行人行为建模与自适应规划方法",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)"
   }
 }
