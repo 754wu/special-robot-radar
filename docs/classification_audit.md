@@ -2,21 +2,21 @@
 
 本表对每条已入库资源扫描标题、摘要及现有分类；疑点不等于确证错分。
 
-总资源：1744；出现一项或以上疑点：343。
+总资源：1771；出现一项或以上疑点：384。
 
 ## 分类数量
 
-- 感知建图与导航: 732
-- 小脑与运动控制: 602
-- 特种应用与产品: 128
-- 硬件与防爆: 123
-- 基础软件与系统: 100
-- 大脑与具身智能: 59
+- 感知建图与导航: 739
+- 小脑与运动控制: 610
+- 特种应用与产品: 133
+- 硬件与防爆: 127
+- 基础软件与系统: 101
+- 大脑与具身智能: 61
 
 ## 疑点分布
 
-- EXISTING_REVIEW: 179
-- THIN_ABSTRACT: 167
+- EXISTING_REVIEW: 219
+- THIN_ABSTRACT: 170
 - HW_NO_EVIDENCE: 22
 - SOFT_ALGORITHM: 3
 - NAV_AGENT_REVIEW: 2
@@ -25,7 +25,8 @@
 
 ## 重点疑点逐篇示例
 
-### EXISTING_REVIEW（179 条）
+### EXISTING_REVIEW（219 条）
+- api-evangelist/boston-dynamics | 当前：大脑与具身智能 | 建议：待复核 | https://github.com/api-evangelist/boston-dynamics
 - rokbenko/quackd | 当前：基础软件与系统 | 建议：待复核 | https://github.com/rokbenko/quackd
 - Sensitive dependence of the motion of a legged robot on granular media | 当前：小脑与运动控制 | 建议：待复核 | https://arxiv.org/abs/0905.4950
 - What Does It Take For A Generalist Robot Policy To Adapt Using Minimal Data? | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2608.11363
@@ -34,11 +35,10 @@
 - October CWG Meeting - Deep Venture and ResQ ROV: From COTS to Capability | 当前：硬件与防爆 | 建议：待复核 | https://discourse.openrobotics.org/t/october-cwg-meeting-deep-venture-and-resq-rov-from-cots-to-capability/59056
 - mertgulerx/frontier_exploration_ros2 | 当前：基础软件与系统 | 建议：待复核 | https://github.com/mertgulerx/frontier_exploration_ros2
 - Integrating Flow Matching and Model Predictive Control for Safe Robot Navigation | 当前：感知建图与导航 | 建议：待复核 | https://arxiv.org/abs/2610.29377
+- AgriVLN: Vision-and-Language Navigation for Agricultural Robots | 当前：感知建图与导航 | 建议：待复核 | https://arxiv.org/abs/2508.07406
 - $\mu_0$: A Scalable 3D Interaction-Trace World Model | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2606.13769
 - RoboCap: A New Platform for Egocentric Robot Learning | 当前：硬件与防爆 | 建议：待复核 | https://arxiv.org/abs/2610.07217
-- A2I-Calib++: A Kinematics-Driven Anti-noise Active Calibration Framework for Whole-Body Multi-IMU Systems on Legged Robots | 当前：感知建图与导航 | 建议：待复核 | https://arxiv.org/abs/2610.29438
-- Toward Recursive Self-Improvement in Physical AI | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2610.29677
-### THIN_ABSTRACT（167 条）
+### THIN_ABSTRACT（170 条）
 - coverMoon/quadruped_control | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/coverMoon/quadruped_control
 - 1ulone/quins_ros2 | 当前：基础软件与系统 | 建议：待复核 | https://github.com/1ulone/quins_ros2
 - Gait-Aware Command Timing for Decentralized Quadruped Swarms | 当前：小脑与运动控制 | 建议：待复核 | https://doi.org/10.21203/rs.3.rs-11332226/v1
