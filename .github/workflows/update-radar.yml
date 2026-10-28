@@ -32,7 +32,7 @@ jobs:
     needs: unit-tests
     if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 90
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
