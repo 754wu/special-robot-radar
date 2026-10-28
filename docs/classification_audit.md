@@ -2,21 +2,21 @@
 
 本表对每条已入库资源扫描标题、摘要及现有分类；疑点不等于确证错分。
 
-总资源：1813；出现一项或以上疑点：398。
+总资源：1831；出现一项或以上疑点：405。
 
 ## 分类数量
 
-- 感知建图与导航: 750
-- 小脑与运动控制: 625
-- 特种应用与产品: 145
+- 感知建图与导航: 759
+- 小脑与运动控制: 632
+- 特种应用与产品: 146
 - 硬件与防爆: 122
 - 基础软件与系统: 98
-- 大脑与具身智能: 73
+- 大脑与具身智能: 74
 
 ## 疑点分布
 
-- EXISTING_REVIEW: 226
-- THIN_ABSTRACT: 171
+- EXISTING_REVIEW: 233
+- THIN_ABSTRACT: 172
 - HW_NO_EVIDENCE: 18
 - SOFT_ALGORITHM: 3
 - NAV_AGENT_REVIEW: 2
@@ -26,22 +26,22 @@
 
 ## 重点疑点逐篇示例
 
-### EXISTING_REVIEW（226 条）
-- ohho-robotics/ohho-os | 当前：特种应用与产品 | 建议：待复核 | https://github.com/ohho-robotics/ohho-os
+### EXISTING_REVIEW（233 条）
 - yuzhen-song/hand_locomotion | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/yuzhen-song/hand_locomotion
+- ohho-robotics/ohho-os | 当前：特种应用与产品 | 建议：待复核 | https://github.com/ohho-robotics/ohho-os
+- Remember Where You Walk: Learning Spatial Memory for End-to-End Legged Robot Exploration | 当前：感知建图与导航 | 建议：待复核 | https://arxiv.org/abs/2610.37203
+- RoboSTD: Zero-Shot Single-to-Dual Transfer via Sagittal Mirroring for Bimanual Learning | 当前：小脑与运动控制 | 建议：待复核 | https://arxiv.org/abs/2610.36685
+- Ego-CEVR: Learning Cross-Embodiment Visual Representations from Human Egocentric Videos | 当前：小脑与运动控制 | 建议：待复核 | https://arxiv.org/abs/2610.37509
+- Which Hand Was Late? Diagnosis for Robot Failure Recovery in Bimanual Tool Use | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2610.37533
+- CLEAR-IR: Clarity-Enhanced Active Reconstruction of Infrared Imagery | 当前：感知建图与导航 | 建议：待复核 | https://arxiv.org/abs/2510.04883
+- Huzaifa-Rahim-Malik/12-DOF-Quadrupled-Dog | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/Huzaifa-Rahim-Malik/12-DOF-Quadrupled-Dog
 - rokbenko/quackd | 当前：基础软件与系统 | 建议：待复核 | https://github.com/rokbenko/quackd
 - Autonomous Pallet Jack Project – An Ongoing Robotics Project | 当前：感知建图与导航 | 建议：待复核 | https://discourse.openrobotics.org/t/autonomous-pallet-jack-project-an-ongoing-robotics-project/59254
 - ThinkLocoManip: A Whole-Body Control Agentic Harness for Legged Loco-Manipulation | 当前：大脑与具身智能 | 建议：小脑与运动控制（待复核）；待复核 | https://arxiv.org/abs/2610.34370
 - T-ConSG: A LiDAR-Based Real-Time Temporal Construction Scene Graph for Dynamic and Evolving Environments | 当前：感知建图与导航 | 建议：待复核 | https://arxiv.org/abs/2610.34041
-- RoboReason: Boosting Robotics-Relevant VLM Reasoning Through Scalable Data Generation | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2610.33778
-- RobotAgentBench: Towards Open-world Robot Autonomy | 当前：小脑与运动控制 | 建议：待复核 | https://arxiv.org/abs/2610.34649
-- RoboJev: An Open Vision-Language Judge for Robot Success Detection | 当前：感知建图与导航 | 建议：待复核 | https://arxiv.org/abs/2610.33718
-- PushAround: Collaborative Path Clearing via Physics-Informed Hybrid Search | 当前：感知建图与导航 | 建议：待复核 | https://arxiv.org/abs/2610.35062
-- Continuous-Time Safe Planning and Control for Agile Quadrupeds | 当前：感知建图与导航 | 建议：待复核 | https://arxiv.org/abs/2610.35670
-- A Shared Control Framework for Mobile Robots with Planning-Level Intention Prediction | 当前：小脑与运动控制 | 建议：待复核 | https://arxiv.org/abs/2511.08912
-### THIN_ABSTRACT（171 条）
-- coverMoon/quadruped_control | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/coverMoon/quadruped_control
+### THIN_ABSTRACT（172 条）
 - 1ulone/quins_ros2 | 当前：基础软件与系统 | 建议：待复核 | https://github.com/1ulone/quins_ros2
+- coverMoon/quadruped_control | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/coverMoon/quadruped_control
 - Gait-Aware Command Timing for Decentralized Quadruped Swarms | 当前：小脑与运动控制 | 建议：待复核 | https://doi.org/10.21203/rs.3.rs-11332226/v1
 - bell-ha/visually-impaired-navigation-robot | 当前：感知建图与导航 | 建议：待复核 | https://github.com/bell-ha/visually-impaired-navigation-robot
 - HAVEN: A unified monocular RGB vision-and-language navigation framework for wheeled-legged robots | 当前：感知建图与导航 | 建议：待复核 | https://doi.org/10.1016/j.displa.2026.103724
