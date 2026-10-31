@@ -2,7 +2,7 @@
 
 模型最多审核两次，首次复核后第4至第7天安排二次复核；若API额度或故障未能及时执行则持续优先重试。两次后仍不明确的资源列于此处。
 
-- 资源数量：165
+- 资源数量：168
 
 - rokbenko/quackd | 基础软件与系统 | https://github.com/rokbenko/quackd
 - api-evangelist/boston-dynamics | 基础软件与系统 | https://github.com/api-evangelist/boston-dynamics
@@ -51,6 +51,7 @@
 - A Survey of Legged Robotics in Non-Inertial Environments: Past, Present, and Future | 小脑与运动控制 | https://doi.org/10.48550/arxiv.2604.20990
 - QR Code based Indoor Navigation for Mobile Robot | 感知建图与导航 | https://doi.org/10.1109/icoei68323.2026.11541935
 - Quadruped Parkour Learning: Sparsely Gated Mixture of Experts with Visual Input | 小脑与运动控制 | https://doi.org/10.48550/arxiv.2604.19344
+- DeCoNav: Dialog enhanced Long-Horizon Collaborative Vision-Language Navigation | 感知建图与导航 | https://doi.org/10.48550/arxiv.2604.12486
 - Do Robots Need Body Language? Comparing Communication Modalities for Legible Motion Intent in Human-Shared Spaces | 大脑与具身智能 | http://arxiv.org/abs/2604.03451
 - DEM-Based Traversability Map Generation for 2.5D Autonomous Multirobot Navigation | 感知建图与导航 | https://doi.org/10.3390/app16073351
 - A Hybrid Neural-Assisted Unscented Kalman Filter for Unmanned Ground Vehicle Navigation | 感知建图与导航 | https://doi.org/10.48550/arxiv.2603.11649
@@ -127,6 +128,7 @@
 - Soft Soil Gait Planning and Control for Biped Robot using Deep Deterministic Policy Gradient Approach | 小脑与运动控制 | https://doi.org/10.48550/arxiv.2306.08063
 - Image-based robot navigation with task achievability | 大脑与具身智能 | https://doi.org/10.3389/frobt.2023.944375
 - Flame Recognition Algorithm for aerial cruising firefighting Robot based on RGB and improved YOLOv5 | 感知建图与导航 | https://doi.org/10.1109/cvidl58838.2023.10167099
+- Advances in Robotic Welding for Metallic Materials: Application of Inspection, Modeling, Monitoring and Automation Techniques | 特种应用与产品 | https://doi.org/10.3390/met13040711
 - Research on Underwater Hull Inspection Robot Based on Fixed Depth Control | 感知建图与导航 | https://doi.org/10.53469/jrse.2023.05(02).06
 - SETUP AND INVESTIGATION OF THE OPERATION MODES OF THE SPEED OBSERVER IN A CONTROLLED DC ELECTRIC DRIVE | 硬件与防爆 | https://doi.org/10.17122/1999-5458-2023-19-2-30-42
 - Mapping, Localization and Navigation for an Assistive Mobile Robot in a Robot-Inclusive Space | 感知建图与导航 | https://doi.org/10.5220/0012172900003543
@@ -138,6 +140,7 @@
 - Legged Locomotion in Challenging Terrains using Egocentric Vision | 小脑与运动控制 | https://doi.org/10.48550/arxiv.2211.07638
 - Finding Moving Operators in Firefighting Operations Based on Multi-Goal Next-Best-View Exploration | 感知建图与导航 | https://doi.org/10.1109/ssrr56537.2022.10018673
 - Comparative Performance Analysis of Vibration Prediction Using RNN Techniques | 感知建图与导航 | https://doi.org/10.3390/electronics11213619
+- Design and Simulation of a Mobile Robot for Pipeline Inspection | 硬件与防爆 | https://doi.org/10.1109/conescapan56456.2022.9959592
 - Cooperative control strategy of wheel-legged robot based on attitude balance | 小脑与运动控制 | https://doi.org/10.1017/s0263574722001436
 - Design and Development of Internal Pipe Inspection Robot | 特种应用与产品 | https://doi.org/10.24321/2454.8650.202202
 - ONTOLOGY DESIGN AND DEVELOPMENT OF TRANSMISSION LINE IN INSPECTION ROBOT | 基础软件与系统 | https://doi.org/10.17683/ijomam/issue11.30

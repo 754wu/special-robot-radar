@@ -2,22 +2,22 @@
 
 本表对每条已入库资源扫描标题、摘要及现有分类；疑点不等于确证错分。
 
-总资源：1887；出现一项或以上疑点：404。
+总资源：1921；出现一项或以上疑点：432。
 
 ## 分类数量
 
-- 感知建图与导航: 775
-- 小脑与运动控制: 643
-- 特种应用与产品: 156
-- 硬件与防爆: 125
-- 基础软件与系统: 110
-- 大脑与具身智能: 78
+- 感知建图与导航: 797
+- 小脑与运动控制: 644
+- 特种应用与产品: 159
+- 硬件与防爆: 129
+- 基础软件与系统: 115
+- 大脑与具身智能: 77
 
 ## 疑点分布
 
-- EXISTING_REVIEW: 226
-- THIN_ABSTRACT: 176
-- HW_NO_EVIDENCE: 20
+- EXISTING_REVIEW: 251
+- THIN_ABSTRACT: 179
+- HW_NO_EVIDENCE: 21
 - SOFT_ALGORITHM: 3
 - NAV_AGENT_REVIEW: 2
 - APP_ALGORITHM: 2
@@ -26,7 +26,11 @@
 
 ## 重点疑点逐篇示例
 
-### EXISTING_REVIEW（226 条）
+### EXISTING_REVIEW（251 条）
+- darshmenon/quadruped-robotics-stack | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/darshmenon/quadruped-robotics-stack
+- MrArun005/Cool-Websites | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/MrArun005/Cool-Websites
+- JoseSegundoM/proprioceptive_risk_mapping | 当前：特种应用与产品 | 建议：待复核 | https://github.com/JoseSegundoM/proprioceptive_risk_mapping
+- Survey: where does your time go between laptop and robot? (3 min, results shared back) | 当前：基础软件与系统 | 建议：待复核 | https://discourse.openrobotics.org/t/survey-where-does-your-time-go-between-laptop-and-robot-3-min-results-shared-back/59366
 - DarmawanRobotics/Pashupati | 当前：基础软件与系统 | 建议：待复核 | https://github.com/DarmawanRobotics/Pashupati
 - liberty-joy/Go2W-RobotDog-Simulation | 当前：基础软件与系统 | 建议：待复核 | https://github.com/liberty-joy/Go2W-RobotDog-Simulation
 - antonawin07/Autonomous-warehouse-AMR | 当前：感知建图与导航 | 建议：待复核 | https://github.com/antonawin07/Autonomous-warehouse-AMR
@@ -35,11 +39,7 @@
 - Information-Driven Collaborative Autonomy for Heterogeneous UAV/UGV Teams | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2610.39379
 - UMI-Live for In-The-Wild Bimanual Robotics Data Collection | 当前：基础软件与系统 | 建议：待复核 | https://arxiv.org/abs/2610.39385
 - Robotic Data Inoculation | 当前：小脑与运动控制 | 建议：待复核 | https://arxiv.org/abs/2610.39054
-- Introducing M: A Modular, Modifiable Social Robot | 当前：特种应用与产品 | 建议：待复核 | https://arxiv.org/abs/2603.19134
-- EmbodiRSI: Recursive Self-Improvement for Data-Efficient Robot Adaptation | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2609.38905
-- When "No Worries" Went Wrong: HRI Lessons for Foundation-Model Robots | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2610.38400
-- Open-World Object Motion Anticipation via Meta-Learned Semantic Adaptation | 当前：感知建图与导航 | 建议：待复核 | https://arxiv.org/abs/2610.38993
-### THIN_ABSTRACT（176 条）
+### THIN_ABSTRACT（179 条）
 - sujaypaul27/Firefighting-Robot-AquaFlare | 当前：特种应用与产品 | 建议：待复核 | https://github.com/sujaypaul27/Firefighting-Robot-AquaFlare
 - 1ulone/quins_ros2 | 当前：基础软件与系统 | 建议：待复核 | https://github.com/1ulone/quins_ros2
 - coverMoon/quadruped_control | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/coverMoon/quadruped_control
@@ -52,8 +52,9 @@
 - Deep Reinforcement Learning for Quadruped Locomotion Controlled by Natural Language | 当前：小脑与运动控制 | 建议：待复核 | https://doi.org/10.21203/rs.3.rs-10704583/v1
 - H-VLN: hierarchical visual-language adaptive navigation control framework for wheel-legged robots | 当前：感知建图与导航 | 建议：待复核 | https://doi.org/10.1016/j.displa.2026.103512
 - Adaptive fuzzy-learning control with multi-objective optimization for robust mobile robot navigation | 当前：感知建图与导航 | 建议：待复核 | https://doi.org/10.1016/j.array.2026.101053
-### HW_NO_EVIDENCE（20 条）
+### HW_NO_EVIDENCE（21 条）
 - OmniQuad: a Wheeled-Legged Hybrid Robot with Omnidirectional Wheels | 当前：硬件与防爆 | 建议：待复核 | https://arxiv.org/abs/2610.38502
+- We made a new ROS robot: Mini Pupper 4 | 当前：硬件与防爆 | 建议：待复核 | https://discourse.openrobotics.org/t/we-made-a-new-ros-robot-mini-pupper-4/59197
 - A Soft Worm Robot for Sub-Centimeter Scale Pipeline Inspection | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.1109/lra.2026.3699247
 - CAD-based Optimization of the Medium-sized Unmanned Ground Vehicle | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.18372/1990-5548.88.20978
 - Research progress in thermal protection materials and technologies for firefighting robots | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.11868/j.issn.1001-4381.2025.000330
@@ -64,7 +65,6 @@
 - Small Modular Magnetic-Wheel-Type Wall- Climbing Inspection Robot | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.1109/aeeca65693.2025.00071
 - Resonant Inductive Coupling Power Transfer for Mid-Sized Inspection Robot | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.32388/j9up4u
 - PaTS-Wheel: A Passively-Transformable Single-Part Wheel for Mobile Robot Navigation on Unstructured Terrain | 当前：硬件与防爆 | 建议：小脑与运动控制/感知建图与导航；待复核 | https://doi.org/10.1109/lra.2024.3389828
-- Harnessing Flagella Dynamics for Enhanced Robot Locomotion at Low Reynolds Number | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.1109/lra.2024.3375711
 ### SOFT_ALGORITHM（3 条）
 - 42 Gazebo Harmonic Simulation Worlds for Navigation, Exploration and SLAM workflows | 当前：基础软件与系统 | 建议：感知导航/小脑 | https://discourse.openrobotics.org/t/42-gazebo-harmonic-simulation-worlds-for-navigation-exploration-and-slam-workflows/58934
 - SLAMs for Quadruped Robot: Mapping Capability-centric Agentic Simulation | 当前：基础软件与系统 | 建议：感知导航/小脑 | https://doi.org/10.21203/rs.3.rs-7367448/v1
