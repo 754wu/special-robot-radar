@@ -1,8 +1,8 @@
 # 特种机器人七日技术简报
 
-生成时间：2026-10-31T07:33:58.029466+00:00
+生成时间：2026-11-01T08:33:35.527893+00:00
 
-最近 7 天首次记录 **157** 条；本轮新增 **0** 条；总库存 **1921** 条。
+最近 7 天首次记录 **192** 条；本轮新增 **0** 条；总库存 **1955** 条。
 
 **注意：**‘七日’按首次入库时间统计，不代表论文发表于最近七天；相关度评分只是初筛优先级，不是成熟度或质量评级。
 
@@ -23,6 +23,8 @@
 
 - [Autonomous Robotics with Vision-Language AI for Industrial Inspection and Maintenance](https://doi.org/10.67228/30716357/ijmrse-2024pii8t1v) | 论文（摘要） | 特种场景直接相关 | 匹配度 77/100
   - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：工业与能源巡检。来源期刊/会议：International Journal of Modern Research in Science & Engineering。 Industrial environments are rapidly evolving toward Industry（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [darshmenon/quadruped-robotics-stack](https://github.com/darshmenon/quadruped-robotics-stack) | 代码仓库更新 | 可迁移的机器人关键技术 | 匹配度 74/100
+  - 行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。Unitree Go2 quadruped robot dog — RL locomotion training (MuJoCo + Gazebo Harmonic), ROS2 CHAMP and Quad-SDK NMPC walking controllers, （仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [EgoHTR: Egocentric 4D Demonstrations of Human Terrain Traversal](https://arxiv.org/abs/2607.13472) | 论文（摘要） | 特种场景直接相关 | 匹配度 71/100
   - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：野外与特种地形。arXiv:2607.13472v2 Announce Type: replace Abstract: Deploying humanoid robots in unstructured terrain remains an open problem. While cl（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [DarmawanRobotics/Pashupati](https://github.com/DarmawanRobotics/Pashupati) | 代码仓库更新 | 可迁移的机器人关键技术 | 匹配度 70/100
@@ -35,8 +37,6 @@
   - 行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.39385v1 Announce Type: new Abstract: Universal Manipulation Interface (UMI) devices allow human experts to demonstrate tasks（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [OpenPodcar2: a robust, ROS2 vehicle for self-driving research](https://doi.org/10.48550/arxiv.2604.24242) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 64/100
   - 行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。OpenPodcar2 is a robust, ROS2-interfaced, low-cost, open source hardware and software, autonomous ve（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [RobotAgentBench: Towards Open-world Robot Autonomy](https://arxiv.org/abs/2610.34649) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 62/100
-  - 行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.34649v1 Announce Type: new Abstract: Recent advances in vision-language-action (VLA) and world-action models (WAMs) have sig（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 小脑与运动控制
 
@@ -46,8 +46,6 @@
   - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检、野外与特种地形。来源期刊/会议：Aquaculture Research。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Research on the Intelligent System Architecture and Control Strategy of Mining Robot Crowds](https://doi.org/10.3390/en17081834) | 论文（摘要） | 特种场景直接相关 | 匹配度 76/100
   - 行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：矿山与地下空间。来源期刊/会议：Energies。Despite the pressure of carbon emissions and clean energy, coal remains the economic backbone of many developing count（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [darshmenon/quadruped-robotics-stack](https://github.com/darshmenon/quadruped-robotics-stack) | 代码仓库更新 | 可迁移的机器人关键技术 | 匹配度 74/100
-  - 行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。Unitree Go2 quadruped robot dog — RL locomotion training (MuJoCo + Gazebo Harmonic), ROS2 CHAMP and Quad-SDK NMPC walking controllers, （仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [VisGeo-PipeTrack: A Visual Geometric Servo Control Framework with MPC-RCAPID Control for UAV-Based Dynamic Pipes Tracking](https://arxiv.org/abs/2610.35342) | 论文（摘要） | 特种场景直接相关 | 匹配度 74/100
   - 行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：工业与能源巡检。arXiv:2610.35342v1 Announce Type: new Abstract: While unmanned aerial vehicles (UAVs) are increasingly deployed for pipeline inspection（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Differentiable Contact Dynamics for Legged Locomotion: Policy Learning and Contact-Implicit Trajectory Optimization](https://arxiv.org/abs/2610.35852) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 72/100
@@ -56,6 +54,8 @@
   - 行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2410.09512v3 Announce Type: replace Abstract: Trajectory optimization is a fundamental tool for generating efficient, dynamically（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Motoneuron-Inspired Sampling for Model Predictive Path Integral Control](https://arxiv.org/abs/2609.28325) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 68/100
   - 行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2609.28325v2 Announce Type: replace Abstract: Model Predictive Path Integral (MPPI) control relies on stochastic trajectory sampl（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [A Trainable CPG Framework for Quadruped Locomotion](https://arxiv.org/abs/2610.36537) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 65/100
+  - 行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.36537v1 Announce Type: new Abstract: We present CPG-ENN, a trainable quadruped locomotion framework that combines explicit n（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 大脑与具身智能
 
@@ -67,14 +67,14 @@
   - 行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.39379v1 Announce Type: new Abstract: This paper considers coordinating a heterogeneous team of unmanned aerial vehicles (UAV（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [ThinkLocoManip: A Whole-Body Control Agentic Harness for Legged Loco-Manipulation](https://arxiv.org/abs/2610.34370) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 64/100
   - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.34370v1 Announce Type: new Abstract: In this paper, we propose ThinkLocoManip, an agentic harness for legged loco-manipulati（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Autonomous Construction-Site Safety Inspection Using Mobile Robots: A Multilayer VLM-LLM Pipeline](https://doi.org/10.48550/arxiv.2512.13974) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 64/100
+  - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。Construction safety inspection remains mostly manual, and automated approaches still rely on task-sp（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [New course: Agentic Robotics with ROS 2, from AI agents to VLA models (code on GitHub)](https://discourse.openrobotics.org/t/new-course-agentic-robotics-with-ros-2-from-ai-agents-to-vla-models-code-on-github/59239) | 社区动态 | 可迁移的机器人关键技术 | 匹配度 63/100
   - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。Hello everyone, I have published a self-paced course that connects ROS 2 with today’s AI methods. Everything runs on one simulated gree（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [HuGe: Scaling Humanoid Generalist Vision-Language-Action Models with Egocentric Experience](https://arxiv.org/abs/2610.34186) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 63/100
   - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.34186v1 Announce Type: new Abstract: Extending Vision-Language-Action models (VLAs) to humanoid robots requires coordinated （仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [EmbodiRSI: Recursive Self-Improvement for Data-Efficient Robot Adaptation](https://arxiv.org/abs/2609.38905) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 62/100
   - 行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2609.38905v4 Announce Type: replace Abstract: Adapting robot manipulation policies to new tasks and environments remains highly d（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Pretraining Knows What, Simulation Teaches How: Compositional Generalization in a Sim-Trained Robot Agent](https://arxiv.org/abs/2610.35817) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 62/100
-  - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.35817v2 Announce Type: replace Abstract: A robot policy needs to understand what a task is asking for in a scene, and how to（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 感知建图与导航
 
@@ -82,18 +82,18 @@
   - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：消防与应急救援。来源期刊/会议：Applied Sciences。Omni-wheeled mobile robots (Omni WMRs) are commonly used in indoor navigation applications like surveillance, （仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Slam and Navigation of Electric Power Intelligent Inspection Robot based on ROS](https://doi.org/10.1109/iciba52610.2021.9687883) | 论文（摘要） | 特种场景直接相关 | 匹配度 86/100
   - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：工业与能源巡检。来源期刊/会议：2021 IEEE 2nd International Conference on Information Technology, Big Data and Artificial Intelligence (ICIBA)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Tharun0723/Sentra](https://github.com/Tharun0723/Sentra) | 代码仓库更新 | 特种场景直接相关 | 匹配度 84/100
+  - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：工业与能源巡检。SENTRA – An AI-powered autonomous industrial inspection robot built with ROS 2 Jazzy and Gazebo Harmonic, featuring custom robot simula（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [ROS based SLAM for a Gazebo Simulated Fetch Robot in Unknown Indoor Environment](https://propulsiontechjournal.com/index.php/journal/article/view/3011) | 论文（摘要） | 特种场景直接相关 | 匹配度 83/100
   - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：消防与应急救援。来源期刊/会议：Journal of Propulsion Technology。Mapping and Navigation are the basic need in many autonomous robot applications like Search an（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Research on autonomous mobile robot maze navigation problem based on Dijkstra’s algorithm](https://doi.org/10.54254/2755-2721/39/20230570) | 论文（摘要） | 特种场景直接相关 | 匹配度 82/100
+  - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：消防与应急救援。来源期刊/会议：Applied and Computational Engineering。 In recent years, the field of autonomous mobile robotics has garnered significant attent（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [DR‐ICP: Robust LiDAR SLAM Registration for Degenerate Tunnels](https://doi.org/10.1002/rob.70362) | 论文（摘要） | 特种场景直接相关 | 匹配度 81/100
   - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：野外与特种地形。来源期刊/会议：Journal of Field Robotics。ABSTRACT Light Detection and Ranging (LiDAR) has been extensively deployed in structured environments（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Sensor-Independent Vision-based Terrain Classification for Autonomous Outdoor Robot Navigation](https://doi.org/10.64751/ijdim.2026.v5.n2(2).785) | 论文（摘要） | 特种场景直接相关 | 匹配度 80/100
   - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：消防与应急救援。来源期刊/会议：International Journal of Data Science and IoT Management System。Autonomous outdoor robots are being widely adopted across criti（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Underwater Pose SLAM using GMM scan matching for a mechanical profiling sonar](https://doi.org/10.1002/rob.22272) | 论文（摘要） | 特种场景直接相关 | 匹配度 80/100
   - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：野外与特种地形。来源期刊/会议：Journal of Field Robotics。Abstract The underwater domain is a challenging environment for robotics because widely used electrom（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Continuous mapping of large surfaces with a quality inspection robot](https://doi.org/10.1016/j.robot.2022.104195) | 论文（摘要） | 特种场景直接相关 | 匹配度 77/100
-  - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：工业与能源巡检。来源期刊/会议：Robotics and Autonomous Systems。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Autonomous Multi-Robot Systems for Real-Time Environmental Monitoring and Disaster Response](https://doi.org/10.30564/jees.v8i4.13213) | 论文（摘要） | 特种场景直接相关 | 匹配度 76/100
-  - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：消防与应急救援。来源期刊/会议：Journal of Environmental & Earth Sciences。Autonomous multi-robot systems (MRS) are revolutionizing environmental monitoring and（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 特种应用与产品
 
