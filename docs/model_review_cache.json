@@ -5965,5 +5965,485 @@
     "main_contribution": "WiXus融合轮足与线驱动环境利用的机器人机构设计",
     "model_confidence": "MEDIUM",
     "source": "OpenRouter free router (metadata only)"
+  },
+  "1664b8c4cdc33840aeb4ab904f1cad83c2dd2f583cfd3449048d045bdb8ac5f5": {
+    "primary_category": "特种应用与产品",
+    "secondary_categories": [],
+    "reason": "集成OpenCV、YOLOv8与传感器融合的四足机器人，属于完整系统集成与产品级工程。",
+    "needs_review": false,
+    "main_contribution": "集成OpenCV、YOLOv8与传感器融合的四足机器人",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "97da7ac42a07960ce468178313524a7ee30296869fc0b5ed9bc24a76f5e6a222": {
+    "primary_category": "基础软件与系统",
+    "secondary_categories": [],
+    "reason": "摘要过于简短，无法确定主要贡献是仿真测试工具还是强化学习运动控制策略本身。",
+    "needs_review": true,
+    "main_contribution": "Go2机器狗强化学习仿真测试基准",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "1d0b7af4b7d945fd288839376fdfd3ae3f3be978e9d03448245199d351e7850c": {
+    "primary_category": "大脑与具身智能",
+    "secondary_categories": [],
+    "reason": "构建果蝇全脑连接组模型驱动机器人，实现脑启发式的具身感知与运动控制。",
+    "needs_review": false,
+    "main_contribution": "基于果蝇全脑连接组的脑启发式具身智能模型",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "82af1d6b8d600cde78a1a400dce029c8cd8b28792a463c68281cf8551384c497": {
+    "primary_category": "基础软件与系统",
+    "secondary_categories": [],
+    "reason": "开源诊断工具含AI辅助排错，软件工具交付物明确",
+    "needs_review": true,
+    "main_contribution": "DDS AutoDiag v0.1.0开源ROS 2 DDS诊断工具",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "dd2abd9e90ae8f78157884ac0b74ac9c075313eb3ada4e1a0a93b3b23d0376d3": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "提问帖无明确研究贡献，需人工进一步确认分类结果",
+    "needs_review": true,
+    "main_contribution": "无明确研究贡献（提问帖）",
+    "model_confidence": "LOW",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "841589a54951777ab8e330591182c20c82f57e48a4b80d857d81caf1d39efadb": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "异步硬件接口解决位置控制抖动，属低层执行创新",
+    "needs_review": true,
+    "main_contribution": "Franka Panda ROS 2栈异步硬件接口与位置域参考生成",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "924ca9cf45adcc06779ae2bad385aa4474e94902126da40d4bc6fde79edc33f5": {
+    "primary_category": "基础软件与系统",
+    "secondary_categories": [],
+    "reason": "提出开源多模态数据采集与标注库Sensorium，提供数据处理与生成功能，属于基础软件与系统。",
+    "needs_review": false,
+    "main_contribution": "开源多模态数据采集与标注库Sensorium",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "211f064bd639eb73f0b56d2be2123f17f0f08d14022408a1c1b1fb022c4bf3c2": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "提出可微仿真人形控制方法$\\nabla$Mimic，解决接触动力学梯度与效率问题，属于小脑与运动控制。",
+    "needs_review": false,
+    "main_contribution": "可微仿真人形控制方法$\\nabla$Mimic",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "3841f85c4be8075ad514792f47c5f9ad5085d2bbb0de10263f4a9077571380f3": {
+    "primary_category": "大脑与具身智能",
+    "secondary_categories": [],
+    "reason": "提出CaPtain代码策略训练流水线，使VLM能编写代码调用工具，属于大脑与具身智能。",
+    "needs_review": false,
+    "main_contribution": "代码策略训练流水线CaPtain",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "7950da11705db3cbca0fbf5723cf9b16cc4212d24594351736655491ee2a30a0": {
+    "primary_category": "大脑与具身智能",
+    "secondary_categories": [],
+    "reason": "提出WorldBridge视频到动作桥接方法，提升世界动作模型任务泛化能力，属于具身基础模型架构研究。",
+    "needs_review": false,
+    "main_contribution": "WorldBridge视频到动作桥接方法",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "a03a9ef383d16e3d272c7ee55df493134cfdccb178db872a7dec13af0e008c3a": {
+    "primary_category": "硬件与防爆",
+    "secondary_categories": [],
+    "reason": "基于数字孪生数据对机器人底盘进行拓扑优化与轻量化设计，属于硬件结构与CAD工程。",
+    "needs_review": false,
+    "main_contribution": "基于数字孪生的UGV底盘轻量化与拓扑优化",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "09deeb53c80f7f315a9af167e8ae1aa3d4d642b0af889379e621159eb05298d2": {
+    "primary_category": "特种应用与产品",
+    "secondary_categories": [],
+    "reason": "提出面向疫情无接触教学的自主服务机器人系统，集成导航与语音交互，属于特种应用与产品。",
+    "needs_review": false,
+    "main_contribution": "疫情期间无接触教学自主服务机器人系统",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "57bf0b7eb6ba21d60bab0c8ac4ab98d5540db52d17c6ee9c2cecf6b0fb6909ab": {
+    "primary_category": "基础软件与系统",
+    "secondary_categories": [],
+    "reason": "提出CNN检测框架和可重构机器人Raptor，提供定制数据集，体现软件创新",
+    "needs_review": false,
+    "main_contribution": "基于CNN的排水管检测框架及可重构机器人Raptor，提供定制数据集",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "8ada2a9fa8dc478e3f8f10324a3b954ee87cd8c9b5ee749b4ee10e534f94c0fd": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "提出手眼标定新算法，利用克罗内克积闭式求解与凸优化实现双臂协同校准",
+    "needs_review": true,
+    "main_contribution": "手眼标定新方法，通过克罗内克积闭式求解及凸优化实现双臂协同校准",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "335e15cb7c53dbab293c335b167a3c91531c7b0b649be1d96dd7918aa89b3548": {
+    "primary_category": "基础软件与系统",
+    "secondary_categories": [],
+    "reason": "标题表明是综述，未展示新算法或系统，缺乏明确创新贡献",
+    "needs_review": true,
+    "main_contribution": "综述灵活四肢机器人的生物启发结构与协同机制",
+    "model_confidence": "LOW",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "8225134bc12466854dab061dee25de76adc05f0273ed561b09e375c19ba48ad2": {
+    "primary_category": "基础软件与系统",
+    "secondary_categories": [],
+    "reason": "开发并验证了隧道专用无线仿真平台，通过机器人测量生成了多模态数据集，属于基础软件与系统贡献。",
+    "needs_review": false,
+    "main_contribution": "隧道专用无线仿真平台与数据集",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "8c3de7e2dcfe547420e6280679e4912ff44ef4c6609714607235913171f08bf9": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "论文主要贡献为利用大语言模型实现无人车零样本路径规划与导航。",
+    "needs_review": false,
+    "main_contribution": "基于大语言模型的零样本路径规划与导航",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "687396bdd2b81ffc69b956fab2a3a480acc89f1aa2b98581105bf531b512ab09": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "提出融合多模态感知的学习型运动控制策略用于四足机器人",
+    "needs_review": false,
+    "main_contribution": "融合多模态感知的学习型运动控制策略",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "ede32fff2dbe002eaf44b84e358c8b5ca0ec3ed501839c4f98857377e51ddfaa": {
+    "primary_category": "基础软件与系统",
+    "secondary_categories": [],
+    "reason": "大规模并行高斯过程回归实现实时水深建图与SLAM",
+    "needs_review": false,
+    "main_contribution": "大规模并行高斯过程回归实现实时水深建图与SLAM",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "43c64b7e6357acb55a9636add442a9ac741518c64405fafa542481f70bb656b9": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "提出无固定接触序列的接触隐式轨迹优化框架用于四足运动",
+    "needs_review": true,
+    "main_contribution": "无固定接触序列的接触隐式轨迹优化框架",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "88c68029ce86c340c057ddb6e75881c6913d936a3acb6747ab99a741e013734c": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "提出基于仿真的深度强化学习四足机器人步态获取与自适应控制方法",
+    "needs_review": false,
+    "main_contribution": "Deep reinforcement learning method for quadruped walking motion acquisition in simulation",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "72c21098139a010c2e1c1a0b7150eef1fb895d04398185155ba6c17fcd7b23c0": {
+    "primary_category": "大脑与具身智能",
+    "secondary_categories": [],
+    "reason": "提出 AW-0 框架，实现代码规划与视频动作联合预测的 embodied 基础模型，支持技能复用与长程规划",
+    "needs_review": false,
+    "main_contribution": "AW-0 framework integrating code-based planning with joint video and action prediction via mixture-of-transformers for compositional skill reuse",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "72e59b83fefe745c94a7ffbe2c1bbece94343e5c4fec0f9de18a4088dbd4a30f": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "提出基于深度强化学习的四足机器人复杂环境敏捷控制方法",
+    "needs_review": false,
+    "main_contribution": "Deep reinforcement learning method for agile quadruped control in complex environments",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "02e918c69f937f8ade9374a2f464d06c9b56ac3be93912fae437c91ee9a9eeb3": {
+    "primary_category": "硬件与防爆",
+    "secondary_categories": [],
+    "reason": "提出3D打印狗尾草生物灵感运动结构，属物理机构设计而非控制算法。",
+    "needs_review": true,
+    "main_contribution": "3D打印狗尾草生物灵感运动结构",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "53ad4fb4e1a93c33b81d950b5f1da83c826d6d33d2eead3a1a5ecc4d0fa076c5": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "提出PSO辅助深度强化学习用于四足机器人敏捷躲避动作策略学习。",
+    "needs_review": false,
+    "main_contribution": "PSO辅助深度强化学习四足机器人敏捷躲避动作策略",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "4099b7e4c36f73e6cfc506e4bcd91c6a8193b3a016c5cdf67ce53706b45ddf75": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "为社论，标题仅提振动式运动，无法确定具体技术贡献。",
+    "needs_review": true,
+    "main_contribution": "振动式机器人运动编辑文章",
+    "model_confidence": "LOW",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "6bd29ad857904eb3e0dc7c0be6dfcb21cbd07ed5cd2fcf68e6ca40398572cc65": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "提出低成本传感器里程计计算、二维建图与定位导航方法，属导航建图贡献。",
+    "needs_review": false,
+    "main_contribution": "低成本传感器里程计计算与二维建图定位导航方法",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "cde5d6e22a4f2818579e971a22196a65581fc5ad4701f0fc4e215bb4f757a6f3": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "标题明确提出基于3D LiDAR的移动机器人强化学习导航策略，属导航策略学习。",
+    "needs_review": false,
+    "main_contribution": "基于3D LiDAR的移动机器人强化学习导航策略",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "ccab1159942708c499a9cbdc0d21e6227d61199bd3e6c617b1563cbc33193cd0": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "提出事件相机实时直线SLAM，含跟踪建图与相机位姿估计，属建图定位。",
+    "needs_review": false,
+    "main_contribution": "事件相机实时直线SLAM跟踪建图与位姿估计方法",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "f74843722c636ff707ee119744938bc0796257fe536876fd8c522de7f1063996": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "提出分割引导视觉跟踪框架，提升四足机器人感知控制",
+    "needs_review": false,
+    "main_contribution": "图像分割引导视觉跟踪框架",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "3ae036651f18f4d74cc253fae47770f2f4651db93d7cc3b277dab101baea2c21": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "间接最优控制构建周期轨迹库，用于两足步态生成",
+    "needs_review": true,
+    "main_contribution": "间接最优控制构建周期轨迹库",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "2467cc3bcdc7c3bf0248cf228844eeb535ce985ac4e48b4af07854adb7f222fe": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "仅标题显示俯仰角对四足跳跃步态影响，缺摘要无法确定",
+    "needs_review": true,
+    "main_contribution": "俯仰角对四足跳跃步态影响分析",
+    "model_confidence": "LOW",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "181f3d654ea39d3034f9d2b49389aa4427ba77c0a23926f1d800ca6df802e097": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "腿式机器人运算空间力矩控制框架中优先级阻抗控制器集成实现精确力矩控制运动协调",
+    "needs_review": false,
+    "main_contribution": "优先级阻抗控制器在层级运算空间力矩控制框架中的集成",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "92659ec822c6fbb422303a6d34e905a633593dae0ba88a1b2488391cce6e1668": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "部分已知环境中传感器读数调优移动机器人导航函数涉及路径规划障碍物避让",
+    "needs_review": false,
+    "main_contribution": "基于传感器读数的移动机器人导航函数调优",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "87fe8eff0c9d2a252e8a6f2f63a069963205c2a7e578eb786eaa9669c960b7f2": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "去中心化策略下群体智能移动机器人导航方法涉及协调路径规划",
+    "needs_review": false,
+    "main_contribution": "去中心化策略下的群体智能移动机器人导航方法",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "97f068458725ee3393d2f08c0df35a2baa3e22840a89b9a364e09f677997cacd": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "提出两种基于图的地下环境导航算法，实现多机器人协同探索",
+    "needs_review": false,
+    "main_contribution": "两种基于图的导航算法",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "82af928c88bba47b6bb1d12281d8e92aa47a9ed59003c6beb6462c08ee352a81": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "创新平面网格映射方法，结合传感器模型和聚类算法用于轮足机器人规划",
+    "needs_review": false,
+    "main_contribution": "平面网格映射方法",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "606ae475b0a0e3b2818594c2ecd6236d7b51da6ca4b6bf39021c75814bab755a": {
+    "primary_category": "基础软件与系统",
+    "secondary_categories": [],
+    "reason": "提出证据门控递归自我改进的机器人代理框架，实现任务规划到技能执行的闭环",
+    "needs_review": false,
+    "main_contribution": "证据门控递归自我改进的机器人代理框架",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "2c0ea586933db3069c04de862657ec6aaed316018cd07c7ba2a453d2f3cab763": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "提出了一种融合激光雷达与卷积神经网络检测的移动机器人导航感知方法",
+    "needs_review": false,
+    "main_contribution": "LiDAR-YOLO fusion navigation perception method for mobile robots",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "b7ff5c2326c457f9284daa639509b0ab6172675e040f0d7c86fd8dc06b4c644f": {
+    "primary_category": "特种应用与产品",
+    "secondary_categories": [],
+    "reason": "提出了一个具备操纵器的四足机器人自主系统解决方案，包括感知、导航和操作模块",
+    "needs_review": false,
+    "main_contribution": "Integrated autonomous quadruped robot system with manipulator, including environment awareness, navigation, mapping, path planning, and grasp detection",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "3f3e5eee813fa3d8b193517730ce22141e4de25d244ee40ef9d9b171b8975e76": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "提出了一种基于交互的深度强化学习机器人导航策略方法",
+    "needs_review": false,
+    "main_contribution": "Interaction-based deep reinforcement learning navigation policy for robots",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "fbdc8a46620ee7cc24e399b8cbd4d3b5e1f833df7f7e837938b5708084497104": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "提出对比历史感知RL实现轮腿机器人鲁棒运动控制",
+    "needs_review": false,
+    "main_contribution": "Contrastive history-aware RL for robust locomotion control of wheel-legged robots",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "55a4d69354d73818321b5f2823cf0044579c8e3621e0db84bb420e012f9bf62f": {
+    "primary_category": "小脑与运动控制",
+    "secondary_categories": [],
+    "reason": "基于MPC的生存域保证实现鲁棒步态控制",
+    "needs_review": true,
+    "main_contribution": "MPC with viability guarantees for robust walking",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "b868cf2f3ce1daae12f3cc0a4efa3a47d5315f5f771a14af3f6db76dc866e129": {
+    "primary_category": "大脑与具身智能",
+    "secondary_categories": [],
+    "reason": "提出共享KV行为树节点并行决策评分方法新",
+    "needs_review": true,
+    "main_contribution": "SharedKV-BT: node-local typed decisions for behavior-tree agents",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)",
+    "evidence_warning": "理由无法通过标题摘要关键词交叉验证"
+  },
+  "32c1d141cc1b7217aeb8d8c47619dc2dd4e61398292688fc35e22cb0f0d0f560": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "提出SLAM建图与路径规划的定位导航方法，属感知导航范畴。",
+    "needs_review": false,
+    "main_contribution": "基于SLAM的机器人定位与导航算法",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "a1206f4df6282017900c44a5f35316370561d442e5d39a68f93ce7b59984fb64": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "提出融合多源感知的四足机器人状态估计方法，属定位导航。",
+    "needs_review": false,
+    "main_contribution": "融合激光雷达惯性关节编码器的LIJO状态估计框架",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "f3acdcc5b9a6c029bd8a8acffb80642fdcd1dff45f54e04d4c08c8b7f239f60c": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "提出移动机器人静态动态路径规划算法，属导航规划。",
+    "needs_review": false,
+    "main_contribution": "改进萤火虫算法与B样条移动机器人路径规划方法",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "8fd0d05d0c59777213757f267d92da04fd5bd2cffe334118939ded0a8a208990": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "基于地形的激光雷达建图定位，解决有限视野下移动机器人导航",
+    "needs_review": false,
+    "main_contribution": "基于地形的激光雷达建图定位模块",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "bcf195349905bd5bd1b688e0281dcf88b2e3606ade3299abd339fceb7b5c6157": {
+    "primary_category": "大脑与具身智能",
+    "secondary_categories": [],
+    "reason": "具身基础模型在线人在回合后训练框架TIDE，通过证明条件监督学习实现适配",
+    "needs_review": false,
+    "main_contribution": "TIDE具身基础模型在线人在回合后训练系统",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "81902eeaa0ff9050d7c9dc4b071ca7e125f2458344acec57559f408f0b409ae4": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "移动机器人在线滑动估计用于导航改进，属于感知定位范畴",
+    "needs_review": false,
+    "main_contribution": "移动机器人基于观察者的在线滑动估计算法",
+    "model_confidence": "MEDIUM",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "5bc99b0c60e1ad0a3097ea50c70602350ff69754249db940410581e96e976874": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "基于神经辐射场技术的纯视觉机器人导航与路径规划研究",
+    "needs_review": false,
+    "main_contribution": "基于神经辐射场的纯视觉导航系统",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)"
+  },
+  "acbbe4e0d5feba3ab2f631cec8ca60d48feee6e0c68d4d363f5c1aee4ee1ddda": {
+    "primary_category": "感知建图与导航",
+    "secondary_categories": [],
+    "reason": "基于激光雷达惯导视觉融合与二维码因子的工业机器人建图导航研究",
+    "needs_review": false,
+    "main_contribution": "基于激光雷达惯导视觉融合与二维码因子的建图导航方法",
+    "model_confidence": "HIGH",
+    "source": "OpenRouter free router (metadata only)"
   }
 }

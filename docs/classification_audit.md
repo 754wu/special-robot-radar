@@ -2,22 +2,22 @@
 
 本表对每条已入库资源扫描标题、摘要及现有分类；疑点不等于确证错分。
 
-总资源：1955；出现一项或以上疑点：464。
+总资源：1978；出现一项或以上疑点：490。
 
 ## 分类数量
 
-- 感知建图与导航: 829
-- 小脑与运动控制: 634
-- 特种应用与产品: 160
-- 硬件与防爆: 132
-- 基础软件与系统: 121
-- 大脑与具身智能: 79
+- 感知建图与导航: 839
+- 小脑与运动控制: 633
+- 特种应用与产品: 161
+- 硬件与防爆: 133
+- 基础软件与系统: 130
+- 大脑与具身智能: 82
 
 ## 疑点分布
 
-- EXISTING_REVIEW: 286
-- THIN_ABSTRACT: 179
-- HW_NO_EVIDENCE: 21
+- EXISTING_REVIEW: 316
+- THIN_ABSTRACT: 180
+- HW_NO_EVIDENCE: 22
 - SOFT_ALGORITHM: 4
 - BRAIN_POLICY_REVIEW: 2
 - NAV_AGENT_REVIEW: 2
@@ -27,22 +27,23 @@
 
 ## 重点疑点逐篇示例
 
-### EXISTING_REVIEW（286 条）
+### EXISTING_REVIEW（316 条）
+- 12sqawdwq/FlyHead | 当前：大脑与具身智能 | 建议：待复核 | https://github.com/12sqawdwq/FlyHead
 - rokbenko/quackd | 当前：基础软件与系统 | 建议：待复核 | https://github.com/rokbenko/quackd
+- jinyang-ops/go2-sim-test-bench | 当前：基础软件与系统 | 建议：待复核 | https://github.com/jinyang-ops/go2-sim-test-bench
+- Keeping the Franka Emika Panda alive: a ROS 2 stack with a reliable position interface | 当前：小脑与运动控制 | 建议：待复核 | https://arxiv.org/abs/2608.19740
+- DarmawanRobotics/Pashupati | 当前：基础软件与系统 | 建议：待复核 | https://github.com/DarmawanRobotics/Pashupati
+- How does Nav2 calculate and provide the map -> odom transform? (REP 105) | 当前：感知建图与导航 | 建议：待复核 | https://discourse.openrobotics.org/t/how-does-nav2-calculate-and-provide-the-map-odom-transform-rep-105/59425
+- [Open Source] DDS AutoDiag v0.1.0 — ROS 2 DDS Diagnostics with AI-Assisted Troubleshooting | 当前：基础软件与系统 | 建议：待复核 | https://discourse.openrobotics.org/t/open-source-dds-autodiag-v0-1-0-ros-2-dds-diagnostics-with-ai-assisted-troubleshooting/59419
 - MrArun005/Cool-Websites | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/MrArun005/Cool-Websites
 - Tharun0723/Sentra | 当前：感知建图与导航 | 建议：待复核 | https://github.com/Tharun0723/Sentra
 - Agentic Development platform for robotics | 当前：基础软件与系统 | 建议：待复核 | https://discourse.openrobotics.org/t/agentic-development-platform-for-robotics/59385
 - darshmenon/quadruped-robotics-stack | 当前：基础软件与系统 | 建议：待复核 | https://github.com/darshmenon/quadruped-robotics-stack
 - JoseSegundoM/proprioceptive_risk_mapping | 当前：感知建图与导航 | 建议：待复核 | https://github.com/JoseSegundoM/proprioceptive_risk_mapping
-- Survey: where does your time go between laptop and robot? (3 min, results shared back) | 当前：基础软件与系统 | 建议：待复核 | https://discourse.openrobotics.org/t/survey-where-does-your-time-go-between-laptop-and-robot-3-min-results-shared-back/59366
-- DarmawanRobotics/Pashupati | 当前：基础软件与系统 | 建议：待复核 | https://github.com/DarmawanRobotics/Pashupati
-- liberty-joy/Go2W-RobotDog-Simulation | 当前：基础软件与系统 | 建议：待复核 | https://github.com/liberty-joy/Go2W-RobotDog-Simulation
-- antonawin07/Autonomous-warehouse-AMR | 当前：感知建图与导航 | 建议：待复核 | https://github.com/antonawin07/Autonomous-warehouse-AMR
-- OmniQuad: a Wheeled-Legged Hybrid Robot with Omnidirectional Wheels | 当前：硬件与防爆 | 建议：待复核 | https://arxiv.org/abs/2610.38502
-- EgoHTR: Egocentric 4D Demonstrations of Human Terrain Traversal | 当前：基础软件与系统 | 建议：待复核 | https://arxiv.org/abs/2607.13472
-### THIN_ABSTRACT（179 条）
-- sujaypaul27/Firefighting-Robot-AquaFlare | 当前：特种应用与产品 | 建议：待复核 | https://github.com/sujaypaul27/Firefighting-Robot-AquaFlare
+### THIN_ABSTRACT（180 条）
 - 1ulone/quins_ros2 | 当前：基础软件与系统 | 建议：待复核 | https://github.com/1ulone/quins_ros2
+- jinyang-ops/go2-sim-test-bench | 当前：基础软件与系统 | 建议：待复核 | https://github.com/jinyang-ops/go2-sim-test-bench
+- sujaypaul27/Firefighting-Robot-AquaFlare | 当前：特种应用与产品 | 建议：待复核 | https://github.com/sujaypaul27/Firefighting-Robot-AquaFlare
 - coverMoon/quadruped_control | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/coverMoon/quadruped_control
 - LA-WBC: Learning-Driven Adaptation of Whole-Body Control for Safe Locomotion on Uncertain Terrain | 当前：小脑与运动控制 | 建议：待复核 | https://doi.org/10.1109/lra.2026.3745006
 - Gait-Aware Command Timing for Decentralized Quadruped Swarms | 当前：小脑与运动控制 | 建议：待复核 | https://doi.org/10.21203/rs.3.rs-11332226/v1
@@ -52,8 +53,7 @@
 - H-VLN: hierarchical visual-language adaptive navigation control framework for wheel-legged robots | 当前：感知建图与导航 | 建议：待复核 | https://doi.org/10.1016/j.displa.2026.103512
 - Adaptive fuzzy-learning control with multi-objective optimization for robust mobile robot navigation | 当前：感知建图与导航 | 建议：待复核 | https://doi.org/10.1016/j.array.2026.101053
 - MAXIMAL X-PROJECTION OF CHUA ATTRACTORS: THEORY AND MOBILE ROBOT NAVIGATION APPLICATIONS | 当前：感知建图与导航 | 建议：待复核 | https://doi.org/10.1007/s10958-026-08613-x
-- Constrained-Axis Visual-Inertial Odometry for Mobile Robot Displacement Logging Using Commodity Mobile Devices | 当前：感知建图与导航 | 建议：待复核 | https://doi.org/10.21203/rs.3.rs-10175959/v1
-### HW_NO_EVIDENCE（21 条）
+### HW_NO_EVIDENCE（22 条）
 - OmniQuad: a Wheeled-Legged Hybrid Robot with Omnidirectional Wheels | 当前：硬件与防爆 | 建议：待复核 | https://arxiv.org/abs/2610.38502
 - We made a new ROS robot: Mini Pupper 4 | 当前：硬件与防爆 | 建议：待复核 | https://discourse.openrobotics.org/t/we-made-a-new-ros-robot-mini-pupper-4/59197
 - A Soft Worm Robot for Sub-Centimeter Scale Pipeline Inspection | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.1109/lra.2026.3699247

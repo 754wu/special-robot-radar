@@ -2,7 +2,7 @@
 
 模型最多审核两次，首次复核后第4至第7天安排二次复核；若API额度或故障未能及时执行则持续优先重试。两次后仍不明确的资源列于此处。
 
-- 资源数量：168
+- 资源数量：165
 
 - rokbenko/quackd | 基础软件与系统 | https://github.com/rokbenko/quackd
 - api-evangelist/boston-dynamics | 基础软件与系统 | https://github.com/api-evangelist/boston-dynamics
@@ -169,6 +169,3 @@
 - Morphological Development in Robotic Learning: A Survey | 大脑与具身智能 | https://doi.org/10.1109/tcds.2021.3052548
 - A bio-inspired robotic climbing robot to understand kinematic and morphological determinants for an optimal climbing gait | 小脑与运动控制 | https://doi.org/10.1088/1748-3190/ac370f
 - Multi-robot Learning and Coverage of Unknown Spatial Fields | 感知建图与导航 | https://doi.org/10.1109/mrs50823.2021.9620688
-- Jumping robot: A pneumatic jumping locomotion across rough terrain | 硬件与防爆 | https://doi.org/10.1088/1742-6596/2115/1/012008
-- Multi-Sensor SLAM for efficient Navigation of a Mobile Robot | 感知建图与导航 | https://doi.org/10.1109/iccis54243.2021.9676374
-- Hopping Robot: Current Status and Future Perspectives | 硬件与防爆 | https://doi.org/10.2174/2212797614666210224161332

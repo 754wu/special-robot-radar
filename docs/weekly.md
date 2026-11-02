@@ -1,13 +1,17 @@
 # 特种机器人七日技术简报
 
-生成时间：2026-11-01T08:33:35.527893+00:00
+生成时间：2026-11-02T08:19:21.374428+00:00
 
-最近 7 天首次记录 **192** 条；本轮新增 **0** 条；总库存 **1955** 条。
+最近 7 天首次记录 **227** 条；本轮新增 **0** 条；总库存 **1978** 条。
 
 **注意：**‘七日’按首次入库时间统计，不代表论文发表于最近七天；相关度评分只是初筛优先级，不是成熟度或质量评级。
 
 ## 硬件与防爆
 
+- [DIGITAL TWIN BASED LIGHTWEIGHTING OF ROBOT UNMANNED GROUND VEHICLES](https://doi.org/10.22190/fuacr221121015b) | 论文（摘要） | 特种场景直接相关 | 匹配度 78/100
+  - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：野外与特种地形。来源期刊/会议：Facta Universitatis Series Automatic Control and Robotics。Battery powered outdoor robot Unmanned Ground Vehicles (UGV) should h（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Optimized design of 5R planar parallel mechanism aimed at gait-cycle of quadruped robots](https://doi.org/10.21595/jve.2021.22131) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 73/100
+  - 行业筛选：可迁移的机器人关键技术；方向：硬件与防爆；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Journal of Vibroengineering。 In quadruped robot locomotion using parallel mechanisms, researchers have used equal link lengths （仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [OmniQuad: a Wheeled-Legged Hybrid Robot with Omnidirectional Wheels](https://arxiv.org/abs/2610.38502) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 72/100
   - 行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.38502v1 Announce Type: new Abstract: Combining wheeled and legged locomotion within a single robotic platform offers the pot（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Design And Analysis of a Pipe Inspection Caterpillar Robot Using Different Materials](https://doi.org/10.52783/tjjpt.v44.i3.2108) | 论文（摘要） | 特种场景直接相关 | 匹配度 72/100
@@ -23,20 +27,20 @@
 
 - [Autonomous Robotics with Vision-Language AI for Industrial Inspection and Maintenance](https://doi.org/10.67228/30716357/ijmrse-2024pii8t1v) | 论文（摘要） | 特种场景直接相关 | 匹配度 77/100
   - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：工业与能源巡检。来源期刊/会议：International Journal of Modern Research in Science & Engineering。 Industrial environments are rapidly evolving toward Industry（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Search and Rescue in Tunnels, an Integrated Approach Using Robotic Platforms](https://doi.org/10.1007/s00501-026-01790-x) | 论文（摘要） | 特种场景直接相关 | 匹配度 76/100
+  - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：消防与应急救援。来源期刊/会议：BHM Berg- und Hüttenmännische Monatshefte。Abstract Underground infrastructure such as road and railway tunnels requires reliabl（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [darshmenon/quadruped-robotics-stack](https://github.com/darshmenon/quadruped-robotics-stack) | 代码仓库更新 | 可迁移的机器人关键技术 | 匹配度 74/100
   - 行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。Unitree Go2 quadruped robot dog — RL locomotion training (MuJoCo + Gazebo Harmonic), ROS2 CHAMP and Quad-SDK NMPC walking controllers, （仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [aya-saleh123/mars-ops-colony-simulator](https://github.com/aya-saleh123/mars-ops-colony-simulator) | 代码仓库更新 | 特种场景直接相关 | 匹配度 71/100
+  - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：消防与应急救援。A Java-based Mars colony management and emergency simulation system. Models colony personnel, robotic units, facilities, resources, mis（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [EgoHTR: Egocentric 4D Demonstrations of Human Terrain Traversal](https://arxiv.org/abs/2607.13472) | 论文（摘要） | 特种场景直接相关 | 匹配度 71/100
   - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：野外与特种地形。arXiv:2607.13472v2 Announce Type: replace Abstract: Deploying humanoid robots in unstructured terrain remains an open problem. While cl（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Remote drain inspection framework using the convolutional neural network and re-configurable robot Raptor](https://doi.org/10.1038/s41598-021-01170-0) | 论文（摘要） | 特种场景直接相关 | 匹配度 71/100
+  - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：工业与能源巡检。来源期刊/会议：Scientific Reports。Drain blockage is a crucial problem in the urban environment. It heavily affects the ecosystem and human hea（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [DarmawanRobotics/Pashupati](https://github.com/DarmawanRobotics/Pashupati) | 代码仓库更新 | 可迁移的机器人关键技术 | 匹配度 70/100
   - 行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。Autonomous patrol and inspection stack for quadruped robots (ROS 2 Humble): LiDAR teach and repeat, path-shift obstacle avoidance, on-r（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [ROS 2 GUI Installer – Making ROS 2 Setup Easier for Beginners](https://discourse.openrobotics.org/t/ros-2-gui-installer-making-ros-2-setup-easier-for-beginners/59289) | 社区动态 | 可迁移的机器人关键技术 | 匹配度 70/100
   - 行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。Hey everyone! We recently open-sourced ROS 2 GUI Installer , a tool we developed at RUNTIME Robotics to simplify ROS 2 installation, es（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [liberty-joy/Go2W-RobotDog-Simulation](https://github.com/liberty-joy/Go2W-RobotDog-Simulation) | 代码仓库更新 | 可迁移的机器人关键技术 | 匹配度 68/100
-  - 行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。Go2-W wheel-legged robot simulation, ROS 2 integration, sensor pipeline, and reproducible Isaac Sim experiments.（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [UMI-Live for In-The-Wild Bimanual Robotics Data Collection](https://arxiv.org/abs/2610.39385) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 64/100
-  - 行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.39385v1 Announce Type: new Abstract: Universal Manipulation Interface (UMI) devices allow human experts to demonstrate tasks（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [OpenPodcar2: a robust, ROS2 vehicle for self-driving research](https://doi.org/10.48550/arxiv.2604.24242) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 64/100
-  - 行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。OpenPodcar2 is a robust, ROS2-interfaced, low-cost, open source hardware and software, autonomous ve（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 小脑与运动控制
 
@@ -46,6 +50,8 @@
   - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检、野外与特种地形。来源期刊/会议：Aquaculture Research。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Research on the Intelligent System Architecture and Control Strategy of Mining Robot Crowds](https://doi.org/10.3390/en17081834) | 论文（摘要） | 特种场景直接相关 | 匹配度 76/100
   - 行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：矿山与地下空间。来源期刊/会议：Energies。Despite the pressure of carbon emissions and clean energy, coal remains the economic backbone of many developing count（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Hand-Eye Calibration of EOD Robot by Solving the AXB = YCZD Problem](https://doi.org/10.1109/access.2021.3136850) | 论文（摘要） | 特种场景直接相关 | 匹配度 76/100
+  - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：排爆与高风险作业。来源期刊/会议：IEEE Access。The explosive ordnance disposal (EOD) robots work in a special environment, which requires dual robotic arms to wor（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [VisGeo-PipeTrack: A Visual Geometric Servo Control Framework with MPC-RCAPID Control for UAV-Based Dynamic Pipes Tracking](https://arxiv.org/abs/2610.35342) | 论文（摘要） | 特种场景直接相关 | 匹配度 74/100
   - 行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：工业与能源巡检。arXiv:2610.35342v1 Announce Type: new Abstract: While unmanned aerial vehicles (UAVs) are increasingly deployed for pipeline inspection（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Differentiable Contact Dynamics for Legged Locomotion: Policy Learning and Contact-Implicit Trajectory Optimization](https://arxiv.org/abs/2610.35852) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 72/100
@@ -54,15 +60,17 @@
   - 行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2410.09512v3 Announce Type: replace Abstract: Trajectory optimization is a fundamental tool for generating efficient, dynamically（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Motoneuron-Inspired Sampling for Model Predictive Path Integral Control](https://arxiv.org/abs/2609.28325) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 68/100
   - 行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2609.28325v2 Announce Type: replace Abstract: Model Predictive Path Integral (MPPI) control relies on stochastic trajectory sampl（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [A Trainable CPG Framework for Quadruped Locomotion](https://arxiv.org/abs/2610.36537) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 65/100
-  - 行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.36537v1 Announce Type: new Abstract: We present CPG-ENN, a trainable quadruped locomotion framework that combines explicit n（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 大脑与具身智能
 
 - [Inspection action reasoning for robotic inspection of precast segmental box girder interiors using a 3D point cloud-based multimodal large language model](https://doi.org/10.2139/ssrn.7641925) | 论文（摘要） | 特种场景直接相关 | 匹配度 76/100
   - 行业筛选：特种场景直接相关；方向：大脑与具身智能；关联：工业与能源巡检。Robotic systems support automated data acquisition for bridge inspection. However, inspection data are commonly acquired along predefin（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [12sqawdwq/FlyHead](https://github.com/12sqawdwq/FlyHead) | 代码仓库更新 | 可迁移的机器人关键技术 | 匹配度 71/100
+  - 行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。FlyHead: a whole-brain FlyWire fruit-fly connectome (138k-neuron LIF, PyTorch/CUDA) driving a real wheel-legged robot over ROS 2. LiDAR（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [A semantic autonomy framework for VLM-integrated indoor mobile robots: Hybrid deterministic reasoning and cross-robot adaptive memory](https://doi.org/10.1016/j.robot.2026.105822) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 65/100
   - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Robotics and Autonomous Systems。Semantic indoor navigation requires robots to connect human instructions with spatial destinati（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [CaPtain: A Pipeline for Post-Training Code-as-Policy Robot Agents](https://arxiv.org/abs/2610.40799) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 64/100
+  - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.40799v1 Announce Type: new Abstract: Across coding, web, and tool-use tasks, language-model agents are now routinely trained（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Information-Driven Collaborative Autonomy for Heterogeneous UAV/UGV Teams](https://arxiv.org/abs/2610.39379) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 64/100
   - 行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.39379v1 Announce Type: new Abstract: This paper considers coordinating a heterogeneous team of unmanned aerial vehicles (UAV（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [ThinkLocoManip: A Whole-Body Control Agentic Harness for Legged Loco-Manipulation](https://arxiv.org/abs/2610.34370) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 64/100
@@ -71,10 +79,6 @@
   - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。Construction safety inspection remains mostly manual, and automated approaches still rely on task-sp（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [New course: Agentic Robotics with ROS 2, from AI agents to VLA models (code on GitHub)](https://discourse.openrobotics.org/t/new-course-agentic-robotics-with-ros-2-from-ai-agents-to-vla-models-code-on-github/59239) | 社区动态 | 可迁移的机器人关键技术 | 匹配度 63/100
   - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。Hello everyone, I have published a self-paced course that connects ROS 2 with today’s AI methods. Everything runs on one simulated gree（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [HuGe: Scaling Humanoid Generalist Vision-Language-Action Models with Egocentric Experience](https://arxiv.org/abs/2610.34186) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 63/100
-  - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.34186v1 Announce Type: new Abstract: Extending Vision-Language-Action models (VLAs) to humanoid robots requires coordinated （仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [EmbodiRSI: Recursive Self-Improvement for Data-Efficient Robot Adaptation](https://arxiv.org/abs/2609.38905) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 62/100
-  - 行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2609.38905v4 Announce Type: replace Abstract: Adapting robot manipulation policies to new tasks and environments remains highly d（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 感知建图与导航
 
