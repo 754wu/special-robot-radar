@@ -1,15 +1,19 @@
 # 特种机器人七日技术简报
 
-生成时间：2026-11-02T08:19:21.374428+00:00
+生成时间：2026-11-03T08:17:53.413458+00:00
 
-最近 7 天首次记录 **227** 条；本轮新增 **0** 条；总库存 **1978** 条。
+最近 7 天首次记录 **241** 条；本轮新增 **0** 条；总库存 **1991** 条。
 
 **注意：**‘七日’按首次入库时间统计，不代表论文发表于最近七天；相关度评分只是初筛优先级，不是成熟度或质量评级。
 
 ## 硬件与防爆
 
+- [Design of walking mechanism of quadruped inspection robot for fully mechanized working face in thin coal seam](https://doi.org/10.13272/j.issn.1671-251x.2025120123) | 论文（摘要） | 特种场景直接相关 | 匹配度 93/100
+  - 行业筛选：特种场景直接相关；方向：硬件与防爆；关联：防爆石化与危险环境、工业与能源巡检。来源期刊/会议：DOAJ (DOAJ: Directory of Open Access Journals)。In fully mechanized working face in thin coal seams, fixed rail-type inspection （仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [DIGITAL TWIN BASED LIGHTWEIGHTING OF ROBOT UNMANNED GROUND VEHICLES](https://doi.org/10.22190/fuacr221121015b) | 论文（摘要） | 特种场景直接相关 | 匹配度 78/100
   - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：野外与特种地形。来源期刊/会议：Facta Universitatis Series Automatic Control and Robotics。Battery powered outdoor robot Unmanned Ground Vehicles (UGV) should h（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Design of a V-Shaped Self-Propelled Pipeline Inspection Robot Using a Joint Motor Control](https://doi.org/10.1109/accis62068.2024.10948728) | 论文（摘要） | 特种场景直接相关 | 匹配度 77/100
+  - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：2024 Academic Conference of China Instrument and Control Society (ACCIS)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Optimized design of 5R planar parallel mechanism aimed at gait-cycle of quadruped robots](https://doi.org/10.21595/jve.2021.22131) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 73/100
   - 行业筛选：可迁移的机器人关键技术；方向：硬件与防爆；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Journal of Vibroengineering。 In quadruped robot locomotion using parallel mechanisms, researchers have used equal link lengths （仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [OmniQuad: a Wheeled-Legged Hybrid Robot with Omnidirectional Wheels](https://arxiv.org/abs/2610.38502) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 72/100
@@ -18,10 +22,8 @@
   - 行业筛选：特种场景直接相关；方向：硬件与防爆；关联：工业与能源巡检。来源期刊/会议：Journal of Propulsion Technology。The development of a pipe inspection robot employing caterpillar locomotion and constructed wi（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [An untethered sub-gram flapping-wing flight system achieves sustained self-stabilizing and altitude-controlled flight](https://doi.org/10.1038/s41467-026-78914-x) | 论文（摘要） | 特种场景直接相关 | 匹配度 71/100
   - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：Nature Communications。Abstract Insect-scale flapping-wing micro aerial vehicles offer substantial potential for applications su（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Development of a Low-Cost Stationary Laser Scanning System for Generation of Building Information Models](https://doi.org/10.5755/j02.eie.31374) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 62/100
-  - 行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Elektronika ir Elektrotechnika。This paper presents a method for developing a 3D point cloud map of any indoor and outdoor vicin（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [We made a new ROS robot: Mini Pupper 4](https://discourse.openrobotics.org/t/we-made-a-new-ros-robot-mini-pupper-4/59197) | 社区动态 | 可迁移的机器人关键技术 | 匹配度 61/100
-  - 行业筛选：可迁移的机器人关键技术；方向：特种应用与产品；关联：特种机器人共性技术（需核验应用适配性）。YouTube Full Video : ROS2 Jazzy and micro-ros 1 post - 1 participant Read full topic（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Mehatronic Prototypes for Engineering Education: Bridging Theory and Practice](https://doi.org/10.5545/ventil-31-2025-6.13) | 论文（摘要） | 特种场景直接相关 | 匹配度 71/100
+  - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：消防与应急救援。来源期刊/会议：Ventil。This article presents five innovative mechatronic prototypes developed as educational tools to enhance engineering educa（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 基础软件与系统
 
@@ -46,6 +48,8 @@
 
 - [Design of an Anti-disturbance Motion Control Method for Bipedal Wheel-Legged Robots for Unstructured Terrain](https://doi.org/10.1109/cac67268.2025.11487023) | 论文（摘要） | 特种场景直接相关 | 匹配度 87/100
   - 行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：野外与特种地形。来源期刊/会议：2025 China Automation Congress (CAC)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Research on Parameter Compensation Method and Control Strategy of Mobile Robot Dynamics Model Based on Digital Twin](https://doi.org/10.3390/s24248101) | 论文（摘要） | 特种场景直接相关 | 匹配度 83/100
+  - 行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：防爆石化与危险环境。来源期刊/会议：Sensors。Inspection robots, which improve hazard identification and enhance safety management, play a vital role in the examinat（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Intelligent control method of underwater inspection robot in netcage](https://doi.org/10.1111/are.15721) | 论文（摘要） | 特种场景直接相关 | 匹配度 79/100
   - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检、野外与特种地形。来源期刊/会议：Aquaculture Research。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Research on the Intelligent System Architecture and Control Strategy of Mining Robot Crowds](https://doi.org/10.3390/en17081834) | 论文（摘要） | 特种场景直接相关 | 匹配度 76/100
@@ -58,8 +62,6 @@
   - 行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.35852v1 Announce Type: new Abstract: This paper proposes a smooth analytic gradient for frictional contact and applies it to（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Indirect Optimal Control for Constructing Libraries of Periodic Trajectories: Application to Bipedal Walking](https://arxiv.org/abs/2410.09512) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 69/100
   - 行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2410.09512v3 Announce Type: replace Abstract: Trajectory optimization is a fundamental tool for generating efficient, dynamically（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Motoneuron-Inspired Sampling for Model Predictive Path Integral Control](https://arxiv.org/abs/2609.28325) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 68/100
-  - 行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2609.28325v2 Announce Type: replace Abstract: Model Predictive Path Integral (MPPI) control relies on stochastic trajectory sampl（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 大脑与具身智能
 
@@ -101,6 +103,8 @@
 
 ## 特种应用与产品
 
+- [Review of key technologies and applications of snake-like robots for underground coal mine operations](https://doi.org/10.12438/cst.2025-1390) | 论文（摘要） | 特种场景直接相关 | 匹配度 84/100
+  - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：防爆石化与危险环境、消防与应急救援。来源期刊/会议：DOAJ (DOAJ: Directory of Open Access Journals)。Driven by the urgent demand for intelligent development in coal mining, snake-li（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Inspection Robotic UGV Platform and the Procedure for an Acoustic Signal-Based Fault Detection in Belt Conveyor Idler](https://doi.org/10.3390/en14227646) | 论文（摘要） | 特种场景直接相关 | 匹配度 82/100
   - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：Energies。 Belt conveyors are commonly used for the transportation of bulk materials. The most characteristic design feature is （仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Utilizing Robotic Inspection to Optimize Detection and Management of Localize Corrosion](https://doi.org/10.2118/230972-ms) | 论文（摘要） | 特种场景直接相关 | 匹配度 79/100
@@ -109,14 +113,12 @@
   - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：防爆石化与危险环境、工业与能源巡检。来源期刊/会议：ADIPEC。 Abstract Above Storage tanks are one of the critical equipment's in the Oil & Gas facility that handle large volume of （仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Design and Development of swarm AGV’s alliance for Search and Rescue operations](https://doi.org/10.18196/jrc.v4i6.18392) | 论文（摘要） | 特种场景直接相关 | 匹配度 78/100
   - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：Journal of Robotics and Control (JRC)。Rapid response is essential for saving lives in search and rescue operations since the am（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Real Time IoT and Sensor Based Pipeline Inspection Robot](https://doi.org/10.1051/epjconf/202636703011/pdf) | 论文（摘要） | 特种场景直接相关 | 匹配度 77/100
+  - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：Springer Link (Chiba Institute of Technology)。Pipelines are used to transport water, oil, and gas so regular inspection is impo（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [G-ROBOT: An Intelligent Greenhouse Seedling Height Inspection Robot](https://doi.org/10.1155/2022/9355234) | 论文（摘要） | 特种场景直接相关 | 匹配度 77/100
   - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：Journal of Robotics。An intelligent and modular greenhouse seedling height inspection robot was designed to meet the demand for （仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [sujaypaul27/Firefighting-Robot-AquaFlare](https://github.com/sujaypaul27/Firefighting-Robot-AquaFlare) | 代码仓库更新 | 特种场景直接相关 | 匹配度 76/100
   - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。（无项目说明）（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Robotic Inspection Monitoring System for Pipelines](https://doi.org/10.33969/ais.2022040104) | 论文（摘要） | 特种场景直接相关 | 匹配度 76/100
-  - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：Journal of Artificial Intelligence and Systems。 The most popular method for transporting fluids and gases is through pipelines （仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [A Spiral-Driven In-Pipe Detection Robot with RGB-D Recognition and Quantification Algorithm for Thermal Bulge Inspection](https://doi.org/10.6919/icje.202604_12(4).0023) | 论文（摘要） | 特种场景直接相关 | 匹配度 73/100
-  - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：工业与能源巡检。来源期刊/会议：International Core Journal of Engineering。To address the limitations of conventional pipeline hot-spot detection methods-such a（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 采集状态
 
