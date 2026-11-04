@@ -2,9 +2,20 @@
 
 模型最多审核两次，首次复核后第4至第7天安排二次复核；若API额度或故障未能及时执行则持续优先重试。两次后仍不明确的资源列于此处。
 
-- 资源数量：165
+- 资源数量：181
 
 - rokbenko/quackd | 基础软件与系统 | https://github.com/rokbenko/quackd
+- Information-Driven Collaborative Autonomy for Heterogeneous UAV/UGV Teams | 感知建图与导航 | https://arxiv.org/abs/2610.39379
+- UMI-Live for In-The-Wild Bimanual Robotics Data Collection | 硬件与防爆 | https://arxiv.org/abs/2610.39385
+- Robotic Data Inoculation | 小脑与运动控制 | https://arxiv.org/abs/2610.39054
+- EmbodiRSI: Recursive Self-Improvement for Data-Efficient Robot Adaptation | 大脑与具身智能 | https://arxiv.org/abs/2609.38905
+- When "No Worries" Went Wrong: HRI Lessons for Foundation-Model Robots | 大脑与具身智能 | https://arxiv.org/abs/2610.38400
+- Open-World Object Motion Anticipation via Meta-Learned Semantic Adaptation | 感知建图与导航 | https://arxiv.org/abs/2610.38993
+- lightBot: rebuilt a ROSOrin Pro from a blank drive after apt update broke it (ROS 2 Humble, Orin NX, 37-chapter guide) | 基础软件与系统 | https://discourse.openrobotics.org/t/lightbot-rebuilt-a-rosorin-pro-from-a-blank-drive-after-apt-update-broke-it-ros-2-humble-orin-nx-37-chapter-guide/59328
+- sujaypaul27/Firefighting-Robot-AquaFlare | 特种应用与产品 | https://github.com/sujaypaul27/Firefighting-Robot-AquaFlare
+- ThinkLocoManip: A Whole-Body Control Agentic Harness for Legged Loco-Manipulation | 大脑与具身智能 | https://arxiv.org/abs/2610.34370
+- T-ConSG: A LiDAR-Based Real-Time Temporal Construction Scene Graph for Dynamic and Evolving Environments | 感知建图与导航 | https://arxiv.org/abs/2610.34041
+- RoboReason: Boosting Robotics-Relevant VLM Reasoning Through Scalable Data Generation | 基础软件与系统 | https://arxiv.org/abs/2610.33778
 - api-evangelist/boston-dynamics | 基础软件与系统 | https://github.com/api-evangelist/boston-dynamics
 - What Does It Take For A Generalist Robot Policy To Adapt Using Minimal Data? | 大脑与具身智能 | https://arxiv.org/abs/2608.11363
 - Recordings Now Available for ROSCon Global 2026 in Toronto 🎥 | 基础软件与系统 | https://discourse.openrobotics.org/t/recordings-now-available-for-roscon-global-2026-in-toronto/59071
@@ -24,6 +35,7 @@
 - ACE-Brain-0.6: Scaling Spatial Grounding for Physical Foundation Models | 大脑与具身智能 | https://arxiv.org/abs/2610.27040
 - A Head Camera Is (Almost) All You Need: An Electronics-Free UMI Glove Labelled and Observed by One Moving Camera | 硬件与防爆 | https://arxiv.org/abs/2610.27622
 - HemiBot: design and technical validation of an adaptive Robotic coaching system for Unilateral Spatial Neglect rehabilitation | 特种应用与产品 | https://doi.org/10.3389/frobt.2026.1950821
+- From Association to Decision Value: Testing Paired Instruction Dependence for VLA Corpus Selection | 基础软件与系统 | https://doi.org/10.48550/arxiv.2610.29646
 - From Multi-Agent RL in Simulation to Physical Multi-Robot Coordination | 大脑与具身智能 | https://discourse.openrobotics.org/t/from-multi-agent-rl-in-simulation-to-physical-multi-robot-coordination/58999
 - OpenAMRobot 2.0: open-source dual-arm mobile manipulator on ROS 2, rc.1 on 20 November | 基础软件与系统 | https://discourse.openrobotics.org/t/openamrobot-2-0-open-source-dual-arm-mobile-manipulator-on-ros-2-rc-1-on-20-november/58998
 - aryan-chandra-cmu/robotics-portfolio | 基础软件与系统 | https://github.com/aryan-chandra-cmu/robotics-portfolio
@@ -51,11 +63,14 @@
 - A Survey of Legged Robotics in Non-Inertial Environments: Past, Present, and Future | 小脑与运动控制 | https://doi.org/10.48550/arxiv.2604.20990
 - QR Code based Indoor Navigation for Mobile Robot | 感知建图与导航 | https://doi.org/10.1109/icoei68323.2026.11541935
 - Quadruped Parkour Learning: Sparsely Gated Mixture of Experts with Visual Input | 小脑与运动控制 | https://doi.org/10.48550/arxiv.2604.19344
+- Low-Cost Multimodal Fusion of 2D LiDAR and RGB Camera for Accurate Object-Level Perception | 大脑与具身智能 | https://doi.org/10.1051/e3sconf/202670502004/pdf
 - DeCoNav: Dialog enhanced Long-Horizon Collaborative Vision-Language Navigation | 感知建图与导航 | https://doi.org/10.48550/arxiv.2604.12486
 - Do Robots Need Body Language? Comparing Communication Modalities for Legible Motion Intent in Human-Shared Spaces | 大脑与具身智能 | http://arxiv.org/abs/2604.03451
 - DEM-Based Traversability Map Generation for 2.5D Autonomous Multirobot Navigation | 感知建图与导航 | https://doi.org/10.3390/app16073351
 - A Hybrid Neural-Assisted Unscented Kalman Filter for Unmanned Ground Vehicle Navigation | 感知建图与导航 | https://doi.org/10.48550/arxiv.2603.11649
 - Underground mine rescue robotic systems: insights into human-robot information exchange | 特种应用与产品 | https://doi.org/10.3389/frobt.2026.1698570
+- Utilizing Robotic Inspection to Optimize Detection and Management of Localize Corrosion | 特种应用与产品 | https://doi.org/10.2118/230972-ms
+- Inspection action reasoning for robotic inspection of precast segmental box girder interiors using a 3D point cloud-based multimodal large language model | 大脑与具身智能 | https://doi.org/10.2139/ssrn.7641925
 - A Survey of Autonomous Exploration Algorithms for Mobile Robots under Terrain Constraints | 感知建图与导航 | https://doaj.org/article/171980e8d24e43239ae0538baaecdd10
 - Robotic lava tube mapping and multimodal data collection using quadruped and LiDAR | 基础软件与系统 | https://doi.org/10.3389/frobt.2026.1855443
 - Prototypes of intelligent robots for first aid in natural disasters: A bibliometric analysis | 特种应用与产品 | https://doi.org/10.31893/multirev.2026304
@@ -140,6 +155,7 @@
 - Legged Locomotion in Challenging Terrains using Egocentric Vision | 小脑与运动控制 | https://doi.org/10.48550/arxiv.2211.07638
 - Finding Moving Operators in Firefighting Operations Based on Multi-Goal Next-Best-View Exploration | 感知建图与导航 | https://doi.org/10.1109/ssrr56537.2022.10018673
 - Comparative Performance Analysis of Vibration Prediction Using RNN Techniques | 感知建图与导航 | https://doi.org/10.3390/electronics11213619
+- Online Robotic Inspection of Above Ground Storage Tanks without Outage | 特种应用与产品 | https://doi.org/10.2118/211182-ms
 - Design and Simulation of a Mobile Robot for Pipeline Inspection | 硬件与防爆 | https://doi.org/10.1109/conescapan56456.2022.9959592
 - Cooperative control strategy of wheel-legged robot based on attitude balance | 小脑与运动控制 | https://doi.org/10.1017/s0263574722001436
 - Design and Development of Internal Pipe Inspection Robot | 特种应用与产品 | https://doi.org/10.24321/2454.8650.202202
