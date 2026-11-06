@@ -1,8 +1,8 @@
 # 特种机器人七日技术简报
 
-生成时间：2026-11-05T08:42:15.639500+00:00
+生成时间：2026-11-06T08:38:09.275828+00:00
 
-最近 7 天首次记录 **238** 条；本轮新增 **0** 条；总库存 **2058** 条。
+最近 7 天首次记录 **263** 条；本轮新增 **0** 条；总库存 **2081** 条。
 
 **注意：**‘七日’按首次入库时间统计，不代表论文发表于最近七天；相关度评分只是初筛优先级，不是成熟度或质量评级。
 
@@ -18,12 +18,12 @@
   - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：野外与特种地形。来源期刊/会议：Facta Universitatis Series Automatic Control and Robotics。Battery powered outdoor robot Unmanned Ground Vehicles (UGV) should h（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Design of a V-Shaped Self-Propelled Pipeline Inspection Robot Using a Joint Motor Control](https://doi.org/10.1109/accis62068.2024.10948728) | 论文（摘要） | 特种场景直接相关 | 匹配度 77/100
   - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：2024 Academic Conference of China Instrument and Control Society (ACCIS)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Optimized design of 5R planar parallel mechanism aimed at gait-cycle of quadruped robots](https://doi.org/10.21595/jve.2021.22131) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 73/100
-  - 行业筛选：可迁移的机器人关键技术；方向：硬件与防爆；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Journal of Vibroengineering。 In quadruped robot locomotion using parallel mechanisms, researchers have used equal link lengths （仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [OmniQuad: a Wheeled-Legged Hybrid Robot with Omnidirectional Wheels](https://arxiv.org/abs/2610.38502) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 72/100
   - 行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.38502v1 Announce Type: new Abstract: Combining wheeled and legged locomotion within a single robotic platform offers the pot（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Design and Analysis of External Rotor High-Speed Permanent Magnet Motor for Dynamic Legged Robot Actuator Applications](https://doi.org/10.1109/tia.2025.3649455) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 72/100
   - 行业筛选：可迁移的机器人关键技术；方向：硬件与防爆；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：IEEE Transactions on Industry Applications。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Design And Analysis of a Pipe Inspection Caterpillar Robot Using Different Materials](https://doi.org/10.52783/tjjpt.v44.i3.2108) | 论文（摘要） | 特种场景直接相关 | 匹配度 72/100
+  - 行业筛选：特种场景直接相关；方向：硬件与防爆；关联：工业与能源巡检。来源期刊/会议：Journal of Propulsion Technology。The development of a pipe inspection robot employing caterpillar locomotion and constructed wi（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 基础软件与系统
 
@@ -60,8 +60,8 @@
   - 行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。Hi everyone, I am designing the state estimation and navigation pipeline for a mobile robot in ROS 2 / Nav2. During locomotion, the rob（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Non-linear controllers for cable-driven manipulators with synthetic fibre cables: Design, implementation, and experimental comparison](https://doi.org/10.1016/j.conengprac.2026.107300) | 论文（摘要） | 特种场景直接相关 | 匹配度 72/100
   - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：Control Engineering Practice。Among robotic manipulators, cable-driven manipulators are particularly suitable for industrial ins（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Indirect Optimal Control for Constructing Libraries of Periodic Trajectories: Application to Bipedal Walking](https://arxiv.org/abs/2410.09512) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 69/100
-  - 行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2410.09512v3 Announce Type: replace Abstract: Trajectory optimization is a fundamental tool for generating efficient, dynamically（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Keeping Jerk in Check: Jointly Trained Perception-Gated Experts for Smooth Terrain Transitions](https://arxiv.org/abs/2606.19633) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 69/100
+  - 行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2606.19633v2 Announce Type: replace Abstract: Perceptive legged locomotion across discontinuous terrain requires shared locomotio（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 大脑与具身智能
 
@@ -71,6 +71,8 @@
   - 行业筛选：特种场景直接相关；方向：大脑与具身智能；关联：工业与能源巡检。Robotic systems support automated data acquisition for bridge inspection. However, inspection data are commonly acquired along predefin（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Large Language Models for Industrial Robots: Applications, Challenges, and Future Directions](https://doi.org/10.54254/2755-2721/2026.38488) | 论文（摘要） | 特种场景直接相关 | 匹配度 72/100
   - 行业筛选：特种场景直接相关；方向：大脑与具身智能；关联：工业与能源巡检。来源期刊/会议：Applied and Computational Engineering。With the accelerating intelligent transformation of global manufacturing, industrial robo（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Multi-Intelligent Body Collaborative Decision Making and Control Mechanism in Intelligent Inspection Systems](https://doi.org/10.65102/is2026483) | 论文（摘要） | 特种场景直接相关 | 匹配度 72/100
+  - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：工业与能源巡检。来源期刊/会议：Ingegneria Sismica。This thesis concentrates on the collaborative decision-making and control between several intelligent agents（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [12sqawdwq/FlyHead](https://github.com/12sqawdwq/FlyHead) | 代码仓库更新 | 可迁移的机器人关键技术 | 匹配度 71/100
   - 行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。FlyHead: a whole-brain FlyWire fruit-fly connectome (138k-neuron LIF, PyTorch/CUDA) driving a real wheel-legged robot over ROS 2. LiDAR（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [CaPtain: A Pipeline for Post-Training Code-as-Policy Robot Agents](https://arxiv.org/abs/2610.40799) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 64/100
@@ -79,15 +81,11 @@
   - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。Construction safety inspection remains mostly manual, and automated approaches still rely on task-sp（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [A Multi-Agentic Digital Twin Framework for Human-in-the-loop Workflows](https://doi.org/10.21203/rs.3.rs-10386014/v1) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 63/100
   - 行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Research Square。Abstract Traditional robot task planning struggles to recover from failures and changing requirements because i（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Low-Cost Multimodal Fusion of 2D LiDAR and RGB Camera for Accurate Object-Level Perception](https://doi.org/10.1051/e3sconf/202670502004/pdf) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 63/100
-  - 行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Springer Link (Chiba Institute of Technology)。Sensor fusion between LiDAR and camera modalities has emerged as an effective app（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 感知建图与导航
 
 - [Different Path Planning Techniques for an Indoor Omni-Wheeled Mobile Robot: Experimental Implementation, Comparison and Optimization](https://doi.org/10.3390/app122412951) | 论文（摘要） | 特种场景直接相关 | 匹配度 91/100
   - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：消防与应急救援。来源期刊/会议：Applied Sciences。Omni-wheeled mobile robots (Omni WMRs) are commonly used in indoor navigation applications like surveillance, （仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Tharun0723/Sentra](https://github.com/Tharun0723/Sentra) | 代码仓库更新 | 特种场景直接相关 | 匹配度 84/100
-  - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：工业与能源巡检。SENTRA – An AI-powered autonomous industrial inspection robot built with ROS 2 Jazzy and Gazebo Harmonic, featuring custom robot simula（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Research on autonomous mobile robot maze navigation problem based on Dijkstra’s algorithm](https://doi.org/10.54254/2755-2721/39/20230570) | 论文（摘要） | 特种场景直接相关 | 匹配度 82/100
   - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：消防与应急救援。来源期刊/会议：Applied and Computational Engineering。 In recent years, the field of autonomous mobile robotics has garnered significant attent（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Sensor-Independent Vision-based Terrain Classification for Autonomous Outdoor Robot Navigation](https://doi.org/10.64751/ijdim.2026.v5.n2(2).785) | 论文（摘要） | 特种场景直接相关 | 匹配度 80/100
@@ -100,13 +98,17 @@
   - 行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Journal of Intelligent & Robotic Systems。 Abstract Navigation is a crucial challenge for mobile robots. Currently, deep reinfor（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Autonomous Mobile Robot Navigation and Obstacle Avoidance: A Comprehensive Review](https://doi.org/10.59573/emsj.7(6).2023.25) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 74/100
   - 行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：European Modern Studies Journal。 The rise of AMRs has changed our perception and also our interaction with automation. At the c（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [A hybrid obstacle avoidance method for mobile robot navigation in unstructured environment](https://doi.org/10.1108/ir-04-2022-0102) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 74/100
+  - 行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Industrial Robot: the international journal of robotics research and application。 Purpose Wheeled mobile robots (WMR) are the m（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 特种应用与产品
 
+- [Tharun0723/Sentra](https://github.com/Tharun0723/Sentra) | 代码仓库更新 | 特种场景直接相关 | 匹配度 84/100
+  - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：工业与能源巡检。SENTRA – An AI-powered autonomous industrial inspection robot built with ROS 2 Jazzy and Gazebo Harmonic, featuring custom robot simula（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Inspection Robotic UGV Platform and the Procedure for an Acoustic Signal-Based Fault Detection in Belt Conveyor Idler](https://doi.org/10.3390/en14227646) | 论文（摘要） | 特种场景直接相关 | 匹配度 82/100
   - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：Energies。 Belt conveyors are commonly used for the transportation of bulk materials. The most characteristic design feature is （仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Applications and future directions of unmanned systems in firefighting and rescue operations](https://doi.org/10.3389/fbuil.2026.1990699) | 论文（摘要） | 特种场景直接相关 | 匹配度 80/100
-  - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：防爆石化与危险环境、消防与应急救援。来源期刊/会议：Frontiers in Built Environment。The integration of unmanned systems represents a paradigm shift in modern firefighting and rescu（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+  - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：防爆石化与危险环境、消防与应急救援。来源期刊/会议：Frontiers in Built Environment。 The integration of unmanned systems represents a paradigm shift in modern firefighting and resc（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Utilizing Robotic Inspection to Optimize Detection and Management of Localize Corrosion](https://doi.org/10.2118/230972-ms) | 论文（摘要） | 特种场景直接相关 | 匹配度 79/100
   - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：防爆石化与危险环境、工业与能源巡检。来源期刊/会议：Kuwait Oil & Gas Show。 Internal corrosion is a major integrity threat in oil and gas processing facilities, especially where ca（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Design and Development of swarm AGV’s alliance for Search and Rescue operations](https://doi.org/10.18196/jrc.v4i6.18392) | 论文（摘要） | 特种场景直接相关 | 匹配度 78/100
@@ -117,8 +119,6 @@
   - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：Journal of Robotics。An intelligent and modular greenhouse seedling height inspection robot was designed to meet the demand for （仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [zxyaizky/Smart-Firefighting-Robot-Car](https://github.com/zxyaizky/Smart-Firefighting-Robot-Car) | 代码仓库更新 | 特种场景直接相关 | 匹配度 76/100
   - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。Smart firefighting robot car: dual-FPGA vision and control, Linux/ESP firmware, and Ethernet host software.（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [sujaypaul27/Firefighting-Robot-AquaFlare](https://github.com/sujaypaul27/Firefighting-Robot-AquaFlare) | 代码仓库更新 | 特种场景直接相关 | 匹配度 76/100
-  - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。（无项目说明）（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 采集状态
 
