@@ -2,23 +2,23 @@
 
 本表对每条已入库资源扫描标题、摘要及现有分类；疑点不等于确证错分。
 
-总资源：2081；出现一项或以上疑点：601。
+总资源：2096；出现一项或以上疑点：628。
 
 ## 分类数量
 
-- 感知建图与导航: 849
-- 小脑与运动控制: 657
-- 特种应用与产品: 171
-- 基础软件与系统: 154
-- 硬件与防爆: 151
-- 大脑与具身智能: 99
+- 感知建图与导航: 855
+- 小脑与运动控制: 660
+- 特种应用与产品: 176
+- 基础软件与系统: 155
+- 硬件与防爆: 150
+- 大脑与具身智能: 100
 
 ## 疑点分布
 
-- EXISTING_REVIEW: 435
-- THIN_ABSTRACT: 179
+- EXISTING_REVIEW: 464
+- THIN_ABSTRACT: 178
 - HW_NO_EVIDENCE: 29
-- SOFT_ALGORITHM: 7
+- SOFT_ALGORITHM: 8
 - NAV_AGENT_REVIEW: 2
 - APP_ALGORITHM: 2
 - BRAIN_POLICY_REVIEW: 1
@@ -26,8 +26,12 @@
 
 ## 重点疑点逐篇示例
 
-### EXISTING_REVIEW（435 条）
+### EXISTING_REVIEW（464 条）
+- darshmenon/quadruped-robotics-stack | 当前：基础软件与系统 | 建议：待复核 | https://github.com/darshmenon/quadruped-robotics-stack
 - nihal4/kacha-bench | 当前：基础软件与系统 | 建议：待复核 | https://github.com/nihal4/kacha-bench
+- isaac-sim/IsaacLab | 当前：基础软件与系统 | 建议：待复核 | https://github.com/isaac-sim/IsaacLab
+- Korean high school students' Isaac Sim robot competition — just wanted to share | 当前：特种应用与产品 | 建议：待复核 | https://discourse.openrobotics.org/t/korean-high-school-students-isaac-sim-robot-competition-just-wanted-to-share/59598
+- What happened to "Robot-as-a-Snap"? | 当前：基础软件与系统 | 建议：待复核 | https://discourse.openrobotics.org/t/what-happened-to-robot-as-a-snap/59592
 - GigaBrain-WBC-0.5: A Behavior World Model for Robust Humanoid Whole-Body Tracking with Environment Interaction | 当前：小脑与运动控制 | 建议：待复核 | https://arxiv.org/abs/2608.18234
 - Educational robotics beyond ROS: a custom library for direct transfer of Webots controllers in the Turtlebot3 | 当前：基础软件与系统 | 建议：待复核 | https://arxiv.org/abs/2611.08142
 - EgoKit: Towards Unified Low-Cost Egocentric Data Collection with Heterogeneous Devices | 当前：基础软件与系统 | 建议：待复核 | https://arxiv.org/abs/2605.16797
@@ -35,11 +39,7 @@
 - rokbenko/quackd | 当前：基础软件与系统 | 建议：待复核 | https://github.com/rokbenko/quackd
 - GaP: A Graph-as-Policy Multi-Agent Self-Learning Harness For Variational Automation Tasks | 当前：基础软件与系统 | 建议：待复核 | https://arxiv.org/abs/2607.05369
 - GRASP: Gradient-Guided Sampling for Contact-Rich Physics-Based Motion Retargeting | 当前：小脑与运动控制 | 建议：待复核 | https://arxiv.org/abs/2611.05754
-- $A^3$-VLA: Automatic Perception-Guided Attention Alignment for Robot Manipulation | 当前：小脑与运动控制 | 建议：待复核 | https://arxiv.org/abs/2611.06447
-- Test-Time Improvement of VLA Policies via Selected Diffusion Noise for Spurious-Robust Action Smoothing | 当前：小脑与运动控制 | 建议：待复核 | https://arxiv.org/abs/2606.14084
-- Open-HumanScale: An Open Recipe for Scaling Human and Robot Experience for Embodied Foundation Models | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2611.06817
-- Main Workflow Node | 当前：基础软件与系统 | 建议：待复核 | https://discourse.openrobotics.org/t/main-workflow-node/59552
-### THIN_ABSTRACT（179 条）
+### THIN_ABSTRACT（178 条）
 - 1ulone/quins_ros2 | 当前：基础软件与系统 | 建议：待复核 | https://github.com/1ulone/quins_ros2
 - jinyang-ops/go2-sim-test-bench | 当前：基础软件与系统 | 建议：待复核 | https://github.com/jinyang-ops/go2-sim-test-bench
 - sujaypaul27/Firefighting-Robot-AquaFlare | 当前：特种应用与产品 | 建议：待复核 | https://github.com/sujaypaul27/Firefighting-Robot-AquaFlare
@@ -65,13 +65,14 @@
 - Development and Experimental Validation of a Novel Quadruped Robot with a Versatile Robotic Tail | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.36227/techrxiv.176127306.69222504/v1
 - Design and Dynamic Modeling of a Flying Cable Inspection Robot | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.1109/cac67268.2025.11486703
 - Lightweight structure of superheater pipe inspection robot | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.1117/12.3080460
-### SOFT_ALGORITHM（7 条）
+### SOFT_ALGORITHM（8 条）
 - Rendering-Free Event Frame Simulation for Fast Reinforcement Learning of Autonomous Robot Navigation | 当前：基础软件与系统 | 建议：感知导航/小脑；待复核 | https://arxiv.org/abs/2610.37543
 - 42 Gazebo Harmonic Simulation Worlds for Navigation, Exploration and SLAM workflows | 当前：基础软件与系统 | 建议：感知导航/小脑 | https://discourse.openrobotics.org/t/42-gazebo-harmonic-simulation-worlds-for-navigation-exploration-and-slam-workflows/58934
 - Open-DiffLoco: Open-Source Differentiable Learning for Deployable Blind Quadruped Locomotion | 当前：基础软件与系统 | 建议：感知导航/小脑；待复核 | http://arxiv.org/abs/2608.02069v1
 - SLAMs for Quadruped Robot: Mapping Capability-centric Agentic Simulation | 当前：基础软件与系统 | 建议：感知导航/小脑 | https://doi.org/10.21203/rs.3.rs-7367448/v1
 - Principles and Guidelines for Evaluating Social Robot Navigation Algorithms | 当前：基础软件与系统 | 建议：感知导航/小脑；待复核 | https://doi.org/10.1145/3700599
 - Design of ROS Robot Tracing Navigation Control System Based on Virtual Navigation Paths | 当前：基础软件与系统 | 建议：感知导航/小脑；待复核 | https://doi.org/10.21203/rs.3.rs-4662734/v1
+- Research on the autonomous system of the quadruped robot with a manipulator to realize leader‐following, object recognition, navigation and operation | 当前：基础软件与系统 | 建议：感知导航/小脑；待复核 | https://doi.org/10.1049/csy2.12069
 - A survey of the development of quadruped robots: Joint configuration, dynamic locomotion control method and mobile manipulation approach | 当前：基础软件与系统 | 建议：感知导航/小脑；待复核 | https://doi.org/10.1016/j.birob.2021.100029
 ### NAV_AGENT_REVIEW（2 条）
 - Verifier-Mediated Multi-LLM Coordination for Multi-Robot Path Planning | 当前：感知建图与导航 | 建议：大脑与具身智能（待复核） | https://arxiv.org/abs/2610.12761
