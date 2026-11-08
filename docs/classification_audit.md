@@ -2,33 +2,34 @@
 
 本表对每条已入库资源扫描标题、摘要及现有分类；疑点不等于确证错分。
 
-总资源：2096；出现一项或以上疑点：628。
+总资源：2103；出现一项或以上疑点：659。
 
 ## 分类数量
 
-- 感知建图与导航: 855
+- 感知建图与导航: 850
 - 小脑与运动控制: 660
-- 特种应用与产品: 176
-- 基础软件与系统: 155
-- 硬件与防爆: 150
-- 大脑与具身智能: 100
+- 特种应用与产品: 177
+- 基础软件与系统: 158
+- 硬件与防爆: 152
+- 大脑与具身智能: 106
 
 ## 疑点分布
 
-- EXISTING_REVIEW: 464
+- EXISTING_REVIEW: 500
 - THIN_ABSTRACT: 178
-- HW_NO_EVIDENCE: 29
-- SOFT_ALGORITHM: 8
+- HW_NO_EVIDENCE: 31
+- SOFT_ALGORITHM: 10
 - NAV_AGENT_REVIEW: 2
 - APP_ALGORITHM: 2
+- HW_ALGORITHM: 2
 - BRAIN_POLICY_REVIEW: 1
-- HW_ALGORITHM: 1
 
 ## 重点疑点逐篇示例
 
-### EXISTING_REVIEW（464 条）
-- darshmenon/quadruped-robotics-stack | 当前：基础软件与系统 | 建议：待复核 | https://github.com/darshmenon/quadruped-robotics-stack
+### EXISTING_REVIEW（500 条）
 - nihal4/kacha-bench | 当前：基础软件与系统 | 建议：待复核 | https://github.com/nihal4/kacha-bench
+- MrArun005/Cool-Websites | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/MrArun005/Cool-Websites
+- darshmenon/quadruped-robotics-stack | 当前：基础软件与系统 | 建议：待复核 | https://github.com/darshmenon/quadruped-robotics-stack
 - isaac-sim/IsaacLab | 当前：基础软件与系统 | 建议：待复核 | https://github.com/isaac-sim/IsaacLab
 - Korean high school students' Isaac Sim robot competition — just wanted to share | 当前：特种应用与产品 | 建议：待复核 | https://discourse.openrobotics.org/t/korean-high-school-students-isaac-sim-robot-competition-just-wanted-to-share/59598
 - What happened to "Robot-as-a-Snap"? | 当前：基础软件与系统 | 建议：待复核 | https://discourse.openrobotics.org/t/what-happened-to-robot-as-a-snap/59592
@@ -36,9 +37,8 @@
 - Educational robotics beyond ROS: a custom library for direct transfer of Webots controllers in the Turtlebot3 | 当前：基础软件与系统 | 建议：待复核 | https://arxiv.org/abs/2611.08142
 - EgoKit: Towards Unified Low-Cost Egocentric Data Collection with Heterogeneous Devices | 当前：基础软件与系统 | 建议：待复核 | https://arxiv.org/abs/2605.16797
 - LSD-3D: Large-Scale 3D Driving Scene Generation with Geometry Grounding | 当前：基础软件与系统 | 建议：待复核 | https://arxiv.org/abs/2508.19204
+- iit-DLSLab/basic-locomotion-isaaclab | 当前：基础软件与系统 | 建议：感知导航/小脑；待复核 | https://github.com/iit-DLSLab/basic-locomotion-isaaclab
 - rokbenko/quackd | 当前：基础软件与系统 | 建议：待复核 | https://github.com/rokbenko/quackd
-- GaP: A Graph-as-Policy Multi-Agent Self-Learning Harness For Variational Automation Tasks | 当前：基础软件与系统 | 建议：待复核 | https://arxiv.org/abs/2607.05369
-- GRASP: Gradient-Guided Sampling for Contact-Rich Physics-Based Motion Retargeting | 当前：小脑与运动控制 | 建议：待复核 | https://arxiv.org/abs/2611.05754
 ### THIN_ABSTRACT（178 条）
 - 1ulone/quins_ros2 | 当前：基础软件与系统 | 建议：待复核 | https://github.com/1ulone/quins_ros2
 - jinyang-ops/go2-sim-test-bench | 当前：基础软件与系统 | 建议：待复核 | https://github.com/jinyang-ops/go2-sim-test-bench
@@ -52,21 +52,23 @@
 - Adaptive fuzzy-learning control with multi-objective optimization for robust mobile robot navigation | 当前：感知建图与导航 | 建议：待复核 | https://doi.org/10.1016/j.array.2026.101053
 - MAXIMAL X-PROJECTION OF CHUA ATTRACTORS: THEORY AND MOBILE ROBOT NAVIGATION APPLICATIONS | 当前：感知建图与导航 | 建议：待复核 | https://doi.org/10.1007/s10958-026-08613-x
 - Mobile robot navigation in complex and dynamic environments using multi-objective ant colony optimization | 当前：感知建图与导航 | 建议：待复核 | https://doi.org/10.1007/s12065-026-01243-x
-### HW_NO_EVIDENCE（29 条）
+### HW_NO_EVIDENCE（31 条）
 - MABEL: An Open Anthropomorphic Mobile Bimanual Platform for Teleoperation and Learning | 当前：硬件与防爆 | 建议：待复核 | https://arxiv.org/abs/2611.04083
+- nacibulkeCZ/bricg | 当前：硬件与防爆 | 建议：待复核 | https://github.com/nacibulkeCZ/bricg
 - OmniQuad: a Wheeled-Legged Hybrid Robot with Omnidirectional Wheels | 当前：硬件与防爆 | 建议：待复核 | https://arxiv.org/abs/2610.38502
 - Huzaifa-Rahim-Malik/12-DOF-Quadrupled-Dog | 当前：硬件与防爆 | 建议：待复核 | https://github.com/Huzaifa-Rahim-Malik/12-DOF-Quadrupled-Dog
 - We made a new ROS robot: Mini Pupper 4 | 当前：硬件与防爆 | 建议：待复核 | https://discourse.openrobotics.org/t/we-made-a-new-ros-robot-mini-pupper-4/59197
 - A Soft Worm Robot for Sub-Centimeter Scale Pipeline Inspection | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.1109/lra.2026.3699247
 - CAD-based Optimization of the Medium-sized Unmanned Ground Vehicle | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.18372/1990-5548.88.20978
 - Research progress in thermal protection materials and technologies for firefighting robots | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.11868/j.issn.1001-4381.2025.000330
-- Mehatronic Prototypes for Engineering Education: Bridging Theory and Practice | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.5545/ventil-31-2025-6.13
 - Development of a Leg-Wheel Quadruped Robot | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.17587/mau.26.588-593
 - Development and Experimental Validation of a Novel Quadruped Robot with a Versatile Robotic Tail | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.36227/techrxiv.176127306.69222504/v1
+- Design and Control of SeparaTrek: A Hybrid Aerial-Ground Robot with Separable and Combinative Locomotion Parts | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.1109/iros60139.2025.11246756
 - Design and Dynamic Modeling of a Flying Cable Inspection Robot | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.1109/cac67268.2025.11486703
-- Lightweight structure of superheater pipe inspection robot | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.1117/12.3080460
-### SOFT_ALGORITHM（8 条）
+### SOFT_ALGORITHM（10 条）
+- iit-DLSLab/basic-locomotion-isaaclab | 当前：基础软件与系统 | 建议：感知导航/小脑；待复核 | https://github.com/iit-DLSLab/basic-locomotion-isaaclab
 - Rendering-Free Event Frame Simulation for Fast Reinforcement Learning of Autonomous Robot Navigation | 当前：基础软件与系统 | 建议：感知导航/小脑；待复核 | https://arxiv.org/abs/2610.37543
+- Towards Reinforcement Learning for Space Robotics: Fast Training and Reliable Real-World Transfer | 当前：基础软件与系统 | 建议：感知导航/小脑；待复核 | https://arxiv.org/abs/2610.24241
 - 42 Gazebo Harmonic Simulation Worlds for Navigation, Exploration and SLAM workflows | 当前：基础软件与系统 | 建议：感知导航/小脑 | https://discourse.openrobotics.org/t/42-gazebo-harmonic-simulation-worlds-for-navigation-exploration-and-slam-workflows/58934
 - Open-DiffLoco: Open-Source Differentiable Learning for Deployable Blind Quadruped Locomotion | 当前：基础软件与系统 | 建议：感知导航/小脑；待复核 | http://arxiv.org/abs/2608.02069v1
 - SLAMs for Quadruped Robot: Mapping Capability-centric Agentic Simulation | 当前：基础软件与系统 | 建议：感知导航/小脑 | https://doi.org/10.21203/rs.3.rs-7367448/v1
@@ -80,7 +82,8 @@
 ### APP_ALGORITHM（2 条）
 - Development and Testing of an Autonomous Mobile Robot for Material Handling Using SLAM and Nav2 | 当前：特种应用与产品 | 建议：具体算法主类；待复核 | https://doi.org/10.30880/jamea.2025.06.01.003
 - Inspection Robot of Industrial Park Plant Based on Deep Learning | 当前：特种应用与产品 | 建议：具体算法主类 | https://doi.org/10.25236/ajets.2024.070215
+### HW_ALGORITHM（2 条）
+- PaTS-Wheel: A Passively-Transformable Single-Part Wheel for Mobile Robot Navigation on Unstructured Terrain | 当前：硬件与防爆 | 建议：小脑与运动控制/感知建图与导航；待复核 | https://doi.org/10.1109/lra.2024.3389828
+- DeforMoBot: A Bio-Inspired Deformable Mobile Robot for Navigation Among Obstacles | 当前：硬件与防爆 | 建议：小脑与运动控制/感知建图与导航；待复核 | https://doi.org/10.1109/lra.2023.3273393
 ### BRAIN_POLICY_REVIEW（1 条）
 - ThinkLocoManip: A Whole-Body Control Agentic Harness for Legged Loco-Manipulation | 当前：大脑与具身智能 | 建议：小脑与运动控制（待复核）；待复核 | https://arxiv.org/abs/2610.34370
-### HW_ALGORITHM（1 条）
-- PaTS-Wheel: A Passively-Transformable Single-Part Wheel for Mobile Robot Navigation on Unstructured Terrain | 当前：硬件与防爆 | 建议：小脑与运动控制/感知建图与导航；待复核 | https://doi.org/10.1109/lra.2024.3389828
