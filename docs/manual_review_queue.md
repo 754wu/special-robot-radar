@@ -2,13 +2,13 @@
 
 模型最多审核两次，首次复核后第4至第7天安排二次复核；若API额度或故障未能及时执行则持续优先重试。两次后仍不明确的资源列于此处。
 
-- 资源数量：440
+- 资源数量：443
 
+- nihal4/kacha-bench | 基础软件与系统 | https://github.com/nihal4/kacha-bench
 - ohho-robotics/ohho-os | 基础软件与系统 | https://github.com/ohho-robotics/ohho-os
 - Open-HumanWAM: An Open Recipe for Scaling Human and Robot Experience for Embodied Foundation Models | 大脑与具身智能 | https://arxiv.org/abs/2611.06817
 - $A^3$-VLA: Automatic Perception-Guided Attention Alignment for Robot Manipulation | 大脑与具身智能 | https://arxiv.org/abs/2611.06447
 - MrArun005/Cool-Websites | 小脑与运动控制 | https://github.com/MrArun005/Cool-Websites
-- nihal4/kacha-bench | 基础软件与系统 | https://github.com/nihal4/kacha-bench
 - darshmenon/quadruped-robotics-stack | 基础软件与系统 | https://github.com/darshmenon/quadruped-robotics-stack
 - Korean high school students' Isaac Sim robot competition — just wanted to share | 特种应用与产品 | https://discourse.openrobotics.org/t/korean-high-school-students-isaac-sim-robot-competition-just-wanted-to-share/59598
 - What happened to "Robot-as-a-Snap"? | 基础软件与系统 | https://discourse.openrobotics.org/t/what-happened-to-robot-as-a-snap/59592
@@ -225,6 +225,7 @@
 - Rolling vs. Swing: A Strategy for Enhancing Locomotion Speed and Stability in Legged Robots | 小脑与运动控制 | https://doi.org/10.3390/biomimetics10070435
 - Mobile Robot Navigation Using Hand-Drawn Maps: A Vision Language Model Approach | 感知建图与导航 | https://doi.org/10.1109/lra.2025.3577456
 - Development and Testing of an Autonomous Mobile Robot for Material Handling Using SLAM and Nav2 | 感知建图与导航 | https://doi.org/10.30880/jamea.2025.06.01.003
+- LLM-Based Indoor Autonomous Navigation and Guidance system using Pepper Robot | 特种应用与产品 | https://doi.org/10.5391/jkiis.2025.35.3.212
 - Smart Wireless Power Transfer: A Review of Integrating AI and Sensing for Next-Generation Robotic and IoT Systems | 特种应用与产品 | https://doi.org/10.20944/preprints202506.2021.v1
 - Latency-Sensitive Wireless Communication in Dynamically Moving Robots for Urban Mobility Applications | 基础软件与系统 | https://doi.org/10.3390/smartcities8040105
 - Landing Impact Simulation of a One-Legged Robot with a Series Elastic Actuator | 基础软件与系统 | https://doi.org/10.20965/jrm.2025.p0627
@@ -232,6 +233,7 @@
 - Study on Electric Power Fittings Identification Method for Snake Inspection Robot Based on Non-Contact Inductive Coils | 感知建图与导航 | https://doi.org/10.3390/s25113562
 - Simulation Study on Gait Planning of Quadruped Robot | 小脑与运动控制 | https://doi.org/10.1109/ccdc65474.2025.11090205
 - OPTIMIZING MOBILE ROBOT NAVIGATION FOR MULTIPLE TASK EXECUTION | 感知建图与导航 | https://doi.org/10.32743/unitech.2025.133.4.19749
+- A bi-level hybrid algorithm for solving multi-target inspection path planning problem of mobile robot in complex radioactive indoor environment | 小脑与运动控制 | https://doi.org/10.1016/j.eswa.2024.126095
 - Autonomous Firefighting Robot for Enhanced Fire Detection and Suppression | 特种应用与产品 | https://doi.org/10.1109/idciot64235.2025.10914731
 - Power Inspection Robot Dog Inspection Line Planning and Autonomous Navigation Strategy | 感知建图与导航 | https://doi.org/10.34028/iajit/22/3/6
 - A Navigation Method For Quadruped Robot Based on Adapted Virtual Inertial Measurement Unit | 感知建图与导航 | https://doi.org/10.2139/ssrn.5316750
@@ -326,9 +328,11 @@
 - Error analysis and calibration of a multi-purpose inspection robot | 小脑与运动控制 | https://doi.org/10.1109/iciscae59047.2023.10392344
 - Structure design and gait transition stability of quadruped robot | 硬件与防爆 | https://doi.org/10.1049/icp.2023.1661
 - Cable management design for Inspection Robot | 硬件与防爆 | https://doi.org/10.2172/1997106
+- SLAMICP Library: Accelerating Obstacle Detection in Mobile Robot Navigation via Outlier Monitoring following ICP Localization | 感知建图与导航 | https://doi.org/10.3390/s23156841
 - Influence of periodic pulse intake on the ventilation efficiency of positive pressure explosion-proof robot | 硬件与防爆 | https://doi.org/10.21203/rs.3.rs-3146415/v1
 - Research on the Key Technology of a Small Rock Hole Inspection Robot | 小脑与运动控制 | https://doi.org/10.1007/s10846-023-01898-z
 - Human-robot collaborative task planning using anticipatory brain responses | 大脑与具身智能 | https://doi.org/10.1371/journal.pone.0287958
+- Navigation for a mobile robot to inspect aircraft | 感知建图与导航 | https://doi.org/10.1109/yef-ece58420.2023.10209290
 - RDDRL: a recurrent deduction deep reinforcement learning model for multimodal vision-robot navigation | 感知建图与导航 | https://doi.org/10.1007/s10489-023-04754-7
 - Deep Learning Vision System for Quadruped Robot Gait Pattern Regulation | 小脑与运动控制 | https://doi.org/10.3390/biomimetics8030289
 - ACCURACY AND PRECISION OF AN INDOOR AUTONOMOUS MOBILE ROBOT LOCALIZATION UTILIZING A RFID READER MFRC522 | 感知建图与导航 | https://doi.org/10.59581/metal.v1i1.38
@@ -443,4 +447,3 @@
 - Efficient and Safe Robotic Autonomous Environment Exploration Using Integrated Frontier Detection and Multiple Path Evaluation | 感知建图与导航 | https://doi.org/10.3390/rs13234881
 - Rock Segmentation in the Navigation Vision of the Planetary Rovers | 感知建图与导航 | https://doi.org/10.3390/math9233048
 - The Effects of Over-Ground Robot-Assisted Gait Training for Children with Ataxic Cerebral Palsy: A Case Report | 小脑与运动控制 | https://doi.org/10.3390/s21237875
-- Structural Design, Simulation and Experiment of Quadruped Robot | 硬件与防爆 | https://doi.org/10.3390/app112210705
