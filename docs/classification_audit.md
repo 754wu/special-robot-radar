@@ -2,37 +2,37 @@
 
 本表对每条已入库资源扫描标题、摘要及现有分类；疑点不等于确证错分。
 
-总资源：2237；出现一项或以上疑点：794。
+总资源：2249；出现一项或以上疑点：814。
 
 ## 分类数量
 
 - 感知建图与导航: 863
-- 小脑与运动控制: 704
-- 基础软件与系统: 195
-- 特种应用与产品: 182
-- 硬件与防爆: 167
-- 大脑与具身智能: 126
+- 小脑与运动控制: 705
+- 基础软件与系统: 198
+- 特种应用与产品: 184
+- 硬件与防爆: 169
+- 大脑与具身智能: 130
 
 ## 疑点分布
 
-- EXISTING_REVIEW: 647
-- THIN_ABSTRACT: 181
-- HW_NO_EVIDENCE: 36
+- EXISTING_REVIEW: 670
+- THIN_ABSTRACT: 182
+- HW_NO_EVIDENCE: 37
 - SOFT_ALGORITHM: 13
-- HW_ALGORITHM: 3
-- BRAIN_POLICY_REVIEW: 2
+- HW_ALGORITHM: 4
+- BRAIN_POLICY_REVIEW: 3
 - BRAIN_CONTROL: 1
 - APP_ALGORITHM: 1
 - NAV_AGENT_REVIEW: 1
 
 ## 重点疑点逐篇示例
 
-### EXISTING_REVIEW（647 条）
+### EXISTING_REVIEW（670 条）
 - DarmawanRobotics/Pashupati | 当前：特种应用与产品 | 建议：待复核 | https://github.com/DarmawanRobotics/Pashupati
+- DarmawanRobotics/Dharma | 当前：基础软件与系统 | 建议：待复核 | https://github.com/DarmawanRobotics/Dharma
+- cohend2012/ROS2_Nav2_Mako | 当前：感知建图与导航 | 建议：待复核 | https://github.com/cohend2012/ROS2_Nav2_Mako
 - Xygarde69/Robotic_centaur_WBC | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/Xygarde69/Robotic_centaur_WBC
 - Hal1lZtrk/Firefighter-Spider-Robot | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/Hal1lZtrk/Firefighter-Spider-Robot
-- Sharing an open-source 3D spatial sensing ecosystem for HM-LD1 dToF LiDAR (ROS 1/ROS 2, Jetson, Android, & Demos) | 当前：基础软件与系统 | 建议：待复核 | https://discourse.openrobotics.org/t/sharing-an-open-source-3d-spatial-sensing-ecosystem-for-hm-ld1-dtof-lidar-ros-1-ros-2-jetson-android-demos/59765
-- Introducing POSIM (Project DAVE ported to ROS 2 Lyrical / Gazebo Jetty) and WWW-POSIM (web and desktop application for Windows, Linux and macOS) | 当前：基础软件与系统 | 建议：待复核 | https://discourse.openrobotics.org/t/introducing-posim-project-dave-ported-to-ros-2-lyrical-gazebo-jetty-and-www-posim-web-and-desktop-application-for-windows-linux-and-macos/59759
 - hakoniwalab/hakoniwa-robot-runtime | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/hakoniwalab/hakoniwa-robot-runtime
 - nihal4/kacha-bench | 当前：基础软件与系统 | 建议：待复核 | https://github.com/nihal4/kacha-bench
 - Ace2932/fennec-portfolio | 当前：硬件与防爆 | 建议：待复核 | https://github.com/Ace2932/fennec-portfolio
@@ -40,7 +40,8 @@
 - AgriSense: Vision-Language Decision Support and Robotic Intervention in a Virtual Greenhouse Copy title | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2611.16752
 - ARTS: An Open-Source, Reproducible Three-Arm Platform for Autonomy Research in Minimally Invasive Surgery | 当前：基础软件与系统 | 建议：待复核 | https://arxiv.org/abs/2611.15135
 - Bind-WAM: Binding-Uncertainty-Guided Selective Future Imagination in World Action Models | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2611.15368
-### THIN_ABSTRACT（181 条）
+### THIN_ABSTRACT（182 条）
+- cohend2012/ROS2_Nav2_Mako | 当前：感知建图与导航 | 建议：待复核 | https://github.com/cohend2012/ROS2_Nav2_Mako
 - Xygarde69/Robotic_centaur_WBC | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/Xygarde69/Robotic_centaur_WBC
 - Xun98/ros2-autonomous-inspection-robot | 当前：基础软件与系统 | 建议：待复核 | https://github.com/Xun98/ros2-autonomous-inspection-robot
 - 1ulone/quins_ros2 | 当前：基础软件与系统 | 建议：待复核 | https://github.com/1ulone/quins_ros2
@@ -52,8 +53,7 @@
 - HAVEN: A unified monocular RGB vision-and-language navigation framework for wheeled-legged robots | 当前：感知建图与导航 | 建议：待复核 | https://doi.org/10.1016/j.displa.2026.103724
 - Deep Reinforcement Learning for Quadruped Locomotion Controlled by Natural Language | 当前：小脑与运动控制 | 建议：待复核 | https://doi.org/10.21203/rs.3.rs-10704583/v1
 - H-VLN: hierarchical visual-language adaptive navigation control framework for wheel-legged robots | 当前：感知建图与导航 | 建议：待复核 | https://doi.org/10.1016/j.displa.2026.103512
-- Adaptive fuzzy-learning control with multi-objective optimization for robust mobile robot navigation | 当前：感知建图与导航 | 建议：待复核 | https://doi.org/10.1016/j.array.2026.101053
-### HW_NO_EVIDENCE（36 条）
+### HW_NO_EVIDENCE（37 条）
 - Ace2932/fennec-portfolio | 当前：硬件与防爆 | 建议：待复核 | https://github.com/Ace2932/fennec-portfolio
 - MABEL: An Open Anthropomorphic Mobile Bimanual Platform for Teleoperation and Learning | 当前：硬件与防爆 | 建议：待复核 | https://arxiv.org/abs/2611.04083
 - nacibulkeCZ/bricg | 当前：硬件与防爆 | 建议：待复核 | https://github.com/nacibulkeCZ/bricg
@@ -79,11 +79,13 @@
 - Integration of Various ROS Packages for Autonomous Navigation and Mapping of Mobile Robot | 当前：基础软件与系统 | 建议：感知导航/小脑；待复核 | https://doi.org/10.1109/tensymp61132.2024.10752146
 - Design of ROS Robot Tracing Navigation Control System Based on Virtual Navigation Paths | 当前：基础软件与系统 | 建议：感知导航/小脑；待复核 | https://doi.org/10.21203/rs.3.rs-4662734/v1
 - End to end navigation stack for nuclear power plant inspection with mobile robot | 当前：基础软件与系统 | 建议：感知导航/小脑；待复核 | https://doi.org/10.1016/j.softx.2024.101750
-### HW_ALGORITHM（3 条）
+### HW_ALGORITHM（4 条）
+- GLAMDRING: Gait Learning And Morphology co-Design via Reinforcement LearnING of CPGs | 当前：硬件与防爆 | 建议：小脑与运动控制/感知建图与导航；待复核 | https://doi.org/10.48550/arxiv.2609.19452
 - Additively Manufactured Open-Source Quadruped Robots for Multi-Robot SLAM Applications | 当前：硬件与防爆 | 建议：小脑与运动控制/感知建图与导航；待复核 | https://doi.org/10.48550/arxiv.2410.00122
 - PaTS-Wheel: A Passively-Transformable Single-Part Wheel for Mobile Robot Navigation on Unstructured Terrain | 当前：硬件与防爆 | 建议：小脑与运动控制/感知建图与导航；待复核 | https://doi.org/10.1109/lra.2024.3389828
 - DeforMoBot: A Bio-Inspired Deformable Mobile Robot for Navigation Among Obstacles | 当前：硬件与防爆 | 建议：小脑与运动控制/感知建图与导航；待复核 | https://doi.org/10.1109/lra.2023.3273393
-### BRAIN_POLICY_REVIEW（2 条）
+### BRAIN_POLICY_REVIEW（3 条）
+- Quadruped Agile Locomotion: Sparsely Gated Mixture of Experts with Visual Input | 当前：大脑与具身智能 | 建议：小脑与运动控制（待复核）；待复核 | https://arxiv.org/abs/2604.19344
 - ThinkLocoManip: A Whole-Body Control Agentic Harness for Legged Loco-Manipulation | 当前：大脑与具身智能 | 建议：小脑与运动控制（待复核）；待复核 | https://arxiv.org/abs/2610.34370
 - PointWalker: Mapless Quadruped Locomotion Directly From Raw LiDAR Point Clouds | 当前：大脑与具身智能 | 建议：小脑与运动控制；小脑与运动控制（待复核）；待复核 | https://arxiv.org/abs/2610.15548
 ### BRAIN_CONTROL（1 条）
