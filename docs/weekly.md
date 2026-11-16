@@ -1,8 +1,8 @@
 # 特种机器人七日技术简报
 
-生成时间：2026-11-15T08:24:46.306022+00:00
+生成时间：2026-11-16T08:21:43.580627+00:00
 
-最近 7 天首次记录 **155** 条；本轮新增 **0** 条；总库存 **2249** 条。
+最近 7 天首次记录 **150** 条；本轮新增 **0** 条；总库存 **2264** 条。
 
 **注意：**‘七日’按首次入库时间统计，不代表论文发表于最近七天；相关度评分只是初筛优先级，不是成熟度或质量评级。
 
@@ -35,14 +35,14 @@
   - 行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。Lightweight MuJoCo quadruped simulator for ROS 2 3D navigation, built from LiDAR SLAM PCD maps（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Virtual Prototype-based Kinematic Modeling and Simulation of a Multi-mode Amphibious Robot](https://doi.org/10.31436/iiumej.v23i2.2157) | 论文（摘要） | 特种场景直接相关 | 匹配度 71/100
   - 行业筛选：特种场景直接相关；方向：基础软件与系统；关联：消防与应急救援。来源期刊/会议：IIUM Engineering Journal。The amphibious robot, which has the capability of multi-mode motion, can maneuver diverse environments（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Runtime governability in ROS 2: where should changing operating conditions be handled?](https://discourse.openrobotics.org/t/runtime-governability-in-ros-2-where-should-changing-operating-conditions-be-handled/59823) | 社区动态 | 可迁移的机器人关键技术 | 匹配度 70/100
+  - 行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。Hi all, I’m looking for architectural experience around a situation in which a ROS 2 system remains technically healthy, but an externa（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [The Unified Autonomy Stack: Toward a Blueprint for Generalizable Robot Autonomy](https://doi.org/10.48550/arxiv.2605.12735) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 70/100
   - 行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。We introduce and open-source the Unified Autonomy Stack, a system-level solution that enables resili（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [DarmawanRobotics/l1w_ros2](https://github.com/DarmawanRobotics/l1w_ros2) | 代码仓库更新 | 可迁移的机器人关键技术 | 匹配度 69/100
   - 行业筛选：可迁移的机器人关键技术；方向：特种应用与产品；关联：特种机器人共性技术（需核验应用适配性）。ROS 2 Humble driver, URDF and bringup for the ZSBot Genisom L1W wheel-legged quadruped: zsibot SDK, Livox MID-360, RealSense D435i.（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [FusionPortableV2: A unified multi-sensor dataset for generalized SLAM across diverse platforms and scalable environments](https://doi.org/10.1177/02783649241303525) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 69/100
   - 行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：The International Journal of Robotics Research。Simultaneous Localization and Mapping (SLAM) has been widely applied in various （仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Sharing an open-source 3D spatial sensing ecosystem for HM-LD1 dToF LiDAR (ROS 1/ROS 2, Jetson, Android, & Demos)](https://discourse.openrobotics.org/t/sharing-an-open-source-3d-spatial-sensing-ecosystem-for-hm-ld1-dtof-lidar-ros-1-ros-2-jetson-android-demos/59765) | 社区动态 | 可迁移的机器人关键技术 | 匹配度 63/100
-  - 行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。Hey everyone, In our recent robotics and autonomous systems development, we’ve been working heavily with solid-state dToF (Direct Time-（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 小脑与运动控制
 
@@ -94,27 +94,25 @@
   - 行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Journal of the Korean Society of Mineral and Energy Resources Engineers。To reduce the risk of highly hazardous manned investiga（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [OASIS: Optimization-Aware Subgoal Inference with Safety Constraints for Autonomous Mobile Robot Navigation](https://arxiv.org/abs/2611.11996) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 74/100
   - 行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2611.11996v2 Announce Type: replace Abstract: Navigation in dynamic environments requires mobile robots to make progress toward t（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [AnyNav: Visual neuro-symbolic friction learning for off-road navigation](https://doi.org/10.1177/02783649261496456) | 论文（摘要） | 特种场景直接相关 | 匹配度 74/100
-  - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：消防与应急救援、野外与特种地形。来源期刊/会议：The International Journal of Robotics Research。Off-road navigation is critical for a wide range of field robotics applications （仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [EMS-Nav: Embodied Multi-Scale Navigation](https://arxiv.org/abs/2611.15589) | 论文（摘要） | 特种场景直接相关 | 匹配度 73/100
   - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：工业与能源巡检。arXiv:2611.15589v1 Announce Type: new Abstract: Industrial inspection robots must reach work areas and specific equipment. These destin（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [From Depth to Safe Depth: Uncertainty-Aware Monocular Perception for Mobile Robot Navigation](https://arxiv.org/abs/2611.13769) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 73/100
   - 行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2611.13769v1 Announce Type: cross Abstract: Monocular depth foundation models make it tempting to replace depth sensors on mobile（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Robust laser positioning in a mobile robot machine vision system](https://doi.org/10.30977/veit.2021.20.0.03) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 72/100
+  - 行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Vehicle and electronics. Innovative technologies。 Problem. Laser scanning devices are widely used in Machine Vision Systems (MV（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 特种应用与产品
 
-- [Long-Duration Inspection of GNSS-Denied Environments with a Tethered UAV-UGV Marsupial System](https://doi.org/10.3390/drones9110765) | 论文（摘要） | 特种场景直接相关 | 匹配度 83/100
-  - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：消防与应急救援。来源期刊/会议：Drones。Unmanned Aerial Vehicles (UAVs) have become essential tools in inspection and emergency response operations due to their（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [Vega—A small, low cost, ground robot for nuclear decommissioning](https://doi.org/10.1002/rob.22048) | 论文（摘要） | 特种场景直接相关 | 匹配度 82/100
-  - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：野外与特种地形。来源期刊/会议：Journal of Field Robotics。 Abstract This paper presents the Vega robot, which is a small, low cost, potentially disposable grou（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Finite element analysis and structural optimization of the explosion-proof box for coal mine robots](https://doi.org/10.1088/1742-6596/3033/1/012002) | 论文（摘要） | 特种场景直接相关 | 匹配度 81/100
+  - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：防爆石化与危险环境、矿山与地下空间。来源期刊/会议：Journal of Physics: Conference Series。 Abstract In the combustible gas space under the coal mine, the explosion-proof box of th（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [FireBot-Q: Quantum-AI Powered Firefighting Robot](https://doi.org/10.1109/iceca66444.2025.11382814) | 论文（摘要） | 特种场景直接相关 | 匹配度 76/100
   - 行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：2025 9th International Conference on Electronics, Communication and Aerospace Technology (ICECA)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
-- [IoT-Enabled Smart Mining Safety and Surveillance Robot using ESP32 and DTMF Communication](https://doi.org/10.55041/ijsrem63030) | 论文（摘要） | 特种场景直接相关 | 匹配度 72/100
-  - 行业筛选：特种场景直接相关；方向：感知建图与导航；关联：矿山与地下空间。来源期刊/会议：INTERANTIONAL JOURNAL OF SCIENTIFIC RESEARCH IN ENGINEERING AND MANAGEMENT。Underground mining environments expose workers to se（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Seeking Technical Co-Founders | General-Purpose Construction Robotics (Immediate Deployable Pipeline)](https://discourse.openrobotics.org/t/seeking-technical-co-founders-general-purpose-construction-robotics-immediate-deployable-pipeline/59732) | 社区动态 | 可迁移的机器人关键技术 | 匹配度 63/100
   - 行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。I’m building a founding team to develop adaptable robotic systems capable of performing multiple construction tasks, with the ambition （仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 - [Robotics And Site Automation](https://doi.org/10.47392/irjaeh.2026.0746) | 论文（摘要） | 可迁移的机器人关键技术 | 匹配度 62/100
   - 行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：International Research Journal on Advanced Engineering Hub (IRJAEH)。Modern construction and industrial worksites face persisten（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
+- [Dynamic Footprint for Nav2](https://discourse.openrobotics.org/t/dynamic-footprint-for-nav2/59805) | 社区动态 | 可迁移的机器人关键技术 | 匹配度 61/100
+  - 行业筛选：可迁移的机器人关键技术；方向：特种应用与产品；关联：特种机器人共性技术（需核验应用适配性）。Hi everyone, We are building a new mobile manipulator and needed a Nav2 footprint that updates as the robot’s arm moves. A short search（仅按标题/摘要/仓库简介筛选，未验证实际部署。）
 
 ## 采集状态
 
