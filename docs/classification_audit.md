@@ -2,22 +2,22 @@
 
 本表对每条已入库资源扫描标题、摘要及现有分类；疑点不等于确证错分。
 
-总资源：2298；出现一项或以上疑点：835。
+总资源：2321；出现一项或以上疑点：881。
 
 ## 分类数量
 
 - 感知建图与导航: 877
-- 小脑与运动控制: 720
-- 基础软件与系统: 206
-- 特种应用与产品: 184
-- 硬件与防爆: 172
-- 大脑与具身智能: 139
+- 小脑与运动控制: 722
+- 基础软件与系统: 215
+- 特种应用与产品: 186
+- 硬件与防爆: 173
+- 大脑与具身智能: 148
 
 ## 疑点分布
 
-- EXISTING_REVIEW: 690
+- EXISTING_REVIEW: 737
 - THIN_ABSTRACT: 184
-- HW_NO_EVIDENCE: 37
+- HW_NO_EVIDENCE: 36
 - SOFT_ALGORITHM: 13
 - HW_ALGORITHM: 5
 - BRAIN_POLICY_REVIEW: 4
@@ -27,19 +27,19 @@
 
 ## 重点疑点逐篇示例
 
-### EXISTING_REVIEW（690 条）
-- rokbenko/quackd | 当前：基础软件与系统 | 建议：待复核 | https://github.com/rokbenko/quackd
-- iit-DLSLab/basic-locomotion-isaaclab | 当前：基础软件与系统 | 建议：感知导航/小脑；待复核 | https://github.com/iit-DLSLab/basic-locomotion-isaaclab
-- EgoSwarm: Learning Decentralized Robot Swarm Intelligence from Human Swarm Demonstrations | 当前：小脑与运动控制 | 建议：待复核 | https://arxiv.org/abs/2611.20100
-- DoF-Query Transformer for Adaptive Fusion of Egocentric Vision and Forearm HD-sEMG in Continuous Hand Kinematics | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2611.20196
-- PSK: A Matrix-Free Single-Loop Method for K-Level Physics-Based Control | 当前：小脑与运动控制 | 建议：待复核 | https://arxiv.org/abs/2611.19660
-- DiffWAM: Learning World Action Model from Consecutive Visual Difference | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2611.19904
-- GH0ST9s/ros2-gazebo-differential-drive-robot | 当前：基础软件与系统 | 建议：待复核 | https://github.com/GH0ST9s/ros2-gazebo-differential-drive-robot
-- Estara10/quadruped_robots | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/Estara10/quadruped_robots
-- PROOF: Perceptive Robustness via Out-of-Distribution Fallback for Legged Locomotion | 当前：小脑与运动控制 | 建议：待复核 | https://arxiv.org/abs/2611.18305
-- Racing the Clock: Teaching VLNs Budget-Conditioned Object Search | 当前：感知建图与导航 | 建议：待复核 | https://arxiv.org/abs/2611.17442
-- Grounding Object-to-Object Hazard Reasoning into 3D Risk Fields for Task-Conditioned Safety | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2611.17566
-- Runtime governability in ROS 2: where should changing operating conditions be handled? | 当前：基础软件与系统 | 建议：待复核 | https://discourse.openrobotics.org/t/runtime-governability-in-ros-2-where-should-changing-operating-conditions-be-handled/59823
+### EXISTING_REVIEW（737 条）
+- What Can a VLA Learn from the Agent That Calls It? Task-Level Experience Distillation for Embodied Navigation | 当前：感知建图与导航 | 建议：待复核 | https://arxiv.org/abs/2611.16246
+- FailureGen: Scalable Robot Failure Data Generation with World Models | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2611.22367
+- Technical Report of Mobile Manipulator Robot for Industrial Environments | 当前：特种应用与产品 | 建议：待复核 | https://arxiv.org/abs/2611.22852
+- Pressure Drop: Gravity Vector Estimation from a Distributed Barometric Pressure Sensor Array | 当前：感知建图与导航 | 建议：待复核 | https://arxiv.org/abs/2611.23120
+- ROSMonitoring in Action: Runtime Monitoring and Enforcement for ROS 2 Actions | 当前：基础软件与系统 | 建议：待复核 | https://arxiv.org/abs/2611.22407
+- JointGV: Structure-Aware Correction of Visual World Models with Parallel Graph Dynamics for Long-Horizon Modeling | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2611.22543
+- BehaVerify: A Formal Verification Tool for Behavior Trees | 当前：基础软件与系统 | 建议：待复核 | https://arxiv.org/abs/2611.22403
+- xvcenh/wheel-leg | 当前：基础软件与系统 | 建议：待复核 | https://github.com/xvcenh/wheel-leg
+- Founding Machine Learning - World Models at One Robot.io SF,CA | 当前：大脑与具身智能 | 建议：待复核 | https://discourse.openrobotics.org/t/founding-machine-learning-world-models-at-one-robot-io-sf-ca/59929
+- Safety Relevance Assertions for Robotics Software Supply Chains | 当前：基础软件与系统 | 建议：待复核 | https://discourse.openrobotics.org/t/safety-relevance-assertions-for-robotics-software-supply-chains/59910
+- FlightOps invite-only beta: see why a ROS 2 launch is broken while it runs (Humble, Jazzy) | 当前：基础软件与系统 | 建议：待复核 | https://discourse.openrobotics.org/t/flightops-invite-only-beta-see-why-a-ros-2-launch-is-broken-while-it-runs-humble-jazzy/59905
+- Wled_ros_driver: control WLED LED strips from ROS 2 | 当前：基础软件与系统 | 建议：待复核 | https://discourse.openrobotics.org/t/wled-ros-driver-control-wled-led-strips-from-ros-2/59891
 ### THIN_ABSTRACT（184 条）
 - GH0ST9s/ros2-gazebo-differential-drive-robot | 当前：基础软件与系统 | 建议：待复核 | https://github.com/GH0ST9s/ros2-gazebo-differential-drive-robot
 - cohend2012/ROS2_Nav2_Mako | 当前：感知建图与导航 | 建议：待复核 | https://github.com/cohend2012/ROS2_Nav2_Mako
@@ -53,7 +53,7 @@
 - bell-ha/visually-impaired-navigation-robot | 当前：特种应用与产品 | 建议：待复核 | https://github.com/bell-ha/visually-impaired-navigation-robot
 - HAVEN: A unified monocular RGB vision-and-language navigation framework for wheeled-legged robots | 当前：感知建图与导航 | 建议：待复核 | https://doi.org/10.1016/j.displa.2026.103724
 - Deep Reinforcement Learning for Quadruped Locomotion Controlled by Natural Language | 当前：小脑与运动控制 | 建议：待复核 | https://doi.org/10.21203/rs.3.rs-10704583/v1
-### HW_NO_EVIDENCE（37 条）
+### HW_NO_EVIDENCE（36 条）
 - Ace2932/fennec-portfolio | 当前：硬件与防爆 | 建议：待复核 | https://github.com/Ace2932/fennec-portfolio
 - MABEL: An Open Anthropomorphic Mobile Bimanual Platform for Teleoperation and Learning | 当前：硬件与防爆 | 建议：待复核 | https://arxiv.org/abs/2611.04083
 - nacibulkeCZ/bricg | 当前：硬件与防爆 | 建议：待复核 | https://github.com/nacibulkeCZ/bricg
