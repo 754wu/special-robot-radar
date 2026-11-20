@@ -2,24 +2,24 @@
 
 本表对每条已入库资源扫描标题、摘要及现有分类；疑点不等于确证错分。
 
-总资源：2346；出现一项或以上疑点：888。
+总资源：2361；出现一项或以上疑点：908。
 
 ## 分类数量
 
-- 感知建图与导航: 882
-- 小脑与运动控制: 729
-- 基础软件与系统: 217
-- 特种应用与产品: 191
-- 硬件与防爆: 175
-- 大脑与具身智能: 152
+- 感知建图与导航: 883
+- 小脑与运动控制: 726
+- 基础软件与系统: 224
+- 特种应用与产品: 192
+- 硬件与防爆: 177
+- 大脑与具身智能: 159
 
 ## 疑点分布
 
-- EXISTING_REVIEW: 747
-- THIN_ABSTRACT: 184
+- EXISTING_REVIEW: 771
+- THIN_ABSTRACT: 185
 - HW_NO_EVIDENCE: 37
 - SOFT_ALGORITHM: 12
-- HW_ALGORITHM: 5
+- HW_ALGORITHM: 6
 - BRAIN_POLICY_REVIEW: 3
 - BRAIN_CONTROL: 1
 - APP_ALGORITHM: 1
@@ -27,9 +27,11 @@
 
 ## 重点疑点逐篇示例
 
-### EXISTING_REVIEW（747 条）
-- ohho-robotics/ohho-os | 当前：基础软件与系统 | 建议：待复核 | https://github.com/ohho-robotics/ohho-os
+### EXISTING_REVIEW（771 条）
 - CoT-WAM: Collaborative Training of Vision-Language Models and World-Action Models via Plan Latents | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2611.23803
+- PILOT: Guiding Long-Horizon World-Model Planning for Robot Manipulation with Imagined Subgoals and Policy Priors | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2610.14335
+- Spatially Conditioned Trajectory Diffusion | 当前：感知建图与导航 | 建议：待复核 | https://arxiv.org/abs/2611.26127
+- ohho-robotics/ohho-os | 当前：基础软件与系统 | 建议：待复核 | https://github.com/ohho-robotics/ohho-os
 - Navigating Robots from Unknown and Uncalibrated Exocentric Cameras via Map Estimation | 当前：感知建图与导航 | 建议：待复核 | https://arxiv.org/abs/2611.23894
 - Effects of Locomotion and Viewpoint Control on Immersive Robot Telepresence for Navigation and Inspection | 当前：感知建图与导航 | 建议：待复核 | https://arxiv.org/abs/2611.23939
 - HINT-WAM: Hindsight-Informed Training for World Action Models | 当前：小脑与运动控制 | 建议：待复核 | https://arxiv.org/abs/2611.24789
@@ -38,9 +40,8 @@
 - FailureGen: Scalable Robot Failure Data Generation with World Models | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2611.22367
 - Technical Report of Mobile Manipulator Robot for Industrial Environments | 当前：特种应用与产品 | 建议：待复核 | https://arxiv.org/abs/2611.22852
 - Pressure Drop: Gravity Vector Estimation from a Distributed Barometric Pressure Sensor Array | 当前：感知建图与导航 | 建议：待复核 | https://arxiv.org/abs/2611.23120
-- ROSMonitoring in Action: Runtime Monitoring and Enforcement for ROS 2 Actions | 当前：基础软件与系统 | 建议：待复核 | https://arxiv.org/abs/2611.22407
-- JointGV: Structure-Aware Correction of Visual World Models with Parallel Graph Dynamics for Long-Horizon Modeling | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2611.22543
-### THIN_ABSTRACT（184 条）
+### THIN_ABSTRACT（185 条）
+- YueBit/robodiag-harness | 当前：基础软件与系统 | 建议：待复核 | https://github.com/YueBit/robodiag-harness
 - GH0ST9s/ros2-gazebo-differential-drive-robot | 当前：基础软件与系统 | 建议：待复核 | https://github.com/GH0ST9s/ros2-gazebo-differential-drive-robot
 - cohend2012/ROS2_Nav2_Mako | 当前：感知建图与导航 | 建议：待复核 | https://github.com/cohend2012/ROS2_Nav2_Mako
 - Xygarde69/Robotic_centaur_WBC | 当前：小脑与运动控制 | 建议：待复核 | https://github.com/Xygarde69/Robotic_centaur_WBC
@@ -52,7 +53,6 @@
 - Gait-Aware Command Timing for Decentralized Quadruped Swarms | 当前：小脑与运动控制 | 建议：待复核 | https://doi.org/10.21203/rs.3.rs-11332226/v1
 - bell-ha/visually-impaired-navigation-robot | 当前：特种应用与产品 | 建议：待复核 | https://github.com/bell-ha/visually-impaired-navigation-robot
 - HAVEN: A unified monocular RGB vision-and-language navigation framework for wheeled-legged robots | 当前：感知建图与导航 | 建议：待复核 | https://doi.org/10.1016/j.displa.2026.103724
-- Deep Reinforcement Learning for Quadruped Locomotion Controlled by Natural Language | 当前：小脑与运动控制 | 建议：待复核 | https://doi.org/10.21203/rs.3.rs-10704583/v1
 ### HW_NO_EVIDENCE（37 条）
 - Ace2932/fennec-portfolio | 当前：硬件与防爆 | 建议：待复核 | https://github.com/Ace2932/fennec-portfolio
 - MABEL: An Open Anthropomorphic Mobile Bimanual Platform for Teleoperation and Learning | 当前：硬件与防爆 | 建议：待复核 | https://arxiv.org/abs/2611.04083
@@ -79,9 +79,10 @@
 - Design of ROS Robot Tracing Navigation Control System Based on Virtual Navigation Paths | 当前：基础软件与系统 | 建议：感知导航/小脑；待复核 | https://doi.org/10.21203/rs.3.rs-4662734/v1
 - End to end navigation stack for nuclear power plant inspection with mobile robot | 当前：基础软件与系统 | 建议：感知导航/小脑；待复核 | https://doi.org/10.1016/j.softx.2024.101750
 - Research on the autonomous system of the quadruped robot with a manipulator to realize leader‐following, object recognition, navigation and operation | 当前：基础软件与系统 | 建议：感知导航/小脑；待复核 | https://doi.org/10.1049/csy2.12069
-### HW_ALGORITHM（5 条）
+### HW_ALGORITHM（6 条）
 - GLAMDRING: Gait Learning And Morphology co-Design via Reinforcement LearnING of CPGs | 当前：硬件与防爆 | 建议：小脑与运动控制/感知建图与导航；待复核 | https://doi.org/10.48550/arxiv.2609.19452
 - Teleoperated Mobile Robot for Pesticide Spraying and Greenhouse Navigation: Numerical Analysis | 当前：硬件与防爆 | 建议：小脑与运动控制/感知建图与导航；待复核 | https://doi.org/10.58491/2735-4202.3519
+- Enhancing Underground Drone Endurance by Optimizing Battery Efficiency, Communication Robustness, And Navigation Autonomy | 当前：硬件与防爆 | 建议：小脑与运动控制/感知建图与导航；待复核 | https://doi.org/10.7753/ijcatr0512.1012
 - Additively Manufactured Open-Source Quadruped Robots for Multi-Robot SLAM Applications | 当前：硬件与防爆 | 建议：小脑与运动控制/感知建图与导航；待复核 | https://doi.org/10.48550/arxiv.2410.00122
 - PaTS-Wheel: A Passively-Transformable Single-Part Wheel for Mobile Robot Navigation on Unstructured Terrain | 当前：硬件与防爆 | 建议：小脑与运动控制/感知建图与导航；待复核 | https://doi.org/10.1109/lra.2024.3389828
 - DeforMoBot: A Bio-Inspired Deformable Mobile Robot for Navigation Among Obstacles | 当前：硬件与防爆 | 建议：小脑与运动控制/感知建图与导航；待复核 | https://doi.org/10.1109/lra.2023.3273393

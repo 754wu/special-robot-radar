@@ -2,13 +2,16 @@
 
 模型最多审核两次，首次复核后第4至第7天安排二次复核；若API额度或故障未能及时执行则持续优先重试。两次后仍不明确的资源列于此处。
 
-- 资源数量：609
+- 资源数量：628
 
+- PILOT: Guiding Long-Horizon World-Model Planning for Robot Manipulation with Imagined Subgoals and Policy Priors | 大脑与具身智能 | https://arxiv.org/abs/2610.14335
 - ohho-robotics/ohho-os | 基础软件与系统 | https://github.com/ohho-robotics/ohho-os
 - rokbenko/quackd | 基础软件与系统 | https://github.com/rokbenko/quackd
 - iit-DLSLab/basic-locomotion-isaaclab | 基础软件与系统 | https://github.com/iit-DLSLab/basic-locomotion-isaaclab
+- PROOF: Perceptive Robustness via Out-of-Distribution Fallback for Legged Locomotion | 小脑与运动控制 | https://arxiv.org/abs/2611.18305
 - DarmawanRobotics/Pashupati | 特种应用与产品 | https://github.com/DarmawanRobotics/Pashupati
 - cohend2012/ROS2_Nav2_Mako | 感知建图与导航 | https://github.com/cohend2012/ROS2_Nav2_Mako
+- Xygarde69/Robotic_centaur_WBC | 小脑与运动控制 | https://github.com/Xygarde69/Robotic_centaur_WBC
 - nihal4/kacha-bench | 基础软件与系统 | https://github.com/nihal4/kacha-bench
 - Ace2932/fennec-portfolio | 硬件与防爆 | https://github.com/Ace2932/fennec-portfolio
 - AgriSense: Vision-Language Decision Support and Robotic Intervention in a Virtual Greenhouse Copy title | 基础软件与系统 | https://arxiv.org/abs/2611.16752
@@ -61,6 +64,7 @@
 - Applications and future directions of unmanned systems in firefighting and rescue operations | 特种应用与产品 | https://doi.org/10.3389/fbuil.2026.1990699
 - D&A: Decoupling Description and Assessment Enables VLMs as Zero-Shot Robotic Reward Models | 大脑与具身智能 | https://doi.org/10.48550/arxiv.2611.03622
 - From biomechanical data to robotic execution: design and control of an intelligent Tuina system | 小脑与运动控制 | https://doi.org/10.3389/fnbot.2026.1937295
+- Pixel: A Co-Designed Full-Stack Robot System for Learning General-Purpose Mobile Manipulation | 特种应用与产品 | https://doi.org/10.48550/arxiv.2611.03648
 - [Open Source] DDS AutoDiag v0.1.0 — ROS 2 DDS Diagnostics with AI-Assisted Troubleshooting | 基础软件与系统 | https://discourse.openrobotics.org/t/open-source-dds-autodiag-v0-1-0-ros-2-dds-diagnostics-with-ai-assisted-troubleshooting/59419
 - aya-saleh123/mars-ops-colony-simulator | 基础软件与系统 | https://github.com/aya-saleh123/mars-ops-colony-simulator
 - Agentic Development platform for robotics | 基础软件与系统 | https://discourse.openrobotics.org/t/agentic-development-platform-for-robotics/59385
@@ -96,6 +100,7 @@
 - ThinkLocoManip: A Whole-Body Control Agentic Harness for Legged Loco-Manipulation | 大脑与具身智能 | https://arxiv.org/abs/2610.34370
 - T-ConSG: A LiDAR-Based Real-Time Temporal Construction Scene Graph for Dynamic and Evolving Environments | 感知建图与导航 | https://arxiv.org/abs/2610.34041
 - HuGe: Scaling Humanoid Generalist Vision-Language-Action Models with Egocentric Experience | 大脑与具身智能 | https://arxiv.org/abs/2610.34186
+- Explaining Navigation Decisions: Stage-Aware Visual Attribution for Vision-Language Navigation | 感知建图与导航 | https://arxiv.org/abs/2610.34028
 - RoboReason: Boosting Robotics-Relevant VLM Reasoning Through Scalable Data Generation | 基础软件与系统 | https://arxiv.org/abs/2610.33778
 - RetroNav: Scene-Grounded Retrospection and Retry for Self-Evolving Lifelong Navigation | 感知建图与导航 | https://arxiv.org/abs/2610.35172
 - A Shared Control Framework for Mobile Robots with Planning-Level Intention Prediction | 感知建图与导航 | https://arxiv.org/abs/2511.08912
@@ -138,6 +143,7 @@
 - aryan-chandra-cmu/robotics-portfolio | 基础软件与系统 | https://github.com/aryan-chandra-cmu/robotics-portfolio
 - Gazebo PMC Meeting Minutes 2026-10-19 | 基础软件与系统 | https://discourse.openrobotics.org/t/gazebo-pmc-meeting-minutes-2026-10-19/58995
 - Anticipatory Gait Switching for Quadrupeds via Look-Ahead MDP Planning | 小脑与运动控制 | https://arxiv.org/abs/2610.24895
+- SARAM: Sparse Adapter Allocation with Reuse and Merging for Lifelong Robot Learning | 大脑与具身智能 | https://arxiv.org/abs/2610.24804
 - Towards Reinforcement Learning for Space Robotics: Fast Training and Reliable Real-World Transfer | 基础软件与系统 | https://arxiv.org/abs/2610.24241
 - TriSAR-3D and PaintFusion: A Novel Trimodal LiDAR-RGB-Thermal Dataset and Method for 3D Person Detection in Search and Rescue | 感知建图与导航 | https://arxiv.org/abs/2610.22509
 - Micro-Localization: High-Precision Mobile Robot Localization Using Microscopic Ground Texture | 感知建图与导航 | https://arxiv.org/abs/2610.22563
@@ -157,7 +163,6 @@
 - Physical AI: A Survey of Models, Learning, Systems, and Open Challenges | 大脑与具身智能 | https://doi.org/10.48550/arxiv.2610.21171
 - PointWalker: Mapless Quadruped Locomotion Directly From Raw LiDAR Point Clouds | 大脑与具身智能 | https://arxiv.org/abs/2610.15548
 - PINT: A Unified Model with Shared Predictive Intent for Robot Manipulation | 大脑与具身智能 | https://arxiv.org/abs/2610.16355
-- PILOT: Guiding Long-Horizon World-Model Planning for Robot Manipulation with Visual Subgoals and Policy Priors | 大脑与具身智能 | https://arxiv.org/abs/2610.14335
 - System design of the Ultra Mobility Vehicle: A driving, balancing, and jumping bicycle robot | 硬件与防爆 | https://doi.org/10.1126/scirobotics.aed3627
 - Walk Like This: Stylized Locomotion for Physics-Based Characters through Example-Driven Diffusion | 小脑与运动控制 | https://doi.org/10.48550/arxiv.2610.18147
 - Gait-Aware Command Timing for Decentralized Quadruped Swarms | 小脑与运动控制 | https://doi.org/10.21203/rs.3.rs-11332226/v1
@@ -194,6 +199,7 @@
 - SmellDiffusion: Diffusion-Based Quadruped Navigation with Olfactory Scene Graphs | 感知建图与导航 | https://doi.org/10.48550/arxiv.2609.20624
 - GLAMDRING: Gait Learning And Morphology co-Design via Reinforcement LearnING of CPGs | 硬件与防爆 | https://doi.org/10.48550/arxiv.2609.19452
 - Gait-Dependent Effects on Quadruped Locomotion for Load-Carrying using Passive Mechanism | 小脑与运动控制 | http://arxiv.org/abs/2609.11059v2
+- Motion-Predictive Foothold Control for Quadruped Locomotion on Oscillating and Non-Inertial Platforms | 小脑与运动控制 | https://eccsubmit.com/index.php/congress/article/view/251
 - Consensus-based path planning for UAV swarms under multiple constraints: A review | 感知建图与导航 | https://doi.org/10.11591/ijra.v15i3.pp621-638
 - AUTONOMOUS ROBOTIC EXPLORATION AND ARTIFACT LOCALIZATION IN SUBTERRANEAN ENVIRONMENTS | 感知建图与导航 | https://doi.org/10.36306/konjes.1766861
 - Vision‐Language‐Action Models for Embodied Artificial Intelligence: A Comprehensive Survey | 大脑与具身智能 | https://doi.org/10.1002/rob.70340
@@ -210,6 +216,7 @@
 - MRREP: Mixed Reality-Based Hand-Drawn Reference Path Editing Interface for Mobile Robot Navigation | 基础软件与系统 | https://doi.org/10.1109/ro-man72286.2026.11714993
 - Autonomous robotic pipeline inspection technologies | 特种应用与产品 | https://doi.org/10.1051/e3sconf/202672907004
 - Towards Torque-Driven Reinforcement Learning for Quadruped Locomotion | 小脑与运动控制 | http://arxiv.org/abs/2607.18365v1
+- MAPL: Multi-Objective Preference Learning for Robot Locomotion | 大脑与具身智能 | http://arxiv.org/abs/2606.25398v1
 - Vision-Language-Action and Vision Language Models for Robot Manipulation: A Comprehensive Review Towards Real-World Applications | 大脑与具身智能 | https://doi.org/10.20944/preprints202606.0400.v1
 - Sample-Based Model Predictive Control for a Quadruped Robot Under Oscillation of Walking Locomotion | 小脑与运动控制 | https://doi.org/10.1109/ascc70886.2026.11702040
 - Conformal Risk-Adaptive Navigation for Mobile Robot in Crowded Environments | 感知建图与导航 | https://doi.org/10.1109/iv66570.2026.11624051
@@ -259,12 +266,14 @@
 - Language-Guided Grasping under Partial Observation for Mobile Manipulation in Field Inspection and Maintenance | 小脑与运动控制 | https://doi.org/10.48550/arxiv.2603.07866
 - LiDAR-Based Autonomous Mobile Robot Navigation Considering the Necessity of Avoiding Vegetated Obstacles | 感知建图与导航 | https://doi.org/10.23919/siceiscs67856.2026.11524546
 - Attention in depth for visual navigation of a mobile robot | 感知建图与导航 | https://doi.org/10.1016/j.rineng.2026.109680
+- Automated Object Detection and Change Quantification in Underground Mines Using LiDAR Point Clouds and 360° Image Processing | 感知建图与导航 | https://doi.org/10.3390/app16052337
 - Cybersecurity of Teleoperated Quadruped Robots: A Systematic Survey of Vulnerabilities, Threats, and Open Defense Gaps | 基础软件与系统 | https://doi.org/10.48550/arxiv.2602.23404
 - Robust Trajectory Prediction for Mobile Robots via Minimum Error Entropy Criterion and Adaptive LSTM Networks | 感知建图与导航 | https://doi.org/10.3390/e28020227
 - Underground mine rescue robotic systems: insights into human-robot information exchange | 特种应用与产品 | https://doi.org/10.3389/frobt.2026.1698570
 - Leveraging Edge Impulse for Multi-Class Error-Related Potentials: Edge AI Brain-Robot Interface for Correcting Navigation Errors in Assistive Mobile Robot Wheelchairs | 感知建图与导航 | https://doi.org/10.1109/icara69401.2026.11480283
 - Utilizing Robotic Inspection to Optimize Detection and Management of Localize Corrosion | 特种应用与产品 | https://doi.org/10.2118/230972-ms
 - Experimental Evaluation of Grid-Based Path Planning Algorithms for Mobile Robot Navigation | 感知建图与导航 | https://doi.org/10.1109/iciis69028.2026.11450704
+- Uncertainty-Aware 6DoF Pose Estimation for Reliable Robotic Manipulation in Industrial Inspection | 感知建图与导航 | https://doi.org/10.2139/ssrn.7682398
 - Inspection action reasoning for robotic inspection of precast segmental box girder interiors using a 3D point cloud-based multimodal large language model | 大脑与具身智能 | https://doi.org/10.2139/ssrn.7641925
 - Comparative Evaluation of Path Planning Algorithms and Control Strategies for Omnidirectional Mobile Robot Navigation | 感知建图与导航 | https://doi.org/10.5220/0015361200004979
 - Indoor SLAM and Waypoint Navigation for a Low-Cost Mobile Robot: A Heterogeneous FPGA and Embedded GPU Architecture with BLE-Assisted Localization | 感知建图与导航 | https://doi.org/10.5220/0015473700004979
@@ -274,12 +283,15 @@
 - Robotic lava tube mapping and multimodal data collection using quadruped and LiDAR | 基础软件与系统 | https://doi.org/10.3389/frobt.2026.1855443
 - Hierarchical Fault-Tolerant Locomotion Planning for a Bio-Inspired Amphibious Quadruped Robot via Redundant Leg Structures and Whole-Body Coordination | 小脑与运动控制 | https://doi.org/10.2139/ssrn.7266185
 - A Survey of SLAM Techniques: From Classical Approaches to Deep Learning-Based Methods | 感知建图与导航 | https://doi.org/10.54254/2755-2721/2026.tj30960
+- A Framework for Deploying Learning-based Quadruped Loco-Manipulation | 基础软件与系统 | https://doi.org/10.48550/arxiv.2512.18938
 - Outdoor perception of robots based on SLAM technology and binocular vision positioning technology | 感知建图与导航 | https://doi.org/10.1007/s42452-025-08130-7
 - Mehatronic Prototypes for Engineering Education: Bridging Theory and Practice | 特种应用与产品 | https://doi.org/10.5545/ventil-31-2025-6.13
 - Latent Coordination Dynamics for Legged Robot Locomotion | 小脑与运动控制 | https://doi.org/10.1109/icc69100.2025.11372430
 - Traversability-Aware Legged Navigation by Learning From Real-World Visual Data | 小脑与运动控制 | https://doi.org/10.1109/tro.2025.3645885
+- Value-Based Reinforcement Learning for Mapless Navigation of a Mobile Robot | 感知建图与导航 | https://doi.org/10.1109/icc69100.2025.11372347
 - From Prompts to Paths: Large Language Models for Zero-Shot Planning in Unmanned Ground Vehicle Simulation | 大脑与具身智能 | https://doi.org/10.3390/drones9120875
 - Deep Learning Perspective of Scene Understanding in Autonomous Robots | 感知建图与导航 | https://doi.org/10.48550/arxiv.2512.14020
+- Attractoring-based locomotion for hexapods | 小脑与运动控制 | https://doi.org/10.1088/1748-3190/ae2cd5
 - Prototypes of intelligent robots for first aid in natural disasters: A bibliometric analysis | 特种应用与产品 | https://doi.org/10.31893/multirev.2026304
 - What Is The Best 3D Scene Representation for Robotics? From Geometric to Foundation Models | 大脑与具身智能 | https://doi.org/10.48550/arxiv.2512.03422
 - A Novel Contact‐Implicit Trajectory Optimization Framework for Quadruped Locomotion without Fixed Contact Sequences | 小脑与运动控制 | https://doi.org/10.1002/aisy.202500654
@@ -290,6 +302,7 @@
 - Gait Generation and Motion Implementation of Humanoid Robots Based on Hierarchical Whole-Body Control | 小脑与运动控制 | https://doi.org/10.3390/electronics14234714
 - Firefighting Robot Using Arduino and Sensor-Based Detection | 特种应用与产品 | https://doi.org/10.1109/emergin67762.2025.11450590
 - Mobile Robot Inspection Path Planning Based on Multi-agent Co-Evolutionary Algorithm | 感知建图与导航 | https://doi.org/10.1109/aihcir67580.2025.11405334
+- Enhancing Underground Drone Endurance by Optimizing Battery Efficiency, Communication Robustness, And Navigation Autonomy | 硬件与防爆 | https://doi.org/10.7753/ijcatr0512.1012
 - IoT Rocker-Bogie Firefighting Robot with Multi-Sensor Detection | 特种应用与产品 | https://doi.org/10.1109/icecmsn68058.2025.11383015
 - Comparative analysis of localization methods for autonomous mobile robots using Robot Operating System 2 | 感知建图与导航 | https://doi.org/10.21439/jme.v8i.122
 - The Application of Optimized Database Technology in the Structural Pattern Recognition of Coal Conveying Belt Status | 感知建图与导航 | https://doi.org/10.21203/rs.3.rs-7510317/v1
@@ -336,6 +349,7 @@
 - OPTIMIZING MOBILE ROBOT NAVIGATION FOR MULTIPLE TASK EXECUTION | 感知建图与导航 | https://doi.org/10.32743/unitech.2025.133.4.19749
 - Sparse representation for artefact/defect localization with an acoustic array on a mobile pipe inspection robot | 感知建图与导航 | https://doi.org/10.1016/j.apacoust.2025.110545
 - A bi-level hybrid algorithm for solving multi-target inspection path planning problem of mobile robot in complex radioactive indoor environment | 小脑与运动控制 | https://doi.org/10.1016/j.eswa.2024.126095
+- Path Planning Trends for Autonomous Mobile Robot Navigation: A Review | 感知建图与导航 | https://doi.org/10.3390/s25041206
 - Autonomous Firefighting Robot for Enhanced Fire Detection and Suppression | 特种应用与产品 | https://doi.org/10.1109/idciot64235.2025.10914731
 - Power Inspection Robot Dog Inspection Line Planning and Autonomous Navigation Strategy | 感知建图与导航 | https://doi.org/10.34028/iajit/22/3/6
 - The Bi-Directional Motion Behavior Of the Vibration-Driven Locomotion Robot Excited by A Dielectric Elastomer Actuator | 硬件与防爆 | https://doi.org/10.2139/ssrn.5122837
@@ -396,6 +410,8 @@
 - Deep Reinforcement Learning Based Mobile Robot Navigation in Crowd Environments | 感知建图与导航 | https://doi.org/10.1109/ur61395.2024.10597481
 - Multi-Objective Global Path Planning for Lunar Exploration With a Quadruped Robot | 感知建图与导航 | https://doi.org/10.48550/arxiv.2406.16376
 - Research on Foot Contact State Detection Technology of Wheel-Legged Robot | 感知建图与导航 | https://doi.org/10.3390/s24123956
+- SLIP Nature Embodied Robust Quadruped Robot Control | 小脑与运动控制 | https://doi.org/10.1109/isie54533.2024.10595700
+- Squat and tuck jump maneuver for single-legged robot with an active toe joint using model-free deep reinforcement learning | 小脑与运动控制 | https://doi.org/10.1007/s40430-024-05028-0
 - Wall-climbing performance of gecko-inspired robot with soft feet and digits enhanced by gravity compensation | 小脑与运动控制 | https://doi.org/10.1088/1748-3190/ad5899
 - Sim-to-real transfer of active suspension control using deep reinforcement learning | 小脑与运动控制 | https://doi.org/10.1016/j.robot.2024.104731
 - Simultaneous localization and mapping (SLAM)-based robot localization and navigation algorithm | 感知建图与导航 | https://doi.org/10.1007/s13201-024-02183-6
@@ -414,6 +430,7 @@
 - Harnessing Flagella Dynamics for Enhanced Robot Locomotion at Low Reynolds Number | 硬件与防爆 | https://doi.org/10.1109/lra.2024.3375711
 - Numerical Simulation of Motion Test of Bionic Amphibious Quadruped Robot | 小脑与运动控制 | https://doi.org/10.52783/jes.2742
 - Color-Based Image Processing for Autonomous Human Following Trolley Robot Navigation with Camera Vision | 感知建图与导航 | https://doi.org/10.36596/jcse.v5i1.727
+- Research on the Intelligent System Architecture and Control Strategy of Mining Robot Crowds | 小脑与运动控制 | https://doi.org/10.3390/en17081834
 - Development and Evaluation of a Computer Vision System for Robot Navigation and Object Recognition in Real-World Environments | 感知建图与导航 | https://doi.org/10.53759/181x/jcns202404007
 - AI-Powered Firefighting Robot to Manage High-Risk Situations While Improving Standard Fire Response Time -Robot FireX | 特种应用与产品 | https://doi.org/10.1109/isec61299.2024.10664945
 - Research on task path planning method for substation inspection robot and UAV based on genetic algorithm | 感知建图与导航 | https://doi.org/10.1117/12.3015333
@@ -498,8 +515,10 @@
 - Planning Mobile Robot Behavior in an Uncertain Multi-agent Environment | 感知建图与导航 | https://doi.org/10.2139/ssrn.4664781
 - Mobile robot vision navigation strategy based on Pixy2 camera | 感知建图与导航 | https://doi.org/10.1016/j.matpr.2023.04.327
 - Rescue and Firefighting Operations During Incidents Involving Vehicles with Alternative Propulsion. Electric Vehicles | 特种应用与产品 | https://doi.org/10.12845/sft.60.2.2022.1
+- Integrating WSN and Laser SLAM for Mobile Robot Indoor Localization | 感知建图与导航 | https://doi.org/10.32604/cmc.2023.035832
 - Hyperspectral Imaging for Mobile Robot Navigation | 感知建图与导航 | https://doi.org/10.3390/s23010383
 - DIGITAL TWIN BASED LIGHTWEIGHTING OF ROBOT UNMANNED GROUND VEHICLES | 硬件与防爆 | https://doi.org/10.22190/fuacr221121015b
+- Research on SLAM Path Planning of ROS Robot based on Lidar | 感知建图与导航 | https://doi.org/10.54097/hset.v24i.3910
 - Towards Long-term Autonomy: A Perspective from Robot Learning | 大脑与具身智能 | https://doi.org/10.48550/arxiv.2212.12798
 - Development of a Low-Cost Stationary Laser Scanning System for Generation of Building Information Models | 感知建图与导航 | https://doi.org/10.5755/j02.eie.31374
 - Sistemas robóticos e interfaces inmersivos para aplicaciones robustas de búsqueda exploración | 感知建图与导航 | https://doi.org/10.24133/emif.v11.1i.3848
@@ -545,6 +564,7 @@
 - Virtual Prototype-based Kinematic Modeling and Simulation of a Multi-mode Amphibious Robot | 基础软件与系统 | https://doi.org/10.31436/iiumej.v23i2.2157
 - Design and Motion Planning of a Wheeled Type Pipeline Inspection Robot | 感知建图与导航 | https://doi.org/10.18196/jrc.v3i4.14742
 - Design and Application of Control System for Underground Inspection Robot | 小脑与运动控制 | https://doi.org/10.1109/acirs55390.2022.9845646
+- Applications of machine vision in agricultural robot navigation: A review | 感知建图与导航 | https://doi.org/10.1016/j.compag.2022.107085
 - Görsel Geri Beslemeli Otonom Mobil Kurtarma Robotunun Tasarım, Üretim ve Kontrolü | 特种应用与产品 | https://doi.org/10.31590/ejosat.1133067
 - Bio-Inspired Autonomous Learning Algorithm With Application to Mobile Robot Obstacle Avoidance | 感知建图与导航 | https://doi.org/10.3389/fnins.2022.905596
 - Development of Delta Robot Arm Simulation in ROS2 Foxy Fitzroy Environment | 基础软件与系统 | https://doi.org/10.54554/jtec.2022.14.02.001
@@ -612,4 +632,3 @@
 - Efficient and Safe Robotic Autonomous Environment Exploration Using Integrated Frontier Detection and Multiple Path Evaluation | 感知建图与导航 | https://doi.org/10.3390/rs13234881
 - Rock Segmentation in the Navigation Vision of the Planetary Rovers | 感知建图与导航 | https://doi.org/10.3390/math9233048
 - The Effects of Over-Ground Robot-Assisted Gait Training for Children with Ataxic Cerebral Palsy: A Case Report | 小脑与运动控制 | https://doi.org/10.3390/s21237875
-- Design of intelligent inspection robot system for electrical equipment based on visual recognition | 特种应用与产品 | https://doi.org/10.1109/auteee52864.2021.9668826
