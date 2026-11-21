@@ -4,9 +4,9 @@
 
 - 资源数量：628
 
+- rokbenko/quackd | 基础软件与系统 | https://github.com/rokbenko/quackd
 - PILOT: Guiding Long-Horizon World-Model Planning for Robot Manipulation with Imagined Subgoals and Policy Priors | 大脑与具身智能 | https://arxiv.org/abs/2610.14335
 - ohho-robotics/ohho-os | 基础软件与系统 | https://github.com/ohho-robotics/ohho-os
-- rokbenko/quackd | 基础软件与系统 | https://github.com/rokbenko/quackd
 - iit-DLSLab/basic-locomotion-isaaclab | 基础软件与系统 | https://github.com/iit-DLSLab/basic-locomotion-isaaclab
 - PROOF: Perceptive Robustness via Out-of-Distribution Fallback for Legged Locomotion | 小脑与运动控制 | https://arxiv.org/abs/2611.18305
 - DarmawanRobotics/Pashupati | 特种应用与产品 | https://github.com/DarmawanRobotics/Pashupati

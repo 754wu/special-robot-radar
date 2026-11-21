@@ -2,20 +2,20 @@
 
 本表对每条已入库资源扫描标题、摘要及现有分类；疑点不等于确证错分。
 
-总资源：2361；出现一项或以上疑点：908。
+总资源：2376；出现一项或以上疑点：921。
 
 ## 分类数量
 
-- 感知建图与导航: 883
-- 小脑与运动控制: 726
-- 基础软件与系统: 224
-- 特种应用与产品: 192
-- 硬件与防爆: 177
+- 感知建图与导航: 892
+- 小脑与运动控制: 723
+- 基础软件与系统: 229
+- 特种应用与产品: 193
+- 硬件与防爆: 180
 - 大脑与具身智能: 159
 
 ## 疑点分布
 
-- EXISTING_REVIEW: 771
+- EXISTING_REVIEW: 785
 - THIN_ABSTRACT: 185
 - HW_NO_EVIDENCE: 37
 - SOFT_ALGORITHM: 12
@@ -27,7 +27,9 @@
 
 ## 重点疑点逐篇示例
 
-### EXISTING_REVIEW（771 条）
+### EXISTING_REVIEW（785 条）
+- rokbenko/quackd | 当前：基础软件与系统 | 建议：待复核 | https://github.com/rokbenko/quackd
+- Mobile ROS: an open-source ROS 2 app for your phone | 当前：基础软件与系统 | 建议：待复核 | https://discourse.openrobotics.org/t/mobile-ros-an-open-source-ros-2-app-for-your-phone/60045
 - CoT-WAM: Collaborative Training of Vision-Language Models and World-Action Models via Plan Latents | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2611.23803
 - PILOT: Guiding Long-Horizon World-Model Planning for Robot Manipulation with Imagined Subgoals and Policy Priors | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2610.14335
 - Spatially Conditioned Trajectory Diffusion | 当前：感知建图与导航 | 建议：待复核 | https://arxiv.org/abs/2611.26127
@@ -35,11 +37,9 @@
 - Navigating Robots from Unknown and Uncalibrated Exocentric Cameras via Map Estimation | 当前：感知建图与导航 | 建议：待复核 | https://arxiv.org/abs/2611.23894
 - Effects of Locomotion and Viewpoint Control on Immersive Robot Telepresence for Navigation and Inspection | 当前：感知建图与导航 | 建议：待复核 | https://arxiv.org/abs/2611.23939
 - HINT-WAM: Hindsight-Informed Training for World Action Models | 当前：小脑与运动控制 | 建议：待复核 | https://arxiv.org/abs/2611.24789
+- A survey of natural language interaction and environmental perception in intelligent robotics | 当前：基础软件与系统 | 建议：待复核 | https://doi.org/10.1007/s42452-026-09890-6
 - Fault correlation for ROS 2: one cause, many faults (and what automotive does about it) | 当前：基础软件与系统 | 建议：待复核 | https://discourse.openrobotics.org/t/fault-correlation-for-ros-2-one-cause-many-faults-and-what-automotive-does-about-it/59959
-- What Can a VLA Learn from the Agent That Calls It? Task-Level Experience Distillation for Embodied Navigation | 当前：感知建图与导航 | 建议：待复核 | https://arxiv.org/abs/2611.16246
-- FailureGen: Scalable Robot Failure Data Generation with World Models | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2611.22367
-- Technical Report of Mobile Manipulator Robot for Industrial Environments | 当前：特种应用与产品 | 建议：待复核 | https://arxiv.org/abs/2611.22852
-- Pressure Drop: Gravity Vector Estimation from a Distributed Barometric Pressure Sensor Array | 当前：感知建图与导航 | 建议：待复核 | https://arxiv.org/abs/2611.23120
+- From Temperature-Limited to Battery-Limited Legged Locomotion | 当前：小脑与运动控制 | 建议：待复核 | https://arxiv.org/abs/2611.22231
 ### THIN_ABSTRACT（185 条）
 - YueBit/robodiag-harness | 当前：基础软件与系统 | 建议：待复核 | https://github.com/YueBit/robodiag-harness
 - GH0ST9s/ros2-gazebo-differential-drive-robot | 当前：基础软件与系统 | 建议：待复核 | https://github.com/GH0ST9s/ros2-gazebo-differential-drive-robot
