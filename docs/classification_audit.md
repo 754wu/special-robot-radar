@@ -2,20 +2,20 @@
 
 本表对每条已入库资源扫描标题、摘要及现有分类；疑点不等于确证错分。
 
-总资源：2376；出现一项或以上疑点：921。
+总资源：2381；出现一项或以上疑点：934。
 
 ## 分类数量
 
-- 感知建图与导航: 892
-- 小脑与运动控制: 723
-- 基础软件与系统: 229
-- 特种应用与产品: 193
-- 硬件与防爆: 180
-- 大脑与具身智能: 159
+- 感知建图与导航: 894
+- 小脑与运动控制: 721
+- 基础软件与系统: 231
+- 特种应用与产品: 195
+- 硬件与防爆: 182
+- 大脑与具身智能: 158
 
 ## 疑点分布
 
-- EXISTING_REVIEW: 785
+- EXISTING_REVIEW: 800
 - THIN_ABSTRACT: 185
 - HW_NO_EVIDENCE: 37
 - SOFT_ALGORITHM: 12
@@ -27,7 +27,8 @@
 
 ## 重点疑点逐篇示例
 
-### EXISTING_REVIEW（785 条）
+### EXISTING_REVIEW（800 条）
+- darshmenon/quadruped-robotics-stack | 当前：基础软件与系统 | 建议：待复核 | https://github.com/darshmenon/quadruped-robotics-stack
 - rokbenko/quackd | 当前：基础软件与系统 | 建议：待复核 | https://github.com/rokbenko/quackd
 - Mobile ROS: an open-source ROS 2 app for your phone | 当前：基础软件与系统 | 建议：待复核 | https://discourse.openrobotics.org/t/mobile-ros-an-open-source-ros-2-app-for-your-phone/60045
 - CoT-WAM: Collaborative Training of Vision-Language Models and World-Action Models via Plan Latents | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2611.23803
@@ -39,7 +40,6 @@
 - HINT-WAM: Hindsight-Informed Training for World Action Models | 当前：小脑与运动控制 | 建议：待复核 | https://arxiv.org/abs/2611.24789
 - A survey of natural language interaction and environmental perception in intelligent robotics | 当前：基础软件与系统 | 建议：待复核 | https://doi.org/10.1007/s42452-026-09890-6
 - Fault correlation for ROS 2: one cause, many faults (and what automotive does about it) | 当前：基础软件与系统 | 建议：待复核 | https://discourse.openrobotics.org/t/fault-correlation-for-ros-2-one-cause-many-faults-and-what-automotive-does-about-it/59959
-- From Temperature-Limited to Battery-Limited Legged Locomotion | 当前：小脑与运动控制 | 建议：待复核 | https://arxiv.org/abs/2611.22231
 ### THIN_ABSTRACT（185 条）
 - YueBit/robodiag-harness | 当前：基础软件与系统 | 建议：待复核 | https://github.com/YueBit/robodiag-harness
 - GH0ST9s/ros2-gazebo-differential-drive-robot | 当前：基础软件与系统 | 建议：待复核 | https://github.com/GH0ST9s/ros2-gazebo-differential-drive-robot

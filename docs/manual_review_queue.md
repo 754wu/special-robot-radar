@@ -2,13 +2,21 @@
 
 模型最多审核两次，首次复核后第4至第7天安排二次复核；若API额度或故障未能及时执行则持续优先重试。两次后仍不明确的资源列于此处。
 
-- 资源数量：628
+- 资源数量：641
 
+- darshmenon/quadruped-robotics-stack | 基础软件与系统 | https://github.com/darshmenon/quadruped-robotics-stack
 - rokbenko/quackd | 基础软件与系统 | https://github.com/rokbenko/quackd
 - PILOT: Guiding Long-Horizon World-Model Planning for Robot Manipulation with Imagined Subgoals and Policy Priors | 大脑与具身智能 | https://arxiv.org/abs/2610.14335
 - ohho-robotics/ohho-os | 基础软件与系统 | https://github.com/ohho-robotics/ohho-os
 - iit-DLSLab/basic-locomotion-isaaclab | 基础软件与系统 | https://github.com/iit-DLSLab/basic-locomotion-isaaclab
+- EgoSwarm: Learning Decentralized Robot Swarm Intelligence from Human Swarm Demonstrations | 小脑与运动控制 | https://arxiv.org/abs/2611.20100
+- DoF-Query Transformer for Adaptive Fusion of Egocentric Vision and Forearm HD-sEMG in Continuous Hand Kinematics | 感知建图与导航 | https://arxiv.org/abs/2611.20196
+- PSK: A Matrix-Free Single-Loop Method for K-Level Physics-Based Control | 小脑与运动控制 | https://arxiv.org/abs/2611.19660
+- DiffWAM: Learning World Action Model from Consecutive Visual Difference | 大脑与具身智能 | https://arxiv.org/abs/2611.19904
 - PROOF: Perceptive Robustness via Out-of-Distribution Fallback for Legged Locomotion | 小脑与运动控制 | https://arxiv.org/abs/2611.18305
+- Racing the Clock: Teaching VLNs Budget-Conditioned Object Search | 感知建图与导航 | https://arxiv.org/abs/2611.17442
+- Grounding Object-to-Object Hazard Reasoning into 3D Risk Fields for Task-Conditioned Safety | 大脑与具身智能 | https://arxiv.org/abs/2611.17566
+- Runtime governability in ROS 2: where should changing operating conditions be handled? | 基础软件与系统 | https://discourse.openrobotics.org/t/runtime-governability-in-ros-2-where-should-changing-operating-conditions-be-handled/59823
 - DarmawanRobotics/Pashupati | 特种应用与产品 | https://github.com/DarmawanRobotics/Pashupati
 - cohend2012/ROS2_Nav2_Mako | 感知建图与导航 | https://github.com/cohend2012/ROS2_Nav2_Mako
 - Xygarde69/Robotic_centaur_WBC | 小脑与运动控制 | https://github.com/Xygarde69/Robotic_centaur_WBC
@@ -18,6 +26,7 @@
 - ARTS: An Open-Source, Reproducible Three-Arm Platform for Autonomy Research in Minimally Invasive Surgery | 基础软件与系统 | https://arxiv.org/abs/2611.15135
 - SPARC: RoboCup Standard Platform for Autonomous Rescue Competition with Initial Datasets, Software, and Simulation Environments | 基础软件与系统 | https://arxiv.org/abs/2611.15443
 - Prediction or Persistence? What Future-Prediction Scores Miss About World Models | 大脑与具身智能 | https://arxiv.org/abs/2611.15082
+- AnyCamVLA: Zero-Shot Camera Adaptation for Viewpoint Robust Vision-Language-Action Models | 大脑与具身智能 | https://arxiv.org/abs/2603.05868
 - Robotics And Site Automation | 特种应用与产品 | https://doi.org/10.47392/irjaeh.2026.0746
 - Seeking Technical Co-Founders | General-Purpose Construction Robotics (Immediate Deployable Pipeline) | 特种应用与产品 | https://discourse.openrobotics.org/t/seeking-technical-co-founders-general-purpose-construction-robotics-immediate-deployable-pipeline/59732
 - Building a 15.5g Monocular VIO Module (RoboBaton Neo): Hardware Sync, 0.6W Power, and EuRoC Benchmarks | 硬件与防爆 | https://discourse.openrobotics.org/t/building-a-15-5g-monocular-vio-module-robobaton-neo-hardware-sync-0-6w-power-and-euroc-benchmarks/59731
@@ -32,7 +41,6 @@
 - Senior ROS2 & Python Developer — Shyld AI | Up to $30/hr | 基础软件与系统 | https://discourse.openrobotics.org/t/senior-ros2-python-developer-shyld-ai-up-to-30-hr/59662
 - afaq005/VROSA | 感知建图与导航 | https://github.com/afaq005/VROSA
 - BiCLAW‐VC: A Leg‐Wheel Robot With Four Wheels Integrating Symmetric Claws Following Variable Cycloidal Trajectories | 小脑与运动控制 | https://doi.org/10.1002/rob.70381
-- darshmenon/quadruped-robotics-stack | 基础软件与系统 | https://github.com/darshmenon/quadruped-robotics-stack
 - Korean high school students' Isaac Sim robot competition — just wanted to share | 特种应用与产品 | https://discourse.openrobotics.org/t/korean-high-school-students-isaac-sim-robot-competition-just-wanted-to-share/59598
 - What happened to "Robot-as-a-Snap"? | 基础软件与系统 | https://discourse.openrobotics.org/t/what-happened-to-robot-as-a-snap/59592
 - GigaBrain-WBC-0.5: A Behavior World Model for Robust Humanoid Whole-Body Tracking with Environment Interaction | 大脑与具身智能 | https://arxiv.org/abs/2608.18234
@@ -216,6 +224,7 @@
 - MRREP: Mixed Reality-Based Hand-Drawn Reference Path Editing Interface for Mobile Robot Navigation | 基础软件与系统 | https://doi.org/10.1109/ro-man72286.2026.11714993
 - Autonomous robotic pipeline inspection technologies | 特种应用与产品 | https://doi.org/10.1051/e3sconf/202672907004
 - Towards Torque-Driven Reinforcement Learning for Quadruped Locomotion | 小脑与运动控制 | http://arxiv.org/abs/2607.18365v1
+- 3L-Planner: Lightweight LiDAR mapping and real-time local planning for ground robot autonomous navigation | 感知建图与导航 | https://doi.org/10.31224/7563
 - MAPL: Multi-Objective Preference Learning for Robot Locomotion | 大脑与具身智能 | http://arxiv.org/abs/2606.25398v1
 - Vision-Language-Action and Vision Language Models for Robot Manipulation: A Comprehensive Review Towards Real-World Applications | 大脑与具身智能 | https://doi.org/10.20944/preprints202606.0400.v1
 - Sample-Based Model Predictive Control for a Quadruped Robot Under Oscillation of Walking Locomotion | 小脑与运动控制 | https://doi.org/10.1109/ascc70886.2026.11702040
@@ -259,6 +268,7 @@
 - Task-Aware Positioning for Improvisational Tasks in Mobile Construction Robots via an AI Agent with Multi-LMM Modules | 大脑与具身智能 | https://doi.org/10.48550/arxiv.2603.22903
 - A Path Planning Algorithm for Mobile Robot Navigation on Uneven Terrains | 感知建图与导航 | https://doi.org/10.1109/icaace69793.2026.11509200
 - Comparison of ROS 2 QoS Policies for Real-Time Quadruped Robot Control | 基础软件与系统 | https://doi.org/10.1109/infoteh68759.2026.11477650
+- A robot operating system framework for using large language models in embodied AI | 基础软件与系统 | https://doi.org/10.1038/s42256-026-01186-z
 - Review Paper on Fire Fighting Robot Using Arduino | 感知建图与导航 | https://doi.org/10.55041/ijsrem57649
 - SmoothTurn: Learning to Turn Smoothly for Agile Navigation with Quadrupedal Robots | 感知建图与导航 | https://doi.org/10.48550/arxiv.2603.12842
 - A Hybrid Neural-Assisted Unscented Kalman Filter for Unmanned Ground Vehicle Navigation | 感知建图与导航 | https://doi.org/10.48550/arxiv.2603.11649
@@ -315,11 +325,13 @@
 - Aerial Assistance System for Automated Firefighting during Turntable Ladder Operations | 特种应用与产品 | https://doi.org/10.1109/ssrr68451.2025.11391304
 - SDA-LLM: Spatial DisAmbiguation via Multi-turn Vision-Language Dialogues for Robot Navigation | 感知建图与导航 | https://doi.org/10.1109/iros60139.2025.11246115
 - Novel UWB Synthetic Aperture Radar Imaging for Mobile Robot Mapping | 感知建图与导航 | https://doi.org/10.1109/ipin66788.2025.11213156
+- Decision-Making for Path Planning of Mobile Robots Under Uncertainty: A Review of Belief-Space Planning Simplifications | 感知建图与导航 | https://doi.org/10.3390/robotics14090127
 - Uncertainty-Aware Autonomous Robotic Inspection Based on Active Vision and Deep Reinforcement Learning | 小脑与运动控制 | https://doi.org/10.12783/shm2025/37531
 - Introduction to Low-cost and Low-consumption Optimization Schemes for Simultaneous Localization and Mapping | 感知建图与导航 | https://doi.org/10.54254/2755-2721/2025.bj26928
 - Edge AI-Based LSTM Voice-Controlled Mobile Robot for Industrial Pipe Inspection | 特种应用与产品 | https://doi.org/10.1109/icat66432.2025.11189277
 - UAV-VLN: End-to-End Vision Language guided Navigation for UAVs | 感知建图与导航 | https://doi.org/10.1109/ecmr65884.2025.11163198
 - A review of LiDAR simultaneous localization and mapping techniques for multi-robot | 基础软件与系统 | https://doi.org/10.1017/s0263574725102178
+- AUTONOMOUS NAVIGATION FOR MOBILE ROBOT USING COMPUTER VISION | 感知建图与导航 | https://doi.org/10.56726/irjmets81768
 - AUTONOMOUS MOBILE ROBOT MANIPULATION WITH VISION-BASED NAVIGATION | 感知建图与导航 | https://doi.org/10.56726/irjmets81867
 - Deep Reinforcement Learning with PSO Algorithm in Agile Dodge Actions of Quadruped Robot | 小脑与运动控制 | https://doi.org/10.1109/icma65362.2025.11120702
 - Multi-layer robotic controller for enhancing the safety of mobile robot navigation in human-centered indoor environments | 感知建图与导航 | https://doi.org/10.3389/frobt.2025.1629931
@@ -451,6 +463,7 @@
 - Autonomous Cargo Carrier Robot in GPS Denied Indoor Environment | 感知建图与导航 | https://doi.org/10.17798/bitlisfen.1347396
 - Multi-Sensor Fusion Simultaneous Localization Mapping Based on Deep Reinforcement Learning and Multi-Model Adaptive Estimation | 感知建图与导航 | https://doi.org/10.3390/s24010048
 - Hybrid Internal Model: Learning Agile Legged Locomotion with Simulated Robot Response | 小脑与运动控制 | https://doi.org/10.48550/arxiv.2312.11460
+- Comparative Analysis of Reinforcement Learning Algorithms for Bipedal Robot Locomotion | 小脑与运动控制 | https://doi.org/10.1109/access.2023.3344393
 - Analysis on Simultaneous Localization and Mapping of Mobile Robot Based on Two Multi-sensor Fusion Algorithm | 感知建图与导航 | https://doi.org/10.1109/itaic58329.2023.10408763
 - Research on Simultaneous Localization and Mapping of Mobile Robot Based on Improved Karto Algorithm | 感知建图与导航 | https://doi.org/10.1109/itaic58329.2023.10408772
 - Multimodal Locomotion: Next Generation Aerial–Terrestrial Mobile Robotics | 小脑与运动控制 | https://doi.org/10.1002/aisy.202300327
