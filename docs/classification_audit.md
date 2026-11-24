@@ -2,44 +2,44 @@
 
 本表对每条已入库资源扫描标题、摘要及现有分类；疑点不等于确证错分。
 
-总资源：2402；出现一项或以上疑点：937。
+总资源：2425；出现一项或以上疑点：939。
 
 ## 分类数量
 
-- 感知建图与导航: 901
-- 小脑与运动控制: 724
-- 基础软件与系统: 238
+- 感知建图与导航: 909
+- 小脑与运动控制: 728
+- 基础软件与系统: 244
 - 特种应用与产品: 197
-- 硬件与防爆: 182
-- 大脑与具身智能: 160
+- 硬件与防爆: 184
+- 大脑与具身智能: 163
 
 ## 疑点分布
 
-- EXISTING_REVIEW: 804
+- EXISTING_REVIEW: 802
 - THIN_ABSTRACT: 186
 - HW_NO_EVIDENCE: 37
 - SOFT_ALGORITHM: 13
 - HW_ALGORITHM: 6
-- BRAIN_POLICY_REVIEW: 3
-- BRAIN_CONTROL: 1
+- BRAIN_POLICY_REVIEW: 4
+- BRAIN_CONTROL: 2
 - APP_ALGORITHM: 1
 - NAV_AGENT_REVIEW: 1
 
 ## 重点疑点逐篇示例
 
-### EXISTING_REVIEW（804 条）
-- walmfml88886666/go2-rule-based-inspection-navigation | 当前：感知建图与导航 | 建议：待复核 | https://github.com/walmfml88886666/go2-rule-based-inspection-navigation
+### EXISTING_REVIEW（802 条）
 - Ryon-droid/Climber_legged_rl | 当前：基础软件与系统 | 建议：待复核 | https://github.com/Ryon-droid/Climber_legged_rl
+- aghasalim/electroclimb | 当前：硬件与防爆 | 建议：待复核 | https://github.com/aghasalim/electroclimb
+- A ROS2 based Human-In-The-Loop Framework for UAV Search and Rescue Operations | 当前：特种应用与产品 | 建议：待复核 | https://arxiv.org/abs/2611.29507
+- Feedback Completion Certificates for Repeated Dwell Tasks with Time Windows | 当前：感知建图与导航 | 建议：待复核 | https://arxiv.org/abs/2611.29525
+- EgoStudy: How Does Scaling Egocentric Data Affect VLA and WAM Pretraining? | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2611.30490
+- Value function based Reward shaping for safety in quadrupeds | 当前：小脑与运动控制 | 建议：待复核 | https://arxiv.org/abs/2611.30133
+- [Release Announcement] BTick – New Release for ROS2 | 当前：基础软件与系统 | 建议：待复核 | https://discourse.openrobotics.org/t/release-announcement-btick-new-release-for-ros2/60178
+- walmfml88886666/go2-rule-based-inspection-navigation | 当前：感知建图与导航 | 建议：待复核 | https://github.com/walmfml88886666/go2-rule-based-inspection-navigation
 - rajagopal95/bumpy_ws | 当前：感知建图与导航 | 建议：待复核 | https://github.com/rajagopal95/bumpy_ws
-- AceVLN: Asynchronous Cloud Edge Deployment of VLNs via Latent Scheduling and Compensation | 当前：感知建图与导航 | 建议：待复核 | https://arxiv.org/abs/2611.27255
-- Frequency-Enhanced Token Caching for Efficient Streaming VLN Models | 当前：感知建图与导航 | 建议：待复核 | https://arxiv.org/abs/2604.24391
 - ViewDreamer: A Robot World Model beyond Fixed Camera Setups | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2611.26981
-- TacHOI: Contact-Aware Object Reconstruction and Tracking for Egocentric Videos | 当前：小脑与运动控制 | 建议：待复核 | https://arxiv.org/abs/2611.26764
-- Coherent Moment Propagation: Epistemic Uncertainty for Pre-trained Robot Policies | 当前：小脑与运动控制 | 建议：待复核 | https://arxiv.org/abs/2611.26855
-- HumanoidPose: Monocular 3D Pose Estimation for Humanoid Robots | 当前：小脑与运动控制 | 建议：待复核 | https://arxiv.org/abs/2611.27181
-- darshmenon/quadruped-robotics-stack | 当前：基础软件与系统 | 建议：待复核 | https://github.com/darshmenon/quadruped-robotics-stack
-- rokbenko/quackd | 当前：基础软件与系统 | 建议：待复核 | https://github.com/rokbenko/quackd
-- Recent advances in multi-agent human trajectory prediction: A comprehensive review | 当前：小脑与运动控制 | 建议：待复核 | https://doi.org/10.1177/02783649261505482
+- TacHOI: Contact-Aware Object Reconstruction and Tracking for Egocentric Videos | 当前：感知建图与导航 | 建议：待复核 | https://arxiv.org/abs/2611.26764
+- Coherent Moment Propagation: Epistemic Uncertainty for Pre-trained Robot Policies | 当前：大脑与具身智能 | 建议：待复核 | https://arxiv.org/abs/2611.26855
 ### THIN_ABSTRACT（186 条）
 - rajagopal95/bumpy_ws | 当前：感知建图与导航 | 建议：待复核 | https://github.com/rajagopal95/bumpy_ws
 - YueBit/robodiag-harness | 当前：基础软件与系统 | 建议：待复核 | https://github.com/YueBit/robodiag-harness
@@ -54,6 +54,7 @@
 - Gait-Aware Command Timing for Decentralized Quadruped Swarms | 当前：小脑与运动控制 | 建议：待复核 | https://doi.org/10.21203/rs.3.rs-11332226/v1
 - bell-ha/visually-impaired-navigation-robot | 当前：特种应用与产品 | 建议：待复核 | https://github.com/bell-ha/visually-impaired-navigation-robot
 ### HW_NO_EVIDENCE（37 条）
+- aghasalim/electroclimb | 当前：硬件与防爆 | 建议：待复核 | https://github.com/aghasalim/electroclimb
 - Ace2932/fennec-portfolio | 当前：硬件与防爆 | 建议：待复核 | https://github.com/Ace2932/fennec-portfolio
 - MABEL: An Open Anthropomorphic Mobile Bimanual Platform for Teleoperation and Learning | 当前：硬件与防爆 | 建议：待复核 | https://arxiv.org/abs/2611.04083
 - nacibulkeCZ/bricg | 当前：硬件与防爆 | 建议：待复核 | https://github.com/nacibulkeCZ/bricg
@@ -65,7 +66,6 @@
 - A Reconfigured Wheel-Legged Robot for Enhanced Steering and Adaptability | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.1109/lra.2026.3688384
 - CAD-based Optimization of the Medium-sized Unmanned Ground Vehicle | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.18372/1990-5548.88.20978
 - Design Of 6-Legged Robot With Adaptive Gait And Obstacle Sensing For Rugged Terrain Mobility | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.64771/ijesat.2026.v26.i4(1).2787
-- Research progress in thermal protection materials and technologies for firefighting robots | 当前：硬件与防爆 | 建议：待复核 | https://doi.org/10.11868/j.issn.1001-4381.2025.000330
 ### SOFT_ALGORITHM（13 条）
 - iit-DLSLab/basic-locomotion-isaaclab | 当前：基础软件与系统 | 建议：感知导航/小脑；待复核 | https://github.com/iit-DLSLab/basic-locomotion-isaaclab
 - Rendering-Free Event Frame Simulation for Fast Reinforcement Learning of Autonomous Robot Navigation | 当前：基础软件与系统 | 建议：感知导航/小脑 | https://arxiv.org/abs/2610.37543
@@ -86,12 +86,14 @@
 - Additively Manufactured Open-Source Quadruped Robots for Multi-Robot SLAM Applications | 当前：硬件与防爆 | 建议：小脑与运动控制/感知建图与导航；待复核 | https://doi.org/10.48550/arxiv.2410.00122
 - PaTS-Wheel: A Passively-Transformable Single-Part Wheel for Mobile Robot Navigation on Unstructured Terrain | 当前：硬件与防爆 | 建议：小脑与运动控制/感知建图与导航；待复核 | https://doi.org/10.1109/lra.2024.3389828
 - DeforMoBot: A Bio-Inspired Deformable Mobile Robot for Navigation Among Obstacles | 当前：硬件与防爆 | 建议：小脑与运动控制/感知建图与导航；待复核 | https://doi.org/10.1109/lra.2023.3273393
-### BRAIN_POLICY_REVIEW（3 条）
+### BRAIN_POLICY_REVIEW（4 条）
 - ThinkLocoManip: A Whole-Body Control Agentic Harness for Legged Loco-Manipulation | 当前：大脑与具身智能 | 建议：小脑与运动控制（待复核）；待复核 | https://arxiv.org/abs/2610.34370
 - PointWalker: Mapless Quadruped Locomotion Directly From Raw LiDAR Point Clouds | 当前：大脑与具身智能 | 建议：小脑与运动控制；小脑与运动控制（待复核）；待复核 | https://arxiv.org/abs/2610.15548
 - MAPL: Multi-Objective Preference Learning for Robot Locomotion | 当前：大脑与具身智能 | 建议：小脑与运动控制（待复核）；待复核 | http://arxiv.org/abs/2606.25398v1
-### BRAIN_CONTROL（1 条）
+- Neural Scene Representation for Locomotion on Structured Terrain | 当前：大脑与具身智能 | 建议：小脑与运动控制；小脑与运动控制（待复核）；待复核 | https://doi.org/10.1109/lra.2022.3184779
+### BRAIN_CONTROL（2 条）
 - PointWalker: Mapless Quadruped Locomotion Directly From Raw LiDAR Point Clouds | 当前：大脑与具身智能 | 建议：小脑与运动控制；小脑与运动控制（待复核）；待复核 | https://arxiv.org/abs/2610.15548
+- Neural Scene Representation for Locomotion on Structured Terrain | 当前：大脑与具身智能 | 建议：小脑与运动控制；小脑与运动控制（待复核）；待复核 | https://doi.org/10.1109/lra.2022.3184779
 ### APP_ALGORITHM（1 条）
 - Inspection Robot of Industrial Park Plant Based on Deep Learning | 当前：特种应用与产品 | 建议：具体算法主类 | https://doi.org/10.25236/ajets.2024.070215
 ### NAV_AGENT_REVIEW（1 条）
