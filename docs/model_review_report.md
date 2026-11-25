@@ -2,159 +2,137 @@
 
 分类冲突时暂用模型类别并进入二次复核；分类一致则记录已审核、不再重复抽查。
 
-- 规则分类资源：2425
-- 具有当前分类版本模型建议：1244
-- 本次新增建议：98
-- 当日新增待复核候选：12
-- 历史待复核候选：8
-- 本次应用审核建议：98
-- 本次新增独立审核事件：98
-- 累计历史审核事件（去重）：2555
-- 累计涉及不同资源：1568
-- 本次实际改变主分类：23
-- 本次API调用次数：40
-- 今日累计API调用次数（北京时间）：40/40
-- 今日P4抽查API调用次数（北京时间）：9/20
-- 本次理论最大审核数：120
-- 本次有效输出率：81.7%
+- 规则分类资源：2452
+- 具有当前分类版本模型建议：1288
+- 本次新增建议：79
+- 当日新增待复核候选：16
+- 历史待复核候选：0
+- 本次应用审核建议：79
+- 本次新增独立审核事件：79
+- 累计历史审核事件（去重）：2634
+- 累计涉及不同资源：1624
+- 本次实际改变主分类：20
+- 本次API调用次数：33
+- 今日累计API调用次数（北京时间）：33/40
+- 今日P4抽查API调用次数（北京时间）：18/20
+- 本次理论最大审核数：99
+- 本次有效输出率：79.8%
 - 固定免费模型：openrouter/free
-- 规则与模型主分类不一致：104
+- 规则与模型主分类不一致：107
 
 ## 失败原因统计
 
-- output_truncated: 7
+- invalid_fields: 3
+- missing_or_invalid_batch_items: 1
+- output_truncated: 4
 
 ## 安全诊断（不含模型原文）
 
-- {"error": "output_truncated", "shape": "pipe_like", "length": 112, "finish_reason": "length", "served_model": "liquid/lfm-3-1.7b:free"}
 - {"error": "output_truncated", "shape": "empty", "length": 0, "finish_reason": "length", "served_model": "liquid/lfm-3-1.7b:free"}
 - {"error": "output_truncated", "shape": "empty", "length": 0, "finish_reason": "length", "served_model": "liquid/lfm-3-1.7b:free"}
 - {"error": "output_truncated", "shape": "empty", "length": 0, "finish_reason": "length", "served_model": "liquid/lfm-3-1.7b:free"}
-- {"error": "output_truncated", "shape": "empty", "length": 0, "finish_reason": "length", "served_model": "liquid/lfm-3-1.7b:free"}
-- {"error": "output_truncated", "shape": "empty", "length": 0, "finish_reason": "length", "served_model": "liquid/lfm-3-1.7b:free"}
-- {"error": "output_truncated", "shape": "empty", "length": 0, "finish_reason": "length", "served_model": "liquid/lfm-3-1.7b:free"}
+- {"error": "output_truncated", "shape": "empty", "length": 0, "finish_reason": "length", "served_model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"}
 
 ## 本次分类修改
 
-- aghasalim/electroclimb: 小脑与运动控制 -> 硬件与防爆
-- LYHrmer/ddt-d1-rl-lab: 小脑与运动控制 -> 小脑与运动控制
-- A ROS2 based Human-In-The-Loop Framework for UAV Search and Rescue Operations: 基础软件与系统 -> 特种应用与产品
-- Environment-Aware Probabilistic State Estimation of Continuum Robots from Planar Imaging: 特种应用与产品 -> 感知建图与导航
-- Feedback Completion Certificates for Repeated Dwell Tasks with Time Windows: 特种应用与产品 -> 感知建图与导航
-- EgoStudy: How Does Scaling Egocentric Data Affect VLA and WAM Pretraining?: 大脑与具身智能 -> 大脑与具身智能
-- Object Count Generalization Is an Interface Problem: Warping a Frozen Skill Instead of Retraining It: 小脑与运动控制 -> 大脑与具身智能
-- Value function based Reward shaping for safety in quadrupeds: 小脑与运动控制 -> 小脑与运动控制
-- [Release Announcement] BTick – New Release for ROS2: 基础软件与系统 -> 基础软件与系统
-- ROS2 multilingual software for serving robots, seeking hardware partners: 基础软件与系统 -> 基础软件与系统
-- AceVLN: Asynchronous Cloud Edge Deployment of VLNs via Latent Scheduling and Compensation: 感知建图与导航 -> 感知建图与导航
-- Frequency-Enhanced Token Caching for Efficient Streaming VLN Models: 感知建图与导航 -> 感知建图与导航
-- TacHOI: Contact-Aware Object Reconstruction and Tracking for Egocentric Videos: 小脑与运动控制 -> 感知建图与导航
-- Coherent Moment Propagation: Epistemic Uncertainty for Pre-trained Robot Policies: 小脑与运动控制 -> 大脑与具身智能
-- HumanoidPose: Monocular 3D Pose Estimation for Humanoid Robots: 小脑与运动控制 -> 感知建图与导航
-- InterReal: a unified physics-based imitation framework for learning human-object interaction skills: 小脑与运动控制 -> 小脑与运动控制
-- Recent advances in multi-agent human trajectory prediction: A comprehensive review: 小脑与运动控制 -> 基础软件与系统
-- CoT-WAM: Collaborative Training of Vision-Language Models and World-Action Models via Plan Latents: 大脑与具身智能 -> 大脑与具身智能
-- Spatially Conditioned Trajectory Diffusion: 感知建图与导航 -> 感知建图与导航
-- BEV-Diffusion: Camera-Only Traversability Navigation with BEV Memory and Efficient Cross-Robot Adaptation: 感知建图与导航 -> 感知建图与导航
-- Navigating Robots from Unknown and Uncalibrated Exocentric Cameras via Map Estimation: 感知建图与导航 -> 感知建图与导航
-- Effects of Locomotion and Viewpoint Control on Immersive Robot Telepresence for Navigation and Inspection: 感知建图与导航 -> 感知建图与导航
-- HINT-WAM: Hindsight-Informed Training for World Action Models: 小脑与运动控制 -> 大脑与具身智能
-- Fault correlation for ROS 2: one cause, many faults (and what automotive does about it): 基础软件与系统 -> 基础软件与系统
-- Arc-Flash Detection in Hydrogen Powered Medium Voltage Substation Using Multi-Sensor Data Fusion Robot: 特种应用与产品 -> 特种应用与产品
-- ManiLadder: Benchmarking Robot Manipulation Through a Categorized and Multi-Difficulty Level Task Ladder: 基础软件与系统 -> 基础软件与系统
-- FASTFUNNELS: Agile Multi Robot Navigation in Narrow Spaces via Adaptive Dynamic Funnels: 感知建图与导航 -> 感知建图与导航
-- Vision-Guided Robotic Arm with Deep Learning and Secure Digital Twin for Pre-Deployment Quadruped Robot Operation: 特种应用与产品 -> 特种应用与产品
-- SCRUB: Contact-Based Surface-Frame Estimation for Force-Motion Control with an Armless Quadruped: 小脑与运动控制 -> 小脑与运动控制
-- Neuro Inspired Robotics: What Robot Learning Can Borrow from the Sensorimotor Brain: 大脑与具身智能 -> 大脑与具身智能
-- Decision-Level Error Attribution and Depth-Aware Safety Evaluation of Monocular RGB Human Tracking for Autonomous Robot Navigation: 感知建图与导航 -> 感知建图与导航
-- FlowHOI: Flow-based Semantics-Grounded Generation of Hand-Object Interactions for Dexterous Robot Manipulation: 大脑与具身智能 -> 小脑与运动控制
-- Acoustic–Visual Sensor Fusion for Robot Localization in Buried Pipes: 感知建图与导航 -> 感知建图与导航
-- Hilti-Trimble-Oxford Dataset: 360 Visual-Inertial Benchmark with Floor Plan Priors for SLAM and Localization: 基础软件与系统 -> 基础软件与系统
-- Intent-Informed Model Predictive Control for Shared Autonomy in Remote Manipulation Tasks: 小脑与运动控制 -> 小脑与运动控制
-- CoSMO: Conformal Semantic Mapping for Open-World Safe Robot Navigation: 感知建图与导航 -> 感知建图与导航
-- Innovative Development of a Circleg Robot With Multi-Modal Locomotion and Autonomous Fall Recovery: 小脑与运动控制 -> 硬件与防爆
-- EmbodiedRSI: Active Continual Robot Learning Through Hypothesis-Guided Co-Evolution: 大脑与具身智能 -> 大脑与具身智能
-- Enhancing Robotic Perception and Adaptability through Sensor Fusion and Origami-Inspired Designs: 感知建图与导航 -> 感知建图与导航
-- Around the World: Unified Learned Locomotion on a 270 g Continuous-Rotation Quadruped: 小脑与运动控制 -> 小脑与运动控制
-- Deep Reinforcement Learning for Autonomous Robotic Systems: A Review of Adaptive Navigation, Motion Planning, And Real-Time Control: 大脑与具身智能 -> 感知建图与导航
-- Design of YOLOv8-SLAM Robot Path Planning Method for Outdoor Complex Environments: 感知建图与导航 -> 感知建图与导航
-- PanoPed: Beyond Bounding Boxes for Sim-to-Real Panoramic Pedestrian Tracking: 感知建图与导航 -> 感知建图与导航
-- Learning Terrain-Aware Whole-Body Control for Perceptive Legged Loco-Manipulation: 小脑与运动控制 -> 小脑与运动控制
-- A full-scenario navigation system for orchard robots based on a wheel-legged adaptive chassis and multi-sensor fusion: 感知建图与导航 -> 感知建图与导航
-- AN AUTONOMOUS MOBILE ROBOT FOR EFFICIENT NAVIGATION AND SURVEILLANCE IN IRREGULAR ENVIRONMENTS: 特种应用与产品 -> 特种应用与产品
-- Omnidirectional autonomous mobile robot navigation in cluttered environments using a neuro-fuzzy control framework: 小脑与运动控制 -> 小脑与运动控制
-- A Comprehensive Study on UGV’s with Future Applications in Space and Agriculture: 感知建图与导航 -> 基础软件与系统
-- Structural Design of a Biomimetic Amphibious Quadruped Robot: 硬件与防爆 -> 硬件与防爆
-- Performance Evaluation of Integrated Path Planning and Tracking Modules for Mobile Robot Navigation: 感知建图与导航 -> 感知建图与导航
-- Autonomous Navigation in Large‐Scale Underground Environments Based on a Purely Topological Understanding of Tunnel Networks: 感知建图与导航 -> 感知建图与导航
-- Zili Patrol Robot: A Human–Robot Collaborative Inspection System for Sub-Canopy Orchards: 感知建图与导航 -> 大脑与具身智能
-- A High-fidelity Multimodal Synthetic Dataset Generation Framework for Off-road Unstructured Terrain Navigation Training of Autonomous Robots: 基础软件与系统 -> 基础软件与系统
-- Integrated Motion Control Framework of Wheel-Legged Biped Robot on Rugged Terrain: 小脑与运动控制 -> 小脑与运动控制
-- Design and Implementation of a Servo-Actuated Quadruped Robot with Optimized Locomotion Control: 小脑与运动控制 -> 硬件与防爆
-- Integrating large language models for intuitive robot navigation: 大脑与具身智能 -> 感知建图与导航
-- Developing a Distributed Control Architecture for Legged Robot Locomotion: 小脑与运动控制 -> 小脑与运动控制
-- Firefighting Robot Using Arduino: A Fire Detection and Suppression System: 特种应用与产品 -> 特种应用与产品
-- Enhancing Indoor Patrol Capabilities of Unmanned Robot through Integration of Visual SLAM and Instance Segmentation Methods: 感知建图与导航 -> 感知建图与导航
-- Design of Mechanics and Locomotion System For Box Culverts Inspection Robot: 硬件与防爆 -> 小脑与运动控制
-- Coordinated Locomotion Control for a Quadruped Robot with Bionic Parallel Torso: 小脑与运动控制 -> 小脑与运动控制
-- Enhancing Mobile Robot Navigation: A Graph Decomposition Submodule for TEA*: 感知建图与导航 -> 感知建图与导航
-- Improving Sensor Adaptability and Functionality in Cartographer Simultaneous Localization and Mapping: 基础软件与系统 -> 感知建图与导航
-- Balance Control Method for Bipedal Wheel-Legged Robots Based on Friction Feedforward Linear Quadratic Regulator: 小脑与运动控制 -> 小脑与运动控制
-- A Review of Reinforcement Learning Techniques for Quadruped Robot Control and Locomotion in Complex Terrains: 小脑与运动控制 -> 小脑与运动控制
-- A novel adaptive dynamic optimal balance control method for wheel-legged robot: 小脑与运动控制 -> 小脑与运动控制
-- Accurate localization of indoor high similarity scenes using visual slam combined with loop closure detection algorithm: 感知建图与导航 -> 感知建图与导航
-- Dynamic Resonance Frequency Identification for Economic Insect-Scale Legged Robot Locomotion: 小脑与运动控制 -> 小脑与运动控制
-- Motion Control of Wheel-Legged Robots: Theoretical and Experimental Validation: 小脑与运动控制 -> 小脑与运动控制
-- Path planning of mobile robot based on ant colony algorithm-improved genetic algorithm: 感知建图与导航 -> 感知建图与导航
-- Multi-degree-of-freedom electrohydraulic origami actuator for highly dynamic shape morphing and robot locomotion: 硬件与防爆 -> 硬件与防爆
-- Interpretation of Legged Locomotion in Underwater Robots based on Rimless Wheel Model: 小脑与运动控制 -> 小脑与运动控制
-- A review of advanced techniques in simultaneous localization and mapping: 感知建图与导航 -> 感知建图与导航
-- Autonomous Stair-Climbing Locomotion of Quadruped Robot Using Visual Perception: 小脑与运动控制 -> 小脑与运动控制
-- Quadruped Robot Control: An Approach Using Body Planar Motion Control, Legs Impedance Control and Bézier Curves: 小脑与运动控制 -> 小脑与运动控制
-- Inspection Robot Navigation Based on Improved TD3 Algorithm: 感知建图与导航 -> 小脑与运动控制
-- An image enhancement method for cable tunnel inspection robot: 感知建图与导航 -> 感知建图与导航
-- Energy Consumption Minimization of Quadruped Robot Based on Reinforcement Learning of DDPG Algorithm: 小脑与运动控制 -> 小脑与运动控制
-- Application Research of Substation Power Inspection Robot Based on Image Recognition Technology: 特种应用与产品 -> 感知建图与导航
-- Robust Convex Model Predictive Control for Quadruped Locomotion Under Uncertainties: 小脑与运动控制 -> 小脑与运动控制
-- Autonomous Navigation of Rescue Robot on International Standard Rough Terrain by Using Deep Reinforcement Learning: 感知建图与导航 -> 感知建图与导航
-- Environmental Mapping Automation by Quadruped Robot Using Lidar Technology: 感知建图与导航 -> 感知建图与导航
-- Dynamic Obstacle Avoidance Technique for Mobile Robot Navigation Using Deep Reinforcement Learning: 感知建图与导航 -> 感知建图与导航
-- Instance-Level Semantic Maps for Vision Language Navigation: 感知建图与导航 -> 感知建图与导航
-- Application and performance of laser speckle odometry applied to a mobile industrial robot: 感知建图与导航 -> 感知建图与导航
-- Research on Motion Planning Model and Control Strategy of Corn Inspection Robot: 感知建图与导航 -> 感知建图与导航
-- Controlling the Solo12 quadruped robot with deep reinforcement learning: 小脑与运动控制 -> 小脑与运动控制
-- ArtPlanner: Robust Legged Robot Navigation in the Field: 感知建图与导航 -> 感知建图与导航
-- A Robust LiDAR SLAM Method for Underground Coal Mine Robot with Degenerated Scene Compensation: 感知建图与导航 -> 感知建图与导航
-- A Generalized Robot Navigation Analysis Platform (RoNAP) with Visual Results Using Multiple Navigation Algorithms: 基础软件与系统 -> 基础软件与系统
-- RLOC: Terrain-Aware Legged Locomotion Using Reinforcement Learning and Optimal Control: 小脑与运动控制 -> 小脑与运动控制
-- An Overview on Visual SLAM: From Tradition to Semantic: 感知建图与导航 -> 感知建图与导航
-- Neural Scene Representation for Locomotion on Structured Terrain: 感知建图与导航 -> 大脑与具身智能
-- Flexible gait transition for six wheel-legged robot with unstructured terrains: 小脑与运动控制 -> 小脑与运动控制
-- Deep Learning Applications in Simultaneous Localization and Mapping: 感知建图与导航 -> 感知建图与导航
-- FRL-SLAM: A Fast, Robust and Lightweight SLAM System for Quadruped Robot Navigation: 感知建图与导航 -> 感知建图与导航
-- Accurate and Robust Object SLAM With 3D Quadric Landmark Reconstruction in Outdoors: 感知建图与导航 -> 感知建图与导航
-- The Internet of Cooperative Agents Architecture (X-IoCA) for Robots, Hybrid Sensor Networks, and MEC Centers in Complex Environments: A Search and Rescue Case Study: 感知建图与导航 -> 基础软件与系统
+- lksk-bit/legged-manipulation_unilab-2PWBC: 小脑与运动控制 -> 小脑与运动控制
+- Quad-Kinematics/unitree-go2-ros2-gazebo: 基础软件与系统 -> 基础软件与系统
+- kathrinmishmiya-ctrl/AGNISHIELD: 特种应用与产品 -> 特种应用与产品
+- How do you handle laggy links for 3D teleop/monitoring in ROS 2?: 基础软件与系统 -> 基础软件与系统
+- An XR-Based System for Enhanced Spatial Awareness in Mobile Robot Teleoperation: 感知建图与导航 -> 基础软件与系统
+- Embodied Neuro-symbolic AI: Making Robot Behavior Auditable, Safe, and Scalable: 大脑与具身智能 -> 大脑与具身智能
+- RoboPace: Contact-Aware Time-Optimal Retiming for Action-Chunk Policies: 小脑与运动控制 -> 小脑与运动控制
+- CATWAY: Cost-sensitive agentic three-way robot decisions with calibrated language-model confidence: 大脑与具身智能 -> 大脑与具身智能
+- ObsBridge: Observation-Grounded Conditioning for Ego Trajectory Prediction: 小脑与运动控制 -> 感知建图与导航
+- Technical Co-Founder (ROS 2 / PX4 / Swarm Autonomy) — Validated Defense-Tech Pipeline: 基础软件与系统 -> 大脑与具身智能
+- robot_stream: low-latency WebRTC video + Nav2/teleop for ROS 2 in Flutter (deadman-protected, open source): 基础软件与系统 -> 基础软件与系统
+- Ramp Autonomy: a ROS 2 / Gazebo stack for ramp ascent and descent on a loaded AMR: 基础软件与系统 -> 感知建图与导航
+- Ultracompressible Tactile Sensors for Tactile Paving Recognition and Human–Robot Interaction in Quadruped Robots: 小脑与运动控制 -> 硬件与防爆
+- Mobile ROS: an open-source ROS 2 app for your phone: 基础软件与系统 -> 基础软件与系统
+- Collision-Free Is Not Enough: Passage-Conditioned Navigation for Wheeled-Legged Robots: 感知建图与导航 -> 感知建图与导航
+- A survey of natural language interaction and environmental perception in intelligent robotics: 基础软件与系统 -> 大脑与具身智能
+- From Temperature-Limited to Battery-Limited Legged Locomotion: 小脑与运动控制 -> 小脑与运动控制
+- EasyNav: A Modular Architecture for Real-Time Navigation Across Heterogeneous Robot Environments: 感知建图与导航 -> 感知建图与导航
+- Learning Latent Volumetric Dynamics for Multimodal Goal-Conditioned Robot Manipulation of Hair: 小脑与运动控制 -> 小脑与运动控制
+- Markov Decision Process-based Real-time Navigation for Autonomous Aerial Vehicles Using Video: 感知建图与导航 -> 感知建图与导航
+- ButIAmCreep/x30-supermimic-locomotion: 小脑与运动控制 -> 小脑与运动控制
+- VLAN: Vision-Language Accessible Navigation: 感知建图与导航 -> 基础软件与系统
+- Alloy: A Multi-Material Physics Engine for Robot Learning: 基础软件与系统 -> 基础软件与系统
+- RUMI: A Robotiq-Matched Universal Manipulation Interface for Robot Learning with Augmented Reality and Haptic Feedback: 硬件与防爆 -> 硬件与防爆
+- eSharp: Diffusion-based Sharp Monocular Metric Event-to-Depth Estimation: 感知建图与导航 -> 感知建图与导航
+- SGM-SLAM: Scene Graph Matching for Data-Efficient Distributed SLAM: 感知建图与导航 -> 感知建图与导航
+- Closed-Loop Object-Informed Control for Non-Prehensile Robot Manipulation: 小脑与运动控制 -> 小脑与运动控制
+- A ROS-based Simulation Framework for Industrial Robotics Pick-and-Place Application: Integration of Vision-based Pose Estimation and 3-DOF Inverse Kinematics: 基础软件与系统 -> 基础软件与系统
+- Environmental Perception and Sensing Systems for Intelligent Control: Multi-sensor Fusion and Closed-Loop Control Methods: 感知建图与导航 -> 小脑与运动控制
+- Actuator Reality Shaping for Zero-Shot Sim-to-Real Robot Learning: 小脑与运动控制 -> 小脑与运动控制
+- Motion trajectory prediction of quadruped robots in complex terrain by improving the transformer temporal modeling algorithm: 小脑与运动控制 -> 大脑与具身智能
+- LiDAR-Based Indoor Navigation Robot for Search and Rescue (SAR): 感知建图与导航 -> 感知建图与导航
+- Not What You Asked For: Typographic Attacks in Household Robot Manipulation: 感知建图与导航 -> 大脑与具身智能
+- Dynamic Policy Learning for Legged Robot With Simplified Model Pretraining and Model-Homotopy-Inspired Transfer: 小脑与运动控制 -> 小脑与运动控制
+- An Adaptive Mobility Architecture for Uneven Surface Navigation Using Rocker–Bogie Kinematic Structuring: 感知建图与导航 -> 硬件与防爆
+- A modal separation deep reinforcement learning method for navigation of autonomous mobile robot: 感知建图与导航 -> 感知建图与导航
+- MoDeSuite: Robot Learning Task Suite for Benchmarking Mobile Manipulation With Deformable Objects: 基础软件与系统 -> 基础软件与系统
+- DESIGN AND EXPERIMENT OF MULTI-PUROSE AND MODULAR SENSOR ROBOTIC PLATFORM FOR REAL-TIME ASSESSING AND MONITORING OF CEA FARMS USING POINT CLOUD, LIDAR, RGB AND THERMAL IMAGING: 特种应用与产品 -> 特种应用与产品
+- ToggleMimic: A Two-Stage Policy for Text-Driven Humanoid Whole-Body Control: 小脑与运动控制 -> 小脑与运动控制
+- An Improved DHA Star and ADA-DWA Fusion Algorithm for Robot Path Planning: 感知建图与导航 -> 感知建图与导航
+- Closed Loop Interactive Embodied Reasoning for Robot Manipulation: 大脑与具身智能 -> 大脑与具身智能
+- A review of mobile robot navigation algorithms: 感知建图与导航 -> 感知建图与导航
+- Fast Path Generation Algorithm for Mobile Robot Navigation Using Hybrid Map: 感知建图与导航 -> 感知建图与导航
+- Research on Quadruped Crawling Robot Control with Finite-Time Observer in Continuous Convex Terrain: 小脑与运动控制 -> 小脑与运动控制
+- Firefighting robot control and monitoring using a smartphone application: 特种应用与产品 -> 特种应用与产品
+- Control and monocular visual SLAM of nonholonomic mobile robots: 小脑与运动控制 -> 感知建图与导航
+- Air-Ground Collaborative Robots for Fire and Rescue Missions: A Survey from the Mapping and Navigation Perspective: 感知建图与导航 -> 感知建图与导航
+- End-to-end Generative Spatial-Temporal Ultrasonic Odometry and Mapping Framework: 感知建图与导航 -> 感知建图与导航
+- Multi-Modal Compliant Quadruped Robot Based on CPG Control Network: 小脑与运动控制 -> 硬件与防爆
+- Latissimus-dorsi-inspired wire mechanism for improving energy efficiency of quadruped robot locomotion: 小脑与运动控制 -> 硬件与防爆
+- FusionPortableV2: A unified multi-sensor dataset for generalized SLAM across diverse platforms and scalable environments: 基础软件与系统 -> 基础软件与系统
+- Robust Walking and Sim-to-Real Optimization for Quadruped Robots via Reinforcement Learning: 小脑与运动控制 -> 小脑与运动控制
+- Research progress of path planning algorithm for mobile robot navigation: 感知建图与导航 -> 感知建图与导航
+- A Biomimetic Pose Estimation and Target Perception Strategy for Transmission Line Maintenance UAVs: 感知建图与导航 -> 感知建图与导航
+- Research on Autonomous Mobile Robot Navigation Technology Based on Deep Reinforcement Learning: 感知建图与导航 -> 感知建图与导航
+- ASSESSMENT OF MOBILE ROBOT LOAD-CARRYING POTENTIAL VIA DC GEARBOX MOTOR TORQUE: 硬件与防爆 -> 小脑与运动控制
+- Robust Prescribed-Time Predictive Control for Mobile Robot Navigation: 感知建图与导航 -> 小脑与运动控制
+- Dynamic simultaneous localization and mapping based on object tracking in occluded environment: 感知建图与导航 -> 感知建图与导航
+- Quadruped Robot Locomotion Control Using Reinforcement Learning: 小脑与运动控制 -> 小脑与运动控制
+- Another Mechanism for Gait Generation: Mechanical Stabilization Can Spontaneously Realize Walking in a Two-Legged Robot: 小脑与运动控制 -> 硬件与防爆
+- RF-SLAM: UHF-RFID Based Simultaneous Tags Mapping and Robot Localization Algorithm for Smart Warehouse Position Service: 感知建图与导航 -> 感知建图与导航
+- Modelling and Simulation of Semi-Autonomous Cars Undercarriage Cleaning Mobile Robot: 基础软件与系统 -> 感知建图与导航
+- Assistive Mobile Robot Navigation and Localization using FastSLAM Algorithm: 感知建图与导航 -> 感知建图与导航
+- A REVIEW OF METHODOLOGIES FOR PATH PLANNING AND OPTIMIZATION OF MOBILE ROBOTS: 感知建图与导航 -> 感知建图与导航
+- Development of a Spherical Shell Robot with Rolling and Legged Locomotion: 小脑与运动控制 -> 硬件与防爆
+- Path Planning of Mobile Robot Based on Multi-agent: 感知建图与导航 -> 感知建图与导航
+- AdaptiveON: Adaptive Outdoor Local Navigation Method for Stable and Reliable Actions: 感知建图与导航 -> 感知建图与导航
+- Feasibility of Tracking Human Kinematics with Simultaneous Localization and Mapping (SLAM): 感知建图与导航 -> 感知建图与导航
+- GRU-Attention based TD3 Network for Mobile Robot Navigation: 感知建图与导航 -> 感知建图与导航
+- Vision-Based Quadruped Pose Estimation and Gait Parameter Extraction Method: 小脑与运动控制 -> 感知建图与导航
+- An Improved Simultaneous Localization and Mapping Method Base on LeGO-LOAM and Motion Compensation: 感知建图与导航 -> 感知建图与导航
+- Locomotion of Underwater Quadruped Robot Based on Ground Reaction Force Optimization: 小脑与运动控制 -> 小脑与运动控制
+- Autonomous navigation of mobile robot in radiation environment with uneven terrain: 感知建图与导航 -> 感知建图与导航
+- Online Path Planning of Mobile Robots Based on African Vultures Optimization Algorithm in Unknown Environments: 感知建图与导航 -> 感知建图与导航
+- Robot Navigation in Crowd via DeepReinforcement Learning: 感知建图与导航 -> 感知建图与导航
+- RGB-D SLAM in Indoor Planar Environments With Multiple Large Dynamic Objects: 感知建图与导航 -> 感知建图与导航
+- Water Surface Walking and Gait Efficiency Analysis of Legged Locomotion Robot Equipped with Floats on Feet: 小脑与运动控制 -> 小脑与运动控制
+- Concurrent Training of a Control Policy and a State Estimator for Dynamic and Robust Legged Locomotion: 小脑与运动控制 -> 小脑与运动控制
+- Machine learning for robot locomotion: Grounded simulation learning and adaptive planner parameter learning: 小脑与运动控制 -> 小脑与运动控制
 
 ## 分类冲突（前80条）
 
-- aghasalim/electroclimb | 规则：硬件与防爆 | 模型：硬件与防爆 | 理由：设计电吸附足攀爬腿式机器人，但仅MuJoCo仿真且含RL、检测与RAG多模块 | https://github.com/aghasalim/electroclimb
-- A ROS2 based Human-In-The-Loop Framework for UAV Search and Rescue Operations | 规则：特种应用与产品 | 模型：特种应用与产品 | 理由：提出基于ROS2的人机回环框架，将手势转为UAV导航指令，用于搜救。 | https://arxiv.org/abs/2611.29507
-- Environment-Aware Probabilistic State Estimation of Continuum Robots from Planar Imaging | 规则：感知建图与导航 | 模型：感知建图与导航 | 理由：利用有符号距离场表示已知环境，从非同步平面图像估计连续机器人全身状态并融合标记信息 | https://arxiv.org/abs/2611.28521
-- Feedback Completion Certificates for Repeated Dwell Tasks with Time Windows | 规则：感知建图与导航 | 模型：感知建图与导航 | 理由：提出带时间窗的反复驻留任务反馈控制器状态表示与策略恢复方法。 | https://arxiv.org/abs/2611.29525
-- Object Count Generalization Is an Interface Problem: Warping a Frozen Skill Instead of Retraining It | 规则：大脑与具身智能 | 模型：大脑与具身智能 | 理由：该研究提出冻结技能动作几何变形用于多对象操作策略迁移 | https://arxiv.org/abs/2611.30765
-- TacHOI: Contact-Aware Object Reconstruction and Tracking for Egocentric Videos | 规则：感知建图与导航 | 模型：感知建图与导航 | 理由：提出接触感知的单目立体物体重建与跟踪框架，实现手物联动三维几何恢复 | https://arxiv.org/abs/2611.26764
-- Coherent Moment Propagation: Epistemic Uncertainty for Pre-trained Robot Policies | 规则：大脑与具身智能 | 模型：大脑与具身智能 | 理由：提出流匹配策略的不确定性传播方法，实现欧氏解码全过程的不确定性估计 | https://arxiv.org/abs/2611.26855
-- HumanoidPose: Monocular 3D Pose Estimation for Humanoid Robots | 规则：感知建图与导航 | 模型：感知建图与导航 | 理由：提出基于单目视觉的全身人形机器人三维姿态估计方法及专门基准 | https://arxiv.org/abs/2611.27181
-- Recent advances in multi-agent human trajectory prediction: A comprehensive review | 规则：基础软件与系统 | 模型：基础软件与系统 | 理由：仅为综述，未提出新方法或系统，缺乏具体创新输出 | https://doi.org/10.1177/02783649261505482
-- HINT-WAM: Hindsight-Informed Training for World Action Models | 规则：大脑与具身智能 | 模型：大脑与具身智能 | 理由：提出基于事后信息的世界动作模型训练新方法 | https://arxiv.org/abs/2611.24789
+- An XR-Based System for Enhanced Spatial Awareness in Mobile Robot Teleoperation | 规则：基础软件与系统 | 模型：基础软件与系统 | 理由：提出双相机与激光占用栅格可视化的扩展现实遥操作系统 | https://arxiv.org/abs/2611.32584
+- ObsBridge: Observation-Grounded Conditioning for Ego Trajectory Prediction | 规则：感知建图与导航 | 模型：感知建图与导航 | 理由：ObsBridge融合恢复历史与原始观测，预测自车视角行人轨迹，辅助机器人导航。 | https://arxiv.org/abs/2611.32447
+- Technical Co-Founder (ROS 2 / PX4 / Swarm Autonomy) — Validated Defense-Tech Pipeline | 规则：大脑与具身智能 | 模型：大脑与具身智能 | 理由：提出去中心化无人机C2层架构含局部共识选举自治 | https://discourse.openrobotics.org/t/technical-co-founder-ros-2-px4-swarm-autonomy-validated-defense-tech-pipeline/60235
+- Ramp Autonomy: a ROS 2 / Gazebo stack for ramp ascent and descent on a loaded AMR | 规则：感知建图与导航 | 模型：感知建图与导航 | 理由：开源坡道自动驾驶控制栈并适配重力与载荷安全 | https://discourse.openrobotics.org/t/ramp-autonomy-a-ros-2-gazebo-stack-for-ramp-ascent-and-descent-on-a-loaded-amr/60220
+- Ultracompressible Tactile Sensors for Tactile Paving Recognition and Human–Robot Interaction in Quadruped Robots | 规则：硬件与防爆 | 模型：硬件与防爆 | 理由：提出超压缩海绵触觉传感器并验证其在四足机器人集成性能 | https://doi.org/10.1002/adrr.70201
+- A survey of natural language interaction and environmental perception in intelligent robotics | 规则：大脑与具身智能 | 模型：大脑与具身智能 | 理由：仅为综述，未提出新算法或工具，仅评论现有研究，证据不足。 | https://doi.org/10.1007/s42452-026-09890-6
 - What Can a VLA Learn from the Agent That Calls It? Task-Level Experience Distillation for Embodied Navigation | 规则：大脑与具身智能 | 模型：感知建图与导航 | 理由：H2E以LLM规划师会话蒸馏冻结VLA，测试时仅用VLA执行具身导航 | https://arxiv.org/abs/2611.16246
 - xvcenh/wheel-leg | 规则：特种应用与产品 | 模型：基础软件与系统 | 理由：提供了从固件、CAN总线、ROS2到Web仪表盘的完整遥测软件栈。 | https://github.com/xvcenh/wheel-leg
 - DoF-Query Transformer for Adaptive Fusion of Egocentric Vision and Forearm HD-sEMG in Continuous Hand Kinematics | 规则：感知建图与导航 | 模型：大脑与具身智能 | 理由：提出基于ViT和EMG的DoF查询融合解码器，实现20个手关节角度的连续回归 | https://arxiv.org/abs/2611.20196
+- VLAN: Vision-Language Accessible Navigation | 规则：基础软件与系统 | 模型：基础软件与系统 | 理由：主要交付为含千场景与轨迹的可访问性导航基准数据集，属基础软件 | https://arxiv.org/abs/2611.18346
 - Hal1lZtrk/Firefighter-Spider-Robot | 规则：特种应用与产品 | 模型：小脑与运动控制 | 理由：六足消防仿真含卡尔曼滤波楼梯平衡控制并实现避障灭火 | https://github.com/Hal1lZtrk/Firefighter-Spider-Robot
 - Quadruped Agile Locomotion: Sparsely Gated Mixture of Experts with Visual Input | 规则：小脑与运动控制 | 模型：大脑与具身智能 | 理由：提出稀疏门控混合专家视觉敏捷运动策略提升 | https://arxiv.org/abs/2604.19344
 - Q-OIL: Optimistic Exploration in Learning from Human Interventions | 规则：小脑与运动控制 | 模型：基础软件与系统 | 理由：基于人类干预进度模型的机器人学习基准测试，类别界定需谨慎 | https://arxiv.org/abs/2611.08576
 - GigaBrain-WBC-0.5: A Behavior World Model for Robust Humanoid Whole-Body Tracking with Environment Interaction | 规则：大脑与具身智能 | 模型：小脑与运动控制 | 理由：行为世界模型联合预测动作状态与行为分布，用于人形全身复杂地形跟踪控制。 | https://arxiv.org/abs/2608.18234
 - WayTrace: A Map-to-Language-to-Trace Hierarchy for Embodied Urban Navigation | 规则：感知建图与导航 | 模型：大脑与具身智能 | 理由：整合地图指令、语言理解与轨迹预测，实现城市环境中的语言指令导航与执行 | https://arxiv.org/abs/2611.05129
+- Environmental Perception and Sensing Systems for Intelligent Control: Multi-sensor Fusion and Closed-Loop Control Methods | 规则：小脑与运动控制 | 模型：小脑与运动控制 | 理由：综述多传感器融合与闭环控制方法，未提出新算法 | https://doi.org/10.54254/2755-2721/2026.38485
 - Semantically Adaptive Control Barrier Functions with Vision-Language Models for Real-Time Robot Navigation | 规则：感知建图与导航 | 模型：小脑与运动控制 | 理由：提出基于视觉语言模型语义自适应控制约束实时导航安全 | https://arxiv.org/abs/2603.21142
 - Keeping the Franka Emika Panda alive: a ROS 2 stack with a reliable position interface | 规则：基础软件与系统 | 模型：小脑与运动控制 | 理由：异步硬件接口解决位置控制抖动，属低层执行创新 | https://arxiv.org/abs/2608.19740
 - Information-Driven Collaborative Autonomy for Heterogeneous UAV/UGV Teams | 规则：感知建图与导航 | 模型：大脑与具身智能 | 理由：基于ergodic control和贝叶斯多伯努利近似的协同自主框架. | https://arxiv.org/abs/2610.39379
@@ -163,7 +141,7 @@
 - Autonomous Pallet Jack Project – An Ongoing Robotics Project | 规则：感知建图与导航 | 模型：特种应用与产品 | 理由：项目介绍为主，缺乏明确研究创新点，难以判断类别 | https://discourse.openrobotics.org/t/autonomous-pallet-jack-project-an-ongoing-robotics-project/59254
 - New course: Agentic Robotics with ROS 2, from AI agents to VLA models (code on GitHub) | 规则：大脑与具身智能 | 模型：基础软件与系统 | 理由：主要交付为可复用课程、代码、数据集与技能服务器工具，非新模型或智能体 | https://discourse.openrobotics.org/t/new-course-agentic-robotics-with-ros-2-from-ai-agents-to-vla-models-code-on-github/59239
 - VisGeo-PipeTrack: A Visual Geometric Servo Control Framework with MPC-RCAPID Control for UAV-Based Dynamic Pipes Tracking | 规则：小脑与运动控制 | 模型：感知建图与导航 | 理由：提出了利用视觉几何约束和MPC-RCAPID控制的UAV动态管道跟踪框架，实现管道运动下的精确跟踪 | https://arxiv.org/abs/2610.35342
-- FlowHOI: Flow-based Semantics-Grounded Generation of Hand-Object Interactions for Dexterous Robot Manipulation | 规则：小脑与运动控制 | 模型：小脑与运动控制 | 理由：两阶段流匹配框架生成语义接地手物交互序列 | https://arxiv.org/abs/2602.13444
+- FlowHOI: Flow-based Semantics-Grounded Generation of Hand-Object Interactions for Dexterous Robot Manipulation | 规则：小脑与运动控制 | 模型：大脑与具身智能 | 理由：提出FlowHOI框架，生成语义化手物交互序列，实现手物结构显式表示 | https://arxiv.org/abs/2602.13444
 - RetroNav: Scene-Grounded Retrospection and Retry for Self-Evolving Lifelong Navigation | 规则：感知建图与导航 | 模型：大脑与具身智能 | 理由：提出训练免自我进化导航记忆与失败反思机制 | https://arxiv.org/abs/2610.35172
 - October CWG Meeting - Deep Venture and ResQ ROV: From COTS to Capability | 规则：特种应用与产品 | 模型：硬件与防爆 | 理由：仅为会议通知，未明确提出新算法、硬件或软件交付物，证据不足。 | https://discourse.openrobotics.org/t/october-cwg-meeting-deep-venture-and-resq-rov-from-cots-to-capability/59056
 - Training in Deployment: Human-in-the-loop Online Post-Training for Robot Manipulation | 规则：小脑与运动控制 | 模型：大脑与具身智能 | 理由：具身基础模型在线人在回合后训练框架TIDE，通过证明条件监督学习实现适配 | https://arxiv.org/abs/2610.29264
@@ -173,16 +151,17 @@
 - System design of the Ultra Mobility Vehicle: A driving, balancing, and jumping bicycle robot | 规则：硬件与防爆 | 模型：小脑与运动控制 | 理由：通过模拟驱动优化设计空间链路，结合深度RL实现多样运动行为的零-shot转移 | https://doi.org/10.1126/scirobotics.aed3627
 - TRACE: Efficient Transfer Learning for Neural Whole-Body Control Across Humanoid Embodiments | 规则：小脑与运动控制 | 模型：大脑与具身智能 | 理由：利用编码器蒸馏与低秩强化学习实现预训练运动模型的跨具身高效适应 | https://doi.org/10.48550/arxiv.2610.17999
 - JitterVLA: A Replay Benchmark for Motion Quality in VLA-Driven Human-Robot Manipulation | 规则：基础软件与系统 | 模型：小脑与运动控制 | 理由：提出VLA人机操作运动质量重放基准，评估并改进轨迹平滑与低层执行控制方法。 | https://arxiv.org/abs/2610.13628
-- Innovative Development of a Circleg Robot With Multi-Modal Locomotion and Autonomous Fall Recovery | 规则：硬件与防爆 | 模型：硬件与防爆 | 理由：设计了新型轮腿混合机器人Circleg，包含偏心髋部电机与轮式足硬件结构。 | https://doi.org/10.1109/lra.2026.3741794
 - Acting from Belief, Looking When Needed: A Bayesian Spatial World Model for Navigation under Intermittent Perception | 规则：感知建图与导航 | 模型：大脑与具身智能 | 理由：提出贝叶斯空间世界模型，实现间歇感知下的导航推理与信念更新 | https://doi.org/10.48550/arxiv.2610.11591
-- Deep Reinforcement Learning for Autonomous Robotic Systems: A Review of Adaptive Navigation, Motion Planning, And Real-Time Control | 规则：感知建图与导航 | 模型：感知建图与导航 | 理由：仅系统综述机器人领域的，未提出新方法或输出 | https://doi.org/10.55640/ijidml-v03i09-04
+- Deep Reinforcement Learning for Autonomous Robotic Systems: A Review of Adaptive Navigation, Motion Planning, And Real-Time Control | 规则：感知建图与导航 | 模型：大脑与具身智能 | 理由：综述DRL在自主机器人导航、运动规划等方面的方法，未提出具体新方法 | https://doi.org/10.55640/ijidml-v03i09-04
 - RegenHarness: A Robot Agent Harness with Evidence-Gated Recursive Self-Improvement | 规则：大脑与具身智能 | 模型：基础软件与系统 | 理由：提出证据门控递归自我改进的机器人代理框架，实现任务规划到技能执行的闭环 | http://arxiv.org/abs/2609.27612v1
 - MimicAgent: Quadruped Skills via Prompt-to-Trajectory Generation | 规则：小脑与运动控制 | 模型：大脑与具身智能 | 理由：提示到轨迹生成框架实现四足机器人动态技能学习。 | https://doi.org/10.48550/arxiv.2609.24145
 - Vision‐Language‐Action Models for Embodied Artificial Intelligence: A Comprehensive Survey | 规则：大脑与具身智能 | 模型：基础软件与系统 | 理由：论文核心贡献为VLA模型综述，属文献综述而非技术创新 | https://doi.org/10.1002/rob.70340
 - Efficient Ripeness Monitoring in Open-Facility Environments Using a Quadruped Robot and Panoramic AI Recognition | 规则：感知建图与导航 | 模型：特种应用与产品 | 理由：交付自主巡检型轮腿四足番茄成熟度监测系统，并完成商业温室部署验证 | https://doi.org/10.20944/preprints202608.0999.v1
 - Vision-Language-Action and Vision Language Models for Robot Manipulation: A Comprehensive Review Towards Real-World Applications | 规则：大脑与具身智能 | 模型：基础软件与系统 | 理由：综述论文仅提供分类分析，无新模型或系统交付 | https://doi.org/10.20944/preprints202606.0400.v1
+- Motion trajectory prediction of quadruped robots in complex terrain by improving the transformer temporal modeling algorithm | 规则：大脑与具身智能 | 模型：大脑与具身智能 | 理由：提出改进时序Transformer模型提升四足复杂地形预测 | https://doi.org/10.1038/s41598-026-47342-8
+- Not What You Asked For: Typographic Attacks in Household Robot Manipulation | 规则：大脑与具身智能 | 模型：大脑与具身智能 | 理由：评估家庭机器人操作中文字攻击对视觉语言模型的脆弱性并提出解耦感知架构 | https://doi.org/10.48550/arxiv.2605.18593
 - Deep Reinforcement Learning for Mobile Robot Navigation in Indoor Environments | 规则：感知建图与导航 | 模型：小脑与运动控制 | 理由：深度强化学习用于室内移动机器人导航，提出了深度强化学习方法实现室内环境下的自主导航决策 | https://doi.org/10.1109/raiie70320.2026.11566902
-- A Comprehensive Study on UGV’s with Future Applications in Space and Agriculture | 规则：基础软件与系统 | 模型：基础软件与系统 | 理由：仅为综述，未提出新技术或系统，缺乏明确创新贡献 | https://doi.org/10.55041/ijsrem62474
+- An Adaptive Mobility Architecture for Uneven Surface Navigation Using Rocker–Bogie Kinematic Structuring | 规则：硬件与防爆 | 模型：硬件与防爆 | 理由：提出自适应摇摆步进结构的移动平台提升不平坦地形适应性与稳定性属硬件架构创新 | https://doi.org/10.64751/ajmimc.2026.v5.n2(1).pp86-94
 - Dynamic Legged Ball Manipulation on Rugged Terrains With Hierarchical Reinforcement Learning | 规则：小脑与运动控制 | 模型：大脑与具身智能 | 理由：提出分层强化学习框架并优化高低层技能切换 | https://doi.org/10.1109/lra.2026.3682979
 - Collision Prediction and Social-Norm-Fusion-Based Social-Navigation Method for Quadruped Robots | 规则：感知建图与导航 | 模型：大脑与具身智能 | 理由：论文提出基于碰撞预测和社会规范的社会导航模型，属于具身智能领域的任务推理贡献 | https://doi.org/10.3390/biomimetics11040228
 - A Review of Fire-Fighting Robots | 规则：感知建图与导航 | 模型：特种应用与产品 | 理由：综述论文没有新算法也没有系统硬件交付物 | https://doi.org/10.56726/irjmets90479
@@ -192,28 +171,29 @@
 - SmoothTurn: Learning to Turn Smoothly for Agile Navigation with Quadrupedal Robots | 规则：感知建图与导航 | 模型：小脑与运动控制 | 理由：提出平滑转向学习框架，实现四足机器人敏捷导航中的连续目标切换和动量保持 | https://doi.org/10.48550/arxiv.2603.12842
 - Language-Guided Grasping under Partial Observation for Mobile Manipulation in Field Inspection and Maintenance | 规则：小脑与运动控制 | 模型：大脑与具身智能 | 理由：提出部分观测下语言引导机械臂完整抓取流程 | https://doi.org/10.48550/arxiv.2603.07866
 - Leveraging Edge Impulse for Multi-Class Error-Related Potentials: Edge AI Brain-Robot Interface for Correcting Navigation Errors in Assistive Mobile Robot Wheelchairs | 规则：感知建图与导航 | 模型：大脑与具身智能 | 理由：提出基于边缘AI的多类错误电位脑机接口，用于校正助行轮椅的导航错误 | https://doi.org/10.1109/icara69401.2026.11480283
-- Zili Patrol Robot: A Human–Robot Collaborative Inspection System for Sub-Canopy Orchards | 规则：大脑与具身智能 | 模型：大脑与具身智能 | 理由：提出四足机器人感知延伸系统，实现多模态感知与智能协同，具备创新的智能架构 | https://doi.org/10.54941/ahfe1008260
 - Prototypes of intelligent robots for first aid in natural disasters: A bibliometric analysis | 规则：特种应用与产品 | 模型：基础软件与系统 | 理由：本文为灾难机器人研究的文献综述，未提出新算法或系统 | https://doi.org/10.31893/multirev.2026304
-- Design and Implementation of a Servo-Actuated Quadruped Robot with Optimized Locomotion Control | 规则：硬件与防爆 | 模型：硬件与防爆 | 理由：设计并实现伺服驱动四足机器人，侧重于物理结构、驱动器与机构优化设计。 | https://doi.org/10.1109/iccca66364.2025.11325488
 - Comparative analysis of localization methods for autonomous mobile robots using Robot Operating System 2 | 规则：感知建图与导航 | 模型：小脑与运动控制 | 理由：本文对现有定位方法进行了比较分析但未提出新架构或方法，属于算法评估而非核心贡献 | https://doi.org/10.21439/jme.v8i.122
 - The Smallest Impulse-based Firefighting Drone for Rapid Response: Making every second count! | 规则：特种应用与产品 | 模型：硬件与防爆 | 理由：题名指向超小型脉冲消防无人机设计，但摘要未说明结构创新 | https://doi.org/10.1109/ssrr68451.2025.11391279
 - SDA-LLM: Spatial DisAmbiguation via Multi-turn Vision-Language Dialogues for Robot Navigation | 规则：感知建图与导航 | 模型：大脑与具身智能 | 理由：提出多轮VLM空间消歧对话提升导航理解能力 | https://doi.org/10.1109/iros60139.2025.11246115
 - Uncertainty-Aware Autonomous Robotic Inspection Based on Active Vision and Deep Reinforcement Learning | 规则：小脑与运动控制 | 模型：感知建图与导航 | 理由：提出不确定性引导动态视角选择并融合多时刻预测，属视觉感知方法。 | https://doi.org/10.12783/shm2025/37531
-- Integrating large language models for intuitive robot navigation | 规则：感知建图与导航 | 模型：感知建图与导航 | 理由：利用大语言模型实现家庭环境自然语言导航改进 | https://doi.org/10.3389/frobt.2025.1627937
+- Integrating large language models for intuitive robot navigation | 规则：感知建图与导航 | 模型：大脑与具身智能 | 理由：提出基于大语言模型的智能体框架，包含路径规划与推理模块，侧重于任务决策。 | https://doi.org/10.3389/frobt.2025.1627937
 - Multi-layer robotic controller for enhancing the safety of mobile robot navigation in human-centered indoor environments | 规则：感知建图与导航 | 模型：小脑与运动控制 | 理由：提出多层次导航系统，室内机器人安全导航核心贡献，属于动作-政策学习。 | https://doi.org/10.3389/frobt.2025.1629931
 - Development and Testing of an Autonomous Mobile Robot for Material Handling Using SLAM and Nav2 | 规则：感知建图与导航 | 模型：特种应用与产品 | 理由：开发集成SLAM和Nav2的物料搬运自主移动机器人系统并进行测试验证 | https://doi.org/10.30880/jamea.2025.06.01.003
-- Design of Mechanics and Locomotion System For Box Culverts Inspection Robot | 规则：小脑与运动控制 | 模型：小脑与运动控制 | 理由：设计箱涵检测机械与步态控制系统并优化性能 | https://doi.org/10.33022/ijcs.v14i3.4907
+- Design of Mechanics and Locomotion System For Box Culverts Inspection Robot | 规则：小脑与运动控制 | 模型：硬件与防爆 | 理由：设计箱涵检查机器人的机械与移动机构，并完成控制调参 | https://doi.org/10.33022/ijcs.v14i3.4907
 - Smart Wireless Power Transfer: A Review of Integrating AI and Sensing for Next-Generation Robotic and IoT Systems | 规则：特种应用与产品 | 模型：硬件与防爆 | 理由：论文综述融合AI与传感的智能无线充电系统，核心在于线圈结构设计与硬件能量传输优化。 | https://doi.org/10.20944/preprints202506.2021.v1
 - NaVILA: Legged Robot Vision-Language-Action Model for Navigation | 规则：大脑与具身智能 | 模型：感知建图与导航 | 理由：仅有标题和会议来源，缺少摘要，无法判断是新模型架构还是导航应用。 | https://doi.org/10.15607/rss.2025.xxi.018
-- Improving Sensor Adaptability and Functionality in Cartographer Simultaneous Localization and Mapping | 规则：感知建图与导航 | 模型：感知建图与导航 | 理由：集成多传感器预处理与实时三维建图增强SLAM | https://doi.org/10.3390/s25061808
+- Improving Sensor Adaptability and Functionality in Cartographer Simultaneous Localization and Mapping | 规则：感知建图与导航 | 模型：基础软件与系统 | 理由：提出了一个扩展Cartographer的传感器自适应SLAM框架，实现多节点与实时3D地形映射. | https://doi.org/10.3390/s25061808
+- Control and monocular visual SLAM of nonholonomic mobile robots | 规则：感知建图与导航 | 模型：感知建图与导航 | 理由：标题同时包含运动控制与单目视觉SLAM，主贡献无法确定 | https://doi.org/10.1016/j.ejcon.2024.101171
 - M2CS: A Multimodal and Campus‐Scapes Dataset for Dynamic SLAM and Moving Object Perception | 规则：基础软件与系统 | 模型：感知建图与导航 | 理由：该论文提出M2CS多模态数据集，包含动态SLAM与移动物体感知，属于感知建图与导航创新。 | https://doi.org/10.1002/rob.22468
 - Automated system of scaffold point cloud data acquisition using a robot dog | 规则：特种应用与产品 | 模型：基础软件与系统 | 理由：系统实现自动化点云获取，属于软件工具交付，证据充分 | https://doi.org/10.1016/j.autcon.2024.105944
+- Multi-Modal Compliant Quadruped Robot Based on CPG Control Network | 规则：硬件与防爆 | 模型：硬件与防爆 | 理由：主要创新为腿鳍一体化推进机构及软材料一体成型设计 | https://doi.org/10.3390/electronics13245015
+- Latissimus-dorsi-inspired wire mechanism for improving energy efficiency of quadruped robot locomotion | 规则：硬件与防爆 | 模型：硬件与防爆 | 理由：仿生线缆机构将脊柱屈伸转为前肢推进，实验证实提升locomotion能效。 | https://doi.org/10.1080/01691864.2024.2441261
 - Review of Self-Learning Systems Based on End-to-End Deep Learning in Bionic Robots | 规则：小脑与运动控制 | 模型：大脑与具身智能 | 理由：综述自学系统在仿生机器人中的应用，未提出新方法，仅回顾现有工作 | https://doi.org/10.54254/2755-2721/97/20241337
 - Integration of Various ROS Packages for Autonomous Navigation and Mapping of Mobile Robot | 规则：感知建图与导航 | 模型：基础软件与系统 | 理由：主要交付为ROS包集成导航建图系统，非新算法 | https://doi.org/10.1109/tensymp61132.2024.10752146
+- ASSESSMENT OF MOBILE ROBOT LOAD-CARRYING POTENTIAL VIA DC GEARBOX MOTOR TORQUE | 规则：小脑与运动控制 | 模型：小脑与运动控制 | 理由：评估移动机器人负载承载通过直流减速器电机扭矩 | https://doi.org/10.59581/metal.v2i1.93
 - A low-cost robotic system for simultaneous localization and mapping | 规则：感知建图与导航 | 模型：特种应用与产品 | 理由：设计制造低成本移动机器人平台，集成Kinect和树莓派实现室内SLAM | https://doi.org/10.1186/s44147-024-00486-8
+- Robust Prescribed-Time Predictive Control for Mobile Robot Navigation | 规则：小脑与运动控制 | 模型：小脑与运动控制 | 理由：提出移动机器人导航的鲁棒限时预测控制方法，属于轨迹跟踪与低层运动控制范畴 | https://doi.org/10.1109/med61351.2024.10566250
 - Recent advances in Rapidly-exploring random tree: A review | 规则：感知建图与导航 | 模型：大脑与具身智能 | 理由：对快速探索随机树(RRT)算法进行系统性综述，涵盖理论改进与应用场景 | https://doi.org/10.1016/j.heliyon.2024.e32451
 - Color-Based Image Processing for Autonomous Human Following Trolley Robot Navigation with Camera Vision | 规则：感知建图与导航 | 模型：特种应用与产品 | 理由：描述一种基于颜色识别的自主跟随人推车机器人系统，具备完整集成的应用成果 | https://doi.org/10.36596/jcse.v5i1.727
-- Inspection Robot Navigation Based on Improved TD3 Algorithm | 规则：小脑与运动控制 | 模型：小脑与运动控制 | 理由：提出改进的两延时深度确定性政策梯度算法，提升检查机器人本地导航的RL训练效率 | https://doi.org/10.3390/s24082525
 - Research on the Intelligent System Architecture and Control Strategy of Mining Robot Crowds | 规则：小脑与运动控制 | 模型：感知建图与导航 | 理由：元数据仅描述智能系统架构和控制策略，未明确具体感知或导航输出，需审查 | https://doi.org/10.3390/en17081834
-- Advanced Pipeline Inspection Robot Development Utilizing Non-Destructive Evaluation and Simulated with Verilog | 规则：特种应用与产品 | 模型：硬件与防爆 | 理由：管道检查机器人设计创新，结合非破坏性评估实现硬件实现 | https://doi.org/10.2139/ssrn.4894242
-- Application Research of Substation Power Inspection Robot Based on Image Recognition Technology | 规则：感知建图与导航 | 模型：感知建图与导航 | 理由：该研究仅提出应用验证未明确算法技术系统创新 | https://doi.org/10.5220/0012866500004547
+- Another Mechanism for Gait Generation: Mechanical Stabilization Can Spontaneously Realize Walking in a Two-Legged Robot | 规则：硬件与防爆 | 模型：硬件与防爆 | 理由：提出带差分齿轮的一输入两输出双足机器人，通过机械等效地面反力实现自发步态。 | https://doi.org/10.21203/rs.3.rs-3874878/v1
