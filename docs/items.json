@@ -1,113 +1,12 @@
 [
   {
-    "id": "0d6c65ca1222dca4b0",
-    "title": "hu-zlatan/embodied-ai-radar",
-    "url": "https://github.com/hu-zlatan/embodied-ai-radar",
-    "source": "GitHub",
-    "type": "代码仓库更新",
-    "description": "Bilingual (EN/中文), daily-updated map of embodied AI & robot learning: verified papers, code, datasets, simulators, hardware + every new arXiv robotics paper. 具身智能雷达",
-    "published": "2026-11-27T09:37:35Z",
-    "first_seen": "2026-10-20T00:54:47.724095+00:00",
-    "stars": 13,
-    "license": true,
-    "repo_id": 1425223489,
-    "relevance_status": "可迁移的机器人关键技术",
-    "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
-    "rule_category": "大脑与具身智能",
-    "rule_confidence": "low",
-    "category": "基础软件与系统",
-    "classification_confidence": "人工核查",
-    "classification_reason": "GitHub项目描述为具身智能论文与开源代码资料的双语自动更新雷达，交付物为信息整理网站，不是具身Agent。",
-    "needs_review": false,
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "tags": [
-      "基础软件与系统"
-    ],
-    "industry_tags": [],
-    "scope": "可迁移的机器人关键技术",
-    "score": 63,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。Bilingual (EN/中文), daily-updated map of embodied AI & robot learning: verified papers, code, datasets, simulators, hardware + every new（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "manual_category_override": true,
-    "manual_override_reason": "GitHub项目描述为具身智能论文与开源代码资料的双语自动更新雷达，交付物为信息整理网站，不是具身Agent。",
-    "model_applied": false,
-    "classification_history": [
-      {
-        "old_category": "大脑与具身智能",
-        "new_category": "基础软件与系统",
-        "status": "manual_correction",
-        "reason": "GitHub项目描述为具身智能论文与开源代码资料的双语自动更新雷达，交付物为信息整理网站，不是具身Agent。",
-        "changed_at": "2026-10-20"
-      }
-    ]
-  },
-  {
-    "id": "517e955a6b0dac05ea",
-    "title": "wei-hsuan-cheng/legged_robot_teleop",
-    "url": "https://github.com/wei-hsuan-cheng/legged_robot_teleop",
-    "source": "GitHub",
-    "type": "代码仓库更新",
-    "description": "ROS 2 gamepad base velocity and height commands for legged robot MPC",
-    "published": "2026-11-27T09:25:33Z",
-    "first_seen": "2026-11-27T09:40:28.762115+00:00",
-    "stars": 0,
-    "license": true,
-    "repo_id": 1465318650,
-    "relevance_status": "可迁移的机器人关键技术",
-    "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
-    "rule_category": "小脑与运动控制",
-    "rule_confidence": "low",
-    "category": "基础软件与系统",
-    "classification_confidence": "模型建议（待复核）",
-    "classification_reason": "仅遥操作接口，未体现新控制算法或系统级贡献",
-    "needs_review": true,
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "tags": [
-      "基础软件与系统",
-      "小脑与运动控制"
-    ],
-    "industry_tags": [],
-    "scope": "可迁移的机器人关键技术",
-    "score": 69,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。ROS 2 gamepad base velocity and height commands for legged robot MPC（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P0",
-    "model_review_attempts": 1,
-    "manual_review_required": false,
-    "model_applied": false,
-    "model_reviewed_uncertain": true,
-    "model_suggested_category": "基础软件与系统",
-    "model_main_contribution": "ROS2手柄遥操作节点，向腿足机器人MPC发送速度与高度指令",
-    "model_contribution_conflict": "",
-    "model_classification_reason": "仅遥操作接口，未体现新控制算法或系统级贡献",
-    "model_reviewed_at": "2026-11-27T10:13:49.859093+00:00",
-    "model_previous_confidence": "待复核",
-    "classification_history": [
-      {
-        "id": "517e955a6b0dac05ea",
-        "title": "wei-hsuan-cheng/legged_robot_teleop",
-        "old_category": "小脑与运动控制",
-        "new_category": "基础软件与系统",
-        "model_suggested_category": "基础软件与系统",
-        "reason": "仅遥操作接口，未体现新控制算法或系统级贡献",
-        "changed_at": "2026-11-27T10:13:49.859093+00:00",
-        "needs_review": true,
-        "status": "model_pending_review"
-      }
-    ]
-  },
-  {
     "id": "6b6b9ed27e6eed1c21",
     "title": "wei-hsuan-cheng/legged_robot_mpc_controller",
     "url": "https://github.com/wei-hsuan-cheng/legged_robot_mpc_controller",
     "source": "GitHub",
     "type": "代码仓库更新",
     "description": "Loco-manipulation of legged robot using MPC, integrated with mujoco sim and ros2 control",
-    "published": "2026-11-27T09:25:30Z",
+    "published": "2026-11-28T08:31:46Z",
     "first_seen": "2026-11-20T08:31:48.764148+00:00",
     "stars": 4,
     "license": false,
@@ -152,6 +51,461 @@
     "model_review_attempts": 1,
     "model_main_contribution": "模型预测控制的腿足机器人 loco-manipation 轨迹控制器",
     "model_contribution_conflict": ""
+  },
+  {
+    "id": "517e955a6b0dac05ea",
+    "title": "wei-hsuan-cheng/legged_robot_teleop",
+    "url": "https://github.com/wei-hsuan-cheng/legged_robot_teleop",
+    "source": "GitHub",
+    "type": "代码仓库更新",
+    "description": "ROS 2 gamepad base velocity and height commands for legged robot MPC",
+    "published": "2026-11-28T08:31:45Z",
+    "first_seen": "2026-11-27T09:40:28.762115+00:00",
+    "stars": 0,
+    "license": true,
+    "repo_id": 1465318650,
+    "relevance_status": "可迁移的机器人关键技术",
+    "rule_contribution_type": "undetermined",
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "rule_category": "小脑与运动控制",
+    "rule_confidence": "low",
+    "category": "基础软件与系统",
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "仅遥操作接口，未体现新控制算法或系统级贡献",
+    "needs_review": true,
+    "crosscheck_conflicts": [],
+    "crosscheck_pending": false,
+    "tags": [
+      "基础软件与系统",
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 69,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。ROS 2 gamepad base velocity and height commands for legged robot MPC（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
+    "model_reviewed_uncertain": true,
+    "model_review_attempts": 1,
+    "model_reviewed_at": "2026-11-27T10:13:49.859093+00:00",
+    "manual_review_required": false,
+    "model_main_contribution": "ROS2手柄遥操作节点，向腿足机器人MPC发送速度与高度指令",
+    "model_contribution_conflict": "",
+    "model_applied": false,
+    "model_classification_reason": "仅遥操作接口，未体现新控制算法或系统级贡献",
+    "model_suggested_category": "基础软件与系统",
+    "classification_history": [
+      {
+        "id": "517e955a6b0dac05ea",
+        "title": "wei-hsuan-cheng/legged_robot_teleop",
+        "old_category": "小脑与运动控制",
+        "new_category": "基础软件与系统",
+        "model_suggested_category": "基础软件与系统",
+        "reason": "仅遥操作接口，未体现新控制算法或系统级贡献",
+        "changed_at": "2026-11-27T10:13:49.859093+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
+  },
+  {
+    "id": "a24b8f4299b9a102fe",
+    "title": "Arman10121995/Celisca-ROS-2-Robot",
+    "url": "https://github.com/Arman10121995/Celisca-ROS-2-Robot",
+    "source": "GitHub",
+    "type": "代码仓库更新",
+    "description": "ROS 2 development for laboratory mobile robots at CELISCA, University of Rostock",
+    "published": "2026-11-28T08:21:48Z",
+    "first_seen": "2026-10-12T09:52:33.489712+00:00",
+    "stars": 0,
+    "license": true,
+    "repo_id": 1278949137,
+    "relevance_status": "可迁移的机器人关键技术",
+    "rule_contribution_type": "undetermined",
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "rule_category": "基础软件与系统",
+    "rule_confidence": "low",
+    "category": "基础软件与系统",
+    "classification_confidence": "人工核查",
+    "classification_reason": "GitHub项目说明为实验室移动机器人ROS2开发代码，交付物是机器人软件资源。",
+    "needs_review": false,
+    "crosscheck_conflicts": [],
+    "crosscheck_pending": false,
+    "tags": [
+      "基础软件与系统"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。ROS 2 development for laboratory mobile robots at CELISCA, University of Rostock（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
+    "manual_category_override": true,
+    "manual_override_reason": "GitHub项目说明为实验室移动机器人ROS2开发代码，交付物是机器人软件资源。",
+    "model_applied": false
+  },
+  {
+    "id": "55dcb3f6a53af63af5",
+    "title": "LYHrmer/ddt-d1-rl-lab",
+    "url": "https://github.com/LYHrmer/ddt-d1-rl-lab",
+    "source": "GitHub",
+    "type": "代码仓库更新",
+    "description": "D1 wheel-legged locomotion in simulation. A 50 Hz whole-body policy sends 12 leg-angle and 4 wheel-speed targets to 250 Hz servos. Moving from perceptive PPO toward SuperMimic-style model-based RL. We test wheel-ground response before using model gradients for policy updates. C++/ONNX Runtime matches Python on 72 flat-ground traces.",
+    "published": "2026-11-28T08:17:04Z",
+    "first_seen": "2026-11-24T10:54:49.092743+00:00",
+    "stars": 0,
+    "license": true,
+    "repo_id": 1411121500,
+    "relevance_status": "可迁移的机器人关键技术",
+    "rule_contribution_type": "undetermined",
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "rule_category": "小脑与运动控制",
+    "rule_confidence": "low",
+    "category": "小脑与运动控制",
+    "classification_confidence": "模型复核（待抽查）",
+    "classification_reason": "提出轮腿机器人全身运动策略，用模型梯度更新RL策略并部署ONNX",
+    "needs_review": false,
+    "crosscheck_conflicts": [],
+    "crosscheck_pending": false,
+    "tags": [
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 68,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。D1 wheel-legged locomotion in simulation. A 50 Hz whole-body policy sends 12 leg-angle and 4 wheel-speed targets to 250 Hz servos. Movi（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
+    "model_applied": true,
+    "model_suggested_category": "小脑与运动控制",
+    "model_classification_reason": "提出轮腿机器人全身运动策略，用模型梯度更新RL策略并部署ONNX",
+    "model_reviewed_at": "2026-11-24T11:37:59.816308+00:00",
+    "classification_history": [
+      {
+        "id": "55dcb3f6a53af63af5",
+        "title": "LYHrmer/ddt-d1-rl-lab",
+        "old_category": "小脑与运动控制",
+        "new_category": "小脑与运动控制",
+        "model_suggested_category": "小脑与运动控制",
+        "reason": "提出轮腿机器人全身运动策略，用模型梯度更新RL策略并部署ONNX",
+        "changed_at": "2026-11-24T11:37:59.816308+00:00",
+        "needs_review": false,
+        "status": "model_applied"
+      }
+    ],
+    "model_previous_confidence": "待复核",
+    "model_review_attempts": 1,
+    "model_main_contribution": "轮腿机器人全身运动策略与模型梯度RL更新及ONNX部署",
+    "model_contribution_conflict": ""
+  },
+  {
+    "id": "69e61c4529817d0edd",
+    "title": "rsasaki0109/RobotNativeEngine",
+    "url": "https://github.com/rsasaki0109/RobotNativeEngine",
+    "source": "GitHub",
+    "type": "代码仓库更新",
+    "description": "Robot Native Engine — robot-native Rust simulation core with physics, sensors, Python bindings, and optional ROS 2 adapters.",
+    "published": "2026-11-28T08:15:53Z",
+    "first_seen": "2026-10-12T08:43:22.319760+00:00",
+    "stars": 32,
+    "license": true,
+    "repo_id": 1267277820,
+    "relevance_status": "可迁移的机器人关键技术",
+    "rule_contribution_type": "undetermined",
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "rule_category": "特种应用与产品",
+    "rule_confidence": "low",
+    "category": "基础软件与系统",
+    "classification_confidence": "模型复核（待抽查）",
+    "classification_reason": "机器人原生仿真核心含物理传感器与机器人中间件适配，属基础软件系统。",
+    "needs_review": false,
+    "crosscheck_conflicts": [],
+    "crosscheck_pending": false,
+    "tags": [
+      "基础软件与系统",
+      "特种应用与产品"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：特种应用与产品；关联：特种机器人共性技术（需核验应用适配性）。Robot Native Engine — robot-native Rust simulation core with physics, sensors, Python bindings, and optional ROS 2 adapters.（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
+    "model_applied": true,
+    "model_classification_reason": "机器人原生仿真核心含物理传感器与机器人中间件适配，属基础软件系统。",
+    "model_reviewed_at": "2026-10-20T02:18:21.790599+00:00",
+    "classification_history": [
+      {
+        "id": "69e61c4529817d0edd",
+        "title": "rsasaki0109/RobotNativeEngine",
+        "old_category": "特种应用与产品",
+        "new_category": "基础软件与系统",
+        "reason": "机器人原生仿真核心含物理传感器与机器人中间件适配，属基础软件系统。",
+        "changed_at": "2026-10-20T02:18:21.790599+00:00",
+        "needs_review": false,
+        "status": "model_applied"
+      }
+    ],
+    "model_previous_confidence": "待复核"
+  },
+  {
+    "id": "41a49f48cd389e7221",
+    "title": "darshmenon/quadruped-robotics-stack",
+    "url": "https://github.com/darshmenon/quadruped-robotics-stack",
+    "source": "GitHub",
+    "type": "代码仓库更新",
+    "description": "Unitree Go2 quadruped stack: PPO locomotion in MuJoCo and Gazebo Harmonic, ROS2 CHAMP and Quad-SDK NMPC walkers, stair climbing, 3D LiDAR SLAM and RKO-LIO odometry, multi-terrain worlds",
+    "published": "2026-11-28T08:13:46Z",
+    "first_seen": "2026-10-31T06:59:01.458242+00:00",
+    "stars": 35,
+    "license": false,
+    "repo_id": 1188537494,
+    "relevance_status": "可迁移的机器人关键技术",
+    "rule_contribution_type": "undetermined",
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "rule_category": "感知建图与导航",
+    "rule_confidence": "low",
+    "category": "基础软件与系统",
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "四足机器人软件栈，含RL运动学习、NMPC控制器与多地形仿真，主打软件工具集。",
+    "needs_review": true,
+    "crosscheck_conflicts": [],
+    "crosscheck_pending": false,
+    "tags": [
+      "基础软件与系统",
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 77,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。Unitree Go2 quadruped stack: PPO locomotion in MuJoCo and Gazebo Harmonic, ROS2 CHAMP and Quad-SDK NMPC walkers, stair climbing, 3D LiD（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
+    "model_reviewed_uncertain": true,
+    "model_review_attempts": 2,
+    "model_reviewed_at": "2026-11-06T08:38:09.082904+00:00",
+    "manual_review_required": true,
+    "model_main_contribution": "Unitree Go2四足机器人软件栈，含RL运动学习、NMPC步态控制器与多地形仿真",
+    "model_contribution_conflict": "",
+    "model_applied": false,
+    "model_classification_reason": "四足机器人软件栈，含RL运动学习、NMPC控制器与多地形仿真，主打软件工具集。",
+    "model_suggested_category": "基础软件与系统",
+    "classification_history": [
+      {
+        "id": "41a49f48cd389e7221",
+        "title": "darshmenon/quadruped-robotics-stack",
+        "old_category": "小脑与运动控制",
+        "new_category": "基础软件与系统",
+        "model_suggested_category": "基础软件与系统",
+        "reason": "整合ROS2与NMPC等工具，构建了Unitree Go2四足机器人的完整软件栈。",
+        "changed_at": "2026-11-01T08:33:35.286720+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      },
+      {
+        "id": "41a49f48cd389e7221",
+        "title": "darshmenon/quadruped-robotics-stack",
+        "old_category": "基础软件与系统",
+        "new_category": "基础软件与系统",
+        "model_suggested_category": "基础软件与系统",
+        "reason": "四足机器人软件栈，含RL运动学习、NMPC控制器与多地形仿真，主打软件工具集。",
+        "changed_at": "2026-11-06T08:38:09.082904+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
+  },
+  {
+    "id": "00204ffe01e0db3d25",
+    "title": "isaac-sim/IsaacLab",
+    "url": "https://github.com/isaac-sim/IsaacLab",
+    "source": "GitHub",
+    "type": "代码仓库更新",
+    "description": "Unified framework for robot learning with multi-physics/renderer support",
+    "published": "2026-11-28T08:12:22Z",
+    "first_seen": "2026-11-07T07:05:41.668969+00:00",
+    "stars": 8742,
+    "license": true,
+    "repo_id": 567038244,
+    "relevance_status": "可迁移的机器人关键技术",
+    "rule_contribution_type": "undetermined",
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "rule_category": "小脑与运动控制",
+    "rule_confidence": "low",
+    "category": "基础软件与系统",
+    "classification_confidence": "模型复核（待抽查）",
+    "classification_reason": "提供统一多物理渲染机器人学习仿真框架，属基础软件",
+    "needs_review": false,
+    "crosscheck_conflicts": [],
+    "crosscheck_pending": false,
+    "tags": [
+      "基础软件与系统",
+      "小脑与运动控制"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。Unified framework for robot learning with multi-physics/renderer support（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
+    "model_applied": true,
+    "model_suggested_category": "基础软件与系统",
+    "model_classification_reason": "提供统一多物理渲染机器人学习仿真框架，属基础软件",
+    "model_reviewed_at": "2026-11-11T08:33:22.712637+00:00",
+    "classification_history": [
+      {
+        "id": "00204ffe01e0db3d25",
+        "title": "isaac-sim/IsaacLab",
+        "old_category": "小脑与运动控制",
+        "new_category": "基础软件与系统",
+        "model_suggested_category": "基础软件与系统",
+        "reason": "该论文提出了支持多物理/渲染的统一机器人学习框架，提供了可重用的仿真基础设施平台支持",
+        "changed_at": "2026-11-07T07:36:41.906873+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      },
+      {
+        "id": "00204ffe01e0db3d25",
+        "title": "isaac-sim/IsaacLab",
+        "old_category": "基础软件与系统",
+        "new_category": "基础软件与系统",
+        "model_suggested_category": "基础软件与系统",
+        "reason": "提供统一多物理渲染机器人学习仿真框架，属基础软件",
+        "changed_at": "2026-11-11T08:33:22.712637+00:00",
+        "needs_review": false,
+        "status": "model_applied"
+      }
+    ],
+    "model_previous_confidence": "模型建议（待复核）",
+    "model_review_attempts": 2,
+    "model_main_contribution": "Isaac Sim/Isaac Lab统一多物理渲染机器人学习仿真框架",
+    "model_contribution_conflict": ""
+  },
+  {
+    "id": "1ced16b8ab7d7d035f",
+    "title": "RahulK27-pro/AMR",
+    "url": "https://github.com/RahulK27-pro/AMR",
+    "source": "GitHub",
+    "type": "代码仓库更新",
+    "description": "ROS 2 Jazzy-based Autonomous Mobile Robot (AMR) featuring edge-AI vision, topological navigation, and real-time obstacle avoidance in a high-fidelity digital twin.",
+    "published": "2026-11-28T06:51:45Z",
+    "first_seen": "2026-10-12T09:34:55.254677+00:00",
+    "stars": 1,
+    "license": false,
+    "repo_id": 1222493456,
+    "relevance_status": "可迁移的机器人关键技术",
+    "rule_contribution_type": "undetermined",
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "rule_category": "感知建图与导航",
+    "rule_confidence": "low",
+    "category": "感知建图与导航",
+    "classification_confidence": "人工核查",
+    "classification_reason": "依据资源标题及所提供摘要，主要技术成果涉及环境感知、定位建图与路径导航；摘要证据：ROS 2 Jazzy-based Autonomous Mobile Robot (AMR) featuring edge-AI vision, topological navigation, and real-time obs",
+    "needs_review": false,
+    "crosscheck_conflicts": [],
+    "crosscheck_pending": false,
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 71,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。ROS 2 Jazzy-based Autonomous Mobile Robot (AMR) featuring edge-AI vision, topological navigation, and real-time obstacle avoidance in a（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
+    "manual_category_override": true,
+    "manual_override_reason": "依据资源标题及所提供摘要，主要技术成果涉及环境感知、定位建图与路径导航；摘要证据：ROS 2 Jazzy-based Autonomous Mobile Robot (AMR) featuring edge-AI vision, topological navigation, and real-time obs",
+    "model_applied": false
+  },
+  {
+    "id": "878896455697b2d070",
+    "title": "ROS 2 software update deployment survey (open results)",
+    "url": "https://discourse.openrobotics.org/t/ros-2-software-update-deployment-survey-open-results/60320",
+    "source": "ROS Discourse",
+    "type": "社区动态",
+    "description": "After a good discussion about Snaps in another topic, I thought I should explore a bit further what the community uses for updating their robot software. I’ve created a super short survey to collect this information. Anyone who responds will be able to see the aggregated survey results. docs.google.com ROS2 software update deployment Aggregated responses will be shown once you submit your answers Please take a minute to respond. Thanks, Craig 1 post - 1 participant Read full topic",
+    "published": "2026-11-27T14:38:19+00:00",
+    "first_seen": "2026-11-28T08:55:09.510153+00:00",
+    "relevance_status": "可迁移的机器人关键技术",
+    "rule_contribution_type": "undetermined",
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "rule_category": "基础软件与系统",
+    "rule_confidence": "low",
+    "category": "基础软件与系统",
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "发布调查聚合机器人部署信息未提出新软件工具",
+    "needs_review": true,
+    "crosscheck_conflicts": [],
+    "crosscheck_pending": false,
+    "tags": [
+      "基础软件与系统"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 62,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。After a good discussion about Snaps in another topic, I thought I should explore a bit further what the community uses for updating the（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
+    "review_priority": "P0",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "基础软件与系统",
+    "model_main_contribution": "ROS2软件更新部署调查",
+    "model_contribution_conflict": "",
+    "model_classification_reason": "发布调查聚合机器人部署信息未提出新软件工具",
+    "model_reviewed_at": "2026-11-28T09:19:05.298060+00:00",
+    "model_previous_confidence": "待复核",
+    "classification_history": [
+      {
+        "id": "878896455697b2d070",
+        "title": "ROS 2 software update deployment survey (open results)",
+        "old_category": "基础软件与系统",
+        "new_category": "基础软件与系统",
+        "model_suggested_category": "基础软件与系统",
+        "reason": "发布调查聚合机器人部署信息未提出新软件工具",
+        "changed_at": "2026-11-28T09:19:05.298060+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
+  },
+  {
+    "id": "0d6c65ca1222dca4b0",
+    "title": "hu-zlatan/embodied-ai-radar",
+    "url": "https://github.com/hu-zlatan/embodied-ai-radar",
+    "source": "GitHub",
+    "type": "代码仓库更新",
+    "description": "Bilingual (EN/中文), daily-updated map of embodied AI & robot learning: verified papers, code, datasets, simulators, hardware + every new arXiv robotics paper. 具身智能雷达",
+    "published": "2026-11-27T09:37:35Z",
+    "first_seen": "2026-10-20T00:54:47.724095+00:00",
+    "stars": 13,
+    "license": true,
+    "repo_id": 1425223489,
+    "relevance_status": "可迁移的机器人关键技术",
+    "rule_contribution_type": "undetermined",
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "rule_category": "大脑与具身智能",
+    "rule_confidence": "low",
+    "category": "基础软件与系统",
+    "classification_confidence": "人工核查",
+    "classification_reason": "GitHub项目描述为具身智能论文与开源代码资料的双语自动更新雷达，交付物为信息整理网站，不是具身Agent。",
+    "needs_review": false,
+    "crosscheck_conflicts": [],
+    "crosscheck_pending": false,
+    "tags": [
+      "基础软件与系统"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 63,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。Bilingual (EN/中文), daily-updated map of embodied AI & robot learning: verified papers, code, datasets, simulators, hardware + every new（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
+    "manual_category_override": true,
+    "manual_override_reason": "GitHub项目描述为具身智能论文与开源代码资料的双语自动更新雷达，交付物为信息整理网站，不是具身Agent。",
+    "model_applied": false,
+    "classification_history": [
+      {
+        "old_category": "大脑与具身智能",
+        "new_category": "基础软件与系统",
+        "status": "manual_correction",
+        "reason": "GitHub项目描述为具身智能论文与开源代码资料的双语自动更新雷达，交付物为信息整理网站，不是具身Agent。",
+        "changed_at": "2026-10-20"
+      }
+    ]
   },
   {
     "id": "1827418c89f734ed9f",
@@ -391,124 +745,6 @@
     "model_previous_confidence": "模型建议（待复核）"
   },
   {
-    "id": "55dcb3f6a53af63af5",
-    "title": "LYHrmer/ddt-d1-rl-lab",
-    "url": "https://github.com/LYHrmer/ddt-d1-rl-lab",
-    "source": "GitHub",
-    "type": "代码仓库更新",
-    "description": "D1 wheel-legged locomotion in simulation. A 50 Hz whole-body policy sends 12 leg-angle and 4 wheel-speed targets to 250 Hz servos. Moving from perceptive PPO toward SuperMimic-style model-based RL. We test wheel-ground response before using model gradients for policy updates. C++/ONNX Runtime matches Python on 72 flat-ground traces.",
-    "published": "2026-11-27T08:23:16Z",
-    "first_seen": "2026-11-24T10:54:49.092743+00:00",
-    "stars": 0,
-    "license": true,
-    "repo_id": 1411121500,
-    "relevance_status": "可迁移的机器人关键技术",
-    "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
-    "rule_category": "小脑与运动控制",
-    "rule_confidence": "low",
-    "category": "小脑与运动控制",
-    "classification_confidence": "模型复核（待抽查）",
-    "classification_reason": "提出轮腿机器人全身运动策略，用模型梯度更新RL策略并部署ONNX",
-    "needs_review": false,
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "tags": [
-      "小脑与运动控制"
-    ],
-    "industry_tags": [],
-    "scope": "可迁移的机器人关键技术",
-    "score": 68,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。D1 wheel-legged locomotion in simulation. A 50 Hz whole-body policy sends 12 leg-angle and 4 wheel-speed targets to 250 Hz servos. Movi（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "model_applied": true,
-    "model_suggested_category": "小脑与运动控制",
-    "model_classification_reason": "提出轮腿机器人全身运动策略，用模型梯度更新RL策略并部署ONNX",
-    "model_reviewed_at": "2026-11-24T11:37:59.816308+00:00",
-    "classification_history": [
-      {
-        "id": "55dcb3f6a53af63af5",
-        "title": "LYHrmer/ddt-d1-rl-lab",
-        "old_category": "小脑与运动控制",
-        "new_category": "小脑与运动控制",
-        "model_suggested_category": "小脑与运动控制",
-        "reason": "提出轮腿机器人全身运动策略，用模型梯度更新RL策略并部署ONNX",
-        "changed_at": "2026-11-24T11:37:59.816308+00:00",
-        "needs_review": false,
-        "status": "model_applied"
-      }
-    ],
-    "model_previous_confidence": "待复核",
-    "model_review_attempts": 1,
-    "model_main_contribution": "轮腿机器人全身运动策略与模型梯度RL更新及ONNX部署",
-    "model_contribution_conflict": ""
-  },
-  {
-    "id": "00204ffe01e0db3d25",
-    "title": "isaac-sim/IsaacLab",
-    "url": "https://github.com/isaac-sim/IsaacLab",
-    "source": "GitHub",
-    "type": "代码仓库更新",
-    "description": "Unified framework for robot learning with multi-physics/renderer support",
-    "published": "2026-11-27T08:13:22Z",
-    "first_seen": "2026-11-07T07:05:41.668969+00:00",
-    "stars": 8736,
-    "license": true,
-    "repo_id": 567038244,
-    "relevance_status": "可迁移的机器人关键技术",
-    "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
-    "rule_category": "小脑与运动控制",
-    "rule_confidence": "low",
-    "category": "基础软件与系统",
-    "classification_confidence": "模型复核（待抽查）",
-    "classification_reason": "提供统一多物理渲染机器人学习仿真框架，属基础软件",
-    "needs_review": false,
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "tags": [
-      "基础软件与系统",
-      "小脑与运动控制"
-    ],
-    "industry_tags": [],
-    "scope": "可迁移的机器人关键技术",
-    "score": 61,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。Unified framework for robot learning with multi-physics/renderer support（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "model_applied": true,
-    "model_suggested_category": "基础软件与系统",
-    "model_classification_reason": "提供统一多物理渲染机器人学习仿真框架，属基础软件",
-    "model_reviewed_at": "2026-11-11T08:33:22.712637+00:00",
-    "classification_history": [
-      {
-        "id": "00204ffe01e0db3d25",
-        "title": "isaac-sim/IsaacLab",
-        "old_category": "小脑与运动控制",
-        "new_category": "基础软件与系统",
-        "model_suggested_category": "基础软件与系统",
-        "reason": "该论文提出了支持多物理/渲染的统一机器人学习框架，提供了可重用的仿真基础设施平台支持",
-        "changed_at": "2026-11-07T07:36:41.906873+00:00",
-        "needs_review": true,
-        "status": "model_pending_review"
-      },
-      {
-        "id": "00204ffe01e0db3d25",
-        "title": "isaac-sim/IsaacLab",
-        "old_category": "基础软件与系统",
-        "new_category": "基础软件与系统",
-        "model_suggested_category": "基础软件与系统",
-        "reason": "提供统一多物理渲染机器人学习仿真框架，属基础软件",
-        "changed_at": "2026-11-11T08:33:22.712637+00:00",
-        "needs_review": false,
-        "status": "model_applied"
-      }
-    ],
-    "model_previous_confidence": "模型建议（待复核）",
-    "model_review_attempts": 2,
-    "model_main_contribution": "Isaac Sim/Isaac Lab统一多物理渲染机器人学习仿真框架",
-    "model_contribution_conflict": ""
-  },
-  {
     "id": "bb945dbe33310e3f2f",
     "title": "hakoniwalab/hakoniwa-robot-runtime",
     "url": "https://github.com/hakoniwalab/hakoniwa-robot-runtime",
@@ -672,9 +908,9 @@
     "rule_category": "基础软件与系统",
     "rule_confidence": "low",
     "category": "基础软件与系统",
-    "classification_confidence": "待复核",
-    "classification_reason": "研究机器人软件、仿真或平台系统",
-    "needs_review": true,
+    "classification_confidence": "模型复核（待抽查）",
+    "classification_reason": "开发Tinca手机控制面板及桥接库，提供可定制仪表盘，具创新性",
+    "needs_review": false,
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
     "tags": [
@@ -685,7 +921,30 @@
     "score": 61,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。Hi all, I’m Benja, and this year I’ve been building Tinca, an Android and iOS app that turns your phone into a control panel for a ROS （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P0"
+    "review_priority": "P2",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": true,
+    "model_reviewed_uncertain": false,
+    "model_suggested_category": "基础软件与系统",
+    "model_main_contribution": "开发Tinca手机控制面板及桥接库",
+    "model_contribution_conflict": "",
+    "model_classification_reason": "开发Tinca手机控制面板及桥接库，提供可定制仪表盘，具创新性",
+    "model_reviewed_at": "2026-11-28T09:19:05.298060+00:00",
+    "model_previous_confidence": "待复核",
+    "classification_history": [
+      {
+        "id": "478a9f8ee83dc1f8f8",
+        "title": "Tinca: a phone control panel for ROS 2 robots, built from 160+ survey answers, plus its open-source bridge library",
+        "old_category": "基础软件与系统",
+        "new_category": "基础软件与系统",
+        "model_suggested_category": "基础软件与系统",
+        "reason": "开发Tinca手机控制面板及桥接库，提供可定制仪表盘，具创新性",
+        "changed_at": "2026-11-28T09:19:05.298060+00:00",
+        "needs_review": false,
+        "status": "model_applied"
+      }
+    ]
   },
   {
     "id": "6793eea80929220b41",
@@ -805,17 +1064,15 @@
     "score": 62,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：特种应用与产品；关联：特种机器人共性技术（需核验应用适配性）。A plain, link-checked guide to the whole robotics stack: ROS 2, simulators, agents, evals, datasets and more. By Bunker XY.（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P2",
-    "model_review_attempts": 1,
-    "manual_review_required": false,
-    "model_applied": false,
     "model_reviewed_uncertain": true,
-    "model_suggested_category": "基础软件与系统",
+    "model_review_attempts": 1,
+    "model_reviewed_at": "2026-11-27T10:13:49.859093+00:00",
+    "manual_review_required": false,
     "model_main_contribution": "机器人技术栈链接指南",
     "model_contribution_conflict": "",
+    "model_applied": false,
     "model_classification_reason": "仅为机器人技术栈链接指南，无具体新方法或可交付成果，证据不足",
-    "model_reviewed_at": "2026-11-27T10:13:49.859093+00:00",
-    "model_previous_confidence": "待复核",
+    "model_suggested_category": "基础软件与系统",
     "classification_history": [
       {
         "id": "0505fc1c45ed635739",
@@ -1977,20 +2234,45 @@
     "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
     "rule_category": "感知建图与导航",
     "rule_confidence": "high",
-    "category": "感知建图与导航",
-    "classification_confidence": "高",
-    "classification_reason": "核心任务为环境感知、定位、建图或导航",
-    "needs_review": false,
+    "category": "大脑与具身智能",
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "无法根据摘要确定主要贡献类别，需人工复核确认",
+    "needs_review": true,
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
     "tags": [
+      "大脑与具身智能",
       "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 73,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2611.32381v1 Announce Type: new Abstract: Large language models can write competent robot navigation code, but not only does the （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
+    "review_priority": "P4",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "大脑与具身智能",
+    "model_main_contribution": "LLM上下文对四足导航代码生成的实证研究",
+    "model_contribution_conflict": "",
+    "model_classification_reason": "无法根据摘要确定主要贡献类别，需人工复核确认",
+    "model_reviewed_at": "2026-11-28T09:19:05.298060+00:00",
+    "model_previous_confidence": "高",
+    "classification_history": [
+      {
+        "id": "77b9a6b273a50cd2ee",
+        "title": "Does Research-Paper Context Improve LLM-Generated Quadruped Navigation? An Exploratory Simulation Study",
+        "old_category": "感知建图与导航",
+        "new_category": "大脑与具身智能",
+        "model_suggested_category": "大脑与具身智能",
+        "reason": "无法根据摘要确定主要贡献类别，需人工复核确认",
+        "changed_at": "2026-11-28T09:19:05.298060+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
   },
   {
     "id": "d179d6d2b7ff32d377",
@@ -2681,6 +2963,61 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "ac61f60e2f39da574b",
+    "title": "LEXICAL ACQUISITION AND DISCOURSE FLUENCY IN SPECIALIZED ENGINEERING EDUCATION: EVALUATING FIRST-YEAR ESP RESEARCH PROPOSALS IN ROBOTICS",
+    "url": "https://doi.org/10.34117/bjdv12n11-047",
+    "source": "OpenAlex",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Brazilian Journal of Development。The growing use of autonomous technologies and embodied artificial intelligence has further strengthened the role of English in technical communication and international research. This paper explores how undergraduate engineering students develop and use specialized vocabulary in the compulsory English for Specific Purposes (ESP) course \"IR2605: English for Robotics\" at Universitat Jaume I (Spain). Combining corpus-based lexical analysis with a qualitative examination of academic register, the study considers student research proposals in five areas of robotics: logistics automation, domestic service systems, clinical applications, humanoid robotics, and interactive educational platforms. The proposals show that students can adopt concrete hardware and algorithmic terms relatively quickly, including LiDAR, Quasi-Direct Drive actuators, SLAM, and V",
+    "published": "2026-11-25",
+    "first_seen": "2026-11-28T08:53:46.016155+00:00",
+    "doi": "https://doi.org/10.34117/bjdv12n11-047",
+    "relevance_status": "可迁移的机器人关键技术",
+    "rule_contribution_type": "undetermined",
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "rule_category": "感知建图与导航",
+    "rule_confidence": "low",
+    "category": "大脑与具身智能",
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "研究机器人英语词汇习得与话语流利度未涉及具身智能算法",
+    "needs_review": true,
+    "crosscheck_conflicts": [],
+    "crosscheck_pending": false,
+    "tags": [
+      "大脑与具身智能",
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 63,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Brazilian Journal of Development。The growing use of autonomous technologies and embodied artificial intelligence has further st（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
+    "review_priority": "P0",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "大脑与具身智能",
+    "model_main_contribution": "机器人英语词汇习得与话语流利度研究",
+    "model_contribution_conflict": "",
+    "model_classification_reason": "研究机器人英语词汇习得与话语流利度未涉及具身智能算法",
+    "model_reviewed_at": "2026-11-28T09:19:05.298060+00:00",
+    "model_previous_confidence": "待复核",
+    "classification_history": [
+      {
+        "id": "ac61f60e2f39da574b",
+        "title": "LEXICAL ACQUISITION AND DISCOURSE FLUENCY IN SPECIALIZED ENGINEERING EDUCATION: EVALUATING FIRST-YEAR ESP RESEARCH PROPOSALS IN ROBOTICS",
+        "old_category": "感知建图与导航",
+        "new_category": "大脑与具身智能",
+        "model_suggested_category": "大脑与具身智能",
+        "reason": "研究机器人英语词汇习得与话语流利度未涉及具身智能算法",
+        "changed_at": "2026-11-28T09:19:05.298060+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
+  },
+  {
     "id": "8c6397f58d81866976",
     "title": "The prosocial robot navigation charter: a framework based on normative cards",
     "url": "https://doi.org/10.3389/frobt.2026.1794252",
@@ -2865,55 +3202,6 @@
     ]
   },
   {
-    "id": "69e61c4529817d0edd",
-    "title": "rsasaki0109/RobotNativeEngine",
-    "url": "https://github.com/rsasaki0109/RobotNativeEngine",
-    "source": "GitHub",
-    "type": "代码仓库更新",
-    "description": "Robot Native Engine — robot-native Rust simulation core with physics, sensors, Python bindings, and optional ROS 2 adapters.",
-    "published": "2026-11-24T09:56:44Z",
-    "first_seen": "2026-10-12T08:43:22.319760+00:00",
-    "stars": 32,
-    "license": true,
-    "repo_id": 1267277820,
-    "relevance_status": "可迁移的机器人关键技术",
-    "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
-    "rule_category": "特种应用与产品",
-    "rule_confidence": "low",
-    "category": "基础软件与系统",
-    "classification_confidence": "模型复核（待抽查）",
-    "classification_reason": "机器人原生仿真核心含物理传感器与机器人中间件适配，属基础软件系统。",
-    "needs_review": false,
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "tags": [
-      "基础软件与系统",
-      "特种应用与产品"
-    ],
-    "industry_tags": [],
-    "scope": "可迁移的机器人关键技术",
-    "score": 61,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：特种应用与产品；关联：特种机器人共性技术（需核验应用适配性）。Robot Native Engine — robot-native Rust simulation core with physics, sensors, Python bindings, and optional ROS 2 adapters.（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "model_applied": true,
-    "model_classification_reason": "机器人原生仿真核心含物理传感器与机器人中间件适配，属基础软件系统。",
-    "model_reviewed_at": "2026-10-20T02:18:21.790599+00:00",
-    "classification_history": [
-      {
-        "id": "69e61c4529817d0edd",
-        "title": "rsasaki0109/RobotNativeEngine",
-        "old_category": "特种应用与产品",
-        "new_category": "基础软件与系统",
-        "reason": "机器人原生仿真核心含物理传感器与机器人中间件适配，属基础软件系统。",
-        "changed_at": "2026-10-20T02:18:21.790599+00:00",
-        "needs_review": false,
-        "status": "model_applied"
-      }
-    ],
-    "model_previous_confidence": "待复核"
-  },
-  {
     "id": "17179bf5fe855b4b68",
     "title": "Estara10/quadruped_robots",
     "url": "https://github.com/Estara10/quadruped_robots",
@@ -3033,41 +3321,6 @@
         "status": "model_pending_review"
       }
     ]
-  },
-  {
-    "id": "1ced16b8ab7d7d035f",
-    "title": "RahulK27-pro/AMR",
-    "url": "https://github.com/RahulK27-pro/AMR",
-    "source": "GitHub",
-    "type": "代码仓库更新",
-    "description": "ROS 2 Jazzy-based Autonomous Mobile Robot (AMR) featuring edge-AI vision, topological navigation, and real-time obstacle avoidance in a high-fidelity digital twin.",
-    "published": "2026-11-24T07:50:15Z",
-    "first_seen": "2026-10-12T09:34:55.254677+00:00",
-    "stars": 1,
-    "license": false,
-    "repo_id": 1222493456,
-    "relevance_status": "可迁移的机器人关键技术",
-    "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
-    "rule_category": "感知建图与导航",
-    "rule_confidence": "low",
-    "category": "感知建图与导航",
-    "classification_confidence": "人工核查",
-    "classification_reason": "依据资源标题及所提供摘要，主要技术成果涉及环境感知、定位建图与路径导航；摘要证据：ROS 2 Jazzy-based Autonomous Mobile Robot (AMR) featuring edge-AI vision, topological navigation, and real-time obs",
-    "needs_review": false,
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "tags": [
-      "感知建图与导航"
-    ],
-    "industry_tags": [],
-    "scope": "可迁移的机器人关键技术",
-    "score": 71,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。ROS 2 Jazzy-based Autonomous Mobile Robot (AMR) featuring edge-AI vision, topological navigation, and real-time obstacle avoidance in a（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "manual_category_override": true,
-    "manual_override_reason": "依据资源标题及所提供摘要，主要技术成果涉及环境感知、定位建图与路径导航；摘要证据：ROS 2 Jazzy-based Autonomous Mobile Robot (AMR) featuring edge-AI vision, topological navigation, and real-time obs",
-    "model_applied": false
   },
   {
     "id": "978e3aad17c45abb1f",
@@ -4161,9 +4414,9 @@
     "rule_category": "基础软件与系统",
     "rule_confidence": "high",
     "category": "基础软件与系统",
-    "classification_confidence": "高",
-    "classification_reason": "主要成果是数据集、仿真工具或基准，而非高层决策系统",
-    "needs_review": false,
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "构建真实自中心三维手姿数据集并建立手术训练基准",
+    "needs_review": true,
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
     "tags": [
@@ -4173,7 +4426,31 @@
     "scope": "可迁移的机器人关键技术",
     "score": 62,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2611.27101v1 Announce Type: new Abstract: Surgical skill assessment, AR guidance, and robot learning from demonstration all benef（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
+    "review_priority": "P4",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "基础软件与系统",
+    "model_main_contribution": "构建真实自中心三维手姿数据集与手术训练基准",
+    "model_contribution_conflict": "模型所述主要研究贡献无法由题名摘要核验",
+    "model_classification_reason": "构建真实自中心三维手姿数据集并建立手术训练基准",
+    "model_reviewed_at": "2026-11-28T09:19:05.298060+00:00",
+    "model_previous_confidence": "高",
+    "classification_history": [
+      {
+        "id": "1db5007ae42744ee5d",
+        "title": "EgoSurgHands: An Egocentric 3D Hand Pose Dataset & Benchmark for Open Surgery Training",
+        "old_category": "基础软件与系统",
+        "new_category": "基础软件与系统",
+        "model_suggested_category": "基础软件与系统",
+        "reason": "构建真实自中心三维手姿数据集并建立手术训练基准",
+        "changed_at": "2026-11-28T09:19:05.298060+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
   },
   {
     "id": "7b5b26a549ad119ea2",
@@ -4273,9 +4550,9 @@
     "rule_category": "大脑与具身智能",
     "rule_confidence": "low",
     "category": "大脑与具身智能",
-    "classification_confidence": "模型建议（待复核）",
-    "classification_reason": "提出可变摄像头集合的单一世界模型，实现跨视图交互与共享槽，属具身智能创新",
-    "needs_review": true,
+    "classification_confidence": "模型复核（待抽查）",
+    "classification_reason": "提出通过Slot Token实现多视角交互的世界模型，属于具身智能架构创新。",
+    "needs_review": false,
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
     "tags": [
@@ -4287,16 +4564,16 @@
     "summary": "行业筛选：可迁移的机器人关键技术；方向：大脑与具身智能；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2611.26981v1 Announce Type: new Abstract: Video generation models are increasingly important for robot learning, yet most generat（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
     "review_priority": "P3",
-    "model_review_attempts": 1,
+    "model_review_attempts": 2,
     "manual_review_required": false,
-    "model_applied": false,
-    "model_reviewed_uncertain": true,
+    "model_applied": true,
+    "model_reviewed_uncertain": false,
     "model_suggested_category": "大脑与具身智能",
-    "model_main_contribution": "NO",
-    "model_contribution_conflict": "模型所述主要研究贡献无法由题名摘要核验",
-    "model_classification_reason": "提出可变摄像头集合的单一世界模型，实现跨视图交互与共享槽，属具身智能创新",
-    "model_reviewed_at": "2026-11-23T09:34:04.831757+00:00",
-    "model_previous_confidence": "待复核",
+    "model_main_contribution": "基于共享Slot Token的跨视角交互世界模型",
+    "model_contribution_conflict": "",
+    "model_classification_reason": "提出通过Slot Token实现多视角交互的世界模型，属于具身智能架构创新。",
+    "model_reviewed_at": "2026-11-28T09:19:05.298060+00:00",
+    "model_previous_confidence": "模型建议（待复核）",
     "classification_history": [
       {
         "id": "607ba28cec98edf155",
@@ -4308,6 +4585,17 @@
         "changed_at": "2026-11-23T09:34:04.831757+00:00",
         "needs_review": true,
         "status": "model_pending_review"
+      },
+      {
+        "id": "607ba28cec98edf155",
+        "title": "ViewDreamer: A Robot World Model beyond Fixed Camera Setups",
+        "old_category": "大脑与具身智能",
+        "new_category": "大脑与具身智能",
+        "model_suggested_category": "大脑与具身智能",
+        "reason": "提出通过Slot Token实现多视角交互的世界模型，属于具身智能架构创新。",
+        "changed_at": "2026-11-28T09:19:05.298060+00:00",
+        "needs_review": false,
+        "status": "model_applied"
       }
     ]
   },
@@ -4550,107 +4838,6 @@
         "model_suggested_category": "大脑与具身智能",
         "reason": "提出流匹配策略的不确定性传播方法，实现欧氏解码全过程的不确定性估计",
         "changed_at": "2026-11-24T11:37:59.816308+00:00",
-        "needs_review": true,
-        "status": "model_pending_review"
-      }
-    ]
-  },
-  {
-    "id": "a24b8f4299b9a102fe",
-    "title": "Arman10121995/Celisca-ROS-2-Robot",
-    "url": "https://github.com/Arman10121995/Celisca-ROS-2-Robot",
-    "source": "GitHub",
-    "type": "代码仓库更新",
-    "description": "ROS 2 development for laboratory mobile robots at CELISCA, University of Rostock",
-    "published": "2026-11-22T07:12:16Z",
-    "first_seen": "2026-10-12T09:52:33.489712+00:00",
-    "stars": 0,
-    "license": true,
-    "repo_id": 1278949137,
-    "relevance_status": "可迁移的机器人关键技术",
-    "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
-    "rule_category": "基础软件与系统",
-    "rule_confidence": "low",
-    "category": "基础软件与系统",
-    "classification_confidence": "人工核查",
-    "classification_reason": "GitHub项目说明为实验室移动机器人ROS2开发代码，交付物是机器人软件资源。",
-    "needs_review": false,
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "tags": [
-      "基础软件与系统"
-    ],
-    "industry_tags": [],
-    "scope": "可迁移的机器人关键技术",
-    "score": 61,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。ROS 2 development for laboratory mobile robots at CELISCA, University of Rostock（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "manual_category_override": true,
-    "manual_override_reason": "GitHub项目说明为实验室移动机器人ROS2开发代码，交付物是机器人软件资源。",
-    "model_applied": false
-  },
-  {
-    "id": "41a49f48cd389e7221",
-    "title": "darshmenon/quadruped-robotics-stack",
-    "url": "https://github.com/darshmenon/quadruped-robotics-stack",
-    "source": "GitHub",
-    "type": "代码仓库更新",
-    "description": "Unitree Go2 quadruped stack: PPO locomotion in MuJoCo and Gazebo Harmonic, ROS2 CHAMP and Quad-SDK NMPC walkers, stair climbing, 3D LiDAR SLAM and RKO-LIO odometry, multi-terrain worlds",
-    "published": "2026-11-22T06:40:24Z",
-    "first_seen": "2026-10-31T06:59:01.458242+00:00",
-    "stars": 34,
-    "license": false,
-    "repo_id": 1188537494,
-    "relevance_status": "可迁移的机器人关键技术",
-    "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
-    "rule_category": "感知建图与导航",
-    "rule_confidence": "low",
-    "category": "基础软件与系统",
-    "classification_confidence": "模型建议（待复核）",
-    "classification_reason": "四足机器人软件栈，含RL运动学习、NMPC控制器与多地形仿真，主打软件工具集。",
-    "needs_review": true,
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "tags": [
-      "基础软件与系统",
-      "感知建图与导航"
-    ],
-    "industry_tags": [],
-    "scope": "可迁移的机器人关键技术",
-    "score": 77,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。Unitree Go2 quadruped stack: PPO locomotion in MuJoCo and Gazebo Harmonic, ROS2 CHAMP and Quad-SDK NMPC walkers, stair climbing, 3D LiD（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "model_reviewed_uncertain": true,
-    "model_review_attempts": 2,
-    "model_reviewed_at": "2026-11-06T08:38:09.082904+00:00",
-    "manual_review_required": true,
-    "model_main_contribution": "Unitree Go2四足机器人软件栈，含RL运动学习、NMPC步态控制器与多地形仿真",
-    "model_contribution_conflict": "",
-    "model_applied": false,
-    "model_classification_reason": "四足机器人软件栈，含RL运动学习、NMPC控制器与多地形仿真，主打软件工具集。",
-    "model_suggested_category": "基础软件与系统",
-    "classification_history": [
-      {
-        "id": "41a49f48cd389e7221",
-        "title": "darshmenon/quadruped-robotics-stack",
-        "old_category": "小脑与运动控制",
-        "new_category": "基础软件与系统",
-        "model_suggested_category": "基础软件与系统",
-        "reason": "整合ROS2与NMPC等工具，构建了Unitree Go2四足机器人的完整软件栈。",
-        "changed_at": "2026-11-01T08:33:35.286720+00:00",
-        "needs_review": true,
-        "status": "model_pending_review"
-      },
-      {
-        "id": "41a49f48cd389e7221",
-        "title": "darshmenon/quadruped-robotics-stack",
-        "old_category": "基础软件与系统",
-        "new_category": "基础软件与系统",
-        "model_suggested_category": "基础软件与系统",
-        "reason": "四足机器人软件栈，含RL运动学习、NMPC控制器与多地形仿真，主打软件工具集。",
-        "changed_at": "2026-11-06T08:38:09.082904+00:00",
         "needs_review": true,
         "status": "model_pending_review"
       }
@@ -5806,20 +5993,43 @@
     "rule_category": "基础软件与系统",
     "rule_confidence": "high",
     "category": "基础软件与系统",
-    "classification_confidence": "高",
-    "classification_reason": "研究交付成果为 ROS2 等仿真模型/平台，并非新硬件设计",
-    "needs_review": false,
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "开发仿真硬件接口实现未修改 ROS2 驱动仿真运行",
+    "needs_review": true,
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
     "tags": [
-      "基础软件与系统",
-      "硬件与防爆"
+      "基础软件与系统"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 61,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。Hi everyone, I wanted to share a project I’ve been working on called simport. GitHub: GitHub - karon-kali/simport: Run your real robot （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
+    "review_priority": "P4",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "基础软件与系统",
+    "model_main_contribution": "开发仿真硬件接口实现未修改 ROS2 驱动仿真运行",
+    "model_contribution_conflict": "模型所述主要研究贡献无法由题名摘要核验",
+    "model_classification_reason": "开发仿真硬件接口实现未修改 ROS2 驱动仿真运行",
+    "model_reviewed_at": "2026-11-28T09:19:05.298060+00:00",
+    "model_previous_confidence": "高",
+    "classification_history": [
+      {
+        "id": "ab761aa733aea7591d",
+        "title": "Simport – Run your real ROS 2 hardware drivers against simulation",
+        "old_category": "基础软件与系统",
+        "new_category": "基础软件与系统",
+        "model_suggested_category": "基础软件与系统",
+        "reason": "开发仿真硬件接口实现未修改 ROS2 驱动仿真运行",
+        "changed_at": "2026-11-28T09:19:05.298060+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
   },
   {
     "id": "7ae3b4ad0a22ff58fb",
@@ -6374,7 +6584,7 @@
     "rule_confidence": "high",
     "category": "基础软件与系统",
     "classification_confidence": "模型建议（待复核）",
-    "classification_reason": "提出RoboDx机器人导航软件故障修复任务生成器及100任务注入故障基准。",
+    "classification_reason": "开发了用于评估机器人导航软件修复能力的自动化任务生成系统与基准。",
     "needs_review": true,
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
@@ -6387,16 +6597,16 @@
     "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2611.23816v1 Announce Type: new Abstract: A patch to a robot's navigation software can pass every unit test and still drive the r（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
     "review_priority": "P3",
-    "model_review_attempts": 1,
-    "manual_review_required": false,
+    "model_review_attempts": 2,
+    "manual_review_required": true,
     "model_applied": false,
     "model_reviewed_uncertain": true,
     "model_suggested_category": "基础软件与系统",
-    "model_main_contribution": "RoboDx机器人导航软件故障修复任务生成器及100任务注入故障基准",
+    "model_main_contribution": "用于机器人软件故障诊断与修复的任务生成器",
     "model_contribution_conflict": "",
-    "model_classification_reason": "提出RoboDx机器人导航软件故障修复任务生成器及100任务注入故障基准。",
-    "model_reviewed_at": "2026-11-23T09:34:04.831757+00:00",
-    "model_previous_confidence": "高",
+    "model_classification_reason": "开发了用于评估机器人导航软件修复能力的自动化任务生成系统与基准。",
+    "model_reviewed_at": "2026-11-28T09:19:05.298060+00:00",
+    "model_previous_confidence": "模型建议（待复核）",
     "classification_history": [
       {
         "id": "cc483c1a848dca40a3",
@@ -6406,6 +6616,17 @@
         "model_suggested_category": "基础软件与系统",
         "reason": "提出RoboDx机器人导航软件故障修复任务生成器及100任务注入故障基准。",
         "changed_at": "2026-11-23T09:34:04.831757+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      },
+      {
+        "id": "cc483c1a848dca40a3",
+        "title": "RoboDx: Repair and Diagnosis of Faults in Robot Software",
+        "old_category": "基础软件与系统",
+        "new_category": "基础软件与系统",
+        "model_suggested_category": "基础软件与系统",
+        "reason": "开发了用于评估机器人导航软件修复能力的自动化任务生成系统与基准。",
+        "changed_at": "2026-11-28T09:19:05.298060+00:00",
         "needs_review": true,
         "status": "model_pending_review"
       }
@@ -8645,21 +8866,44 @@
     "rule_category": "感知建图与导航",
     "rule_confidence": "high",
     "category": "感知建图与导航",
-    "classification_confidence": "高",
-    "classification_reason": "以视觉语言导航算法或视觉落地为主要任务",
+    "classification_confidence": "模型复核（待抽查）",
+    "classification_reason": "利用置信度边际决定视语导航动作执行深度的新方法",
     "needs_review": false,
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
     "tags": [
       "感知建图与导航",
-      "大脑与具身智能",
       "VLN"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 62,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2611.19287v1 Announce Type: new Abstract: When a vision-and-language navigation policy generates an action sequence autoregressiv（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
+    "review_priority": "P4",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": true,
+    "model_reviewed_uncertain": false,
+    "model_suggested_category": "感知建图与导航",
+    "model_main_contribution": "无训练视语导航动作前缀树并行解码器",
+    "model_contribution_conflict": "",
+    "model_classification_reason": "利用置信度边际决定视语导航动作执行深度的新方法",
+    "model_reviewed_at": "2026-11-28T09:19:05.298060+00:00",
+    "model_previous_confidence": "高",
+    "classification_history": [
+      {
+        "id": "018a42feaa20bb9249",
+        "title": "VLN-Flash: Parallel Action Decoding with Adaptive Execution for Vision-and-Language Navigation",
+        "old_category": "感知建图与导航",
+        "new_category": "感知建图与导航",
+        "model_suggested_category": "感知建图与导航",
+        "reason": "利用置信度边际决定视语导航动作执行深度的新方法",
+        "changed_at": "2026-11-28T09:19:05.298060+00:00",
+        "needs_review": false,
+        "status": "model_applied"
+      }
+    ]
   },
   {
     "id": "3bf83dcec504e5e5cc",
@@ -9274,9 +9518,9 @@
     "rule_category": "小脑与运动控制",
     "rule_confidence": "high",
     "category": "小脑与运动控制",
-    "classification_confidence": "高",
-    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
-    "needs_review": false,
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "提出双时间尺度突触巩固与相位塑形新控制架构",
+    "needs_review": true,
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
     "tags": [
@@ -9286,7 +9530,31 @@
     "scope": "可迁移的机器人关键技术",
     "score": 65,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Zenodo (CERN European Organization for Nuclear Research)。Contemporary quadruped locomotion controllers rely predominantly on ei（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
+    "review_priority": "P4",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "小脑与运动控制",
+    "model_main_contribution": "闭环混合神经控制四足步态架构",
+    "model_contribution_conflict": "模型所述主要研究贡献无法由题名摘要核验",
+    "model_classification_reason": "提出双时间尺度突触巩固与相位塑形新控制架构",
+    "model_reviewed_at": "2026-11-28T09:19:05.298060+00:00",
+    "model_previous_confidence": "高",
+    "classification_history": [
+      {
+        "id": "ead3cdec5d4e4d1d93",
+        "title": "Neural Habitat V3: Hierarchical Biocompartmental Spiking Control, Hybrid Cortico-Spinal Phase Shaping, and Dual-Timescale Synaptic Consolidation for Quadruped Locomotion",
+        "old_category": "小脑与运动控制",
+        "new_category": "小脑与运动控制",
+        "model_suggested_category": "小脑与运动控制",
+        "reason": "提出双时间尺度突触巩固与相位塑形新控制架构",
+        "changed_at": "2026-11-28T09:19:05.298060+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
   },
   {
     "id": "03563a907b9ec49f14",
@@ -12028,6 +12296,36 @@
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
+    "id": "7e39cb3cb4fe3b9a27",
+    "title": "RadarTrack: Radar-Only Odometry Beyond Doppler Limits",
+    "url": "https://doi.org/10.1145/3860326",
+    "source": "OpenAlex",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：ACM Transactions on Internet of Things。Accurate ego-motion estimation at extremely slow speeds is crucial in robotic surgery, micro-robotics, wearable sensing, and structural health monitoring (SHM), where motion occurs at millimeter or micrometer scales. Existing IMU, vision, LiDAR, and doppler-based radar methods struggle due to drift, low micro-acceleration sensitivity, or reliance on favorable environments. We propose RadarTrack, a lightweight, phase-based odometry framework that uses a single-chip mmWave FMCW radar to recover ego-velocity and full 2D trajectory without auxiliary sensors or deep learning. RadarTrack introduces a kinematics-driven phase model for sub-doppler speed estimation and a lightweight ICP-based scan association module for rotation recovery, forming a complete radar-only pipeline suitable for embedded platforms. We evaluate RadarTrack across UGV, UAV, a",
+    "published": "2026-11-12",
+    "first_seen": "2026-11-28T08:53:46.290735+00:00",
+    "doi": "https://doi.org/10.1145/3860326",
+    "relevance_status": "可迁移的机器人关键技术",
+    "rule_contribution_type": "感知建图与导航",
+    "rule_contribution_evidence": "环境感知、定位或空间导航任务",
+    "rule_category": "感知建图与导航",
+    "rule_confidence": "high",
+    "category": "感知建图与导航",
+    "classification_confidence": "高",
+    "classification_reason": "核心任务为环境感知、定位、建图或导航",
+    "needs_review": false,
+    "crosscheck_conflicts": [],
+    "crosscheck_pending": false,
+    "tags": [
+      "感知建图与导航"
+    ],
+    "industry_tags": [],
+    "scope": "可迁移的机器人关键技术",
+    "score": 61,
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：ACM Transactions on Internet of Things。Accurate ego-motion estimation at extremely slow speeds is crucial in robotic surgery, m（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+  },
+  {
     "id": "d5ed0bea145427b0c6",
     "title": "Xun98/ros2-autonomous-inspection-robot",
     "url": "https://github.com/Xun98/ros2-autonomous-inspection-robot",
@@ -12111,9 +12409,9 @@
     "rule_category": "感知建图与导航",
     "rule_confidence": "high",
     "category": "感知建图与导航",
-    "classification_confidence": "高",
-    "classification_reason": "核心任务为环境感知、定位、建图或导航",
-    "needs_review": false,
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "提出强化学习子目标与模型预测控制安全跟踪",
+    "needs_review": true,
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
     "tags": [
@@ -12123,7 +12421,31 @@
     "scope": "可迁移的机器人关键技术",
     "score": 74,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2611.11996v2 Announce Type: replace Abstract: Navigation in dynamic environments requires mobile robots to make progress toward t（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
+    "review_priority": "P4",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "感知建图与导航",
+    "model_main_contribution": "优化感知子目标推理与安全约束框架",
+    "model_contribution_conflict": "模型所述主要研究贡献无法由题名摘要核验",
+    "model_classification_reason": "提出强化学习子目标与模型预测控制安全跟踪",
+    "model_reviewed_at": "2026-11-28T09:19:05.298060+00:00",
+    "model_previous_confidence": "高",
+    "classification_history": [
+      {
+        "id": "639e72cc9d32124b49",
+        "title": "OASIS: Optimization-Aware Subgoal Inference with Safety Constraints for Autonomous Mobile Robot Navigation",
+        "old_category": "感知建图与导航",
+        "new_category": "感知建图与导航",
+        "model_suggested_category": "感知建图与导航",
+        "reason": "提出强化学习子目标与模型预测控制安全跟踪",
+        "changed_at": "2026-11-28T09:19:05.298060+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
   },
   {
     "id": "5bae7dd4df839037cc",
@@ -16492,20 +16814,45 @@
     "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
     "rule_category": "感知建图与导航",
     "rule_confidence": "high",
-    "category": "感知建图与导航",
-    "classification_confidence": "高",
-    "classification_reason": "核心任务为环境感知、定位、建图或导航",
-    "needs_review": false,
+    "category": "基础软件与系统",
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "主要交付物为可复用的闭环评测基准与评测协议，而非导航算法",
+    "needs_review": true,
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
     "tags": [
+      "基础软件与系统",
       "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 61,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2611.06453v1 Announce Type: cross Abstract: Closed-loop driving benchmarks in CARLA rank agents by a driving score that multiplie（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
+    "review_priority": "P4",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "基础软件与系统",
+    "model_main_contribution": "提出失效边界剖面闭环评测方法，按场景族单因素变化评估智能体",
+    "model_contribution_conflict": "模型所述主要研究贡献无法由题名摘要核验",
+    "model_classification_reason": "主要交付物为可复用的闭环评测基准与评测协议，而非导航算法",
+    "model_reviewed_at": "2026-11-28T09:19:05.298060+00:00",
+    "model_previous_confidence": "高",
+    "classification_history": [
+      {
+        "id": "d4402773f12cd2a3f9",
+        "title": "Beyond Infraction Scores: Failure-Boundary Profiles for Closed-Loop Evaluation of Driving and Robot Navigation Agents",
+        "old_category": "感知建图与导航",
+        "new_category": "基础软件与系统",
+        "model_suggested_category": "基础软件与系统",
+        "reason": "主要交付物为可复用的闭环评测基准与评测协议，而非导航算法",
+        "changed_at": "2026-11-28T09:19:05.298060+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
   },
   {
     "id": "caa1c432c8a17e968a",
@@ -16652,7 +16999,7 @@
     "rule_confidence": "high",
     "category": "基础软件与系统",
     "classification_confidence": "模型建议（待复核）",
-    "classification_reason": "发布含长时GNSS拒止环境的车载激光惯性里程计数据集",
+    "classification_reason": "提供了一个包含长时无GNSS信号环境的汽车激光惯导里程计专用数据集。",
     "needs_review": true,
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
@@ -16665,13 +17012,13 @@
     "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：The International Journal of Robotics Research。The development and evaluation of Lidar-Inertial Odometry (LIO) and Simultaneous（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
     "model_reviewed_uncertain": true,
-    "model_review_attempts": 1,
-    "model_reviewed_at": "2026-11-23T09:34:04.831757+00:00",
-    "manual_review_required": false,
-    "model_main_contribution": "Odyssey automotive LIO dataset with prolonged GNSS-denied reference trajectories",
+    "model_review_attempts": 2,
+    "model_reviewed_at": "2026-11-28T09:19:05.298060+00:00",
+    "manual_review_required": true,
+    "model_main_contribution": "包含长时GNSS缺失场景的激光惯导里程计数据集",
     "model_contribution_conflict": "研究贡献冲突：环境感知、定位或空间导航任务；任务证据更支持感知建图与导航",
     "model_applied": false,
-    "model_classification_reason": "发布含长时GNSS拒止环境的车载激光惯性里程计数据集",
+    "model_classification_reason": "提供了一个包含长时无GNSS信号环境的汽车激光惯导里程计专用数据集。",
     "model_suggested_category": "基础软件与系统",
     "classification_history": [
       {
@@ -16684,9 +17031,21 @@
         "changed_at": "2026-11-23T09:34:04.831757+00:00",
         "needs_review": true,
         "status": "model_pending_review"
+      },
+      {
+        "id": "27f0658db400c09a01",
+        "title": "Odyssey: An automotive lidar-inertial odometry dataset with GNSS-denied situations",
+        "old_category": "基础软件与系统",
+        "new_category": "基础软件与系统",
+        "model_suggested_category": "基础软件与系统",
+        "reason": "提供了一个包含长时无GNSS信号环境的汽车激光惯导里程计专用数据集。",
+        "changed_at": "2026-11-28T09:19:05.298060+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
       }
     ],
-    "review_priority": "P3"
+    "review_priority": "P3",
+    "model_previous_confidence": "模型建议（待复核）"
   },
   {
     "id": "0bbce6eebd35423fab",
@@ -17318,20 +17677,45 @@
     "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
     "rule_category": "小脑与运动控制",
     "rule_confidence": "high",
-    "category": "小脑与运动控制",
-    "classification_confidence": "高",
-    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
-    "needs_review": false,
+    "category": "基础软件与系统",
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "发布DexCanvas数据集与真实到仿真管线生成接触力",
+    "needs_review": true,
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
     "tags": [
+      "基础软件与系统",
       "小脑与运动控制"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 62,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2510.15786v3 Announce Type: replace Abstract: A dexterous hand succeeds or fails through contact, yet every scalable record of hu（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
+    "review_priority": "P4",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "基础软件与系统",
+    "model_main_contribution": "DexCanvas数据集及真实到仿真接触力生成管线",
+    "model_contribution_conflict": "",
+    "model_classification_reason": "发布DexCanvas数据集与真实到仿真管线生成接触力",
+    "model_reviewed_at": "2026-11-28T09:19:05.298060+00:00",
+    "model_previous_confidence": "高",
+    "classification_history": [
+      {
+        "id": "cd76561c42475c92f5",
+        "title": "DexCanvas: Bridging Human Demonstrations and Robot Learning for Dexterous Manipulation",
+        "old_category": "小脑与运动控制",
+        "new_category": "基础软件与系统",
+        "model_suggested_category": "基础软件与系统",
+        "reason": "发布DexCanvas数据集与真实到仿真管线生成接触力",
+        "changed_at": "2026-11-28T09:19:05.298060+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
   },
   {
     "id": "e2129e3b82434c8610",
@@ -19648,9 +20032,9 @@
     "rule_category": "感知建图与导航",
     "rule_confidence": "high",
     "category": "感知建图与导航",
-    "classification_confidence": "高",
-    "classification_reason": "核心任务为环境感知、定位、建图或导航",
-    "needs_review": false,
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "提出犬类曲线避让干预并在真实环境中评估应激",
+    "needs_review": true,
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
     "tags": [
@@ -19660,7 +20044,31 @@
     "scope": "可迁移的机器人关键技术",
     "score": 61,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.40921v1 Announce Type: cross Abstract: Autonomous delivery robots increasingly share residential spaces with companion anima（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
+    "review_priority": "P4",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "感知建图与导航",
+    "model_main_contribution": "提出犬类曲线避让干预",
+    "model_contribution_conflict": "模型所述主要研究贡献无法由题名摘要核验",
+    "model_classification_reason": "提出犬类曲线避让干预并在真实环境中评估应激",
+    "model_reviewed_at": "2026-11-28T09:19:05.298060+00:00",
+    "model_previous_confidence": "高",
+    "classification_history": [
+      {
+        "id": "21c1c5241c554a44d0",
+        "title": "Robot Navigation and Canine Welfare: A Pilot Study Surfacing Challenges for Cross-Species Legibility and Proxy Validity in Animal-Machine Interaction",
+        "old_category": "感知建图与导航",
+        "new_category": "感知建图与导航",
+        "model_suggested_category": "感知建图与导航",
+        "reason": "提出犬类曲线避让干预并在真实环境中评估应激",
+        "changed_at": "2026-11-28T09:19:05.298060+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
   },
   {
     "id": "d866f137ee4b2f868b",
@@ -20090,7 +20498,7 @@
     "url": "https://doi.org/10.48550/arxiv.2611.02510",
     "source": "OpenAlex",
     "type": "论文（摘要）",
-    "description": "来源期刊/会议：arXiv (Cornell University)。Robot policies still fail at everyday manipulation: an unfamiliar task, an object never held before, a scene that changes mid-motion, a skill that should improve with use. They fail despite pretraining on over a million trajectories, pooled from dozens of robots at great expense, while a child acquires all of these abilities within a few years of learning from a single body. This survey argues that the gap is one of design, and proposes designs for the next generation of robot models, drawn from how the nervous system solves the same problems. From the body we take compliance: the policy commands stiffness alongside position, so the controller yields where the task allows and presses where it must, which greatly lowers the demand for precise position output. From the visual system, where a fast pathway for action runs in parallel with the slow pathway f",
+    "description": "来源期刊/会议：arXiv。Robot policies still fail at everyday manipulation: an unfamiliar task, an object never held before, a scene that changes mid-motion, a skill that should improve with use. They fail despite pretraining on over a million trajectories, pooled from dozens of robots at great expense, while a child acquires all of these abilities within a few years of learning from a single body. This survey argues that the gap is one of design, and proposes designs for the next generation of robot models, drawn from how the nervous system solves the same problems. From the body we take compliance: the policy commands stiffness alongside position, so the controller yields where the task allows and presses where it must, which greatly lowers the demand for precise position output. From the visual system, where a fast pathway for action runs in parallel with the slow pathway for recognition, we ta",
     "published": "2026-11-02",
     "first_seen": "2026-11-07T07:04:19.776045+00:00",
     "doi": "https://doi.org/10.48550/arxiv.2611.02510",
@@ -20112,7 +20520,7 @@
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 61,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。Robot policies still fail at everyday manipulation: an unfamiliar task, an object never held before,（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv。Robot policies still fail at everyday manipulation: an unfamiliar task, an object never held before, a scene that changes（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
     "model_reviewed_uncertain": true,
     "model_review_attempts": 2,
@@ -20146,9 +20554,7 @@
         "needs_review": true,
         "status": "model_pending_review"
       }
-    ],
-    "review_priority": "P3",
-    "model_previous_confidence": "模型建议（待复核）"
+    ]
   },
   {
     "id": "ef6116533f7d923bb0",
@@ -21385,7 +21791,8 @@
     "scope": "可迁移的机器人关键技术",
     "score": 64,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.40248v1 Announce Type: new Abstract: Robotic navigation typically assumes a collision-free route to the goal exists; in clut（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
+    "review_priority": "P4"
   },
   {
     "id": "4285e3516617847f66",
@@ -22473,7 +22880,8 @@
     "scope": "可迁移的机器人关键技术",
     "score": 61,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Advances in Science and Technology – Research Journal。This paper presents a human-aware collision-free navigation system based （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
+    "review_priority": "P4"
   },
   {
     "id": "240b8f5cd7d5528ae1",
@@ -30142,13 +30550,14 @@
     "rule_contribution_evidence": "可复用机器人软件或评测交付物",
     "rule_category": "基础软件与系统",
     "rule_confidence": "high",
-    "category": "基础软件与系统",
-    "classification_confidence": "高",
-    "classification_reason": "主要成果是数据集、仿真工具或基准，而非高层决策系统",
-    "needs_review": false,
+    "category": "大脑与具身智能",
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "基于跨视角人视线迁移的注意力正则化视觉语言动作训练框架核心实现",
+    "needs_review": true,
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
     "tags": [
+      "大脑与具身智能",
       "基础软件与系统"
     ],
     "industry_tags": [],
@@ -30156,7 +30565,30 @@
     "score": 62,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.24507v1 Announce Type: new Abstract: Vision-language-action (VLA) policies must ground language instructions in the right ob（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P4"
+    "review_priority": "P4",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "大脑与具身智能",
+    "model_main_contribution": "跨视角人视线迁移方法",
+    "model_contribution_conflict": "研究贡献冲突：可复用机器人软件或评测交付物；任务证据更支持基础软件与系统",
+    "model_classification_reason": "基于跨视角人视线迁移的注意力正则化视觉语言动作训练框架核心实现",
+    "model_reviewed_at": "2026-11-28T09:19:05.298060+00:00",
+    "model_previous_confidence": "高",
+    "classification_history": [
+      {
+        "id": "c1887f17d14ca9842e",
+        "title": "GazeAct: A Human-Gaze-Annotated Manipulation Dataset for Attention-Regularized Policies",
+        "old_category": "基础软件与系统",
+        "new_category": "大脑与具身智能",
+        "model_suggested_category": "大脑与具身智能",
+        "reason": "基于跨视角人视线迁移的注意力正则化视觉语言动作训练框架核心实现",
+        "changed_at": "2026-11-28T09:19:05.298060+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
   },
   {
     "id": "52f3aeaa536e159374",
@@ -37115,8 +37547,8 @@
     "score": 62,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。arXiv:2610.12877v1 Announce Type: new Abstract: Agile and reliable navigation is a core capability for embodied robots navigating compl（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "classification_confidence": "高",
-    "classification_reason": "核心任务为环境感知、定位、建图或导航",
+    "classification_confidence": "模型复核（待抽查）",
+    "classification_reason": "基于时序软混合专家的师生导航框架与潜在蒸馏方法",
     "needs_review": false,
     "relevance_status": "可迁移的机器人关键技术",
     "rule_category": "感知建图与导航",
@@ -37125,7 +37557,30 @@
     "crosscheck_pending": false,
     "rule_contribution_type": "undetermined",
     "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
-    "review_priority": "P4"
+    "review_priority": "P4",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": true,
+    "model_reviewed_uncertain": false,
+    "model_suggested_category": "感知建图与导航",
+    "model_main_contribution": "时序软混合专家的师生导航框架",
+    "model_contribution_conflict": "",
+    "model_classification_reason": "基于时序软混合专家的师生导航框架与潜在蒸馏方法",
+    "model_reviewed_at": "2026-11-28T09:19:05.298060+00:00",
+    "model_previous_confidence": "高",
+    "classification_history": [
+      {
+        "id": "1b8331fa5a339d9a27",
+        "title": "TAME-Nav: Temporal Asymmetric Mixture-of-Experts Distillation for Agile and Versatile Robot Navigation",
+        "old_category": "感知建图与导航",
+        "new_category": "感知建图与导航",
+        "model_suggested_category": "感知建图与导航",
+        "reason": "基于时序软混合专家的师生导航框架与潜在蒸馏方法",
+        "changed_at": "2026-11-28T09:19:05.298060+00:00",
+        "needs_review": false,
+        "status": "model_applied"
+      }
+    ]
   },
   {
     "id": "6fa0d7ba8030046f0c",
@@ -39694,20 +40149,45 @@
     "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
     "rule_category": "小脑与运动控制",
     "rule_confidence": "high",
-    "category": "小脑与运动控制",
-    "classification_confidence": "高",
-    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
-    "needs_review": false,
+    "category": "感知建图与导航",
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "提出Nav2调节纯追踪PID架构，实验验证轨迹跟踪精度提升",
+    "needs_review": true,
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
     "tags": [
+      "感知建图与导航",
       "小脑与运动控制"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 73,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Journal of Artificial Intelligence and Technology。This paper reports an experimental evaluation of a Nav2 Regulated Pure Pursui（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
+    "review_priority": "P4",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "感知建图与导航",
+    "model_main_contribution": "Nav2调节纯追踪PID架构",
+    "model_contribution_conflict": "",
+    "model_classification_reason": "提出Nav2调节纯追踪PID架构，实验验证轨迹跟踪精度提升",
+    "model_reviewed_at": "2026-11-28T09:19:05.298060+00:00",
+    "model_previous_confidence": "高",
+    "classification_history": [
+      {
+        "id": "55043ceea2180793ad",
+        "title": "Experimental Evaluation of a Nav2 Regulated Pure Pursuit-PID Architecture for Trajectory Tracking of a Four-Wheel Mecanum Mobile Robot",
+        "old_category": "小脑与运动控制",
+        "new_category": "感知建图与导航",
+        "model_suggested_category": "感知建图与导航",
+        "reason": "提出Nav2调节纯追踪PID架构，实验验证轨迹跟踪精度提升",
+        "changed_at": "2026-11-28T09:19:05.298060+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
   },
   {
     "id": "47cac344b38ebb7628",
@@ -40382,14 +40862,13 @@
     "rule_category": "感知建图与导航",
     "rule_confidence": "high",
     "category": "感知建图与导航",
-    "classification_confidence": "高",
-    "classification_reason": "核心任务为环境感知、定位、建图或导航",
-    "needs_review": false,
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "基于多源传感的卡尔曼滤波定位与图优化建图方法",
+    "needs_review": true,
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
     "tags": [
-      "感知建图与导航",
-      "特种应用与产品"
+      "感知建图与导航"
     ],
     "industry_tags": [
       "工业与能源巡检"
@@ -40398,7 +40877,30 @@
     "score": 73,
     "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：工业与能源巡检。来源期刊/会议：Discover Applied Sciences。To optimize the monitoring effectiveness of new energy power stations, a fully automated, unmanned mo（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P4"
+    "review_priority": "P4",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "感知建图与导航",
+    "model_main_contribution": "多源传感融合定位与图优化建图方法",
+    "model_contribution_conflict": "模型所述主要研究贡献无法由题名摘要核验",
+    "model_classification_reason": "基于多源传感的卡尔曼滤波定位与图优化建图方法",
+    "model_reviewed_at": "2026-11-28T09:19:05.298060+00:00",
+    "model_previous_confidence": "高",
+    "classification_history": [
+      {
+        "id": "06014bb4b8ed3c7923",
+        "title": "Fully automated unmanned inspection method for new energy unattended stations based on multi-source sensor fusion",
+        "old_category": "感知建图与导航",
+        "new_category": "感知建图与导航",
+        "model_suggested_category": "感知建图与导航",
+        "reason": "基于多源传感的卡尔曼滤波定位与图优化建图方法",
+        "changed_at": "2026-11-28T09:19:05.298060+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
   },
   {
     "id": "894b5bc9cbe6b4d15a",
@@ -42950,9 +43452,9 @@
     "score": 64,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。Learned quadruped locomotion policies commonly map observations directly to joint-level actions, leaving the periodic structure of loco（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "classification_confidence": "高",
-    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
-    "needs_review": false,
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "提出反馈调制谐波策略，用傅里叶级数建模四足步态",
+    "needs_review": true,
     "relevance_status": "可迁移的机器人关键技术",
     "rule_category": "小脑与运动控制",
     "rule_confidence": "high",
@@ -42960,7 +43462,30 @@
     "crosscheck_pending": false,
     "rule_contribution_type": "undetermined",
     "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
-    "review_priority": "P4"
+    "review_priority": "P4",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "小脑与运动控制",
+    "model_main_contribution": "反馈调制谐波策略",
+    "model_contribution_conflict": "模型所述主要研究贡献无法由题名摘要核验",
+    "model_classification_reason": "提出反馈调制谐波策略，用傅里叶级数建模四足步态",
+    "model_reviewed_at": "2026-11-28T09:19:05.298060+00:00",
+    "model_previous_confidence": "高",
+    "classification_history": [
+      {
+        "id": "f4d9662fbf7cdc7b72",
+        "title": "Feedback-Modulated Harmonic Policies for Quadruped Locomotion",
+        "old_category": "小脑与运动控制",
+        "new_category": "小脑与运动控制",
+        "model_suggested_category": "小脑与运动控制",
+        "reason": "提出反馈调制谐波策略，用傅里叶级数建模四足步态",
+        "changed_at": "2026-11-28T09:19:05.298060+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
   },
   {
     "id": "2a6b85278378626e49",
@@ -44944,9 +45469,9 @@
     "score": 72,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Evolutionary Intelligence。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "classification_confidence": "高",
-    "classification_reason": "核心任务为环境感知、定位、建图或导航",
-    "needs_review": false,
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "提出多目标蚁群优化路径规划算法用于动态环境导航",
+    "needs_review": true,
     "relevance_status": "可迁移的机器人关键技术",
     "rule_category": "感知建图与导航",
     "rule_confidence": "high",
@@ -44954,7 +45479,30 @@
     "crosscheck_pending": false,
     "rule_contribution_type": "undetermined",
     "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
-    "review_priority": "P4"
+    "review_priority": "P4",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "感知建图与导航",
+    "model_main_contribution": "多目标蚁群优化路径规划算法",
+    "model_contribution_conflict": "模型所述主要研究贡献无法由题名摘要核验",
+    "model_classification_reason": "提出多目标蚁群优化路径规划算法用于动态环境导航",
+    "model_reviewed_at": "2026-11-28T09:19:05.298060+00:00",
+    "model_previous_confidence": "高",
+    "classification_history": [
+      {
+        "id": "862fcf49c55c6f865d",
+        "title": "Mobile robot navigation in complex and dynamic environments using multi-objective ant colony optimization",
+        "old_category": "感知建图与导航",
+        "new_category": "感知建图与导航",
+        "model_suggested_category": "感知建图与导航",
+        "reason": "提出多目标蚁群优化路径规划算法用于动态环境导航",
+        "changed_at": "2026-11-28T09:19:05.298060+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
   },
   {
     "id": "52e2cec0f31b00e649",
@@ -47830,9 +48378,9 @@
     "score": 72,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：AgriEngineering。 The A* algorithm is widely adopted across agriculture, robotics, and GPS navigation for efficient route planni（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "classification_confidence": "高",
-    "classification_reason": "核心任务为环境感知、定位、建图或导航",
-    "needs_review": false,
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "提出距离相关八向退火启发式并优化路径平滑",
+    "needs_review": true,
     "relevance_status": "可迁移的机器人关键技术",
     "rule_category": "感知建图与导航",
     "rule_confidence": "high",
@@ -47840,7 +48388,30 @@
     "crosscheck_pending": false,
     "rule_contribution_type": "undetermined",
     "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
-    "review_priority": "P4"
+    "review_priority": "P4",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "感知建图与导航",
+    "model_main_contribution": "提出距离相关八向退火启发式并优化路径平滑",
+    "model_contribution_conflict": "模型所述主要研究贡献无法由题名摘要核验",
+    "model_classification_reason": "提出距离相关八向退火启发式并优化路径平滑",
+    "model_reviewed_at": "2026-11-28T09:19:05.298060+00:00",
+    "model_previous_confidence": "高",
+    "classification_history": [
+      {
+        "id": "9e4aa386a105989256",
+        "title": "Enhanced A* Pathfinding Using Distance-Dependent Octile Annealing for Mobile Robot Navigation in Agricultural Field Terrains",
+        "old_category": "感知建图与导航",
+        "new_category": "感知建图与导航",
+        "model_suggested_category": "感知建图与导航",
+        "reason": "提出距离相关八向退火启发式并优化路径平滑",
+        "changed_at": "2026-11-28T09:19:05.298060+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
   },
   {
     "id": "df510a5a574e426444",
@@ -48165,17 +48736,10 @@
     "score": 64,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：IEEE Robotics and Automation Letters。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P4",
-    "model_review_attempts": 1,
-    "manual_review_required": false,
     "model_applied": true,
-    "model_reviewed_uncertain": false,
     "model_suggested_category": "小脑与运动控制",
-    "model_main_contribution": "轮腿机器人自适应动态规划运动控制算法",
-    "model_contribution_conflict": "",
     "model_classification_reason": "提出基于自适应动态规划的轮腿机器人运动控制算法",
     "model_reviewed_at": "2026-11-27T10:13:49.859093+00:00",
-    "model_previous_confidence": "高",
     "classification_history": [
       {
         "id": "17f8b31bb06a650440",
@@ -48188,7 +48752,11 @@
         "needs_review": false,
         "status": "model_applied"
       }
-    ]
+    ],
+    "model_previous_confidence": "高",
+    "model_review_attempts": 1,
+    "model_main_contribution": "轮腿机器人自适应动态规划运动控制算法",
+    "model_contribution_conflict": ""
   },
   {
     "id": "2f4d9d1a19be80055d",
@@ -48653,13 +49221,14 @@
     "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
     "rule_category": "感知建图与导航",
     "rule_confidence": "low",
-    "category": "感知建图与导航",
-    "classification_confidence": "待复核",
-    "classification_reason": "导航/感知类别缺少题名中的明确研究任务",
+    "category": "硬件与防爆",
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "本文仅综述微型机器人技术，未创新，证据不足",
     "needs_review": true,
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
     "tags": [
+      "硬件与防爆",
       "感知建图与导航"
     ],
     "industry_tags": [],
@@ -48667,7 +49236,30 @@
     "score": 61,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Applied and Computational Engineering。Piezoelectric-driven microrobots have become a frontier direction in micro-electromechani（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P0"
+    "review_priority": "P2",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "硬件与防爆",
+    "model_main_contribution": "综述微型机器人技术",
+    "model_contribution_conflict": "",
+    "model_classification_reason": "本文仅综述微型机器人技术，未创新，证据不足",
+    "model_reviewed_at": "2026-11-28T09:19:05.298060+00:00",
+    "model_previous_confidence": "待复核",
+    "classification_history": [
+      {
+        "id": "d961bc043c13c418ca",
+        "title": "Research Progress and Prospect of Piezoelectric-Driven Microrobots",
+        "old_category": "感知建图与导航",
+        "new_category": "硬件与防爆",
+        "model_suggested_category": "硬件与防爆",
+        "reason": "本文仅综述微型机器人技术，未创新，证据不足",
+        "changed_at": "2026-11-28T09:19:05.298060+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
   },
   {
     "id": "782ef11276102f60b4",
@@ -49158,13 +49750,14 @@
     "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
     "rule_category": "基础软件与系统",
     "rule_confidence": "low",
-    "category": "基础软件与系统",
-    "classification_confidence": "待复核",
-    "classification_reason": "仅摘要含软件平台相关证据",
-    "needs_review": true,
+    "category": "大脑与具身智能",
+    "classification_confidence": "模型复核（待抽查）",
+    "classification_reason": "提出协同空间推理方法并构建CoopSR基准，具创新性",
+    "needs_review": false,
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
     "tags": [
+      "大脑与具身智能",
       "基础软件与系统"
     ],
     "industry_tags": [],
@@ -49172,7 +49765,30 @@
     "score": 60,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv。Multimodal Large Language Models (MLLMs) have made substantial progress in egocentric video understanding, but their abil（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P0"
+    "review_priority": "P2",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": true,
+    "model_reviewed_uncertain": false,
+    "model_suggested_category": "大脑与具身智能",
+    "model_main_contribution": "提出协同空间推理方法并构建CoopSR基准，具创新性",
+    "model_contribution_conflict": "",
+    "model_classification_reason": "提出协同空间推理方法并构建CoopSR基准，具创新性",
+    "model_reviewed_at": "2026-11-28T09:19:05.298060+00:00",
+    "model_previous_confidence": "待复核",
+    "classification_history": [
+      {
+        "id": "ed1b05c42b7387536b",
+        "title": "Seeing Together: Multi-Robot Cooperative Egocentric Spatial Reasoning with Multimodal Large Language Models",
+        "old_category": "基础软件与系统",
+        "new_category": "大脑与具身智能",
+        "model_suggested_category": "大脑与具身智能",
+        "reason": "提出协同空间推理方法并构建CoopSR基准，具创新性",
+        "changed_at": "2026-11-28T09:19:05.298060+00:00",
+        "needs_review": false,
+        "status": "model_applied"
+      }
+    ]
   },
   {
     "id": "10c03d457ac251d249",
@@ -51950,20 +52566,45 @@
     "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
     "rule_category": "感知建图与导航",
     "rule_confidence": "high",
-    "category": "感知建图与导航",
-    "classification_confidence": "高",
-    "classification_reason": "核心任务为环境感知、定位、建图或导航",
-    "needs_review": false,
+    "category": "基础软件与系统",
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "主要交付物是公开多源测距数据集与测量特性分析，属数据基准",
+    "needs_review": true,
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
     "tags": [
+      "基础软件与系统",
       "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 61,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。Mobile robots that move between outdoor and indoor environments still struggle with consistent posit（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
+    "review_priority": "P4",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "基础软件与系统",
+    "model_main_contribution": "发布时间同步GNSS/UWB/WiFi/BLE测距数据集并刻画跨室内外定位特性",
+    "model_contribution_conflict": "",
+    "model_classification_reason": "主要交付物是公开多源测距数据集与测量特性分析，属数据基准",
+    "model_reviewed_at": "2026-11-28T09:19:05.298060+00:00",
+    "model_previous_confidence": "高",
+    "classification_history": [
+      {
+        "id": "5060a2104a334d025b",
+        "title": "Bridging the Indoor-Outdoor Gap: Cross-Technology Ranging for Seamless Robot Navigation",
+        "old_category": "感知建图与导航",
+        "new_category": "基础软件与系统",
+        "model_suggested_category": "基础软件与系统",
+        "reason": "主要交付物是公开多源测距数据集与测量特性分析，属数据基准",
+        "changed_at": "2026-11-28T09:19:05.298060+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
   },
   {
     "id": "bbd98d013044a4e9f7",
@@ -54736,9 +55377,9 @@
     "rule_category": "小脑与运动控制",
     "rule_confidence": "high",
     "category": "小脑与运动控制",
-    "classification_confidence": "高",
-    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
-    "needs_review": false,
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "预训练全身控制策略配合测试时采样规划，实现四足机器人动态全身操作与搬运。",
+    "needs_review": true,
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
     "tags": [
@@ -54749,7 +55390,30 @@
     "score": 69,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。This paper presents a sim-to-real approach that enables legged robots to dynamically manipulate larg（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P4"
+    "review_priority": "P4",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "小脑与运动控制",
+    "model_main_contribution": "基于测试时采样规划的预训练全身动态操作控制策略",
+    "model_contribution_conflict": "模型所述主要研究贡献无法由题名摘要核验",
+    "model_classification_reason": "预训练全身控制策略配合测试时采样规划，实现四足机器人动态全身操作与搬运。",
+    "model_reviewed_at": "2026-11-28T09:19:05.298060+00:00",
+    "model_previous_confidence": "高",
+    "classification_history": [
+      {
+        "id": "0ab7f8b23b5a79caf5",
+        "title": "Sumo: Dynamic and Generalizable Whole-Body Loco-Manipulation",
+        "old_category": "小脑与运动控制",
+        "new_category": "小脑与运动控制",
+        "model_suggested_category": "小脑与运动控制",
+        "reason": "预训练全身控制策略配合测试时采样规划，实现四足机器人动态全身操作与搬运。",
+        "changed_at": "2026-11-28T09:19:05.298060+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
   },
   {
     "id": "354ddf566eb92341cb",
@@ -54958,7 +55622,8 @@
     "scope": "特种场景直接相关",
     "score": 77,
     "summary": "行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：消防与应急救援。来源期刊/会议：2026 12th International Conference on Control, Automation and Robotics (ICCAR)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
+    "review_priority": "P4"
   },
   {
     "id": "43184905bd159909a9",
@@ -58249,17 +58914,15 @@
     "score": 73,
     "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：矿山与地下空间。来源期刊/会议：Applied Sciences。Underground mining environments pose significant challenges for automated hazard detection due to low illumina（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P3",
-    "model_review_attempts": 2,
-    "manual_review_required": true,
-    "model_applied": false,
     "model_reviewed_uncertain": true,
-    "model_suggested_category": "感知建图与导航",
+    "model_review_attempts": 2,
+    "model_reviewed_at": "2026-11-20T09:01:46.548549+00:00",
+    "manual_review_required": true,
     "model_main_contribution": "基于LiDAR点云和360°图像的双流2D-3D目标检测与变化量化框架",
     "model_contribution_conflict": "",
+    "model_applied": false,
     "model_classification_reason": "双流框架用于矿山物体检测和空间变化量化，属视觉感知与建图，非特种产品。",
-    "model_reviewed_at": "2026-11-20T09:01:46.548549+00:00",
-    "model_previous_confidence": "模型建议（待复核）",
+    "model_suggested_category": "感知建图与导航",
     "classification_history": [
       {
         "id": "bdf0e057a4b6f3f6a3",
@@ -58324,7 +58987,7 @@
     "url": "https://doi.org/10.48550/arxiv.2602.23404",
     "source": "OpenAlex",
     "type": "论文（摘要）",
-    "description": "来源期刊/会议：arXiv (Cornell University)。Teleoperated quadruped robots are increasingly deployed in safety-critical missions -- industrial inspection, military reconnaissance, and emergency response -- yet the security of their communication and control infrastructure remains insufficiently characterized. Quadrupeds present distinct security challenges arising from dynamic stability constraints, gait-dependent vulnerability windows, substantial kinetic energy, and elevated operator cognitive load. This survey synthesizes peer-reviewed literature and vulnerability disclosures (2019--2025) to provide comprehensive analysis of cybersecurity threats, consequences, and countermeasures for teleoperated quadruped systems. We contribute: (i) a six-layer attack taxonomy spanning perception manipulation, VR/AR operator targeting, communication disruption, control signal attacks, localization spoofing, a",
+    "description": "来源期刊/会议：arXiv。Teleoperated quadruped robots are increasingly deployed in safety-critical missions -- industrial inspection, military reconnaissance, and emergency response -- yet the security of their communication and control infrastructure remains insufficiently characterized. Quadrupeds present distinct security challenges arising from dynamic stability constraints, gait-dependent vulnerability windows, substantial kinetic energy, and elevated operator cognitive load. This survey synthesizes peer-reviewed literature and vulnerability disclosures (2019--2025) to provide comprehensive analysis of cybersecurity threats, consequences, and countermeasures for teleoperated quadruped systems. We contribute: (i) a six-layer attack taxonomy spanning perception manipulation, VR/AR operator targeting, communication disruption, control signal attacks, localization spoofing, and network intrusion;",
     "published": "2026-02-26",
     "first_seen": "2026-11-08T07:17:01.626482+00:00",
     "doi": "https://doi.org/10.48550/arxiv.2602.23404",
@@ -58349,7 +59012,7 @@
     ],
     "scope": "特种场景直接相关",
     "score": 88,
-    "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：消防与应急救援、工业与能源巡检。来源期刊/会议：arXiv (Cornell University)。Teleoperated quadruped robots are increasingly deployed in safety-critical missions -- industrial in（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：消防与应急救援、工业与能源巡检。来源期刊/会议：arXiv。Teleoperated quadruped robots are increasingly deployed in safety-critical missions -- industrial inspection, military re（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
     "model_reviewed_uncertain": true,
     "model_review_attempts": 2,
@@ -58401,9 +59064,9 @@
     "rule_category": "小脑与运动控制",
     "rule_confidence": "high",
     "category": "小脑与运动控制",
-    "classification_confidence": "高",
-    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
-    "needs_review": false,
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "提出基于稀疏MoE的深度RL多模态步态控制框架，实现自动切换与提升",
+    "needs_review": true,
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
     "tags": [
@@ -58413,7 +59076,31 @@
     "scope": "可迁移的机器人关键技术",
     "score": 73,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Frontiers in Robotics and AI。 The bipedal wheel-legged robot combines the high energy efficiency of wheeled movement with the t（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
+    "review_priority": "P4",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "小脑与运动控制",
+    "model_main_contribution": "基于稀疏MoE的深度RL多模态步态控制框架",
+    "model_contribution_conflict": "模型所述主要研究贡献无法由题名摘要核验",
+    "model_classification_reason": "提出基于稀疏MoE的深度RL多模态步态控制框架，实现自动切换与提升",
+    "model_reviewed_at": "2026-11-28T09:19:05.298060+00:00",
+    "model_previous_confidence": "高",
+    "classification_history": [
+      {
+        "id": "005ddbf04e3875cdad",
+        "title": "Adaptive multi-mode locomotion for bipedal wheel-legged robots via sparse mixture-of-experts deep reinforcement learning",
+        "old_category": "小脑与运动控制",
+        "new_category": "小脑与运动控制",
+        "model_suggested_category": "小脑与运动控制",
+        "reason": "提出基于稀疏MoE的深度RL多模态步态控制框架，实现自动切换与提升",
+        "changed_at": "2026-11-28T09:19:05.298060+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
   },
   {
     "id": "cfb7dc2e8fd9384848",
@@ -60338,17 +61025,15 @@
     "score": 73,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。Legged robots have a unique capacity to move across varied terrains, just as animals do. It is irrelevant whether it involves moving up（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P4",
-    "model_review_attempts": 1,
-    "manual_review_required": false,
-    "model_applied": false,
     "model_reviewed_uncertain": true,
-    "model_suggested_category": "小脑与运动控制",
+    "model_review_attempts": 1,
+    "model_reviewed_at": "2026-11-27T10:13:49.859093+00:00",
+    "manual_review_required": false,
     "model_main_contribution": "四足机器人学习式运动控制方法综述",
     "model_contribution_conflict": "",
+    "model_applied": false,
     "model_classification_reason": "综述强化学习模仿学习与分层控制的四足运动方法",
-    "model_reviewed_at": "2026-11-27T10:13:49.859093+00:00",
-    "model_previous_confidence": "高",
+    "model_suggested_category": "小脑与运动控制",
     "classification_history": [
       {
         "id": "a5fa18015ca32c942a",
@@ -60761,14 +61446,13 @@
     "rule_category": "感知建图与导航",
     "rule_confidence": "high",
     "category": "感知建图与导航",
-    "classification_confidence": "高",
-    "classification_reason": "主要研究机器人导航路径规划、巡检或跟踪算法",
-    "needs_review": false,
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "仅凭标题无法确认具体路径规划的创新性不足",
+    "needs_review": true,
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
     "tags": [
-      "感知建图与导航",
-      "特种应用与产品"
+      "感知建图与导航"
     ],
     "industry_tags": [
       "野外与特种地形"
@@ -60776,7 +61460,31 @@
     "scope": "特种场景直接相关",
     "score": 71,
     "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：野外与特种地形。来源期刊/会议：IEEE Transactions on Field Robotics。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
+    "review_priority": "P4",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "感知建图与导航",
+    "model_main_contribution": "通用探索与检查路径规划方法",
+    "model_contribution_conflict": "模型所述主要研究贡献无法由题名摘要核验",
+    "model_classification_reason": "仅凭标题无法确认具体路径规划的创新性不足",
+    "model_reviewed_at": "2026-11-28T09:19:05.298060+00:00",
+    "model_previous_confidence": "高",
+    "classification_history": [
+      {
+        "id": "b4cfb7482d5b135d7b",
+        "title": "OmniPlanner: Universal Exploration and Inspection Path Planning Across Robot Morphologies",
+        "old_category": "感知建图与导航",
+        "new_category": "感知建图与导航",
+        "model_suggested_category": "感知建图与导航",
+        "reason": "仅凭标题无法确认具体路径规划的创新性不足",
+        "changed_at": "2026-11-28T09:19:05.298060+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
   },
   {
     "id": "18159468db5a693f8d",
@@ -64370,20 +65078,45 @@
     "rule_contribution_evidence": "环境感知、定位或空间导航任务",
     "rule_category": "感知建图与导航",
     "rule_confidence": "high",
-    "category": "感知建图与导航",
-    "classification_confidence": "高",
-    "classification_reason": "主要任务是环境感知/地形估计而非 Agent 决策",
-    "needs_review": false,
+    "category": "基础软件与系统",
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "构建大型公共工程施工现场三维SLAM数据集并评估算法性能",
+    "needs_review": true,
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
     "tags": [
+      "基础软件与系统",
       "感知建图与导航"
     ],
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 63,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Low-carbon Materials and Green Construction。Abstract Simultaneous localization and mapping (SLAM) is a crucial technology for c（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
+    "review_priority": "P4",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "基础软件与系统",
+    "model_main_contribution": "构建大型公共工程施工现场三维SLAM数据集并评估算法性能",
+    "model_contribution_conflict": "研究贡献冲突：环境感知、定位或空间导航任务；任务证据更支持感知建图与导航",
+    "model_classification_reason": "构建大型公共工程施工现场三维SLAM数据集并评估算法性能",
+    "model_reviewed_at": "2026-11-28T09:19:05.298060+00:00",
+    "model_previous_confidence": "高",
+    "classification_history": [
+      {
+        "id": "a4c6a8d28f7dafe775",
+        "title": "Evaluation of LiDAR SLAM algorithms for construction robots in large public construction sites",
+        "old_category": "感知建图与导航",
+        "new_category": "基础软件与系统",
+        "model_suggested_category": "基础软件与系统",
+        "reason": "构建大型公共工程施工现场三维SLAM数据集并评估算法性能",
+        "changed_at": "2026-11-28T09:19:05.298060+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
   },
   {
     "id": "9854bffaa037f73ef1",
@@ -68962,9 +69695,9 @@
     "first_seen": "2026-10-16T01:28:35.916156+00:00",
     "doi": "10.1109/tmech.2025.3559016",
     "category": "小脑与运动控制",
-    "classification_confidence": "高",
-    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
-    "needs_review": false,
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "提出基于神经网络的多模态轮足复合步态速度跟踪方法，明确创新控制算法",
+    "needs_review": true,
     "tags": [
       "小脑与运动控制"
     ],
@@ -68980,7 +69713,30 @@
     "crosscheck_pending": false,
     "rule_contribution_type": "undetermined",
     "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
-    "review_priority": "P4"
+    "review_priority": "P4",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "小脑与运动控制",
+    "model_main_contribution": "基于神经网络的多模态轮足复合步态速度跟踪方法",
+    "model_contribution_conflict": "模型所述主要研究贡献无法由题名摘要核验",
+    "model_classification_reason": "提出基于神经网络的多模态轮足复合步态速度跟踪方法，明确创新控制算法",
+    "model_reviewed_at": "2026-11-28T09:19:05.298060+00:00",
+    "model_previous_confidence": "高",
+    "classification_history": [
+      {
+        "id": "78f64725ecc8c5f8a2",
+        "title": "A Velocity Tracking Approach Based on Neural Networks for a Multimodal Wheel-Legged Composite Gait on a Parallel Structure Robot",
+        "old_category": "小脑与运动控制",
+        "new_category": "小脑与运动控制",
+        "model_suggested_category": "小脑与运动控制",
+        "reason": "提出基于神经网络的多模态轮足复合步态速度跟踪方法，明确创新控制算法",
+        "changed_at": "2026-11-28T09:19:05.298060+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
   },
   {
     "id": "67ef3b2ed1c515645f",
@@ -71723,13 +72479,13 @@
     "published": "2025-07-09",
     "first_seen": "2026-10-19T09:06:53.873357+00:00",
     "doi": "10.5772/acrt.20250014",
-    "category": "感知建图与导航",
-    "classification_confidence": "高",
-    "classification_reason": "主要研究机器人导航路径规划、巡检或跟踪算法",
-    "needs_review": false,
+    "category": "大脑与具身智能",
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "提出基于大模型的任务分配与路径生成新框架",
+    "needs_review": true,
     "tags": [
-      "感知建图与导航",
-      "特种应用与产品"
+      "大脑与具身智能",
+      "感知建图与导航"
     ],
     "industry_tags": [
       "消防与应急救援"
@@ -71745,7 +72501,30 @@
     "crosscheck_pending": false,
     "rule_contribution_type": "感知建图与导航",
     "rule_contribution_evidence": "环境感知、定位或空间导航任务",
-    "review_priority": "P4"
+    "review_priority": "P4",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "大脑与具身智能",
+    "model_main_contribution": "提出基于大模型的任务分配与路径生成新框架",
+    "model_contribution_conflict": "研究贡献冲突：环境感知、定位或空间导航任务；任务证据更支持感知建图与导航",
+    "model_classification_reason": "提出基于大模型的任务分配与路径生成新框架",
+    "model_reviewed_at": "2026-11-28T09:19:05.298060+00:00",
+    "model_previous_confidence": "高",
+    "classification_history": [
+      {
+        "id": "3bf65b2bf5cfe0719d",
+        "title": "MTU-LLM: LLM-based Multi-Robot Task Allocation and Path Planning for Heterogeneous Robots in Search and Rescue Operations",
+        "old_category": "感知建图与导航",
+        "new_category": "大脑与具身智能",
+        "model_suggested_category": "大脑与具身智能",
+        "reason": "提出基于大模型的任务分配与路径生成新框架",
+        "changed_at": "2026-11-28T09:19:05.298060+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
   },
   {
     "id": "45bde16003fd9cd569",
@@ -72190,9 +72969,9 @@
     "first_seen": "2026-10-16T05:51:08.210074+00:00",
     "doi": "",
     "category": "感知建图与导航",
-    "classification_confidence": "高",
-    "classification_reason": "核心任务为环境感知、定位、建图或导航",
-    "needs_review": false,
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "单2D激光雷达搭云台模拟三维扫描，实现移动机器人SLAM建图与定位导航。",
+    "needs_review": true,
     "tags": [
       "感知建图与导航"
     ],
@@ -72208,7 +72987,30 @@
     "crosscheck_pending": false,
     "rule_contribution_type": "感知建图与导航",
     "rule_contribution_evidence": "环境感知、定位或空间导航任务",
-    "review_priority": "P4"
+    "review_priority": "P4",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "感知建图与导航",
+    "model_main_contribution": "单2D激光雷达加伺服云台模拟三维扫描的移动机器人SLAM方法",
+    "model_contribution_conflict": "",
+    "model_classification_reason": "单2D激光雷达搭云台模拟三维扫描，实现移动机器人SLAM建图与定位导航。",
+    "model_reviewed_at": "2026-11-28T09:19:05.298060+00:00",
+    "model_previous_confidence": "高",
+    "classification_history": [
+      {
+        "id": "a72a84c438acf6c649",
+        "title": "Simultaneous Localization and Mapping for Mobile Robot Using a Single 2D LiDAR Sensor",
+        "old_category": "感知建图与导航",
+        "new_category": "感知建图与导航",
+        "model_suggested_category": "感知建图与导航",
+        "reason": "单2D激光雷达搭云台模拟三维扫描，实现移动机器人SLAM建图与定位导航。",
+        "changed_at": "2026-11-28T09:19:05.298060+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
   },
   {
     "id": "47925ec7d6fa704daa",
@@ -74171,9 +74973,9 @@
     "rule_category": "感知建图与导航",
     "rule_confidence": "high",
     "category": "感知建图与导航",
-    "classification_confidence": "高",
-    "classification_reason": "核心任务为环境感知、定位、建图或导航",
-    "needs_review": false,
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "系统综述人工标记导航，未提出新定位建图算法",
+    "needs_review": true,
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
     "tags": [
@@ -74183,7 +74985,31 @@
     "scope": "可迁移的机器人关键技术",
     "score": 73,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Journal of Robotics and Mechatronics。 Mobile robot navigation plays a vital role in robotics, allowing autonomous systems to fu（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
+    "review_priority": "P4",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "感知建图与导航",
+    "model_main_contribution": "人工标记导航系统综述",
+    "model_contribution_conflict": "",
+    "model_classification_reason": "系统综述人工标记导航，未提出新定位建图算法",
+    "model_reviewed_at": "2026-11-28T09:19:05.298060+00:00",
+    "model_previous_confidence": "高",
+    "classification_history": [
+      {
+        "id": "b72bd267c562840f2f",
+        "title": "Mobile Robot Navigation Based on Artificial Markers: A Systematic Mapping Study",
+        "old_category": "感知建图与导航",
+        "new_category": "感知建图与导航",
+        "model_suggested_category": "感知建图与导航",
+        "reason": "系统综述人工标记导航，未提出新定位建图算法",
+        "changed_at": "2026-11-28T09:19:05.298060+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
   },
   {
     "id": "20ae4a7a66b2f8454d",
@@ -78153,17 +78979,10 @@
     "score": 72,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Automation. Modern Techologies。 The navigation of a mobile robot in an unstructured environment is considered. The problems tha（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P4",
-    "model_review_attempts": 1,
-    "manual_review_required": false,
     "model_applied": true,
-    "model_reviewed_uncertain": false,
     "model_suggested_category": "感知建图与导航",
-    "model_main_contribution": "Kohonen neural network based navigation controller for unstructured environments",
-    "model_contribution_conflict": "",
     "model_classification_reason": "基于Kohonen网络的神经控制器实现非结构环境导航避障",
     "model_reviewed_at": "2026-11-27T10:13:49.859093+00:00",
-    "model_previous_confidence": "高",
     "classification_history": [
       {
         "id": "baa09d7f591239c740",
@@ -78176,7 +78995,11 @@
         "needs_review": false,
         "status": "model_applied"
       }
-    ]
+    ],
+    "model_previous_confidence": "高",
+    "model_review_attempts": 1,
+    "model_main_contribution": "Kohonen neural network based navigation controller for unstructured environments",
+    "model_contribution_conflict": ""
   },
   {
     "id": "a50fe4597d3112bd91",
@@ -78303,17 +79126,15 @@
     "score": 65,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Proceedings of the 15th International Conference on Simulation and Modeling Methodologies, Technologies and Applications。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P4",
-    "model_review_attempts": 1,
-    "manual_review_required": false,
-    "model_applied": false,
     "model_reviewed_uncertain": true,
-    "model_suggested_category": "感知建图与导航",
+    "model_review_attempts": 1,
+    "model_reviewed_at": "2026-11-27T10:13:49.859093+00:00",
+    "manual_review_required": false,
     "model_main_contribution": "EyeSim仿真中基于LLM的覆盖路径规划方法",
     "model_contribution_conflict": "",
+    "model_applied": false,
     "model_classification_reason": "仅标题提及LLM覆盖路径规划，缺乏摘要细节",
-    "model_reviewed_at": "2026-11-27T10:13:49.859093+00:00",
-    "model_previous_confidence": "高",
+    "model_suggested_category": "感知建图与导航",
     "classification_history": [
       {
         "id": "e1275faf5c41aec62e",
@@ -84543,17 +85364,15 @@
     "score": 64,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Journal of Aerospace Engineering。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P3",
-    "model_review_attempts": 2,
-    "manual_review_required": true,
-    "model_applied": false,
     "model_reviewed_uncertain": true,
-    "model_suggested_category": "小脑与运动控制",
+    "model_review_attempts": 2,
+    "model_reviewed_at": "2026-11-19T09:15:55.384288+00:00",
+    "manual_review_required": true,
     "model_main_contribution": "标题未说明具体新方法或成果",
     "model_contribution_conflict": "模型所述主要研究贡献无法由题名摘要核验",
+    "model_applied": false,
     "model_classification_reason": "标题提出3M架构增强深度RL跳跃方法，但摘要缺乏技术细节",
-    "model_reviewed_at": "2026-11-19T09:15:55.384288+00:00",
-    "model_previous_confidence": "模型建议（待复核）",
+    "model_suggested_category": "小脑与运动控制",
     "classification_history": [
       {
         "id": "8e5f8ff17730dc5be2",
@@ -87268,9 +88087,7 @@
         "needs_review": true,
         "status": "model_pending_review"
       }
-    ],
-    "review_priority": "P3",
-    "model_previous_confidence": "模型建议（待复核）"
+    ]
   },
   {
     "id": "de22a05bd683e2b2d0",
@@ -87406,9 +88223,9 @@
     "rule_category": "感知建图与导航",
     "rule_confidence": "high",
     "category": "感知建图与导航",
-    "classification_confidence": "高",
-    "classification_reason": "核心任务为环境感知、定位、建图或导航",
-    "needs_review": false,
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "农业四足机器人自主导航系统研究，导航属感知建图与导航类。",
+    "needs_review": true,
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
     "tags": [
@@ -87418,7 +88235,31 @@
     "scope": "可迁移的机器人关键技术",
     "score": 64,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2024 IEEE International Conference on Mechatronics and Automation (ICMA)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
+    "review_priority": "P4",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "感知建图与导航",
+    "model_main_contribution": "农业四足机器人自主导航系统",
+    "model_contribution_conflict": "",
+    "model_classification_reason": "农业四足机器人自主导航系统研究，导航属感知建图与导航类。",
+    "model_reviewed_at": "2026-11-28T09:19:05.298060+00:00",
+    "model_previous_confidence": "高",
+    "classification_history": [
+      {
+        "id": "4061a1439495911f31",
+        "title": "Research on Autonomous Navigation System of Agricultural Quadruped Robot",
+        "old_category": "感知建图与导航",
+        "new_category": "感知建图与导航",
+        "model_suggested_category": "感知建图与导航",
+        "reason": "农业四足机器人自主导航系统研究，导航属感知建图与导航类。",
+        "changed_at": "2026-11-28T09:19:05.298060+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
   },
   {
     "id": "1214eeb03369a5dde8",
@@ -91328,9 +92169,9 @@
     "score": 65,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：基础软件与系统；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：IEEE Robotics and Automation Letters。Terrain-aware perception holds the potential to improve the robustness and accuracy of aut（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "classification_confidence": "高",
-    "classification_reason": "主要成果是数据集、仿真工具或基准，而非高层决策系统",
-    "needs_review": false,
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "TAIL多模态数据集融合视觉激光雷达IMU，面向变形沙地多传感器SLAM。",
+    "needs_review": true,
     "relevance_status": "可迁移的机器人关键技术",
     "rule_category": "基础软件与系统",
     "rule_confidence": "high",
@@ -91338,7 +92179,30 @@
     "crosscheck_pending": false,
     "rule_contribution_type": "感知建图与导航",
     "rule_contribution_evidence": "环境感知、定位或空间导航任务",
-    "review_priority": "P4"
+    "review_priority": "P4",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "基础软件与系统",
+    "model_main_contribution": "变形沙地多传感器SLAM的TAIL多模态数据集",
+    "model_contribution_conflict": "研究贡献冲突：环境感知、定位或空间导航任务；任务证据更支持感知建图与导航",
+    "model_classification_reason": "TAIL多模态数据集融合视觉激光雷达IMU，面向变形沙地多传感器SLAM。",
+    "model_reviewed_at": "2026-11-28T09:19:05.298060+00:00",
+    "model_previous_confidence": "高",
+    "classification_history": [
+      {
+        "id": "27a141fe5a1e29e5a2",
+        "title": "TAIL: A Terrain-Aware Multi-Modal SLAM Dataset for Robot Locomotion in Deformable Granular Environments",
+        "old_category": "基础软件与系统",
+        "new_category": "基础软件与系统",
+        "model_suggested_category": "基础软件与系统",
+        "reason": "TAIL多模态数据集融合视觉激光雷达IMU，面向变形沙地多传感器SLAM。",
+        "changed_at": "2026-11-28T09:19:05.298060+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
   },
   {
     "id": "f300118100196d2355",
@@ -91584,8 +92448,7 @@
     "scope": "可迁移的机器人关键技术",
     "score": 64,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2024 36th Chinese Control and Decision Conference (CCDC)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P4"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "eda26c5424d7016c45",
@@ -92763,17 +93626,15 @@
     "score": 76,
     "summary": "行业筛选：特种场景直接相关；方向：小脑与运动控制；关联：矿山与地下空间。来源期刊/会议：Energies。Despite the pressure of carbon emissions and clean energy, coal remains the economic backbone of many developing count（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P3",
-    "model_review_attempts": 2,
-    "manual_review_required": true,
-    "model_applied": false,
     "model_reviewed_uncertain": true,
-    "model_suggested_category": "小脑与运动控制",
+    "model_review_attempts": 2,
+    "model_reviewed_at": "2026-11-20T09:01:46.548549+00:00",
+    "manual_review_required": true,
     "model_main_contribution": "矿山机器人群智能系统架构与协同控制策略",
     "model_contribution_conflict": "",
+    "model_applied": false,
     "model_classification_reason": "研究矿山机器人群智能架构与协同控制策略的创新",
-    "model_reviewed_at": "2026-11-20T09:01:46.548549+00:00",
-    "model_previous_confidence": "模型建议（待复核）",
+    "model_suggested_category": "小脑与运动控制",
     "classification_history": [
       {
         "id": "fb7a639d5c74d397e5",
@@ -93401,11 +94262,12 @@
     "published": "2024-02-27",
     "first_seen": "2026-10-15T05:55:06.088008+00:00",
     "doi": "10.1101/2024.02.22.581436",
-    "category": "小脑与运动控制",
-    "classification_confidence": "高",
-    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
-    "needs_review": false,
+    "category": "硬件与防爆",
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "提出一种仿生果蝇多足机器人模型，实现详细的运动学与力学仿真",
+    "needs_review": true,
     "tags": [
+      "硬件与防爆",
       "小脑与运动控制"
     ],
     "industry_tags": [],
@@ -93420,7 +94282,30 @@
     "crosscheck_pending": false,
     "rule_contribution_type": "undetermined",
     "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
-    "review_priority": "P4"
+    "review_priority": "P4",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "硬件与防爆",
+    "model_main_contribution": "仿生果蝇多足机器人模型",
+    "model_contribution_conflict": "",
+    "model_classification_reason": "提出一种仿生果蝇多足机器人模型，实现详细的运动学与力学仿真",
+    "model_reviewed_at": "2026-11-28T09:19:05.298060+00:00",
+    "model_previous_confidence": "高",
+    "classification_history": [
+      {
+        "id": "4077e6911ceb756e0a",
+        "title": "A biomimetic fruit fly robot for studying the neuromechanics of legged locomotion",
+        "old_category": "小脑与运动控制",
+        "new_category": "硬件与防爆",
+        "model_suggested_category": "硬件与防爆",
+        "reason": "提出一种仿生果蝇多足机器人模型，实现详细的运动学与力学仿真",
+        "changed_at": "2026-11-28T09:19:05.298060+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
   },
   {
     "id": "51bf9a9e102bd52d60",
@@ -93492,14 +94377,13 @@
     "rule_category": "感知建图与导航",
     "rule_confidence": "high",
     "category": "感知建图与导航",
-    "classification_confidence": "高",
-    "classification_reason": "核心任务为环境感知、定位、建图或导航",
+    "classification_confidence": "模型复核（待抽查）",
+    "classification_reason": "提出基于迪杰斯特拉算法的移动机器人迷宫路径规划与避障导航方法。",
     "needs_review": false,
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
     "tags": [
-      "感知建图与导航",
-      "特种应用与产品"
+      "感知建图与导航"
     ],
     "industry_tags": [
       "消防与应急救援"
@@ -93507,7 +94391,31 @@
     "scope": "特种场景直接相关",
     "score": 82,
     "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：消防与应急救援。来源期刊/会议：Applied and Computational Engineering。 In recent years, the field of autonomous mobile robotics has garnered significant attent（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
+    "review_priority": "P4",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": true,
+    "model_reviewed_uncertain": false,
+    "model_suggested_category": "感知建图与导航",
+    "model_main_contribution": "基于迪杰斯特拉算法的自主移动机器人迷宫导航方法",
+    "model_contribution_conflict": "",
+    "model_classification_reason": "提出基于迪杰斯特拉算法的移动机器人迷宫路径规划与避障导航方法。",
+    "model_reviewed_at": "2026-11-28T09:19:05.298060+00:00",
+    "model_previous_confidence": "高",
+    "classification_history": [
+      {
+        "id": "40fe8fcba0c6cdefd8",
+        "title": "Research on autonomous mobile robot maze navigation problem based on Dijkstra’s algorithm",
+        "old_category": "感知建图与导航",
+        "new_category": "感知建图与导航",
+        "model_suggested_category": "感知建图与导航",
+        "reason": "提出基于迪杰斯特拉算法的移动机器人迷宫路径规划与避障导航方法。",
+        "changed_at": "2026-11-28T09:19:05.298060+00:00",
+        "needs_review": false,
+        "status": "model_applied"
+      }
+    ]
   },
   {
     "id": "0cc5b13d4ce7c77768",
@@ -93847,8 +94755,7 @@
     "scope": "可迁移的机器人关键技术",
     "score": 73,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Entropy。 The ability to learn continuously is crucial for a robot to achieve a high level of intelligence and autonomy. In this（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P4"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "4e4fd51bc29de409bb",
@@ -94148,17 +95055,10 @@
     "score": 65,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Actuators。 Energy consumption is one of the most critical factors in determining the kinematic performance of quadruped robots.（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P4",
-    "model_review_attempts": 1,
-    "manual_review_required": false,
     "model_applied": true,
-    "model_reviewed_uncertain": false,
     "model_suggested_category": "小脑与运动控制",
-    "model_main_contribution": "基于DDPG强化学习优化四足机器人能量与跖部轨迹",
-    "model_contribution_conflict": "",
     "model_classification_reason": "提出DDPG能耗优化与跖部轨迹控制新方法实现高效低能量行走控制",
     "model_reviewed_at": "2026-11-24T11:37:59.816308+00:00",
-    "model_previous_confidence": "高",
     "classification_history": [
       {
         "id": "493bb792dc16f95f18",
@@ -94171,7 +95071,11 @@
         "needs_review": false,
         "status": "model_applied"
       }
-    ]
+    ],
+    "model_previous_confidence": "高",
+    "model_review_attempts": 1,
+    "model_main_contribution": "基于DDPG强化学习优化四足机器人能量与跖部轨迹",
+    "model_contribution_conflict": ""
   },
   {
     "id": "e88a0f015c9ae9fe47",
@@ -95393,14 +96297,13 @@
     "rule_category": "感知建图与导航",
     "rule_confidence": "high",
     "category": "感知建图与导航",
-    "classification_confidence": "高",
-    "classification_reason": "主要研究机器人导航路径规划、巡检或跟踪算法",
-    "needs_review": false,
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "综述海上风电多机器人覆盖路径规划，未提出新算法",
+    "needs_review": true,
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
     "tags": [
-      "感知建图与导航",
-      "特种应用与产品"
+      "感知建图与导航"
     ],
     "industry_tags": [
       "防爆石化与危险环境"
@@ -95408,7 +96311,31 @@
     "scope": "特种场景直接相关",
     "score": 71,
     "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：防爆石化与危险环境。来源期刊/会议：Drones。Offshore wind turbine (OWT) inspection research is receiving increasing interest as the sector grows worldwide. Wind far（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
+    "review_priority": "P4",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "感知建图与导航",
+    "model_main_contribution": "海上风电多机器人覆盖路径规划综述",
+    "model_contribution_conflict": "",
+    "model_classification_reason": "综述海上风电多机器人覆盖路径规划，未提出新算法",
+    "model_reviewed_at": "2026-11-28T09:19:05.298060+00:00",
+    "model_previous_confidence": "高",
+    "classification_history": [
+      {
+        "id": "f0572cf3dfc3ca43d1",
+        "title": "Multi-Robot Coverage Path Planning for the Inspection of Offshore Wind Farms: A Review",
+        "old_category": "感知建图与导航",
+        "new_category": "感知建图与导航",
+        "model_suggested_category": "感知建图与导航",
+        "reason": "综述海上风电多机器人覆盖路径规划，未提出新算法",
+        "changed_at": "2026-11-28T09:19:05.298060+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
   },
   {
     "id": "92e28cb0513ad94da8",
@@ -97280,9 +98207,9 @@
     "first_seen": "2026-10-19T11:07:42.386760+00:00",
     "doi": "10.1109/icarce59252.2024.10492565",
     "category": "小脑与运动控制",
-    "classification_confidence": "高",
-    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
-    "needs_review": false,
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "标题明确以四足机器人自主运动控制策略为核心产出，感知仅作输入",
+    "needs_review": true,
     "tags": [
       "小脑与运动控制"
     ],
@@ -97298,7 +98225,30 @@
     "crosscheck_pending": false,
     "rule_contribution_type": "undetermined",
     "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
-    "review_priority": "P4"
+    "review_priority": "P4",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "小脑与运动控制",
+    "model_main_contribution": "基于视觉激光融合地形识别的四足机器人自主运动控制策略",
+    "model_contribution_conflict": "",
+    "model_classification_reason": "标题明确以四足机器人自主运动控制策略为核心产出，感知仅作输入",
+    "model_reviewed_at": "2026-11-28T09:19:05.298060+00:00",
+    "model_previous_confidence": "高",
+    "classification_history": [
+      {
+        "id": "c908fc5366ef53b70b",
+        "title": "Autonomous Locomotion Control Strategy for Quadruped Robot Based on Visual Lidar Fusion Terrain Recognition",
+        "old_category": "小脑与运动控制",
+        "new_category": "小脑与运动控制",
+        "model_suggested_category": "小脑与运动控制",
+        "reason": "标题明确以四足机器人自主运动控制策略为核心产出，感知仅作输入",
+        "changed_at": "2026-11-28T09:19:05.298060+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
   },
   {
     "id": "08e56c947e1ecaa361",
@@ -99022,9 +99972,7 @@
         "needs_review": true,
         "status": "model_pending_review"
       }
-    ],
-    "review_priority": "P3",
-    "model_previous_confidence": "模型建议（待复核）"
+    ]
   },
   {
     "id": "669bb97aa09f22e843",
@@ -99479,17 +100427,10 @@
     "score": 77,
     "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：野外与特种地形。来源期刊/会议：2023 IEEE International Symposium on Safety, Security, and Rescue Robotics (SSRR)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P3",
-    "model_review_attempts": 2,
-    "manual_review_required": false,
     "model_applied": true,
-    "model_reviewed_uncertain": false,
     "model_suggested_category": "感知建图与导航",
-    "model_main_contribution": "基于深度强化学习的救援机器人自主导航方法",
-    "model_contribution_conflict": "",
     "model_classification_reason": "提出基于深度强化学习的救援机器人自主导航粗糙地形",
     "model_reviewed_at": "2026-11-24T11:37:59.816308+00:00",
-    "model_previous_confidence": "模型建议（待复核）",
     "classification_history": [
       {
         "id": "497bdab6ed57c2abe1",
@@ -99513,7 +100454,11 @@
         "needs_review": false,
         "status": "model_applied"
       }
-    ]
+    ],
+    "model_previous_confidence": "模型建议（待复核）",
+    "model_review_attempts": 2,
+    "model_main_contribution": "基于深度强化学习的救援机器人自主导航方法",
+    "model_contribution_conflict": ""
   },
   {
     "id": "c483201f4d8d917096",
@@ -101646,17 +102591,10 @@
     "score": 77,
     "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：消防与应急救援。来源期刊/会议：2023 IEEE Smart World Congress (SWC)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P3",
-    "model_review_attempts": 2,
-    "manual_review_required": false,
     "model_applied": true,
-    "model_reviewed_uncertain": false,
     "model_suggested_category": "感知建图与导航",
-    "model_main_contribution": "基于卡尔曼滤波的户外导航定位方法",
-    "model_contribution_conflict": "",
     "model_classification_reason": "基于卡尔曼滤波的户外导航定位方法，实现机器人位置估计。",
     "model_reviewed_at": "2026-11-20T09:01:46.548549+00:00",
-    "model_previous_confidence": "模型建议（待复核）",
     "classification_history": [
       {
         "id": "7873c4b105511fcdc6",
@@ -101680,7 +102618,11 @@
         "needs_review": false,
         "status": "model_applied"
       }
-    ]
+    ],
+    "model_previous_confidence": "模型建议（待复核）",
+    "model_review_attempts": 2,
+    "model_main_contribution": "基于卡尔曼滤波的户外导航定位方法",
+    "model_contribution_conflict": ""
   },
   {
     "id": "6ff0f9f4cf2fe97dff",
@@ -102588,8 +103530,8 @@
     "first_seen": "2026-10-19T10:14:38.491311+00:00",
     "doi": "10.1109/icma57826.2023.10216171",
     "category": "感知建图与导航",
-    "classification_confidence": "高",
-    "classification_reason": "核心任务为环境感知、定位、建图或导航",
+    "classification_confidence": "模型复核（待抽查）",
+    "classification_reason": "基于红外深度相机的移动机器人同时定位与建图玻璃检测与局部地图构建算法",
     "needs_review": false,
     "tags": [
       "感知建图与导航"
@@ -102606,7 +103548,30 @@
     "crosscheck_pending": false,
     "rule_contribution_type": "感知建图与导航",
     "rule_contribution_evidence": "环境感知、定位或空间导航任务",
-    "review_priority": "P4"
+    "review_priority": "P4",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": true,
+    "model_reviewed_uncertain": false,
+    "model_suggested_category": "感知建图与导航",
+    "model_main_contribution": "基于RGB-D相机的移动机器人同时定位与建图玻璃检测方法",
+    "model_contribution_conflict": "",
+    "model_classification_reason": "基于红外深度相机的移动机器人同时定位与建图玻璃检测与局部地图构建算法",
+    "model_reviewed_at": "2026-11-28T09:19:05.298060+00:00",
+    "model_previous_confidence": "高",
+    "classification_history": [
+      {
+        "id": "65a063b33b8eb73e81",
+        "title": "Glass Detection in Simultaneous Localization and Mapping of Mobile Robot Based on RGB-D Camera",
+        "old_category": "感知建图与导航",
+        "new_category": "感知建图与导航",
+        "model_suggested_category": "感知建图与导航",
+        "reason": "基于红外深度相机的移动机器人同时定位与建图玻璃检测与局部地图构建算法",
+        "changed_at": "2026-11-28T09:19:05.298060+00:00",
+        "needs_review": false,
+        "status": "model_applied"
+      }
+    ]
   },
   {
     "id": "bd1b6ce1cfd57b4c4c",
@@ -105757,9 +106722,9 @@
     "score": 73,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Journal of Robotics and Control (JRC)。One of the technologies in the industrial world that utilizes robots is the delivery of g（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "classification_confidence": "高",
-    "classification_reason": "核心任务为环境感知、定位、建图或导航",
-    "needs_review": false,
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "集成里程计与迪杰斯特拉算法的仓库移动机器人导航系统",
+    "needs_review": true,
     "relevance_status": "可迁移的机器人关键技术",
     "rule_category": "感知建图与导航",
     "rule_confidence": "high",
@@ -105767,7 +106732,30 @@
     "crosscheck_pending": false,
     "rule_contribution_type": "感知建图与导航",
     "rule_contribution_evidence": "环境感知、定位或空间导航任务",
-    "review_priority": "P4"
+    "review_priority": "P4",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "感知建图与导航",
+    "model_main_contribution": "集成里程计与迪杰斯特拉算法的仓库移动机器人导航系统",
+    "model_contribution_conflict": "",
+    "model_classification_reason": "集成里程计与迪杰斯特拉算法的仓库移动机器人导航系统",
+    "model_reviewed_at": "2026-11-28T09:19:05.298060+00:00",
+    "model_previous_confidence": "高",
+    "classification_history": [
+      {
+        "id": "62e7a5a48408167d8c",
+        "title": "Application of Odometry and Dijkstra Algorithm as Navigation and Shortest Path Determination System of Warehouse Mobile Robot",
+        "old_category": "感知建图与导航",
+        "new_category": "感知建图与导航",
+        "model_suggested_category": "感知建图与导航",
+        "reason": "集成里程计与迪杰斯特拉算法的仓库移动机器人导航系统",
+        "changed_at": "2026-11-28T09:19:05.298060+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
   },
   {
     "id": "631b025eb31929b5cf",
@@ -107502,7 +108490,8 @@
     "scope": "可迁移的机器人关键技术",
     "score": 73,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Highlights in Science, Engineering and Technology。 Visually impaired people usually find it hard to travel independently in man（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
+    "review_priority": "P4"
   },
   {
     "id": "305d3bdff5fd39894b",
@@ -107770,12 +108759,11 @@
     "first_seen": "2026-10-20T02:13:55.797967+00:00",
     "doi": "10.1088/1742-6596/2476/1/012057",
     "category": "硬件与防爆",
-    "classification_confidence": "高",
-    "classification_reason": "论文核心为机械结构、电机、执行器或防爆硬件的设计",
-    "needs_review": false,
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "提出模块化四轮维护机器人机械结构方案并完成原型",
+    "needs_review": true,
     "tags": [
-      "硬件与防爆",
-      "特种应用与产品"
+      "硬件与防爆"
     ],
     "industry_tags": [
       "工业与能源巡检"
@@ -107791,7 +108779,30 @@
     "crosscheck_pending": false,
     "rule_contribution_type": "undetermined",
     "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
-    "review_priority": "P4"
+    "review_priority": "P4",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "硬件与防爆",
+    "model_main_contribution": "提出模块化四轮维护机器人机械结构方案并完成原型",
+    "model_contribution_conflict": "",
+    "model_classification_reason": "提出模块化四轮维护机器人机械结构方案并完成原型",
+    "model_reviewed_at": "2026-11-28T09:19:05.298060+00:00",
+    "model_previous_confidence": "高",
+    "classification_history": [
+      {
+        "id": "f28ed13e5cdb1a25d5",
+        "title": "Mechanical System Structure Design of Transmission Line Maintenance Robot",
+        "old_category": "硬件与防爆",
+        "new_category": "硬件与防爆",
+        "model_suggested_category": "硬件与防爆",
+        "reason": "提出模块化四轮维护机器人机械结构方案并完成原型",
+        "changed_at": "2026-11-28T09:19:05.298060+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
   },
   {
     "id": "54537c9e110f0e95a0",
@@ -108183,17 +109194,15 @@
     "score": 87,
     "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：消防与应急救援。来源期刊/会议：Fire。 Indoor fire accidents have become increasingly common in recent years. More and more firefighting robots have been design（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P4",
-    "model_review_attempts": 1,
-    "manual_review_required": false,
-    "model_applied": false,
     "model_reviewed_uncertain": true,
-    "model_suggested_category": "特种应用与产品",
+    "model_review_attempts": 1,
+    "model_reviewed_at": "2026-11-27T10:13:49.859093+00:00",
+    "manual_review_required": false,
     "model_main_contribution": "Integrated indoor firefighting robot with SLAM and flame recognition",
     "model_contribution_conflict": "研究贡献冲突：环境感知、定位或空间导航任务；任务证据更支持感知建图与导航",
+    "model_applied": false,
     "model_classification_reason": "研制集成SLAM与火焰识别的室内自主消防机器人",
-    "model_reviewed_at": "2026-11-27T10:13:49.859093+00:00",
-    "model_previous_confidence": "高",
+    "model_suggested_category": "特种应用与产品",
     "classification_history": [
       {
         "id": "04307346b69bbbc199",
@@ -108394,7 +109403,8 @@
     "scope": "可迁移的机器人关键技术",
     "score": 73,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。Over the last decade, navigation and Simultaneous Localization and Mapping (SLAM) have become key players in developing robust mobile r（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
+    "review_priority": "P4"
   },
   {
     "id": "4df8fd27a486b759f3",
@@ -112476,7 +113486,7 @@
     "url": "https://doi.org/10.48550/arxiv.2212.00683",
     "source": "OpenAlex",
     "type": "论文（摘要）",
-    "description": "来源期刊/会议：arXiv (Cornell University)。(Simplified Abstract) To accomplish breakthroughs in dynamic whole-body locomotion, legged robots have to be terrain aware. Terrain-Aware Locomotion (TAL) implies that the robot can perceive the terrain with its sensors, and can take decisions based on this information. This thesis presents TAL strategies both from a proprioceptive and an exteroceptive perspective. The strategies are implemented at the level of locomotion planning, control, and state estimation, and using optimization and learning techniques. The first part is on TAL strategies at the Whole-Body Control (WBC) level. We introduce a passive WBC (pWBC) framework that allows the robot to stabilize and walk over challenging terrain while taking into account the terrain geometry (inclination) and friction properties. The pWBC relies on rigid contact assumptions which makes it suitable only fo",
+    "description": "来源期刊/会议：arXiv。(Simplified Abstract) To accomplish breakthroughs in dynamic whole-body locomotion, legged robots have to be terrain aware. Terrain-Aware Locomotion (TAL) implies that the robot can perceive the terrain with its sensors, and can take decisions based on this information. This thesis presents TAL strategies both from a proprioceptive and an exteroceptive perspective. The strategies are implemented at the level of locomotion planning, control, and state estimation, and using optimization and learning techniques. The first part is on TAL strategies at the Whole-Body Control (WBC) level. We introduce a passive WBC (pWBC) framework that allows the robot to stabilize and walk over challenging terrain while taking into account the terrain geometry (inclination) and friction properties. The pWBC relies on rigid contact assumptions which makes it suitable only for stiff terrain. As a",
     "published": "2022-12-01",
     "first_seen": "2026-11-06T07:53:38.291752+00:00",
     "doi": "https://doi.org/10.48550/arxiv.2212.00683",
@@ -112497,9 +113507,8 @@
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 62,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv (Cornell University)。(Simplified Abstract) To accomplish breakthroughs in dynamic whole-body locomotion, legged robots ha（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P4"
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：arXiv。(Simplified Abstract) To accomplish breakthroughs in dynamic whole-body locomotion, legged robots have to be terrain awar（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "7fc8c7b203edb74a07",
@@ -112773,8 +113782,8 @@
     "first_seen": "2026-10-20T01:50:50.550724+00:00",
     "doi": "10.1109/cac57257.2022.10055420",
     "category": "感知建图与导航",
-    "classification_confidence": "高",
-    "classification_reason": "核心任务为环境感知、定位、建图或导航",
+    "classification_confidence": "模型复核（待抽查）",
+    "classification_reason": "提出基于一致性导航变换的复杂多边形路径规划方法",
     "needs_review": false,
     "tags": [
       "感知建图与导航"
@@ -112791,7 +113800,30 @@
     "crosscheck_pending": false,
     "rule_contribution_type": "undetermined",
     "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
-    "review_priority": "P4"
+    "review_priority": "P4",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": true,
+    "model_reviewed_uncertain": false,
+    "model_suggested_category": "感知建图与导航",
+    "model_main_contribution": "提出基于一致性导航变换的复杂多边形路径规划方法",
+    "model_contribution_conflict": "",
+    "model_classification_reason": "提出基于一致性导航变换的复杂多边形路径规划方法",
+    "model_reviewed_at": "2026-11-28T09:19:05.298060+00:00",
+    "model_previous_confidence": "高",
+    "classification_history": [
+      {
+        "id": "510e604982f766a69a",
+        "title": "Robot Navigation in Complex Polygonal Workspaces Using Conformal Navigation Transformations",
+        "old_category": "感知建图与导航",
+        "new_category": "感知建图与导航",
+        "model_suggested_category": "感知建图与导航",
+        "reason": "提出基于一致性导航变换的复杂多边形路径规划方法",
+        "changed_at": "2026-11-28T09:19:05.298060+00:00",
+        "needs_review": false,
+        "status": "model_applied"
+      }
+    ]
   },
   {
     "id": "f731ac20501a0543e4",
@@ -113281,12 +114313,12 @@
     "id": "73652790f4cab4874c",
     "title": "Metaheuristic Approach to Synthesis of Suspension System of Mobile Robot for Mining Infrastructure Inspection",
     "url": "https://doi.org/10.3390/s22228839",
-    "source": "Crossref",
+    "source": "OpenAlex",
     "type": "论文（摘要）",
-    "description": "来源期刊/会议：Sensors。 The article describes the problem of geometric synthesis of the inspection robot suspension system, designed for operation in difficult conditions with the presence of scattered obstacles. The exemplary application of a mine infrastructure inspection robot is developed and supported by the ideas. The brief introduction presents current trends, requirements and known design approaches of platforms enabled to cross the obstacles. The idea of a nature-inspired wheel-legged robot is given, and the general outline of its characteristics is provided. Then the general idea of kinematic system elements selection is discussed. The main subject of geometrical synthesis of the chosen four-bar mechanism is described in detail. The mathematical model of the suspension and connections between the parts of the structure is clarified. The well-known analytical approach of brute force se",
+    "description": "来源期刊/会议：Sensors。The article describes the problem of geometric synthesis of the inspection robot suspension system, designed for operation in difficult conditions with the presence of scattered obstacles. The exemplary application of a mine infrastructure inspection robot is developed and supported by the ideas. The brief introduction presents current trends, requirements and known design approaches of platforms enabled to cross the obstacles. The idea of a nature-inspired wheel-legged robot is given, and the general outline of its characteristics is provided. Then the general idea of kinematic system elements selection is discussed. The main subject of geometrical synthesis of the chosen four-bar mechanism is described in detail. The mathematical model of the suspension and connections between the parts of the structure is clarified. The well-known analytical approach of brute force sea",
     "published": "2022-11-15",
     "first_seen": "2026-10-15T02:18:28.932050+00:00",
-    "doi": "10.3390/s22228839",
+    "doi": "https://doi.org/10.3390/s22228839",
     "relevance_status": "直接相关",
     "rule_contribution_type": "undetermined",
     "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
@@ -113306,7 +114338,7 @@
     ],
     "scope": "特种场景直接相关",
     "score": 83,
-    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：Sensors。 The article describes the problem of geometric synthesis of the inspection robot suspension system, designed for opera（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：工业与能源巡检。来源期刊/会议：Sensors。The article describes the problem of geometric synthesis of the inspection robot suspension system, designed for operat（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
     "manual_category_override": true,
     "manual_override_reason": "研究矿山巡检机器人四杆悬架机构的几何综合与优化，主要贡献为机械设计。",
@@ -113906,7 +114938,7 @@
     "url": "https://doi.org/10.1186/s10033-022-00798-x",
     "source": "OpenAlex",
     "type": "论文（摘要）",
-    "description": "来源期刊/会议：Chinese Journal of Mechanical Engineering。Abstract Selecting the optimal speed for dynamic obstacle avoidance in complex man–machine environments is a challenging problem for mobile robots inspecting hazardous gases. Consideration of personal space is important, especially in a relatively narrow man–machine dynamic environments such as warehouses and laboratories. In this study, human and robot behaviors in man–machine environments are analyzed, and a man–machine social force model is established to study the robot obstacle avoidance speed. Four typical man–machine behavior patterns are investigated to design the robot behavior strategy. Based on the social force model and man–machine behavior patterns, the fuzzy-PID trajectory tracking control method and the autonomous obstacle avoidance behavior strategy of the mobile robot in inspecting hazardous gases in a relatively narrow m",
+    "description": "来源期刊/会议：Chinese Journal of Mechanical Engineering。Selecting the optimal speed for dynamic obstacle avoidance in complex man–machine environments is a challenging problem for mobile robots inspecting hazardous gases. Consideration of personal space is important, especially in a relatively narrow man–machine dynamic environments such as warehouses and laboratories. In this study, human and robot behaviors in man–machine environments are analyzed, and a man–machine social force model is established to study the robot obstacle avoidance speed. Four typical man–machine behavior patterns are investigated to design the robot behavior strategy. Based on the social force model and man–machine behavior patterns, the fuzzy-PID trajectory tracking control method and the autonomous obstacle avoidance behavior strategy of the mobile robot in inspecting hazardous gases in a relatively narrow man–machin",
     "published": "2022-11-04",
     "first_seen": "2026-10-15T02:18:28.932223+00:00",
     "doi": "https://doi.org/10.1186/s10033-022-00798-x",
@@ -113927,7 +114959,7 @@
     "industry_tags": [],
     "scope": "可迁移的机器人关键技术",
     "score": 64,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Chinese Journal of Mechanical Engineering。Abstract Selecting the optimal speed for dynamic obstacle avoidance in complex man–ma（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Chinese Journal of Mechanical Engineering。Selecting the optimal speed for dynamic obstacle avoidance in complex man–machine env（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
     "manual_category_override": true,
     "manual_override_reason": "摘要重点是动态人机环境下机器人社会力避障策略和导航速度规划。",
@@ -114150,6 +115182,63 @@
     ]
   },
   {
+    "id": "4523148b3cd35eb4c2",
+    "title": "A Mixed-Reality Tele-Operation Method for High-Level Control of a Legged-Manipulator Robot",
+    "url": "https://doi.org/10.3390/s22218146",
+    "source": "OpenAlex",
+    "type": "论文（摘要）",
+    "description": "来源期刊/会议：Sensors。In recent years, legged (quadruped) robots have been subject of technological study and continuous development. These robots have a leading role in applications that require high mobility skills in complex terrain, as is the case of Search and Rescue (SAR). These robots stand out for their ability to adapt to different terrains, overcome obstacles and move within unstructured environments. Most of the implementations recently developed are focused on data collecting with sensors, such as lidar or cameras. This work seeks to integrate a 6DoF arm manipulator to the quadruped robot ARTU-R (A1 Rescue Tasks UPM Robot) by Unitree to perform manipulation tasks in SAR environments. The main contribution of this work is focused on the High-level control of the robotic set (Legged + Manipulator) using Mixed-Reality (MR). An optimization phase of the robotic set workspace has been p",
+    "published": "2022-10-24",
+    "first_seen": "2026-11-28T08:53:49.633837+00:00",
+    "doi": "https://doi.org/10.3390/s22218146",
+    "relevance_status": "直接相关",
+    "rule_contribution_type": "undetermined",
+    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
+    "rule_category": "特种应用与产品",
+    "rule_confidence": "low",
+    "category": "小脑与运动控制",
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "提出混合现实高层控制与机械臂运动优化方法",
+    "needs_review": true,
+    "crosscheck_conflicts": [],
+    "crosscheck_pending": false,
+    "tags": [
+      "小脑与运动控制",
+      "特种应用与产品"
+    ],
+    "industry_tags": [
+      "消防与应急救援"
+    ],
+    "scope": "特种场景直接相关",
+    "score": 78,
+    "summary": "行业筛选：特种场景直接相关；方向：特种应用与产品；关联：消防与应急救援。来源期刊/会议：Sensors。In recent years, legged (quadruped) robots have been subject of technological study and continuous development. These r（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
+    "review_priority": "P0",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "小脑与运动控制",
+    "model_main_contribution": "混合现实高层控制与机械臂运动优化",
+    "model_contribution_conflict": "模型所述主要研究贡献无法由题名摘要核验",
+    "model_classification_reason": "提出混合现实高层控制与机械臂运动优化方法",
+    "model_reviewed_at": "2026-11-28T09:19:05.298060+00:00",
+    "model_previous_confidence": "待复核",
+    "classification_history": [
+      {
+        "id": "4523148b3cd35eb4c2",
+        "title": "A Mixed-Reality Tele-Operation Method for High-Level Control of a Legged-Manipulator Robot",
+        "old_category": "特种应用与产品",
+        "new_category": "小脑与运动控制",
+        "model_suggested_category": "小脑与运动控制",
+        "reason": "提出混合现实高层控制与机械臂运动优化方法",
+        "changed_at": "2026-11-28T09:19:05.298060+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
+  },
+  {
     "id": "a8357f04b0df7b156b",
     "title": "Whole-Body Control with Motion/Force Transmissibility for Parallel-Legged Robot",
     "url": "https://doi.org/10.1109/iros47612.2022.9981199",
@@ -114263,8 +115352,8 @@
     "rule_category": "感知建图与导航",
     "rule_confidence": "high",
     "category": "感知建图与导航",
-    "classification_confidence": "高",
-    "classification_reason": "核心任务为环境感知、定位、建图或导航",
+    "classification_confidence": "模型复核（待抽查）",
+    "classification_reason": "基于双向快速扩展树的导航算法，融合速度规划与自适应控制，解决非线性系统端点误差问题",
     "needs_review": false,
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
@@ -114275,7 +115364,31 @@
     "scope": "可迁移的机器人关键技术",
     "score": 65,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Actuators。 A navigation algorithm providing motion planning for two-wheeled mobile robots is proposed in this paper. The motion（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
+    "review_priority": "P4",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": true,
+    "model_reviewed_uncertain": false,
+    "model_suggested_category": "感知建图与导航",
+    "model_main_contribution": "双向快速扩展树导航算法融合自适应控制与速度轮廓修正",
+    "model_contribution_conflict": "",
+    "model_classification_reason": "基于双向快速扩展树的导航算法，融合速度规划与自适应控制，解决非线性系统端点误差问题",
+    "model_reviewed_at": "2026-11-28T09:19:05.298060+00:00",
+    "model_previous_confidence": "高",
+    "classification_history": [
+      {
+        "id": "56fb5dc76927a227d0",
+        "title": "An Enhanced Navigation Algorithm with an Adaptive Controller for Wheeled Mobile Robot Based on Bidirectional RRT",
+        "old_category": "感知建图与导航",
+        "new_category": "感知建图与导航",
+        "model_suggested_category": "感知建图与导航",
+        "reason": "基于双向快速扩展树的导航算法，融合速度规划与自适应控制，解决非线性系统端点误差问题",
+        "changed_at": "2026-11-28T09:19:05.298060+00:00",
+        "needs_review": false,
+        "status": "model_applied"
+      }
+    ]
   },
   {
     "id": "e32d119fb5db367579",
@@ -115792,8 +116905,7 @@
     "scope": "可迁移的机器人关键技术",
     "score": 72,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Frontiers in Robotics and AI。Quadruped robots are widely applied in real-world environments where they have to face the challen（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P4"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "79addfd29e4bae262a",
@@ -116620,8 +117732,7 @@
     "scope": "可迁移的机器人关键技术",
     "score": 68,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Machines。The paper discusses the state-of-the-art of locomotion systems for ground mobile robots comprising tracks. Tracked loc（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P4"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
   },
   {
     "id": "095a0e954671ca48c7",
@@ -124085,9 +125196,9 @@
     "first_seen": "2026-10-19T08:27:32.176350+00:00",
     "doi": "10.5220/0011134300003271",
     "category": "感知建图与导航",
-    "classification_confidence": "高",
-    "classification_reason": "主要研究机器人导航路径规划、巡检或跟踪算法",
-    "needs_review": false,
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "提出融合语义信息的自主机器人路径规划方法，属导航路径规划。",
+    "needs_review": true,
     "tags": [
       "感知建图与导航"
     ],
@@ -124103,7 +125214,30 @@
     "crosscheck_pending": false,
     "rule_contribution_type": "感知建图与导航",
     "rule_contribution_evidence": "环境感知、定位或空间导航任务",
-    "review_priority": "P4"
+    "review_priority": "P4",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "感知建图与导航",
+    "model_main_contribution": "语义信息自主机器人导航路径规划方法",
+    "model_contribution_conflict": "",
+    "model_classification_reason": "提出融合语义信息的自主机器人路径规划方法，属导航路径规划。",
+    "model_reviewed_at": "2026-11-28T09:19:05.298060+00:00",
+    "model_previous_confidence": "高",
+    "classification_history": [
+      {
+        "id": "4e3459af10d55d2eab",
+        "title": "Path Planning Incorporating Semantic Information for Autonomous Robot Navigation",
+        "old_category": "感知建图与导航",
+        "new_category": "感知建图与导航",
+        "model_suggested_category": "感知建图与导航",
+        "reason": "提出融合语义信息的自主机器人路径规划方法，属导航路径规划。",
+        "changed_at": "2026-11-28T09:19:05.298060+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
   },
   {
     "id": "315669c9428caffa8a",
@@ -127500,9 +128634,9 @@
     "rule_category": "小脑与运动控制",
     "rule_confidence": "high",
     "category": "小脑与运动控制",
-    "classification_confidence": "高",
-    "classification_reason": "核心任务为运动、步态、控制或机器人操作",
-    "needs_review": false,
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "利用数字重建分析猎猫高速步态及关节动力机制",
+    "needs_review": true,
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
     "tags": [
@@ -127512,7 +128646,31 @@
     "scope": "可迁移的机器人关键技术",
     "score": 61,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Biomimetic Intelligence and Robotics。As the fastest land animal, cheetah has important reference significance for the research （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
+    "review_priority": "P4",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "小脑与运动控制",
+    "model_main_contribution": "利用数字重建分析猎猫高速步态及关节动力机制",
+    "model_contribution_conflict": "模型所述主要研究贡献无法由题名摘要核验",
+    "model_classification_reason": "利用数字重建分析猎猫高速步态及关节动力机制",
+    "model_reviewed_at": "2026-11-28T09:19:05.298060+00:00",
+    "model_previous_confidence": "高",
+    "classification_history": [
+      {
+        "id": "66de98be36d5cc9b8f",
+        "title": "Mechanism analysis of cheetah’s high-speed locomotion based on digital reconstruction",
+        "old_category": "小脑与运动控制",
+        "new_category": "小脑与运动控制",
+        "model_suggested_category": "小脑与运动控制",
+        "reason": "利用数字重建分析猎猫高速步态及关节动力机制",
+        "changed_at": "2026-11-28T09:19:05.298060+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
   },
   {
     "id": "c0b8625b09884f6d51",
@@ -128625,14 +129783,13 @@
     "rule_category": "感知建图与导航",
     "rule_confidence": "high",
     "category": "感知建图与导航",
-    "classification_confidence": "高",
-    "classification_reason": "核心任务为环境感知、定位、建图或导航",
-    "needs_review": false,
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "单目相机同时定位与建图在活塞管道的可行性评估",
+    "needs_review": true,
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
     "tags": [
-      "感知建图与导航",
-      "特种应用与产品"
+      "感知建图与导航"
     ],
     "industry_tags": [
       "野外与特种地形"
@@ -128641,7 +129798,30 @@
     "score": 77,
     "summary": "行业筛选：特种场景直接相关；方向：感知建图与导航；关联：野外与特种地形。来源期刊/会议：2021 20th International Conference on Advanced Robotics (ICAR)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P4"
+    "review_priority": "P4",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "感知建图与导航",
+    "model_main_contribution": "单目相机视觉SLAM在活塞管道的可行性评估",
+    "model_contribution_conflict": "模型所述主要研究贡献无法由题名摘要核验",
+    "model_classification_reason": "单目相机同时定位与建图在活塞管道的可行性评估",
+    "model_reviewed_at": "2026-11-28T09:19:05.298060+00:00",
+    "model_previous_confidence": "高",
+    "classification_history": [
+      {
+        "id": "10d91f884abf5eaf28",
+        "title": "Assessing the feasibility of monocular visual simultaneous localization and mapping for live sewer pipes: a field robotics study",
+        "old_category": "感知建图与导航",
+        "new_category": "感知建图与导航",
+        "model_suggested_category": "感知建图与导航",
+        "reason": "单目相机同时定位与建图在活塞管道的可行性评估",
+        "changed_at": "2026-11-28T09:19:05.298060+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
   },
   {
     "id": "612a1319244d43456e",
@@ -128994,17 +130174,15 @@
     "score": 72,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：小脑与运动控制；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：2021 International Conference on Networking, Communications and Information Technology (NetCIT)。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
     "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "review_priority": "P4",
-    "model_review_attempts": 1,
-    "manual_review_required": false,
-    "model_applied": false,
     "model_reviewed_uncertain": true,
-    "model_suggested_category": "小脑与运动控制",
+    "model_review_attempts": 1,
+    "model_reviewed_at": "2026-11-27T10:13:49.859093+00:00",
+    "manual_review_required": false,
     "model_main_contribution": "Free gait planning algorithm for quadruped robot using machine vision",
     "model_contribution_conflict": "",
+    "model_applied": false,
     "model_classification_reason": "标题明确提出基于机器视觉的四足自由步态规划算法",
-    "model_reviewed_at": "2026-11-27T10:13:49.859093+00:00",
-    "model_previous_confidence": "高",
+    "model_suggested_category": "小脑与运动控制",
     "classification_history": [
       {
         "id": "ad9c062d492820dce7",
@@ -129309,9 +130487,9 @@
     "rule_category": "感知建图与导航",
     "rule_confidence": "high",
     "category": "感知建图与导航",
-    "classification_confidence": "高",
-    "classification_reason": "核心任务为环境感知、定位、建图或导航",
-    "needs_review": false,
+    "classification_confidence": "模型建议（待复核）",
+    "classification_reason": "提出延迟补偿状态估计方法用于远程机器人导航",
+    "needs_review": true,
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
     "tags": [
@@ -129321,7 +130499,31 @@
     "scope": "可迁移的机器人关键技术",
     "score": 61,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Robotics and Autonomous Systems。（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
+    "review_priority": "P4",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": false,
+    "model_reviewed_uncertain": true,
+    "model_suggested_category": "感知建图与导航",
+    "model_main_contribution": "延迟补偿状态估计方法",
+    "model_contribution_conflict": "模型所述主要研究贡献无法由题名摘要核验",
+    "model_classification_reason": "提出延迟补偿状态估计方法用于远程机器人导航",
+    "model_reviewed_at": "2026-11-28T09:19:05.298060+00:00",
+    "model_previous_confidence": "高",
+    "classification_history": [
+      {
+        "id": "738ef53539573613ae",
+        "title": "Delay compensated state estimation for Telepresence robot navigation",
+        "old_category": "感知建图与导航",
+        "new_category": "感知建图与导航",
+        "model_suggested_category": "感知建图与导航",
+        "reason": "提出延迟补偿状态估计方法用于远程机器人导航",
+        "changed_at": "2026-11-28T09:19:05.298060+00:00",
+        "needs_review": true,
+        "status": "model_pending_review"
+      }
+    ]
   },
   {
     "id": "4e35921b57c28b6619",
@@ -129561,8 +130763,8 @@
     "rule_category": "感知建图与导航",
     "rule_confidence": "high",
     "category": "感知建图与导航",
-    "classification_confidence": "高",
-    "classification_reason": "主要任务是环境感知/地形估计而非 Agent 决策",
+    "classification_confidence": "模型复核（待抽查）",
+    "classification_reason": "提出Flydar单激光旋转扫描SLAM，含四元数滤波与双加速度计",
     "needs_review": false,
     "crosscheck_conflicts": [],
     "crosscheck_pending": false,
@@ -129573,7 +130775,31 @@
     "scope": "可迁移的机器人关键技术",
     "score": 63,
     "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：IEEE Sensors Journal。This paper presents the Flying Lidar (Flydar) aerial robot for simultaneous localization and mapping (SLAM（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）"
+    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
+    "review_priority": "P4",
+    "model_review_attempts": 1,
+    "manual_review_required": false,
+    "model_applied": true,
+    "model_reviewed_uncertain": false,
+    "model_suggested_category": "感知建图与导航",
+    "model_main_contribution": "Flydar单激光旋转扫描SLAM方法",
+    "model_contribution_conflict": "",
+    "model_classification_reason": "提出Flydar单激光旋转扫描SLAM，含四元数滤波与双加速度计",
+    "model_reviewed_at": "2026-11-28T09:19:05.298060+00:00",
+    "model_previous_confidence": "高",
+    "classification_history": [
+      {
+        "id": "d8594a7dc2e2605aa9",
+        "title": "Flydar: A Passive Scanning Flying Lidar Sensing System for SLAM Using a Single Laser",
+        "old_category": "感知建图与导航",
+        "new_category": "感知建图与导航",
+        "model_suggested_category": "感知建图与导航",
+        "reason": "提出Flydar单激光旋转扫描SLAM，含四元数滤波与双加速度计",
+        "changed_at": "2026-11-28T09:19:05.298060+00:00",
+        "needs_review": false,
+        "status": "model_applied"
+      }
+    ]
   },
   {
     "id": "465d74b1bd750d3e16",
@@ -129754,119 +130980,5 @@
     "model_review_attempts": 2,
     "model_main_contribution": "煤矿安全监控机器人开发",
     "model_contribution_conflict": ""
-  },
-  {
-    "id": "7f08901fa8fd1696d8",
-    "title": "Multispectral Visual Odometry Using SVSF for Mobile Robot Localization",
-    "url": "https://doi.org/10.1142/s2301385022500157",
-    "source": "Crossref",
-    "type": "论文（摘要）",
-    "description": "来源期刊/会议：Unmanned Systems。 In this paper, we propose a novel method for mobile robot localization and navigation based on multispectral visual odometry (MVO). The proposed approach consists in combining visible and infrared images to localize the mobile robot under different conditions (day, night, indoor and outdoor). The depth image acquired by the Kinect sensor is very sensitive for IR luminosity, which makes it not very useful for outdoor localization. So, we propose an efficient solution for the aforementioned Kinect limitation based on three navigation modes: indoor localization based on RGB/depth images, night localization based on depth/IR images and outdoor localization using multispectral stereovision RGB/IR. For automatic selection of the appropriate navigation modes, we proposed a fuzzy logic controller based on images’ energies. To overcome the limitation of the multimodal vi",
-    "published": "2021-11-27",
-    "first_seen": "2026-10-19T10:00:52.414081+00:00",
-    "doi": "10.1142/s2301385022500157",
-    "relevance_status": "可迁移的机器人关键技术",
-    "rule_contribution_type": "感知建图与导航",
-    "rule_contribution_evidence": "环境感知、定位或空间导航任务",
-    "rule_category": "感知建图与导航",
-    "rule_confidence": "high",
-    "category": "感知建图与导航",
-    "classification_confidence": "模型复核（待抽查）",
-    "classification_reason": "提出多光谱视觉里程计算法 SVSF，实现不同条件下的自动导航模式切换，提升定位准确性。",
-    "needs_review": false,
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "tags": [
-      "感知建图与导航"
-    ],
-    "industry_tags": [],
-    "scope": "可迁移的机器人关键技术",
-    "score": 65,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Unmanned Systems。 In this paper, we propose a novel method for mobile robot localization and navigation based on multispectral （仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "model_applied": true,
-    "model_suggested_category": "感知建图与导航",
-    "model_classification_reason": "提出多光谱视觉里程计算法 SVSF，实现不同条件下的自动导航模式切换，提升定位准确性。",
-    "model_reviewed_at": "2026-11-19T09:15:55.384288+00:00",
-    "classification_history": [
-      {
-        "id": "7f08901fa8fd1696d8",
-        "title": "Multispectral Visual Odometry Using SVSF for Mobile Robot Localization",
-        "old_category": "感知建图与导航",
-        "new_category": "感知建图与导航",
-        "model_suggested_category": "感知建图与导航",
-        "reason": "提出多光谱视觉里程计算法 SVSF，实现不同条件下的自动导航模式切换，提升定位准确性。",
-        "changed_at": "2026-11-19T09:15:55.384288+00:00",
-        "needs_review": false,
-        "status": "model_applied"
-      }
-    ],
-    "model_previous_confidence": "高",
-    "model_review_attempts": 1,
-    "model_main_contribution": "提出多光谱视觉里程计算法 SVSF",
-    "model_contribution_conflict": ""
-  },
-  {
-    "id": "9d841a96c7639ca579",
-    "title": "Rock Segmentation in the Navigation Vision of the Planetary Rovers",
-    "url": "https://doi.org/10.3390/math9233048",
-    "source": "Crossref",
-    "type": "论文（摘要）",
-    "description": "来源期刊/会议：Mathematics。 Visual navigation is an essential part of planetary rover autonomy. Rock segmentation emerged as an important interdisciplinary topic among image processing, robotics, and mathematical modeling. Rock segmentation is a challenging topic for rover autonomy because of the high computational consumption, real-time requirement, and annotation difficulty. This research proposes a rock segmentation framework and a rock segmentation network (NI-U-Net++) to aid with the visual navigation of rovers. The framework consists of two stages: the pre-training process and the transfer-training process. The pre-training process applies the synthetic algorithm to generate the synthetic images; then, it uses the generated images to pre-train NI-U-Net++. The synthetic algorithm increases the size of the image dataset and provides pixel-level masks—both of which are challenges with machin",
-    "published": "2021-11-27",
-    "first_seen": "2026-10-19T09:25:12.835843+00:00",
-    "doi": "10.3390/math9233048",
-    "relevance_status": "可迁移的机器人关键技术",
-    "rule_contribution_type": "undetermined",
-    "rule_contribution_evidence": "研究贡献缺少足够明确的独立校验证据",
-    "rule_category": "感知建图与导航",
-    "rule_confidence": "high",
-    "category": "感知建图与导航",
-    "classification_confidence": "模型建议（待复核）",
-    "classification_reason": "基于合成图像迁移的行星车岩石分割网络框架",
-    "needs_review": true,
-    "crosscheck_conflicts": [],
-    "crosscheck_pending": false,
-    "tags": [
-      "感知建图与导航"
-    ],
-    "industry_tags": [],
-    "scope": "可迁移的机器人关键技术",
-    "score": 61,
-    "summary": "行业筛选：可迁移的机器人关键技术；方向：感知建图与导航；关联：特种机器人共性技术（需核验应用适配性）。来源期刊/会议：Mathematics。 Visual navigation is an essential part of planetary rover autonomy. Rock segmentation emerged as an important inte（仅按标题/摘要/仓库简介筛选，未验证实际部署。）",
-    "analysis_level": "主要研究贡献分类（元数据规则；待复核需人工检查）",
-    "model_reviewed_uncertain": true,
-    "model_review_attempts": 2,
-    "model_reviewed_at": "2026-11-10T09:27:55.939312+00:00",
-    "manual_review_required": true,
-    "model_main_contribution": "基于合成图像迁移的行星车岩石分割网络",
-    "model_contribution_conflict": "模型所述主要研究贡献无法由题名摘要核验",
-    "model_applied": false,
-    "model_classification_reason": "基于合成图像迁移的行星车岩石分割网络框架",
-    "model_suggested_category": "感知建图与导航",
-    "classification_history": [
-      {
-        "id": "9d841a96c7639ca579",
-        "title": "Rock Segmentation in the Navigation Vision of the Planetary Rovers",
-        "old_category": "感知建图与导航",
-        "new_category": "感知建图与导航",
-        "model_suggested_category": "感知建图与导航",
-        "reason": "提出岩石分割网络与框架以辅助行星车视觉导航，核心贡献在于视觉感知与检测技术。",
-        "changed_at": "2026-11-05T08:42:15.324795+00:00",
-        "needs_review": true,
-        "status": "model_pending_review"
-      },
-      {
-        "id": "9d841a96c7639ca579",
-        "title": "Rock Segmentation in the Navigation Vision of the Planetary Rovers",
-        "old_category": "感知建图与导航",
-        "new_category": "感知建图与导航",
-        "model_suggested_category": "感知建图与导航",
-        "reason": "基于合成图像迁移的行星车岩石分割网络框架",
-        "changed_at": "2026-11-10T09:27:55.939312+00:00",
-        "needs_review": true,
-        "status": "model_pending_review"
-      }
-    ]
   }
 ]

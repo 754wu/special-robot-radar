@@ -2,15 +2,16 @@
 
 模型最多审核两次，首次复核后第4至第7天安排二次复核；若API额度或故障未能及时执行则持续优先重试。两次后仍不明确的资源列于此处。
 
-- 资源数量：762
+- 资源数量：763
 
-- rajagopal95/bumpy_ws | 基础软件与系统 | https://github.com/rajagopal95/bumpy_ws
 - darshmenon/quadruped-robotics-stack | 基础软件与系统 | https://github.com/darshmenon/quadruped-robotics-stack
+- rajagopal95/bumpy_ws | 基础软件与系统 | https://github.com/rajagopal95/bumpy_ws
 - rokbenko/quackd | 基础软件与系统 | https://github.com/rokbenko/quackd
 - Mobile ROS: an open-source ROS 2 app for your phone | 基础软件与系统 | https://discourse.openrobotics.org/t/mobile-ros-an-open-source-ros-2-app-for-your-phone/60045
 - PILOT: Guiding Long-Horizon World-Model Planning for Robot Manipulation with Imagined Subgoals and Policy Priors | 大脑与具身智能 | https://arxiv.org/abs/2610.14335
 - Spatially Conditioned Trajectory Diffusion | 感知建图与导航 | https://arxiv.org/abs/2611.26127
 - ohho-robotics/ohho-os | 基础软件与系统 | https://github.com/ohho-robotics/ohho-os
+- RoboDx: Repair and Diagnosis of Faults in Robot Software | 基础软件与系统 | https://arxiv.org/abs/2611.23816
 - Effects of Locomotion and Viewpoint Control on Immersive Robot Telepresence for Navigation and Inspection | 感知建图与导航 | https://arxiv.org/abs/2611.23939
 - HINT-WAM: Hindsight-Informed Training for World Action Models | 大脑与具身智能 | https://arxiv.org/abs/2611.24789
 - A survey of natural language interaction and environmental perception in intelligent robotics | 大脑与具身智能 | https://doi.org/10.1007/s42452-026-09890-6
@@ -73,6 +74,7 @@
 - GaP: A Graph-as-Policy Multi-Agent Self-Learning Harness For Variational Automation Tasks | 大脑与具身智能 | https://arxiv.org/abs/2607.05369
 - Test-Time Improvement of VLA Policies via Selected Diffusion Noise for Spurious-Robust Action Smoothing | 小脑与运动控制 | https://arxiv.org/abs/2606.14084
 - Toward Safer Underground Mines: A Review of Intelligent Inspection Technologies | 特种应用与产品 | https://doi.org/10.3390/safety12060146
+- Odyssey: An automotive lidar-inertial odometry dataset with GNSS-denied situations | 基础软件与系统 | https://doi.org/10.1177/02783649261495584
 - Main Workflow Node | 基础软件与系统 | https://discourse.openrobotics.org/t/main-workflow-node/59552
 - durgvijay-builder/Trishul-UGV-Vision-Based-Autonomous-Navigation-System | 感知建图与导航 | https://github.com/durgvijay-builder/Trishul-UGV-Vision-Based-Autonomous-Navigation-System
 - Looking for a no-code app builder that can tie into a small robot project | 感知建图与导航 | https://discourse.openrobotics.org/t/looking-for-a-no-code-app-builder-that-can-tie-into-a-small-robot-project/59515
@@ -765,4 +767,3 @@
 - Morphological Development in Robotic Learning: A Survey | 大脑与具身智能 | https://doi.org/10.1109/tcds.2021.3052548
 - Efficient and Safe Robotic Autonomous Environment Exploration Using Integrated Frontier Detection and Multiple Path Evaluation | 感知建图与导航 | https://doi.org/10.3390/rs13234881
 - Robust laser positioning in a mobile robot machine vision system | 感知建图与导航 | https://doi.org/10.30977/veit.2021.20.0.03
-- Rock Segmentation in the Navigation Vision of the Planetary Rovers | 感知建图与导航 | https://doi.org/10.3390/math9233048
